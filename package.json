@@ -1,23 +1,28 @@
 {
-  "name": "atassa-md",
+  "name": "ultra-guru-md",
   "version": "5.0.0",
-  "description": "Atassa-Md, a Multi Device Whatsapp Bot built by Gifted Tech to Enhance Whatsapp Communication Experience",
+  "description": "ULTRA GURU - A Powerful Multi-Device WhatsApp Bot by GuruTech",
   "main": "./index.js",
   "type": "commonjs",
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
+  },
   "scripts": {
-    "dev": "node index.js",
-    "start": "pm2 start index.js --deep-monitoring --attach --name atassamd",
-    "stop": "pm2 stop atassamd",
-    "restart": "pm2 restart atassamd && pm2 logs",
+    "dev": "node --max-old-space-size=256 index.js",
+    "start": "pm2 start ecosystem.config.js --deep-monitoring --attach",
+    "stop": "pm2 stop ultra-guru",
+    "restart": "pm2 restart ultra-guru && pm2 logs",
     "stash": "git stash && git stash drop"
   },
   "keywords": [
-    "mauricegift",
-    "aatassa-md",
+    "ultra-guru",
     "whatsapp-bot",
-    "giftedtech"
+    "guru-tech",
+    "guruh",
+    "whatsapp-md-bot"
   ],
-  "author": "GiftedTech",
+  "author": "GuruTech",
   "license": "MIT",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "*",
@@ -61,10 +66,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mauricegift/atassa.git"
+    "url": "git+https://github.com/GuruhTech/ULTRA-GURU.git"
   },
   "bugs": {
-    "url": "https://github.com/mauricegift/atassa/issues"
+    "url": "https://github.com/GuruhTech/ULTRA-GURU/issues"
   },
-  "homepage": "https://github.com/mauricegift/atassa#readme"
+  "homepage": "https://github.com/GuruhTech/ULTRA-GURU#readme"
 }
