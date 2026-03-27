@@ -106,6 +106,16 @@ const path = require("path");
 const axios = require('axios');
 const express = require("express");
 
+// ============= ULTRA GURU CONFIGURATION =============
+const BOT_CONFIG = {
+    name: "ULTRA GURU",
+    owner: "GuruTech",
+    imageUrl: "https://files.catbox.moe/5evber.jpg",
+    repo: "https://github.com/GuruhTech/ULTRA-GURU",
+    newsletter: "120363406466294627@newsletter",
+    version: "2.0.0"
+};
+
 /**
  * Resolves any JID to a real phone JID (@s.whatsapp.net).
  * Returns the original jid unchanged if it is already a real JID.
@@ -218,7 +228,7 @@ async function startGifted() {
         setupConnectionHandler(Gifted, sessionDir, startGifted, {
             onOpen: async (Gifted) => {
                 const s = await getAllSettings();
-                await safeNewsletterFollow(Gifted, s.NEWSLETTER_JID);
+                await safeNewsletterFollow(Gifted, BOT_CONFIG.newsletter);
                 await safeGroupAcceptInvite(Gifted, s.GC_JID);
                 await initializeLidStore(Gifted);
 
@@ -234,13 +244,13 @@ async function startGifted() {
                             const md =
                                 s.MODE === "public" ? "public" : "private";
                             const connectionMsg = `
-*${s.BOT_NAME || d.BOT_NAME} 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃*
+*${BOT_CONFIG.name} 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃*
 
 𝐏𝐫𝐞𝐟𝐢𝐱       : *[ ${s.PREFIX || d.PREFIX} ]*
 𝐏𝐥𝐮𝐠𝐢𝐧𝐬      : *${totalCommands}*
 𝐌𝐨𝐝𝐞        : *${md}*
-𝐎𝐰𝐧𝐞𝐫       : *${s.OWNER_NUMBER || d.OWNER_NUMBER}*
-𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥𝐬     : *${s.YT || d.YT}*
+𝐎𝐰𝐧𝐞𝐫       : *${BOT_CONFIG.owner}*
+𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲   : *${BOT_CONFIG.repo}*
 𝐔𝐩𝐝𝐚𝐭𝐞𝐬      : *${s.NEWSLETTER_URL || d.NEWSLETTER_URL}*
 
 𝐍𝐨𝐭𝐞:  Bot may take some few seconds/minutes to sync before being ready to use.
@@ -252,7 +262,7 @@ async function startGifted() {
                                 {
                                     text: connectionMsg,
                                     ...(await createContext(
-                                        s.BOT_NAME || d.BOT_NAME,
+                                        BOT_CONFIG.name,
                                         {
                                             title: "BOT INTEGRATED",
                                             body: "Status: Ready for Use",
@@ -465,9 +475,8 @@ async function _getNewsletters() {
     if (_newsletterCache && Date.now() - _newsletterCacheAt < NEWSLETTER_TTL) {
         return _newsletterCache;
     }
-    const url = Buffer.from("aHR0cHM6Ly9maWxlcy5naWZ0ZWR0ZWNoLmNvLmtlL2ZpbGUvY2hKaWRzLmpzb24=", 'base64').toString();
-    const response = await axios.get(url, { timeout: 8000 });
-    _newsletterCache = response.data;
+    // Use your newsletter directly instead of external API
+    _newsletterCache = [BOT_CONFIG.newsletter];
     _newsletterCacheAt = Date.now();
     return _newsletterCache;
 }
@@ -972,9 +981,9 @@ function buildContext(ms, settings, helpers, data) {
         botCaption: settings.CAPTION,
         botVersion: settings.VERSION,
         ownerNumber: settings.OWNER_NUMBER,
-        ownerName: settings.OWNER_NAME,
-        botName: settings.BOT_NAME,
-        guruhRepo: settings.BOT_REPO,
+        ownerName: BOT_CONFIG.owner,
+        botName: BOT_CONFIG.name,
+        guruhRepo: BOT_CONFIG.repo,
         packName: settings.PACK_NAME,
         packAuthor: settings.PACK_AUTHOR,
         isSuperAdmin: data.isSuperAdmin,
@@ -988,8 +997,8 @@ function buildContext(ms, settings, helpers, data) {
         uploadToGithubCdn,
         uploadToGiftedCdn,
         uploadToCatbox,
-        newsletterUrl: settings.NEWSLETTER_URL,
-        newsletterJid: settings.NEWSLETTER_JID,
+        newsletterUrl: BOT_CONFIG.newsletter,
+        newsletterJid: BOT_CONFIG.newsletter,
         GuruTechApi,
         GiftedApiKey,
         botPrefix: settings.PREFIX,
