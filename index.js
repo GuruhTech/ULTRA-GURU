@@ -10,7 +10,7 @@ const {
     downloadContentFromMessage,
     getContentType,
     fetchLatestWaWebVersion,
-} = require("guruh-baileys");
+} = require("gifted-baileys");
 
 const {
     evt,
