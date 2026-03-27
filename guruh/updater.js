@@ -55,7 +55,7 @@ gmd(
                 `🔄 Updating Bot...\n\n*Commit Details:*\n👤 Author: ${authorName} (${authorEmail})\n📅 Date: ${commitDate}\n💬 Message: ${commitMessage}`,
             );
 
-            const zipPath = path.join(__dirname, "..", "atassa-md-main.zip"); // Replace this  with your bot name and branch if you're cloning
+            const zipPath = path.join(__dirname, "..", "ULTRA-GURU-main.zip");
             const { data: zipData } = await axios.get(
                 `https://github.com/${giftedRepo}/archive/main.zip`,
                 { responseType: "arraybuffer" },
@@ -66,7 +66,7 @@ gmd(
             const zip = new AdmZip(zipPath);
             zip.extractAllTo(extractPath, true);
 
-            const sourcePath = path.join(extractPath, "atassa-main"); // Replace this  with your bot name and branch if you're cloning
+            const sourcePath = path.join(extractPath, "ULTRA-GURU-main");
             const destinationPath = path.join(__dirname, "..");
 
             const excludeList = [
