@@ -482,9 +482,8 @@ function setupNewsletterReact(Guru) {
             if (err?.code === 'ECONNRESET' || err?.code === 'ECONNREFUSED' || err?.code === 'ETIMEDOUT') {
                 _newsletterCache = null;
             }
-        }
+      }
     });
-}
 
 function setupPresence(Guru) {
     Guru.ev.on("messages.upsert", async ({ messages }) => {
