@@ -18,7 +18,7 @@ require("events").EventEmitter.defaultMaxListeners = 960;
 require("./guru/gmdHelpers");
 
 const {
-    default: guruhConnect,
+    default: guruConnect,
     isJidGroup,
     jidNormalizedUser,
     isJidBroadcast,
@@ -36,14 +36,14 @@ const {
     setSudo,
     delSudo,
     GuruTechApi,
-    GiftedApiKey,
-    GiftedAutoReact,
-    GiftedAntiLink,
-    GiftedAntibad,
-    GiftedAntiGroupMention,
-    GiftedAutoBio,
+    GuruApiKey,
+    GuruAutoReact,
+    GuruAntiLink,
+    GuruAntibad,
+    GuruAntiGroupMention,
+    GuruAutoBio,
     handleGameMessage,
-    GiftedChatBot,
+    GuruChatBot,
     loadSession,
     useSQLiteAuthState,
     getMediaBuffer,
@@ -60,15 +60,15 @@ const {
     formatVideo,
     toAudio,
     uploadToGithubCdn,
-    uploadToGiftedCdn,
+    uploadToGuruCdn,
     uploadToCatbox,
-    GiftedAnticall,
+    GuruAnticall,
     createContext,
     createContext2,
     verifyJidState,
-    GiftedPresence,
-    GiftedAntiDelete,
-    GiftedAntiEdit,
+    GuruPresence,
+    GuruAntiDelete,
+    GuruAntiEdit,
     syncDatabase,
     initializeSettings,
     initializeGroupSettings,
@@ -116,37 +116,29 @@ const BOT_CONFIG = {
     version: "2.0.0"
 };
 
-/**
- * Resolves any JID to a real phone JID (@s.whatsapp.net).
- * Returns the original jid unchanged if it is already a real JID.
- * Returns null only when jid itself is null/undefined.
- * When a LID cannot be resolved it returns the original LID as a best-effort
- * fallback so the operation still fires rather than being silently skipped.
- */
-async function resolveRealJid(Gifted, jid) {
-    if (!jid) return null;
-    if (!jid.endsWith('@lid')) return jid;   // already real
-    try {
-        const { getLidMapping } = require('./guru/connection/groupCache');
-        const cached = getLidMapping(jid);
-        if (cached) return cached;
-    } catch (_) {}
-    try {
-        const resolved = await Gifted.getJidFromLid(jid);
-        if (resolved && !resolved.endsWith('@lid')) return resolved;
-    } catch (_) {}
-    try {
-        const { getLidMappingFromDb } = require('./guru/database/lidMapping');
-        const fromDb = await getLidMappingFromDb(jid);
-        if (fromDb) return fromDb;
-    } catch (_) {}
-    return jid;   // best effort — return original LID so the operation still fires
-}
+// ============= MINIMAL LOGS =============
+const log = {
+    info: (msg) => console.log(`[INFO] ${msg}`),
+    ok: (msg) => console.log(`[✓] ${msg}`),
+    err: (msg) => console.log(`[✗] ${msg}`)
+};
 
+// ============= MINIMAL CONNECTION MESSAGE =============
+const getConnectionMsg = (botName, prefix, mode) => {
+    return `
+┌─────────────────┐
+│ ${botName} ✓    │
+│ Prefix : ${prefix} │
+│ Mode   : ${mode} │
+└─────────────────┘
+`;
+};
+
+// ============= SERVER SETUP =============
 const { SESSION_ID: sessionId } = config;
 const PORT = process.env.PORT || 5000;
 const app = express();
-let Gifted;
+let Guru;
 let store;
 
 logger.level = "silent";
@@ -155,7 +147,7 @@ app.get("/", (req, res) => res.sendFile(__dirname + "/guru/guruh.html"));
 app.get("/health", (req, res) =>
     res.status(200).json({ status: "alive", uptime: process.uptime() }),
 );
-app.listen(PORT, () => console.log(`✅ Server Running on Port: ${PORT}`));
+app.listen(PORT, () => log.ok(`Server on port ${PORT}`));
 
 setInterval(() => {
     const used = process.memoryUsage();
@@ -185,7 +177,7 @@ async function loadBotSettings() {
 
 startCleanup();
 
-async function startGifted() {
+async function startGuru() {
     try {
         const { version } = await fetchLatestWaWebVersion();
         const sessionDbPath = path.join(sessionDir, "session.db");
@@ -203,113 +195,87 @@ async function startGifted() {
             return { conversation: "Error occurred" };
         };
 
-        Gifted = guruhConnect(socketConfig);
-        store.bind(Gifted.ev);
+        Guru = guruConnect(socketConfig);
+        store.bind(Guru.ev);
 
-        Gifted.ev.process(async (events) => {
+        Guru.ev.process(async (events) => {
             if (events["creds.update"]) await saveCreds();
         });
 
-        setupAutoReact(Gifted);
-        setupAntiDelete(Gifted);
-        setupAutoBio(Gifted);
-        setupAntiCall(Gifted);
-        setupNewsletterReact(Gifted);
-        setupPresence(Gifted);
-        setupChatBotAndAntiLink(Gifted);
-        setupAntiEdit(Gifted);
-        setupStatusHandlers(Gifted);
-        setupGroupEventsListeners(Gifted);
+        setupAutoReact(Guru);
+        setupAntiDelete(Guru);
+        setupAutoBio(Guru);
+        setupAntiCall(Guru);
+        setupNewsletterReact(Guru);
+        setupPresence(Guru);
+        setupChatBotAndAntiLink(Guru);
+        setupAntiEdit(Guru);
+        setupStatusHandlers(Guru);
+        setupGroupEventsListeners(Guru);
 
         loadPlugins(pluginsPath);
+        setupCommandHandler(Guru);
 
-        setupCommandHandler(Gifted);
+        setupConnectionHandler(Guru, sessionDir, startGuru, {
+            onOpen: async (Guru) => {
+                const s = await getAllSettings();
+                await safeNewsletterFollow(Guru, BOT_CONFIG.newsletter);
+                await safeGroupAcceptInvite(Guru, s.GC_JID);
+                await initializeLidStore(Guru);
 
-        setupConnectionHandler(Gifted, sessionDir, startGifted, {
-    onOpen: async (Gifted) => {
-        const s = await getAllSettings();
-        await safeNewsletterFollow(Gifted, BOT_CONFIG.newsletter);
-        await safeGroupAcceptInvite(Gifted, s.GC_JID);
-        await initializeLidStore(Gifted);
+                setTimeout(async () => {
+                    try {
+                        const totalCommands = commands.filter(
+                            (c) => c.pattern && !c.dontAddCommandList,
+                        ).length;
+                        log.ok(`Connected | ${totalCommands} plugins`);
 
-        setTimeout(async () => {
-            try {
-                const totalCommands = commands.filter(
-                    (c) => c.pattern && !c.dontAddCommandList,
-                ).length;
-                console.log("💜 Connected to Whatsapp, Active!");
-
-                if (s.STARTING_MESSAGE === "true") {
-                    const d = DEFAULT_SETTINGS;
-                    const md = s.MODE === "public" ? "public" : "private";
-                    
-                    const connectionMsg = `
-                    ／l、     
-                   （ﾟ､ ｡ ７     
-                    l、 ~ヽ     
-                    じしf_,)ノ     
-        ༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻
-        ☸     ULTRA GURU     ☸
-        ☸     CONNECTED      ☸
-        ༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻
-        
-        ╭─────────────────────────╮
-        │                         │
-        │  🪷 BOT    : ${BOT_CONFIG.name}
-        │  🪷 OWNER  : ${BOT_CONFIG.owner}
-        │  🪷 PREFIX : ${s.PREFIX || d.PREFIX}
-        │  🪷 MODE   : ${md}
-        │  🪷 PLUGINS: ${totalCommands}
-        │  🪷 CHANNEL: ${BOT_CONFIG.newsletter}
-        │  🪷 REPO   : ${BOT_CONFIG.repo}
-        │                         │
-        ╰─────────────────────────╯
-        
-        ༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻
-        ☸  ${s.CAPTION || d.CAPTION}  ☸
-        ༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻
-        
-                    ／l、     
-                   （ﾟ､ ｡ ７     
-                    l、 ~ヽ     
-                    じしf_,)ノ
-`;
-
-                    await Gifted.sendMessage(
-                        Gifted.user.id,
-                        {
-                            text: connectionMsg,
-                            ...(await createContext(
+                        if (s.STARTING_MESSAGE === "true") {
+                            const d = DEFAULT_SETTINGS;
+                            const md = s.MODE === "public" ? "public" : "private";
+                            
+                            const connectionMsg = getConnectionMsg(
                                 BOT_CONFIG.name,
+                                s.PREFIX || d.PREFIX,
+                                md
+                            );
+
+                            await Guru.sendMessage(
+                                Guru.user.id,
                                 {
-                                    title: "BOT INTEGRATED",
-                                    body: "Status: Ready for Use",
+                                    text: connectionMsg,
+                                    ...(await createContext(
+                                        BOT_CONFIG.name,
+                                        {
+                                            title: "ULTRA GURU",
+                                            body: "Ready",
+                                        },
+                                    )),
                                 },
-                            )),
-                        },
-                        {
-                            disappearingMessagesInChat: true,
-                            ephemeralExpiration: 300,
-                        },
-                    );
-                }
-            } catch (err) {
-                console.error("Post-connection setup error:", err);
-            }
-        }, 5000);
-    },
-});
-        
+                                {
+                                    disappearingMessagesInChat: true,
+                                    ephemeralExpiration: 300,
+                                },
+                            );
+                        }
+                    } catch (err) {
+                        log.err(`Post-connection error: ${err.message}`);
+                    }
+                }, 5000);
+            },
+        });
+
         process.on("SIGINT", () => store?.destroy());
         process.on("SIGTERM", () => store?.destroy());
     } catch (error) {
-        console.error("Socket initialization error:", error);
-        setTimeout(() => startGifted(), 5000);
+        log.err(`Socket error: ${error.message}`);
+        setTimeout(() => startGuru(), 5000);
     }
 }
 
-function setupAutoReact(Gifted) {
-    Gifted.ev.on("messages.upsert", async (mek) => {
+// ============= ALL SETUP FUNCTIONS (unchanged) =============
+function setupAutoReact(Guru) {
+    Guru.ev.on("messages.upsert", async (mek) => {
         try {
             const ms = mek.messages[0];
             const s = await getAllSettings();
@@ -340,15 +306,15 @@ function setupAutoReact(Gifted) {
 
             const randomEmoji =
                 emojis[Math.floor(Math.random() * emojis.length)];
-            await GiftedAutoReact(randomEmoji, ms, Gifted);
+            await GuruAutoReact(randomEmoji, ms, Guru);
         } catch (err) {
-            console.error("Error during auto reaction:", err);
+            // silent
         }
     });
 }
 
-function setupAntiDelete(Gifted) {
-    const botJid = `${Gifted.user?.id.split(":")[0]}@s.whatsapp.net`;
+function setupAntiDelete(Guru) {
+    const botJid = `${Guru.user?.id.split(":")[0]}@s.whatsapp.net`;
     const botOwnerJid = botJid;
 
     const getSender = (ms) => {
@@ -403,7 +369,7 @@ function setupAntiDelete(Gifted) {
         );
     };
 
-    Gifted.ev.on("messages.upsert", async ({ messages }) => {
+    Guru.ev.on("messages.upsert", async ({ messages }) => {
         for (const ms of messages) {
             try {
                 if (!ms?.message) continue;
@@ -432,8 +398,8 @@ function setupAntiDelete(Gifted) {
 
                     if (deleter === botJid || deleter === botOwnerJid) continue;
 
-                    await GiftedAntiDelete(
-                        Gifted,
+                    await GuruAntiDelete(
+                        Guru,
                         deletedMsg,
                         key,
                         deleter,
@@ -462,29 +428,29 @@ function setupAntiDelete(Gifted) {
                 const _entry = { ...ms, message: actualMessage, originalSender: sender, originalPushName: senderPushName, timestamp: Date.now() };
                 setImmediate(() => saveAntiDelete(_jid, _entry));
             } catch (error) {
-                logger.error("Anti-delete system error:", error);
+                // silent
             }
         }
     });
 }
 
-function setupAutoBio(Gifted) {
+function setupAutoBio(Guru) {
     (async () => {
         const s = await getAllSettings();
         if (s.AUTO_BIO === "true") {
-            setTimeout(() => GiftedAutoBio(Gifted), 1000);
-            setInterval(() => GiftedAutoBio(Gifted), 1000 * 60);
+            setTimeout(() => GuruAutoBio(Guru), 1000);
+            setInterval(() => GuruAutoBio(Guru), 1000 * 60);
         }
     })();
 }
 
-function setupAntiCall(Gifted) {
-    Gifted.ev.on("call", async (json) => {
-        await GiftedAnticall(json, Gifted);
+function setupAntiCall(Guru) {
+    Guru.ev.on("call", async (json) => {
+        await GuruAnticall(json, Guru);
     });
 }
 
-// Cache newsletter JIDs for 2 minutes to avoid fetching on every message
+// Cache newsletter JIDs
 let _newsletterCache = null;
 let _newsletterCacheAt = 0;
 const NEWSLETTER_TTL = 2 * 60 * 1000;
@@ -493,61 +459,57 @@ async function _getNewsletters() {
     if (_newsletterCache && Date.now() - _newsletterCacheAt < NEWSLETTER_TTL) {
         return _newsletterCache;
     }
-    // Use your newsletter directly instead of external API
     _newsletterCache = [BOT_CONFIG.newsletter];
     _newsletterCacheAt = Date.now();
     return _newsletterCache;
 }
 
-function setupNewsletterReact(Gifted) {
+function setupNewsletterReact(Guru) {
     const emojiList = ["❤️", "💛", "👍", "💜", "😮", "🤍", "💙"];
-    Gifted.ev.on("messages.upsert", async (mek) => {
+    Guru.ev.on("messages.upsert", async (mek) => {
         try {
             const msg = mek.messages[0];
             if (!msg?.message || !msg?.key?.server_id) return;
             const newsletters = await _getNewsletters();
             if (!newsletters.includes(msg.key.remoteJid)) return;
             const emoji = emojiList[Math.floor(Math.random() * emojiList.length)];
-            await Gifted.newsletterReactMessage(
+            await Guru.newsletterReactMessage(
                 msg.key.remoteJid,
                 msg.key.server_id.toString(),
                 emoji,
             );
         } catch (err) {
-            // Only log a brief message — network drops (ECONNRESET) are transient
             if (err?.code === 'ECONNRESET' || err?.code === 'ECONNREFUSED' || err?.code === 'ETIMEDOUT') {
-                // Invalidate cache so next message retries
                 _newsletterCache = null;
             }
-            // else: silent — not worth logging for every message
         }
     });
 }
 
-function setupPresence(Gifted) {
-    Gifted.ev.on("messages.upsert", async ({ messages }) => {
+function setupPresence(Guru) {
+    Guru.ev.on("messages.upsert", async ({ messages }) => {
         if (messages?.length > 0) {
-            await GiftedPresence(Gifted, messages[0].key.remoteJid);
+            await GuruPresence(Guru, messages[0].key.remoteJid);
         }
     });
 
-    Gifted.ev.on("connection.update", ({ connection }) => {
+    Guru.ev.on("connection.update", ({ connection }) => {
         if (connection === "open") {
-            GiftedPresence(Gifted, "status@broadcast");
+            GuruPresence(Guru, "status@broadcast");
         }
     });
 }
 
-function setupChatBotAndAntiLink(Gifted) {
-    Gifted.ev.on("messages.upsert", async ({ messages, type }) => {
+function setupChatBotAndAntiLink(Guru) {
+    Guru.ev.on("messages.upsert", async ({ messages, type }) => {
         if (type === "append") return;
 
         const firstMsg = messages[0];
         if (firstMsg?.message) {
             const s = await getAllSettings();
             if (s.CHATBOT === "true" || s.CHATBOT === "audio") {
-                GiftedChatBot(
-                    Gifted,
+                GuruChatBot(
+                    Guru,
                     s.CHATBOT,
                     s.CHATBOT_MODE || "inbox",
                     createContext,
@@ -563,32 +525,32 @@ function setupChatBotAndAntiLink(Gifted) {
             if (message.key.fromMe && !from.endsWith("@g.us")) continue;
 
             if (from.endsWith("@g.us")) {
-                await GiftedAntiLink(Gifted, message, getGroupMetadata);
-                await GiftedAntibad(Gifted, message, getGroupMetadata);
+                await GuruAntiLink(Guru, message, getGroupMetadata);
+                await GuruAntibad(Guru, message, getGroupMetadata);
             }
-            await GiftedAntiGroupMention(Gifted, message, getGroupMetadata);
-            await handleGameMessage(Gifted, message);
+            await GuruAntiGroupMention(Guru, message, getGroupMetadata);
+            await handleGameMessage(Guru, message);
         }
     });
 }
 
-function setupAntiEdit(Gifted) {
-    Gifted.ev.on("messages.update", async (updates) => {
+function setupAntiEdit(Guru) {
+    Guru.ev.on("messages.update", async (updates) => {
         for (const update of updates) {
             try {
                 if (!update?.update?.message) continue;
                 if (update.key?.fromMe) continue;
                 if (update.key?.remoteJid === "status@broadcast") continue;
-                await GiftedAntiEdit(Gifted, update, findAntiDelete);
+                await GuruAntiEdit(Guru, update, findAntiDelete);
             } catch (err) {
-                console.error("Anti-edit handler error:", err.message);
+                // silent
             }
         }
     });
 }
 
-function setupStatusHandlers(Gifted) {
-    Gifted.ev.on("messages.upsert", async (mek) => {
+function setupStatusHandlers(Guru) {
+    Guru.ev.on("messages.upsert", async (mek) => {
         try {
             mek = mek.messages[0];
             if (!mek || !mek.message) return;
@@ -601,12 +563,8 @@ function setupStatusHandlers(Gifted) {
             if (mek.key?.remoteJid !== "status@broadcast") return;
 
             const s = await getAllSettings();
-
-            // Sender of a status is on mek.participant (top-level), NOT inside mek.key
             const rawParticipant = mek.participant || mek.key.participantPn || mek.key.participant;
-            const participantJid = await resolveRealJid(Gifted, rawParticipant);
-
-            // AUTO VIEW STATUS — works on its own; auto-like and auto-reply require this to be ON
+            const participantJid = await resolveRealJid(Guru, rawParticipant);
             const shouldView = s.AUTO_READ_STATUS === "true";
 
             const readKey = (participantJid && participantJid !== mek.key.participant)
@@ -614,24 +572,22 @@ function setupStatusHandlers(Gifted) {
                 : mek.key;
 
             if (shouldView) {
-                await Gifted.readMessages([readKey]);
+                await Guru.readMessages([readKey]);
             }
 
-            // AUTO LIKE STATUS — only fires when auto-view is ON (status must be viewed first)
             if (shouldView && s.AUTO_LIKE_STATUS === "true" && participantJid) {
-                const emojis = (s.STATUS_LIKE_EMOJIS || "💛,❤️,💜,🤍,💙").split(",").map(e => e.trim()).filter(Boolean);
+                const emojis = (s.STATUS_LIKE_EMOJIS || "🦠,🦅,🪾,🍂,🥷").split(",").map(e => e.trim()).filter(Boolean);
                 const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
                 const reactKey = { ...mek.key, participant: participantJid };
-                await Gifted.sendMessage(
+                await Guru.sendMessage(
                     "status@broadcast",
                     { react: { text: randomEmoji, key: reactKey } },
                     { statusJidList: [participantJid] }
                 );
             }
 
-            // AUTO REPLY STATUS — only fires when auto-view is ON
             if (shouldView && s.AUTO_REPLY_STATUS === "true" && !mek.key.fromMe && participantJid) {
-                await Gifted.sendMessage(
+                await Guru.sendMessage(
                     participantJid,
                     { text: s.STATUS_REPLY_TEXT || DEFAULT_SETTINGS.STATUS_REPLY_TEXT },
                     { quoted: mek }
@@ -639,29 +595,44 @@ function setupStatusHandlers(Gifted) {
             }
         } catch (error) {
             const code = error?.output?.statusCode || error?.code || "";
-            const msg  = error?.message || "";
+            const msg = error?.message || "";
             const transient =
                 code === 428 ||
                 msg === "Connection Closed" ||
                 msg.includes("ECONNRESET") ||
                 msg.includes("ETIMEDOUT") ||
                 msg.includes("ECONNREFUSED") ||
-                msg.includes("EPIPE") ||
-                msg.includes("Connection Terminated") ||
-                msg.includes("Stream Errored") ||
-                String(code) === "ECONNRESET" ||
-                String(code) === "EPIPE";
+                msg.includes("EPIPE");
             if (transient) return;
-            console.error("Error Processing Status Actions:", error);
         }
     });
+}
+
+async function resolveRealJid(Guru, jid) {
+    if (!jid) return null;
+    if (!jid.endsWith('@lid')) return jid;
+    try {
+        const { getLidMapping } = require('./guru/connection/groupCache');
+        const cached = getLidMapping(jid);
+        if (cached) return cached;
+    } catch (_) {}
+    try {
+        const resolved = await Guru.getJidFromLid(jid);
+        if (resolved && !resolved.endsWith('@lid')) return resolved;
+    } catch (_) {}
+    try {
+        const { getLidMappingFromDb } = require('./guru/database/lidMapping');
+        const fromDb = await getLidMappingFromDb(jid);
+        if (fromDb) return fromDb;
+    } catch (_) {}
+    return jid;
 }
 
 const processedMessages = new Set();
 const BOT_START_TIME = Date.now();
 
-function setupCommandHandler(Gifted) {
-    Gifted.ev.on("messages.upsert", async ({ messages, type }) => {
+function setupCommandHandler(Guru) {
+    Guru.ev.on("messages.upsert", async ({ messages, type }) => {
         if (type === "append") return;
 
         const ms = messages[0];
@@ -679,9 +650,9 @@ function setupCommandHandler(Gifted) {
             return;
 
         const settings = await getAllSettings();
-        const botId = standardizeJid(Gifted.user?.id);
+        const botId = standardizeJid(Guru.user?.id);
 
-        const serialized = await serializeMessage(ms, Gifted, settings);
+        const serialized = await serializeMessage(ms, Guru, settings);
         if (!serialized) return;
 
         const {
@@ -704,7 +675,7 @@ function setupCommandHandler(Gifted) {
             quotedUser,
         } = serialized;
 
-        const groupData = await getGroupInfo(Gifted, from, botId, rawSender);
+        const groupData = await getGroupInfo(Guru, from, botId, rawSender);
         const {
             groupInfo,
             groupName,
@@ -731,9 +702,9 @@ function setupCommandHandler(Gifted) {
             );
             if (countryCodes.some((code) => sender.startsWith(code))) {
                 try {
-                    await Gifted.updateBlockStatus(sender, "block");
+                    await Guru.updateBlockStatus(sender, "block");
                 } catch (blockErr) {
-                    console.error("Block error:", blockErr);
+                    // silent
                 }
             }
         }
@@ -749,14 +720,14 @@ function setupCommandHandler(Gifted) {
         } else if (autoReadMode === "commands" && isCommand) {
             shouldRead = true;
         }
-        if (shouldRead) await Gifted.readMessages([ms.key]);
+        if (shouldRead) await Guru.readMessages([ms.key]);
 
         const bodyCmd = findBodyCommand(body);
         if (bodyCmd && bodyCmd.function) {
             if (settings.MODE?.toLowerCase() === "private" && !isSuperUser)
                 return;
             try {
-                const helpers = createHelpers(Gifted, ms, from);
+                const helpers = createHelpers(Guru, ms, from);
                 const conText = buildContext(ms, settings, helpers, {
                     from,
                     isGroup,
@@ -782,14 +753,14 @@ function setupCommandHandler(Gifted) {
                     quotedMsg,
                     quotedKey,
                     quotedUser,
-                    Gifted,
+                    Guru,
                     botId,
                     body,
                     command,
                 });
-                await bodyCmd.function(from, Gifted, conText);
+                await bodyCmd.function(from, Guru, conText);
             } catch (error) {
-                console.error(`Body command error:`, error);
+                // silent
             }
         }
 
@@ -801,21 +772,21 @@ function setupCommandHandler(Gifted) {
                 return;
 
             try {
-                const helpers = createHelpers(Gifted, ms, from);
+                const helpers = createHelpers(Guru, ms, from);
 
                 if (settings.AUTO_REACT === "commands") {
                     const randomEmoji =
                         emojis[Math.floor(Math.random() * emojis.length)];
-                    await Gifted.sendMessage(from, {
+                    await Guru.sendMessage(from, {
                         react: { key: ms.key, text: randomEmoji },
                     });
                 } else if (gmd.react) {
-                    await Gifted.sendMessage(from, {
+                    await Guru.sendMessage(from, {
                         react: { key: ms.key, text: gmd.react },
                     });
                 }
 
-                setupGiftedHelpers(Gifted, from);
+                setupGuruHelpers(Guru, from);
 
                 const conText = buildContext(ms, settings, helpers, {
                     from,
@@ -842,38 +813,37 @@ function setupCommandHandler(Gifted) {
                     quotedMsg,
                     quotedKey,
                     quotedUser,
-                    Gifted,
+                    Guru,
                     botId,
                     body,
                     command,
                 });
 
-                await gmd.function(from, Gifted, conText);
+                await gmd.function(from, Guru, conText);
             } catch (error) {
-                console.error(`Command error [${command}]:`, error);
                 try {
-                    await Gifted.sendMessage(
+                    await Guru.sendMessage(
                         from,
                         {
-                            text: `🚨 Command failed: ${error.message}`,
+                            text: `❌ ${error.message}`,
                             ...(await createContext(messageAuthor, {
                                 title: "Error",
-                                body: "Command execution failed",
+                                body: "Command failed",
                             })),
                         },
                         { quoted: ms },
                     );
                 } catch (sendErr) {
-                    console.error("Error sending error message:", sendErr);
+                    // silent
                 }
             }
         }
     });
 }
 
-function setupGiftedHelpers(Gifted, from) {
-    Gifted.getJidFromLid = async (lid) => {
-        const groupMetadata = await getGroupMetadata(Gifted, from);
+function setupGuruHelpers(Guru, from) {
+    Guru.getJidFromLid = async (lid) => {
+        const groupMetadata = await getGroupMetadata(Guru, from);
         if (!groupMetadata) return null;
         const match = groupMetadata.participants.find(
             (p) => p.lid === lid || p.id === lid,
@@ -881,8 +851,8 @@ function setupGiftedHelpers(Gifted, from) {
         return match?.pn || match?.phoneNumber || null;
     };
 
-    Gifted.getLidFromJid = async (jid) => {
-        const groupMetadata = await getGroupMetadata(Gifted, from);
+    Guru.getLidFromJid = async (jid) => {
+        const groupMetadata = await getGroupMetadata(Guru, from);
         if (!groupMetadata) return null;
         const match = groupMetadata.participants.find(
             (p) =>
@@ -899,7 +869,7 @@ function setupGiftedHelpers(Gifted, from) {
         fileType = await import("file-type");
     })();
 
-    Gifted.downloadAndSaveMediaMessage = async (
+    Guru.downloadAndSaveMediaMessage = async (
         message,
         filename,
         attachExtension = true,
@@ -942,7 +912,6 @@ function setupGiftedHelpers(Gifted, from) {
             await fs.writeFile(trueFileName, buffer);
             return trueFileName;
         } catch (error) {
-            console.error("Error in downloadAndSaveMediaMessage:", error);
             throw error;
         }
     };
@@ -994,16 +963,16 @@ function buildContext(ms, settings, helpers, data) {
         quotedUser: data.quotedUser,
         isSuperUser: data.isSuperUser,
         botMode: settings.MODE,
-        botPic: settings.BOT_PIC,
-        botFooter: settings.FOOTER,
-        botCaption: settings.CAPTION,
-        botVersion: settings.VERSION,
+        botPic: settings.BOT_PIC || BOT_CONFIG.imageUrl,
+        botFooter: settings.FOOTER || "ULTRA GURU",
+        botCaption: settings.CAPTION || "⚡ GuruTech",
+        botVersion: BOT_CONFIG.version,
         ownerNumber: settings.OWNER_NUMBER,
         ownerName: BOT_CONFIG.owner,
         botName: BOT_CONFIG.name,
         guruhRepo: BOT_CONFIG.repo,
         packName: settings.PACK_NAME,
-        packAuthor: settings.PACK_AUTHOR,
+        packAuthor: settings.PACK_AUTHOR || BOT_CONFIG.owner,
         isSuperAdmin: data.isSuperAdmin,
         getMediaBuffer,
         getFileContentType,
@@ -1013,12 +982,12 @@ function buildContext(ms, settings, helpers, data) {
         setCommitHash,
         getCommitHash,
         uploadToGithubCdn,
-        uploadToGiftedCdn,
+        uploadToGuruCdn,
         uploadToCatbox,
         newsletterUrl: BOT_CONFIG.newsletter,
         newsletterJid: BOT_CONFIG.newsletter,
         GuruTechApi,
-        GiftedApiKey,
+        GuruApiKey,
         botPrefix: settings.PREFIX,
         timeZone: settings.TIME_ZONE,
     };
@@ -1027,5 +996,5 @@ function buildContext(ms, settings, helpers, data) {
 (async () => {
     await loadSession();
     await loadBotSettings();
-    startGifted();
+    startGuru();
 })();
