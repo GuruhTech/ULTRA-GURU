@@ -286,7 +286,7 @@ gmd(
       const results = res.data.results.slice(0, 5);
 
       const defaultImg =
-        "https://files.giftedtech.co.ke/image/ZAwgoogle-images-1548419288.jpg";
+        "https://files.catbox.moe/5evber.jpg";
 
       const cards = await Promise.all(
         results.map(async (result) => ({

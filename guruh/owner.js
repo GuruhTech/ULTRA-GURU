@@ -283,7 +283,7 @@ gmd(
           );
         } catch (error) {
           profilePictureUrl =
-            "https://telegra.ph/file/9521e9ee2fdbd0d6f4f1c.jpg";
+            "https://files.catbox.moe/5evber.jpg";
         }
 
         try {

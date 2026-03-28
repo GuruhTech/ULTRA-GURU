@@ -18,7 +18,7 @@ const isSuperUser = async (jid, Gifted) => {
     return sudoNumbers.includes(num);
 };
 
-const DEFAULT_PLACEHOLDER = "https://telegra.ph/file/9521e9ee2fdbd0d6f4f1c.jpg";
+const DEFAULT_PLACEHOLDER = "https://files.catbox.moe/5evber.jpg";
 
 const getProfilePic = async (Gifted, jid) => {
     try {

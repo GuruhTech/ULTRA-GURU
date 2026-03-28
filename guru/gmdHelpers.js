@@ -79,7 +79,7 @@ const createContext = async (userJid, options = {}) => {
     const botName = (await getSetting("BOT_NAME")) || "𝐆𝐈𝐅𝐓𝐄𝐃 𝐌𝐃";
     const botPic =
         (await getSetting("BOT_PIC")) ||
-        "https://gitcdn.giftedtech.co.ke/image/AZO_image.jpg";
+        "https://files.catbox.moe/5evber.jpg";
     const newsletterJid =
         (await getSetting("NEWSLETTER_JID")) || "120363403054496228@newsletter";
     const newsletterUrl =
@@ -117,7 +117,7 @@ const createContext2 = async (userJid, options = {}) => {
     const botName = (await getSetting("BOT_NAME")) || "𝐆𝐈𝐅𝐓𝐄𝐃 𝐌𝐃";
     const botPic =
         (await getSetting("BOT_PIC")) ||
-        "https://gitcdn.giftedtech.co.ke/image/AZO_image.jpg";
+        "https://files.catbox.moe/5evber.jpg";
     const newsletterJid =
         (await getSetting("NEWSLETTER_JID")) || "120363403054496228@newsletter";
 
