@@ -52,7 +52,7 @@ gmd(
       ],
     });
 
-    /*await Gifted.sendMessage(from, {
+    /*await Giftd.sendMessage(from, {
       text: 
       contextInfo: {
         forwardingScore: 5,
