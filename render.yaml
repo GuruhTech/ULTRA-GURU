@@ -1,12 +1,12 @@
 databases:
-  - name: atassa-db
+  - name: ultra-guru-db
     plan: free
-    databaseName: atassa
-    user: atassa
+    databaseName: ultra_guru
+    user: guru_tech
 
 services:
   - type: web
-    name: atassa-md
+    name: ultra-guru-md
     runtime: node
     plan: free
     buildCommand: npm install
@@ -15,6 +15,11 @@ services:
     envVars:
       - key: SESSION_ID
         sync: false
+        description: "Your WhatsApp session ID (get from QR scan)"
+      - key: BOT_NAME
+        value: "ULTRA GURU"
+      - key: OWNER_NAME
+        value: "GURUTECH 😎"
       - key: MODE
         value: public
       - key: TIME_ZONE
@@ -25,5 +30,7 @@ services:
         value: "true"
       - key: DATABASE_URL
         fromDatabase:
-          name: atassa-db
+          name: ultra-guru-db
           property: connectionString
+      - key: NODE_VERSION
+        value: "18.20.8"
