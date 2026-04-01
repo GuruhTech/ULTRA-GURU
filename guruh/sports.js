@@ -30,9 +30,9 @@ const LEAGUE_CONFIG = {
 };
 
 async function getContextInfo() {
-  const botName = (await getSetting("BOT_NAME")) || "𝐀𝐓𝐀𝐒𝐒𝐀-𝐌𝐃";
+  const botName = (await getSetting("BOT_NAME")) || "ULTRA MD";
   const channelJid =
-    (await getSetting("NEWSLETTER_JID")) || "120363403054496228@newsletter";
+    (await getSetting("NEWSLETTER_JID")) || "120363406466294627@newsletter";
   return {
     mentionedJid: [],
     forwardingScore: 1,
