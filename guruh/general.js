@@ -174,17 +174,21 @@ gmd(
         (command) => command.pattern && !command.dontAddCommandList,
       ).length;
 
-      let menus = `
-*🦄 Uᴘᴛɪᴍᴇ :* ${monospace(uptime)}
-*🍁 Dᴀᴛᴇ Tᴏᴅᴀʏ:* ${monospace(date)}
-*🎗 Tɪᴍᴇ Nᴏᴡ:* ${monospace(time)}
+      // UPDATED HEADER
+      let menus = `𓋴━━━━━━━━━━━━━━━━━━━━𓋴
+    ✨  ${monospace(botName)}  ✨
+𓋴━━━━━━━━━━━━━━━━━━━━𓋴
+    ༄ Uptime  : ${monospace(uptime)}
+    ༄ Date    : ${monospace(date)}
+    ༄ Time    : ${monospace(time)}
 
-➮Fᴏᴜɴᴅᴇʀ - Gifted Tech
-➮Usᴇʀ - ${monospace(pushName)}
-➮Nᴜᴍ - ${monospace(ownerNumber)} 
-➮Mᴇᴍᴏʀʏ - ${monospace(ram)}
+    ༄ Founder : GURUTECH 😎
+    ༄ User    : ${monospace(pushName)}
+    ༄ Number  : ${monospace(ownerNumber)} 
+    ༄ Memory  : ${monospace(ram)}
 
-*🧑‍💻 :* ${monospace(botName)} Iꜱ Aᴠᴀɪʟᴀʙʟᴇ
+    ༄ ${monospace(botName)} Is Available
+𓋴━━━━━━━━━━━━━━━━━━━━𓋴
 
 ╭──❰ *ALL MENU* ❱
 │🏮 Lɪꜱᴛ
@@ -277,19 +281,21 @@ gmd(
         (command) => command.pattern && !command.dontAddCommandList,
       ).length;
 
-      let list = `
-╭━━〔 *${monospace(botName)}* 〕━━╮
-│ ✦ *Mᴏᴅᴇ* : ${monospace(botMode)}
-│ ✦ *Pʀᴇғɪx* : [ ${monospace(botPrefix)} ]
-│ ✦ *Usᴇʀ* : ${monospace(pushName)}
-│ ✦ *Pʟᴜɢɪɴs* : ${monospace(totalCommands.toString())}
-│ ✦ *Vᴇʀsɪᴏɴ* : ${monospace(botVersion)}
-│ ✦ *Uᴘᴛɪᴍᴇ* : ${monospace(uptime)}
-│ ✦ *Tɪᴍᴇ Nᴏᴡ* : ${monospace(time)}
-│ ✦ *Dᴀᴛᴇ Tᴏᴅᴀʏ* : ${monospace(date)}
-│ ✦ *Tɪᴍᴇ Zᴏɴᴇ* : ${monospace(timeZone)}
-│ ✦ *Sᴇʀᴠᴇʀ Rᴀᴍ* : ${monospace(ram)}
-╰─────────────╯${readmore}\n`;
+      // UPDATED HEADER
+      let list = `𓋴━━━━━━━━━━━━━━━━━━━━𓋴
+    ✨  ${monospace(botName)}  ✨
+𓋴━━━━━━━━━━━━━━━━━━━━𓋴
+    ༄ Mode    : ${monospace(botMode)}
+    ༄ Prefix  : [ ${monospace(botPrefix)} ]
+    ༄ User    : ${monospace(pushName)}
+    ༄ Plugins : ${monospace(totalCommands.toString())}
+    ༄ Version : ${monospace(botVersion)}
+    ༄ Uptime  : ${monospace(uptime)}
+    ༄ Time    : ${monospace(time)}
+    ༄ Date    : ${monospace(date)}
+    ༄ Timezone: ${monospace(timeZone)}
+    ༄ RAM     : ${monospace(ram)}
+𓋴━━━━━━━━━━━━━━━━━━━━𓋴${readmore}\n`;
 
       commands.forEach((gmd, index) => {
         if (gmd.pattern && gmd.description) {
@@ -394,18 +400,17 @@ gmd(
         categorized[cat].sort((a, b) => a.pattern.localeCompare(b.pattern));
       }
 
-      let header = `╭══〘〘 *${monospace(botName)}* 〙〙═⊷
-┃❍ *Mᴏᴅᴇ:*  ${monospace(botMode)}
-┃❍ *Pʀᴇғɪx:*  [ ${monospace(botPrefix)} ]
-┃❍ *Usᴇʀ:*  ${monospace(pushName)}
-┃❍ *Pʟᴜɢɪɴs:*  ${monospace(totalCommands.toString())}
-┃❍ *Vᴇʀsɪᴏɴ:*  ${monospace(botVersion)}
-┃❍ *Uᴘᴛɪᴍᴇ:*  ${monospace(uptime)}
-┃❍ *Tɪᴍᴇ Nᴏᴡ:*  ${monospace(time)}
-┃❍ *Dᴀᴛᴇ Tᴏᴅᴀʏ:*  ${monospace(date)}
-┃❍ *Tɪᴍᴇ Zᴏɴᴇ:*  ${monospace(timeZone)}
-┃❍ *Sᴇʀᴠᴇʀ Rᴀᴍ:*  ${monospace(ram)}
-╰═════════════════⊷\n${readmore}\n`;
+      // UPDATED HEADER
+      let header = `𓋴━━━━━━━━━━━━━━━━━━━━𓋴
+    ✨  ${monospace(botName)}  ✨
+𓋴━━━━━━━━━━━━━━━━━━━━𓋴
+    ༄ Mode    : ${monospace(botMode)}
+    ༄ User    : ${monospace(pushName)}
+    ༄ Plugins : ${monospace(totalCommands.toString())}
+    ༄ Uptime  : ${monospace(uptime)}
+    ༄ Time    : ${monospace(time)}
+    ༄ Date    : ${monospace(date)}
+𓋴━━━━━━━━━━━━━━━━━━━━𓋴\n${readmore}\n`;
 
       const formatCategory = (category, gmds) => {
         const title = `╭━━━━❮ *${monospace(category.toUpperCase())}* ❯━⊷ \n`;
@@ -786,7 +791,7 @@ gmd(
       await reply(`❌ Failed to save the message. Error: ${error.message}`);
     }
   },
-);
+});
 
 
 gmd(
