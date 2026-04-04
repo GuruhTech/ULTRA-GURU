@@ -774,7 +774,7 @@ gmd(
   },
 );
 
-// ============== CHJID ==============
+// ============== CHJID (Fixed) ==============
 gmd(
   {
     pattern: "chjid",
@@ -793,7 +793,9 @@ gmd(
   async (from, Gifted, conText) => {
     const { q, reply, react, botFooter, botPrefix, GiftedTechApi, GiftedApiKey } = conText;
 
-    const input = q?.trim();
+    // FIXED: Ensure q is always a string
+    const input = String(q || "").trim();
+
     if (!input) {
       await react("❌");
       return reply(
