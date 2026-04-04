@@ -270,7 +270,7 @@ gmd(
 ┃ 🌟 *Mode*     : ${monospace(botMode)}
 ┃ ⚡ *Prefix*   : ${monospace(botPrefix)}
 ┃ 👤 *User*     : ${monospace(pushName)}
-┃ 📊 *Plugins*  : ${monospace(totalCommands)}
+┃ 📊 *Plugins*  : ${monospace(totalCommands.toString())}
 ┃ 📌 *Version*  : ${monospace(botVersion)}
 ┃ ⏳ *Uptime*   : ${monospace(uptime)}
 ┃ 🕒 *Time*     : ${monospace(time)}
@@ -387,7 +387,7 @@ gmd(
 ┃ 🌟 *Mode*      : ${monospace(botMode)}
 ┃ ⚡ *Prefix*    : ${monospace(botPrefix)}
 ┃ 👤 *User*      : ${monospace(pushName)}
-┃ 📊 *Plugins*   : ${monospace(totalCommands)}
+┃ 📊 *Plugins*   : ${monospace(totalCommands.toString())}
 ┃ 📌 *Version*   : ${monospace(botVersion)}
 ┃ ⏳ *Uptime*    : ${monospace(uptime)}
 ┃ 🕒 *Time*      : ${monospace(time)}
@@ -434,7 +434,6 @@ gmd(
   },
 );
 
-// The rest of the commands (return, uptime, repo, save, chjid) remain unchanged
 gmd(
   {
     pattern: "return",
