@@ -90,7 +90,7 @@ const GiftedAntiLink = async (Gifted, message, getGroupMetadata) => {
         }
 
         const settings = await getAllSettings();
-        const botName = settings.BOT_NAME || '𝐀𝐓𝐀𝐒𝐒𝐀-𝐌𝐃';
+        const botName = settings.BOT_NAME || 'ULTRA GURU';
         
         if (sender.endsWith('@lid')) {
             const cached = getLidMapping(sender);
@@ -383,7 +383,7 @@ const GiftedAntiGroupMention = async (Gifted, message, getGroupMetadata) => {
         if (!sender || sender.endsWith('@g.us')) return;
         
         const settings = await getAllSettings();
-        const botName = settings.BOT_NAME || '𝐀𝐓𝐀𝐒𝐒𝐀-𝐌𝐃';
+        const botName = settings.BOT_NAME || 'ULTRA GURU';
         
         if (sender.endsWith('@lid')) {
             const cached = getLidMapping(sender);
@@ -516,7 +516,7 @@ function getTimeBlock() {
 const GiftedAutoBio = async (Gifted) => {
                 try {
                     const settings = await getAllSettings();
-                    const botName = settings.BOT_NAME || '𝐀𝐓𝐀𝐒𝐒𝐀-𝐌𝐃';
+                    const botName = settings.BOT_NAME || 'ULTRA GURU';
                     
                     const block = getTimeBlock();
                     const timeDate = getCurrentDateTime();
@@ -589,7 +589,7 @@ function isIdentityQuestion(query) {
 
 async function getAIResponse(query) {
     if (isIdentityQuestion(query)) {
-        return 'I am an Interactive Ai Assistant Chat Bot, created by Gifted Tech!';
+        return 'I am an Interactive Ai Assistant Chat Bot, created by GuruTech!';
     }
     
     try {
@@ -651,7 +651,7 @@ function GiftedChatBot(Gifted, chatBot, chatBotMode, createContext, createContex
                         text: String(aiResponse),
                         ...(await createContext(jid, {
                             title: `${botName} 𝐂𝐇𝐀𝐓 𝐁𝐎𝐓`,
-                            body: '𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐆𝐢𝐟𝐭𝐞𝐝 𝐀𝐩𝐢'
+                            body: '𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐆uru 𝐀𝐩𝐢'
                         }))
                     }, { quoted: msg });
                 }
@@ -672,7 +672,7 @@ function GiftedChatBot(Gifted, chatBot, chatBotMode, createContext, createContex
                             waveform: [1000, 0, 1000, 0, 1000, 0, 1000],
                             ...(await createContext2(jid, {
                                title: `${botName} 𝐀𝐔𝐃𝐈𝐎-𝐂𝐇𝐀𝐓 𝐁𝐎𝐓`,
-                               body: '𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐆𝐢𝐟𝐭𝐞𝐝 𝐀𝐩𝐢𝐬'
+                               body: '𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐆uru 𝐀𝐩𝐢𝐬'
                             }))
                         }, { quoted: msg });
                     }
