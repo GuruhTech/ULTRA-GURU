@@ -1,4 +1,3 @@
-
 const { gmd, toPtt } = require("../guru");
 const yts = require("yt-search");
 const axios = require("axios");
@@ -20,6 +19,7 @@ function extractButtonId(msg) {
     }
     return null;
 }
+
 const {
   downloadContentFromMessage,
   generateWAMessageFromContent,
@@ -27,6 +27,72 @@ const {
 } = require("gifted-baileys");
 const { sendButtons } = require("gifted-btns");
 
+// Working Audio APIs (multiple fallbacks)
+const getAudioApis = (url) => [
+    `https://wadownloader.amitdas.site/api/yt?url=${encodeURIComponent(url)}`,
+    `https://silva-md-bot.onrender.com/api/download?url=${encodeURIComponent(url)}`,
+    `https://api-xeon.tech/api/download/ytmp3?url=${encodeURIComponent(url)}`,
+    `https://api.saipulanuar.my.id/api/download/ytmp3?url=${encodeURIComponent(url)}`,
+    `https://api.ryzendesu.vip/api/download/ytmp3?url=${encodeURIComponent(url)}`,
+];
+
+// Working Video APIs (multiple fallbacks)
+const getVideoApis = (url) => [
+    `https://wadownloader.amitdas.site/api/yt?url=${encodeURIComponent(url)}&type=video`,
+    `https://silva-md-bot.onrender.com/api/download?url=${encodeURIComponent(url)}`,
+    `https://api-xeon.tech/api/download/ytmp4?url=${encodeURIComponent(url)}`,
+    `https://api.saipulanuar.my.id/api/download/ytmp4?url=${encodeURIComponent(url)}`,
+    `https://api.ryzendesu.vip/api/download/ytmp4?url=${encodeURIComponent(url)}`,
+];
+
+const isValidBuffer = (buf) => Buffer.isBuffer(buf) && buf.length > 10240;
+
+async function queryAPI(url, endpoints, timeout = 30000) {
+    const errors = [];
+
+    for (const endpoint of endpoints) {
+        try {
+            const apiUrl = typeof endpoint === 'function' ? endpoint(url) : endpoint;
+            console.log(`🔄 Trying API: ${apiUrl}`);
+            
+            const response = await axios.get(apiUrl, { timeout });
+            
+            // Handle different response formats
+            let downloadUrl = null;
+            let title = null;
+            let duration = null;
+            
+            if (response.data.download_url) {
+                downloadUrl = response.data.download_url;
+                title = response.data.title;
+                duration = response.data.duration;
+            } else if (response.data.result?.download_url) {
+                downloadUrl = response.data.result.download_url;
+                title = response.data.result.title;
+                duration = response.data.result.duration;
+            } else if (response.data.url) {
+                downloadUrl = response.data.url;
+                title = response.data.title;
+            } else if (response.data.link) {
+                downloadUrl = response.data.link;
+                title = response.data.title;
+            } else if (response.data.data?.url) {
+                downloadUrl = response.data.data.url;
+                title = response.data.data.title;
+            }
+            
+            if (downloadUrl) {
+                console.log(`✅ API working: ${endpoint}`);
+                return { success: true, download_url: downloadUrl, title, duration, usedApi: endpoint };
+            }
+        } catch (error) {
+            console.log(`❌ API failed: ${error.message}`);
+            errors.push(`${endpoint}: ${error.message}`);
+        }
+    }
+    
+    return { success: false, error: `All APIs failed: ${errors.join(', ')}` };
+}
 
 gmd(
   {
@@ -89,7 +155,6 @@ gmd(
 
     try {
       const buffer = await gmdBuffer(q);
-    //  const convertedBuffer = await formatVideo(buffer);
       if (buffer instanceof Error) {
         await react("❌");
         return reply("Failed to download the video file.");
@@ -113,51 +178,6 @@ gmd(
   },
 );
 
-
-// Valid audio/video files are always at least 10 KB.
-// Anything smaller is a JSON error body served with HTTP 200.
-const isValidBuffer = (buf) => Buffer.isBuffer(buf) && buf.length > 10240;
-
-async function queryAPI(query, endpoints, conText, timeout = 20000) {
-  const { GiftedTechApi, GiftedApiKey } = conText;
-  const t0 = Date.now();
-
-  const attempts = endpoints.map(endpoint => {
-    const apiUrl = `${GiftedTechApi}/api/download/${endpoint}?apikey=${GiftedApiKey}&url=${encodeURIComponent(query)}`;
-    return axios.get(apiUrl, { timeout })
-      .then(res => {
-        if (res.data?.success && res.data?.result?.download_url) {
-          return { success: true, data: res.data, endpoint, download_url: res.data.result.download_url };
-        }
-        throw new Error(`${endpoint}: no download_url`);
-      });
-  });
-
-  try {
-    return await Promise.any(attempts);
-  } catch {
-    return { success: false, error: "All endpoints failed" };
-  }
-}
-
-const audioEndpoints = [
-  'ytmp3v2',
-  'ytaudio',
-  'yta',
-  'ytmp3',
-  'savetubemp3',
-  'savemp3'
-];
-
-const videoEndpoints = [
-  'ytmp4v2',
-  'ytvideo',
-  'ytv',
-  'ytmp4',
-  'savetubemp4',
-  'savemp4'
-];
-
 gmd(
   {
     pattern: "play",
@@ -180,121 +200,126 @@ gmd(
 
     if (!q) {
       await react("❌");
-      return reply("Please provide a song name");
+      return reply("Please provide a song name or YouTube link");
     }
 
     try {
-      const searchResponse = await yts(q);
-
-      if (!searchResponse.videos.length) {
-        return reply("No video found for your query.");
+      // Check if input is a YouTube URL or search query
+      let videoUrl;
+      let videoInfo;
+      
+      if (q.includes('youtube.com/watch') || q.includes('youtu.be/')) {
+        videoUrl = q;
+        // Search with the URL to get info
+        const searchResponse = await yts({ videoId: videoUrl.split('v=')[1]?.split('&')[0] || videoUrl.split('/').pop() });
+        videoInfo = searchResponse;
+      } else {
+        // Search for the video
+        const searchResponse = await yts(q);
+        if (!searchResponse.videos.length) {
+          return reply("❌ No video found for your query.");
+        }
+        videoInfo = searchResponse.videos[0];
+        videoUrl = videoInfo.url;
       }
-
-      const firstVideo = searchResponse.videos[0];
-      const videoUrl = firstVideo.url;
+      
+      const title = videoInfo.title || videoInfo.name;
+      const duration = videoInfo.timestamp || videoInfo.duration || "Unknown";
+      const thumbnail = videoInfo.thumbnail || videoInfo.image || botPic;
       
       await react("🔍");
-      const endpointResult = await queryAPI(videoUrl, audioEndpoints, conText);
       
-      if (!endpointResult.success) {
+      // Try APIs for audio download
+      const audioApis = getAudioApis(videoUrl);
+      const result = await queryAPI(videoUrl, audioApis, 30000);
+      
+      if (!result.success) {
         await react("❌");
-        return reply("All download services are currently unavailable. Please try again later.");
+        return reply("❌ All download services are currently unavailable. Please try again later.\n\nYou can also try:\n• .play2 (alternative)\n• Download manually from YouTube");
       }
       
-      let bufferRes = await gmdBuffer(endpointResult.download_url);
-
-      // If the winning endpoint's download URL failed or returned a tiny error body, retry the rest
-      if (!isValidBuffer(bufferRes)) {
-        const remaining = audioEndpoints.filter(e => e !== endpointResult.endpoint);
-        const retry = await queryAPI(videoUrl, remaining, conText);
-        if (retry.success) bufferRes = await gmdBuffer(retry.download_url);
-      }
-
-      if (!isValidBuffer(bufferRes)) {
+      let buffer = await gmdBuffer(result.download_url);
+      
+      if (!isValidBuffer(buffer)) {
         await react("❌");
         return reply("Failed to download audio. Please try again later.");
       }
-
-      // Large file — skip buttons, send directly as document
-      if (bufferRes.length > 60 * 1024 * 1024) {
+      
+      // Large file handling
+      if (buffer.length > 60 * 1024 * 1024) {
         await react("📄");
-        const convertedBuffer = await formatAudio(bufferRes);
+        const convertedBuffer = await formatAudio(buffer);
         await Gifted.sendMessage(from, {
           document: convertedBuffer,
           mimetype: "audio/mpeg",
-          fileName: `${firstVideo.title}.mp3`.replace(/[^\w\s.-]/gi, ""),
-          caption: `⿻ *Title:* ${firstVideo.title}\n⿻ *Duration:* ${firstVideo.timestamp}\n\n_File too large for audio streaming — sent as document_`,
+          fileName: `${title}.mp3`.replace(/[^\w\s.-]/gi, ""),
+          caption: `🎵 *Title:* ${title}\n⏱️ *Duration:* ${duration}\n\n_File too large - sent as document_`,
         });
+        await react("✅");
         return;
       }
-
+      
       const dateNow = Date.now();
-      const buttonId = `play_${firstVideo.id}_${dateNow}`;
+      const buttonId = `play_${dateNow}`;
       
       await sendButtons(Gifted, from, {
-        title: `${botName} 𝐒𝐎𝐍𝐆 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑`,
-        text: `⿻ *Title:* ${firstVideo.title}\n⿻ *Duration:* ${firstVideo.timestamp}\n\n*Select download format:*`,
+        title: `${botName} 🎵 SONG DOWNLOADER`,
+        text: `🎶 *Title:* ${title}\n⏱️ *Duration:* ${duration}\n\n*Select download format:*`,
         footer: botFooter,
-        image: { url: firstVideo.thumbnail || botPic },
+        image: { url: thumbnail },
         buttons: [
           { id: `audio_${buttonId}`, text: "Audio 🎶" },
-          { id: `doc_${buttonId}`, text: "Audio Document 📄" },
+          { id: `doc_${buttonId}`, text: "Document 📄" },
           {
             name: "cta_url",
             buttonParamsJson: JSON.stringify({
-              display_text: "Watch on Youtube",
-              url: firstVideo.url,
+              display_text: "▶️ Watch on YouTube",
+              url: videoUrl,
             }),
           },
         ],
       });
-
+      
       const handleResponse = async (event) => {
         const messageData = event.messages[0];
         if (!messageData.message) return;
-
+        
         const selectedButtonId = extractButtonId(messageData.message);
         if (!selectedButtonId) return;
-
+        
         const isFromSameChat = messageData.key?.remoteJid === from;
         if (!isFromSameChat || !selectedButtonId.includes(dateNow.toString())) return;
-
+        
         await react("⬇️");
-
-        if (!isValidBuffer(bufferRes)) {
-          await react("❌");
-          return reply("Download failed. Please try .play again.");
-        }
-
+        
         try {
           if (selectedButtonId.startsWith('audio_')) {
-            const convertedBuffer = await formatAudio(bufferRes);
+            const convertedBuffer = await formatAudio(buffer);
             await Gifted.sendMessage(
               from,
               {
                 audio: convertedBuffer,
                 mimetype: "audio/mpeg",
+                ptt: false,
               },
               { quoted: messageData }
             );
-          } 
-          else if (selectedButtonId.startsWith('doc_')) {
-            const convertedBuffer = await formatAudio(bufferRes);
+          } else if (selectedButtonId.startsWith('doc_')) {
+            const convertedBuffer = await formatAudio(buffer);
             await Gifted.sendMessage(
               from,
               {
                 document: convertedBuffer,
                 mimetype: "audio/mpeg",
-                fileName: `${firstVideo.title}.mp3`.replace(/[^\w\s.-]/gi, ""),
-                caption: `${firstVideo.title}`,
+                fileName: `${title}.mp3`.replace(/[^\w\s.-]/gi, ""),
+                caption: `🎵 ${title}`,
               },
               { quoted: messageData }
             );
-          } 
-          else {
+          } else {
             return;
           }
-
+          
           await react("✅");
         } catch (error) {
           console.error("Error sending media:", error);
@@ -302,9 +327,9 @@ gmd(
           await Gifted.sendMessage(from, { text: "Failed to send media. Please try again." }, { quoted: messageData });
         }
       };
-
+      
       Gifted.ev.on("messages.upsert", handleResponse);
-
+      
       setTimeout(() => {
         Gifted.ev.off("messages.upsert", handleResponse);
       }, 300000);
@@ -312,7 +337,7 @@ gmd(
     } catch (error) {
       console.error("Error during download process:", error);
       await react("❌");
-      return reply("Oops! Something went wrong. Please try again.");
+      return reply("❌ Oops! Something went wrong. Please try again.\n\nError: " + error.message);
     }
   },
 );
@@ -339,93 +364,101 @@ gmd(
 
     if (!q) {
       await react("❌");
-      return reply("Please provide a video name");
+      return reply("Please provide a video name or YouTube link");
     }
 
     try {
-      const searchResponse = await yts(q);
-
-      if (!searchResponse.videos.length) {
-        return reply("No video found for your query.");
+      // Check if input is a YouTube URL or search query
+      let videoUrl;
+      let videoInfo;
+      
+      if (q.includes('youtube.com/watch') || q.includes('youtu.be/')) {
+        videoUrl = q;
+        const searchResponse = await yts({ videoId: videoUrl.split('v=')[1]?.split('&')[0] || videoUrl.split('/').pop() });
+        videoInfo = searchResponse;
+      } else {
+        const searchResponse = await yts(q);
+        if (!searchResponse.videos.length) {
+          return reply("❌ No video found for your query.");
+        }
+        videoInfo = searchResponse.videos[0];
+        videoUrl = videoInfo.url;
       }
-
-      const firstVideo = searchResponse.videos[0];
-      const videoUrl = firstVideo.url;
+      
+      const title = videoInfo.title || videoInfo.name;
+      const duration = videoInfo.timestamp || videoInfo.duration || "Unknown";
+      const thumbnail = videoInfo.thumbnail || videoInfo.image || botPic;
       
       await react("🔍");
-      const endpointResult = await queryAPI(videoUrl, videoEndpoints, conText);
       
-      if (!endpointResult.success) {
+      // Try APIs for video download
+      const videoApis = getVideoApis(videoUrl);
+      const result = await queryAPI(videoUrl, videoApis, 30000);
+      
+      if (!result.success) {
         await react("❌");
-        return reply("All download services are currently unavailable. Please try again later.");
+        return reply("❌ All download services are currently unavailable. Please try again later.\n\nYou can also try:\n• .video2 (alternative)\n• Download manually from YouTube");
       }
       
-      let buffer = await gmdBuffer(endpointResult.download_url);
-
-      // If the winning endpoint's download URL failed or returned a tiny error body, retry the rest
-      if (!isValidBuffer(buffer)) {
-        const remaining = videoEndpoints.filter(e => e !== endpointResult.endpoint);
-        const retry = await queryAPI(videoUrl, remaining, conText);
-        if (retry.success) buffer = await gmdBuffer(retry.download_url);
-      }
-
+      let buffer = await gmdBuffer(result.download_url);
+      
       if (!isValidBuffer(buffer)) {
         await react("❌");
         return reply("Failed to download video. Please try again later.");
       }
-
+      
       const sizeMB = buffer.length / (1024 * 1024);
-
-      // Large file — skip buttons, send directly as document
+      
+      // Large file handling
       if (sizeMB > 100) {
         await react("📄");
-        const convertedBuffer = await formatVideo(buffer);
         await Gifted.sendMessage(from, {
-          document: convertedBuffer,
+          document: buffer,
           mimetype: "video/mp4",
-          fileName: `${firstVideo.title}.mp4`.replace(/[^\w\s.-]/gi, ""),
-          caption: `⿻ *Title:* ${firstVideo.title}\n⿻ *Duration:* ${firstVideo.timestamp}\n\n_File too large for video streaming — sent as document_`,
+          fileName: `${title}.mp4`.replace(/[^\w\s.-]/gi, ""),
+          caption: `🎥 *Title:* ${title}\n⏱️ *Duration:* ${duration}\n📦 *Size:* ${sizeMB.toFixed(2)} MB\n\n_File too large - sent as document_`,
         });
+        await react("✅");
         return;
       }
-
+      
       if (sizeMB > 20) {
-        await reply("File is large, processing might take a while...");
+        await reply("⏳ File is large, processing might take a while...");
       }
-
+      
       const dateNow = Date.now();
-      const buttonId = `video_${firstVideo.id}_${dateNow}`;
+      const buttonId = `video_${dateNow}`;
       
       await sendButtons(Gifted, from, {
-        title: `${botName} 𝐕𝐈𝐃𝐄𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑`,
-        text: `⿻ *Title:* ${firstVideo.title}\n⿻ *Duration:* ${firstVideo.timestamp}\n\n*Select download format:*`,
+        title: `${botName} 🎥 VIDEO DOWNLOADER`,
+        text: `🎬 *Title:* ${title}\n⏱️ *Duration:* ${duration}\n📦 *Size:* ${sizeMB.toFixed(2)} MB\n\n*Select download format:*`,
         footer: botFooter,
-        image: { url: firstVideo.thumbnail || botPic },
+        image: { url: thumbnail },
         buttons: [
           { id: `vid_${buttonId}`, text: "Video 🎥" },
-          { id: `doc_${buttonId}`, text: "Video Document 📄" },
+          { id: `doc_${buttonId}`, text: "Document 📄" },
           {
             name: "cta_url",
             buttonParamsJson: JSON.stringify({
-              display_text: "Watch on Youtube",
-              url: firstVideo.url,
+              display_text: "▶️ Watch on YouTube",
+              url: videoUrl,
             }),
           },
         ],
       });
-
+      
       const handleResponse = async (event) => {
         const messageData = event.messages[0];
         if (!messageData.message) return;
-
+        
         const selectedButtonId = extractButtonId(messageData.message);
         if (!selectedButtonId) return;
-
+        
         const isFromSameChat = messageData.key?.remoteJid === from;
         if (!isFromSameChat || !selectedButtonId.includes(dateNow.toString())) return;
-
+        
         await react("⬇️");
-
+        
         try {
           if (selectedButtonId.startsWith('vid_')) {
             const formattedVideo = await formatVideo(buffer);
@@ -434,28 +467,25 @@ gmd(
               {
                 video: formattedVideo,
                 mimetype: "video/mp4",
-                fileName: `${firstVideo.title}.mp4`.replace(/[^\w\s.-]/gi, ""),
-                caption: `🎥 ${firstVideo.title}`,
+                caption: `🎬 ${title}`,
               },
               { quoted: messageData }
             );
-          } 
-          else if (selectedButtonId.startsWith('doc_')) {
+          } else if (selectedButtonId.startsWith('doc_')) {
             await Gifted.sendMessage(
               from,
               {
                 document: buffer,
                 mimetype: "video/mp4",
-                fileName: `${firstVideo.title}.mp4`.replace(/[^\w\s.-]/gi, ""),
-                caption: `📄 ${firstVideo.title}`,
+                fileName: `${title}.mp4`.replace(/[^\w\s.-]/gi, ""),
+                caption: `📄 ${title}`,
               },
               { quoted: messageData }
             );
-          } 
-          else {
+          } else {
             return;
           }
-
+          
           await react("✅");
         } catch (error) {
           console.error("Error sending media:", error);
@@ -463,9 +493,9 @@ gmd(
           await Gifted.sendMessage(from, { text: "Failed to send media. Please try again." }, { quoted: messageData });
         }
       };
-
+      
       Gifted.ev.on("messages.upsert", handleResponse);
-
+      
       setTimeout(() => {
         Gifted.ev.off("messages.upsert", handleResponse);
       }, 300000);
@@ -473,7 +503,7 @@ gmd(
     } catch (error) {
       console.error("Error during download process:", error);
       await react("❌");
-      return reply("Oops! Something went wrong. Please try again.");
+      return reply("❌ Oops! Something went wrong. Please try again.\n\nError: " + error.message);
     }
   },
 );
