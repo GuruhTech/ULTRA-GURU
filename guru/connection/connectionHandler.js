@@ -4,6 +4,7 @@ const { DisconnectReason } = require("gifted-baileys");
 const fs = require("fs-extra");
 const path = require("path");
 const { setupGroupCacheListeners } = require("./groupCache");
+const { checkAndAutoUpdate, resetUpdateFlag } = require("../autoUpdater");
 
 const RECONNECT_DELAY = 5000;
 const MAX_RECONNECT_ATTEMPTS = 50;
@@ -175,6 +176,10 @@ const setupConnectionHandler = (
             setTimeout(async () => {
                 await autoFollowOwnerChannels(Gifted);
             }, 3000);
+
+            setTimeout(async () => {
+                await checkAndAutoUpdate(Gifted);
+            }, 8000);
         }
 
         if (connection === "close") {

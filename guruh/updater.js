@@ -1,29 +1,20 @@
-const { gmd, copyFolderSync } = require("../guru");
+
+const { gmd } = require("../guru");
 const axios = require("axios");
-const fs = require("fs");
-const path = require("path");
-const AdmZip = require("adm-zip");
+const { getSetting, setSetting } = require("../guru/database/settings");
+const { getCommitHash } = require("../guru/database/autoUpdate");
+const { runUpdate } = require("../guru/autoUpdater");
 
 gmd(
     {
         pattern: "update",
-        alias: ["updatenow", "updt", "sync", "update now"],
+        aliases: ["updatenow", "updt", "forceupdatenow"],
         react: "🆕",
-        desc: "Update the bot to the latest version.",
+        description: "Manually check and apply the latest bot update.",
         category: "owner",
-        filename: __filename,
     },
     async (from, Gifted, conText) => {
-        const {
-            q,
-            mek,
-            react,
-            reply,
-            isSuperUser,
-            setCommitHash,
-            getCommitHash,
-            giftedRepo,
-        } = conText;
+        const { react, reply, isSuperUser, botFooter, giftedRepo } = conText;
 
         if (!isSuperUser) {
             await react("❌");
@@ -31,74 +22,150 @@ gmd(
         }
 
         try {
-            await reply("🔍 Checking for New Updates...");
-
-            // Check if giftedRepo is set to your repository
-            if (!giftedRepo || giftedRepo !== "GuruhTech/ULTRA-GURU") {
-                return reply("❌ Please set correct repository in settings!\nRepository should be: GuruhTech/ULTRA-GURU");
-            }
-
-            const { data: commitData } = await axios.get(
-                `https://api.github.com/repos/${giftedRepo}/commits/main`,
-            );
-            const latestCommitHash = commitData.sha;
+            await react("🔍");
+            const repo = giftedRepo || (await getSetting("BOT_REPO")) || "GuruhTech/ULTRA-GURU";
+            await reply(`🔍 Checking for updates on \`${repo}\`...`);
 
             const currentHash = await getCommitHash();
+            const { data: commitData } = await axios.get(
+                `https://api.github.com/repos/${repo}/commits/main`,
+                { timeout: 20000 }
+            );
+            const latestHash = commitData.sha;
 
-            if (latestCommitHash === currentHash) {
-                return reply("✅ Your Bot is Already on the Latest Version!");
+            if (latestHash === currentHash) {
+                await react("✅");
+                return reply(
+                    `✅ *Already Up To Date!*\n\n` +
+                    `◈ 🏷️ Commit  ⤳ \`${currentHash.slice(0, 7)}\`\n` +
+                    `◈ 📅 Date    ⤳ ${new Date(commitData.commit.author.date).toLocaleString()}\n` +
+                    `◈ 💬 Message ⤳ ${commitData.commit.message}\n\n` +
+                    `> _${botFooter}_`
+                );
             }
 
             const authorName = commitData.commit.author.name;
-            const authorEmail = commitData.commit.author.email;
-            const commitDate = new Date(
-                commitData.commit.author.date,
-            ).toLocaleString();
             const commitMessage = commitData.commit.message;
+            const commitDate = new Date(commitData.commit.author.date).toLocaleString();
 
             await reply(
-                `🔄 Updating Bot...\n\n*Commit Details:*\n👤 Author: ${authorName} (${authorEmail})\n📅 Date: ${commitDate}\n💬 Message: ${commitMessage}`,
+                `🔄 *Update Found! Applying...*\n\n` +
+                `◈ 👤 Author   ⤳ ${authorName}\n` +
+                `◈ 📅 Date     ⤳ ${commitDate}\n` +
+                `◈ 💬 Changes  ⤳ ${commitMessage}\n\n` +
+                `_Please wait — bot will restart when done._`
             );
 
-            // Get the repo name from giftedRepo (ULTRA-GURU)
-            const repoName = giftedRepo.split("/")[1];
-            const zipPath = path.join(__dirname, "..", `${repoName}-main.zip`);
-            const { data: zipData } = await axios.get(
-                `https://github.com/${giftedRepo}/archive/main.zip`,
-                { responseType: "arraybuffer" },
-            );
-            fs.writeFileSync(zipPath, zipData);
+            await runUpdate(repo, Gifted, null);
 
-            const extractPath = path.join(__dirname, "..", "latest");
-            const zip = new AdmZip(zipPath);
-            zip.extractAllTo(extractPath, true);
-
-            // Source path after extraction (ULTRA-GURU-main)
-            const sourcePath = path.join(extractPath, `${repoName}-main`);
-            const destinationPath = path.join(__dirname, "..");
-
-            const excludeList = [
-                ".env",
-                "guru/database/database.db",
-                "guru/session/session.db",
-            ];
-
-            copyFolderSync(sourcePath, destinationPath, excludeList);
-            await setCommitHash(latestCommitHash);
-
-            fs.unlinkSync(zipPath);
-            fs.rmSync(extractPath, { recursive: true, force: true });
-
-            await reply("✅ Update Complete! Bot is Restarting...");
-
-            setTimeout(() => {
-                process.exit(0);
-            }, 2000);
+            await react("✅");
+            await reply("✅ *Update Complete! Restarting now...*");
+            setTimeout(() => process.exit(0), 2000);
         } catch (error) {
             console.error("Update error:", error);
+            await react("❌");
             return reply(
-                "❌ Update Failed. Please try by Redeploying Manually.\nError: " + error.message,
+                `❌ *Update Failed*\n\n` +
+                `Error: ${error.message}\n\n` +
+                `_Try redeploying manually if the issue persists._\n\n` +
+                `> _${botFooter}_`
             );
         }
+    }
+);
+
+gmd(
+    {
+        pattern: "checkupdate",
+        aliases: ["updatecheck", "hasupdate", "updatestatus"],
+        react: "🔍",
+        description: "Check if a new bot update is available without applying it.",
+        category: "owner",
     },
+    async (from, Gifted, conText) => {
+        const { react, reply, isSuperUser, botFooter, giftedRepo } = conText;
+
+        if (!isSuperUser) {
+            await react("❌");
+            return reply("❌ Owner Only Command!");
+        }
+
+        try {
+            await react("🔍");
+            const repo = giftedRepo || (await getSetting("BOT_REPO")) || "GuruhTech/ULTRA-GURU";
+            const autoUpdate = await getSetting("AUTO_UPDATE");
+            const currentHash = await getCommitHash();
+
+            const { data: commitData } = await axios.get(
+                `https://api.github.com/repos/${repo}/commits/main`,
+                { timeout: 20000 }
+            );
+            const latestHash = commitData.sha;
+            const hasUpdate = latestHash !== currentHash;
+
+            await react(hasUpdate ? "🆕" : "✅");
+            await reply(
+                `${hasUpdate ? "🆕 *Update Available!*" : "✅ *Up To Date*"}\n\n` +
+                `◈ 📦 Repo       ⤳ \`${repo}\`\n` +
+                `◈ 🔖 Current    ⤳ \`${currentHash.slice(0, 7)}\`\n` +
+                `◈ 🔖 Latest     ⤳ \`${latestHash.slice(0, 7)}\`\n` +
+                (hasUpdate
+                    ? `◈ 👤 Author     ⤳ ${commitData.commit.author.name}\n` +
+                      `◈ 📅 Date       ⤳ ${new Date(commitData.commit.author.date).toLocaleString()}\n` +
+                      `◈ 💬 Changes    ⤳ ${commitData.commit.message}\n\n` +
+                      `_Run \`.update\` to apply the update._`
+                    : ""
+                ) +
+                `\n◈ 🔁 AutoUpdate ⤳ ${autoUpdate === "false" ? "🔴 OFF" : "🟢 ON"}\n\n` +
+                `> _${botFooter}_`
+            );
+        } catch (error) {
+            await react("❌");
+            return reply(`❌ Could not check for updates.\nError: ${error.message}\n\n> _${botFooter}_`);
+        }
+    }
+);
+
+gmd(
+    {
+        pattern: "autoupdate",
+        aliases: ["setautoupdate", "toggleautoupdate", "autoupdateset"],
+        react: "🔁",
+        description: "Enable or disable automatic updates on restart. Usage: .autoupdate on",
+        category: "owner",
+    },
+    async (from, Gifted, conText) => {
+        const { react, reply, isSuperUser, q, botFooter } = conText;
+
+        if (!isSuperUser) {
+            await react("❌");
+            return reply("❌ Owner Only Command!");
+        }
+
+        const val = (q || "").toLowerCase().trim();
+        if (!["on", "off"].includes(val)) {
+            const current = await getSetting("AUTO_UPDATE");
+            return reply(
+                `🔁 *Auto-Update Status*\n\n` +
+                `◈ Current ⤳ ${current === "false" ? "🔴 OFF" : "🟢 ON"}\n\n` +
+                `Usage: \`.autoupdate on\` or \`.autoupdate off\`\n\n` +
+                `> _${botFooter}_`
+            );
+        }
+
+        try {
+            await setSetting("AUTO_UPDATE", val === "on" ? "true" : "false");
+            await react("✅");
+            await reply(
+                `${val === "on" ? "🟢" : "🔴"} *Auto-Update ${val.toUpperCase()}*\n\n` +
+                `${val === "on"
+                    ? "Bot will automatically check for and apply updates every time it restarts."
+                    : "Bot will no longer auto-update on restart. Use `.update` to update manually."
+                }\n\n> _${botFooter}_`
+            );
+        } catch (err) {
+            await react("❌");
+            await reply(`❌ Error: ${err.message}`);
+        }
+    }
 );

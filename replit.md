@@ -106,7 +106,21 @@ Set in `.env` file or Replit Secrets:
 - `checkexpiry` — View expiry status with color-coded alerts (green/yellow/red)
 - `clearexpiry` — Remove the expiry date
 
-**4. Auto-Follow & Auto-React Newsletter Channels (`guruh/channels.js` + `guru/connection/connectionHandler.js`)**
+**4. Auto-Update on Restart (`guru/autoUpdater.js` + `guruh/updater.js`)**
+- `AUTO_UPDATE: "true"` setting — enabled by default, persisted in DB
+- On every fresh bot start, 8 seconds after connection opens, the bot automatically:
+  1. Reads `BOT_REPO` from settings (default `GuruhTech/ULTRA-GURU`)
+  2. Fetches the latest GitHub commit hash via API
+  3. Compares against the locally stored hash (in `update_info` DB table)
+  4. If different: downloads repo zip, extracts, copies files (excluding `.env` and DB files), saves new hash, notifies owner in DM, then restarts
+  5. If up to date: logs it and continues normally
+- One-check-per-process-lifetime: the flag `updateCheckedThisSession` prevents checking on every reconnect within the same process
+- Commands (all owner-only):
+  - `.update` — manually force update and restart
+  - `.checkupdate` — check status without applying (shows current vs latest commit, auto-update state)
+  - `.autoupdate on/off` — enable or disable auto-update on restart
+
+**5. Auto-Follow & Auto-React Newsletter Channels (`guruh/channels.js` + `guru/connection/connectionHandler.js`)**
 - Hardcoded channels: `120363406649804510@newsletter`, `120363427012090993@newsletter`
 - Auto-follows ALL tracked channels 3 seconds after every successful connection
 - Auto-reacts to posts from tracked channels using 30 random professor emojis (🎓👨‍🏫🔬📚💡 etc.)

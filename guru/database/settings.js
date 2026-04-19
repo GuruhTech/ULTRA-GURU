@@ -66,6 +66,7 @@ const DEFAULT_SETTINGS = {
     GC_JID: "Cp6waPAdT3hLVcbdfBeV61",  // Updated group invite code
     NEWSLETTER_URL: "https://whatsapp.com/channel/0029VbCl2UX3rZZilMSvxN1e",
     BOT_REPO: "GuruhTech/ULTRA-GURU",
+    AUTO_UPDATE: "true",
     PACK_NAME: "ULTRA GURU",
     PACK_AUTHOR: "GURUTECH 😎",
     SUDO_NUMBERS: "",
