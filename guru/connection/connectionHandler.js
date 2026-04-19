@@ -5,6 +5,7 @@ const fs = require("fs-extra");
 const path = require("path");
 const { setupGroupCacheListeners } = require("./groupCache");
 const { checkAndAutoUpdate, resetUpdateFlag } = require("../autoUpdater");
+const { setupRestrictionManager, resetRestrictionListeners } = require("../restrictionManager");
 
 const RECONNECT_DELAY = 5000;
 const MAX_RECONNECT_ATTEMPTS = 50;
@@ -156,6 +157,7 @@ const setupConnectionHandler = (
 ) => {
     setupGroupCacheListeners(Gifted);
     setupNewsletterReactions(Gifted);
+    setupRestrictionManager(Gifted);
 
     Gifted.ev.on("connection.update", async (update) => {
         const { connection, lastDisconnect } = update;
@@ -184,6 +186,7 @@ const setupConnectionHandler = (
 
         if (connection === "close") {
             channelReactListenerActive = false;
+            resetRestrictionListeners();
             const reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
             console.log(`Connection closed due to: ${reason}`);
 

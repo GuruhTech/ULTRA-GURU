@@ -164,18 +164,18 @@ gmd(
         (command) => command.pattern && !command.dontAddCommandList,
       ).length;
 
-      let expiryLine = "";
+      let expiryBannerMenus = "  ✦ _Bot is Running Normally_";
       try {
         const expiryDate = await getSetting("BOT_EXPIRY_DATE");
         if (expiryDate) {
           const exp = new Date(expiryDate);
           const daysLeft = Math.ceil((exp - now) / (1000 * 60 * 60 * 24));
           if (daysLeft <= 0) {
-            expiryLine = `\n◈ 🔴 Expiry   ⤳ *EXPIRED* (${exp.toDateString()})`;
+            expiryBannerMenus = `  🔴 *EXPIRED* · License ended · ${exp.toDateString()}`;
           } else if (daysLeft <= 7) {
-            expiryLine = `\n◈ 🟡 Expiry   ⤳ *${daysLeft}d left* (${exp.toDateString()})`;
+            expiryBannerMenus = `  🟡 *EXPIRY SOON* · ${daysLeft}d left · ${exp.toDateString()}`;
           } else {
-            expiryLine = `\n◈ 🟢 Expiry   ⤳ *${daysLeft}d left* (${exp.toDateString()})`;
+            expiryBannerMenus = `  🟢 *ACTIVE* · ${daysLeft}d left · ${exp.toDateString()}`;
           }
         }
       } catch {}
@@ -204,7 +204,11 @@ gmd(
         .join("\n");
 
       let menus =
-`꧁━━━━━ ✦ *${botName.toUpperCase()}* ✦ ━━━━━꧂
+`◢◣◢◣◢◣◢ *${(botName || "ULTRA GURU MD").toUpperCase()}* ◢◣◢◣◢◣◢
+       ⋄ _POWERED BY GURUTECH_ ⋄
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+${expiryBannerMenus}
+▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 ◈ 👤 User     ⤳ ${pushName}
 ◈ 📱 Mode     ⤳ ${botMode?.toUpperCase() || "PUBLIC"}
@@ -214,7 +218,7 @@ gmd(
 ◈ ⏱️ Uptime   ⤳ ${uptime}
 ◈ 🕒 Time     ⤳ ${time}
 ◈ 📅 Date     ⤳ ${date}
-◈ 🌍 Zone     ⤳ ${timeZone}${expiryLine}
+◈ 🌍 Zone     ⤳ ${timeZone}
 
 ╍╍╍╍╍╍ 📂 *COMMAND CATEGORIES* ╍╍╍╍╍╍
 
@@ -310,8 +314,25 @@ gmd(
         (command) => command.pattern && !command.dontAddCommandList,
       ).length;
 
+      let expiryBannerList = "  ✦ _Bot is Running Normally_";
+      try {
+        const { getSetting: getSettingList } = require("../guru/database/settings");
+        const expiryRawList = await getSettingList("BOT_EXPIRY_DATE");
+        if (expiryRawList) {
+          const expL = new Date(expiryRawList);
+          const dL = Math.ceil((expL - now) / (1000 * 60 * 60 * 24));
+          if (dL <= 0) expiryBannerList = `  🔴 *EXPIRED* · ${expL.toDateString()}`;
+          else if (dL <= 7) expiryBannerList = `  🟡 *EXPIRY SOON* · ${dL}d left · ${expL.toDateString()}`;
+          else expiryBannerList = `  🟢 *ACTIVE* · ${dL}d left · ${expL.toDateString()}`;
+        }
+      } catch {}
+
       let list =
-`꧁━━━━━ ✦ *${(botName || "ULTRA GURU MD").toUpperCase()}* ✦ ━━━━━꧂
+`◢◣◢◣◢◣◢ *${(botName || "ULTRA GURU MD").toUpperCase()}* ◢◣◢◣◢◣◢
+       ⋄ _POWERED BY GURUTECH_ ⋄
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+${expiryBannerList}
+▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
          📋 _Full Command Index_
 
 ◈ 🌐 Mode     ⤳ ${monospace((botMode || "public").toUpperCase())}
@@ -431,17 +452,15 @@ gmd(
       }
 
       const { getSetting: getSettingMenu } = require("../guru/database/settings");
-      let expiryHeaderLine = "";
+      let expiryBannerMenu = "  ✦ _Bot is Running Normally_";
       try {
         const expiryRaw = await getSettingMenu("BOT_EXPIRY_DATE");
         if (expiryRaw) {
           const expD = new Date(expiryRaw);
           const dLeft = Math.ceil((expD - new Date()) / (1000 * 60 * 60 * 24));
-          expiryHeaderLine = dLeft <= 0
-            ? `\n◈ 🔴 Expiry   ⤳ *EXPIRED* (${expD.toDateString()})`
-            : dLeft <= 7
-              ? `\n◈ 🟡 Expiry   ⤳ *${dLeft}d left* (${expD.toDateString()})`
-              : `\n◈ 🟢 Expiry   ⤳ *${dLeft}d left* (${expD.toDateString()})`;
+          if (dLeft <= 0) expiryBannerMenu = `  🔴 *EXPIRED* · License ended · ${expD.toDateString()}`;
+          else if (dLeft <= 7) expiryBannerMenu = `  🟡 *EXPIRY SOON* · ${dLeft}d left · ${expD.toDateString()}`;
+          else expiryBannerMenu = `  🟢 *ACTIVE* · ${dLeft}d left · ${expD.toDateString()}`;
         }
       } catch {}
 
@@ -453,7 +472,11 @@ gmd(
       };
 
       let header =
-`꧁━━━━━ ✦ *${(botName || "ULTRA GURU MD").toUpperCase()}* ✦ ━━━━━꧂
+`◢◣◢◣◢◣◢ *${(botName || "ULTRA GURU MD").toUpperCase()}* ◢◣◢◣◢◣◢
+       ⋄ _POWERED BY GURUTECH_ ⋄
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+${expiryBannerMenu}
+▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
          🗂️ _Complete Command Vault_
 
 ◈ 🤖 Bot      ⤳ ${monospace(botName)}
@@ -466,7 +489,7 @@ gmd(
 ◈ 🕒 Time     ⤳ ${monospace(time)}
 ◈ 📅 Date     ⤳ ${monospace(date)}
 ◈ 🌍 Zone     ⤳ ${monospace(timeZone)}
-◈ 💾 RAM      ⤳ ${monospace(ram)}${expiryHeaderLine}
+◈ 💾 RAM      ⤳ ${monospace(ram)}
 
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍${readmore}\n\n`;
 
