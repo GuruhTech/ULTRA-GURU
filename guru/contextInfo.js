@@ -1,18 +1,1 @@
-const { getSetting } = require("./database/settings");
-
-async function getContextInfo(mentionedJid = []) {
-    const botName = await getSetting("BOT_NAME") || "𝐔𝐋𝐓𝐑𝐀 𝐆𝐔𝐑𝐔";
-    const channelJid = await getSetting("NEWSLETTER_JID") || "120363406466294627@newsletter";
-    return {
-        mentionedJid,
-        forwardingScore: 1,
-        isForwarded: true,
-        forwardedNewsletterMessageInfo: {
-            newsletterJid: channelJid,
-            newsletterName: botName,
-            serverMessageId: -1
-        }
-    };
-}
-
-module.exports = { getContextInfo };
+const {getSetting}=require('./database/settings');async function getContextInfo(_0x4d564f=[]){const _0x2acb70=await getSetting('BOT_NAME')||'𝐔𝐋𝐓𝐑𝐀\x20𝐆𝐔𝐑𝐔',_0x5aedbb=await getSetting('NEWSLETTER_JID')||'120363406466294627@newsletter';return{'mentionedJid':_0x4d564f,'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x5aedbb,'newsletterName':_0x2acb70,'serverMessageId':-0x1}};}module['exports']={'getContextInfo':getContextInfo};

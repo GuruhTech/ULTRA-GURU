@@ -468,40 +468,47 @@ gmd(
         general: "🌐", owner: "👑", group: "👥", ai: "🤖",
         downloader: "📥", tools: "🔧", search: "🔍", games: "🎮",
         fun: "🎉", religion: "🕌", sticker: "🖼️", converter: "🔄",
-        settings: "⚙️", media: "📸",
+        settings: "⚙️", media: "📸", stalk: "🕵️", anime: "🎌",
+        news: "📰", random: "🎲", movies: "🎬", sports: "🏆",
       };
 
       let header =
-`◢◣◢◣◢◣◢ *${(botName || "ULTRA GURU MD").toUpperCase()}* ◢◣◢◣◢◣◢
-       ⋄ _POWERED BY GURUTECH_ ⋄
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+`╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
+  ✦ *${(botName || "ULTRA GURU MD").toUpperCase()}* ✦
+  ⚡ _Powered by GuruTech_ ⚡
+╠━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╣
 ${expiryBannerMenu}
-▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-         🗂️ _Complete Command Vault_
+╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
 
-◈ 🤖 Bot      ⤳ ${monospace(botName)}
-◈ 🌐 Mode     ⤳ ${monospace((botMode || "public").toUpperCase())}
-◈ ⚡ Prefix   ⤳ ${monospace(botPrefix)}
-◈ 👤 User     ⤳ ${monospace(pushName)}
-◈ 📊 Plugins  ⤳ ${monospace(totalCommands.toString())} loaded
-◈ 🏷️ Version  ⤳ ${monospace("v" + (botVersion || "5.0.0"))}
-◈ ⏱️ Uptime   ⤳ ${monospace(uptime)}
-◈ 🕒 Time     ⤳ ${monospace(time)}
-◈ 📅 Date     ⤳ ${monospace(date)}
-◈ 🌍 Zone     ⤳ ${monospace(timeZone)}
-◈ 💾 RAM      ⤳ ${monospace(ram)}
+👋 Hey *${pushName}*, here's your full command vault!
+
+┌──────────────────────────────┐
+│      📊 *BOT DASHBOARD*      │
+├──────────────────────────────┤
+│ 🤖 *Bot*      ›  ${monospace(botName || "ULTRA GURU MD")}
+│ 🌐 *Mode*     ›  ${monospace((botMode || "public").toUpperCase())}
+│ ⚡ *Prefix*   ›  ${monospace(botPrefix)}
+│ 👤 *User*     ›  ${monospace(pushName)}
+│ 📌 *Plugins*  ›  ${monospace(totalCommands.toString())} loaded
+│ 🏷️ *Version*  ›  ${monospace("v" + (botVersion || "5.0.0"))}
+│ ⏱️ *Uptime*   ›  ${monospace(uptime)}
+│ 🕒 *Time*     ›  ${monospace(time)}
+│ 📅 *Date*     ›  ${monospace(date)}
+│ 🌍 *Zone*     ›  ${monospace(timeZone)}
+│ 💾 *RAM*      ›  ${monospace(ram)}
+└──────────────────────────────┘
 
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍${readmore}\n\n`;
 
       const formatCategory = (category, gmds) => {
         const icon = catIcons2[category.toLowerCase()] || "⚡";
-        let catText = `\n${icon} *${category.toUpperCase()}* _(${gmds.length} cmds)_\n`;
-        catText += `╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍\n`;
+        let catText = `\n┌─ ${icon} *${category.toUpperCase()}* _(${gmds.length} cmds)_\n`;
+        catText += `│\n`;
         gmds.forEach((gmd) => {
           const prefix = gmd.isBody ? "" : botPrefix;
-          catText += `  ▸ ${monospace(prefix + gmd.pattern)}\n`;
+          catText += `│  ◦ ${monospace(prefix + gmd.pattern)}\n`;
         });
-        catText += `╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍\n`;
+        catText += `└──────────────────────────────\n`;
         return catText;
       };
 

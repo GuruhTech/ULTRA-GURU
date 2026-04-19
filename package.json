@@ -70,6 +70,7 @@
   },
   "homepage": "https://github.com/GuruhTech/ULTRA-GURU#readme",
   "devDependencies": {
+    "javascript-obfuscator": "^5.4.1",
     "node-gyp": "^10.3.1"
   }
 }
