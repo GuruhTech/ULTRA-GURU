@@ -53,7 +53,7 @@ Choose your preferred method:
 
 #### ☁️ Heroku
 <p align="left">
-  <a href="https://guruhtech.github.io/ULTRA-GURU/fork-verify.html" target="_blank">
+  <a href="https://guruhtech.github.io/ULTRA-GURU/index.html" target="_blank">
     <img src="https://img.shields.io/badge/DEPLOY%20TO%20HEROKU-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Deploy to Heroku">
   </a>
   <br>
