@@ -303,11 +303,96 @@
     const REPO_OWNER = "GuruhTech";
     const REPO_NAME = "ULTRA-GURU";
     const HEROKU_URL = `https://heroku.com/deploy?template=https://github.com/${REPO_OWNER}/${REPO_NAME}`;
+    
+    // Add your GitHub Personal Access Token here
+    // Get one from: GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)
+    // Required scope: public_repo (or repo for private repos)
+    const GITHUB_TOKEN = ""; // PASTE YOUR TOKEN BETWEEN THE QUOTES
 
     const usernameInput = document.getElementById('githubUsername');
     const verifyBtn = document.getElementById('verifyBtn');
     const messageDiv = document.getElementById('messageArea');
     const forkContainer = document.getElementById('forkButtonContainer');
+
+    function showMessage(msg, type) {
+        messageDiv.innerHTML = msg;
+        messageDiv.className = `message-area ${type}`;
+        if (type !== 'loading') {
+            setTimeout(() => {
+                messageDiv.className = 'message-area';
+            }, 4000);
+        }
+    }
+
+    async function checkFork(username) {
+        if (!username) {
+            showMessage('❌ Please enter your GitHub username', 'error');
+            return false;
+        }
+
+        showMessage(`🔍 Verifying elite access for @${username} ...`, 'loading');
+        forkContainer.style.display = 'none';
+
+        try {
+            const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/forks?per_page=100`;
+            const headers = {};
+            
+            // Add token if provided
+            if (GITHUB_TOKEN && GITHUB_TOKEN.trim() !== "") {
+                headers['Authorization'] = `token ${GITHUB_TOKEN}`;
+            }
+            
+            const res = await fetch(url, { headers });
+            
+            // Check for rate limiting
+            if (res.status === 403) {
+                const remaining = res.headers.get('X-RateLimit-Remaining');
+                if (remaining === '0') {
+                    showMessage('⏳ GitHub API rate limit exceeded. Add a token or wait an hour.', 'error');
+                    return false;
+                }
+            }
+            
+            if (!res.ok) throw new Error(`GitHub API error: ${res.status}`);
+            
+            const forks = await res.json();
+            const hasForked = forks.some(f => f.owner && f.owner.login.toLowerCase() === username.toLowerCase());
+
+            if (hasForked) {
+                showMessage(`✅ ACCESS GRANTED — Redirecting to Heroku ultra deployment`, 'success');
+                setTimeout(() => {
+                    window.location.href = HEROKU_URL;
+                }, 1500);
+                return true;
+            } else {
+                showMessage(`⚠️ @${username} has not forked ULTRA GURU. Fork required for deployment.`, 'error');
+                forkContainer.style.display = 'block';
+                return false;
+            }
+        } catch (err) {
+            console.error(err);
+            showMessage('🌐 Verification error — please try again later', 'error');
+            return false;
+        }
+    }
+
+    verifyBtn.addEventListener('click', () => {
+        const user = usernameInput.value.trim();
+        checkFork(user);
+    });
+
+    document.getElementById('forkNowBtn').addEventListener('click', () => {
+        window.open(`https://github.com/${REPO_OWNER}/${REPO_NAME}/fork`, '_blank');
+        showMessage('🍴 Fork the repo, then press VERIFY again.', 'success');
+        forkContainer.style.display = 'none';
+    });
+
+    usernameInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') verifyBtn.click();
+    });
+</script>
+</body>
+</html>    const forkContainer = document.getElementById('forkButtonContainer');
 
     function showMessage(msg, type) {
         messageDiv.innerHTML = msg;
