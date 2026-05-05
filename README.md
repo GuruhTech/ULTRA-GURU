@@ -53,7 +53,7 @@ Choose your preferred method:
 
 #### ☁️ Heroku
 <p align="left">
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/GuruhTech/ULTRA-GURU">
+  <a href="https://guruhtech.github.io/ULTRA-GURU/guru/guru.html">
     <img src="https://img.shields.io/badge/DEPLOY%20TO%20HEROKU-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Deploy to Heroku">
   </a>
 </p>
