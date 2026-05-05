@@ -1,0 +1,75 @@
+{
+  "name": "ULTRA GURU MD",
+  "version": "5.0.0",
+  "description": "ULTRA GURU - A Powerful Multi-Device WhatsApp Bot built by GURUTECH 😎 to Enhance Your WhatsApp Experience",
+  "logo": "https://files.catbox.moe/5evber.jpg",
+  "keywords": ["ultra-guru", "gurutech", "whatsapp-bot", "gifted-baileys", "guru-md"],
+  "success_url": "/",
+  "stack": "heroku-22",
+  "env": {
+    "SESSION_ID": {
+      "description": "Your WhatsApp session ID. Get it by running the bot locally or using the pairing page.",
+      "required": true,
+      "value": ""
+    },
+    "BOT_NAME": {
+      "description": "Name of your bot",
+      "required": false,
+      "value": "ULTRA GURU"
+    },
+    "OWNER_NAME": {
+      "description": "Owner name",
+      "required": false,
+      "value": "GURUTECH 😎"
+    },
+    "MODE": {
+      "description": "Bot mode: 'public' (everyone can use) or 'private' (only bot owner)",
+      "required": true,
+      "value": "public"
+    },
+    "TIME_ZONE": {
+      "description": "Your timezone (e.g., Africa/Nairobi, America/New_York, Asia/Kolkata)",
+      "required": true,
+      "value": "Africa/Nairobi"
+    },
+    "AUTO_LIKE_STATUS": {
+      "description": "Auto-like WhatsApp statuses. Set true or false.",
+      "required": false,
+      "value": "true"
+    },
+    "AUTO_READ_STATUS": {
+      "description": "Auto-view WhatsApp statuses. Set true or false.",
+      "required": false,
+      "value": "true"
+    },
+    "DATABASE_URL": {
+      "description": "PostgreSQL connection URL. Leave blank to use auto-provisioned Heroku Postgres, or supply your own (Neon, Supabase, etc.). Falls back to SQLite if empty.",
+      "required": false,
+      "value": ""
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0",
+      "as": "DATABASE"
+    }
+  ],
+  "buildpacks": [
+    { "url": "heroku/nodejs" },
+    { "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest" }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "environments": {
+    "test": {
+      "addons": [],
+      "env": {
+        "DATABASE_URL": ""
+      }
+    }
+  }
+}

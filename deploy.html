@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ULTRA GURU MD — Deploy to Heroku</title>
+  <link rel="icon" href="https://files.catbox.moe/5evber.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Orbitron:wght@700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --cyan:   #00b8ff;
+      --blue:   #1e90ff;
+      --deep:   #0a0c14;
+      --panel:  #0d1120;
+      --border: rgba(0,184,255,0.18);
+      --glow:   0 0 12px #00b8ff88, 0 0 30px #00b8ff33;
+      --glow2:  0 0 8px #1e90ff66;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      min-height: 100vh;
+      background: var(--deep);
+      font-family: 'Rajdhani', sans-serif;
+      color: #c8d8f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* ── GRID BACKGROUND ── */
+    body::before {
+      content: '';
+      position: fixed; inset: 0;
+      background-image:
+        linear-gradient(rgba(0,184,255,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,184,255,0.04) 1px, transparent 1px);
+      background-size: 44px 44px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ── CORNER SCANLINE ── */
+    body::after {
+      content: '';
+      position: fixed; inset: 0;
+      background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 3px,
+        rgba(0,0,0,0.07) 3px,
+        rgba(0,0,0,0.07) 4px
+      );
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ── RADIAL GLOW ── */
+    .bg-orb {
+      position: fixed;
+      border-radius: 50%;
+      filter: blur(100px);
+      pointer-events: none;
+      z-index: 0;
+    }
+    .bg-orb.one { width: 500px; height: 500px; top: -120px; left: -100px; background: radial-gradient(circle, #00b8ff18 0%, transparent 70%); }
+    .bg-orb.two { width: 400px; height: 400px; bottom: -80px; right: -80px; background: radial-gradient(circle, #1e90ff18 0%, transparent 70%); }
+
+    /* ── HEADER ── */
+    header {
+      position: relative; z-index: 10;
+      width: 100%;
+      border-bottom: 1px solid var(--border);
+      background: rgba(13,17,32,0.85);
+      backdrop-filter: blur(10px);
+      padding: 14px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-img {
+      width: 38px; height: 38px;
+      border-radius: 8px;
+      border: 1px solid var(--cyan);
+      box-shadow: var(--glow);
+      object-fit: cover;
+    }
+
+    .logo-text {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 900;
+      letter-spacing: 3px;
+      background: linear-gradient(90deg, var(--cyan), var(--blue));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .header-badge {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.7rem;
+      color: var(--cyan);
+      border: 1px solid rgba(0,184,255,0.3);
+      padding: 3px 10px;
+      border-radius: 4px;
+      letter-spacing: 2px;
+      animation: pulse-border 2.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse-border {
+      0%, 100% { border-color: rgba(0,184,255,0.3); box-shadow: none; }
+      50% { border-color: rgba(0,184,255,0.7); box-shadow: 0 0 8px #00b8ff44; }
+    }
+
+    /* ── MAIN CARD ── */
+    main {
+      position: relative; z-index: 10;
+      width: 100%;
+      max-width: 640px;
+      padding: 40px 20px 60px;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+
+    .hero-img {
+      width: 88px; height: 88px;
+      border-radius: 16px;
+      border: 2px solid var(--cyan);
+      box-shadow: var(--glow), 0 0 60px #00b8ff22;
+      object-fit: cover;
+      margin-bottom: 18px;
+      animation: float 4s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+
+    .hero-title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2rem;
+      font-weight: 900;
+      letter-spacing: 4px;
+      background: linear-gradient(135deg, var(--cyan) 0%, var(--blue) 50%, var(--cyan) 100%);
+      background-size: 200% 200%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: gradient-pan 3s ease infinite;
+      line-height: 1.2;
+      margin-bottom: 6px;
+    }
+
+    @keyframes gradient-pan {
+      0%,100% { background-position: 0% 50%; }
+      50%      { background-position: 100% 50%; }
+    }
+
+    .hero-sub {
+      font-size: 0.85rem;
+      color: rgba(200,216,240,0.5);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-family: 'Share Tech Mono', monospace;
+    }
+
+    /* ── CARD ── */
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px 28px;
+      margin-bottom: 16px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--cyan), var(--blue), transparent);
+    }
+
+    .card-title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.75rem;
+      letter-spacing: 3px;
+      color: var(--cyan);
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .card-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ── STEP ROWS ── */
+    .step {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 14px 0;
+      border-bottom: 1px solid rgba(0,184,255,0.07);
+    }
+    .step:last-child { border-bottom: none; padding-bottom: 0; }
+
+    .step-num {
+      width: 30px; height: 30px;
+      border-radius: 8px;
+      border: 1px solid rgba(0,184,255,0.4);
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Orbitron', monospace;
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--cyan);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .step-content { flex: 1; }
+
+    .step-label {
+      font-size: 0.98rem;
+      font-weight: 600;
+      color: #e2ecfa;
+      margin-bottom: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    .step-desc {
+      font-size: 0.82rem;
+      color: rgba(200,216,240,0.5);
+      font-family: 'Share Tech Mono', monospace;
+      line-height: 1.5;
+    }
+
+    .step-status {
+      width: 22px; height: 22px;
+      border-radius: 50%;
+      border: 2px solid rgba(0,184,255,0.25);
+      flex-shrink: 0;
+      margin-top: 4px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.7rem;
+      transition: all 0.3s ease;
+    }
+
+    .step-status.ok {
+      border-color: #00ff9d;
+      background: rgba(0,255,157,0.1);
+      color: #00ff9d;
+      box-shadow: 0 0 8px #00ff9d44;
+    }
+
+    .step-status.pending { border-color: rgba(0,184,255,0.25); color: transparent; }
+    .step-status.error {
+      border-color: #ff4d6d;
+      background: rgba(255,77,109,0.1);
+      color: #ff4d6d;
+    }
+
+    /* ── FORM ── */
+    .input-group {
+      margin-top: 8px;
+    }
+
+    .input-label {
+      font-size: 0.75rem;
+      font-family: 'Share Tech Mono', monospace;
+      color: rgba(200,216,240,0.5);
+      letter-spacing: 1.5px;
+      margin-bottom: 6px;
+      display: block;
+    }
+
+    .input-wrap {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .input-icon {
+      position: absolute;
+      left: 12px;
+      font-size: 1rem;
+      pointer-events: none;
+      opacity: 0.5;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      background: rgba(0,184,255,0.04);
+      border: 1px solid rgba(0,184,255,0.2);
+      border-radius: 8px;
+      padding: 10px 12px 10px 36px;
+      color: #e2ecfa;
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.88rem;
+      outline: none;
+      transition: border-color 0.25s, box-shadow 0.25s;
+    }
+
+    input[type="text"]::placeholder { color: rgba(200,216,240,0.25); }
+
+    input[type="text"]:focus {
+      border-color: rgba(0,184,255,0.6);
+      box-shadow: 0 0 0 3px rgba(0,184,255,0.1);
+    }
+
+    .input-hint {
+      font-size: 0.72rem;
+      color: rgba(200,216,240,0.35);
+      font-family: 'Share Tech Mono', monospace;
+      margin-top: 5px;
+      letter-spacing: 0.5px;
+    }
+
+    .input-hint a {
+      color: var(--cyan);
+      text-decoration: none;
+      opacity: 0.8;
+      transition: opacity 0.2s;
+    }
+    .input-hint a:hover { opacity: 1; }
+
+    /* ── STATUS BAR ── */
+    .status-bar {
+      background: rgba(0,0,0,0.3);
+      border: 1px solid rgba(0,184,255,0.1);
+      border-radius: 8px;
+      padding: 10px 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 12px;
+      min-height: 42px;
+    }
+
+    .status-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      background: rgba(200,216,240,0.2);
+      transition: all 0.3s;
+    }
+    .status-dot.checking { background: var(--cyan); animation: blink 0.8s ease-in-out infinite; }
+    .status-dot.ok       { background: #00ff9d; box-shadow: 0 0 6px #00ff9d; }
+    .status-dot.error    { background: #ff4d6d; box-shadow: 0 0 6px #ff4d6d; }
+
+    @keyframes blink {
+      0%,100% { opacity: 1; } 50% { opacity: 0.3; }
+    }
+
+    .status-text {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.78rem;
+      color: rgba(200,216,240,0.5);
+      flex: 1;
+      transition: color 0.3s;
+    }
+    .status-text.ok    { color: #00ff9d; }
+    .status-text.error { color: #ff4d6d; }
+
+    /* ── VERIFY BUTTON ── */
+    .btn-verify {
+      width: 100%;
+      margin-top: 10px;
+      padding: 12px;
+      background: transparent;
+      border: 1px solid rgba(0,184,255,0.4);
+      border-radius: 8px;
+      color: var(--cyan);
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 3px;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: all 0.25s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn-verify::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(0,184,255,0.06), rgba(30,144,255,0.06));
+      opacity: 0;
+      transition: opacity 0.25s;
+    }
+
+    .btn-verify:hover:not(:disabled) {
+      border-color: var(--cyan);
+      box-shadow: var(--glow);
+      color: #fff;
+    }
+    .btn-verify:hover:not(:disabled)::before { opacity: 1; }
+    .btn-verify:disabled { opacity: 0.35; cursor: not-allowed; }
+
+    /* ── DEPLOY BUTTON ── */
+    .btn-deploy {
+      width: 100%;
+      padding: 16px;
+      background: linear-gradient(135deg, #430098, #6a00d5, #430098);
+      background-size: 200% 200%;
+      border: 1px solid rgba(106,0,213,0.6);
+      border-radius: 12px;
+      color: #fff;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 900;
+      letter-spacing: 3px;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: all 0.3s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      text-decoration: none;
+      position: relative;
+      overflow: hidden;
+      animation: gradient-pan 4s ease infinite;
+    }
+
+    .btn-deploy::after {
+      content: '';
+      position: absolute; inset: 0;
+      background: linear-gradient(135deg, rgba(255,255,255,0.05), transparent);
+    }
+
+    .btn-deploy:not(.locked):hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(106,0,213,0.5), 0 0 0 1px rgba(106,0,213,0.8);
+    }
+
+    .btn-deploy.locked {
+      opacity: 0.35;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+
+    .heroku-icon {
+      width: 22px; height: 22px;
+      object-fit: contain;
+      filter: brightness(0) invert(1);
+    }
+
+    /* ── LOCK NOTICE ── */
+    .lock-notice {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.72rem;
+      color: rgba(200,216,240,0.3);
+      letter-spacing: 1px;
+      margin-top: 10px;
+      transition: color 0.4s;
+    }
+    .lock-notice.unlocked { color: #00ff9d; }
+
+    /* ── FOOTER ── */
+    footer {
+      position: relative; z-index: 10;
+      padding: 20px;
+      text-align: center;
+      border-top: 1px solid rgba(0,184,255,0.06);
+      width: 100%;
+    }
+    footer p {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.7rem;
+      color: rgba(200,216,240,0.25);
+      letter-spacing: 1.5px;
+    }
+    footer a { color: var(--cyan); text-decoration: none; opacity: 0.7; transition: opacity 0.2s; }
+    footer a:hover { opacity: 1; }
+
+    /* ── SPINNER ── */
+    .spinner {
+      display: inline-block;
+      width: 14px; height: 14px;
+      border: 2px solid rgba(0,184,255,0.2);
+      border-top-color: var(--cyan);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── SLIDE-IN ── */
+    @keyframes slide-in {
+      from { opacity: 0; transform: translateY(18px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .card { animation: slide-in 0.5s ease both; }
+    .card:nth-child(2) { animation-delay: 0.1s; }
+    .card:nth-child(3) { animation-delay: 0.2s; }
+    .hero { animation: slide-in 0.5s ease both; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 500px) {
+      .card { padding: 22px 16px; }
+      .hero-title { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bg-orb one"></div>
+  <div class="bg-orb two"></div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo-row">
+      <img class="logo-img" src="https://files.catbox.moe/5evber.jpg" alt="Ultra Guru" />
+      <span class="logo-text">ULTRA GURU</span>
+    </div>
+    <span class="header-badge">DEPLOY PORTAL</span>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <div class="hero">
+      <img class="hero-img" src="https://files.catbox.moe/5evber.jpg" alt="Ultra Guru MD" />
+      <h1 class="hero-title">DEPLOY TO HEROKU</h1>
+      <p class="hero-sub">fork verification required</p>
+    </div>
+
+    <!-- STEP 1: Fork check -->
+    <div class="card" id="card-fork">
+      <div class="card-title">
+        <span>01</span> Fork Verification
+      </div>
+
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-content">
+          <div class="step-label">Enter Your GitHub Username</div>
+          <div class="step-desc">We'll verify you've forked the ULTRA GURU repo before unlocking deployment.</div>
+          <div class="input-group" style="margin-top:12px">
+            <label class="input-label" for="gh-user">GITHUB USERNAME</label>
+            <div class="input-wrap">
+              <span class="input-icon">⚡</span>
+              <input type="text" id="gh-user" placeholder="your-github-username" autocomplete="off" spellcheck="false" />
+            </div>
+          </div>
+        </div>
+        <div class="step-status pending" id="fork-status-icon"></div>
+      </div>
+
+      <div class="status-bar">
+        <div class="status-dot" id="status-dot"></div>
+        <span class="status-text" id="status-text">Awaiting username input…</span>
+        <span id="status-spinner" style="display:none"><div class="spinner"></div></span>
+      </div>
+
+      <button class="btn-verify" id="btn-verify" onclick="verifyFork()">
+        ⚡ &nbsp;VERIFY FORK
+      </button>
+      <div class="input-hint" style="text-align:center;margin-top:8px">
+        Haven't forked yet? <a href="https://github.com/GuruhTech/ULTRA-GURU/fork" target="_blank">Fork the repo first →</a>
+      </div>
+    </div>
+
+    <!-- STEP 2: Deploy -->
+    <div class="card" id="card-deploy">
+      <div class="card-title">
+        <span>02</span> Launch Deployment
+      </div>
+
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-content">
+          <div class="step-label">Deploy to Heroku</div>
+          <div class="step-desc">Click the button below to open the Heroku deploy page pre-loaded with your forked repo.</div>
+        </div>
+        <div class="step-status" id="deploy-status-icon">🔒</div>
+      </div>
+
+      <div style="margin-top: 20px;">
+        <a class="btn-deploy locked" id="btn-deploy" href="#" target="_blank">
+          <img class="heroku-icon" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/heroku.svg" alt="Heroku" />
+          DEPLOY TO HEROKU
+        </a>
+        <p class="lock-notice" id="lock-notice">🔒 &nbsp;Complete fork verification to unlock deployment</p>
+      </div>
+    </div>
+
+    <!-- STEP 3: What's next -->
+    <div class="card">
+      <div class="card-title">
+        <span>03</span> After Deployment
+      </div>
+      <div class="step">
+        <div class="step-num">★</div>
+        <div class="step-content">
+          <div class="step-label">Get Your Session ID</div>
+          <div class="step-desc">
+            Use the pairing page to get your SESSION_ID.<br>
+            <a href="https://ultra-guru-pair-1.onrender.com/pair" target="_blank" style="color:var(--cyan);opacity:0.8;font-size:0.8rem">ultra-guru-pair-1.onrender.com/pair →</a>
+          </div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">★</div>
+        <div class="step-content">
+          <div class="step-label">Star the Repository</div>
+          <div class="step-desc">
+            Support the project by starring the repo on GitHub.<br>
+            <a href="https://github.com/GuruhTech/ULTRA-GURU" target="_blank" style="color:var(--cyan);opacity:0.8;font-size:0.8rem">github.com/GuruhTech/ULTRA-GURU →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>ULTRA GURU MD &nbsp;|&nbsp; BY <a href="https://github.com/GuruhTech" target="_blank">GURUTECH LAB</a> &nbsp;|&nbsp; ALL RIGHTS RESERVED</p>
+  </footer>
+
+  <script>
+    const REPO_OWNER = 'GuruhTech';
+    const REPO_NAME  = 'ULTRA-GURU';
+    const HEROKU_TEMPLATE_BASE = 'https://dashboard.heroku.com/new?template=';
+
+    const inputEl       = document.getElementById('gh-user');
+    const btnVerify     = document.getElementById('btn-verify');
+    const btnDeploy     = document.getElementById('btn-deploy');
+    const statusDot     = document.getElementById('status-dot');
+    const statusText    = document.getElementById('status-text');
+    const statusSpinner = document.getElementById('status-spinner');
+    const forkIcon      = document.getElementById('fork-status-icon');
+    const deployIcon    = document.getElementById('deploy-status-icon');
+    const lockNotice    = document.getElementById('lock-notice');
+
+    let verified = false;
+
+    // Allow Enter key
+    inputEl.addEventListener('keydown', e => {
+      if (e.key === 'Enter') verifyFork();
+    });
+
+    function setStatus(state, message) {
+      statusDot.className = 'status-dot ' + state;
+      statusText.className = 'status-text ' + (state === 'ok' ? 'ok' : state === 'error' ? 'error' : '');
+      statusText.textContent = message;
+      statusSpinner.style.display = (state === 'checking') ? 'block' : 'none';
+    }
+
+    function setForkIcon(state) {
+      forkIcon.className = 'step-status ' + state;
+      forkIcon.textContent = state === 'ok' ? '✓' : state === 'error' ? '✗' : '';
+    }
+
+    function unlockDeploy(username) {
+      // Build Heroku URL pointing at user's fork
+      const forkUrl = `https://github.com/${encodeURIComponent(username)}/${REPO_NAME}`;
+      btnDeploy.href = HEROKU_TEMPLATE_BASE + encodeURIComponent(forkUrl);
+      btnDeploy.classList.remove('locked');
+      deployIcon.textContent = '✓';
+      deployIcon.classList.add('ok');
+      lockNotice.className = 'lock-notice unlocked';
+      lockNotice.innerHTML = '✅ &nbsp;Fork verified — deployment unlocked for <strong style="color:var(--cyan)">' + username + '</strong>';
+    }
+
+    async function verifyFork() {
+      const username = inputEl.value.trim();
+
+      if (!username) {
+        setStatus('error', 'Please enter your GitHub username.');
+        setForkIcon('error');
+        return;
+      }
+
+      if (verified) return;
+
+      btnVerify.disabled = true;
+      inputEl.disabled = true;
+      setStatus('checking', 'Connecting to GitHub API…');
+      setForkIcon('pending');
+
+      try {
+        // 1. Verify user exists
+        setStatus('checking', 'Verifying GitHub account…');
+        const userRes = await fetch(`https://api.github.com/users/${encodeURIComponent(username)}`);
+
+        if (!userRes.ok) {
+          throw new Error(`GitHub user "${username}" not found.`);
+        }
+
+        // 2. Check for fork in user's repos
+        setStatus('checking', `Scanning ${username}'s forks…`);
+
+        // Try direct repo check first (faster)
+        const repoRes = await fetch(
+          `https://api.github.com/repos/${encodeURIComponent(username)}/${REPO_NAME}`
+        );
+
+        if (repoRes.ok) {
+          const repoData = await repoRes.json();
+          if (repoData.fork) {
+            // Confirm it's a fork of the right repo
+            const parentOwner = repoData.parent?.owner?.login?.toLowerCase();
+            if (parentOwner === REPO_OWNER.toLowerCase()) {
+              verified = true;
+              setStatus('ok', `✓ Fork confirmed! ${username}/${REPO_NAME} is verified.`);
+              setForkIcon('ok');
+              unlockDeploy(username);
+              return;
+            }
+          }
+          // Repo exists but isn't a fork of this project
+          throw new Error(`${username}/${REPO_NAME} exists but isn't a fork of ${REPO_OWNER}/${REPO_NAME}.`);
+        }
+
+        // 3. Fallback: search through forks list
+        setStatus('checking', 'Scanning forks list (this may take a moment)…');
+        let page = 1;
+        let found = false;
+
+        while (page <= 5) { // cap at 5 pages (500 forks)
+          const forksRes = await fetch(
+            `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/forks?per_page=100&page=${page}`
+          );
+          if (!forksRes.ok) break;
+          const forks = await forksRes.json();
+          if (!forks.length) break;
+
+          const match = forks.find(f => f.owner.login.toLowerCase() === username.toLowerCase());
+          if (match) { found = true; break; }
+          if (forks.length < 100) break;
+          page++;
+        }
+
+        if (found) {
+          verified = true;
+          setStatus('ok', `✓ Fork confirmed! ${username}/${REPO_NAME} is verified.`);
+          setForkIcon('ok');
+          unlockDeploy(username);
+        } else {
+          throw new Error(`No fork of ${REPO_OWNER}/${REPO_NAME} found under "${username}".`);
+        }
+
+      } catch (err) {
+        setStatus('error', err.message);
+        setForkIcon('error');
+        btnVerify.disabled = false;
+        inputEl.disabled = false;
+        inputEl.focus();
+      }
+    }
+  </script>
+
+</body>
+</html>
