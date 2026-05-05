@@ -12,16 +12,6 @@
       "required": true,
       "value": ""
     },
-    "BOT_NAME": {
-      "description": "Name of your bot",
-      "required": false,
-      "value": "ULTRA GURU"
-    },
-    "OWNER_NAME": {
-      "description": "Owner name",
-      "required": false,
-      "value": "GURUTECH 😎"
-    },
     "MODE": {
       "description": "Bot mode: 'public' (everyone can use) or 'private' (only bot owner)",
       "required": true,
@@ -31,6 +21,11 @@
       "description": "Your timezone (e.g., Africa/Nairobi, America/New_York, Asia/Kolkata)",
       "required": true,
       "value": "Africa/Nairobi"
+    },
+    "EXPIRY_DATE": {
+      "description": "Bot expiry date in YYYY-MM-DD format (e.g., 2025-12-31). Leave blank for no expiry.",
+      "required": false,
+      "value": ""
     },
     "AUTO_LIKE_STATUS": {
       "description": "Auto-like WhatsApp statuses. Set true or false.",
