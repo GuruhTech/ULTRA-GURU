@@ -599,7 +599,7 @@ gmd(
       };
 
       const path = require("path");
-      const tempDir = path.join(__dirname, "..", "gift", "temp");
+      const tempDir = path.join(__dirname, "..", "guru", "temp");
       await fs.mkdir(tempDir, { recursive: true });
       const tempFileName = `vv2_${Date.now()}_${Math.random().toString(36).slice(2)}`;
       tempFilePath = await Gifted.downloadAndSaveMediaMessage(
@@ -684,6 +684,20 @@ gmd(
           key.endsWith("Message") &&
           ["image", "video", "audio"].some((t) => key.includes(t)),
       );
+    } else if (quoted.viewOnceMessageV2) {
+      viewOnceContent = quoted.viewOnceMessageV2.message;
+      mediaType = Object.keys(viewOnceContent).find(
+        (key) =>
+          key.endsWith("Message") &&
+          ["image", "video", "audio"].some((t) => key.includes(t)),
+      );
+    } else if (quoted.viewOnceMessageV2Extension) {
+      viewOnceContent = quoted.viewOnceMessageV2Extension.message;
+      mediaType = Object.keys(viewOnceContent).find(
+        (key) =>
+          key.endsWith("Message") &&
+          ["image", "video", "audio"].some((t) => key.includes(t)),
+      );
     } else {
       return reply("Please reply to a view once media message.");
     }
@@ -700,7 +714,7 @@ gmd(
       };
 
       const path = require("path");
-      const tempDir = path.join(__dirname, "..", "gift", "temp");
+      const tempDir = path.join(__dirname, "..", "guru", "temp");
       await fs.mkdir(tempDir, { recursive: true });
       const tempFileName = `vv_${Date.now()}_${Math.random().toString(36).slice(2)}`;
       tempFilePath = await Gifted.downloadAndSaveMediaMessage(
