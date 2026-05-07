@@ -67,9 +67,12 @@ const runUpdate = async (repo, Gifted, ownerJid) => {
 
     const excludeList = [
         ".env",
+        "config.js",
+        "package.json",
         "guru/database/database.db",
         "guru/session/session.db",
         "guru/session",
+        "guru/fix-sharp.js",
         ".replit",
         "replit.nix",
         ".local",
