@@ -9,8 +9,11 @@
     "npm": "9.9.4"
   },
   "scripts": {
-    "start": "node --max-old-space-size=256 index.js",
-    "dev": "node --max-old-space-size=256 index.js"
+    "start": "node guru/fix-sharp.js && pm2 start index.js --attach --name ultragurumd",
+    "dev": "node --max-old-space-size=256 index.js",
+    "stop": "pm2 stop ultragurumd",
+    "restart": "pm2 restart ultragurumd",
+    "postinstall": "node guru/fix-sharp.js"
   },
   "keywords": [
     "gurutech",
@@ -25,6 +28,8 @@
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@hapi/boom": "^10.0.1",
+    "@img/sharp-libvips-linux-x64": "^1.2.4",
+    "@img/sharp-linux-x64": "^0.34.5",
     "@vitalets/google-translate-api": "^9.2.1",
     "acrcloud": "^1.4.0",
     "adm-zip": "^0.5.17",
@@ -53,6 +58,7 @@
     "path": "latest",
     "pg": "^8.20.0",
     "pino": "^7.0.5",
+    "pm2": "latest",
     "qrcode-terminal": "^0.12.0",
     "sequelize": "^6.37.8",
     "sharp": "^0.32.6",
