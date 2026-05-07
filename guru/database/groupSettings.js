@@ -12,6 +12,7 @@ const GroupSettingsDB = DATABASE.define(
         jid: {
             type: DataTypes.STRING,
             allowNull: false,
+            defaultValue: "",
         },
         key: {
             type: DataTypes.STRING,
@@ -25,7 +26,6 @@ const GroupSettingsDB = DATABASE.define(
     {
         tableName: "group_settings",
         timestamps: true,
-        indexes: [{ unique: true, fields: ["jid", "key"] }],
     },
 );
 
@@ -40,6 +40,7 @@ const GroupWarningsDB = DATABASE.define(
         jid: {
             type: DataTypes.STRING,
             allowNull: false,
+            defaultValue: "",
         },
         sender: {
             type: DataTypes.STRING,
@@ -57,7 +58,6 @@ const GroupWarningsDB = DATABASE.define(
     {
         tableName: "group_warnings",
         timestamps: true,
-        indexes: [{ unique: true, fields: ["jid", "sender", "type"] }],
     },
 );
 
@@ -72,6 +72,7 @@ const BadWordsDB = DATABASE.define(
         jid: {
             type: DataTypes.STRING,
             allowNull: false,
+            defaultValue: "",
         },
         word: {
             type: DataTypes.STRING,
@@ -81,7 +82,6 @@ const BadWordsDB = DATABASE.define(
     {
         tableName: "bad_words",
         timestamps: true,
-        indexes: [{ unique: true, fields: ["jid", "word"] }],
     },
 );
 
@@ -119,9 +119,15 @@ let initialized = false;
 
 async function initializeGroupSettings() {
     if (initialized) return;
-    await GroupSettingsDB.sync();
-    await GroupWarningsDB.sync();
-    await BadWordsDB.sync();
+    try {
+        await GroupSettingsDB.sync({ alter: true });
+        await GroupWarningsDB.sync({ alter: true });
+        await BadWordsDB.sync({ alter: true });
+    } catch (_) {
+        await GroupSettingsDB.sync({ force: true });
+        await GroupWarningsDB.sync({ force: true });
+        await BadWordsDB.sync({ force: true });
+    }
     initialized = true;
     console.log("✅ Group Settings Initialized.");
 }
