@@ -91,6 +91,13 @@ async function setupGroupEventsListeners(Gifted) {
             if (meta) updateGroupCache(id, meta);
         } catch (e) {}
     });
+
+    try {
+        const { setupVvTracker } = require('../vvTracker');
+        setupVvTracker(Gifted);
+    } catch (e) {
+        console.error('[VvTracker] setup error:', e.message);
+    }
 }
 
 module.exports = {
