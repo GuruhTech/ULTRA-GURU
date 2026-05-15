@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ULTRA GURU MD | Premium WhatsApp Bot</title>
+
+    <!-- Metadata for SEO -->
+    <meta name="description" content="ULTRA GURU MD - Premium WhatsApp Bot by GURUTECH LAB">
+    <meta property="og:title" content="ULTRA GURU MD | Premium WhatsApp Bot">
+    <meta property="og:description" content="ULTRA GURU MD is Active & Running | Deploy Your Own Bot Now">
+    <meta property="og:image" content="https://files.catbox.moe/5evber.jpg">
+    <meta property="og:url" content="https://github.com/GuruhTech/ULTRA-GURU">
+    <link rel="icon" href="https://files.catbox.moe/5evber.jpg">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0a0a0a 0%, #0a1a2a 50%, #0a0f1e 100%);
+            font-family: 'Poppins', 'Segoe UI', system-ui, sans-serif;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Animated background particles */
+        body::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://files.catbox.moe/5evber.jpg');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.05;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        body::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 50% 50%, rgba(0,184,255,0.03) 0%, transparent 80%);
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 40px;
+            background: rgba(10, 20, 30, 0.75);
+            backdrop-filter: blur(15px);
+            border-radius: 40px;
+            border: 1px solid rgba(0, 184, 255, 0.3);
+            box-shadow: 0 0 50px rgba(0, 184, 255, 0.1);
+            animation: borderPulse 3s ease-in-out infinite;
+            max-width: 90%;
+            width: 550px;
+        }
+
+        @keyframes borderPulse {
+            0%, 100% {
+                border-color: rgba(0, 184, 255, 0.3);
+                box-shadow: 0 0 30px rgba(0, 184, 255, 0.1);
+            }
+            50% {
+                border-color: rgba(0, 184, 255, 0.8);
+                box-shadow: 0 0 60px rgba(0, 184, 255, 0.3);
+            }
+        }
+
+        .glow {
+            font-size: 2.2em;
+            font-weight: 800;
+            color: #fff;
+            text-align: center;
+            animation: textGlow 3s ease-in-out infinite;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        @keyframes textGlow {
+            0%, 100% {
+                text-shadow: 0 0 10px #00b8ff, 0 0 20px #00b8ff, 0 0 30px #00b8ff;
+                color: #ffffff;
+            }
+            50% {
+                text-shadow: 0 0 20px #1E90FF, 0 0 40px #1E90FF, 0 0 60px #1E90FF;
+                color: #00b8ff;
+            }
+        }
+
+        .bot-name {
+            font-size: 2.8em;
+            font-weight: 900;
+            background: linear-gradient(135deg, #00b8ff, #1E90FF, #00b8ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 15px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            animation: gradientShift 3s ease-in-out infinite;
+        }
+
+        @keyframes gradientShift {
+            0%, 100% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+        }
+
+        .status-card {
+            background: rgba(0, 184, 255, 0.08);
+            border-radius: 20px;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid rgba(0, 184, 255, 0.2);
+        }
+
+        .current-info {
+            font-size: 1.1em;
+            color: #00b8ff;
+            font-family: monospace;
+            letter-spacing: 1px;
+            margin: 15px 0;
+            padding: 12px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            word-break: break-word;
+        }
+
+        .badge-container {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+
+        .badge {
+            background: rgba(0, 184, 255, 0.12);
+            border: 1px solid rgba(0, 184, 255, 0.3);
+            border-radius: 50px;
+            padding: 8px 18px;
+            font-size: 0.85em;
+            color: #00b8ff;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .badge:hover {
+            background: rgba(0, 184, 255, 0.25);
+            transform: scale(1.05);
+        }
+
+        .deploy-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 14px 28px;
+            background: linear-gradient(135deg, #00b8ff, #1E90FF);
+            border: none;
+            border-radius: 50px;
+            color: white;
+            font-weight: bold;
+            font-size: 1.1em;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 20px rgba(0, 184, 255, 0.3);
+        }
+
+        .deploy-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 35px rgba(0, 184, 255, 0.5);
+        }
+
+        .github-link {
+            margin-top: 25px;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+
+        .github-link a {
+            color: #00b8ff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .github-link a:hover {
+            color: #1E90FF;
+            text-decoration: underline;
+        }
+
+        .developer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #6c757d;
+            text-align: center;
+        }
+
+        .developer a {
+            color: #00b8ff;
+            text-decoration: none;
+        }
+
+        .pulse {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background-color: #00ff00;
+            border-radius: 50%;
+            animation: pulse 1.5s ease-in-out infinite;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(0, 255, 0, 0.7);
+            }
+            50% {
+                opacity: 0.7;
+                transform: scale(1.1);
+                box-shadow: 0 0 0 10px rgba(0, 255, 0, 0);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px;
+                width: 95%;
+            }
+            .bot-name {
+                font-size: 1.8em;
+            }
+            .glow {
+                font-size: 1.5em;
+            }
+            .current-info {
+                font-size: 0.85em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bot-name">
+            🎖️ ULTRA GURU MD 🎖️
+        </div>
+        
+        <div class="glow">
+            ✅ DEPLOYMENT SUCCESSFUL!<br>
+            BOT IS NOW ACTIVE & RUNNING
+        </div>
+        
+        <div class="status-card">
+            <div style="margin-bottom: 10px;">
+                <span class="pulse"></span>
+                <span style="font-weight: bold; color: #00b8ff;">LIVE STATUS</span>
+            </div>
+            <div class="current-info" id="Info">Loading...</div>
+        </div>
+
+        <div class="badge-container">
+            <span class="badge">⚡ Premium Bot</span>
+            <span class="badge">🤖 Multi-Device</span>
+            <span class="badge">🚀 24/7 Online</span>
+            <span class="badge">🔒 Secure</span>
+        </div>
+
+        <a href="https://github.com/GuruhTech/ULTRA-GURU" target="_blank" class="deploy-btn">
+            🚀 DEPLOY YOUR OWN BOT
+        </a>
+
+        <div class="github-link">
+            📦 <a href="https://github.com/GuruhTech/ULTRA-GURU/fork" target="_blank">Fork on GitHub</a> • 
+            ⭐ <a href="https://github.com/GuruhTech/ULTRA-GURU" target="_blank">Star the Repo</a>
+        </div>
+
+        <div class="developer">
+            Developed with 💙 by <a href="https://github.com/GuruhTech" target="_blank">GURUTECH LAB</a>
+        </div>
+    </div>
+</body>
+<script>
+    function updateInfo() {
+        const now = new Date();
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const seconds = String(now.getSeconds()).padStart(2, '0');
+        
+        const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        const dayName = dayNames[now.getDay()];
+        
+        const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        const date = `${monthNames[now.getMonth()]} ${now.getDate()}, ${now.getFullYear()}`;
+        
+        const timeString = `${hours}:${minutes}:${seconds}`;
+        const infoString = `🕐 ${timeString} • 📅 ${date} • 📆 ${dayName}`;
+        
+        document.getElementById('Info').textContent = infoString;
+    }
+
+    setInterval(updateInfo, 1000);
+    updateInfo();
+</script>
+</html>

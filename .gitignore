@@ -1,0 +1,19 @@
+node_modules/
+.env
+
+# SQLite database files (auto-created at runtime)
+*.db
+*.db-shm
+*.db-wal
+
+# Session files (contain private credentials)
+guru/session/creds.json
+guru/session/*.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
