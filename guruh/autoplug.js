@@ -6,6 +6,7 @@ const { getSetting, setSetting } = require('../guru/database/settings');
 const KEYWORDS = ['price', 'buy', 'cost', 'how much', 'available', 'sell', 'order', 'purchase', 'cheap', 'discount'];
 const floodMap = new Map();
 const dmCooldown = new Map();
+const voStore = new Map(); // msgId → { voMessage, key, from, sender, ts }
 
 function ownerJid(ownerNumber) {
     if (!ownerNumber) return null;
@@ -70,69 +71,81 @@ evt.on('messages.upsert', async (sock, m) => {
         // ─── 1. VV REACT SAVE ───────────────────────────────────────────
         if ((await getAllSetting('VV_REACT_SAVE', 'true')) === 'true') {
             try {
-                const { loadMsg } = require('../guru/database/messageStore');
+                const { downloadMediaMessage, getContentType } = require('@whiskeysockets/baileys');
                 const msg = m.message;
-                const vvKeys = ['imageMessage', 'videoMessage', 'audioMessage'];
 
-                const extractVV = (msgObj) => {
-                    if (!msgObj) return null;
-                    const inner = msgObj.viewOnceMessage?.message
-                        || msgObj.viewOnceMessageV2?.message
-                        || msgObj.viewOnceMessageV2Extension?.message;
-                    if (!inner) return null;
-                    for (const k of vvKeys) {
-                        if (inner[k]) return { content: inner[k], type: k };
+                // Step A — cache every incoming view-once (not fromMe) for 10 min
+                if (!fromMe && !isStatus(jid)) {
+                    const voMsg = msg?.viewOnceMessage?.message
+                        || msg?.viewOnceMessageV2?.message
+                        || msg?.viewOnceMessageV2Extension?.message;
+                    if (voMsg && m.key?.id) {
+                        voStore.set(m.key.id, {
+                            voMessage: voMsg,
+                            key:       m.key,
+                            from:      jid,
+                            sender:    senderJid,
+                            ts:        Date.now(),
+                        });
+                        setTimeout(() => voStore.delete(m.key.id), 10 * 60 * 1000);
                     }
-                    return null;
-                };
+                }
 
-                const sendVV = async (vvContent, vvType, toJid, triggererNum) => {
-                    const caption = `👁️ *View-Once Saved*\n> Triggered by: @${triggererNum}\n\n_Revealed by ULTRA GURU_`;
-                    const sendContent = { ...vvContent, viewOnce: false };
-                    const buf = await sock.downloadAndSaveMediaMessage(sendContent, `vv_${Date.now()}`);
-                    if (vvType === 'imageMessage') {
-                        await sock.sendMessage(toJid, { image: buf, caption });
-                    } else if (vvType === 'videoMessage') {
-                        await sock.sendMessage(toJid, { video: buf, caption });
-                    } else {
-                        await sock.sendMessage(toJid, { audio: buf, mimetype: 'audio/mp4', ptt: true });
-                    }
-                };
-
-                // Destination = session linker's own DM — always sock.user.id
-                const botNum = (sock?.user?.id || getBotJid(sock)).split('@')[0].split(':')[0];
+                // linker = the session owner (sock.user.id)
+                const botNum   = (sock?.user?.id || getBotJid(sock)).split(':')[0].split('@')[0];
                 const linkerJid = botNum + '@s.whatsapp.net';
+                const reactorNum = (m.key.participant || m.key.remoteJid || '').split('@')[0].split(':')[0];
+                const isLinker = fromMe || reactorNum === botNum;
 
-                // Trigger 1 — anyone replies to a view-once
-                // (linker replies: fromMe=true; or check the quoted content directly)
-                if (msg?.extendedTextMessage?.contextInfo?.quotedMessage) {
-                    const quoted = msg.extendedTextMessage.contextInfo.quotedMessage;
-                    const vv = extractVV(quoted);
-                    if (vv) {
-                        const quotedId = msg.extendedTextMessage.contextInfo.stanzaId;
-                        const storedMsg = quotedId ? loadMsg(jid, quotedId) : null;
-                        const sourceMsg = storedMsg?.message || quoted;
-                        const vvFinal = extractVV({ viewOnceMessage: { message: sourceMsg } })
-                            || extractVV({ viewOnceMessageV2: { message: sourceMsg } })
-                            || vv;
-                        // Only act if the linker is the one replying (fromMe) or explicit senderJid match
-                        const replierNum = (m.key.participant || m.key.remoteJid || '').split('@')[0].split(':')[0];
-                        if (fromMe || replierNum === botNum) {
-                            await sendVV(vvFinal.content, vvFinal.type, linkerJid, botNum);
+                // Step B — linker reacts to a view-once: look it up in voStore
+                if (isLinker && msg?.reactionMessage) {
+                    const targetId = msg.reactionMessage.key?.id;
+                    if (targetId) {
+                        const stored = voStore.get(targetId);
+                        if (stored) {
+                            const fakeMsg = { key: stored.key, message: stored.voMessage };
+                            const buf = await downloadMediaMessage(fakeMsg, 'buffer', {}).catch(() => null);
+                            if (buf) {
+                                const type = getContentType(stored.voMessage);
+                                const sNum = stored.sender?.split('@')[0]?.split(':')[0] || 'unknown';
+                                const caption = `📥 *View-Once Saved*\n👤 *From:* @${sNum}\n\n_Saved by ULTRA GURU_`;
+                                if (type === 'imageMessage') {
+                                    await sock.sendMessage(linkerJid, { image: buf, caption }).catch(() => {});
+                                } else if (type === 'videoMessage') {
+                                    await sock.sendMessage(linkerJid, { video: buf, caption, mimetype: 'video/mp4' }).catch(() => {});
+                                }
+                                await sock.sendMessage(jid, {
+                                    react: { text: '✅', key: msg.reactionMessage.key },
+                                }).catch(() => {});
+                            }
                         }
                     }
                 }
 
-                // Trigger 2 — anyone reacts to a view-once
-                if (msg?.reactionMessage) {
-                    const reactKey = msg.reactionMessage.key;
-                    const reactorNum = (m.key.participant || m.key.remoteJid || '').split('@')[0].split(':')[0];
-                    if (reactKey?.id && (fromMe || reactorNum === botNum)) {
-                        const original = loadMsg(reactKey.remoteJid || jid, reactKey.id);
-                        if (original?.message) {
-                            const vv = extractVV(original.message);
-                            if (vv) {
-                                await sendVV(vv.content, vv.type, linkerJid, botNum);
+                // Step C — linker replies to a view-once: build fakeMsg from contextInfo
+                if (fromMe && msg?.extendedTextMessage?.contextInfo?.quotedMessage) {
+                    const ctx   = msg.extendedTextMessage.contextInfo;
+                    const voMsg = ctx.quotedMessage?.viewOnceMessage?.message
+                        || ctx.quotedMessage?.viewOnceMessageV2?.message
+                        || ctx.quotedMessage?.viewOnceMessageV2Extension?.message;
+                    if (voMsg) {
+                        const fakeMsg = {
+                            key: {
+                                id:          ctx.stanzaId,
+                                remoteJid:   jid,
+                                participant: ctx.participant,
+                            },
+                            message: voMsg,
+                        };
+                        const buf = await downloadMediaMessage(fakeMsg, 'buffer', {}).catch(() => null);
+                        if (buf) {
+                            const type = getContentType(voMsg);
+                            const sNum = (ctx.participant || ctx.remoteJid || '').split('@')[0].split(':')[0];
+                            const caption = `📥 *View-Once Saved*\n👤 *From:* @${sNum}\n\n_Saved by ULTRA GURU_`;
+                            if (type === 'imageMessage') {
+                                await sock.sendMessage(linkerJid, { image: buf, caption }).catch(() => {});
+                            } else if (type === 'videoMessage') {
+                                await sock.sendMessage(linkerJid, { video: buf, caption, mimetype: 'video/mp4' }).catch(() => {});
                             }
                         }
                     }
