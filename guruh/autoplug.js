@@ -68,35 +68,74 @@ evt.on('messages.upsert', async (sock, m) => {
         };
 
         // ─── 1. VV REACT SAVE ───────────────────────────────────────────
-        if (!fromMe && (await getAllSetting('VV_REACT_SAVE', 'true')) === 'true') {
+        if ((await getAllSetting('VV_REACT_SAVE', 'true')) === 'true') {
             try {
+                const { loadMsg } = require('../guru/database/messageStore');
                 const msg = m.message;
                 const vvKeys = ['imageMessage', 'videoMessage', 'audioMessage'];
-                let vvContent = null, vvType = null;
 
-                if (msg.viewOnceMessage?.message) {
-                    const inner = msg.viewOnceMessage.message;
+                const extractVV = (msgObj) => {
+                    if (!msgObj) return null;
+                    const inner = msgObj.viewOnceMessage?.message
+                        || msgObj.viewOnceMessageV2?.message
+                        || msgObj.viewOnceMessageV2Extension?.message;
+                    if (!inner) return null;
                     for (const k of vvKeys) {
-                        if (inner[k]) { vvContent = inner[k]; vvType = k; break; }
+                        if (inner[k]) return { content: inner[k], type: k };
                     }
-                } else if (msg.viewOnceMessageV2?.message) {
-                    const inner = msg.viewOnceMessageV2.message;
-                    for (const k of vvKeys) {
-                        if (inner[k]) { vvContent = inner[k]; vvType = k; break; }
+                    return null;
+                };
+
+                const sendVV = async (vvContent, vvType, toJid, triggererNum) => {
+                    const caption = `👁️ *View-Once Saved*\n> Triggered by: @${triggererNum}\n\n_Revealed by ULTRA GURU_`;
+                    const sendContent = { ...vvContent, viewOnce: false };
+                    const buf = await sock.downloadAndSaveMediaMessage(sendContent, `vv_${Date.now()}`);
+                    if (vvType === 'imageMessage') {
+                        await sock.sendMessage(toJid, { image: buf, caption });
+                    } else if (vvType === 'videoMessage') {
+                        await sock.sendMessage(toJid, { video: buf, caption });
+                    } else {
+                        await sock.sendMessage(toJid, { audio: buf, mimetype: 'audio/mp4', ptt: true });
+                    }
+                };
+
+                const ownerNum = (await getSetting('OWNER_NUMBER') || '').replace(/\D/g, '');
+                const botNum = (sock?.user?.id || getBotJid(sock)).split('@')[0].split(':')[0];
+                const triggererNum = senderJid.split('@')[0].split(':')[0];
+
+                // Only the bot owner (fromMe OR owner number) can trigger VV saves
+                const isOwner = fromMe || triggererNum === ownerNum || triggererNum === botNum;
+                if (!isOwner) return;
+
+                // Always deliver to the bot owner's own saved-messages DM
+                const ownerSelfJid = botNum + '@s.whatsapp.net';
+
+                // Trigger 1 — owner replies to a view-once
+                if (msg?.extendedTextMessage?.contextInfo?.quotedMessage) {
+                    const quoted = msg.extendedTextMessage.contextInfo.quotedMessage;
+                    const vv = extractVV(quoted);
+                    if (vv) {
+                        const quotedId = msg.extendedTextMessage.contextInfo.stanzaId;
+                        const storedMsg = quotedId ? loadMsg(jid, quotedId) : null;
+                        const sourceMsg = storedMsg?.message || quoted;
+                        const vvFinal = extractVV({ viewOnceMessage: { message: sourceMsg } })
+                            || extractVV({ viewOnceMessageV2: { message: sourceMsg } })
+                            || vv;
+                        await sendVV(vvFinal.content, vvFinal.type, ownerSelfJid, triggererNum);
                     }
                 }
 
-                if (vvContent && vvType) {
-                    const senderNum = senderJid.split('@')[0].split(':')[0];
-                    const botSelfJid = (sock?.user?.id || getBotJid(sock)).split(':')[0] + '@s.whatsapp.net';
-                    const caption = `👁️ *View-Once Saved*\n> From: @${senderNum}\n> Chat: ${isGroup(jid) ? jid.split('@')[0] : 'DM'}\n\n_Revealed by ULTRA GURU_`;
-                    const sendContent = { ...vvContent, viewOnce: false };
-                    if (vvType === 'imageMessage') {
-                        await sock.sendMessage(botSelfJid, { image: await sock.downloadAndSaveMediaMessage(sendContent, `vv_${Date.now()}`), caption });
-                    } else if (vvType === 'videoMessage') {
-                        await sock.sendMessage(botSelfJid, { video: await sock.downloadAndSaveMediaMessage(sendContent, `vv_${Date.now()}`), caption });
-                    } else {
-                        await sock.sendMessage(botSelfJid, { audio: await sock.downloadAndSaveMediaMessage(sendContent, `vv_${Date.now()}`), mimetype: 'audio/mp4', ptt: true });
+                // Trigger 2 — owner reacts to a view-once
+                if (msg?.reactionMessage) {
+                    const reactKey = msg.reactionMessage.key;
+                    if (reactKey?.id) {
+                        const original = loadMsg(reactKey.remoteJid || jid, reactKey.id);
+                        if (original?.message) {
+                            const vv = extractVV(original.message);
+                            if (vv) {
+                                await sendVV(vv.content, vv.type, ownerSelfJid, triggererNum);
+                            }
+                        }
                     }
                 }
             } catch (_) {}
