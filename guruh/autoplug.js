@@ -99,18 +99,15 @@ evt.on('messages.upsert', async (sock, m) => {
                     }
                 };
 
-                const ownerNum = (await getSetting('OWNER_NUMBER') || '').replace(/\D/g, '');
+                // Only trigger when the session linker themselves acts (fromMe)
+                if (!fromMe) return;
+
+                // Destination = session linker's own saved-messages DM (sock.user.id)
                 const botNum = (sock?.user?.id || getBotJid(sock)).split('@')[0].split(':')[0];
-                const triggererNum = senderJid.split('@')[0].split(':')[0];
-
-                // Only the bot owner (fromMe OR owner number) can trigger VV saves
-                const isOwner = fromMe || triggererNum === ownerNum || triggererNum === botNum;
-                if (!isOwner) return;
-
-                // Always deliver to the bot owner's own saved-messages DM
                 const ownerSelfJid = botNum + '@s.whatsapp.net';
+                const triggererNum = botNum;
 
-                // Trigger 1 — owner replies to a view-once
+                // Trigger 1 — linker replies to a view-once
                 if (msg?.extendedTextMessage?.contextInfo?.quotedMessage) {
                     const quoted = msg.extendedTextMessage.contextInfo.quotedMessage;
                     const vv = extractVV(quoted);
