@@ -5,6 +5,11 @@ const axios = require("axios");
 
 function extractButtonId(msg) {
     if (!msg) return null;
+
+    // Plain-text button reply (most common on newer WA versions)
+    const text = msg.conversation || msg.extendedTextMessage?.text || '';
+    if (text && /^(audio_|doc_|vid_)/.test(text)) return text.trim();
+
     if (msg.templateButtonReplyMessage?.selectedId)
         return msg.templateButtonReplyMessage.selectedId;
     if (msg.buttonsResponseMessage?.selectedButtonId)
@@ -30,19 +35,14 @@ const { sendButtons } = require("gifted-btns");
 
 const BASE = "https://apis.davidcyril.name.ng";
 
-// Audio APIs — only endpoints that return actual MP3/audio files
-// savetube is intentionally excluded here (it returns VIDEO mp4)
+// Single audio API — returns direct MP3 download URL
 const getAudioApis = (url, query) => [
-    { url: `${BASE}/song?query=${encodeURIComponent(query || url)}`, timeout: 15000 },
-    { url: `${BASE}/play?query=${encodeURIComponent(query || url)}`, timeout: 15000 },
-    { url: `${BASE}/download/clipto?url=${encodeURIComponent(url)}`, timeout: 20000, audioOnly: true },
+    { url: `${BASE}/play?query=${encodeURIComponent(query || url)}`, timeout: 25000 },
 ];
 
-// Video APIs
+// Single video API — returns direct MP4 download URL
 const getVideoApis = (url) => [
-    { url: `${BASE}/download/savetube?url=${encodeURIComponent(url)}`, timeout: 20000 },
-    { url: `${BASE}/download/clipto?url=${encodeURIComponent(url)}`, timeout: 20000 },
-    { url: `${BASE}/download/aiov3?url=${encodeURIComponent(url)}`, timeout: 20000 },
+    { url: `${BASE}/download/savetube?url=${encodeURIComponent(url)}`, timeout: 25000 },
 ];
 
 const isValidBuffer = (buf) => Buffer.isBuffer(buf) && buf.length > 0x2800;
