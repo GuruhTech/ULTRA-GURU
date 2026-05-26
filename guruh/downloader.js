@@ -131,13 +131,16 @@ async function queryAPI(url, endpoints) {
     return { success: false, error: `All APIs failed: ${errors.join(', ')}` };
 }
 
+// .play command is handled by play.js
+// Keeping only .video here
+
 gmd(
   {
-    pattern: "play",
-    aliases: ["ytmp3", "ytmp3doc", "audiodoc", "yta"],
+    pattern: "video",
+    aliases: ["ytmp4doc", "mp4", "ytmp4", "dlmp4"],
     category: "downloader",
-    react: "🎶",
-    description: (Buffer.from("RG93bmxvYWQgQXVkaW8gZnJvbSBZb3V0dWJl","base64").toString()),
+    react: "🎥",
+    description: (Buffer.from("RG93bmxvYWQgVmlkZW8gZnJvbSBZb3V0dWJl","base64").toString()),
   },
   async (from, Gifted, conText) => {
     const {
