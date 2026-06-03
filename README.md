@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/GuruhTech/ULTRA-GURU">
-    <img src="https://files.catbox.moe/5evber.jpg" width="100%" alt="ULTRA GURU Banner">
+    <img src="https://res.cloudinary.com/dqxlb29uz/image/upload/v1780267810/bwm_uploads/media-1780267810008.jpg" width="100%" alt="ULTRA GURU Banner">
   </a>
 </p>
 
