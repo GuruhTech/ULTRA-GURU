@@ -2,7 +2,7 @@
   "name": "ULTRA GURU MD",
   "version": "5.0.0",
   "description": "ULTRA GURU - A Powerful Multi-Device WhatsApp Bot built by GURUTECH 😎 to Enhance Your WhatsApp Experience",
-  "logo": "https://files.catbox.moe/5evber.jpg",
+  "logo": "https://res.cloudinary.com/dqxlb29uz/image/upload/v1780267810/bwm_uploads/media-1780267810008.jpg",
   "keywords": ["ultra-guru", "gurutech", "whatsapp-bot", "gifted-baileys", "guru-md"],
   "success_url": "/",
   "stack": "heroku-24",
