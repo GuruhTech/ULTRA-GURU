@@ -1,5 +1,3 @@
-
-<p align="center">  
 <p align="center">  
   <a href="https://github.com/GuruhTech/ULTRA-GURU">  
     <img src="https://res.cloudinary.com/dqxlb29uz/image/upload/v1780267810/bwm_uploads/media-1780267810008.jpg" width="100%" alt="ULTRA GURU Banner">  
@@ -77,15 +75,8 @@ Choose your preferred method:
   </a>
 </p>
 
-🐧 VPS / Termux
-
-``
-git clone https://github.com/GuruhTech/ULTRA-GURU.git  
-cd ULTRA-GURU  
-npm install  
-npm start
-
 ---
+
 🌐 CONNECT WITH US
 
 <p align="left">
@@ -99,4 +90,3 @@ npm start
     <img src="https://img.shields.io/badge/WHATSAPP%20CHANNEL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Channel">
   </a>
 </p>
-```
