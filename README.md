@@ -1,5 +1,6 @@
 
 <p align="center">  
+<p align="center">  
   <a href="https://github.com/GuruhTech/ULTRA-GURU">  
     <img src="https://res.cloudinary.com/dqxlb29uz/image/upload/v1780267810/bwm_uploads/media-1780267810008.jpg" width="100%" alt="ULTRA GURU Banner">  
   </a>  
@@ -55,7 +56,7 @@ Choose your preferred method:
 ☁️ Heroku
 
 <p align="left">  
-  <a href="https://fork.gurutech.top">  
+  <a href="https://heroku.com/deploy?template=https://github.com/GuruhTech/ULTRA-GURU">  
     <img src="https://img.shields.io/badge/DEPLOY%20TO%20HEROKU-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Deploy to Heroku">  
   </a>  
 </p>
@@ -78,15 +79,13 @@ Choose your preferred method:
 
 🐧 VPS / Termux
 
-```bash
+``
 git clone https://github.com/GuruhTech/ULTRA-GURU.git  
 cd ULTRA-GURU  
 npm install  
 npm start
-```
 
 ---
-
 🌐 CONNECT WITH US
 
 <p align="left">
