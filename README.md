@@ -2,7 +2,7 @@
 
 # 🎖️ ULTRA GURU MD 🎖️
 
-[![](https://img.shields.io/badge/AUTHOR-BLACKTECH254-00b8ff?style=for-the-badge&logo=github)](https://github.com/blacktech254)[![](https://img.shields.io/github/stars/GuruhTech/ULTRA-GURU?style=social)](https://github.com/GuruhTech/ULTRA-GURU/stargazers/)[![](https://img.shields.io/github/forks/GuruhTech/ULTRA-GURU?style=social)](https://github.com/GuruhTech/ULTRA-GURU/network/members)![Profile Views](https://komarev.com/ghpvc/?username=blacktech254&label=PROFILE+VIEWS&color=00b8ff&style=for-the-badge)
+[![](https://img.shields.io/badge/AUTHOR-GURUHTECH-00b8ff?style=for-the-badge&logo=github)](https://github.com/GuruhTech)[![](https://img.shields.io/github/stars/GuruhTech/ULTRA-GURU?style=social)](https://github.com/GuruhTech/ULTRA-GURU/stargazers/)[![](https://img.shields.io/github/forks/GuruhTech/ULTRA-GURU?style=social)](https://github.com/GuruhTech/ULTRA-GURU/network/members)![Profile Views](https://komarev.com/ghpvc/?username=GuruhTech&label=PROFILE+VIEWS&color=00b8ff&style=for-the-badge)
 
 ---
 
