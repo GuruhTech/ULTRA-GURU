@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ULTRA GURU MD | Premium WhatsApp Bot</title>
+
+    <!-- Metadata for SEO -->
+    <meta name="description" content="ULTRA GURU MD - Premium WhatsApp Bot by GURUTECH LAB">
+    <meta property="og:title" content="ULTRA GURU MD | Premium WhatsApp Bot">
+    <meta property="og:description" content="ULTRA GURU MD is Active & Running | Deploy Your Own Bot Now">
+    <meta property="og:image" content="https://res.cloudinary.com/dqxlb29uz/image/upload/v1780267810/bwm_uploads/media-1780267810008.jpg">
+    <meta property="og:url" content="https://github.com/blacktech254/ULTRA-MD-">
+    <link rel="icon" href="https://res.cloudinary.com/dqxlb29uz/image/upload/v1780267810/bwm_uploads/media-1780267810008.jpg">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0a0a0a 0%, #0a1a2a 50%, #0a0f1e 100%);
+            font-family: 'Poppins', 'Segoe UI', system-ui, sans-serif;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Animated background particles */
+        body::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://res.cloudinary.com/dqxlb29uz/image/upload/v1780267810/bwm_uploads/media-1780267810008.jpg');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.05;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        body::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 50% 50%, rgba(0,184,255,0.03) 0%, transparent 80%);
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 40px;
+            background: rgba(10, 20, 30, 0.75);
+            backdrop-filter: blur(15px);
+            border-radius: 40px;
+            border: 1px solid rgba(0, 184, 255, 0.3);
+            box-shadow: 0 0 50px rgba(0, 184, 255, 0.1);
+            animation: borderPulse 3s ease-in-out infinite;
+            max-width: 90%;
+            width: 550px;
+        }
+
+        @keyframes borderPulse {
+            0%, 100% {
+                border-color: rgba(0, 184, 255, 0.3);
+                box-shadow: 0 0 30px rgba(0, 184, 255, 0.1);
+            }
+            50% {
+                border-color: rgba(0, 184, 255, 0.8);
+                box-shadow: 0 0 60px rgba(0, 184, 255, 0.3);
+            }
+        }
+
+        .glow {
+            font-size: 2.2em;
+            font-weight: 800;
+            color: #fff;
+            text-align: center;
+            animation: textGlow 3s ease-in-out infinite;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        @keyframes textGlow {
+            0%, 100% {
+                text-shadow: 0 0 10px #00b8ff, 0 0 20px #00b8ff, 0 0 30px #00b8ff;
+                color: #ffffff;
+            }
+            50% {
+                text-shadow: 0 0 20px #1E90FF, 0 0 40px #1E90FF, 0 0 60px #1E90FF;
+                color: #00b8ff;
+            }
+        }
+
+        .bot-name {
+            font-size: 2.8em;
+            font-weight: 900;
+            background: linear-gradient(135deg, #00b8ff, #1E90FF, #00b8ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 15px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            animation: gradientShift 3s ease-in-out infinite;
+        }
+
+        @keyframes gradientShift {
+            0%, 100% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+        }
+
+        .status-card {
+            background: rgba(0, 184, 255, 0.08);
+            border-radius: 20px;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid rgba(0, 184, 255, 0.2);
+        }
+
+        .current-info {
+            font-size: 1.1em;
+            color: #00b8ff;
+            font-family: monospace;
+            letter-spacing: 1px;
+            margin: 15px 0;
+            padding: 12px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            word-break: break-word;
+        }
+
+        .badge-container {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+
+        .badge {
+            background: rgba(0, 184, 255, 0.12);
+            border: 1px solid rgba(0, 184, 255, 0.3);
+            border-radius: 50px;
+            padding: 8px 18px;
+            font-size: 0.85em;
+            color: #00b8ff;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .badge:hover {
+            background: rgba(0, 184, 255, 0.25);
+            transform: scale(1.05);
+        }
+
+        .btn-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+            margin-top: 22px;
+        }
+
+        .icon-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 9px;
+            padding: 11px 22px;
+            border-radius: 8px;
+            font-size: 0.95em;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+            letter-spacing: 0.3px;
+            border: none;
+            white-space: nowrap;
+        }
+
+        .icon-btn svg {
+            width: 18px;
+            height: 18px;
+            flex-shrink: 0;
+            fill: currentColor;
+        }
+
+        .icon-btn.gh-dark {
+            background: #24292e;
+            color: #ffffff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+        }
+        .icon-btn.gh-dark:hover {
+            background: #393f45;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 14px rgba(0,0,0,0.5);
+        }
+
+        .icon-btn.gh-green {
+            background: #2ea44f;
+            color: #ffffff;
+            box-shadow: 0 2px 8px rgba(46,164,79,0.35);
+        }
+        .icon-btn.gh-green:hover {
+            background: #2c974b;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 14px rgba(46,164,79,0.5);
+        }
+
+        .icon-btn.gh-outline {
+            background: transparent;
+            color: #c9d1d9;
+            border: 1px solid rgba(201,209,217,0.25);
+            box-shadow: none;
+        }
+        .icon-btn.gh-outline:hover {
+            background: rgba(201,209,217,0.08);
+            border-color: rgba(201,209,217,0.5);
+            transform: translateY(-2px);
+        }
+
+        .developer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #6c757d;
+            text-align: center;
+        }
+
+        .developer a {
+            color: #00b8ff;
+            text-decoration: none;
+        }
+
+        .pulse {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background-color: #00ff00;
+            border-radius: 50%;
+            animation: pulse 1.5s ease-in-out infinite;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(0, 255, 0, 0.7);
+            }
+            50% {
+                opacity: 0.7;
+                transform: scale(1.1);
+                box-shadow: 0 0 0 10px rgba(0, 255, 0, 0);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px;
+                width: 95%;
+            }
+            .bot-name {
+                font-size: 1.8em;
+            }
+            .glow {
+                font-size: 1.5em;
+            }
+            .current-info {
+                font-size: 0.85em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bot-name">
+            🎖️ ULTRA GURU MD 🎖️
+        </div>
+        
+        <div class="glow">
+            ✅ DEPLOYMENT SUCCESSFUL!<br>
+            BOT IS NOW ACTIVE & RUNNING
+        </div>
+        
+        <div class="status-card">
+            <div style="margin-bottom: 10px;">
+                <span class="pulse"></span>
+                <span style="font-weight: bold; color: #00b8ff;">LIVE STATUS</span>
+            </div>
+            <div class="current-info" id="Info">Loading...</div>
+        </div>
+
+        <div class="badge-container">
+            <span class="badge">⚡ Premium Bot</span>
+            <span class="badge">🤖 Multi-Device</span>
+            <span class="badge">🚀 24/7 Online</span>
+            <span class="badge">🔒 Secure</span>
+        </div>
+
+        <div class="btn-row">
+            <a href="https://github.com/GuruhTech/ULTRA-GURU" target="_blank" class="icon-btn gh-dark">
+                <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                View on GitHub
+            </a>
+            <a href="https://github.com/GuruhTech/ULTRA-GURU/fork" target="_blank" class="icon-btn gh-green">
+                <svg viewBox="0 0 16 16"><path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"/></svg>
+                Fork Repo
+            </a>
+            <a href="https://github.com/GuruhTech/ULTRA-GURU" target="_blank" class="icon-btn gh-outline">
+                <svg viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></svg>
+                Star
+            </a>
+        </div>
+
+        <div class="developer">
+            Developed with 💙 by <a href="https://github.com/blacktech254" target="_blank">BLACKTECH254</a>
+        </div>
+    </div>
+</body>
+<script>
+    function updateInfo() {
+        const now = new Date();
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const seconds = String(now.getSeconds()).padStart(2, '0');
+        
+        const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        const dayName = dayNames[now.getDay()];
+        
+        const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        const date = `${monthNames[now.getMonth()]} ${now.getDate()}, ${now.getFullYear()}`;
+        
+        const timeString = `${hours}:${minutes}:${seconds}`;
+        const infoString = `🕐 ${timeString} • 📅 ${date} • 📆 ${dayName}`;
+        
+        document.getElementById('Info').textContent = infoString;
+    }
+
+    setInterval(updateInfo, 1000);
+    updateInfo();
+</script>
+</html>

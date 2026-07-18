@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ULTRA GURU MD — Link Bot</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{min-height:100vh;background:linear-gradient(135deg,#0a0a0a 0%,#0a1a2a 50%,#0a0f1e 100%);font-family:'Segoe UI',system-ui,sans-serif;display:flex;align-items:center;justify-content:center;padding:20px}
+        .card{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:20px;padding:40px 36px;max-width:480px;width:100%;backdrop-filter:blur(12px);box-shadow:0 8px 48px rgba(0,0,0,0.6)}
+        h1{color:#fff;font-size:1.5rem;font-weight:700;text-align:center;margin-bottom:4px}
+        .sub{color:#8899aa;font-size:.85rem;text-align:center;margin-bottom:28px}
+        label{display:block;color:#aabbd0;font-size:.8rem;font-weight:600;margin-bottom:6px;text-transform:uppercase;letter-spacing:.05em}
+        input{width:100%;padding:13px 16px;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.15);border-radius:10px;color:#fff;font-size:1rem;outline:none;transition:border-color .2s}
+        input:focus{border-color:#4ea8ff}
+        input::placeholder{color:#445566}
+        button{width:100%;margin-top:16px;padding:14px;background:linear-gradient(135deg,#1a6fff,#0a4fcc);border:none;border-radius:10px;color:#fff;font-size:1rem;font-weight:700;cursor:pointer;transition:opacity .2s}
+        button:hover{opacity:.88}
+        button:disabled{opacity:.4;cursor:not-allowed}
+        .step{margin-top:28px;display:none}
+        .step.active{display:block}
+        .code-box{background:rgba(30,215,96,.1);border:2px solid rgba(30,215,96,.3);border-radius:14px;padding:24px;text-align:center;margin:20px 0}
+        .code{font-size:2.6rem;font-weight:900;color:#1ed760;letter-spacing:6px;font-family:'Courier New',monospace}
+        .code-label{color:#aac;font-size:.78rem;margin-top:6px}
+        .instructions{background:rgba(255,255,255,0.04);border-radius:10px;padding:16px;margin-top:16px}
+        .instructions ol{color:#aabbd0;font-size:.85rem;line-height:1.9;padding-left:20px}
+        .instructions ol li{margin-bottom:2px}
+        .success-box{background:rgba(30,215,96,.1);border:2px solid rgba(30,215,96,.4);border-radius:14px;padding:20px;margin:16px 0}
+        .session-title{color:#1ed760;font-weight:700;font-size:.9rem;margin-bottom:10px}
+        .session-val{background:rgba(0,0,0,.4);border-radius:8px;padding:12px;font-family:'Courier New',monospace;font-size:.72rem;color:#7ff;word-break:break-all;max-height:110px;overflow-y:auto;line-height:1.4}
+        .copy-btn{width:100%;margin-top:10px;padding:11px;background:rgba(30,215,96,.2);border:1px solid rgba(30,215,96,.4);border-radius:8px;color:#1ed760;font-weight:700;font-size:.9rem;cursor:pointer;transition:background .2s}
+        .copy-btn:hover{background:rgba(30,215,96,.3)}
+        .warning{background:rgba(255,170,0,.1);border:1px solid rgba(255,170,0,.3);border-radius:10px;padding:14px;margin-top:16px;color:#ffa;font-size:.82rem;line-height:1.6}
+        .warning strong{color:#ffd740}
+        .status-msg{text-align:center;color:#8899aa;font-size:.85rem;margin-top:14px;min-height:20px}
+        .spinner{display:inline-block;width:16px;height:16px;border:2px solid rgba(255,255,255,.2);border-top-color:#4ea8ff;border-radius:50%;animation:spin .7s linear infinite;vertical-align:middle;margin-right:6px}
+        @keyframes spin{to{transform:rotate(360deg)}}
+        .err-box{background:rgba(255,60,60,.1);border:1px solid rgba(255,60,60,.3);border-radius:10px;padding:14px;margin-top:14px;color:#ff9999;font-size:.84rem}
+        .back-btn{width:100%;margin-top:12px;padding:11px;background:transparent;border:1px solid rgba(255,255,255,.15);border-radius:8px;color:#889;font-size:.85rem;cursor:pointer;transition:border-color .2s}
+        .back-btn:hover{border-color:rgba(255,255,255,.35)}
+        .badge{display:inline-block;background:rgba(78,168,255,.15);border:1px solid rgba(78,168,255,.3);border-radius:20px;padding:3px 12px;font-size:.75rem;color:#4ea8ff;margin-bottom:18px}
+    </style>
+</head>
+<body>
+<div class="card">
+    <h1>📱 Link ULTRA GURU MD</h1>
+    <p class="sub">Re-link your WhatsApp number to get a new SESSION_ID</p>
+
+    <!-- STEP 1: Enter phone -->
+    <div class="step active" id="step1">
+        <div style="text-align:center;margin-bottom:20px">
+            <span class="badge">Step 1 of 3 — Enter your number</span>
+        </div>
+        <label for="phone">Your WhatsApp Number</label>
+        <input type="tel" id="phone" placeholder="e.g. 254763986398" autocomplete="off">
+        <p style="color:#556;font-size:.78rem;margin-top:6px">Include country code, no + sign. E.g. 254700000000</p>
+        <button id="pairBtn" onclick="startPair()">Get Pairing Code →</button>
+        <div class="status-msg" id="status1"></div>
+    </div>
+
+    <!-- STEP 2: Show pairing code -->
+    <div class="step" id="step2">
+        <div style="text-align:center;margin-bottom:20px">
+            <span class="badge">Step 2 of 3 — Enter this code in WhatsApp</span>
+        </div>
+        <div class="code-box">
+            <div class="code" id="pairingCode">---- ----</div>
+            <div class="code-label">Enter this code in WhatsApp Linked Devices</div>
+        </div>
+        <div class="instructions">
+            <ol>
+                <li>Open <strong style="color:#fff">WhatsApp</strong> on your phone</li>
+                <li>Tap <strong style="color:#fff">⋮ Menu → Linked Devices</strong></li>
+                <li>Tap <strong style="color:#fff">Link a Device</strong></li>
+                <li>Tap <strong style="color:#fff">"Link with phone number instead"</strong></li>
+                <li>Enter the code above</li>
+            </ol>
+        </div>
+        <div class="status-msg" id="status2"><span class="spinner"></span> Waiting for you to enter the code…</div>
+        <div class="err-box" id="errBox2" style="display:none"></div>
+        <button class="back-btn" onclick="goBack()">← Use a different number</button>
+    </div>
+
+    <!-- STEP 3: Success — show SESSION_ID -->
+    <div class="step" id="step3">
+        <div style="text-align:center;margin-bottom:20px">
+            <span class="badge">Step 3 of 3 — Save your SESSION_ID</span>
+        </div>
+        <div class="success-box">
+            <div class="session-title">✅ Linked! Your new SESSION_ID:</div>
+            <div class="session-val" id="sessionVal">GURU~...</div>
+            <button class="copy-btn" onclick="copySession()">📋 Copy SESSION_ID</button>
+        </div>
+        <div class="warning">
+            <strong>⚡ Next steps:</strong><br>
+            1. Copy the SESSION_ID above<br>
+            2. Go to your Replit project → <strong>Secrets</strong><br>
+            3. Update <code style="background:rgba(0,0,0,.3);padding:1px 5px;border-radius:4px">SESSION_ID</code> with the copied value<br>
+            4. Click <strong>Restart</strong> on the workflow — bot will connect!
+        </div>
+        <button class="back-btn" style="margin-top:16px" onclick="goBack()">← Link another number</button>
+    </div>
+</div>
+
+<script>
+let pollTimer = null;
+
+function show(stepId) {
+    ['step1','step2','step3'].forEach(id => {
+        document.getElementById(id).classList.remove('active');
+    });
+    document.getElementById(stepId).classList.add('active');
+}
+
+function setStatus(elId, html) {
+    document.getElementById(elId).innerHTML = html;
+}
+
+async function startPair() {
+    const phone = document.getElementById('phone').value.trim().replace(/\D/g,'');
+    if (!phone || phone.length < 7) {
+        setStatus('status1', '<span style="color:#f88">❌ Please enter a valid phone number.</span>');
+        return;
+    }
+    const btn = document.getElementById('pairBtn');
+    btn.disabled = true;
+    setStatus('status1', '<span class="spinner"></span> Requesting pairing code…');
+
+    try {
+        const res = await fetch('/api/pair', {
+            method: 'POST',
+            headers: {'Content-Type':'application/json'},
+            body: JSON.stringify({ phone })
+        });
+        const data = await res.json();
+        if (!data.ok) {
+            setStatus('status1', `<span style="color:#f88">❌ ${data.error || 'Failed to start pairing.'}</span>`);
+            btn.disabled = false;
+            return;
+        }
+
+        // Poll for the code
+        pollTimer = setInterval(checkStatus, 2000);
+        setTimeout(() => show('step2'), 400);
+    } catch (e) {
+        setStatus('status1', `<span style="color:#f88">❌ Network error: ${e.message}</span>`);
+        btn.disabled = false;
+    }
+}
+
+async function checkStatus() {
+    try {
+        const res  = await fetch('/api/pair/status');
+        const data = await res.json();
+
+        if (data.status === 'ready' || data.status === 'success') {
+            if (data.code) {
+                document.getElementById('pairingCode').textContent = data.code;
+            }
+        }
+
+        if (data.status === 'success' && data.sessionId) {
+            clearInterval(pollTimer);
+            document.getElementById('sessionVal').textContent = data.sessionId;
+            show('step3');
+        } else if (data.status === 'error') {
+            clearInterval(pollTimer);
+            const errBox = document.getElementById('errBox2');
+            errBox.style.display = 'block';
+            errBox.textContent = '❌ ' + (data.error || 'Pairing failed. Try again.');
+            setStatus('status2', '');
+        }
+    } catch (_) {}
+}
+
+function copySession() {
+    const val = document.getElementById('sessionVal').textContent;
+    navigator.clipboard.writeText(val).then(() => {
+        const btn = document.querySelector('.copy-btn');
+        btn.textContent = '✅ Copied!';
+        setTimeout(() => { btn.textContent = '📋 Copy SESSION_ID'; }, 2500);
+    });
+}
+
+function goBack() {
+    clearInterval(pollTimer);
+    fetch('/api/pair/cancel').catch(()=>{});
+    document.getElementById('pairBtn').disabled = false;
+    setStatus('status1','');
+    setStatus('status2','<span class="spinner"></span> Waiting for you to enter the code…');
+    document.getElementById('errBox2').style.display='none';
+    show('step1');
+}
+</script>
+</body>
+</html>
