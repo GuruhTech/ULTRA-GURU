@@ -27,9 +27,9 @@ Choose your preferred method:
 
 ⭐ FreeHost (Recommended)
 
-[![Deploy on FreeHost](https://img.shields.io/badge/DEPLOY%20ON%20FREEHOST-00b8ff?style=for-the-badge&logo=rocket&logoColor=white)](https://host.gurutech.top)
+[![Deploy on FreeHost](https://img.shields.io/badge/DEPLOY%20ON%20FREEHOST-00b8ff?style=for-the-badge&logo=rocket&logoColor=white)](https://freehost.gurutech.top)
 
-The fastest and easiest way to deploy ULTRA GURU MD — free, no credit card needed. Just visit **[host.gurutech.top](https://host.gurutech.top)** and follow the on-screen steps.
+The fastest and easiest way to deploy ULTRA GURU MD — free, no credit card needed. Just visit **[host.gurutech.top](https://freehost.gurutech.top)** and follow the on-screen steps.
 
 ☁️ Heroku
 
