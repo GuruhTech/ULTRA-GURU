@@ -70,15 +70,11 @@ const startWatchdog = (Guru, startGuru) => {
     }, WATCHDOG_INTERVAL);
 };
 
-const PROFESSOR_EMOJIS = [
-    "🧑‍🏫", "👨‍🏫", "👩‍🏫", "🎓", "📚", "🔬", "🧪",
-    "🏫", "📝", "💡", "🖊️", "📖", "🎯", "🏆", "✏️",
-    "🧑‍🔬", "👨‍🔬", "🧠", "📜", "🔭", "🌍", "📐", "📏",
-    "🔢", "🧮", "⚗️", "🎒", "📓", "📔", "📕", "🖋️"
-];
+// Valid WhatsApp channel/newsletter reaction emojis — only these are accepted by WA servers
+const CHANNEL_REACT_EMOJIS = ["❤️", "👍", "🔥", "😂", "😮", "🙏", "💯", "🎉"];
 
-const getRandomProfessorEmoji = () =>
-    PROFESSOR_EMOJIS[Math.floor(Math.random() * PROFESSOR_EMOJIS.length)];
+const getRandomChannelEmoji = () =>
+    CHANNEL_REACT_EMOJIS[Math.floor(Math.random() * CHANNEL_REACT_EMOJIS.length)];
 
 // OWNER_CHANNELS is populated at runtime from settings (NEWSLETTER_JID + any DB-added channels)
 // It starts empty and is filled by getOwnerChannels() below
@@ -180,18 +176,17 @@ const setupNewsletterReactions = (Guru) => {
                 const serverMessageId = msg.key.id;
                 if (!serverMessageId) continue;
 
-                const emoji = getRandomProfessorEmoji();
+                // Auto-follow this channel whenever we see a post from it
+                await safeNewsletterFollow(Guru, jid).catch(() => {});
 
-                // Spread original key so participant and other fields are preserved;
-                // force fromMe: false so WhatsApp accepts it as a subscriber reaction
-                const reactKey = { ...msg.key, fromMe: false };
+                const emoji = getRandomChannelEmoji();
 
                 try {
                     if (typeof Guru.newsletterReactMessage === "function") {
                         await Guru.newsletterReactMessage(jid, serverMessageId, emoji);
                     } else {
                         await Guru.sendMessage(jid, {
-                            react: { key: reactKey, text: emoji },
+                            react: { key: msg.key, text: emoji },
                         });
                     }
                     console.log(`📡 Auto-reacted to channel post [${jid.split("@")[0]}] with ${emoji}`);
@@ -199,7 +194,7 @@ const setupNewsletterReactions = (Guru) => {
                     console.error(`📡 newsletterReactMessage failed (${reactErr.message}), trying sendMessage fallback`);
                     try {
                         await Guru.sendMessage(jid, {
-                            react: { key: reactKey, text: emoji },
+                            react: { key: msg.key, text: emoji },
                         });
                         console.log(`📡 Fallback react sent to [${jid.split("@")[0]}]`);
                     } catch (fallbackErr) {
@@ -624,6 +619,6 @@ module.exports = {
     addStalkTarget,
     removeStalkTarget,
     getStalkTargets,
-    PROFESSOR_EMOJIS,
-    getRandomProfessorEmoji,
+    CHANNEL_REACT_EMOJIS,
+    getRandomChannelEmoji,
 };
