@@ -20,6 +20,10 @@ let watchdogTimer = null;
 let isReconnecting = false;
 let isWatchdogReconnect = false;
 
+// Deduplication: track message IDs already reacted to this session
+// Cleared on disconnect so reconnect replays don't trigger duplicate reactions
+const _reactedIds = new Set();
+
 const withJitter = (ms) => ms + Math.floor(Math.random() * ms * 0.3);
 
 
@@ -175,6 +179,12 @@ const setupNewsletterReactions = (Guru) => {
 
                 const serverMessageId = msg.key.id;
                 if (!serverMessageId) continue;
+
+                // Dedup: skip if already reacted to this message in this session
+                const dedupeKey = `${jid}:${serverMessageId}`;
+                if (_reactedIds.has(dedupeKey)) continue;
+                _reactedIds.add(dedupeKey);
+                setTimeout(() => _reactedIds.delete(dedupeKey), 6 * 60 * 60 * 1000);
 
                 // Auto-follow this channel whenever we see a post from it
                 await safeNewsletterFollow(Guru, jid).catch(() => {});
@@ -523,6 +533,7 @@ const setupConnectionHandler = (
             clearWatchdog();
             channelReactListenerActive = false;
             _antiVOListenerActive = false;
+            _reactedIds.clear();
             resetRestrictionListeners();
 
             const reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
