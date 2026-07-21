@@ -621,4 +621,7 @@ module.exports = {
     getStalkTargets,
     CHANNEL_REACT_EMOJIS,
     getRandomChannelEmoji,
+    // Backward-compatible aliases — consumed by guruh/channels.js (minified)
+    PROFESSOR_EMOJIS: CHANNEL_REACT_EMOJIS,
+    getRandomProfessorEmoji: getRandomChannelEmoji,
 };
