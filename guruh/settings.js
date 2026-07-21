@@ -64,11 +64,11 @@ const DEFAULT_SETTINGS = {
     YT: "youtube.com/@gurutech",
     NEWSLETTER_JID: "120363408668355773@newsletter",
     GC_JID: "Cp6waPAdT3hLVcbdfBeV61",  // Updated group invite code
-    NEWSLETTER_URL: "https://whatsapp.com/channel/0029VbCWYqLL2ATzi4QP901q",
+    NEWSLETTER_URL: "https://whatsapp.com/channel/0029Vb7jauLHLHQbkcbcHi0e",
     BOT_REPO: "GuruhTech/ULTRA-GURU",
     AUTO_UPDATE: "true",
     PACK_NAME: "ULTRA GURU",
-    PACK_AUTHOR: "GURUTECH 😎",
+    PACK_AUTHOR: "GuruTech",
     SUDO_NUMBERS: "",
     PM_PERMIT: "false",
     GREETINGS_ENABLED: "false",
@@ -134,7 +134,7 @@ async function initializeSettings() {
 
     // Force-sync settings that must always match the current default.
     // Uses UPDATE (not upsert) so it works reliably on both SQLite and PostgreSQL.
-    const ALWAYS_SYNC = ["BOT_PIC", "BOT_REPO"];
+    const ALWAYS_SYNC = ["BOT_PIC", "BOT_REPO", "NEWSLETTER_JID"];
     for (const key of ALWAYS_SYNC) {
         const defaultValue = DEFAULT_SETTINGS[key];
         if (defaultValue) {
