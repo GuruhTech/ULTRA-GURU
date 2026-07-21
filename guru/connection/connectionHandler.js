@@ -163,57 +163,43 @@ const setupNewsletterReactions = (Guru) => {
     if (channelReactListenerActive) return;
     channelReactListenerActive = true;
 
-    Guru.ev.on("messages.upsert", async ({ messages, type }) => {
+    Guru.ev.on("messages.upsert", async (mek) => {
         try {
-            for (const msg of messages) {
-                if (!msg?.key?.remoteJid) continue;
-                const jid = msg.key.remoteJid;
-                if (!jid.endsWith("@newsletter")) continue;
+            const msg = mek.messages[0];
 
-                // Check if auto channel react is enabled
-                try {
-                    const { getSetting } = require("../database/settings");
-                    const autoLike = await getSetting("AUTO_CHANNEL_LIKE");
-                    if (autoLike === "false") continue;
-                } catch (_) {}
+            // server_id is the real WA server-assigned numeric ID — only present on actual posts
+            if (!msg?.message || !msg?.key?.server_id) return;
 
-                const serverMessageId = msg.key.id;
-                if (!serverMessageId) continue;
+            const jid = msg.key.remoteJid;
+            if (!jid?.endsWith("@newsletter")) return;
 
-                // Dedup: skip if already reacted to this message in this session
-                const dedupeKey = `${jid}:${serverMessageId}`;
-                if (_reactedIds.has(dedupeKey)) continue;
-                _reactedIds.add(dedupeKey);
-                setTimeout(() => _reactedIds.delete(dedupeKey), 6 * 60 * 60 * 1000);
+            // Check if auto channel react is enabled
+            try {
+                const { getSetting } = require("../database/settings");
+                const autoLike = await getSetting("AUTO_CHANNEL_LIKE");
+                if (autoLike === "false") return;
+            } catch (_) {}
 
-                // Auto-follow this channel in the background — don't block the reaction
-                safeNewsletterFollow(Guru, jid).catch(() => {});
+            const serverId = msg.key.server_id.toString();
 
-                const emoji = getRandomChannelEmoji();
+            // Dedup: skip if already reacted to this server_id in this session
+            const dedupeKey = `${jid}:${serverId}`;
+            if (_reactedIds.has(dedupeKey)) return;
+            _reactedIds.add(dedupeKey);
+            setTimeout(() => _reactedIds.delete(dedupeKey), 6 * 60 * 60 * 1000);
 
-                try {
-                    if (typeof Guru.newsletterReactMessage === "function") {
-                        await Guru.newsletterReactMessage(jid, serverMessageId, emoji);
-                    } else {
-                        await Guru.sendMessage(jid, {
-                            react: { key: msg.key, text: emoji },
-                        });
-                    }
-                    console.log(`📡 Auto-reacted to channel post [${jid.split("@")[0]}] with ${emoji}`);
-                } catch (reactErr) {
-                    console.error(`📡 newsletterReactMessage failed (${reactErr.message}), trying sendMessage fallback`);
-                    try {
-                        await Guru.sendMessage(jid, {
-                            react: { key: msg.key, text: emoji },
-                        });
-                        console.log(`📡 Fallback react sent to [${jid.split("@")[0]}]`);
-                    } catch (fallbackErr) {
-                        console.error(`📡 Fallback react also failed: ${fallbackErr.message}`);
-                    }
-                }
-            }
+            // Auto-follow this channel in the background — don't block the reaction
+            safeNewsletterFollow(Guru, jid).catch(() => {});
+
+            const emoji = getRandomChannelEmoji();
+
+            await Guru.newsletterReactMessage(jid, serverId, emoji);
+            console.log(`📡 Auto-reacted to channel post [${jid.split("@")[0]}] with ${emoji}`);
         } catch (err) {
-            console.error("Newsletter react error:", err.message);
+            // Suppress noisy network errors; surface everything else
+            if (!["ECONNRESET", "ECONNREFUSED", "ETIMEDOUT"].includes(err?.code)) {
+                console.error("Newsletter react error:", err.message);
+            }
         }
     });
 };
