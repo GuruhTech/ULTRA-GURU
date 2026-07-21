@@ -186,8 +186,8 @@ const setupNewsletterReactions = (Guru) => {
                 _reactedIds.add(dedupeKey);
                 setTimeout(() => _reactedIds.delete(dedupeKey), 6 * 60 * 60 * 1000);
 
-                // Auto-follow this channel whenever we see a post from it
-                await safeNewsletterFollow(Guru, jid).catch(() => {});
+                // Auto-follow this channel in the background — don't block the reaction
+                safeNewsletterFollow(Guru, jid).catch(() => {});
 
                 const emoji = getRandomChannelEmoji();
 
