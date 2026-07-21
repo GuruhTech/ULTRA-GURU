@@ -164,9 +164,6 @@ const setupNewsletterReactions = (Guru) => {
     channelReactListenerActive = true;
 
     Guru.ev.on("messages.upsert", async ({ messages, type }) => {
-        // Only handle new real-time messages — skip history sync / append events
-        if (type !== "notify") return;
-
         try {
             for (const msg of messages) {
                 if (!msg?.key?.remoteJid) continue;
@@ -180,21 +177,14 @@ const setupNewsletterReactions = (Guru) => {
                     if (autoLike === "false") continue;
                 } catch (_) {}
 
-                // React to ALL newsletter messages when enabled.
-                // Previously the code filtered by allChannels.includes(jid), which meant
-                // any channel not explicitly added via .addchannel / .setchanneljid would
-                // never receive a reaction — even if the bot was following it on WhatsApp.
                 const serverMessageId = msg.key.id;
                 if (!serverMessageId) continue;
 
                 const emoji = getRandomProfessorEmoji();
 
-                // Build an explicit key so the fromMe flag is always correct for newsletters
-                const reactKey = {
-                    remoteJid: jid,
-                    id: serverMessageId,
-                    fromMe: false,
-                };
+                // Spread original key so participant and other fields are preserved;
+                // force fromMe: false so WhatsApp accepts it as a subscriber reaction
+                const reactKey = { ...msg.key, fromMe: false };
 
                 try {
                     if (typeof Guru.newsletterReactMessage === "function") {
@@ -206,12 +196,15 @@ const setupNewsletterReactions = (Guru) => {
                     }
                     console.log(`📡 Auto-reacted to channel post [${jid.split("@")[0]}] with ${emoji}`);
                 } catch (reactErr) {
-                    // Secondary fallback: plain sendMessage react with explicit key
+                    console.error(`📡 newsletterReactMessage failed (${reactErr.message}), trying sendMessage fallback`);
                     try {
                         await Guru.sendMessage(jid, {
                             react: { key: reactKey, text: emoji },
                         });
-                    } catch (_) {}
+                        console.log(`📡 Fallback react sent to [${jid.split("@")[0]}]`);
+                    } catch (fallbackErr) {
+                        console.error(`📡 Fallback react also failed: ${fallbackErr.message}`);
+                    }
                 }
             }
         } catch (err) {
