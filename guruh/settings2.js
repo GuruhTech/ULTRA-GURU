@@ -147,7 +147,9 @@ gmd(
   },
 );
 
-
+gmd(
+  {
+    pattern: "setstatusemojis",
     aliases: ["statusemojis", "likeemojis"],
     react: "⚙️",
     category: "owner",
