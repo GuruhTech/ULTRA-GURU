@@ -1,7 +1,6 @@
-const a0_0xda08=function(_i){let _r=a0_0xcb92()[_i-0x0];if(a0_0xda08['_k']===undefined){const _d=function(_s){const _t='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _o='',_x='';for(let _j=0,_q,_c,_p=0;_c=_s.charAt(_p++);~_c&&(_q=_j%4?_q*64+_c:_c,_j++%4)?_o+=String.fromCharCode(255&_q>>(-2*_j&6)):0){_c=_t.indexOf(_c);}for(let _a=0,_l=_o.length;_a<_l;_a++){_x+='%'+('00'+_o.charCodeAt(_a).toString(16)).slice(-2);}return decodeURIComponent(_x);};a0_0xda08['_dec']=_d;a0_0xda08['_k']=!![];}return a0_0xda08['_dec'](_r);};function a0_0xcb92(){const _data=['YWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXpBQkNERUZHSElKS0xNTk9QUVJTVFVWV1hZWjAxMjM0NTY3ODkrLz0=','X2RlYw==','UUhkb2FYTnJaWGx6YjJOclpYUnpMMkpoYVd4bGVYTT0=','WjI5dloyeGxMWFIwY3kxaGNHaz0=','TGk5a1lYUmhZbUZ6WlM5dFpYTnpZV2RsVTNSdmNtVT0=','UUd4cFpBPT0=','TGk5amIyNXVaV04wYVc5dUwyZHliM1Z3UTJGamFHVT0=','TGk5a1lYUmhZbUZ6WlM5c2FXUk5ZWEJ3YVc1bg==','YldWemMyRm5aWE11ZFhCelpYSjA=','UUc1bGQzTnNaWFIwWlhJPQ==','YjJabQ==','Wm1Gc2MyVT0=','UUdjdWRYTT0=','UUhNdWQyaGhkSE5oY0hBdWJtVjA=','WVd4cw==','ZEhKMVpRPT0=','WjNKdmRYQno=','UlhKeWIzSWdaSFZ5YVc1bklHRjFkRzhnY21WaFkzUnBiMjQ2','Vlc1cmJtOTNiZz09','YzNSaGRIVnpRR0p5YjJGa1kyRnpkQT09','UVc1MGFTMWtaV3hsZEdVZ2MzbHpkR1Z0SUdWeWNtOXlPZz09','WTJGc2JBPT0=','WTI5dWJtVmpkR2x2Ymk1MWNHUmhkR1U9','YjNCbGJnPT0=','WVhCd1pXNWs=','WVhWa2FXOD0=','YVc1aWIzZz0=','YldWemMyRm5aWE11ZFhCa1lYUmw=','UVc1MGFTMWxaR2wwSUdoaGJtUnNaWElnWlhKeWIzSTY=','WlhCb1pXMWxjbUZzVFdWemMyRm5aUT09','OEorbHZDenduNCtGTFBDZmpwYnZ1SThzOEorbnB5enduNDZRTFBDZmo0VXM4SitQaGl6d242V0hMUENmcFlnczhKK1BoZz09','UTI5dWJtVmpkR2x2YmlCRGJHOXpaV1E9','UlVOUFRrNVNSVk5GVkE9PQ==','UlZSSlRVVkVUMVZV','UlVOUFRrNVNSVVpWVTBWRQ==','UlZCSlVFVT0=','UTI5dWJtVmpkR2x2YmlCVVpYSnRhVzVoZEdWaw==','VTNSeVpXRnRJRVZ5Y205eVpXUT0=','UlhKeWIzSWdVSEp2WTJWemMybHVaeUJUZEdGMGRYTWdRV04wYVc5dWN6bz0='];a0_0xcb92=function(){return _data;};return a0_0xcb92();}
-const a0_0xa6c3=function(_i){_0x45a=_i-0x0;let _r=a0_0x6562()[_0x45a];if(a0_0xa6c3['_k']===undefined){const _d=function(_s){const _t=a0_0xda08(0x0);let _o='',_x='';for(let _j=0,_q,_c,_p=0;_c=_s.charAt(_p++);~_c&&(_q=_j%4?_q*64+_c:_c,_j++%4)?_o+=String.fromCharCode(255&_q>>(-2*_j&6)):0){_c=_t.indexOf(_c);}for(let _a=0,_l=_o.length;_a<_l;_a++){_x+='%'+('00'+_o.charCodeAt(_a).toString(16)).slice(-2);}return decodeURIComponent(_x);};a0_0xa6c3[a0_0xda08(0x1)]=_d;a0_0xa6c3['_k']=!![];}return a0_0xa6c3[a0_0xda08(0x1)](_r);};function a0_0x6562(){const _data=[a0_0xda08(0x2),a0_0xda08(0x3),a0_0xda08(0x4),a0_0xda08(0x5),a0_0xda08(0x6),a0_0xda08(0x7),a0_0xda08(0x8),a0_0xda08(0x9),a0_0xda08(0xa),a0_0xda08(0xb),a0_0xda08(0xc),a0_0xda08(0xd),a0_0xda08(0xe),a0_0xda08(0xf),a0_0xda08(0x10),a0_0xda08(0x11),a0_0xda08(0x12),a0_0xda08(0x13),a0_0xda08(0x14),a0_0xda08(0x15),a0_0xda08(0x16),a0_0xda08(0x17),a0_0xda08(0x18),a0_0xda08(0x19),a0_0xda08(0x1a),a0_0xda08(0x1b),a0_0xda08(0x1c),a0_0xda08(0x1d),a0_0xda08(0x1e),a0_0xda08(0x1f),a0_0xda08(0x20),a0_0xda08(0x21),a0_0xda08(0x22),a0_0xda08(0x23),a0_0xda08(0x24),a0_0xda08(0x25),a0_0xda08(0x26)];a0_0x6562=function(){return _data;};return a0_0x6562();}
-const { getContentType } = require(a0_0xa6c3(0x0));
-const googleTTS = require(a0_0xa6c3(0x1));
+const a0_0xf5cb=function(_i){let _r=a0_0x8def()[_i-0x0];if(a0_0xf5cb['_k']===undefined){const _d=function(_s){const _t='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _o='',_x='';for(let _j=0,_q,_c,_p=0;_c=_s.charAt(_p++);~_c&&(_q=_j%4?_q*64+_c:_c,_j++%4)?_o+=String.fromCharCode(255&_q>>(-2*_j&6)):0){_c=_t.indexOf(_c);}for(let _a=0,_l=_o.length;_a<_l;_a++){_x+='%'+('00'+_o.charCodeAt(_a).toString(16)).slice(-2);}return decodeURIComponent(_x);};a0_0xf5cb['_dec']=_d;a0_0xf5cb['_k']=!![];}return a0_0xf5cb['_dec'](_r);};function a0_0x8def(){const _data=['QHdoaXNrZXlzb2NrZXRzL2JhaWxleXM=','Z29vZ2xlLXR0cy1hcGk=','Li9kYXRhYmFzZS9tZXNzYWdlU3RvcmU=','QGxpZA==','Li9jb25uZWN0aW9uL2dyb3VwQ2FjaGU=','Li9kYXRhYmFzZS9saWRNYXBwaW5n','bWVzc2FnZXMudXBzZXJ0','QG5ld3NsZXR0ZXI=','b2Zm','ZmFsc2U=','QGcudXM=','QHMud2hhdHNhcHAubmV0','YWxs','dHJ1ZQ==','Z3JvdXBz','RXJyb3IgZHVyaW5nIGF1dG8gcmVhY3Rpb246','VW5rbm93bg==','c3RhdHVzQGJyb2FkY2FzdA==','QW50aS1kZWxldGUgc3lzdGVtIGVycm9yOg==','Y2FsbA==','Y29ubmVjdGlvbi51cGRhdGU=','b3Blbg==','YXBwZW5k','YXVkaW8=','aW5ib3g=','bWVzc2FnZXMudXBkYXRl','QW50aS1lZGl0IGhhbmRsZXIgZXJyb3I6','ZXBoZW1lcmFsTWVzc2FnZQ==','8J+lvCzwn4+FLPCfjpbvuI8s8J+npyzwn46QLPCfj4Us8J+Phizwn6WHLPCfpYgs8J+Phg==','Q29ubmVjdGlvbiBDbG9zZWQ=','RUNPTk5SRVNFVA==','RVRJTUVET1VU','RUNPTk5SRUZVU0VE','RVBJUEU=','Q29ubmVjdGlvbiBUZXJtaW5hdGVk','U3RyZWFtIEVycm9yZWQ=','RXJyb3IgUHJvY2Vzc2luZyBTdGF0dXMgQWN0aW9uczo='];a0_0x8def=function(){return _data;};return a0_0x8def();}
+const { getContentType } = require(a0_0xf5cb(0x0));
+const googleTTS = require(a0_0xf5cb(0x1));
 
 const {
     getAllSettings,
@@ -29,22 +28,22 @@ const {
     findAntiDelete,
     removeAntiDelete,
     saveAntiDelete,
-} = require(a0_0xa6c3(0x2));
+} = require(a0_0xf5cb(0x2));
 
 async function resolveRealJid(Guru, jid) {
     if (!jid) return null;
-    if (!jid.endsWith(a0_0xa6c3(0x3))) return jid;
+    if (!jid.endsWith(a0_0xf5cb(0x3))) return jid;
     try {
-        const { getLidMapping } = require(a0_0xa6c3(0x4));
-        const _0xdd41 = getLidMapping(jid);
+        const { getLidMapping } = require(a0_0xf5cb(0x4));
+        const cached = getLidMapping(jid);
         if (cached) return cached;
     } catch (_) {}
     try {
-        const _0x4aa6 = await Guru.getJidFromLid(jid);
-        if (resolved && !resolved.endsWith(a0_0xa6c3(0x3))) return resolved;
+        const resolved = await Guru.getJidFromLid(jid);
+        if (resolved && !resolved.endsWith(a0_0xf5cb(0x3))) return resolved;
     } catch (_) {}
     try {
-        const { getLidMappingFromDb } = require(a0_0xa6c3(0x5));
+        const { getLidMappingFromDb } = require(a0_0xf5cb(0x5));
         const fromDb = await getLidMappingFromDb(jid);
         if (fromDb) return fromDb;
     } catch (_) {}
@@ -52,13 +51,13 @@ async function resolveRealJid(Guru, jid) {
 }
 
 function setupAutoReact(Guru) {
-    Guru.ev.on(a0_0xa6c3(0x6), async (mek) => {
+    Guru.ev.on(a0_0xf5cb(0x6), async (mek) => {
         try {
             const ms = mek.messages[0];
             if (!ms.message) return;
 
             const from = ms.key.remoteJid;
-            const isChannel = from?.endsWith(a0_0xa6c3(0x7));
+            const isChannel = from?.endsWith(a0_0xf5cb(0x7));
             const s = await getAllSettings();
             const isMyChannel = isChannel && s.NEWSLETTER_JID && from === s.NEWSLETTER_JID;
 
@@ -72,19 +71,19 @@ function setupAutoReact(Guru) {
             }
 
             // Everything below is normal-chat behavior, gated by AUTO_REACT.
-            const autoReactMode = s.AUTO_REACT || a0_0xa6c3(0x8);
-            if (autoReactMode === a0_0xa6c3(0x8) || autoReactMode === a0_0xa6c3(0x9) || ms.key.fromMe)
+            const autoReactMode = s.AUTO_REACT || a0_0xf5cb(0x8);
+            if (autoReactMode === a0_0xf5cb(0x8) || autoReactMode === a0_0xf5cb(0x9) || ms.key.fromMe)
                 return;
 
-            const isGroup = from?.endsWith(a0_0xa6c3(0xa));
-            const isDm = from?.endsWith(a0_0xa6c3(0xb));
+            const isGroup = from?.endsWith(a0_0xf5cb(0xa));
+            const isDm = from?.endsWith(a0_0xf5cb(0xb));
 
             let shouldReact = false;
-            if (autoReactMode === a0_0xa6c3(0xc) || autoReactMode === a0_0xa6c3(0xd)) {
+            if (autoReactMode === a0_0xf5cb(0xc) || autoReactMode === a0_0xf5cb(0xd)) {
                 shouldReact = true;
             } else if (autoReactMode === "dm" && isDm) {
                 shouldReact = true;
-            } else if (autoReactMode === a0_0xa6c3(0xe) && isGroup) {
+            } else if (autoReactMode === a0_0xf5cb(0xe) && isGroup) {
                 shouldReact = true;
             }
 
@@ -93,7 +92,7 @@ function setupAutoReact(Guru) {
             const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
             await GuruAutoReact(randomEmoji, ms, Guru);
         } catch (err) {
-            console.error(a0_0xa6c3(0xf), err);
+            console.error(a0_0xf5cb(0xf), err);
 
         }
     });
@@ -105,7 +104,7 @@ function setupAntiDelete(Guru) {
 
     const getSender = (ms) => {
         const key = ms.key;
-        const realJid = (j) => j && !j.endsWith(a0_0xa6c3(0x3)) ? j : null;
+        const realJid = (j) => j && !j.endsWith(a0_0xf5cb(0x3)) ? j : null;
         return (
             realJid(key.participantPn) ||
             realJid(key.senderPn) ||
@@ -115,12 +114,12 @@ function setupAntiDelete(Guru) {
             key.participantPn ||
             key.participant ||
             ms.participant ||
-            (key.remoteJid?.endsWith(a0_0xa6c3(0xa)) ? null : realJid(key.remoteJid) || key.remoteJid)
+            (key.remoteJid?.endsWith(a0_0xf5cb(0xa)) ? null : realJid(key.remoteJid) || key.remoteJid)
         );
     };
 
     const getPushName = (ms) => {
-        return ms.pushName || ms.key?.pushName || ms.verifiedBizName || a0_0xa6c3(0x10);
+        return ms.pushName || ms.key?.pushName || ms.verifiedBizName || a0_0xf5cb(0x10);
     };
 
     const isProtocolMessage = (ms) => {
@@ -153,7 +152,7 @@ function setupAntiDelete(Guru) {
         );
     };
 
-    Guru.ev.on(a0_0xa6c3(0x6), async ({ messages }) => {
+    Guru.ev.on(a0_0xf5cb(0x6), async ({ messages }) => {
         for (const ms of messages) {
             try {
                 if (!ms?.message) continue;
@@ -162,7 +161,7 @@ function setupAntiDelete(Guru) {
                 if (
                     !key?.remoteJid ||
                     key.fromMe ||
-                    key.remoteJid === a0_0xa6c3(0x11)
+                    key.remoteJid === a0_0xf5cb(0x11)
                 )
                     continue;
 
@@ -177,7 +176,7 @@ function setupAntiDelete(Guru) {
                     const deletedMsg = findAntiDelete(chatJid, deletedId);
                     if (!deletedMsg?.message) continue;
 
-                    const _0x6471 = getSender(ms) || key.remoteJid;
+                    const deleter = getSender(ms) || key.remoteJid;
                     const deleterPushName = getPushName(ms);
 
                     if (deleter === botJid || deleter === botOwnerJid) continue;
@@ -202,14 +201,14 @@ function setupAntiDelete(Guru) {
                 const actualMessage = getActualMessage(ms);
                 if (!actualMessage) continue;
 
-                const _0xe030 = getSender(ms);
+                const sender = getSender(ms);
                 const senderPushName = getPushName(ms);
 
                 if (!sender || sender === botJid || sender === botOwnerJid)
                     continue;
 
-                const _0x51e0 = key.remoteJid;
-                const _0x798b = {
+                const _jid = key.remoteJid;
+                const _entry = {
                     ...ms,
                     message: actualMessage,
                     originalSender: sender,
@@ -218,7 +217,7 @@ function setupAntiDelete(Guru) {
                 };
                 setImmediate(() => saveAntiDelete(_jid, _entry));
             } catch (error) {
-                console.error(a0_0xa6c3(0x12), error);
+                console.error(a0_0xf5cb(0x12), error);
             }
         }
     });
@@ -227,7 +226,7 @@ function setupAntiDelete(Guru) {
 function setupAutoBio(Guru) {
     (async () => {
         const s = await getAllSettings();
-        if (s.AUTO_BIO === a0_0xa6c3(0xd)) {
+        if (s.AUTO_BIO === a0_0xf5cb(0xd)) {
             setTimeout(() => GuruAutoBio(Guru), 1000);
             setInterval(() => GuruAutoBio(Guru), 1000 * 60);
         }
@@ -235,37 +234,37 @@ function setupAutoBio(Guru) {
 }
 
 function setupAntiCall(Guru) {
-    Guru.ev.on(a0_0xa6c3(0x13), async (json) => {
+    Guru.ev.on(a0_0xf5cb(0x13), async (json) => {
         await GuruAnticall(json, Guru);
     });
 }
 
 function setupPresence(Guru) {
-    Guru.ev.on(a0_0xa6c3(0x6), async ({ messages }) => {
+    Guru.ev.on(a0_0xf5cb(0x6), async ({ messages }) => {
         if (messages?.length > 0) {
             await GuruPresence(Guru, messages[0].key.remoteJid);
         }
     });
 
-    Guru.ev.on(a0_0xa6c3(0x14), ({ connection }) => {
-        if (connection === a0_0xa6c3(0x15)) {
-            GuruPresence(Guru, a0_0xa6c3(0x11));
+    Guru.ev.on(a0_0xf5cb(0x14), ({ connection }) => {
+        if (connection === a0_0xf5cb(0x15)) {
+            GuruPresence(Guru, a0_0xf5cb(0x11));
         }
     });
 }
 
 function setupChatBotAndAntiLink(Guru) {
-    Guru.ev.on(a0_0xa6c3(0x6), async ({ messages, type }) => {
-        if (type === a0_0xa6c3(0x16)) return;
+    Guru.ev.on(a0_0xf5cb(0x6), async ({ messages, type }) => {
+        if (type === a0_0xf5cb(0x16)) return;
 
         const firstMsg = messages[0];
         if (firstMsg?.message) {
             const s = await getAllSettings();
-            if (s.CHATBOT === a0_0xa6c3(0xd) || s.CHATBOT === a0_0xa6c3(0x17)) {
+            if (s.CHATBOT === a0_0xf5cb(0xd) || s.CHATBOT === a0_0xf5cb(0x17)) {
                 GuruChatBot(
                     Guru,
                     s.CHATBOT,
-                    s.CHATBOT_MODE || a0_0xa6c3(0x18),
+                    s.CHATBOT_MODE || a0_0xf5cb(0x18),
                     createContext,
                     createContext2,
                     googleTTS,
@@ -273,12 +272,12 @@ function setupChatBotAndAntiLink(Guru) {
             }
         }
 
-        for (const _0x92f8 of messages) {
+        for (const message of messages) {
             if (!message?.message) continue;
             const from = message.key?.remoteJid || "";
-            if (message.key.fromMe && !from.endsWith(a0_0xa6c3(0xa))) continue;
+            if (message.key.fromMe && !from.endsWith(a0_0xf5cb(0xa))) continue;
 
-            if (from.endsWith(a0_0xa6c3(0xa))) {
+            if (from.endsWith(a0_0xf5cb(0xa))) {
                 await GuruAntiLink(Guru, message, getGroupMetadata);
                 await GuruAntibad(Guru, message, getGroupMetadata);
                 await GuruAntiBot(Guru, message, getGroupMetadata);
@@ -291,32 +290,32 @@ function setupChatBotAndAntiLink(Guru) {
 }
 
 function setupAntiEdit(Guru) {
-    Guru.ev.on(a0_0xa6c3(0x19), async (updates) => {
-        for (const _0xd8b5 of updates) {
+    Guru.ev.on(a0_0xf5cb(0x19), async (updates) => {
+        for (const update of updates) {
             try {
                 if (!update?.update?.message) continue;
                 if (update.key?.fromMe) continue;
-                if (update.key?.remoteJid === a0_0xa6c3(0x11)) continue;
+                if (update.key?.remoteJid === a0_0xf5cb(0x11)) continue;
                 await GuruAntiEdit(Guru, update, findAntiDelete);
             } catch (err) {
-                console.error(a0_0xa6c3(0x1a), err.message);
+                console.error(a0_0xf5cb(0x1a), err.message);
             }
         }
     });
 }
 
 function setupStatusHandlers(Guru) {
-    Guru.ev.on(a0_0xa6c3(0x6), async (mek) => {
+    Guru.ev.on(a0_0xf5cb(0x6), async (mek) => {
         try {
             mek = mek.messages[0];
             if (!mek || !mek.message) return;
 
             mek.message =
-                getContentType(mek.message) === a0_0xa6c3(0x1b)
+                getContentType(mek.message) === a0_0xf5cb(0x1b)
                     ? mek.message.ephemeralMessage.message
                     : mek.message;
 
-            if (mek.key?.remoteJid !== a0_0xa6c3(0x11)) return;
+            if (mek.key?.remoteJid !== a0_0xf5cb(0x11)) return;
 
             const s = await getAllSettings();
 
@@ -324,7 +323,7 @@ function setupStatusHandlers(Guru) {
                 mek.participant || mek.key.participantPn || mek.key.participant;
             const participantJid = await resolveRealJid(Guru, rawParticipant);
 
-            const shouldView = s.AUTO_READ_STATUS === a0_0xa6c3(0xd);
+            const shouldView = s.AUTO_READ_STATUS === a0_0xf5cb(0xd);
 
             const readKey =
                 participantJid && participantJid !== mek.key.participant
@@ -343,12 +342,12 @@ function setupStatusHandlers(Guru) {
 
             if (
                 shouldView &&
-                s.AUTO_LIKE_STATUS === a0_0xa6c3(0xd) &&
+                s.AUTO_LIKE_STATUS === a0_0xf5cb(0xd) &&
                 participantJid
             ) {
                 const statusEmojis = (
                     s.STATUS_LIKE_EMOJIS ||
-                    a0_0xa6c3(0x1c)
+                    a0_0xf5cb(0x1c)
                 )
                     .split(",")
                     .map((e) => e.trim())
@@ -357,7 +356,7 @@ function setupStatusHandlers(Guru) {
                     statusEmojis[Math.floor(Math.random() * statusEmojis.length)];
                 const reactKey = { ...mek.key, participant: participantJid };
                 await Guru.sendMessage(
-                    a0_0xa6c3(0x11),
+                    a0_0xf5cb(0x11),
                     { react: { text: randomEmoji, key: reactKey } },
                     { statusJidList: [participantJid] },
                 );
@@ -365,7 +364,7 @@ function setupStatusHandlers(Guru) {
 
             if (
                 shouldView &&
-                s.AUTO_REPLY_STATUS === a0_0xa6c3(0xd) &&
+                s.AUTO_REPLY_STATUS === a0_0xf5cb(0xd) &&
                 !mek.key.fromMe &&
                 participantJid
             ) {
@@ -380,21 +379,21 @@ function setupStatusHandlers(Guru) {
                 );
             }
         } catch (error) {
-            const _0x2b58 = error?.output?.statusCode || error?.code || "";
+            const code = error?.output?.statusCode || error?.code || "";
             const msg = error?.message || "";
-            const _0x9fe7 =
+            const transient =
                 code === 428 ||
-                msg === a0_0xa6c3(0x1d) ||
-                msg.includes(a0_0xa6c3(0x1e)) ||
-                msg.includes(a0_0xa6c3(0x1f)) ||
-                msg.includes(a0_0xa6c3(0x20)) ||
-                msg.includes(a0_0xa6c3(0x21)) ||
-                msg.includes(a0_0xa6c3(0x22)) ||
-                msg.includes(a0_0xa6c3(0x23)) ||
-                String(code) === a0_0xa6c3(0x1e) ||
-                String(code) === a0_0xa6c3(0x21);
+                msg === a0_0xf5cb(0x1d) ||
+                msg.includes(a0_0xf5cb(0x1e)) ||
+                msg.includes(a0_0xf5cb(0x1f)) ||
+                msg.includes(a0_0xf5cb(0x20)) ||
+                msg.includes(a0_0xf5cb(0x21)) ||
+                msg.includes(a0_0xf5cb(0x22)) ||
+                msg.includes(a0_0xf5cb(0x23)) ||
+                String(code) === a0_0xf5cb(0x1e) ||
+                String(code) === a0_0xf5cb(0x21);
             if (transient) return;
-            console.error(a0_0xa6c3(0x24), error);
+            console.error(a0_0xf5cb(0x24), error);
         }
     });
 }
