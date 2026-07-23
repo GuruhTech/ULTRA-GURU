@@ -9,8 +9,8 @@
     "npm": "11.x"
   },
   "scripts": {
-    "start": "node --max-old-space-size=512 index.js",
-    "dev": "node --max-old-space-size=512 index.js",
+    "start": "node --max-old-space-size=400 --expose-gc index.js",
+    "dev": "node --max-old-space-size=400 --expose-gc index.js",
     "heroku-prebuild": "npm install --legacy-peer-deps --no-audit --no-fund --no-package-lock"
   },
   "keywords": [
