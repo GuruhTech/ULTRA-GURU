@@ -1,1 +1,391 @@
-const a0_0x50fa65=a0_0x2219;(function(_0x11846f,_0x3814f1){const _0x56e5ab=a0_0x2219,_0x2eb826=_0x11846f();while(!![]){try{const _0x131466=parseInt(_0x56e5ab(0x19d))/0x1+-parseInt(_0x56e5ab(0x196))/0x2*(-parseInt(_0x56e5ab(0x22a))/0x3)+parseInt(_0x56e5ab(0x223))/0x4+parseInt(_0x56e5ab(0x1d7))/0x5*(parseInt(_0x56e5ab(0x211))/0x6)+-parseInt(_0x56e5ab(0x1ee))/0x7*(parseInt(_0x56e5ab(0x1d0))/0x8)+parseInt(_0x56e5ab(0x1b1))/0x9*(parseInt(_0x56e5ab(0x19c))/0xa)+parseInt(_0x56e5ab(0x205))/0xb*(-parseInt(_0x56e5ab(0x23c))/0xc);if(_0x131466===_0x3814f1)break;else _0x2eb826['push'](_0x2eb826['shift']());}catch(_0x3edc2d){_0x2eb826['push'](_0x2eb826['shift']());}}}(a0_0x273f,0xda5ce));const a0_0x29ff1a=(function(){let _0x5750f3=!![];return function(_0x44a579,_0x464ed0){const _0x45ceb4=_0x5750f3?function(){if(_0x464ed0){const _0x511041=_0x464ed0['apply'](_0x44a579,arguments);return _0x464ed0=null,_0x511041;}}:function(){};return _0x5750f3=![],_0x45ceb4;};}()),a0_0x5aa741=a0_0x29ff1a(this,function(){const _0x35a8bc=a0_0x2219;if(a0_0x5aa741['bind']()[_0x35a8bc(0x24a)]()[_0x35a8bc(0x1e4)]('\x0a')!==-0x1)return;return a0_0x5aa741[_0x35a8bc(0x24a)]()[_0x35a8bc(0x23b)](_0x35a8bc(0x286)+'+$')['toString']()[_0x35a8bc(0x17c)+'r'](a0_0x5aa741)[_0x35a8bc(0x23b)](_0x35a8bc(0x286)+'+$');});a0_0x5aa741();function a0_0x273f(){const _0x337bfb=['mtqZmhHArLvgqG','Ag90BY5QCgDGcG','yxrLifDOyxrZqq','DhjPBq','ihDHDgvYBwfYAW','zsbSB29RCY5FcG','ihbYB2zPBguGCa','Ahr0Ca','Agf0C0fWCcbHCW','uLuGturGcG','BgX5ihvWBg9Hza','lNDTDg9Nz2XL','ihbOB3rV','Aw5KzxHpzG','4Psa4Psa4Psa4Psa4Psa4Psa4PsacG','q3vYCMvUDdOGxW','4Q2vifDHDgvYBwfY','4OcIigaUC2v0D20G','z2vZlG','zMLSzxvWBg9Hza','yxv0B21HDgLJyq','B3DUzxi','ywXPyxnLCW','otHwy0zkr2q','ieLTywDLkGOk','4OcIipcFJRuGrg93BMXV','C2v0yM90CgHVDa','DgjVEc5TB2uVDq','BwuP','igrPC3bSyxKGBG','qK9ux1bjqW','Ahr0Chm6lY90zq','x29YxYbYzxbSEq','Dg9Nz2XLD2f0zq','B2DNBgvGihrVia','vevyva','Ag90BYb3AxrOia','zwqUxW','isdWN5glkGOk','icaG4OAZif8UyM90','yc5ZzxrWAwnGcG','Chmk','ywqGBxvZAwmGjG','kVcFLRZVUi8Gu2v0iejVDa','ihrVigfUEsbPBq','z2uGvxbKyxrLza','nZDpz2fIzw8','EhqGyxbWzw5Kzq','ChjLDMLLD2jYyq','BMv3yM90BMfTzq','DcbZzxr0Aw5NCW','vuXuuKeGr1vsvq','CMvWzwf0','zwqGyw5KihnHDG','C2v0D2f0zxjTyq','ihrOzsb3yxrLCG','lNnLDhDTifbVDW','8j+KLIaQqM90ie5HBq','mJqZmdzPzg93ruK','ANbN','kUkCJE+4JYbxyxrLCM1H','ue9tva','Aw1Hz2uVANbLzW','ihrVignOyw5Nzq','zcbvtfrsqsbhvq','AwrLBNrPDhKGka','zxr3BsbqB3DLCG','uhjLDMLLDYbOBW','AwrLBNrPDhLWCG','BhKU','4OcuifvstdOQcG','vxnHz2u6igaUCW','zgvZy3jPChrPBW','zw5KAw5Nl3jLCa','4PYn77IpicPxyxrLCM1H','x1vZzsbGlNDTDa','mtm0mtG5nMP5qMTSqW','DxbKyxrLuhjVzG','yw5Hz2uGyM90ia','BMfTzt5FcGO','yw1LihvWzgf0zq','C3rHCNrZv2L0Aa','BhLPBMCGDg8Gyq','ndvwvhbSBxK','C2v0CgLJ','zxnZywDLCW','tMv3ihrLEhq6ia','Bg9VA3mGD2L0Aa','uKWUcGO','Dgv4Da','BMvS','BMCGAw1Hz2uGDa','sgvYzsDZihDOyq','yxvSDcK','yxrLzcaODxb0Aq','zcb0BYbIB3qGBq','8j+KLIbozxCGtMfTzq','Aw1Hz2u','zsekcG','ihnLBNqGywjVDG','C2vHCMnO','ndiWntm0mgPNtNfMsa','y2fWDgLVBG','igjVDcbTzxnZyq','v2f0zxjTyxjRoG','ywDLigzYB20Gvq','ie1e','Ag90BYb1CgrHDa','8j+rGE+4JW','kVcFLRZVUi8GqM90ieLTyq','zMfSC2u','zwn0ifvstcbPBG','yMXLza','lxbVD2vYzwqGvW','tuqGDJjGcGO','Dg9tDhjPBMC','v0furvjnqvjlxW','x1vZzsbGlNnLDa','DhrPBMDZ','zxzPzxC','C2v0D20','Aw9UihDPDgGGqq','lI4Vz3vYDq','Bg9HzcbMywLSzq','AYb3AwXSig5VDW','zsOk','BgvNCMeUCgG','yNvMzMvY','rw1WDhKGyNvMzG','BYbJBg91zokaPL8','z2uQcG','4PQG77IpifnLDhrPBMDZ','igHVDYb5B3vYia','4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa','CM1HCMS','kLf1AwnRienVBq','BNrPDhLGihrVia','ie5HBwuQcGO','x0LTywDLigLZia','qK9ux05btuu','lNnLDhbPyYa8Dq','Ahr0Chm6lY9Jyq','zxjLzcbIEsbvta','ssDTicO','AwrKzw4U','icaG4OAZif8UC2v0','qxv0BY1Nzw5LCG','8j+rGE+4JYaQuhjLDMLLDW','DxnHz2u','l29MzL8','CMvXDhLWzq','igfWCgvHCIbVBG','ywDLihDPDgGGya','4PYfiefSCMvHzhKG','Dg8GysbWAg90BW','ANnVBG','AwrLBNrPDhK','cGPFvxnLigaUAq','AM9PBG','igfUEsbXDwvZDa','CMSQcG','kK9WDgLVBIaXia','4Q2vie9grG','BMDZ','D20GphrLEhq+ya','Dxn0B20GCgHVDa','CMSGvxbKyxrLza','BwfUzhm6kGO','rxHHBxbSztOGya','ug93zxjLzcbIEq','DgLTzw91Da','oIaQ','Aw1Hz2vnzxnZyq','isOkcG','xY5ZzxrWAwnFcG','kcGOlISPkYKRkq','BwvZC2fNzq','BYbZzwuGDgHLia','4PQG77IpifDOyxrZqxbW','ycbFkhjLCgX5ia','BxbSzs5JB20VCa','yM90CMvICMfUza','kVcFJQGGqK9uieLerq','ihLVDxiGz3jVDq','ywXS','u2v0igjVDcbUyq','yc5ZzxrWAwmGAa','BMv3D2f0zxjTyq','CMfUzca8BMv3ia','tcOk','DhrWCZOVl2v4yq','zwqGyNKGr1vsvq','t0zg','zgLUzYbHigrPCG','C2vYl2fWAs5WAa','u2v0ihrOzsb3yq','qK9ux0jjtW','4PIb77Ipif9vCgXVywrP','icaG','CMSP','ChvZAa','igLTywDLihDPDa','tM90ihnLDa','zhmUcGO','zMfPBgvK','CMW+icbpuIaGCG','8j+wVo+4JW','iejpvgakcG','B2zPBguGBMfTzq','x/cFKyhVUi8GvgHPCYbPCW','yxbWzw5K','u2v0igjVDcbPBq','DhvYBIbPDcbVBG','uKWGB3iGyNKGCW','sfruuca','igH0DhbZoI8V4OcM','vhLWzsaQlMHLBa','AwrLBNrPDhLWyq','4PYfie9oiokaLcbF','CcOGDg8GC2vLia','4PYfifDOyxrZqxbW','ihnLCNzPy2vZia','Ahr0Chm6lY8','4P2mieLTywDLihvW','lNbYzxzPzxDIBW','BgvNCMeUCgGVDq','u3rHDhvZoIa','4OcIigaUD210B2DN','4PYp77IpicPtzxqGqM90','y29UC3rYDwn0BW','yM90ChjLDMLLDW','cGRWN5sxif9tDg9Yzq','4PYfifDHDgvYBwfY','Cgf0DgvYBG','zsWGD2f0zxjTyq','zcbvuKW6xYa','zMLSzvrVvxbSBW','ihzPzgvVCWO','DcbMzxrJAcbPBq','y2f0y2G','ieDvuLvGcG','4OcIigaUCMvICMfU','8j+tNsaQqMLVicHxAa','DgvYBwfYAYb0zq','DYb0AguGyM90ia','yxrZqxbWiefIBW','ChjLDMLLD2jVDa','DxjS','BwfYAYb0zxH0lG','4P2mienVDwXKig5V','4OcIipcFK4OGtwfUywDL','yM90ig1LC3nHzW','kGOk','Dhj1zq','tLrjvfKGueforq','mZaXnJzPBNjrzfe','ig9YihnLBMqGCa','zgvUDgL0EsbZzq','vfjbieDvuLuGtq','CMfUzgvKisOkcG','y2f0zwDVCNK','ntmYnZCWsvzZuerb','mtq2mdi4mwv0tgLyDW','khvZAw5NigrLzG','ihnHDMu6ia','zguGysbWAg90BW','D210zxH0','Aw1Hz2uUANbN','ig5HBwu6ia','zI5F','DcbjignHBIbKBW','CMvHy3q','4PYfifnLDa','kKHLEsb0AgvYzq','zgvUDgL0EwaGDa','Dg9Nz2XLD20','D210B2DNBgu','DhLWzq','C2v0BMfTzq','4OcIipcFJQ4GugXHEsbN','AxnbCNjHEq','C3jJ','mte3zKzWrKDb','x1vZzsbGlMLKzq','ycb0BYbPBMnSDq','AwXLtMfTzq','ChaGzgLZCgXHEq','ywDLihDPDgGGlG','4PYfifnHDMvKihrV','qwXSihvWBg9Hza','yM90CgHVDg8','x1vWzgf0zxmGyG','4OcIigaUC2v0CgLJ','icbFlNDTDg9NzW','x1bVD2vYzwqGyG','kUkCJ++4JYbcB3qGuMvI','CMSGvgv4DcOkcG','xWOk','v0furvjnqvjl','4P2mie93BMvYig9U','C2vLihrOzsbMDq','tfrsqsbhvvjvia','vg9Nz2XLihrOzq','BgvUz3rO','sw1Hz2u6iokCHsbd','ign1CNjLBNqGAq','Dg8GD2L0Acb0Aa','C2vUze1LC3nHzW','4OcIipcFPjyGqw5ZD2vY','lNjLyNjHBMqGvq','yw1LCYaMig1VCG','igjVDcbZzxr0Aq','D20GphrLEhq+xW','mZaWmZC2A25LrNvH','CgLJidX1CMW+xW','DYbUyw1LpMakcG','ihbOB3rVoIa','BwfW','zseQcGO','vxnHz2u6igaUCG'];a0_0x273f=function(){return _0x337bfb;};return a0_0x273f();}const {gmd,getSetting,setSetting}=require(a0_0x50fa65(0x251));async function uploadImage(_0x2ac09e){const _0x6480ca=a0_0x50fa65;try{const {Blob:_0x21580f}=require(_0x6480ca(0x256)),_0x5043d7={};_0x5043d7[_0x6480ca(0x1ac)]=_0x6480ca(0x215);const _0xfc6471=new _0x21580f([_0x2ac09e],_0x5043d7),_0x191026=new FormData();_0x191026['append']('file',_0xfc6471,'bot-image.'+_0x6480ca(0x212));const _0x1911a0=await fetch('https://te'+_0x6480ca(0x178)+'pload',{'method':_0x6480ca(0x214),'body':_0x191026,'signal':AbortSignal[_0x6480ca(0x281)](0x3a98)}),_0x49fdce=await _0x1911a0[_0x6480ca(0x272)]();if(Array[_0x6480ca(0x1af)](_0x49fdce)&&_0x49fdce[0x0]?.['src'])return _0x6480ca(0x1f6)+_0x6480ca(0x255)+_0x49fdce[0x0][_0x6480ca(0x1b0)];}catch(_0x47e945){}try{const {Blob:_0x3e9d60}=require(_0x6480ca(0x256)),_0x47db5e={};_0x47db5e[_0x6480ca(0x1ac)]=_0x6480ca(0x215);const _0x136a5f=new _0x3e9d60([_0x2ac09e],_0x47db5e),_0x31d48e=new FormData();_0x31d48e[_0x6480ca(0x169)](_0x6480ca(0x26d),_0x6480ca(0x1ea)),_0x31d48e[_0x6480ca(0x169)](_0x6480ca(0x183)+'ad',_0x136a5f,_0x6480ca(0x1a2));const _0x5e74df=await fetch(_0x6480ca(0x264)+_0x6480ca(0x1f2)+_0x6480ca(0x299)+'p',{'method':'POST','body':_0x31d48e,'signal':AbortSignal[_0x6480ca(0x281)](0x3a98)}),_0x19bfde=(await _0x5e74df[_0x6480ca(0x230)]())[_0x6480ca(0x1da)]();if(_0x19bfde[_0x6480ca(0x228)](_0x6480ca(0x175)))return _0x19bfde;}catch(_0x268bfe){}return null;}async function fetchImageBuffer(_0x2834a0){const _0x3ba116=a0_0x50fa65,_0x32c052=await fetch(_0x2834a0,{'signal':AbortSignal[_0x3ba116(0x281)](0x2710)});if(!_0x32c052['ok'])throw new Error(_0x3ba116(0x16d)+_0x32c052['status']);const _0x137b3c=await _0x32c052['arrayBuffe'+'r']();return Buffer['from'](_0x137b3c);}const a0_0x40db58={};a0_0x40db58[a0_0x50fa65(0x180)]=a0_0x50fa65(0x273),a0_0x40db58[a0_0x50fa65(0x1ed)]=['botidentit'+'y','brandpanel',a0_0x50fa65(0x170)+a0_0x50fa65(0x231)],a0_0x40db58[a0_0x50fa65(0x1a6)]='🎨',a0_0x40db58[a0_0x50fa65(0x19b)]=a0_0x50fa65(0x1ec),a0_0x40db58['descriptio'+'n']='View\x20and\x20m'+a0_0x50fa65(0x225)+a0_0x50fa65(0x218)+'name,\x20imag'+a0_0x50fa65(0x181)+a0_0x50fa65(0x15e),a0_0x40db58[a0_0x50fa65(0x26b)]='.identity',gmd(a0_0x40db58,async(_0x33bfc3,_0x39c88a,_0xc8a96c)=>{const _0x10fa09=a0_0x50fa65,{reply:_0x2bb42f,react:_0x3e321a,isSuperUser:_0x4463f1}=_0xc8a96c;if(!_0x4463f1)return await _0x3e321a('❌'),_0x2bb42f('❌\x20Owner\x20on'+_0x10fa09(0x21c));const [_0x1064ae,_0x4aa715,_0x385ec2,_0x220fd0,_0x3f9384]=await Promise[_0x10fa09(0x28f)]([getSetting(_0x10fa09(0x262))[_0x10fa09(0x186)](()=>_0x10fa09(0x20a)+_0x10fa09(0x241)),getSetting(_0x10fa09(0x1f5))[_0x10fa09(0x186)](()=>''),getSetting(_0x10fa09(0x1c1))[_0x10fa09(0x186)](()=>'false'),getSetting(_0x10fa09(0x24b)+_0x10fa09(0x1fa))['catch'](()=>''),getSetting(_0x10fa09(0x15b))[_0x10fa09(0x186)](()=>'')]),_0x1bb0f5=_0x1064ae||_0x10fa09(0x20a)+_0x10fa09(0x241),_0xa95d57=_0x4aa715||'',_0x32b155=_0x385ec2===_0x10fa09(0x194),_0x4fc446=_0x220fd0||_0x10fa09(0x1bd)+'y\x20'+_0x1bb0f5+'_',_0x286c62=_0x3f9384||_0x10fa09(0x269)+_0x10fa09(0x235)+_0x10fa09(0x1f3),_0x42a92b=_0x10fa09(0x28d)+_0x10fa09(0x195)+_0x10fa09(0x294)+'═'[_0x10fa09(0x20b)](0x20)+'\x0a\x0a'+(_0x10fa09(0x210)+_0x10fa09(0x254))+(_0x10fa09(0x15d)+_0x1bb0f5+'\x0a')+('\x20\x20\x20↳\x20_.reb'+_0x10fa09(0x293)+_0x10fa09(0x226))+('🖼️\x20*Bot\x20Ima'+_0x10fa09(0x259))+(_0x10fa09(0x15d)+(_0xa95d57?_0x10fa09(0x1a7):'❌\x20Not\x20set\x20'+_0x10fa09(0x19e)+_0x10fa09(0x234))+'\x0a')+(_0x10fa09(0x268)+_0x10fa09(0x1d1)+_0x10fa09(0x197)+_0x10fa09(0x1fb)+_0x10fa09(0x285)+'\x0a')+(_0x10fa09(0x221)+_0x10fa09(0x277))+('\x20\x20\x20'+(_0x32b155?'✅\x20ON':_0x10fa09(0x279))+'\x20—\x20_'+_0x4fc446+'_\x0a')+(_0x10fa09(0x268)+_0x10fa09(0x1cf)+_0x10fa09(0x1bc)+'le_\x0a\x0a')+(_0x10fa09(0x189)+_0x10fa09(0x18c)+'ut)*\x0a')+(_0x10fa09(0x15d)+_0x286c62+'\x0a')+(_0x10fa09(0x1fe)+'bio\x20<text>'+_0x10fa09(0x1c0))+('─'[_0x10fa09(0x20b)](0x20)+'\x0a')+(_0x10fa09(0x25e)+_0x10fa09(0x27e))+(_0x10fa09(0x188)+_0x10fa09(0x217)+_0x10fa09(0x1e0))+('•\x20`.setpic'+_0x10fa09(0x16e)+'`\x0a')+(_0x10fa09(0x1bb)+_0x10fa09(0x28a)+_0x10fa09(0x271)+')_\x0a')+(_0x10fa09(0x1e8)+_0x10fa09(0x280)+_0x10fa09(0x187))+(_0x10fa09(0x17a)+'le`\x0a')+('•\x20`.previe'+'wbot`');if(_0xa95d57)try{const _0x1728a0=await fetchImageBuffer(_0xa95d57),_0x5b7e0d={};return _0x5b7e0d[_0x10fa09(0x238)]=_0x1728a0,_0x5b7e0d['caption']=_0x42a92b,_0x39c88a[_0x10fa09(0x1ca)+'e'](_0x33bfc3,_0x5b7e0d);}catch(_0x31a376){}await _0x3e321a('✅'),_0x2bb42f(_0x42a92b);});const a0_0x18b8db={};function a0_0x2219(_0xe11e24,_0x1fb16c){_0xe11e24=_0xe11e24-0x15a;const _0x4fbd02=a0_0x273f();let _0x5aa741=_0x4fbd02[_0xe11e24];if(a0_0x2219['HnpzFP']===undefined){var _0x29ff1a=function(_0x1ad051){const _0x4645ff='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _0x1b70b8='',_0x2952be='',_0x22e38e=_0x1b70b8+_0x29ff1a,_0x472527=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0xad2bc8=0x0,_0x40db58,_0x1a7012,_0x18b8db=0x0;_0x1a7012=_0x1ad051['charAt'](_0x18b8db++);~_0x1a7012&&(_0x40db58=_0xad2bc8%0x4?_0x40db58*0x40+_0x1a7012:_0x1a7012,_0xad2bc8++%0x4)?_0x1b70b8+=_0x472527||_0x22e38e['charCodeAt'](_0x18b8db+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x40db58>>(-0x2*_0xad2bc8&0x6)):_0xad2bc8:0x0){_0x1a7012=_0x4645ff['indexOf'](_0x1a7012);}for(let _0x46969c=0x0,_0x5e6f99=_0x1b70b8['length'];_0x46969c<_0x5e6f99;_0x46969c++){_0x2952be+='%'+('00'+_0x1b70b8['charCodeAt'](_0x46969c)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x2952be);};a0_0x2219['gjQpco']=_0x29ff1a,a0_0x2219['SAaopK']={},a0_0x2219['HnpzFP']=!![];}const _0x273fe3=_0x4fbd02[0x0],_0x22198e=_0xe11e24+_0x273fe3,_0x170b1c=a0_0x2219['SAaopK'][_0x22198e];if(!_0x170b1c){const _0x1b6edf=function(_0x2e61ff){this['fIHAmn']=_0x2e61ff,this['UfDfsj']=[0x1,0x0,0x0],this['fckCCs']=function(){return'newState';},this['WpjLOp']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['GQRUgq']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0x1b6edf['prototype']['UNJxla']=function(){const _0x2262de=new RegExp(this['WpjLOp']+this['GQRUgq']),_0x14039b=_0x2262de['test'](this['fckCCs']['toString']())?--this['UfDfsj'][0x1]:--this['UfDfsj'][0x0];return this['hedVxP'](_0x14039b);},_0x1b6edf['prototype']['hedVxP']=function(_0x2b451c){if(!Boolean(~_0x2b451c))return _0x2b451c;return this['jrPSVk'](this['fIHAmn']);},_0x1b6edf['prototype']['jrPSVk']=function(_0x5750f3){for(let _0x44a579=0x0,_0x464ed0=this['UfDfsj']['length'];_0x44a579<_0x464ed0;_0x44a579++){this['UfDfsj']['push'](Math['round'](Math['random']())),_0x464ed0=this['UfDfsj']['length'];}return _0x5750f3(this['UfDfsj'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x1b6edf(a0_0x2219)['UNJxla'](),_0x5aa741=a0_0x2219['gjQpco'](_0x5aa741),a0_0x2219['SAaopK'][_0x22198e]=_0x5aa741;}else _0x5aa741=_0x170b1c;return _0x5aa741;}a0_0x18b8db[a0_0x50fa65(0x180)]='rebrand',a0_0x18b8db[a0_0x50fa65(0x1ed)]=[a0_0x50fa65(0x1ad),a0_0x50fa65(0x208),a0_0x50fa65(0x28c)],a0_0x18b8db[a0_0x50fa65(0x1a6)]='✏️',a0_0x18b8db[a0_0x50fa65(0x19b)]='owner',a0_0x18b8db[a0_0x50fa65(0x21f)+'n']=a0_0x50fa65(0x290)+'me\x20and\x20upd'+a0_0x50fa65(0x1d9)+a0_0x50fa65(0x1b5)+'\x20name\x20live',a0_0x18b8db[a0_0x50fa65(0x26b)]=a0_0x50fa65(0x1cc)+a0_0x50fa65(0x1c4)+'MD',gmd(a0_0x18b8db,async(_0x43eaf2,_0x176b8f,_0x47ad29)=>{const _0x441ce1=a0_0x50fa65,{q:_0x2c9771,reply:_0x1f7e9c,react:_0x1b3e9e,isSuperUser:_0x304acf}=_0x47ad29;if(!_0x304acf)return await _0x1b3e9e('❌'),_0x1f7e9c(_0x441ce1(0x1c2)+_0x441ce1(0x21c));if(!_0x2c9771?.[_0x441ce1(0x1da)]())return _0x1f7e9c(_0x441ce1(0x17b)+_0x441ce1(0x260)+(_0x441ce1(0x1d6)+'ebrand\x20<ne'+_0x441ce1(0x1d2))+(_0x441ce1(0x27f)+_0x441ce1(0x1cc)+_0x441ce1(0x1c4)+_0x441ce1(0x249))+(_0x441ce1(0x1ba)+'oth\x20the\x20bo'+_0x441ce1(0x209)+'\x20and\x20the\x20W'+'hatsApp\x20pr'+_0x441ce1(0x167)+'._'));const _0x418d31=_0x2c9771['trim']();await _0x1b3e9e('⏳');const _0x3e65f0=[];try{await setSetting(_0x441ce1(0x262),_0x418d31),_0x3e65f0['push'](_0x441ce1(0x1b7)+'\x20bot\x20setti'+_0x441ce1(0x27a));}catch(_0x356b89){_0x3e65f0['push'](_0x441ce1(0x25a)+_0x441ce1(0x19f)+_0x356b89[_0x441ce1(0x287)]);}try{await _0x176b8f[_0x441ce1(0x224)+_0x441ce1(0x1b4)](_0x418d31),_0x3e65f0[_0x441ce1(0x15f)](_0x441ce1(0x173)+_0x441ce1(0x1f4)+_0x441ce1(0x227)+'d');}catch(_0xc1fd4a){_0x3e65f0['push'](_0x441ce1(0x289)+_0x441ce1(0x1a3)+_0xc1fd4a[_0x441ce1(0x287)]);}await _0x1b3e9e('✅'),_0x1f7e9c(_0x441ce1(0x1be)+_0x441ce1(0x19a)+(_0x441ce1(0x237)+_0x441ce1(0x282)+_0x418d31+'*\x0a\x0a')+_0x3e65f0[_0x441ce1(0x1d4)](_0xad4789=>'\x20\x20'+_0xad4789)[_0x441ce1(0x275)]('\x0a')+(_0x441ce1(0x274)+_0x441ce1(0x1a9)+_0x441ce1(0x288)+'full\x20panel'+'._'));});const a0_0x46969c={};a0_0x46969c[a0_0x50fa65(0x180)]=a0_0x50fa65(0x22b),a0_0x46969c[a0_0x50fa65(0x1ed)]=['newbotpic',a0_0x50fa65(0x1b9),a0_0x50fa65(0x1f1)+'o'],a0_0x46969c[a0_0x50fa65(0x1a6)]=a0_0x50fa65(0x165),a0_0x46969c[a0_0x50fa65(0x19b)]=a0_0x50fa65(0x1ec),a0_0x46969c[a0_0x50fa65(0x21f)+'n']=a0_0x50fa65(0x16a)+'age\x20from\x20U'+a0_0x50fa65(0x16c)+a0_0x50fa65(0x220)+a0_0x50fa65(0x229)+a0_0x50fa65(0x1e3),a0_0x46969c[a0_0x50fa65(0x26b)]=a0_0x50fa65(0x263)+a0_0x50fa65(0x164)+'eply\x20to\x20im'+a0_0x50fa65(0x1b6)+a0_0x50fa65(0x22b),gmd(a0_0x46969c,async(_0x2e7204,_0x26f721,_0x3a43a6)=>{const _0x64286c=a0_0x50fa65,{q:_0x3be54e,reply:_0x5e27a5,react:_0x304df0,isSuperUser:_0x196a45,quotedMsg:_0x233b8b,getMediaBuffer:_0x1bea98,mek:_0x590e3f}=_0x3a43a6;if(!_0x196a45)return await _0x304df0('❌'),_0x5e27a5('❌\x20Owner\x20on'+_0x64286c(0x21c));await _0x304df0('⏳');let _0xee5017=null,_0x22d057=null;if(_0x3be54e?.[_0x64286c(0x1da)]()?.[_0x64286c(0x228)](_0x64286c(0x1de))){_0xee5017=_0x3be54e[_0x64286c(0x1da)]();try{_0x22d057=await fetchImageBuffer(_0xee5017);}catch(_0x70076a){return await _0x304df0('❌'),_0x5e27a5(_0x64286c(0x190)+_0x64286c(0x185)+_0x64286c(0x240)+_0x64286c(0x22f)+_0x70076a[_0x64286c(0x287)]);}}else{if(_0x233b8b?.[_0x64286c(0x287)]?.[_0x64286c(0x283)+'ge']||_0x590e3f?.[_0x64286c(0x287)]?.[_0x64286c(0x283)+'ge'])try{_0x22d057=await _0x1bea98(_0x233b8b?.[_0x64286c(0x287)]?.[_0x64286c(0x283)+'ge']?_0x233b8b:_0x590e3f,_0x64286c(0x238));if(!_0x22d057||_0x22d057[_0x64286c(0x1c6)]<0x3e8)throw new Error(_0x64286c(0x257)+'er');_0x5e27a5(_0x64286c(0x15c)+_0x64286c(0x232)+_0x64286c(0x258)),_0xee5017=await uploadImage(_0x22d057);if(!_0xee5017)throw new Error(_0x64286c(0x1b8)+_0x64286c(0x174)+_0x64286c(0x163));}catch(_0x1143a1){return await _0x304df0('❌'),_0x5e27a5(_0x64286c(0x176)+_0x64286c(0x252)+'d:\x20'+_0x1143a1[_0x64286c(0x287)]+'\x0a\x0a'+('_Try\x20provi'+_0x64286c(0x298)+_0x64286c(0x246)+'stead:_\x0a')+(_0x64286c(0x291)+_0x64286c(0x295)+'mple.com/i'+'mage.jpg`'));}else return await _0x304df0('💡'),_0x5e27a5(_0x64286c(0x202)+_0x64286c(0x1ef)+(_0x64286c(0x278)+_0x64286c(0x21d))+(_0x64286c(0x291)+'ttps://exa'+_0x64286c(0x28b)+_0x64286c(0x1d8)+'\x0a')+('*Option\x202\x20'+'—\x20Photo:*\x0a')+('Send\x20a\x20pho'+_0x64286c(0x1c9)+'e\x20caption\x20'+_0x64286c(0x1ff))+(_0x64286c(0x1f7)+_0x64286c(0x203)+_0x64286c(0x26f)+'.setpic`\x0a\x0a')+(_0x64286c(0x261)+_0x64286c(0x1eb)+_0x64286c(0x1e1)+_0x64286c(0x20c)+_0x64286c(0x1fc)));}const _0x4f16ff=[];try{await setSetting(_0x64286c(0x1f5),_0xee5017),_0x4f16ff[_0x64286c(0x15f)](_0x64286c(0x1b7)+_0x64286c(0x1ce)+_0x64286c(0x27a));}catch(_0x337c4e){_0x4f16ff[_0x64286c(0x15f)](_0x64286c(0x25a)+_0x64286c(0x19f)+_0x337c4e[_0x64286c(0x287)]);}try{const _0x3536a4={};_0x3536a4[_0x64286c(0x18e)]=_0xee5017,await _0x26f721[_0x64286c(0x224)+'ilePicture'](_0x26f721['user']['id'],_0x3536a4),_0x4f16ff[_0x64286c(0x15f)](_0x64286c(0x173)+_0x64286c(0x1dd)+_0x64286c(0x242)+'ed');}catch(_0x3fec55){_0x4f16ff[_0x64286c(0x15f)](_0x64286c(0x289)+_0x64286c(0x1d3)+_0x3fec55['message']);}await _0x304df0('✅');try{const _0x22823e={};_0x22823e[_0x64286c(0x18e)]=_0xee5017,await _0x26f721[_0x64286c(0x1ca)+'e'](_0x2e7204,{'image':_0x22d057||_0x22823e,'caption':_0x64286c(0x244)+_0x64286c(0x204)+'!*\x0a\x0a'+_0x4f16ff[_0x64286c(0x1d4)](_0x3290e8=>'\x20\x20'+_0x3290e8)['join']('\x0a')+(_0x64286c(0x17e)+_0x64286c(0x182)+_0xee5017+'\x0a\x0a')+(_0x64286c(0x1b2)+_0x64286c(0x25f)+_0x64286c(0x1c3)+'ll\x20panel._')});}catch(_0x13653b){_0x5e27a5(_0x64286c(0x244)+_0x64286c(0x204)+_0x64286c(0x284)+_0x4f16ff['map'](_0x4548cc=>'\x20\x20'+_0x4548cc)[_0x64286c(0x275)]('\x0a')+(_0x64286c(0x17e)+_0x64286c(0x182)+_0xee5017));}});const a0_0x2e61ff={};a0_0x2e61ff[a0_0x50fa65(0x180)]=a0_0x50fa65(0x24f),a0_0x2e61ff[a0_0x50fa65(0x1ed)]=[a0_0x50fa65(0x20d)+'rk2',a0_0x50fa65(0x292)+'rk',a0_0x50fa65(0x1a1)],a0_0x2e61ff[a0_0x50fa65(0x1a6)]='✍️',a0_0x2e61ff[a0_0x50fa65(0x19b)]='owner',a0_0x2e61ff[a0_0x50fa65(0x21f)+'n']=a0_0x50fa65(0x15a)+a0_0x50fa65(0x18a)+a0_0x50fa65(0x206)+a0_0x50fa65(0x236)+a0_0x50fa65(0x22c),a0_0x2e61ff[a0_0x50fa65(0x26b)]=a0_0x50fa65(0x20f)+a0_0x50fa65(0x265)+a0_0x50fa65(0x199)+'D',gmd(a0_0x2e61ff,async(_0x27bd5b,_0x4cbfa8,_0x23bd40)=>{const _0x5afac6=a0_0x50fa65,{q:_0x5b3032,reply:_0x3055da,react:_0x4f279d,isSuperUser:_0x2ad5ff}=_0x23bd40;if(!_0x2ad5ff)return await _0x4f279d('❌'),_0x3055da(_0x5afac6(0x1c2)+_0x5afac6(0x21c));if(!_0x5b3032?.[_0x5afac6(0x1da)]()){const _0x58bb50=await getSetting(_0x5afac6(0x24b)+_0x5afac6(0x1fa))[_0x5afac6(0x186)](()=>'')||_0x5afac6(0x161);return _0x3055da('*✍️\x20Waterma'+_0x5afac6(0x1bf)+(_0x5afac6(0x1e6)+_0x58bb50+'_\x0a\x0a')+(_0x5afac6(0x21e)+_0x5afac6(0x219)+_0x5afac6(0x296)+_0x5afac6(0x166))+(_0x5afac6(0x222)+_0x5afac6(0x1f9)+_0x5afac6(0x16b)+_0x5afac6(0x26c)));}await setSetting(_0x5afac6(0x24b)+'TEXT',_0x5b3032[_0x5afac6(0x1da)]());const _0x460cbf=await getSetting(_0x5afac6(0x1c1))[_0x5afac6(0x186)](()=>_0x5afac6(0x245))===_0x5afac6(0x194);if(!_0x460cbf)await setSetting(_0x5afac6(0x1c1),'true');await _0x4f279d('✅'),_0x3055da(_0x5afac6(0x213)+_0x5afac6(0x27d)+_0x5afac6(0x284)+(_0x5afac6(0x22d)+'_'+_0x5b3032['trim']()+'_\x0a')+(_0x5afac6(0x179)+(_0x460cbf?_0x5afac6(0x270)+'ON':'✅\x20Auto-ena'+_0x5afac6(0x247))+'\x0a\x0a')+('_Use\x20`.wmt'+_0x5afac6(0x1f9)+'turn\x20it\x20of'+_0x5afac6(0x1a4)));});const a0_0x2262de={};a0_0x2262de[a0_0x50fa65(0x180)]=a0_0x50fa65(0x1ab),a0_0x2262de[a0_0x50fa65(0x1ed)]=[a0_0x50fa65(0x1aa),a0_0x50fa65(0x1f8)+a0_0x50fa65(0x25d),'wmonoff'],a0_0x2262de[a0_0x50fa65(0x1a6)]='🔄',a0_0x2262de[a0_0x50fa65(0x19b)]='owner',a0_0x2262de[a0_0x50fa65(0x21f)+'n']=a0_0x50fa65(0x1c5)+a0_0x50fa65(0x1db)+'\x20on\x20or\x20off',a0_0x2262de[a0_0x50fa65(0x26b)]=a0_0x50fa65(0x1e2),gmd(a0_0x2262de,async(_0x5f26a7,_0xf3254e,_0x5780f6)=>{const _0x5f1582=a0_0x50fa65,{reply:_0x39b584,react:_0x34f9b1,isSuperUser:_0x21f771}=_0x5780f6;if(!_0x21f771)return await _0x34f9b1('❌'),_0x39b584(_0x5f1582(0x1c2)+_0x5f1582(0x21c));const _0x28c482=await getSetting(_0x5f1582(0x1c1))[_0x5f1582(0x186)](()=>_0x5f1582(0x245))==='true',_0x343413=!_0x28c482;await setSetting(_0x5f1582(0x1c1),_0x343413?_0x5f1582(0x194):_0x5f1582(0x245)),await _0x34f9b1(_0x343413?'✅':'⭕'),_0x39b584(_0x5f1582(0x213)+'rk\x20'+(_0x343413?'ON':_0x5f1582(0x297))+_0x5f1582(0x193)+((_0x343413?_0x5f1582(0x17f)+_0x5f1582(0x253)+_0x5f1582(0x26e)+_0x5f1582(0x23e)+_0x5f1582(0x1e9):_0x5f1582(0x1e7)+'k\x20is\x20now\x20h'+_0x5f1582(0x267))+'\x0a\x0a')+(_0x5f1582(0x24c)+_0x5f1582(0x27b)+_0x5f1582(0x216)+_0x5f1582(0x20e)+_0x5f1582(0x18f)+'_'));});const a0_0x14039b={};a0_0x14039b[a0_0x50fa65(0x180)]=a0_0x50fa65(0x18d),a0_0x14039b[a0_0x50fa65(0x1ed)]=[a0_0x50fa65(0x17d),a0_0x50fa65(0x21b)+a0_0x50fa65(0x24e),a0_0x50fa65(0x207)+'nd'],a0_0x14039b[a0_0x50fa65(0x1a6)]=a0_0x50fa65(0x243),a0_0x14039b[a0_0x50fa65(0x19b)]=a0_0x50fa65(0x1ec),a0_0x14039b[a0_0x50fa65(0x21f)+'n']=a0_0x50fa65(0x21a)+a0_0x50fa65(0x18b)+a0_0x50fa65(0x22e)+a0_0x50fa65(0x1c8)+a0_0x50fa65(0x198)+a0_0x50fa65(0x24d),a0_0x14039b[a0_0x50fa65(0x26b)]=a0_0x50fa65(0x177)+'t',gmd(a0_0x14039b,async(_0xef6d9,_0x14267c,_0xa0a140)=>{const _0x1013f5=a0_0x50fa65,{reply:_0x12868d,react:_0x4410dd,isSuperUser:_0x53d67e}=_0xa0a140;if(!_0x53d67e)return await _0x4410dd('❌'),_0x12868d(_0x1013f5(0x1c2)+_0x1013f5(0x21c));const [_0x5abf28,_0x4be84d,_0x4431a3,_0x2f434e]=await Promise[_0x1013f5(0x28f)]([getSetting('BOT_NAME')[_0x1013f5(0x186)](()=>_0x1013f5(0x20a)+'\x20MD'),getSetting('BOT_PIC')[_0x1013f5(0x186)](()=>''),getSetting(_0x1013f5(0x1c1))[_0x1013f5(0x186)](()=>_0x1013f5(0x245)),getSetting(_0x1013f5(0x24b)+_0x1013f5(0x1fa))[_0x1013f5(0x186)](()=>'')]),_0x557e3f=_0x5abf28||_0x1013f5(0x20a)+'\x20MD',_0x5b17cb=_0x4be84d||'',_0x2ac9c6=_0x4431a3==='true',_0x4f27d1=_0x2f434e||'_Powered\x20b'+'y\x20'+_0x557e3f+'_',_0x17e68b=_0x1013f5(0x1a8)+_0x1013f5(0x1fd)+(_0x1013f5(0x266)+_0x557e3f+('*,\x20your\x20AI'+_0x1013f5(0x248)+_0x1013f5(0x1df)+'sistant.\x0a\x0a'))+(_0x1013f5(0x233)+_0x1013f5(0x1a5)+':\x0a')+(_0x1013f5(0x1f0)+_0x1013f5(0x201)+_0x1013f5(0x184))+(_0x1013f5(0x1cb)+_0x1013f5(0x276)+_0x1013f5(0x250)+'I\x0a')+(_0x1013f5(0x191)+_0x1013f5(0x28e)+_0x1013f5(0x200))+(_0x1013f5(0x1ae)+_0x1013f5(0x1cd)+_0x1013f5(0x239))+(_0x1013f5(0x16f)+_0x1013f5(0x172)+'all\x20comman'+_0x1013f5(0x162))+(_0x2ac9c6?'>\x20'+_0x4f27d1:'');await _0x4410dd('⏳');if(_0x5b17cb)try{const _0xf7508b=await fetchImageBuffer(_0x5b17cb),_0x24cd71={};return _0x24cd71[_0x1013f5(0x238)]=_0xf7508b,_0x24cd71[_0x1013f5(0x23d)]=_0x17e68b,await _0x14267c[_0x1013f5(0x1ca)+'e'](_0xef6d9,_0x24cd71),await _0x4410dd('✅'),_0x12868d(_0x1013f5(0x26a)+_0x1013f5(0x23a)+_0x1013f5(0x1d5)+('Name:\x20*'+_0x557e3f+'*\x0a')+(_0x1013f5(0x1c7)+_0x1013f5(0x27c)+'o\x0a')+(_0x1013f5(0x23f)+'\x20'+(_0x2ac9c6?_0x1013f5(0x171)+_0x4f27d1+'_':_0x1013f5(0x279))));}catch(_0x3c0c50){}await _0x4410dd('✅'),_0x12868d(_0x17e68b+'\x0a\x0a'+(_0x1013f5(0x25c)+_0x1013f5(0x1e5))+(_0x1013f5(0x168)+_0x1013f5(0x25b)+_0x1013f5(0x192)+_0x1013f5(0x1dc))+('_Set\x20a\x20bot'+_0x1013f5(0x160)+'h\x20`.setpic'+_0x1013f5(0x1b3)+_0x1013f5(0x1a0)+'._'));});
+const { gmd, getSetting, setSetting } = require("../guru");
+
+// ═══════════════════════════════════════════════════════════════════
+//  BOT IDENTITY SUITE
+//  Commands: .identity  .rebrand  .setpic  .setwm  .wmtoggle
+// ═══════════════════════════════════════════════════════════════════
+
+// ── Helpers ─────────────────────────────────────────────────────────
+
+async function uploadImage(buffer) {
+    // Try Telegraph (no API key needed)
+    try {
+        const { Blob } = require("buffer");
+        const blob = new Blob([buffer], { type: "image/jpeg" });
+        const form = new FormData();
+        form.append("file", blob, "bot-image.jpg");
+        const res = await fetch("https://telegra.ph/upload", {
+            method: "POST",
+            body: form,
+            signal: AbortSignal.timeout(15_000),
+        });
+        const data = await res.json();
+        if (Array.isArray(data) && data[0]?.src) {
+            return "https://telegra.ph" + data[0].src;
+        }
+    } catch (_) {}
+
+    // Fallback: catbox.moe
+    try {
+        const { Blob } = require("buffer");
+        const blob = new Blob([buffer], { type: "image/jpeg" });
+        const form = new FormData();
+        form.append("reqtype", "fileupload");
+        form.append("fileToUpload", blob, "image.jpg");
+        const res = await fetch("https://catbox.moe/user/api.php", {
+            method: "POST",
+            body: form,
+            signal: AbortSignal.timeout(15_000),
+        });
+        const url = (await res.text()).trim();
+        if (url.startsWith("https://")) return url;
+    } catch (_) {}
+
+    return null;
+}
+
+async function fetchImageBuffer(url) {
+    const res = await fetch(url, { signal: AbortSignal.timeout(10_000) });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const ab = await res.arrayBuffer();
+    return Buffer.from(ab);
+}
+
+// ── .identity — dashboard ──────────────────────────────────────────
+
+gmd({
+    pattern:     "identity",
+    aliases:     ["botidentity", "brandpanel", "identitypanel"],
+    react:       "🎨",
+    category:    "owner",
+    description: "View and manage bot identity (name, image, watermark)",
+    usage:       ".identity",
+}, async (from, Guru, conText) => {
+    const { reply, react, isSuperUser } = conText;
+    if (!isSuperUser) { await react("❌"); return reply("❌ Owner only."); }
+
+    const [name, pic, wmOn, wmText, bio] = await Promise.all([
+        getSetting("BOT_NAME").catch(() => "ULTRA GURU MD"),
+        getSetting("BOT_PIC").catch(() => ""),
+        getSetting("WATERMARK").catch(() => "false"),
+        getSetting("WATERMARK_TEXT").catch(() => ""),
+        getSetting("BOT_BIO").catch(() => ""),
+    ]);
+
+    const botName    = name    || "ULTRA GURU MD";
+    const picUrl     = pic     || "";
+    const watermark  = wmOn === "true";
+    const wmLabel    = wmText  || `_Powered by ${botName}_`;
+    const bioText    = bio     || "Auto-generated (uptime)";
+
+    const text =
+        `*🎨 BOT IDENTITY PANEL*\n${"═".repeat(32)}\n\n` +
+        `🤖 *Bot Name*\n` +
+        `   ${botName}\n` +
+        `   ↳ _.rebrand <new name>_\n\n` +
+        `🖼️ *Bot Image*\n` +
+        `   ${picUrl ? "✅ Set" : "❌ Not set (using default)"}\n` +
+        `   ↳ _.setpic <url>_ or send photo with _.setpic_\n\n` +
+        `✍️ *Watermark*\n` +
+        `   ${watermark ? "✅ ON" : "⭕ OFF"} — _${wmLabel}_\n` +
+        `   ↳ _.setwm <text>_  _.wmtoggle_\n\n` +
+        `📝 *Bio (WhatsApp About)*\n` +
+        `   ${bioText}\n` +
+        `   ↳ _.botbio <text>_\n\n` +
+        `${"─".repeat(32)}\n` +
+        `*Quick Commands:*\n` +
+        `• \`.rebrand ULTRA GURU MD\`\n` +
+        `• \`.setpic https://…\`\n` +
+        `• \`.setpic\` _(reply to a photo)_\n` +
+        `• \`.setwm Powered by GURU\`\n` +
+        `• \`.wmtoggle\`\n` +
+        `• \`.previewbot\``;
+
+    if (picUrl) {
+        try {
+            const imgBuf = await fetchImageBuffer(picUrl);
+            return Guru.sendMessage(from, {
+                image: imgBuf,
+                caption: text,
+            });
+        } catch (_) {}
+    }
+
+    await react("✅");
+    reply(text);
+});
+
+// ── .rebrand — set name (DB + live WhatsApp profile) ──────────────
+
+gmd({
+    pattern:     "rebrand",
+    aliases:     ["setname", "newbotname", "botrebrand"],
+    react:       "✏️",
+    category:    "owner",
+    description: "Set bot name and update WhatsApp display name live",
+    usage:       ".rebrand ULTRA GURU MD",
+}, async (from, Guru, conText) => {
+    const { q, reply, react, isSuperUser } = conText;
+    if (!isSuperUser) { await react("❌"); return reply("❌ Owner only."); }
+    if (!q?.trim()) {
+        return reply(
+            `✏️ *Set Bot Name*\n\n` +
+            `Usage: \`.rebrand <new name>\`\n\n` +
+            `Example: \`.rebrand ULTRA GURU MD v2\`\n\n` +
+            `_Updates both the bot settings and the WhatsApp profile name._`
+        );
+    }
+
+    const newName = q.trim();
+    await react("⏳");
+
+    const results = [];
+
+    // 1 — save to settings
+    try {
+        await setSetting("BOT_NAME", newName);
+        results.push("✅ Saved to bot settings");
+    } catch (e) {
+        results.push(`⚠️ Settings save: ${e.message}`);
+    }
+
+    // 2 — update WhatsApp profile name live
+    try {
+        await Guru.updateProfileName(newName);
+        results.push("✅ WhatsApp display name updated");
+    } catch (e) {
+        results.push(`⚠️ WhatsApp name: ${e.message}`);
+    }
+
+    await react("✅");
+    reply(
+        `*✏️ Bot Rebranded!*\n\n` +
+        `🤖 New Name: *${newName}*\n\n` +
+        results.map(r => `  ${r}`).join("\n") +
+        `\n\n_Use \`.identity\` to see the full panel._`
+    );
+});
+
+// ── .setpic — set bot image (URL or quoted photo → auto-upload) ───
+
+gmd({
+    pattern:     "setpic",
+    aliases:     ["newbotpic", "botphoto", "setbotphoto"],
+    react:       "🖼️",
+    category:    "owner",
+    description: "Set bot image from URL or by sending/replying to a photo",
+    usage:       ".setpic <url>  OR  reply to image with .setpic",
+}, async (from, Guru, conText) => {
+    const { q, reply, react, isSuperUser, quotedMsg, getMediaBuffer, mek } = conText;
+    if (!isSuperUser) { await react("❌"); return reply("❌ Owner only."); }
+
+    await react("⏳");
+
+    let imageUrl  = null;
+    let imgBuffer = null;
+
+    // ── path 1: URL provided as text ──────────────────────────────
+    if (q?.trim()?.startsWith("http")) {
+        imageUrl = q.trim();
+        try {
+            imgBuffer = await fetchImageBuffer(imageUrl);
+        } catch (e) {
+            await react("❌");
+            return reply(`❌ Could not fetch image from URL.\n\n${e.message}`);
+        }
+    }
+    // ── path 2: quoted / replied image ────────────────────────────
+    else if (quotedMsg?.message?.imageMessage || mek?.message?.imageMessage) {
+        try {
+            imgBuffer = await getMediaBuffer(
+                quotedMsg?.message?.imageMessage
+                    ? quotedMsg
+                    : mek,
+                "image"
+            );
+            if (!imgBuffer || imgBuffer.length < 1000) throw new Error("Empty buffer");
+            reply("☁️ _Uploading image to cloud…_");
+            imageUrl = await uploadImage(imgBuffer);
+            if (!imageUrl) throw new Error("All upload services failed");
+        } catch (e) {
+            await react("❌");
+            return reply(
+                `❌ Image upload failed: ${e.message}\n\n` +
+                `_Try providing a direct URL instead:_\n` +
+                `\`.setpic https://example.com/image.jpg\``
+            );
+        }
+    }
+    // ── path 3: no input ──────────────────────────────────────────
+    else {
+        await react("💡");
+        return reply(
+            `*🖼️ Set Bot Image*\n\n` +
+            `*Option 1 — URL:*\n` +
+            `\`.setpic https://example.com/photo.jpg\`\n\n` +
+            `*Option 2 — Photo:*\n` +
+            `Send a photo with the caption \`.setpic\`\n` +
+            `_or_ reply to any image with \`.setpic\`\n\n` +
+            `_Image is automatically uploaded and saved._`
+        );
+    }
+
+    const results = [];
+
+    // 1 — save URL to settings
+    try {
+        await setSetting("BOT_PIC", imageUrl);
+        results.push("✅ Saved to bot settings");
+    } catch (e) {
+        results.push(`⚠️ Settings save: ${e.message}`);
+    }
+
+    // 2 — update WhatsApp profile picture live
+    try {
+        await Guru.updateProfilePicture(Guru.user.id, { url: imageUrl });
+        results.push("✅ WhatsApp profile photo updated");
+    } catch (e) {
+        results.push(`⚠️ WhatsApp photo: ${e.message}`);
+    }
+
+    await react("✅");
+
+    // Send preview of the new image with result
+    try {
+        await Guru.sendMessage(from, {
+            image: imgBuffer || { url: imageUrl },
+            caption:
+                `*🖼️ Bot Image Updated!*\n\n` +
+                results.map(r => `  ${r}`).join("\n") +
+                `\n\n🔗 _Stored URL:_ ${imageUrl}\n\n` +
+                `_Use \`.identity\` to see the full panel._`,
+        });
+    } catch (_) {
+        reply(
+            `*🖼️ Bot Image Updated!*\n\n` +
+            results.map(r => `  ${r}`).join("\n") +
+            `\n\n🔗 _Stored URL:_ ${imageUrl}`
+        );
+    }
+});
+
+// ── .setwm — set watermark text ────────────────────────────────────
+
+gmd({
+    pattern:     "setwm",
+    aliases:     ["setwatermark2", "newwatermark", "wmtext"],
+    react:       "✍️",
+    category:    "owner",
+    description: "Set the watermark text appended to bot messages",
+    usage:       ".setwm Powered by ULTRA GURU MD",
+}, async (from, Guru, conText) => {
+    const { q, reply, react, isSuperUser } = conText;
+    if (!isSuperUser) { await react("❌"); return reply("❌ Owner only."); }
+
+    if (!q?.trim()) {
+        const cur = (await getSetting("WATERMARK_TEXT").catch(() => "")) || "Not set";
+        return reply(
+            `*✍️ Watermark Text*\n\n` +
+            `Current: _${cur}_\n\n` +
+            `Usage: \`.setwm Powered by GURU BOT\`\n\n` +
+            `_Use \`.wmtoggle\` to turn it on/off_`
+        );
+    }
+
+    await setSetting("WATERMARK_TEXT", q.trim());
+    const isOn = (await getSetting("WATERMARK").catch(() => "false")) === "true";
+    if (!isOn) await setSetting("WATERMARK", "true");
+
+    await react("✅");
+    reply(
+        `*✍️ Watermark Updated!*\n\n` +
+        `New text: _${q.trim()}_\n` +
+        `Status: ${isOn ? "✅ Already ON" : "✅ Auto-enabled"}\n\n` +
+        `_Use \`.wmtoggle\` to turn it off._`
+    );
+});
+
+// ── .wmtoggle — toggle watermark on/off ───────────────────────────
+
+gmd({
+    pattern:     "wmtoggle",
+    aliases:     ["togglewm", "togglewatermark", "wmonoff"],
+    react:       "🔄",
+    category:    "owner",
+    description: "Toggle the watermark on or off",
+    usage:       ".wmtoggle",
+}, async (from, Guru, conText) => {
+    const { reply, react, isSuperUser } = conText;
+    if (!isSuperUser) { await react("❌"); return reply("❌ Owner only."); }
+
+    const cur = (await getSetting("WATERMARK").catch(() => "false")) === "true";
+    const next = !cur;
+    await setSetting("WATERMARK", next ? "true" : "false");
+    await react(next ? "✅" : "⭕");
+    reply(
+        `*✍️ Watermark ${next ? "ON" : "OFF"}*\n\n` +
+        `${next ? "✅ Watermark will now appear on bot messages." : "⭕ Watermark is now hidden."}\n\n` +
+        `_Use \`.setwm <text>\` to change the watermark text._`
+    );
+});
+
+// ── .previewbot — send a sample bot message with all branding ─────
+
+gmd({
+    pattern:     "previewbot",
+    aliases:     ["botpreview", "identitypreview", "previewbrand"],
+    react:       "👁️",
+    category:    "owner",
+    description: "Preview how the bot looks with current identity settings",
+    usage:       ".previewbot",
+}, async (from, Guru, conText) => {
+    const { reply, react, isSuperUser } = conText;
+    if (!isSuperUser) { await react("❌"); return reply("❌ Owner only."); }
+
+    const [name, pic, wmOn, wmText] = await Promise.all([
+        getSetting("BOT_NAME").catch(() => "ULTRA GURU MD"),
+        getSetting("BOT_PIC").catch(() => ""),
+        getSetting("WATERMARK").catch(() => "false"),
+        getSetting("WATERMARK_TEXT").catch(() => ""),
+    ]);
+
+    const botName   = name   || "ULTRA GURU MD";
+    const picUrl    = pic    || "";
+    const watermark = wmOn === "true";
+    const wm        = wmText || `_Powered by ${botName}_`;
+
+    const sampleMsg =
+        `*Hey there! 👋*\n\n` +
+        `I'm *${botName}*, your AI-powered WhatsApp assistant.\n\n` +
+        `Here's what I can do:\n` +
+        `• 🎵 Download music & videos\n` +
+        `• 🤖 Answer any question with AI\n` +
+        `• 📊 Manage your groups\n` +
+        `• 🎮 Play games & more!\n\n` +
+        `Type *.help* to see all commands.\n\n` +
+        (watermark ? `> ${wm}` : "");
+
+    await react("⏳");
+
+    if (picUrl) {
+        try {
+            const imgBuf = await fetchImageBuffer(picUrl);
+            await Guru.sendMessage(from, { image: imgBuf, caption: sampleMsg });
+            await react("✅");
+            return reply(
+                `👁️ *Preview sent above!*\n\n` +
+                `Name: *${botName}*\n` +
+                `Image: ✅ Custom photo\n` +
+                `Watermark: ${watermark ? `✅ ON — _${wm}_` : "⭕ OFF"}`
+            );
+        } catch (_) {}
+    }
+
+    await react("✅");
+    reply(
+        `${sampleMsg}\n\n` +
+        `─────────────────\n` +
+        `_👁️ This is how your bot message looks._\n` +
+        `_Set a bot image with \`.setpic\` to include a photo._`
+    );
+});

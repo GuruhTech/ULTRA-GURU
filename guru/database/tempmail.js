@@ -1,1 +1,116 @@
-const a0_0x40f9b0=a0_0x5dbf;(function(_0x3b4316,_0x215c83){const _0x38d0a8=a0_0x5dbf,_0x3d71d3=_0x3b4316();while(!![]){try{const _0x3fedeb=parseInt(_0x38d0a8(0x1d0))/0x1+-parseInt(_0x38d0a8(0x1c7))/0x2*(-parseInt(_0x38d0a8(0x1c2))/0x3)+-parseInt(_0x38d0a8(0x1cf))/0x4*(-parseInt(_0x38d0a8(0x201))/0x5)+parseInt(_0x38d0a8(0x1fc))/0x6*(-parseInt(_0x38d0a8(0x1db))/0x7)+-parseInt(_0x38d0a8(0x1e0))/0x8*(-parseInt(_0x38d0a8(0x1c8))/0x9)+parseInt(_0x38d0a8(0x1d5))/0xa*(-parseInt(_0x38d0a8(0x1da))/0xb)+-parseInt(_0x38d0a8(0x1c0))/0xc*(-parseInt(_0x38d0a8(0x1f3))/0xd);if(_0x3fedeb===_0x215c83)break;else _0x3d71d3['push'](_0x3d71d3['shift']());}catch(_0x151028){_0x3d71d3['push'](_0x3d71d3['shift']());}}}(a0_0x37c8,0x8d148));const a0_0x127183=(function(){let _0x4334f7=!![];return function(_0x38a372,_0x458b9f){const _0xe73a78=_0x4334f7?function(){const _0xd922e9=a0_0x5dbf;if(_0x458b9f){const _0x1bd12d=_0x458b9f[_0xd922e9(0x1ca)](_0x38a372,arguments);return _0x458b9f=null,_0x1bd12d;}}:function(){};return _0x4334f7=![],_0xe73a78;};}()),a0_0x900279=a0_0x127183(this,function(){const _0x436143=a0_0x5dbf;if(a0_0x900279[_0x436143(0x1be)]()['toString']()[_0x436143(0x1ea)]('\x0a')!==-0x1)return;return a0_0x900279['toString']()[_0x436143(0x1d3)](_0x436143(0x1c4)+'+$')['toString']()[_0x436143(0x1dc)+'r'](a0_0x900279)[_0x436143(0x1d3)]('(((.+)+)+)'+'+$');});a0_0x900279();const {DATABASE}=require(a0_0x40f9b0(0x1c6)),{DataTypes,Op}=require(a0_0x40f9b0(0x1d8)),EXPIRY_MINUTES=0xa,a0_0x442052={};a0_0x442052['type']=DataTypes[a0_0x40f9b0(0x1cb)],a0_0x442052[a0_0x40f9b0(0x1fd)]=!![],a0_0x442052[a0_0x40f9b0(0x1e9)+a0_0x40f9b0(0x1d6)]=!![];const a0_0x1adf3b={};a0_0x1adf3b[a0_0x40f9b0(0x1e6)]=DataTypes[a0_0x40f9b0(0x1f5)],a0_0x1adf3b[a0_0x40f9b0(0x1ed)]=![],a0_0x1adf3b[a0_0x40f9b0(0x1c9)]=!![];const a0_0x63045f={};a0_0x63045f['type']=DataTypes['STRING'],a0_0x63045f['allowNull']=![];const a0_0x3f9ea4={};a0_0x3f9ea4[a0_0x40f9b0(0x1e6)]=DataTypes[a0_0x40f9b0(0x1ff)],a0_0x3f9ea4[a0_0x40f9b0(0x203)+'ue']=DataTypes[a0_0x40f9b0(0x1e1)];const a0_0x31a3c7={};a0_0x31a3c7['id']=a0_0x442052,a0_0x31a3c7['userJid']=a0_0x1adf3b,a0_0x31a3c7[a0_0x40f9b0(0x1ee)]=a0_0x63045f,a0_0x31a3c7[a0_0x40f9b0(0x1eb)]=a0_0x3f9ea4;const a0_0x54126b={};function a0_0x5dbf(_0x3375ee,_0x358562){_0x3375ee=_0x3375ee-0x1bd;const _0x209e9a=a0_0x37c8();let _0x900279=_0x209e9a[_0x3375ee];if(a0_0x5dbf['bUsQsv']===undefined){var _0x127183=function(_0x384b1a){const _0x8c5012='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _0x5619d1='',_0x2e03b2='',_0x2d7f80=_0x5619d1+_0x127183,_0x442052=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x1adf3b=0x0,_0x63045f,_0x3f9ea4,_0x31a3c7=0x0;_0x3f9ea4=_0x384b1a['charAt'](_0x31a3c7++);~_0x3f9ea4&&(_0x63045f=_0x1adf3b%0x4?_0x63045f*0x40+_0x3f9ea4:_0x3f9ea4,_0x1adf3b++%0x4)?_0x5619d1+=_0x442052||_0x2d7f80['charCodeAt'](_0x31a3c7+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x63045f>>(-0x2*_0x1adf3b&0x6)):_0x1adf3b:0x0){_0x3f9ea4=_0x8c5012['indexOf'](_0x3f9ea4);}for(let _0x54126b=0x0,_0x4eb540=_0x5619d1['length'];_0x54126b<_0x4eb540;_0x54126b++){_0x2e03b2+='%'+('00'+_0x5619d1['charCodeAt'](_0x54126b)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x2e03b2);};a0_0x5dbf['vMNhXr']=_0x127183,a0_0x5dbf['BRcLGv']={},a0_0x5dbf['bUsQsv']=!![];}const _0x37c856=_0x209e9a[0x0],_0x5dbf6b=_0x3375ee+_0x37c856,_0x472e06=a0_0x5dbf['BRcLGv'][_0x5dbf6b];if(!_0x472e06){const _0x1cd36e=function(_0x252e18){this['xVnGyb']=_0x252e18,this['ZBGxHL']=[0x1,0x0,0x0],this['sraqxM']=function(){return'newState';},this['abpwhB']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['HiZSvO']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0x1cd36e['prototype']['dVMFUM']=function(){const _0x385d22=new RegExp(this['abpwhB']+this['HiZSvO']),_0x5987b3=_0x385d22['test'](this['sraqxM']['toString']())?--this['ZBGxHL'][0x1]:--this['ZBGxHL'][0x0];return this['TPsqnG'](_0x5987b3);},_0x1cd36e['prototype']['TPsqnG']=function(_0xc69c5c){if(!Boolean(~_0xc69c5c))return _0xc69c5c;return this['wIfOBA'](this['xVnGyb']);},_0x1cd36e['prototype']['wIfOBA']=function(_0x4bd015){for(let _0x1b5eb0=0x0,_0x3c20f1=this['ZBGxHL']['length'];_0x1b5eb0<_0x3c20f1;_0x1b5eb0++){this['ZBGxHL']['push'](Math['round'](Math['random']())),_0x3c20f1=this['ZBGxHL']['length'];}return _0x4bd015(this['ZBGxHL'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x1cd36e(a0_0x5dbf)['dVMFUM'](),_0x900279=a0_0x5dbf['vMNhXr'](_0x900279),a0_0x5dbf['BRcLGv'][_0x5dbf6b]=_0x900279;}else _0x900279=_0x472e06;return _0x900279;}a0_0x54126b['tableName']=a0_0x40f9b0(0x1e2),a0_0x54126b[a0_0x40f9b0(0x1f7)]=!![];const TempMailDB=DATABASE['define'](a0_0x40f9b0(0x1f1),a0_0x31a3c7,a0_0x54126b);function a0_0x37c8(){const _0x41e835=['tK9x','DgvTCf9TywLSCW','zgvZDhjVEq','zMXVB3i','C2f2zq','DhLWzq','y2XLyw51Cev4Ca','zxHWAxjLC0f0','yxv0B0LUy3jLBq','Aw5KzxHpzG','y3jLyxrLzef0','y3jLyxrL','ywXSB3DoDwXS','zw1HAwW','zMLUze9Uzq','CMvTywLUAw5NuW','vgvTCe1HAwW','DxnLCKPPza','ntiWEfHItKT3','BwfPBcHZkq','u1rssu5h','vgvTCe1HAwXeqG','DgLTzxn0yw1WCW','BM93','zxHWB3j0CW','zwnZ','C3LUyW','nJu4ntbAAhvYwNq','ChjPBwfYEuTLEq','DgvKia','refurq','BwvZC2fNzq','mta3ntC3nxLjCNPisG','rvHqsvjzx01jtG','zgvMyxvSDfzHBa','Aw5Z','yMLUza','igv4CgLYzwqGzq','mJrewwnPwgy','vvrfuW','nJuWmZe5z3bXsLrK','zxjYB3i','kcGOlISPkYKRkq','C2v0vxnLCKvTyq','lI9KyxrHyMfZzq','ngPir2vgrq','mJm4nwzLv2XsqW','Dw5PCxvL','yxbWBhK','su5uruDfuG','w1rLBxbnywLSxq','Aw5N','DgLTzvjLBwfPBG','nejAug1WzW','ntCYnZy3BNHQBeTv','Aw5PDfrLBxbnyq','D2HLCMu','C2vHCMnO','z2v0vxnLCKvTyq','nda5ndbkwxDbDvi','zw50','AwXeqG','C2vXDwvSAxPL','zgvSzxrLvxnLCG','mJG2tgfvCvvw','ndi3ANvqsxPJ','y29UC3rYDwn0BW','z2v0vgLTzq','ief1Dg8TzgvSzq','CMvTywLUAw5Ntq','mZK5mLbQq0Thuq'];a0_0x37c8=function(){return _0x41e835;};return a0_0x37c8();}async function initTempMailDB(){const _0x1214ef=a0_0x40f9b0;await TempMailDB[_0x1214ef(0x1fb)](),cleanupExpiredEmails();}async function cleanupExpiredEmails(){const _0x3bf93d=a0_0x40f9b0;try{const _0x2836e0=new Date(Date[_0x3bf93d(0x1f8)]()-EXPIRY_MINUTES*0x3c*0x3e8),_0x150dd1={[Op['lt']]:_0x2836e0},_0x531d4c={};_0x531d4c[_0x3bf93d(0x1eb)]=_0x150dd1;const _0x3c0498={};_0x3c0498[_0x3bf93d(0x1d2)]=_0x531d4c;const _0x25c855=await TempMailDB[_0x3bf93d(0x1e3)](_0x3c0498);_0x25c855>0x0&&console['log']('[TempMail]'+_0x3bf93d(0x1de)+_0x3bf93d(0x1fe)+_0x25c855+(_0x3bf93d(0x1bf)+_0x3bf93d(0x1f4)));}catch(_0x4a100d){console[_0x3bf93d(0x1c3)](_0x3bf93d(0x1cc)+'\x20Cleanup\x20e'+'rror:',_0x4a100d[_0x3bf93d(0x200)]);}}setInterval(cleanupExpiredEmails,0x3c*0x3e8);async function setUserEmail(_0x551ed5,_0x3dd3ab){const _0x8ddf0b=a0_0x40f9b0;await initTempMailDB();const _0x2c25ba={};_0x2c25ba[_0x8ddf0b(0x1f2)]=_0x551ed5;const _0x341453={};_0x341453[_0x8ddf0b(0x1d2)]=_0x2c25ba;const _0x29d767=await TempMailDB[_0x8ddf0b(0x1ef)](_0x341453);if(_0x29d767)return _0x29d767[_0x8ddf0b(0x1ee)]=_0x3dd3ab,_0x29d767[_0x8ddf0b(0x1eb)]=new Date(),await _0x29d767[_0x8ddf0b(0x1e5)](),_0x29d767;const _0x5d160c={};return _0x5d160c[_0x8ddf0b(0x1f2)]=_0x551ed5,_0x5d160c[_0x8ddf0b(0x1ee)]=_0x3dd3ab,await TempMailDB[_0x8ddf0b(0x1ec)](_0x5d160c);}async function getUserEmailWithExpiry(_0x4c630c){const _0x18b446=a0_0x40f9b0;await initTempMailDB();const _0x562b56={};_0x562b56['userJid']=_0x4c630c;const _0x1f5a18={};_0x1f5a18['where']=_0x562b56;const _0xb582ba=await TempMailDB[_0x18b446(0x1ef)](_0x1f5a18);if(!_0xb582ba)return null;const _0x1bf204=new Date(_0xb582ba['createdAt']),_0x1309b4=new Date(_0x1bf204[_0x18b446(0x1dd)]()+EXPIRY_MINUTES*0x3c*0x3e8),_0x5cf491=new Date();if(_0x5cf491>=_0x1309b4){const _0x581793={};_0x581793['userJid']=_0x4c630c;const _0x32d6c5={};return _0x32d6c5['where']=_0x581793,await TempMailDB['destroy'](_0x32d6c5),null;}const _0xd2c5b9=_0x1309b4-_0x5cf491,_0x317327=Math[_0x18b446(0x1e4)](_0xd2c5b9/0xea60),_0x18e672=Math[_0x18b446(0x1e4)](_0xd2c5b9%0xea60/0x3e8),_0x1b523a={};return _0x1b523a[_0x18b446(0x1ee)]=_0xb582ba['email'],_0x1b523a[_0x18b446(0x1eb)]=_0x1bf204,_0x1b523a[_0x18b446(0x1e8)]=_0x1309b4,_0x1b523a[_0x18b446(0x1df)+'s']=_0xd2c5b9,_0x1b523a['remainingM'+_0x18b446(0x1bd)]=_0x317327,_0x1b523a[_0x18b446(0x1f0)+_0x18b446(0x1fa)]=_0x18e672,_0x1b523a[_0x18b446(0x1ce)+_0x18b446(0x1cd)]=_0x317327>0x0?_0x317327+'m\x20'+_0x18e672+'s':_0x18e672+'s',_0x1b523a;}async function getUserEmail(_0x157811){const _0x4fdb5e=a0_0x40f9b0,_0x36edd6=await getUserEmailWithExpiry(_0x157811);return _0x36edd6?_0x36edd6[_0x4fdb5e(0x1ee)]:null;}async function deleteUserEmail(_0x515647){const _0xa0363c=a0_0x40f9b0;await initTempMailDB();const _0x18d3c4={};_0x18d3c4[_0xa0363c(0x1f2)]=_0x515647;const _0x1431c7={};_0x1431c7[_0xa0363c(0x1d2)]=_0x18d3c4;const _0xcb400d=await TempMailDB['destroy'](_0x1431c7);return _0xcb400d>0x0;}const a0_0x2af867={};a0_0x2af867[a0_0x40f9b0(0x1d1)+a0_0x40f9b0(0x1d7)]=initTempMailDB,a0_0x2af867[a0_0x40f9b0(0x1c5)+'il']=setUserEmail,a0_0x2af867['getUserEma'+'il']=getUserEmail,a0_0x2af867[a0_0x40f9b0(0x1d4)+'ilWithExpi'+'ry']=getUserEmailWithExpiry,a0_0x2af867[a0_0x40f9b0(0x1d9)+'Email']=deleteUserEmail,a0_0x2af867[a0_0x40f9b0(0x1e7)+'iredEmails']=cleanupExpiredEmails,a0_0x2af867[a0_0x40f9b0(0x1f6)]=TempMailDB,a0_0x2af867[a0_0x40f9b0(0x202)+a0_0x40f9b0(0x1c1)]=EXPIRY_MINUTES,module[a0_0x40f9b0(0x1f9)]=a0_0x2af867;
+
+const { DATABASE } = require('./database');
+const { DataTypes, Op } = require('sequelize');
+
+const EXPIRY_MINUTES = 10;
+
+const TempMailDB = DATABASE.define('TempMail', {
+    id: {
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+        autoIncrement: true,
+    },
+    userJid: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        unique: true,
+    },
+    email: {
+        type: DataTypes.STRING,
+        allowNull: false,
+    },
+    createdAt: {
+        type: DataTypes.DATE,
+        defaultValue: DataTypes.NOW,
+    },
+}, {
+    tableName: 'temp_mails',
+    timestamps: true,
+});
+
+async function initTempMailDB() {
+    await TempMailDB.sync();
+    cleanupExpiredEmails();
+}
+
+async function cleanupExpiredEmails() {
+    try {
+        const expiryTime = new Date(Date.now() - EXPIRY_MINUTES * 60 * 1000);
+        const deleted = await TempMailDB.destroy({
+            where: {
+                createdAt: { [Op.lt]: expiryTime }
+            }
+        });
+        if (deleted > 0) {
+            console.log(`[TempMail] Auto-deleted ${deleted} expired email(s)`);
+        }
+    } catch (e) {
+        console.error("[TempMail] Cleanup error:", e.message);
+    }
+}
+
+setInterval(cleanupExpiredEmails, 60 * 1000);
+
+async function setUserEmail(userJid, email) {
+    await initTempMailDB();
+    const existing = await TempMailDB.findOne({ where: { userJid } });
+    if (existing) {
+        existing.email = email;
+        existing.createdAt = new Date();
+        await existing.save();
+        return existing;
+    }
+    return await TempMailDB.create({ userJid, email });
+}
+
+async function getUserEmailWithExpiry(userJid) {
+    await initTempMailDB();
+    const record = await TempMailDB.findOne({ where: { userJid } });
+    
+    if (!record) return null;
+    
+    const createdAt = new Date(record.createdAt);
+    const expiresAt = new Date(createdAt.getTime() + EXPIRY_MINUTES * 60 * 1000);
+    const now = new Date();
+    
+    if (now >= expiresAt) {
+        await TempMailDB.destroy({ where: { userJid } });
+        return null;
+    }
+    
+    const remainingMs = expiresAt - now;
+    const remainingMins = Math.floor(remainingMs / 60000);
+    const remainingSecs = Math.floor((remainingMs % 60000) / 1000);
+    
+    return {
+        email: record.email,
+        createdAt: createdAt,
+        expiresAt: expiresAt,
+        remainingMs: remainingMs,
+        remainingMins: remainingMins,
+        remainingSecs: remainingSecs,
+        timeRemaining: remainingMins > 0 ? `${remainingMins}m ${remainingSecs}s` : `${remainingSecs}s`
+    };
+}
+
+async function getUserEmail(userJid) {
+    const data = await getUserEmailWithExpiry(userJid);
+    return data ? data.email : null;
+}
+
+async function deleteUserEmail(userJid) {
+    await initTempMailDB();
+    const result = await TempMailDB.destroy({ where: { userJid } });
+    return result > 0;
+}
+
+module.exports = {
+    initTempMailDB,
+    setUserEmail,
+    getUserEmail,
+    getUserEmailWithExpiry,
+    deleteUserEmail,
+    cleanupExpiredEmails,
+    TempMailDB,
+    EXPIRY_MINUTES,
+};

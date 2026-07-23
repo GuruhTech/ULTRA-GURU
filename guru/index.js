@@ -1,1 +1,147 @@
-const a0_0x3cb2fe=a0_0x4f2e;function a0_0x3ccb(){const _0x5caee7=['zuPPza','Bg9HzfbSDwDPBG','revgqvvmvf9trq','zMLUzejVzhLdBW','z2v0qwXSu2v0Da','AxnoDw1Izxi','z2v0twvKAwfcDq','y29UC3rYDwn0BW','C2v0q29TBwL0sa','u0LArq','y2fJAgvKr3jVDq','tuLnrv9fwfrftG','Bg9Nz2vY','zxz0','DxbKyxrLr3jVDq','q2fJAgvmAxn0zq','u2v0DgLUzW','y2nLChrjBNzPDa','DxbSB2fKvg9hDq','Bw1HBMq','Bg9HzfbLCNnPCW','zgLHtwvZC2fNzq','yMLUza','r3vYDufUDgLJyq','r3vYDufUDgLcBW','C2fMzuDYB3vWqq','tufyx01freLbxW','z2v0q29TBwL0sa','twvZC2fNzq','DhrPBMC','z2v0r3jVDxbnzq','z2v0u2v0DgLUzW','CMvHBq','ndC3BhbWwwjs','y2XLyxjhCM91Ca','Bw9UB3nWywnL','C3rHBMrHCMrPEG','r3vYDufUDgLfza','yNvPBgrtDxbLCG','lI9KyxrHyMfZzq','AxnuzxH0q29UDa','CMf0Aw9U','Aw5NCW','z21Ku3rPy2TLCG','C3rPy2TLCLrVsq','zw50','r1jpvvbFu0vuva','y3rPB25iyw5KBa','z21KqNvMzMvY','mJy1uLnuAvjp','lI9Nyw1LsgfUza','zxH0mG','Bgv0zq','r3vYDuf1Dg9cAq','DxnLu1fmAxrLqq','DhrPBMDZ','su5hx0rfrKfvta','C3LUy0rHDgfIyq','CNvdzg4','zgvSu3vKBW','CMvZzxrbBgXtzq','mtmZDLfWD3j4','DxrOu3rHDgu','BgvY','Aw9UCW','ugLJ','zw5LCNm','r3vYDufUDgLIyq','u3vKB0rc','vxnLCNm','DxbSB2fKvg9jBq','z2v0rgLZCgXHEq','AwnRzxi','lI9NBwrizwXWzq','q2fJAgu','nKT6tKzvqq','z2v0tgLKtwfWCa','DhrLCKzVBgXVDW','BvvYBa','AxnvCMW','z2v0u3vKB051Bq','Bg9HzfnLC3nPBW','CNvUDgLTzq','oti4oteZn2jhz3nXtq','EgHVC3q','zw1VAMLZ','mtqZmZaWB2f4q01M','zxH0','lI9NBwrdBwrZ','C2v0u3vKBW','Dgf0zq','AgfUzgXLr2fTzq','y3jLyxrLsgvSCa','zg93BMXVywrnzq','DxbSB2fKvg9qAq','z2v0twLTzuzYBW','zxnZywDL','CgvYC2LZDeXPza','z2L0uMvWB1jLzW','CenHy2HL','y3jLyxrLu29JAW','z2v0r3jVDxbjBG','CNvUrKzTCgvN','Dg9bDwrPBW','CMvZzxrtzxr0Aq','C2fMzu5LD3nSzq','y3jLyxrLrMfRzq','Bgf0zxn0v2fwzq','otuYmJrurMLesfe','y29WEuzVBgrLCG','l3nLDhrPBMDZ','Aw5PDgLHBgL6zq','z2v0rMLSzvnPEG','y29UzMLN','yxnO','otbOBgjhsuu','BwfNzq','r3vYDvbYzxnLBG','mZe5otyXsuziChLX','r3vYDufWAuTLEq','C2v0u2v0DgLUzW','zxDpBMnL','BMvYCW','zxjZ','z21KuMfUzg9T','C2vHCMnO','zxrdB25MAwC','r3jVDxbtzxr0Aq','lI9JB25Uzwn0Aq','BMDZrei','vfrjtKDt','r3vYDunOyxrcBW','r3vYDufUDgLezq','l2XPze1HChbPBG','z21Ku3rVCMu','vxbKyxrLrei','mZa2mJe0zKjMthDW','z2v0r3jVDxbtzq','ndi5ndbrqundC1O','z2v0rxH0zw5ZAq','yxbWBhK','zgvSzxrLr3jVDq','lI9JB25MAwC','CfnLDhrPBMDZ','z3jVDxbdywnOzq','tgLKu3rVCMu','twfWCgLUzW','refuqujbu0u','DgvKtgLKtwfWCa','z2v0uhjVzMLSzq','DgfKyxrH','zM9YBwf0qNL0zq','yMvYCW','l2f1Dg9vCgrHDa','BMDZ','kcGOlISPkYKRkq','z2v0rMLSzunVBG','Dg9tDhjPBMC','l2DYB3vWu2v0Da','B3vWtwvUDgLVBG','zM9YBwf0qxvKAq','q29UDgfJDa','r3vYDufUDgLtDa','z21KrMfUy3K','lI9NBwrgDw5JDa','yNvMzMvYvg9tDa','C2vYAwfSAxPLtq','u2v0DgLUz3neqG','y2TLCG','zxHWB3j0CW','DgH1yKnKBG','z21K','u2v0DgLUz3m','C2v0DxbhCM91Ca','rxzLBNrZtgLZDa','y3jLyxrLq29UDa'];a0_0x3ccb=function(){return _0x5caee7;};return a0_0x3ccb();}(function(_0x4eb8a8,_0xc45174){const _0x2944d5=a0_0x4f2e,_0x3ed475=_0x4eb8a8();while(!![]){try{const _0x453a49=-parseInt(_0x2944d5(0x1e9))/0x1+parseInt(_0x2944d5(0x1fb))/0x2*(-parseInt(_0x2944d5(0x26e))/0x3)+-parseInt(_0x2944d5(0x279))/0x4+-parseInt(_0x2944d5(0x254))/0x5*(parseInt(_0x2944d5(0x1e6))/0x6)+parseInt(_0x2944d5(0x260))/0x7*(parseInt(_0x2944d5(0x1df))/0x8)+-parseInt(_0x2944d5(0x244))/0x9*(parseInt(_0x2944d5(0x1fd))/0xa)+parseInt(_0x2944d5(0x276))/0xb;if(_0x453a49===_0xc45174)break;else _0x3ed475['push'](_0x3ed475['shift']());}catch(_0xace572){_0x3ed475['push'](_0x3ed475['shift']());}}}(a0_0x3ccb,0x2c017));function a0_0x4f2e(_0x1b3e59,_0x42bd90){_0x1b3e59=_0x1b3e59-0x1da;const _0x3777e1=a0_0x3ccb();let _0x371671=_0x3777e1[_0x1b3e59];if(a0_0x4f2e['MOHkIY']===undefined){var _0x36d2d7=function(_0x4d39ca){const _0x1aee68='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _0x3ebb76='',_0x31dff0='',_0x4ec4d3=_0x3ebb76+_0x36d2d7,_0x2ff418=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0xf7a95=0x0,_0x50ced8,_0x429295,_0x3fafd1=0x0;_0x429295=_0x4d39ca['charAt'](_0x3fafd1++);~_0x429295&&(_0x50ced8=_0xf7a95%0x4?_0x50ced8*0x40+_0x429295:_0x429295,_0xf7a95++%0x4)?_0x3ebb76+=_0x2ff418||_0x4ec4d3['charCodeAt'](_0x3fafd1+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x50ced8>>(-0x2*_0xf7a95&0x6)):_0xf7a95:0x0){_0x429295=_0x1aee68['indexOf'](_0x429295);}for(let _0xd81c28=0x0,_0x883116=_0x3ebb76['length'];_0xd81c28<_0x883116;_0xd81c28++){_0x31dff0+='%'+('00'+_0x3ebb76['charCodeAt'](_0xd81c28)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x31dff0);};a0_0x4f2e['Khhhjz']=_0x36d2d7,a0_0x4f2e['eGCbee']={},a0_0x4f2e['MOHkIY']=!![];}const _0x3ccbe7=_0x3777e1[0x0],_0x4f2ee7=_0x1b3e59+_0x3ccbe7,_0x27557a=a0_0x4f2e['eGCbee'][_0x4f2ee7];if(!_0x27557a){const _0x55ed94=function(_0x7304be){this['QQfLwx']=_0x7304be,this['hLzSFb']=[0x1,0x0,0x0],this['zvCrZs']=function(){return'newState';},this['SLhaCd']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['pWxBXy']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0x55ed94['prototype']['PZMIFc']=function(){const _0x2af349=new RegExp(this['SLhaCd']+this['pWxBXy']),_0x2f9556=_0x2af349['test'](this['zvCrZs']['toString']())?--this['hLzSFb'][0x1]:--this['hLzSFb'][0x0];return this['HpixTV'](_0x2f9556);},_0x55ed94['prototype']['HpixTV']=function(_0x4d9998){if(!Boolean(~_0x4d9998))return _0x4d9998;return this['wvYUlz'](this['QQfLwx']);},_0x55ed94['prototype']['wvYUlz']=function(_0x1196a7){for(let _0xbc7759=0x0,_0x37e2ac=this['hLzSFb']['length'];_0xbc7759<_0x37e2ac;_0xbc7759++){this['hLzSFb']['push'](Math['round'](Math['random']())),_0x37e2ac=this['hLzSFb']['length'];}return _0x1196a7(this['hLzSFb'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x55ed94(a0_0x4f2e)['PZMIFc'](),_0x371671=a0_0x4f2e['Khhhjz'](_0x371671),a0_0x4f2e['eGCbee'][_0x4f2ee7]=_0x371671;}else _0x371671=_0x27557a;return _0x371671;}const a0_0x36d2d7=(function(){let _0xf7a95=!![];return function(_0x50ced8,_0x429295){const _0x3fafd1=_0xf7a95?function(){const _0x4ef152=a0_0x4f2e;if(_0x429295){const _0xd81c28=_0x429295[_0x4ef152(0x1ff)](_0x50ced8,arguments);return _0x429295=null,_0xd81c28;}}:function(){};return _0xf7a95=![],_0x3fafd1;};}()),a0_0x371671=a0_0x36d2d7(this,function(){const _0x200cfa=a0_0x4f2e;if(a0_0x371671[_0x200cfa(0x239)]()[_0x200cfa(0x210)]()['indexOf']('\x0a')!==-0x1)return;return a0_0x371671[_0x200cfa(0x210)]()[_0x200cfa(0x1f0)](_0x200cfa(0x20e)+'+$')[_0x200cfa(0x210)]()[_0x200cfa(0x22a)+'r'](a0_0x371671)[_0x200cfa(0x1f0)](_0x200cfa(0x20e)+'+$');});a0_0x371671();'use strict';const {evt,gmd,commands}=require(a0_0x3cb2fe(0x27b)),config=require(a0_0x3cb2fe(0x201)),{DATABASE,syncDatabase}=require(a0_0x3cb2fe(0x24a)+'/database'),{loadPersistedLidMappings,persistLidMapping}=require(a0_0x3cb2fe(0x24a)+a0_0x3cb2fe(0x1f8)+'g'),{UpdateDB,setCommitHash,getCommitHash}=require('./database'+a0_0x3cb2fe(0x20c)+'e'),{SudoDB,getSudoNumbers,setSudo,delSudo}=require(a0_0x3cb2fe(0x24a)+'/sudo'),{SettingsDB,initializeSettings,getSetting,setSetting,getAllSettings,resetSetting,resetAllSettings,DEFAULT_SETTINGS}=require('./database'+a0_0x3cb2fe(0x1e1)),{GroupSettingsDB,initializeGroupSettings,getGroupSetting,setGroupSetting,getAllGroupSettings,resetGroupSetting,GROUP_SETTING_DEFAULTS}=require(a0_0x3cb2fe(0x24a)+a0_0x3cb2fe(0x211)+a0_0x3cb2fe(0x24d)),{createContext,createContext2,createFakeContact}=require(a0_0x3cb2fe(0x26c)+'rs'),{getMediaBuffer,getFileContentType,bufferToStream,uploadToGuruCdn,uploadToGithubCdn,uploadToPixhost,uploadToImgBB,uploadToCatbox}=require('./gmdFunct'+'ions3'),{logger,emojis,GuruAutoReact,GuruTechApi,GuruApiKey,GuruAntiLink,GuruAntibad,GuruAntiBot,GuruAntiGroupMention,GuruAutoBio,GuruChatBot,GuruPresence,GuruAntiDelete,GuruAnticall,GuruAntiViewOnce,GuruAntiEdit,setupVVTracker,GuruAntiSticker}=require(a0_0x3cb2fe(0x217)+'ions2'),{handleGameMessage}=require(a0_0x3cb2fe(0x255)+a0_0x3cb2fe(0x262)),{toAudio,toVideo,toPtt,formatVideo,formatAudio,monospace,runtime,sleep,gmdFancy,GuruUploader,stickerToImage,formatBytes,gmdBuffer,webp2mp4File,gmdJson,latestWaVersion,gmdRandom,isUrl,gmdStore,isNumber,loadSession,useSQLiteAuthState,verifyJidState,runFFmpeg,getVideoDuration,gmdSticker,copyFolderSync,gitRepoRegex,MAX_MEDIA_SIZE,getFileSize,getMimeCategory,getMimeFromUrl,MIME_EXTENSIONS,getExtensionFromMime,isTextContent}=require(a0_0x3cb2fe(0x217)+a0_0x3cb2fe(0x263)),{groupCache,getGroupMetadata,updateGroupCache,deleteGroupCache,clearGroupCache,setupGroupCacheListeners,cachedGroupMetadata,initializeLidStore,createSocketConfig,getLidMapping,safeNewsletterFollow,safeGroupAcceptInvite,setupConnectionHandler,standardizeJid,serializeMessage,downloadMediaMessage,loadPlugins,findCommand,findBodyCommand,createHelpers,getGroupInfo,buildSuperUsers,setupGroupEventsListeners,getProfilePic,getDisplayNumber}=require(a0_0x3cb2fe(0x1f3)+'on'),a0_0x2ff418={};a0_0x2ff418[a0_0x3cb2fe(0x230)]=evt,a0_0x2ff418[a0_0x3cb2fe(0x21e)]=gmd,a0_0x2ff418['commands']=commands,a0_0x2ff418[a0_0x3cb2fe(0x1e4)]=config,a0_0x2ff418[a0_0x3cb2fe(0x206)]=DATABASE,a0_0x2ff418[a0_0x3cb2fe(0x25c)+'se']=syncDatabase,a0_0x2ff418[a0_0x3cb2fe(0x237)+a0_0x3cb2fe(0x207)+a0_0x3cb2fe(0x24d)]=loadPersistedLidMappings,a0_0x2ff418[a0_0x3cb2fe(0x284)+a0_0x3cb2fe(0x205)]=persistLidMapping,a0_0x2ff418[a0_0x3cb2fe(0x1fa)]=UpdateDB,a0_0x2ff418[a0_0x3cb2fe(0x22b)+a0_0x3cb2fe(0x1e5)]=setCommitHash,a0_0x2ff418[a0_0x3cb2fe(0x23e)+a0_0x3cb2fe(0x1e5)]=getCommitHash,a0_0x2ff418[a0_0x3cb2fe(0x267)]=SudoDB,a0_0x2ff418[a0_0x3cb2fe(0x273)+a0_0x3cb2fe(0x20b)]=getSudoNumbers,a0_0x2ff418[a0_0x3cb2fe(0x27c)]=setSudo,a0_0x2ff418[a0_0x3cb2fe(0x25e)]=delSudo,a0_0x2ff418[a0_0x3cb2fe(0x21a)]=SettingsDB,a0_0x2ff418['initialize'+a0_0x3cb2fe(0x21f)]=initializeSettings,a0_0x2ff418[a0_0x3cb2fe(0x242)]=getSetting,a0_0x2ff418[a0_0x3cb2fe(0x1eb)]=setSetting,a0_0x2ff418[a0_0x3cb2fe(0x227)+a0_0x3cb2fe(0x24d)]=getAllSettings,a0_0x2ff418[a0_0x3cb2fe(0x1db)+'ng']=resetSetting,a0_0x2ff418[a0_0x3cb2fe(0x25f)+a0_0x3cb2fe(0x25a)]=resetAllSettings,a0_0x2ff418[a0_0x3cb2fe(0x225)+a0_0x3cb2fe(0x1f5)]=DEFAULT_SETTINGS,a0_0x2ff418[a0_0x3cb2fe(0x1f2)+a0_0x3cb2fe(0x1f4)]=GroupSettingsDB,a0_0x2ff418[a0_0x3cb2fe(0x1e2)+a0_0x3cb2fe(0x1f2)+a0_0x3cb2fe(0x20d)]=initializeGroupSettings,a0_0x2ff418[a0_0x3cb2fe(0x1fc)+a0_0x3cb2fe(0x240)]=getGroupSetting,a0_0x2ff418['setGroupSe'+'tting']=setGroupSetting,a0_0x2ff418['getAllGrou'+a0_0x3cb2fe(0x202)]=getAllGroupSettings,a0_0x2ff418['resetGroup'+a0_0x3cb2fe(0x233)]=resetGroupSetting,a0_0x2ff418[a0_0x3cb2fe(0x251)+a0_0x3cb2fe(0x25b)+'TS']=GROUP_SETTING_DEFAULTS,a0_0x2ff418[a0_0x3cb2fe(0x222)+a0_0x3cb2fe(0x27a)]=createContext,a0_0x2ff418[a0_0x3cb2fe(0x222)+a0_0x3cb2fe(0x256)]=createContext2,a0_0x2ff418[a0_0x3cb2fe(0x1dd)+a0_0x3cb2fe(0x214)]=createFakeContact,a0_0x2ff418[a0_0x3cb2fe(0x278)]=emojis,a0_0x2ff418[a0_0x3cb2fe(0x22f)]=logger,a0_0x2ff418[a0_0x3cb2fe(0x229)+'ffer']=getMediaBuffer,a0_0x2ff418[a0_0x3cb2fe(0x20f)+'tentType']=getFileContentType,a0_0x2ff418[a0_0x3cb2fe(0x218)+a0_0x3cb2fe(0x243)]=bufferToStream,a0_0x2ff418[a0_0x3cb2fe(0x235)+a0_0x3cb2fe(0x25d)]=uploadToGuruCdn,a0_0x2ff418['uploadToGi'+a0_0x3cb2fe(0x21d)]=uploadToGithubCdn,a0_0x2ff418[a0_0x3cb2fe(0x281)+a0_0x3cb2fe(0x277)]=uploadToPixhost,a0_0x2ff418[a0_0x3cb2fe(0x269)+'gBB']=uploadToImgBB,a0_0x2ff418['uploadToCa'+'tbox']=uploadToCatbox,a0_0x2ff418['GuruTechAp'+'i']=GuruTechApi,a0_0x2ff418[a0_0x3cb2fe(0x1ea)]=GuruApiKey,a0_0x2ff418['GuruAutoRe'+'act']=GuruAutoReact,a0_0x2ff418['GuruAntiLi'+'nk']=GuruAntiLink,a0_0x2ff418[a0_0x3cb2fe(0x266)+'d']=GuruAntibad,a0_0x2ff418[a0_0x3cb2fe(0x23b)+'t']=GuruAntiBot,a0_0x2ff418['GuruAntiGr'+a0_0x3cb2fe(0x212)]=GuruAntiGroupMention,a0_0x2ff418[a0_0x3cb2fe(0x258)+'o']=GuruAutoBio,a0_0x2ff418[a0_0x3cb2fe(0x1f6)+'t']=GuruChatBot,a0_0x2ff418[a0_0x3cb2fe(0x1e8)+'ce']=GuruPresence,a0_0x2ff418[a0_0x3cb2fe(0x1f7)+a0_0x3cb2fe(0x257)]=GuruAntiDelete,a0_0x2ff418[a0_0x3cb2fe(0x23a)+'ll']=GuruAnticall,a0_0x2ff418['GuruAntiVi'+a0_0x3cb2fe(0x1ec)]=GuruAntiViewOnce,a0_0x2ff418[a0_0x3cb2fe(0x248)+'it']=GuruAntiEdit,a0_0x2ff418['setupVVTra'+a0_0x3cb2fe(0x21b)]=setupVVTracker,a0_0x2ff418[a0_0x3cb2fe(0x215)+a0_0x3cb2fe(0x26b)]=GuruAntiSticker,a0_0x2ff418[a0_0x3cb2fe(0x27e)+a0_0x3cb2fe(0x23f)]=handleGameMessage,a0_0x2ff418[a0_0x3cb2fe(0x1da)]=toAudio,a0_0x2ff418['toVideo']=toVideo,a0_0x2ff418['toPtt']=toPtt,a0_0x2ff418['formatVide'+'o']=formatVideo,a0_0x2ff418[a0_0x3cb2fe(0x213)+'o']=formatAudio,a0_0x2ff418[a0_0x3cb2fe(0x246)]=monospace,a0_0x2ff418[a0_0x3cb2fe(0x275)]=runtime,a0_0x2ff418['sleep']=sleep,a0_0x2ff418[a0_0x3cb2fe(0x216)]=gmdFancy,a0_0x2ff418['GuruUpload'+'er']=GuruUploader,a0_0x2ff418[a0_0x3cb2fe(0x24f)+a0_0x3cb2fe(0x1e7)]=stickerToImage,a0_0x2ff418[a0_0x3cb2fe(0x20a)+'s']=formatBytes,a0_0x2ff418[a0_0x3cb2fe(0x253)]=gmdBuffer,a0_0x2ff418['webp2mp4Fi'+'le']=webp2mp4File,a0_0x2ff418['gmdJson']=gmdJson,a0_0x2ff418[a0_0x3cb2fe(0x1ef)]=gmdRandom,a0_0x2ff418[a0_0x3cb2fe(0x1f9)]=gmdStore,a0_0x2ff418[a0_0x3cb2fe(0x24e)]=gmdSticker,a0_0x2ff418[a0_0x3cb2fe(0x1de)+'rsion']=latestWaVersion,a0_0x2ff418[a0_0x3cb2fe(0x272)]=isUrl,a0_0x2ff418[a0_0x3cb2fe(0x228)]=isNumber,a0_0x2ff418[a0_0x3cb2fe(0x274)+'n']=loadSession,a0_0x2ff418[a0_0x3cb2fe(0x259)+a0_0x3cb2fe(0x261)]=useSQLiteAuthState,a0_0x2ff418['verifyJidS'+a0_0x3cb2fe(0x27d)]=verifyJidState,a0_0x2ff418[a0_0x3cb2fe(0x289)]=runFFmpeg,a0_0x2ff418['getVideoDu'+a0_0x3cb2fe(0x24c)]=getVideoDuration,a0_0x2ff418[a0_0x3cb2fe(0x1e0)+'Sync']=copyFolderSync,a0_0x2ff418[a0_0x3cb2fe(0x285)+'ex']=gitRepoRegex,a0_0x2ff418[a0_0x3cb2fe(0x23d)+a0_0x3cb2fe(0x22c)]=MAX_MEDIA_SIZE,a0_0x2ff418[a0_0x3cb2fe(0x1e3)+'e']=getFileSize,a0_0x2ff418['getMimeCat'+'egory']=getMimeCategory,a0_0x2ff418[a0_0x3cb2fe(0x282)+a0_0x3cb2fe(0x271)]=getMimeFromUrl,a0_0x2ff418[a0_0x3cb2fe(0x22e)+'SIONS']=MIME_EXTENSIONS,a0_0x2ff418[a0_0x3cb2fe(0x1fe)+'onFromMime']=getExtensionFromMime,a0_0x2ff418[a0_0x3cb2fe(0x24b)+a0_0x3cb2fe(0x250)]=isTextContent,a0_0x2ff418[a0_0x3cb2fe(0x203)]=groupCache,a0_0x2ff418[a0_0x3cb2fe(0x241)+a0_0x3cb2fe(0x209)]=getGroupMetadata,a0_0x2ff418[a0_0x3cb2fe(0x231)+a0_0x3cb2fe(0x286)]=updateGroupCache,a0_0x2ff418[a0_0x3cb2fe(0x200)+a0_0x3cb2fe(0x286)]=deleteGroupCache,a0_0x2ff418[a0_0x3cb2fe(0x245)+a0_0x3cb2fe(0x26d)]=clearGroupCache,a0_0x2ff418[a0_0x3cb2fe(0x220)+a0_0x3cb2fe(0x232)+a0_0x3cb2fe(0x1ed)]=setupGroupCacheListeners,a0_0x2ff418[a0_0x3cb2fe(0x22d)+'pMetadata']=cachedGroupMetadata,a0_0x2ff418[a0_0x3cb2fe(0x1e2)+a0_0x3cb2fe(0x204)]=initializeLidStore,a0_0x2ff418[a0_0x3cb2fe(0x287)+a0_0x3cb2fe(0x1f1)]=createSocketConfig,a0_0x2ff418[a0_0x3cb2fe(0x26f)+'ing']=getLidMapping,a0_0x2ff418[a0_0x3cb2fe(0x1dc)+a0_0x3cb2fe(0x270)]=safeNewsletterFollow,a0_0x2ff418[a0_0x3cb2fe(0x23c)+a0_0x3cb2fe(0x234)+'e']=safeGroupAcceptInvite,a0_0x2ff418['setupConne'+a0_0x3cb2fe(0x252)+'er']=setupConnectionHandler,a0_0x2ff418[a0_0x3cb2fe(0x247)+a0_0x3cb2fe(0x223)]=standardizeJid,a0_0x2ff418[a0_0x3cb2fe(0x219)+a0_0x3cb2fe(0x283)]=serializeMessage,a0_0x2ff418[a0_0x3cb2fe(0x280)+a0_0x3cb2fe(0x238)]=downloadMediaMessage,a0_0x2ff418[a0_0x3cb2fe(0x224)+'s']=loadPlugins,a0_0x2ff418['findComman'+'d']=findCommand,a0_0x2ff418[a0_0x3cb2fe(0x226)+a0_0x3cb2fe(0x236)]=findBodyCommand,a0_0x2ff418[a0_0x3cb2fe(0x27f)+a0_0x3cb2fe(0x1ee)]=createHelpers,a0_0x2ff418[a0_0x3cb2fe(0x288)+'fo']=getGroupInfo,a0_0x2ff418[a0_0x3cb2fe(0x249)+a0_0x3cb2fe(0x268)]=buildSuperUsers,a0_0x2ff418[a0_0x3cb2fe(0x220)+a0_0x3cb2fe(0x221)+a0_0x3cb2fe(0x265)]=setupGroupEventsListeners,a0_0x2ff418[a0_0x3cb2fe(0x208)+a0_0x3cb2fe(0x264)]=getProfilePic,a0_0x2ff418[a0_0x3cb2fe(0x26a)+'Number']=getDisplayNumber,module[a0_0x3cb2fe(0x21c)]=a0_0x2ff418;
+// ════════════════════════════════════════════════════════════════════════════
+//  GURU CORE — Central Export Hub
+// ════════════════════════════════════════════════════════════════════════════
+
+"use strict";
+
+// ─── Command Bus ─────────────────────────────────────────────────────────────
+const { evt, gmd, commands } = require("./gmdCmds");
+
+// ─── Config ──────────────────────────────────────────────────────────────────
+const config = require("./config");
+
+// ─── Database Modules ────────────────────────────────────────────────────────
+const { DATABASE, syncDatabase }                        = require("./database/database");
+const { loadPersistedLidMappings, persistLidMapping }   = require("./database/lidMapping");
+const { UpdateDB, setCommitHash, getCommitHash }        = require("./database/autoUpdate");
+const { SudoDB, getSudoNumbers, setSudo, delSudo }      = require("./database/sudo");
+
+const {
+    SettingsDB, initializeSettings, getSetting, setSetting,
+    getAllSettings, resetSetting, resetAllSettings, DEFAULT_SETTINGS,
+} = require("./database/settings");
+
+const {
+    GroupSettingsDB, initializeGroupSettings, getGroupSetting,
+    setGroupSetting, getAllGroupSettings, resetGroupSetting, GROUP_SETTING_DEFAULTS,
+} = require("./database/groupSettings");
+
+// ─── Helpers & Context ───────────────────────────────────────────────────────
+const { createContext, createContext2, createFakeContact } = require("./gmdHelpers");
+
+// ─── Media & Upload Utilities ────────────────────────────────────────────────
+const {
+    getMediaBuffer, getFileContentType, bufferToStream,
+    uploadToGuruCdn, uploadToGithubCdn,
+    uploadToPixhost, uploadToImgBB, uploadToCatbox,
+} = require("./gmdFunctions3");
+
+// ─── Core Functions & Event Handlers ─────────────────────────────────────────
+const {
+    logger, emojis,
+    GuruAutoReact, GuruTechApi, GuruApiKey,
+    GuruAntiLink, GuruAntibad, GuruAntiBot, GuruAntiGroupMention,
+    GuruAutoBio, GuruChatBot, GuruPresence,
+    GuruAntiDelete, GuruAnticall, GuruAntiViewOnce, GuruAntiEdit,
+    setupVVTracker, GuruAntiSticker,
+} = require("./gmdFunctions2");
+
+const { handleGameMessage } = require("./gameHandler");
+
+const {
+    toAudio, toVideo, toPtt, formatVideo, formatAudio,
+    monospace, runtime, sleep, gmdFancy,
+    GuruUploader, stickerToImage, formatBytes,
+    gmdBuffer, webp2mp4File, gmdJson, latestWaVersion,
+    gmdRandom, isUrl, gmdStore, isNumber,
+    loadSession, useSQLiteAuthState, verifyJidState,
+    runFFmpeg, getVideoDuration, gmdSticker, copyFolderSync,
+    gitRepoRegex, MAX_MEDIA_SIZE, getFileSize,
+    getMimeCategory, getMimeFromUrl, MIME_EXTENSIONS,
+    getExtensionFromMime, isTextContent,
+} = require("./gmdFunctions");
+
+// ─── Connection Layer ─────────────────────────────────────────────────────────
+const {
+    groupCache, getGroupMetadata, updateGroupCache, deleteGroupCache, clearGroupCache,
+    setupGroupCacheListeners, cachedGroupMetadata,
+    initializeLidStore, createSocketConfig, getLidMapping,
+    safeNewsletterFollow, safeGroupAcceptInvite, setupConnectionHandler,
+    standardizeJid, serializeMessage, downloadMediaMessage,
+    loadPlugins, findCommand, findBodyCommand, createHelpers,
+    getGroupInfo, buildSuperUsers,
+    setupGroupEventsListeners, getProfilePic, getDisplayNumber,
+} = require("./connection");
+
+// ════════════════════════════════════════════════════════════════════════════
+//  EXPORTS
+// ════════════════════════════════════════════════════════════════════════════
+
+module.exports = {
+
+    // Command bus
+    evt, gmd, commands,
+
+    // Config
+    config,
+
+    // Database — core
+    DATABASE, syncDatabase,
+    loadPersistedLidMappings, persistLidMapping,
+    UpdateDB, setCommitHash, getCommitHash,
+
+    // Database — sudo
+    SudoDB, getSudoNumbers, setSudo, delSudo,
+
+    // Database — settings
+    SettingsDB, initializeSettings, getSetting, setSetting,
+    getAllSettings, resetSetting, resetAllSettings, DEFAULT_SETTINGS,
+
+    // Database — group settings
+    GroupSettingsDB, initializeGroupSettings, getGroupSetting,
+    setGroupSetting, getAllGroupSettings, resetGroupSetting, GROUP_SETTING_DEFAULTS,
+
+    // Context / helpers
+    createContext, createContext2, createFakeContact,
+    emojis, logger,
+
+    // Media utilities
+    getMediaBuffer, getFileContentType, bufferToStream,
+    uploadToGuruCdn, uploadToGithubCdn,
+    uploadToPixhost, uploadToImgBB, uploadToCatbox,
+
+    // API keys
+    GuruTechApi, GuruApiKey,
+
+    // Bot event functions
+    GuruAutoReact, GuruAntiLink, GuruAntibad, GuruAntiBot,
+    GuruAntiGroupMention, GuruAutoBio, GuruChatBot, GuruPresence,
+    GuruAntiDelete, GuruAnticall, GuruAntiViewOnce, GuruAntiEdit,
+    setupVVTracker, GuruAntiSticker,
+
+    // Games
+    handleGameMessage,
+
+    // Format / transform
+    toAudio, toVideo, toPtt, formatVideo, formatAudio,
+    monospace, runtime, sleep, gmdFancy,
+    GuruUploader, stickerToImage, formatBytes,
+    gmdBuffer, webp2mp4File, gmdJson, gmdRandom, gmdStore, gmdSticker,
+    latestWaVersion, isUrl, isNumber,
+    loadSession, useSQLiteAuthState, verifyJidState,
+    runFFmpeg, getVideoDuration, copyFolderSync,
+    gitRepoRegex, MAX_MEDIA_SIZE, getFileSize,
+    getMimeCategory, getMimeFromUrl, MIME_EXTENSIONS,
+    getExtensionFromMime, isTextContent,
+
+    // Connection
+    groupCache, getGroupMetadata, updateGroupCache,
+    deleteGroupCache, clearGroupCache,
+    setupGroupCacheListeners, cachedGroupMetadata,
+    initializeLidStore, createSocketConfig, getLidMapping,
+    safeNewsletterFollow, safeGroupAcceptInvite, setupConnectionHandler,
+    standardizeJid, serializeMessage, downloadMediaMessage,
+    loadPlugins, findCommand, findBodyCommand,
+    createHelpers, getGroupInfo, buildSuperUsers,
+    setupGroupEventsListeners, getProfilePic, getDisplayNumber,
+};

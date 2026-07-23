@@ -1,1 +1,163 @@
-function a0_0x15bd(){const _0xc8efd0=['CgrHDgu','EMvKid0+ia','mJa5mJKWmff0re94tW','C2v0DxbhCM91Ca','qgCUDxm','B3iG','yxbWBhK','C29Tzq','z3jVDxbnzxrHza','zsb1CgrHDguGzG','zxHWB3j0CW','zM9YyMLKzgvU','yxbWAw5NC0zYBW','y29UC3rYDwn0BW','A2v5CW','mteWmtCZogf1BxnPDq','BgvUz3rO','mKfwBwDhzG','q2fJAgvmAxn0zq','yxrH','Bu1LDgfKyxrH','mZGWmdLsuNjkzMW','nty2otb0ExzYtfi','DgfKyxrH','BM90lwf1DgHVCG','z29Uzq','rMfPBgvKihrVia','z3jVDxbgzxrJAa','DxnLq2XVBMvZ','Cgf0Aw5N','ieXjrcbZDg9Yzq','zgvS','Bwv0ywrHDgeGzG','Aw5N','CgfYDgLJAxbHBG','BMvYCW','z3jVDxaTCgfYDa','Dg9tDhjPBMC','C2vHCMnO','kcGOlISPkYKRkq','mtuZmZq0nhjoAKjZvG','BM9Kzs1JywnOzq','mte0nZjXEMj0Cxi','Dg9mB3DLCKnHCW','z3jVDxbdywnOzq','mZuXmZy3nK9qqvbrrq','Bg9N','4PYfieXjrcbZDg9Y','ywLSzwq6','y2fJAgvKr3jVDq','ChbPBMC','yxrL','ieDYB3vWCW','Aw5JBhvKzxm','AwnPCgfUDhmUDq','zxjYB3i','Ce1LDgfKyxrH','z2v0tgLKtwfWCa','CenHy2HL','mtKXoeXOBwniAa','C3rKvfrm','C3rVCMvmAwrnyq','r3jVDxaGy2fJAa','qwXSugfYDgLJAq','C2v0','Aw5PDgLHBgL6zq','tgLKu3rVCMu','y2HLy2TWzxjPBW','zw5KC1DPDgG','BwvZC2fNzq','z2v0','Aw5KzxHpzG','zNjVBsa','mti4n3DkruHpAW','zMX1C2HbBgW','AMLK','zsbPBML0AwfSAq','y2XLyxjhCM91Ca','AxPLza','ie1HChbPBMDZia','zgvSzxrLr3jVDq','DxbKyxrLr3jVDq','z3jVDxbZlNvWza','zgf0zsbMywLSzq','z2v0r3jVDxbnzq','qhmUD2HHDhnHCa','q2fJAgu','z2v0igDYB3vWia','qgXPza'];a0_0x15bd=function(){return _0xc8efd0;};return a0_0x15bd();}function a0_0x31ef(_0x475032,_0x4c065a){_0x475032=_0x475032-0x18e;const _0x1e9e65=a0_0x15bd();let _0x23ef9f=_0x1e9e65[_0x475032];if(a0_0x31ef['BayFTw']===undefined){var _0x405fbc=function(_0x4d93c9){const _0x4e7e0c='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _0x5789bd='',_0x5d654d='',_0xe7c5b5=_0x5789bd+_0x405fbc,_0x10b872=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x63761c=0x0,_0x5ebc40,_0x53c85d,_0x1918df=0x0;_0x53c85d=_0x4d93c9['charAt'](_0x1918df++);~_0x53c85d&&(_0x5ebc40=_0x63761c%0x4?_0x5ebc40*0x40+_0x53c85d:_0x53c85d,_0x63761c++%0x4)?_0x5789bd+=_0x10b872||_0xe7c5b5['charCodeAt'](_0x1918df+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x5ebc40>>(-0x2*_0x63761c&0x6)):_0x63761c:0x0){_0x53c85d=_0x4e7e0c['indexOf'](_0x53c85d);}for(let _0x238ba0=0x0,_0x43645c=_0x5789bd['length'];_0x238ba0<_0x43645c;_0x238ba0++){_0x5d654d+='%'+('00'+_0x5789bd['charCodeAt'](_0x238ba0)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x5d654d);};a0_0x31ef['RMLofS']=_0x405fbc,a0_0x31ef['jUOpqt']={},a0_0x31ef['BayFTw']=!![];}const _0x15bdce=_0x1e9e65[0x0],_0x31efee=_0x475032+_0x15bdce,_0x1cc74d=a0_0x31ef['jUOpqt'][_0x31efee];if(!_0x1cc74d){const _0x16b003=function(_0x3750b9){this['CkGNOj']=_0x3750b9,this['izpJJK']=[0x1,0x0,0x0],this['GvnfLg']=function(){return'newState';},this['erApOY']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['UTVNqQ']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0x16b003['prototype']['ighibz']=function(){const _0x3326f1=new RegExp(this['erApOY']+this['UTVNqQ']),_0x2c4bff=_0x3326f1['test'](this['GvnfLg']['toString']())?--this['izpJJK'][0x1]:--this['izpJJK'][0x0];return this['vYEXCT'](_0x2c4bff);},_0x16b003['prototype']['vYEXCT']=function(_0x1b3f10){if(!Boolean(~_0x1b3f10))return _0x1b3f10;return this['joqEyG'](this['CkGNOj']);},_0x16b003['prototype']['joqEyG']=function(_0x9f9a07){for(let _0xfbeafe=0x0,_0x14eba3=this['izpJJK']['length'];_0xfbeafe<_0x14eba3;_0xfbeafe++){this['izpJJK']['push'](Math['round'](Math['random']())),_0x14eba3=this['izpJJK']['length'];}return _0x9f9a07(this['izpJJK'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x16b003(a0_0x31ef)['ighibz'](),_0x23ef9f=a0_0x31ef['RMLofS'](_0x23ef9f),a0_0x31ef['jUOpqt'][_0x31efee]=_0x23ef9f;}else _0x23ef9f=_0x1cc74d;return _0x23ef9f;}const a0_0xe30279=a0_0x31ef;(function(_0x1a3a34,_0x472e09){const _0x48a431=a0_0x31ef,_0x55002b=_0x1a3a34();while(!![]){try{const _0x212d0b=-parseInt(_0x48a431(0x1b6))/0x1*(parseInt(_0x48a431(0x1b2))/0x2)+parseInt(_0x48a431(0x1c9))/0x3+-parseInt(_0x48a431(0x1ce))/0x4+parseInt(_0x48a431(0x1a3))/0x5+parseInt(_0x48a431(0x1b0))/0x6+parseInt(_0x48a431(0x1dc))/0x7*(-parseInt(_0x48a431(0x1cb))/0x8)+-parseInt(_0x48a431(0x191))/0x9*(-parseInt(_0x48a431(0x1b7))/0xa);if(_0x212d0b===_0x472e09)break;else _0x55002b['push'](_0x55002b['shift']());}catch(_0x1b6101){_0x55002b['push'](_0x55002b['shift']());}}}(a0_0x15bd,0x96112));const a0_0x405fbc=(function(){let _0x53c85d=!![];return function(_0x1918df,_0x238ba0){const _0x43645c=_0x53c85d?function(){const _0x4d9c99=a0_0x31ef;if(_0x238ba0){const _0x16b003=_0x238ba0[_0x4d9c99(0x1a7)](_0x1918df,arguments);return _0x238ba0=null,_0x16b003;}}:function(){};return _0x53c85d=![],_0x43645c;};}()),a0_0x23ef9f=a0_0x405fbc(this,function(){const _0x1bae69=a0_0x31ef;if(a0_0x23ef9f['bind']()[_0x1bae69(0x1c6)]()[_0x1bae69(0x18f)]('\x0a')!==-0x1)return;return a0_0x23ef9f[_0x1bae69(0x1c6)]()[_0x1bae69(0x1c7)](_0x1bae69(0x1c8)+'+$')[_0x1bae69(0x1c6)]()[_0x1bae69(0x1ae)+'r'](a0_0x23ef9f)[_0x1bae69(0x1c7)](_0x1bae69(0x1c8)+'+$');});a0_0x23ef9f();const NodeCache=require(a0_0xe30279(0x1ca)),a0_0x10b872={};a0_0x10b872[a0_0xe30279(0x1dd)]=0x5*0x3c,a0_0x10b872['useClones']=![],a0_0x10b872[a0_0xe30279(0x1e4)+'d']=0x3c;const groupCache=new NodeCache(a0_0x10b872),a0_0x63761c={};a0_0x63761c['stdTTL']=0x18*0x3c*0x3c,a0_0x63761c[a0_0xe30279(0x1bd)]=![],a0_0x63761c[a0_0xe30279(0x1e4)+'d']=0x12c;const lidToJidStore=new NodeCache(a0_0x63761c),storeLidMapping=(_0x3750b9,_0x3326f1)=>{const _0x14c37b=a0_0xe30279;_0x3750b9&&_0x3326f1&&_0x3750b9[_0x14c37b(0x1e5)](_0x14c37b(0x1a0))&&_0x3326f1['endsWith'](_0x14c37b(0x19d)+'p.net')&&lidToJidStore[_0x14c37b(0x1e1)](_0x3750b9,_0x3326f1);},getLidMapping=_0x2c4bff=>{const _0x4b5cb3=a0_0xe30279;return lidToJidStore[_0x4b5cb3(0x18e)](_0x2c4bff);},updateLidMappingsFromMetadata=_0x1b3f10=>{const _0x454ec5=a0_0xe30279;if(!_0x1b3f10?.['participan'+'ts'])return;for(const _0x9f9a07 of _0x1b3f10[_0x454ec5(0x1c3)+'ts']){const _0xfbeafe=_0x9f9a07['lid']||_0x9f9a07['id'],_0x14eba3=_0x9f9a07['pn']||_0x9f9a07[_0x454ec5(0x193)];_0xfbeafe&&_0x14eba3&&storeLidMapping(_0xfbeafe,_0x14eba3);}},isExpectedError=_0x54a949=>{const _0x508ae6=a0_0xe30279,_0x2e8250=[_0x508ae6(0x1ac),'item-not-f'+'ound',_0x508ae6(0x1b9)+_0x508ae6(0x196),_0x508ae6(0x1ba)];return _0x2e8250[_0x508ae6(0x1a8)](_0x19dc5b=>_0x54a949?.[_0x508ae6(0x1cc)+'e']()[_0x508ae6(0x1d6)](_0x19dc5b));},getGroupMetadata=async(_0x45c2ff,_0x2af0ab)=>{const _0xb49cf4=a0_0xe30279;if(!_0x2af0ab||!_0x2af0ab[_0xb49cf4(0x1e5)](_0xb49cf4(0x1a5)))return null;try{const _0x5d1e2c=groupCache[_0xb49cf4(0x18e)](_0x2af0ab);if(_0x5d1e2c)return updateLidMappingsFromMetadata(_0x5d1e2c),_0x5d1e2c;const _0x404cbd=await _0x45c2ff[_0xb49cf4(0x1a9)+_0xb49cf4(0x1b4)](_0x2af0ab);return _0x404cbd&&(groupCache[_0xb49cf4(0x1e1)](_0x2af0ab,_0x404cbd),updateLidMappingsFromMetadata(_0x404cbd)),_0x404cbd;}catch(_0x41e350){return!isExpectedError(_0x41e350[_0xb49cf4(0x1e6)])&&console[_0xb49cf4(0x1d8)](_0xb49cf4(0x1bb)+_0xb49cf4(0x19f)+_0xb49cf4(0x1c1)+_0xb49cf4(0x1a6)+_0x2af0ab+':',_0x41e350[_0xb49cf4(0x1e6)]),null;}},updateGroupCache=(_0x5927a3,_0x18fc4)=>{const _0x4b31d4=a0_0xe30279;_0x5927a3&&_0x18fc4&&(groupCache[_0x4b31d4(0x1e1)](_0x5927a3,_0x18fc4),updateLidMappingsFromMetadata(_0x18fc4));},deleteGroupCache=_0xef6ac2=>{const _0x2fcc05=a0_0xe30279;groupCache[_0x2fcc05(0x1c0)](_0xef6ac2);},clearGroupCache=()=>{const _0x6b701e=a0_0xe30279;groupCache[_0x6b701e(0x192)]();},setupGroupCacheListeners=_0x22956f=>{const _0x4ed3ff=a0_0xe30279;_0x22956f['ev']['on'](_0x4ed3ff(0x19a)+_0x4ed3ff(0x1d4),async([_0x21aab8])=>{const _0xbd0533=_0x4ed3ff;try{if(_0x21aab8?.['id']){const _0x34b8aa=await _0x22956f[_0xbd0533(0x1a9)+_0xbd0533(0x1b4)](_0x21aab8['id']);updateGroupCache(_0x21aab8['id'],_0x34b8aa);}}catch(_0xba1dfe){deleteGroupCache(_0x21aab8?.['id']),!isExpectedError(_0xba1dfe[_0xbd0533(0x1e6)])&&console[_0xbd0533(0x1d8)](_0xbd0533(0x1df)+_0xbd0533(0x1aa)+_0xbd0533(0x1d1),_0xba1dfe[_0xbd0533(0x1e6)]);}}),_0x22956f['ev']['on'](_0x4ed3ff(0x1c5)+_0x4ed3ff(0x1d7)+_0x4ed3ff(0x1a1),async _0x5433df=>{const _0xc0eb34=_0x4ed3ff;try{if(_0x5433df?.['id']){const _0xc26876=groupCache['get'](_0x5433df['id']);_0xc26876&&updateLidMappingsFromMetadata(_0xc26876);const _0x11023d=await _0x22956f[_0xc0eb34(0x1a9)+'ata'](_0x5433df['id']);updateGroupCache(_0x5433df['id'],_0x11023d);}}catch(_0x13108b){deleteGroupCache(_0x5433df?.['id']),!isExpectedError(_0x13108b['message'])&&console[_0xc0eb34(0x1d8)]('Participan'+'t\x20cache\x20up'+_0xc0eb34(0x19b)+'d:',_0x13108b[_0xc0eb34(0x1e6)]);}});},cachedGroupMetadata=async _0x193f2a=>{const _0x25bf64=a0_0xe30279;return groupCache[_0x25bf64(0x18e)](_0x193f2a);},initializeLidStore=async _0xc2fdf4=>{const _0x34514f=a0_0xe30279;try{const _0x2cf72f=await _0xc2fdf4[_0x34514f(0x1bc)+_0x34514f(0x1e0)+_0x34514f(0x1be)]();if(_0x2cf72f){for(const _0x35741e of Object[_0x34514f(0x1af)](_0x2cf72f)){const _0x3489b1=_0x2cf72f[_0x35741e];_0x3489b1?.['participan'+'ts']&&(updateLidMappingsFromMetadata(_0x3489b1),groupCache[_0x34514f(0x1e1)](_0x35741e,_0x3489b1));}console[_0x34514f(0x1cf)](_0x34514f(0x1d0)+_0x34514f(0x194)+_0x34514f(0x1a2)+lidToJidStore[_0x34514f(0x1af)]()['length']+(_0x34514f(0x197)+_0x34514f(0x190))+Object[_0x34514f(0x1af)](_0x2cf72f)[_0x34514f(0x1b1)]+_0x34514f(0x1d5));}}catch(_0x244f94){console['error'](_0x34514f(0x1bb)+'initialize'+_0x34514f(0x1bf)+':',_0x244f94[_0x34514f(0x1e6)]);}},a0_0x5ebc40={};a0_0x5ebc40[a0_0xe30279(0x1cd)]=groupCache,a0_0x5ebc40[a0_0xe30279(0x19c)+a0_0xe30279(0x1b8)]=getGroupMetadata,a0_0x5ebc40[a0_0xe30279(0x199)+a0_0xe30279(0x1db)]=updateGroupCache,a0_0x5ebc40[a0_0xe30279(0x198)+a0_0xe30279(0x1db)]=deleteGroupCache,a0_0x5ebc40[a0_0xe30279(0x195)+a0_0xe30279(0x19e)]=clearGroupCache,a0_0x5ebc40[a0_0xe30279(0x1a4)+a0_0xe30279(0x1b3)+a0_0xe30279(0x1c4)]=setupGroupCacheListeners,a0_0x5ebc40[a0_0xe30279(0x1d2)+a0_0xe30279(0x1d9)]=cachedGroupMetadata,a0_0x5ebc40[a0_0xe30279(0x1da)+a0_0xe30279(0x1c2)]=getLidMapping,a0_0x5ebc40[a0_0xe30279(0x1de)+a0_0xe30279(0x1d3)]=storeLidMapping,a0_0x5ebc40['updateLidM'+a0_0xe30279(0x1ad)+a0_0xe30279(0x1b5)]=updateLidMappingsFromMetadata,a0_0x5ebc40[a0_0xe30279(0x1e2)+a0_0xe30279(0x1e3)]=initializeLidStore,module[a0_0xe30279(0x1ab)]=a0_0x5ebc40;
+
+const NodeCache = require("node-cache");
+
+const groupCache = new NodeCache({
+    stdTTL: 5 * 60,
+    useClones: false,
+    checkperiod: 60,
+});
+
+const lidToJidStore = new NodeCache({
+    stdTTL: 24 * 60 * 60,
+    useClones: false,
+    checkperiod: 300,
+});
+
+const storeLidMapping = (lid, jid) => {
+    if (lid && jid && lid.endsWith("@lid") && jid.endsWith("@s.whatsapp.net")) {
+        lidToJidStore.set(lid, jid);
+    }
+};
+
+const getLidMapping = (lid) => {
+    return lidToJidStore.get(lid);
+};
+
+const updateLidMappingsFromMetadata = (metadata) => {
+    if (!metadata?.participants) return;
+    for (const p of metadata.participants) {
+        const lid = p.lid || p.id;
+        const jid = p.pn || p.jid;
+        if (lid && jid) {
+            storeLidMapping(lid, jid);
+        }
+    }
+};
+
+const isExpectedError = (errorMsg) => {
+    const expectedErrors = [
+        "forbidden",
+        "item-not-found",
+        "not-authorized",
+        "gone",
+    ];
+    return expectedErrors.some((e) => errorMsg?.toLowerCase().includes(e));
+};
+
+const getGroupMetadata = async (Guru, jid) => {
+    if (!jid || !jid.endsWith("@g.us")) return null;
+
+    try {
+        const cached = groupCache.get(jid);
+        if (cached) {
+            updateLidMappingsFromMetadata(cached);
+            return cached;
+        }
+
+        const metadata = await Guru.groupMetadata(jid);
+        if (metadata) {
+            groupCache.set(jid, metadata);
+            updateLidMappingsFromMetadata(metadata);
+        }
+        return metadata;
+    } catch (error) {
+        if (!isExpectedError(error.message)) {
+            console.error(
+                `Failed to get group metadata for ${jid}:`,
+                error.message,
+            );
+        }
+        return null;
+    }
+};
+
+const updateGroupCache = (jid, metadata) => {
+    if (jid && metadata) {
+        groupCache.set(jid, metadata);
+        updateLidMappingsFromMetadata(metadata);
+    }
+};
+
+const deleteGroupCache = (jid) => {
+    groupCache.del(jid);
+};
+
+const clearGroupCache = () => {
+    groupCache.flushAll();
+};
+
+const setupGroupCacheListeners = (Guru) => {
+    Guru.ev.on("groups.update", async ([event]) => {
+        try {
+            if (event?.id) {
+                const metadata = await Guru.groupMetadata(event.id);
+                updateGroupCache(event.id, metadata);
+            }
+        } catch (error) {
+            deleteGroupCache(event?.id);
+            if (!isExpectedError(error.message)) {
+                console.error("Group cache update failed:", error.message);
+            }
+        }
+    });
+
+    Guru.ev.on("group-participants.update", async (event) => {
+        try {
+            if (event?.id) {
+                const cachedMeta = groupCache.get(event.id);
+                if (cachedMeta) {
+                    updateLidMappingsFromMetadata(cachedMeta);
+                }
+
+                const metadata = await Guru.groupMetadata(event.id);
+                updateGroupCache(event.id, metadata);
+            }
+        } catch (error) {
+            deleteGroupCache(event?.id);
+            if (!isExpectedError(error.message)) {
+                console.error(
+                    "Participant cache update failed:",
+                    error.message,
+                );
+            }
+        }
+    });
+};
+
+const cachedGroupMetadata = async (jid) => {
+    return groupCache.get(jid);
+};
+
+const initializeLidStore = async (Guru) => {
+    try {
+        const groups = await Guru.groupFetchAllParticipating();
+        if (groups) {
+            for (const groupJid of Object.keys(groups)) {
+                const meta = groups[groupJid];
+                if (meta?.participants) {
+                    updateLidMappingsFromMetadata(meta);
+                    groupCache.set(groupJid, meta);
+                }
+            }
+            console.log(
+                `✅ LID store initialized => ${lidToJidStore.keys().length} Mappings from ${Object.keys(groups).length} Groups`,
+            );
+        }
+    } catch (error) {
+        console.error("Failed to initialize LID store:", error.message);
+    }
+};
+
+module.exports = {
+    groupCache,
+    getGroupMetadata,
+    updateGroupCache,
+    deleteGroupCache,
+    clearGroupCache,
+    setupGroupCacheListeners,
+    cachedGroupMetadata,
+    getLidMapping,
+    storeLidMapping,
+    updateLidMappingsFromMetadata,
+    initializeLidStore,
+};

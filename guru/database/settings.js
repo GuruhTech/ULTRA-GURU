@@ -52,7 +52,6 @@ const DEFAULT_SETTINGS = {
     ANTICALL_MSG: "*_📞 Auto Call Reject Mode Active. 📵 No Calls Allowed!_*",
     AUTO_LIKE_STATUS: config.AUTO_LIKE_STATUS || "true",
     AUTO_READ_STATUS: config.AUTO_READ_STATUS || "true",
-    STATUS_VIEW_DELAY: "0",
     STATUS_LIKE_EMOJIS: "🥼,🏅,🎖️,🧧,🎐,🏅,🏆,🥇,🥈,🏆",
     AUTO_REPLY_STATUS: "false",
     STATUS_REPLY_TEXT: "*✨ Your status viewed successfully! ✨*",
@@ -63,10 +62,10 @@ const DEFAULT_SETTINGS = {
     AUTO_BLOCK: "",
     AUTO_JOIN: "true",  // Added auto join setting
     YT: "youtube.com/@gurutech",
-    NEWSLETTER_JID: "120363408668355773@newsletter",
+    NEWSLETTER_JID: "120363406649804510@newsletter",
     GC_JID: "Cp6waPAdT3hLVcbdfBeV61",  // Updated group invite code
     NEWSLETTER_URL: "https://whatsapp.com/channel/0029Vb7jauLHLHQbkcbcHi0e",
-    BOT_REPO: "blacktech254/ULTRA-MD-",
+    BOT_REPO: "GuruhTech/ULTRA-GURU",
     AUTO_UPDATE: "true",
     PACK_NAME: "ULTRA GURU",
     PACK_AUTHOR: "GURUTECH 😎",
@@ -135,7 +134,7 @@ async function initializeSettings() {
 
     // Force-sync settings that must always match the current default.
     // Uses UPDATE (not upsert) so it works reliably on both SQLite and PostgreSQL.
-    const ALWAYS_SYNC = ["BOT_PIC", "BOT_REPO", "NEWSLETTER_JID"];
+    const ALWAYS_SYNC = ["BOT_PIC", "BOT_REPO"];
     for (const key of ALWAYS_SYNC) {
         const defaultValue = DEFAULT_SETTINGS[key];
         if (defaultValue) {

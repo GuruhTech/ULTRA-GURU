@@ -1,1 +1,392 @@
-const a0_0xf3768=a0_0x53b7;(function(_0x4304fc,_0x53e298){const _0x233c81=a0_0x53b7,_0x3089b5=_0x4304fc();while(!![]){try{const _0x395f84=parseInt(_0x233c81(0x262))/0x1+parseInt(_0x233c81(0x2e0))/0x2+-parseInt(_0x233c81(0x216))/0x3*(parseInt(_0x233c81(0x2f6))/0x4)+-parseInt(_0x233c81(0x210))/0x5+parseInt(_0x233c81(0x2c6))/0x6+-parseInt(_0x233c81(0x2d1))/0x7+-parseInt(_0x233c81(0x22a))/0x8*(-parseInt(_0x233c81(0x2f9))/0x9);if(_0x395f84===_0x53e298)break;else _0x3089b5['push'](_0x3089b5['shift']());}catch(_0x5250ca){_0x3089b5['push'](_0x3089b5['shift']());}}}(a0_0x1eb3,0x36fc0));const a0_0x257992=(function(){let _0x5f4209=!![];return function(_0x66840d,_0x50dca3){const _0x13dbf8=_0x5f4209?function(){const _0x4828ae=a0_0x53b7;if(_0x50dca3){const _0x1e3533=_0x50dca3[_0x4828ae(0x2a5)](_0x66840d,arguments);return _0x50dca3=null,_0x1e3533;}}:function(){};return _0x5f4209=![],_0x13dbf8;};}()),a0_0x5e27c9=a0_0x257992(this,function(){const _0x1abee9=a0_0x53b7;if(a0_0x5e27c9[_0x1abee9(0x2ae)]()[_0x1abee9(0x2be)]()['indexOf']('\x0a')!==-0x1)return;return a0_0x5e27c9[_0x1abee9(0x2be)]()[_0x1abee9(0x2cf)](_0x1abee9(0x2e3)+'+$')[_0x1abee9(0x2be)]()[_0x1abee9(0x2b3)+'r'](a0_0x5e27c9)[_0x1abee9(0x2cf)]('(((.+)+)+)'+'+$');});a0_0x5e27c9();const {gmd}=require(a0_0xf3768(0x2d0)),mergeQueues=new Map();function unwrapDocMessage(_0x4f202d){const _0x34a077=a0_0xf3768;if(!_0x4f202d)return null;let _0x44bf69=_0x4f202d;if(_0x44bf69[_0x34a077(0x2a2)+_0x34a077(0x2f4)]?.[_0x34a077(0x2fb)])_0x44bf69=_0x44bf69[_0x34a077(0x2a2)+_0x34a077(0x2f4)][_0x34a077(0x2fb)];if(_0x44bf69[_0x34a077(0x2cc)+_0x34a077(0x218)]?.[_0x34a077(0x2fb)])_0x44bf69=_0x44bf69[_0x34a077(0x2cc)+'ssage'][_0x34a077(0x2fb)];if(_0x44bf69[_0x34a077(0x2cc)+_0x34a077(0x2a7)]?.['message'])_0x44bf69=_0x44bf69[_0x34a077(0x2cc)+_0x34a077(0x2a7)][_0x34a077(0x2fb)];if(_0x44bf69[_0x34a077(0x2cc)+_0x34a077(0x21c)+'ension']?.['message'])_0x44bf69=_0x44bf69[_0x34a077(0x2cc)+_0x34a077(0x21c)+_0x34a077(0x2af)][_0x34a077(0x2fb)];if(_0x44bf69[_0x34a077(0x2b8)+'thCaptionM'+_0x34a077(0x2f4)]?.['message'])_0x44bf69=_0x44bf69[_0x34a077(0x2b8)+_0x34a077(0x21d)+_0x34a077(0x2f4)][_0x34a077(0x2fb)];return _0x44bf69[_0x34a077(0x259)+_0x34a077(0x218)]||null;}function normalizePhone(_0x30eb1d){const _0x3d8102=a0_0xf3768;let _0x32c435=String(_0x30eb1d)[_0x3d8102(0x2d8)]();_0x32c435=_0x32c435[_0x3d8102(0x24d)](/^tel:/i,''),_0x32c435=_0x32c435[_0x3d8102(0x24d)](/[\s\-\.\(\)\/\\]/g,'');const _0x5c0ebd=_0x32c435[_0x3d8102(0x24d)](/^\+/,'')[_0x3d8102(0x24d)](/^00/,'');return _0x5c0ebd[_0x3d8102(0x309)](-0x9);}function parseVcards(_0x18f379){const _0x190621=a0_0xf3768,_0x43f6d9=[],_0x201067=_0x18f379[_0x190621(0x24d)](/\r\n/g,'\x0a')['replace'](/\r/g,'\x0a'),_0x230e6c=/BEGIN:VCARD[\s\S]*?END:VCARD/gi;let _0x2ce80e;while((_0x2ce80e=_0x230e6c[_0x190621(0x255)](_0x201067))!==null){_0x43f6d9[_0x190621(0x276)](_0x2ce80e[0x0][_0x190621(0x2d8)]());}return _0x43f6d9;}function a0_0x53b7(_0x476588,_0x5163d7){_0x476588=_0x476588-0x1f2;const _0x589f26=a0_0x1eb3();let _0x5e27c9=_0x589f26[_0x476588];if(a0_0x53b7['zOumAO']===undefined){var _0x257992=function(_0x355f6f){const _0x30ff49='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _0x48a944='',_0x4e99c9='',_0xae891f=_0x48a944+_0x257992,_0x115cca=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x3a3699=0x0,_0xc062a0,_0x3ddac9,_0x15e697=0x0;_0x3ddac9=_0x355f6f['charAt'](_0x15e697++);~_0x3ddac9&&(_0xc062a0=_0x3a3699%0x4?_0xc062a0*0x40+_0x3ddac9:_0x3ddac9,_0x3a3699++%0x4)?_0x48a944+=_0x115cca||_0xae891f['charCodeAt'](_0x15e697+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0xc062a0>>(-0x2*_0x3a3699&0x6)):_0x3a3699:0x0){_0x3ddac9=_0x30ff49['indexOf'](_0x3ddac9);}for(let _0x1bcffe=0x0,_0x6694a=_0x48a944['length'];_0x1bcffe<_0x6694a;_0x1bcffe++){_0x4e99c9+='%'+('00'+_0x48a944['charCodeAt'](_0x1bcffe)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x4e99c9);};a0_0x53b7['pOQkDz']=_0x257992,a0_0x53b7['AJgSUZ']={},a0_0x53b7['zOumAO']=!![];}const _0x1eb370=_0x589f26[0x0],_0x53b7db=_0x476588+_0x1eb370,_0x5c7181=a0_0x53b7['AJgSUZ'][_0x53b7db];if(!_0x5c7181){const _0x5ed9f1=function(_0x5f4209){this['IvHgtH']=_0x5f4209,this['AYhRUm']=[0x1,0x0,0x0],this['WBjMlf']=function(){return'newState';},this['XTCoEn']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['fibsHi']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0x5ed9f1['prototype']['ciIKAJ']=function(){const _0x66840d=new RegExp(this['XTCoEn']+this['fibsHi']),_0x50dca3=_0x66840d['test'](this['WBjMlf']['toString']())?--this['AYhRUm'][0x1]:--this['AYhRUm'][0x0];return this['sAXltc'](_0x50dca3);},_0x5ed9f1['prototype']['sAXltc']=function(_0x13dbf8){if(!Boolean(~_0x13dbf8))return _0x13dbf8;return this['yjizBP'](this['IvHgtH']);},_0x5ed9f1['prototype']['yjizBP']=function(_0x1e3533){for(let _0x4f202d=0x0,_0x44bf69=this['AYhRUm']['length'];_0x4f202d<_0x44bf69;_0x4f202d++){this['AYhRUm']['push'](Math['round'](Math['random']())),_0x44bf69=this['AYhRUm']['length'];}return _0x1e3533(this['AYhRUm'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x5ed9f1(a0_0x53b7)['ciIKAJ'](),_0x5e27c9=a0_0x53b7['pOQkDz'](_0x5e27c9),a0_0x53b7['AJgSUZ'][_0x53b7db]=_0x5e27c9;}else _0x5e27c9=_0x5c7181;return _0x5e27c9;}function extractPhones(_0x585ca9){const _0x3f6fce=a0_0xf3768,_0x197588=[],_0x1f56ea=_0x585ca9[_0x3f6fce(0x23b)]('\x0a');for(const _0x10e7dc of _0x1f56ea){if(/^TEL[;:]/i[_0x3f6fce(0x22d)](_0x10e7dc[_0x3f6fce(0x2d8)]())){const _0x40a2d8=_0x10e7dc[_0x3f6fce(0x205)](':');if(_0x40a2d8!==-0x1){const _0x5e5bec=_0x10e7dc[_0x3f6fce(0x309)](_0x40a2d8+0x1)[_0x3f6fce(0x2d8)]();if(_0x5e5bec)_0x197588['push'](_0x5e5bec);}}}return _0x197588;}function a0_0x1eb3(){const _0x56a987=['AgvSCa','DcbVBMuGBw9Yzq','ie9UBhKGzhvWBa','mZaYntaYBu9TEwTf','q0yk','C3nHz2u','AwnHDguGBNvTyG','z2v2y2yGywrKia','y3rZoIaQ','C3nHz2vwmKv4Da','DgHdyxb0Aw9Utq','qKvhsu46vKnbuG','B25LignSzwfUia','iokaLca','FcbKB25LihWGCW','CMDLDMnMigrVBG','8j+xGU+4JW','4PA4icOUBwvYz2v2','zxH0zw5Kzwruzq','zgvSzxrL','ignVBNrHy3rZoG','Dgv4Dc92y2fYza','ifzdrI4','mZjbrvDMwva','AwXLCYbPBNrVia','8j+tHYbpCMLNAw5HBa','DgvZDa','Axf1zsbJB250yq','s2vLCcbHzgrPBG','AwnHDgvZigzVDq','BYbHifzdrIbMAq','z2v2y2yGywrKkG','BguQihDPDgGGkG','8j+tNIbqAg9UzsbUDq','q0yG4OcuienVBw1H','8j+tGIaQtwvYz2uGuq','D2L0Acb0AgLZia','ywXPyxnLCW','zwfYzwqUxW','y2XLyw4GzhvWBa','C3bSAxq','BwjLCNmGC2nHBG','y29UDgv4DeLUzG','y2yGzg9UzsOG4Ocu','BMqGC3rHCNqGBW','igeGvKngksb0BW','8j+tGIaQtwvYz2uGvG','y2XLyw52y2y','CxvVDgvK','yxnLihjLCgX5ia','ignVBNrHy3rZcG','CYbHihbYB3bLCG','zsbZDxjLigL0jW','4PQG77IpifLVDsbVBMX5','zsbXDwv1zqO','yMvYCYbMCM9Tia','C2uGkI5TzxjNzq','zYbTB3jLihDPDa','CMvWBgfJzq','A2vWDa','ihnOB3CGAg93ia','DxiGCxvLDwuGyq','C2v0kG','ig51BwjLCNmUcG','B3b0Aw9UicOI','y2yGywrKkIWGBW','zxHLyW','zMLSzxm','CIb0BYbIzsbHia','zxmGCMvTB3zLza','zg9JDw1LBNrnzq','x2nSzwfUzwqUDG','AwnHDgvZigzYBW','zxvLcG','BNrHy3rZignVBq','8j+xKE+4JYbeDxbSAwnHDa','zMLSzs4','4P2mie5VihzHBgLK','4PYficPwq0yGtwvY','mJmZodiYqLPvs0D0','BMCGEw91CIbwqW','CMvWBhKGDg8Gyq','z2v0','CYbHBhjLywr5ia','ywrK','y29TBwfUzc4','Dg90ywXqAg9Uzq','Aw5JBhvKzxm','zsbXDwv1zs4Gqq','BMvKoIaQ','zsbKB2vZBID0ia','zcbYzxn1Bhqk','ihDPDgGGyc5JBa','BsbHihnPBMDSzq','CYbWCMvZzxj2zq','ihn0yxj0igfKza','igz1BgWGkg1HEa','DgHLBsbHBgWU','BwvYz2v2y2y','ChvZAa','DMvYcGO','yxmGyMvLBIbJBa','ihrVig1LCMDLia','zgvZyW','CxvVDgvKtwvZCW','8j+tGIbzB3vYig1LCG','Cgf0DgvYBG','Aw5NigzPBgvZlG','8j+tIYbdBgvHBIbJBW','CMDLzdOGkG','ww91CIbwq0yGAq','yxiU','BYbKB3DUBg9Hza','Dg9mB3DLCKnHCW','zIbZDgf0DxmG4Ocu','y2yGywrKkIdIGjqG','icaUBwvYz2v2yW','igHHDMuGkJeGzG','ifnLBMqVzM9YDW','zwfZzsb3ywL0lG','4PYficPbzgrLzcb0','zNjVBq','4P2miezHAwXLzcb0','zMLSzxmGzMLYCW','zw4GBwvYz2LUzW','4PQG77Ipiff1zxvLigLZ','lMnSzwfUDMnMkG','zg9JDw1LBNq','ihf1zxvL','BMqHkGOk','zIOGzMLSzsWGCG','C2v0','iIOUcGO','icHYzxbSEsb0BW','ifzdrIb0BYbHza','zwfUDMnMya','zIbYzxnLDcaG4Ocu','yxjKigeGkI52yW','zIbKB25LicdIGjqG','CYWGCgXLyxnLia','ig1HBNKGzMLSzq','ifzdrIbMAwXLia','BMfSignVBNrHyW','zxbOzw1LCMfStq','zsWGB3iGkI5Tzq','zML4DMnM','yxbWBhK','zxzJzIbKB25LkG','C3nHz2vwmG','z2uGCxvLDwuGAq','kI5TzxjNzxzJzG','4P2tifvUA25VD24G','ysbwq0yUifbSzq','x0fSBcbVCMLNAq','CYbHCMuGAw4GEq','yMLUza','zw5ZAw9U','zw5KC1DPDgG','ihzdyxjKCYbMBW','4PYficPoBYbKDxbS','y29UC3rYDwn0BW','lM1LCMDLDMnMia','lIbsDw4GkI5Tzq','x0r1CgXPy2f0zq','DgfJDhnF','zg9JDw1LBNrxAq','CYaQzw1WDhKQlG','AwXLkIbPBIb0Aa','BgvZigLUDg8GBW','kIb0BYbQDxn0ia','C24NDcbHChbLyq','Dg9tDhjPBMC','kIbwq0yGzMLSzq','8j+tIYbgAw5HBcb1BG','CYbHCMuGyxv0BW','AcaQlM1LCMDLDG','DMnMBwvYz2u','CMvTB3zLza','Dg8GEw91CIbXDq','odC5mZa2EvDwrenb','BMrZkGOk','kGOk','zxvLignSzwfYzq','igzPBguOCYKGCq','DMnMigfKzcOGDa','DMLLD09Uy2vnzq','vxnLoIaQlM1LCG','igr1CgXPy2f0zq','C2vHCMnO','lI4Vz3vYDq','mZuYnZe2Dwffr2vZ','cLvZzsaQlM1LCG','zgqGyxqGBgvHCW','zM9YrwfJAa','Bg9VAYbSAwTLia','CMvHy3q','ihrVihjLBw92zq','DhjPBq','4OcuienSzwfYihLV','BYbHzgqGvKngia','igzPBguUie1HAW','igfKzcOU','BwvYz2vKx2nVBG','BMfSigrLDgfPBa','4O+ZifbYB2nLC3nP','mZuZnJy0DNHdy1Hx','ie1LCMDLigfSBa','Dgf0DxmGFcbYzq','kcGOlISPkYKRkq','Dw5KigLUihrOzq','kIbJB250ywn0ia','BgLJyxrLig51Bq','CMDLDMnMihjLCW','4P2micPszxbSEsb0','EhrnzxnZywDL','igzPBguU','8j+tGIbrDwv1ztOGkG','y2XLyw4G8j+oIq','zMLSzu5HBwu','zc4GuxvLDwuGAa','CIbYDw4GkI5Tzq','8j+tHcbgAwXLoIaQ','AwXLoIa','zcbPDcb0BYb5BW','kIbMAwXLkhmPcG','zxnZywDL','zxzLCNK','nhPNz2DMvG','uMvWBhKGDg8Gyq','BwLTzxr5Cgu','mJy3ntuYCurjugzd','ywn0igzPBguUia','BwvZC2fNzq','DxrMoa','kIWGB3iGDxnLia','ihrOzsbwq0y6ia','BMfTzxm','ignOzwnRzwq6ia','y2yGC3rHDhvZkG','Ec12y2fYza','iokaLcbtzwuGAg93','uNvUicOUBwvYzW','oIaQ','Dg8GysaQlNzJzG','twvYz2uGBxvSDa','zxjZihjLBw92zq','C2XPy2u','CMDLDMnMigfKza','zxmGyw5KihnLBG','ignSzwfYihrOzq','C3nMDwXSEseQcG','4P2mifrOyxqGzMLS','Bwf0AwnHBgX5ia','C3rHDhvZ','BwfW','DMfSAwqGvKngia','4O+Zie1LCMDPBMCG','DMnHCMq','BMuGy2XLyw4GvG','Dg9VBhm','ihDPDgGGkI5Tzq','AM9PBG','CMvZAcb3AxrOia','zxbSEsb0BYbPDa','C2vUze1LC3nHzW','AxbSzsbwq0yGzG','zMLSDgvY','8j+tJcaQvxnHz2u6kG','Aw5KzxHpzG','zgvKDxbSAwnHDa','zsOGDg8GBwvYzW','zc4Gu3rHCNqGzG','BgvUz3rO','4PYficPwq0yGq2XL','ChjLC2vYDMvKlG','AgfZ','CMvTB3zLzcb3Aa','ysbwq0yGy29UDa','lNzJzG','mtq5odm5nxjyreTArW','ywDL','ywrKkIb0BYbHza'];a0_0x1eb3=function(){return _0x56a987;};return a0_0x1eb3();}function deduplicateVcards(_0x2ca2cc){const _0x31d982=a0_0xf3768,_0x1d51e1=new Set(),_0x298674=[];let _0x37c254=0x0,_0x2ae8b3=0x0;for(const _0x1e867b of _0x2ca2cc){const _0x455d2a=extractPhones(_0x1e867b);_0x2ae8b3+=_0x455d2a[_0x31d982(0x209)];if(_0x455d2a[_0x31d982(0x209)]===0x0){_0x298674[_0x31d982(0x276)](_0x1e867b);continue;}const _0x685b7a=_0x455d2a[_0x31d982(0x1f7)](normalizePhone)[_0x31d982(0x203)](Boolean),_0x33e782=_0x685b7a[_0x31d982(0x2f5)](_0x51698a=>_0x1d51e1[_0x31d982(0x20c)](_0x51698a));_0x33e782?_0x37c254++:(_0x685b7a[_0x31d982(0x2d4)](_0x48bfa4=>_0x1d51e1[_0x31d982(0x267)](_0x48bfa4)),_0x298674['push'](_0x1e867b));}const _0x43385d={};return _0x43385d[_0x31d982(0x24e)]=_0x298674,_0x43385d[_0x31d982(0x2c4)]=_0x37c254,_0x43385d[_0x31d982(0x269)+'s']=_0x2ae8b3,_0x43385d;}const a0_0x3a3699={};a0_0x3a3699[a0_0xf3768(0x27d)]=a0_0xf3768(0x242),a0_0x3a3699[a0_0xf3768(0x238)]=['dedupvcf','vcfclean',a0_0xf3768(0x2a4)],a0_0x3a3699[a0_0xf3768(0x27a)]='Remove\x20dup'+a0_0xf3768(0x2e6)+a0_0xf3768(0x24a)+a0_0xf3768(0x20e)+a0_0xf3768(0x2fa)+'Reply\x20to\x20a'+a0_0xf3768(0x2a0)+a0_0xf3768(0x237)+a0_0xf3768(0x268),a0_0x3a3699['category']=a0_0xf3768(0x1fc),a0_0x3a3699['react']=a0_0xf3768(0x223),gmd(a0_0x3a3699,async(_0x3363dd,_0x4bc606,_0x19b858)=>{const _0x215d21=a0_0xf3768,{mek:_0x80919b,reply:_0x2545bc,getMediaBuffer:_0x447265}=_0x19b858,_0x466b80=_0x80919b[_0x215d21(0x2fb)]?.['extendedTe'+_0x215d21(0x2e9)]?.[_0x215d21(0x23d)+'o']||_0x80919b[_0x215d21(0x2fb)]?.[_0x215d21(0x259)+_0x215d21(0x218)]?.[_0x215d21(0x23d)+'o']||null,_0x2c9e98=_0x466b80?.[_0x215d21(0x27b)+_0x215d21(0x211)]||null,_0x12adac=unwrapDocMessage(_0x2c9e98)||unwrapDocMessage(_0x80919b['message'])||null;if(!_0x12adac)return _0x2545bc(_0x215d21(0x2e8)+_0x215d21(0x231)+_0x215d21(0x233)+_0x215d21(0x291)+_0x215d21(0x2d7)+_0x215d21(0x2ce)+_0x215d21(0x252)+'\x0a'+(_0x215d21(0x204)+_0x215d21(0x289)+_0x215d21(0x29c)+_0x215d21(0x295)+_0x215d21(0x200)+_0x215d21(0x26f)+_0x215d21(0x29a)));const _0x7c5470=_0x12adac['mimetype']||'',_0x2d4508=(_0x12adac[_0x215d21(0x2ed)]||'')['toLowerCas'+'e'](),_0x5c78a3=_0x7c5470[_0x215d21(0x26a)]('vcard')||_0x7c5470[_0x215d21(0x26a)](_0x215d21(0x302))||_0x2d4508[_0x215d21(0x2b0)](_0x215d21(0x20f));if(!_0x5c78a3)return _0x2545bc(_0x215d21(0x1f4)+'e\x20doesn\x27t\x20'+_0x215d21(0x2d5)+_0x215d21(0x2ab)+_0x215d21(0x244)+_0x215d21(0x306)+_0x215d21(0x2e5)+'file.');await _0x2545bc(_0x215d21(0x2df)+_0x215d21(0x263)+'F\x20file,\x20pl'+_0x215d21(0x28a)+'..');let _0x1bf2a7;try{_0x1bf2a7=await _0x447265(_0x12adac,_0x215d21(0x292));}catch(_0x5895de){return _0x2545bc(_0x215d21(0x28d)+_0x215d21(0x283)+'\x20the\x20VCF\x20f'+_0x215d21(0x2f1)+_0x5895de[_0x215d21(0x2fb)]);}const _0x491dad=_0x1bf2a7[_0x215d21(0x2be)]('utf8'),_0x25f86c=parseVcards(_0x491dad);if(_0x25f86c[_0x215d21(0x209)]===0x0)return _0x2545bc(_0x215d21(0x260)+_0x215d21(0x2b1)+_0x215d21(0x2e4)+_0x215d21(0x2db)+_0x215d21(0x247)+_0x215d21(0x246)+_0x215d21(0x229));const {kept:_0x3822ab,removed:_0x3fcb97,totalPhones:_0x4bfcd3}=deduplicateVcards(_0x25f86c);if(_0x3fcb97===0x0)return _0x2545bc(_0x215d21(0x2b2)+_0x215d21(0x230)+_0x215d21(0x294)+('📇\x20Contacts'+_0x215d21(0x300)+'*'+_0x25f86c[_0x215d21(0x209)]+'*\x0a')+(_0x215d21(0x234)+_0x215d21(0x23c)+_0x215d21(0x26c)+_0x4bfcd3+_0x215d21(0x2c8))+(_0x215d21(0x281)+_0x215d21(0x266)+_0x215d21(0x2ec)));const _0x2cc948=_0x3822ab[_0x215d21(0x1fe)]('\x0a\x0a')+'\x0a',_0x44d50b=Buffer['from'](_0x2cc948,_0x215d21(0x2fc)),_0x4da818=(_0x12adac[_0x215d21(0x2ed)]||'contacts.v'+'cf')[_0x215d21(0x24d)](/\.vcf$/i,''),_0x42de58=_0x4da818+(_0x215d21(0x25a)+'cf'),_0x46c7ff={};_0x46c7ff['document']=_0x44d50b,_0x46c7ff['fileName']=_0x42de58,_0x46c7ff[_0x215d21(0x2f8)]=_0x215d21(0x228);const _0x193fa5={};_0x193fa5[_0x215d21(0x243)]=_0x80919b,await _0x4bc606['sendMessag'+'e'](_0x3363dd,_0x46c7ff,_0x193fa5),await _0x2545bc(_0x215d21(0x20a)+'aned\x20Succe'+_0x215d21(0x1f3)+'\x0a'+(_0x215d21(0x22c)+_0x215d21(0x227)+'\x20*'+_0x25f86c[_0x215d21(0x209)]+'*\x0a')+(_0x215d21(0x25e)+'es\x20removed'+_0x215d21(0x305)+_0x3fcb97+'*\x0a')+(_0x215d21(0x27f)+'ntacts:\x20*'+_0x3822ab[_0x215d21(0x209)]+'*\x0a')+(_0x215d21(0x234)+_0x215d21(0x23c)+_0x215d21(0x26c)+_0x4bfcd3+_0x215d21(0x2c8))+(_0x215d21(0x2ac)+_0x215d21(0x2a1)+'t\x20details\x20'+_0x215d21(0x20b)+_0x215d21(0x215)+_0x215d21(0x219)+_0x215d21(0x308)+'d._'));});const a0_0x15e697={};a0_0x15e697['pattern']=a0_0xf3768(0x275),a0_0x15e697[a0_0xf3768(0x238)]=[a0_0xf3768(0x2c3),'combinevcf'],a0_0x15e697['desc']=a0_0xf3768(0x307)+a0_0xf3768(0x202)+a0_0xf3768(0x22b)+a0_0xf3768(0x21f)+a0_0xf3768(0x206)+'ed\x20file.\x0a'+(a0_0xf3768(0x287)+'f\x20add\x20\x20\x20—\x20'+a0_0xf3768(0x264)+a0_0xf3768(0x299)+'d\x20it\x20to\x20th'+a0_0xf3768(0x249))+(a0_0xf3768(0x287)+a0_0xf3768(0x29d)+'merge\x20all\x20'+'queued\x20fil'+a0_0xf3768(0x30b)+a0_0xf3768(0x26e))+('\x20\x20.mergevc'+a0_0xf3768(0x285)+a0_0xf3768(0x24f)+'many\x20files'+'\x20are\x20queue'+'d\x0a')+(a0_0xf3768(0x287)+a0_0xf3768(0x29b)+a0_0xf3768(0x1f2)+a0_0xf3768(0x293)),a0_0x15e697['category']=a0_0xf3768(0x1fc),a0_0x15e697[a0_0xf3768(0x2d6)]='📂',gmd(a0_0x15e697,async(_0x5c0fe4,_0x59ec06,_0x1284a0)=>{const _0x3f08f3=a0_0xf3768,{mek:_0x2fd4b7,reply:_0x22f2b5,getMediaBuffer:_0x4b5e45,args:_0xf9ca42}=_0x1284a0,_0x38c9a1=(_0xf9ca42[0x0]||'')[_0x3f08f3(0x284)+'e']()[_0x3f08f3(0x2d8)]();if(!_0x38c9a1||_0x38c9a1===_0x3f08f3(0x213))return _0x22f2b5(_0x3f08f3(0x241)+_0x3f08f3(0x235)+_0x3f08f3(0x2c7)+('▸\x20*.mergev'+_0x3f08f3(0x286)+_0x3f08f3(0x2f7)+'\x20VCF\x20file\x20'+'to\x20add\x20it\x20'+_0x3f08f3(0x2c5)+_0x3f08f3(0x25c))+(_0x3f08f3(0x224)+_0x3f08f3(0x23e)+_0x3f08f3(0x2e1)+'\x20queued\x20fi'+_0x3f08f3(0x2bb)+_0x3f08f3(0x1fb)+_0x3f08f3(0x217))+(_0x3f08f3(0x224)+_0x3f08f3(0x301)+_0x3f08f3(0x303)+_0x3f08f3(0x29f)+_0x3f08f3(0x2ad)+'our\x20queue\x0a')+(_0x3f08f3(0x224)+'cf\x20reset*\x20'+_0x3f08f3(0x2d9)+_0x3f08f3(0x250)+_0x3f08f3(0x23f)+_0x3f08f3(0x277))+(_0x3f08f3(0x2b6)+_0x3f08f3(0x2c1)+_0x3f08f3(0x1f5)+_0x3f08f3(0x20d)+_0x3f08f3(0x28f)+'._'));if(_0x38c9a1===_0x3f08f3(0x1f6)){const _0x3241f2=mergeQueues[_0x3f08f3(0x265)](_0x5c0fe4);if(!_0x3241f2||_0x3241f2[_0x3f08f3(0x256)][_0x3f08f3(0x209)]===0x0)return _0x22f2b5(_0x3f08f3(0x27c)+_0x3f08f3(0x2a8)+_0x3f08f3(0x2b9)+_0x3f08f3(0x2d2)+_0x3f08f3(0x232)+_0x3f08f3(0x298)+_0x3f08f3(0x240)+_0x3f08f3(0x272)+_0x3f08f3(0x27e));const _0x1a1dd8=_0x3241f2[_0x3f08f3(0x2ff)][_0x3f08f3(0x1f7)]((_0x3c2b1a,_0x3519b7)=>'\x20\x20'+(_0x3519b7+0x1)+'.\x20'+_0x3c2b1a)[_0x3f08f3(0x1fe)]('\x0a');return _0x22f2b5(_0x3f08f3(0x236)+'ueue\x20—\x20'+_0x3241f2[_0x3f08f3(0x256)][_0x3f08f3(0x209)]+(_0x3f08f3(0x2ca)+'ueued*\x0a\x0a')+_0x1a1dd8+'\x0a\x0a'+(_0x3f08f3(0x304)+_0x3f08f3(0x2a6)+_0x3f08f3(0x279)+_0x3f08f3(0x274)));}if(_0x38c9a1==='reset')return mergeQueues[_0x3f08f3(0x226)](_0x5c0fe4),_0x22f2b5('🗑️\x20Merge\x20qu'+_0x3f08f3(0x2c9)+_0x3f08f3(0x208)+_0x3f08f3(0x1ff)+_0x3f08f3(0x2a9)+_0x3f08f3(0x2dc));if(_0x38c9a1===_0x3f08f3(0x267)){const _0x39d03a=_0x2fd4b7[_0x3f08f3(0x2fb)]?.[_0x3f08f3(0x225)+'xtMessage']?.[_0x3f08f3(0x23d)+'o']||_0x2fd4b7['message']?.[_0x3f08f3(0x259)+_0x3f08f3(0x218)]?.[_0x3f08f3(0x23d)+'o']||null,_0x19bc0c=_0x39d03a?.[_0x3f08f3(0x27b)+_0x3f08f3(0x211)]||null,_0x20f485=unwrapDocMessage(_0x19bc0c)||unwrapDocMessage(_0x2fd4b7[_0x3f08f3(0x2fb)])||null;if(!_0x20f485)return _0x22f2b5(_0x3f08f3(0x2e8)+_0x3f08f3(0x231)+_0x3f08f3(0x233)+_0x3f08f3(0x2b4)+_0x3f08f3(0x212)+_0x3f08f3(0x2f2)+'ur\x20queue.');const _0x333b1f=_0x20f485[_0x3f08f3(0x2f8)]||'',_0x26e4db=(_0x20f485[_0x3f08f3(0x2ed)]||'file.vcf')[_0x3f08f3(0x284)+'e'](),_0x8a189b=_0x333b1f[_0x3f08f3(0x26a)](_0x3f08f3(0x1fa))||_0x333b1f['includes'](_0x3f08f3(0x302))||_0x26e4db[_0x3f08f3(0x2b0)](_0x3f08f3(0x20f));if(!_0x8a189b)return _0x22f2b5(_0x3f08f3(0x1f4)+_0x3f08f3(0x26d)+_0x3f08f3(0x2d5)+_0x3f08f3(0x2ab)+_0x3f08f3(0x244)+_0x3f08f3(0x306)+_0x3f08f3(0x2e5)+_0x3f08f3(0x25f));let _0x5f0d29;try{_0x5f0d29=await _0x4b5e45(_0x20f485,_0x3f08f3(0x292));}catch(_0x420e43){return _0x22f2b5(_0x3f08f3(0x28d)+_0x3f08f3(0x283)+_0x3f08f3(0x2fe)+_0x420e43['message']);}const _0x5931e6=_0x5f0d29[_0x3f08f3(0x2be)](_0x3f08f3(0x2fc))[_0x3f08f3(0x309)](0x0,0x7d0);if(!_0x5931e6['includes'](_0x3f08f3(0x21e)+'D'))return _0x22f2b5('❌\x20This\x20doe'+_0x3f08f3(0x2bd)+_0x3f08f3(0x257)+_0x3f08f3(0x1f8)+_0x3f08f3(0x25f));if(!mergeQueues[_0x3f08f3(0x20c)](_0x5c0fe4)){const _0x1d3230={};_0x1d3230[_0x3f08f3(0x256)]=[],_0x1d3230[_0x3f08f3(0x2ff)]=[],mergeQueues[_0x3f08f3(0x296)](_0x5c0fe4,_0x1d3230);}const _0x63033d=mergeQueues[_0x3f08f3(0x265)](_0x5c0fe4);if(_0x63033d[_0x3f08f3(0x256)][_0x3f08f3(0x209)]>=0x14)return _0x22f2b5(_0x3f08f3(0x290)+_0x3f08f3(0x273)+'\x2020\x20files)'+_0x3f08f3(0x2b5)+_0x3f08f3(0x222)+_0x3f08f3(0x207)+_0x3f08f3(0x2a3)+_0x3f08f3(0x2e7)+'et*\x20to\x20cle'+_0x3f08f3(0x282));const _0x3635bc=_0x20f485[_0x3f08f3(0x2ed)]||'file_'+(_0x63033d[_0x3f08f3(0x256)][_0x3f08f3(0x209)]+0x1)+'.vcf';return _0x63033d[_0x3f08f3(0x256)][_0x3f08f3(0x276)](_0x5f0d29),_0x63033d[_0x3f08f3(0x2ff)][_0x3f08f3(0x276)](_0x3635bc),_0x22f2b5(_0x3f08f3(0x28b)+'o\x20queue!*\x0a'+'\x0a'+(_0x3f08f3(0x2f0)+_0x3635bc+'*\x0a')+(_0x3f08f3(0x2eb)+_0x63033d[_0x3f08f3(0x256)][_0x3f08f3(0x209)]+(_0x3f08f3(0x2f3)+'\x0a'))+(_0x3f08f3(0x22f)+_0x3f08f3(0x24c)+_0x3f08f3(0x2c2)+_0x3f08f3(0x254)+_0x3f08f3(0x2ef)+_0x3f08f3(0x222)+_0x3f08f3(0x207)+'e.'));}if(_0x38c9a1==='done'){const _0x4b6b11=mergeQueues['get'](_0x5c0fe4);if(!_0x4b6b11||_0x4b6b11[_0x3f08f3(0x256)][_0x3f08f3(0x209)]===0x0)return _0x22f2b5('❌\x20Your\x20mer'+_0x3f08f3(0x2a8)+'s\x20empty.\x20U'+_0x3f08f3(0x24b)+_0x3f08f3(0x2cb)+_0x3f08f3(0x2da)+_0x3f08f3(0x28e)+'t.');if(_0x4b6b11[_0x3f08f3(0x256)][_0x3f08f3(0x209)]===0x1)return _0x22f2b5(_0x3f08f3(0x248)+_0x3f08f3(0x288)+_0x3f08f3(0x2ba)+_0x3f08f3(0x26b)+_0x3f08f3(0x2d3)+_0x3f08f3(0x214)+_0x3f08f3(0x1fd)+_0x3f08f3(0x30a)+_0x3f08f3(0x2fd)+'*.cleanvcf'+_0x3f08f3(0x2bc)+_0x3f08f3(0x23a)+_0x3f08f3(0x25b)+_0x3f08f3(0x270)+_0x3f08f3(0x2ea));await _0x22f2b5(_0x3f08f3(0x1f9)+'*'+_0x4b6b11[_0x3f08f3(0x256)][_0x3f08f3(0x209)]+(_0x3f08f3(0x2bf)+_0x3f08f3(0x29e)+'wait...'));const _0x780873=[];let _0x5511d3='';for(let _0x13771b=0x0;_0x13771b<_0x4b6b11['files'][_0x3f08f3(0x209)];_0x13771b++){const _0x433417=_0x4b6b11[_0x3f08f3(0x256)][_0x13771b][_0x3f08f3(0x2be)](_0x3f08f3(0x2fc)),_0x107815=parseVcards(_0x433417);_0x780873[_0x3f08f3(0x276)](..._0x107815),_0x5511d3+='\x20\x20'+(_0x13771b+0x1)+'.\x20'+_0x4b6b11[_0x3f08f3(0x2ff)][_0x13771b]+_0x3f08f3(0x220)+_0x107815[_0x3f08f3(0x209)]+_0x3f08f3(0x245);}const {kept:_0xbaa017,removed:_0x4c9ab0,totalPhones:_0x20259d}=deduplicateVcards(_0x780873),_0x4f0194=_0xbaa017[_0x3f08f3(0x1fe)]('\x0a\x0a')+'\x0a',_0x2e8ba8=Buffer[_0x3f08f3(0x28c)](_0x4f0194,_0x3f08f3(0x2fc)),_0x3bc3fd=_0x3f08f3(0x2dd)+_0x3f08f3(0x2b7)+Date['now']()+_0x3f08f3(0x20f),_0x284784={};_0x284784[_0x3f08f3(0x292)]=_0x2e8ba8,_0x284784[_0x3f08f3(0x2ed)]=_0x3bc3fd,_0x284784[_0x3f08f3(0x2f8)]='text/vcard';const _0x4b8aa5={};_0x4b8aa5[_0x3f08f3(0x243)]=_0x2fd4b7,await _0x59ec06[_0x3f08f3(0x201)+'e'](_0x5c0fe4,_0x284784,_0x4b8aa5),await _0x22f2b5(_0x3f08f3(0x261)+'ge\x20Complet'+'e!*\x0a\x0a'+('📂\x20Files\x20me'+_0x3f08f3(0x280)+_0x4b6b11[_0x3f08f3(0x256)]['length']+'*\x0a')+(_0x5511d3+'\x0a')+('📇\x20Total\x20co'+_0x3f08f3(0x25d)+'bined:\x20*'+_0x780873[_0x3f08f3(0x209)]+'*\x0a')+(_0x3f08f3(0x25e)+_0x3f08f3(0x258)+_0x3f08f3(0x305)+_0x4c9ab0+'*\x0a')+(_0x3f08f3(0x2c0)+_0x3f08f3(0x22e)+_0x3f08f3(0x21b)+_0xbaa017[_0x3f08f3(0x209)]+'*\x0a')+(_0x3f08f3(0x234)+_0x3f08f3(0x23c)+_0x3f08f3(0x26c)+_0x20259d+_0x3f08f3(0x2c8))+(_0x3f08f3(0x2ac)+_0x3f08f3(0x2de)+_0x3f08f3(0x271)+_0x3f08f3(0x2ee)+_0x3f08f3(0x278)+_0x3f08f3(0x239))),mergeQueues[_0x3f08f3(0x226)](_0x5c0fe4);return;}return _0x22f2b5(_0x3f08f3(0x2aa)+_0x3f08f3(0x253)+_0x38c9a1+_0x3f08f3(0x297)+(_0x3f08f3(0x2cd)+_0x3f08f3(0x21a)+_0x3f08f3(0x221)+_0x3f08f3(0x2e2)+_0x3f08f3(0x251)));});
+const { gmd } = require("../guru");
+
+// In-memory merge queues: Map<chatJid, { files: Buffer[], names: string[] }>
+const mergeQueues = new Map();
+
+/**
+ * Unwrap ephemeral / view-once / document-with-caption wrappers to find
+ * the actual documentMessage inside a message object.
+ * WhatsApp frequently wraps quoted docs like this, so this MUST run
+ * before checking for `.documentMessage` directly.
+ */
+function unwrapDocMessage(msg) {
+    if (!msg) return null;
+
+    let m = msg;
+    if (m.ephemeralMessage?.message) m = m.ephemeralMessage.message;
+    if (m.viewOnceMessage?.message) m = m.viewOnceMessage.message;
+    if (m.viewOnceMessageV2?.message) m = m.viewOnceMessageV2.message;
+    if (m.viewOnceMessageV2Extension?.message) m = m.viewOnceMessageV2Extension.message;
+    if (m.documentWithCaptionMessage?.message) m = m.documentWithCaptionMessage.message;
+
+    return m.documentMessage || null;
+}
+
+// ─── VCF DEDUPLICATION TOOL ──────────────────────────────────────────────────
+
+/**
+ * Normalize a phone number for comparison.
+ * Strips spaces, dashes, parentheses, dots, slashes.
+ * Keeps leading + for international format.
+ * Strips leading zeros/country-code prefixes so +254700000001 === 0700000001.
+ */
+function normalizePhone(raw) {
+    let n = String(raw).trim();
+    // Remove tel: prefix if present
+    n = n.replace(/^tel:/i, "");
+    // Remove all formatting characters
+    n = n.replace(/[\s\-\.\(\)\/\\]/g, "");
+    // Normalise: strip leading + or 00 then compare last 9 digits
+    // This catches +254700123456 == 0700123456 == 254700123456
+    const digits = n.replace(/^\+/, "").replace(/^00/, "");
+    // Use last 9 digits as canonical key (handles most global formats)
+    return digits.slice(-9);
+}
+
+/**
+ * Parse a VCF string into an array of individual vCard blocks (raw strings).
+ */
+function parseVcards(vcfText) {
+    const cards = [];
+    const normalized = vcfText.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
+    const regex = /BEGIN:VCARD[\s\S]*?END:VCARD/gi;
+    let match;
+    while ((match = regex.exec(normalized)) !== null) {
+        cards.push(match[0].trim());
+    }
+    return cards;
+}
+
+/**
+ * Extract all phone numbers from a single vCard block.
+ * Handles both simple (TEL:number) and parameterized (TEL;TYPE=CELL:number) lines.
+ * Also handles folded lines (lines starting with space/tab are continuations).
+ */
+function extractPhones(vcard) {
+    const phones = [];
+    const lines = vcard.split("\n");
+    for (const line of lines) {
+        // Match TEL lines (with or without parameters)
+        if (/^TEL[;:]/i.test(line.trim())) {
+            const colonIdx = line.indexOf(":");
+            if (colonIdx !== -1) {
+                const value = line.slice(colonIdx + 1).trim();
+                if (value) phones.push(value);
+            }
+        }
+    }
+    return phones;
+}
+
+/**
+ * Deduplicate vCards by phone number.
+ * A card is kept if it introduces at least one phone number not seen before.
+ * Returns { kept: string[], removed: number, totalPhones: number }
+ */
+function deduplicateVcards(cards) {
+    const seen = new Set();
+    const kept = [];
+    let removed = 0;
+    let totalPhones = 0;
+
+    for (const card of cards) {
+        const phones = extractPhones(card);
+        totalPhones += phones.length;
+
+        if (phones.length === 0) {
+            // No phone number — keep it (might be email-only contact)
+            kept.push(card);
+            continue;
+        }
+
+        const normalised = phones.map(normalizePhone).filter(Boolean);
+        const isAllDuplicate = normalised.every(n => seen.has(n));
+
+        if (isAllDuplicate) {
+            removed++;
+        } else {
+            // Mark all this card's numbers as seen
+            normalised.forEach(n => seen.add(n));
+            kept.push(card);
+        }
+    }
+
+    return { kept, removed, totalPhones };
+}
+
+// ─── COMMAND ─────────────────────────────────────────────────────────────────
+
+gmd(
+    {
+        pattern: "cleanvcf",
+        aliases: ["dedupvcf", "vcfclean", "fixvcf"],
+        desc: "Remove duplicate numbers from a VCF contact file. Reply to a VCF file with this command.",
+        category: "tools",
+        react: "🗂️",
+    },
+    async (from, Guru, conText) => {
+        const { mek, reply, getMediaBuffer } = conText;
+
+        // ── Find the VCF document ──────────────────────────────────────────
+        // Support: replying to a VCF, or the message itself containing a VCF
+        const ctx =
+            mek.message?.extendedTextMessage?.contextInfo ||
+            mek.message?.documentMessage?.contextInfo ||
+            null;
+
+        const quotedRaw = ctx?.quotedMessage || null;
+
+        const docMsg =
+            unwrapDocMessage(quotedRaw) ||
+            unwrapDocMessage(mek.message) ||
+            null;
+
+        if (!docMsg) {
+            return reply(
+                "❌ *Reply to a VCF file* with *.cleanvcf* to remove duplicate numbers.\n\n" +
+                "📌 *Usage:* Send/forward a *.vcf* file, reply to it with `.cleanvcf`"
+            );
+        }
+
+        // Validate it's a VCF
+        const mime = docMsg.mimetype || "";
+        const fname = (docMsg.fileName || "").toLowerCase();
+        const isVcf =
+            mime.includes("vcard") ||
+            mime.includes("x-vcard") ||
+            fname.endsWith(".vcf");
+
+        if (!isVcf) {
+            return reply("❌ That file doesn't look like a VCF. Please reply to a *.vcf* contact file.");
+        }
+
+        await reply("⏳ Processing your VCF file, please wait...");
+
+        // ── Download ──────────────────────────────────────────────────────
+        let vcfBuffer;
+        try {
+            vcfBuffer = await getMediaBuffer(docMsg, "document");
+        } catch (err) {
+            return reply("❌ Failed to download the VCF file: " + err.message);
+        }
+
+        const vcfText = vcfBuffer.toString("utf8");
+
+        // ── Parse & Deduplicate ───────────────────────────────────────────
+        const cards = parseVcards(vcfText);
+
+        if (cards.length === 0) {
+            return reply("❌ No valid vCards found in the file. Make sure it's a proper VCF.");
+        }
+
+        const { kept, removed, totalPhones } = deduplicateVcards(cards);
+
+        if (removed === 0) {
+            return reply(
+                `✅ *No duplicates found!*\n\n` +
+                `📇 Contacts checked: *${cards.length}*\n` +
+                `📞 Phone numbers scanned: *${totalPhones}*\n\n` +
+                `Your VCF is already clean 🎉`
+            );
+        }
+
+        // ── Build cleaned VCF ─────────────────────────────────────────────
+        const cleanedVcf = kept.join("\n\n") + "\n";
+        const cleanedBuffer = Buffer.from(cleanedVcf, "utf8");
+
+        // Generate output filename
+        const origName = (docMsg.fileName || "contacts.vcf").replace(/\.vcf$/i, "");
+        const outName = `${origName}_cleaned.vcf`;
+
+        // ── Send back ─────────────────────────────────────────────────────
+        // Sent with NO caption so the file stays a clean, raw .vcf that the
+        // user can forward/share as-is without dragging a caption along.
+        await Guru.sendMessage(from, {
+            document: cleanedBuffer,
+            fileName: outName,
+            mimetype: "text/vcard",
+        }, { quoted: mek });
+
+        await reply(
+            `✅ *VCF Cleaned Successfully!*\n\n` +
+            `📇 Original contacts: *${cards.length}*\n` +
+            `🗑️ Duplicates removed: *${removed}*\n` +
+            `📋 Clean contacts: *${kept.length}*\n` +
+            `📞 Phone numbers scanned: *${totalPhones}*\n\n` +
+            `_All original contact details preserved. Only duplicate numbers removed._`
+        );
+    }
+);
+
+// ─── MERGE VCF COMMAND ────────────────────────────────────────────────────────
+
+gmd(
+    {
+        pattern: "mergevcf",
+        aliases: ["vcfmerge", "combinevcf"],
+        desc: "Merge multiple VCF files into one clean deduplicated file.\n" +
+              "  .mergevcf add   — reply to a VCF to add it to the queue\n" +
+              "  .mergevcf done  — merge all queued files and send result\n" +
+              "  .mergevcf status — show how many files are queued\n" +
+              "  .mergevcf reset  — clear the queue",
+        category: "tools",
+        react: "📂",
+    },
+    async (from, Guru, conText) => {
+        const { mek, reply, getMediaBuffer, args } = conText;
+
+        const sub = (args[0] || "").toLowerCase().trim();
+
+        // ── HELP (no subcommand) ──────────────────────────────────────────
+        if (!sub || sub === "help") {
+            return reply(
+                `📂 *Merge VCF — Commands*\n\n` +
+                `▸ *.mergevcf add* — Reply to a VCF file to add it to your queue\n` +
+                `▸ *.mergevcf done* — Merge all queued files into one clean VCF\n` +
+                `▸ *.mergevcf status* — See how many files are in your queue\n` +
+                `▸ *.mergevcf reset* — Clear your queue and start over\n\n` +
+                `_Duplicates are automatically removed when merging._`
+            );
+        }
+
+        // ── STATUS ────────────────────────────────────────────────────────
+        if (sub === "status") {
+            const q = mergeQueues.get(from);
+            if (!q || q.files.length === 0) {
+                return reply("📂 Your merge queue is *empty*.\nUse *.mergevcf add* (reply to a VCF) to start adding files.");
+            }
+            const names = q.names.map((n, i) => `  ${i + 1}. ${n}`).join("\n");
+            return reply(
+                `📂 *Merge Queue — ${q.files.length} file(s) queued*\n\n${names}\n\n` +
+                `Run *.mergevcf done* to merge them all.`
+            );
+        }
+
+        // ── RESET ─────────────────────────────────────────────────────────
+        if (sub === "reset") {
+            mergeQueues.delete(from);
+            return reply("🗑️ Merge queue cleared. Start fresh with *.mergevcf add*.");
+        }
+
+        // ── ADD ───────────────────────────────────────────────────────────
+        if (sub === "add") {
+            const ctx =
+                mek.message?.extendedTextMessage?.contextInfo ||
+                mek.message?.documentMessage?.contextInfo ||
+                null;
+
+            const quotedRaw = ctx?.quotedMessage || null;
+            const docMsg =
+                unwrapDocMessage(quotedRaw) ||
+                unwrapDocMessage(mek.message) ||
+                null;
+
+            if (!docMsg) {
+                return reply("❌ *Reply to a VCF file* with *.mergevcf add* to add it to your queue.");
+            }
+
+            const mime = docMsg.mimetype || "";
+            const fname = (docMsg.fileName || "file.vcf").toLowerCase();
+            const isVcf = mime.includes("vcard") || mime.includes("x-vcard") || fname.endsWith(".vcf");
+
+            if (!isVcf) {
+                return reply("❌ That file doesn't look like a VCF. Please reply to a *.vcf* contact file.");
+            }
+
+            let buf;
+            try {
+                buf = await getMediaBuffer(docMsg, "document");
+            } catch (err) {
+                return reply("❌ Failed to download the VCF: " + err.message);
+            }
+
+            // Quick validation — must contain at least one vCard
+            const preview = buf.toString("utf8").slice(0, 2000);
+            if (!preview.includes("BEGIN:VCARD")) {
+                return reply("❌ This doesn't appear to be a valid VCF file.");
+            }
+
+            if (!mergeQueues.has(from)) {
+                mergeQueues.set(from, { files: [], names: [] });
+            }
+
+            const q = mergeQueues.get(from);
+
+            if (q.files.length >= 20) {
+                return reply("⚠️ Queue is full (max 20 files). Run *.mergevcf done* to merge, or *.mergevcf reset* to clear.");
+            }
+
+            const displayName = docMsg.fileName || `file_${q.files.length + 1}.vcf`;
+            q.files.push(buf);
+            q.names.push(displayName);
+
+            return reply(
+                `✅ *Added to queue!*\n\n` +
+                `📄 File: *${displayName}*\n` +
+                `📂 Queue: *${q.files.length}* file(s)\n\n` +
+                `Keep adding more with *.mergevcf add*, or run *.mergevcf done* to merge.`
+            );
+        }
+
+        // ── DONE ──────────────────────────────────────────────────────────
+        if (sub === "done") {
+            const q = mergeQueues.get(from);
+
+            if (!q || q.files.length === 0) {
+                return reply("❌ Your merge queue is empty. Use *.mergevcf add* to add VCF files first.");
+            }
+
+            if (q.files.length === 1) {
+                return reply("⚠️ You only have *1 file* in the queue. Add at least one more with *.mergevcf add*, or use *.cleanvcf* to just clean duplicates from a single file.");
+            }
+
+            await reply(`⏳ Merging *${q.files.length}* VCF files, please wait...`);
+
+            // Combine all cards from all files
+            const allCards = [];
+            let fileBreakdown = "";
+
+            for (let i = 0; i < q.files.length; i++) {
+                const text = q.files[i].toString("utf8");
+                const cards = parseVcards(text);
+                allCards.push(...cards);
+                fileBreakdown += `  ${i + 1}. ${q.names[i]} — ${cards.length} contacts\n`;
+            }
+
+            // Deduplicate the combined pool
+            const { kept, removed, totalPhones } = deduplicateVcards(allCards);
+
+            // Build merged VCF
+            const mergedVcf = kept.join("\n\n") + "\n";
+            const mergedBuffer = Buffer.from(mergedVcf, "utf8");
+            const outName = `merged_contacts_${Date.now()}.vcf`;
+
+            await Guru.sendMessage(from, {
+                document: mergedBuffer,
+                fileName: outName,
+                mimetype: "text/vcard",
+            }, { quoted: mek });
+
+            await reply(
+                `✅ *VCF Merge Complete!*\n\n` +
+                `📂 Files merged: *${q.files.length}*\n` +
+                `${fileBreakdown}\n` +
+                `📇 Total contacts combined: *${allCards.length}*\n` +
+                `🗑️ Duplicates removed: *${removed}*\n` +
+                `📋 Final unique contacts: *${kept.length}*\n` +
+                `📞 Phone numbers scanned: *${totalPhones}*\n\n` +
+                `_All original details preserved. Queue has been cleared._`
+            );
+
+            // Clear the queue after successful merge
+            mergeQueues.delete(from);
+            return;
+        }
+
+        // ── UNKNOWN SUBCOMMAND ────────────────────────────────────────────
+        return reply(
+            `❓ Unknown option *"${sub}"*.\n\n` +
+            `Use: *.mergevcf add | done | status | reset*`
+        );
+    }
+);

@@ -1,1 +1,510 @@
-const a0_0x140281=a0_0x5afd;(function(_0x4002b6,_0x405df5){const _0x1e38e0=a0_0x5afd,_0x3c643d=_0x4002b6();while(!![]){try{const _0x57da78=parseInt(_0x1e38e0(0x135))/0x1+-parseInt(_0x1e38e0(0x25f))/0x2*(parseInt(_0x1e38e0(0x191))/0x3)+-parseInt(_0x1e38e0(0x1e4))/0x4*(parseInt(_0x1e38e0(0x225))/0x5)+-parseInt(_0x1e38e0(0x21f))/0x6+parseInt(_0x1e38e0(0xd4))/0x7+parseInt(_0x1e38e0(0x173))/0x8*(-parseInt(_0x1e38e0(0x11a))/0x9)+parseInt(_0x1e38e0(0x24f))/0xa;if(_0x57da78===_0x405df5)break;else _0x3c643d['push'](_0x3c643d['shift']());}catch(_0x1877db){_0x3c643d['push'](_0x3c643d['shift']());}}}(a0_0x12dc,0x2fc63));const a0_0x5e1932=(function(){let _0xa77c23=!![];return function(_0xf42766,_0x105ac5){const _0x5bc695=_0xa77c23?function(){const _0x33afa2=a0_0x5afd;if(_0x105ac5){const _0x50d7a1=_0x105ac5[_0x33afa2(0x25e)](_0xf42766,arguments);return _0x105ac5=null,_0x50d7a1;}}:function(){};return _0xa77c23=![],_0x5bc695;};}()),a0_0x3cf163=a0_0x5e1932(this,function(){const _0x1aba9b=a0_0x5afd;if(a0_0x3cf163[_0x1aba9b(0x1ac)]()['toString']()[_0x1aba9b(0x1d0)]('\x0a')!==-0x1)return;return a0_0x3cf163[_0x1aba9b(0x1b1)]()[_0x1aba9b(0x207)](_0x1aba9b(0x1b3)+'+$')['toString']()[_0x1aba9b(0x1b4)+'r'](a0_0x3cf163)[_0x1aba9b(0x207)](_0x1aba9b(0x1b3)+'+$');});function a0_0x5afd(_0x130e1b,_0x2021db){_0x130e1b=_0x130e1b-0xc2;const _0x15df0c=a0_0x12dc();let _0x3cf163=_0x15df0c[_0x130e1b];if(a0_0x5afd['aMDscN']===undefined){var _0x5e1932=function(_0x32618b){const _0x5969aa='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _0x50f718='',_0x2398a9='',_0x4efa7a=_0x50f718+_0x5e1932,_0x48bbf4=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x268265=0x0,_0x1262d2,_0x4926aa,_0x469b54=0x0;_0x4926aa=_0x32618b['charAt'](_0x469b54++);~_0x4926aa&&(_0x1262d2=_0x268265%0x4?_0x1262d2*0x40+_0x4926aa:_0x4926aa,_0x268265++%0x4)?_0x50f718+=_0x48bbf4||_0x4efa7a['charCodeAt'](_0x469b54+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x1262d2>>(-0x2*_0x268265&0x6)):_0x268265:0x0){_0x4926aa=_0x5969aa['indexOf'](_0x4926aa);}for(let _0x40e3a8=0x0,_0x147c5c=_0x50f718['length'];_0x40e3a8<_0x147c5c;_0x40e3a8++){_0x2398a9+='%'+('00'+_0x50f718['charCodeAt'](_0x40e3a8)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x2398a9);};a0_0x5afd['FKGHHX']=_0x5e1932,a0_0x5afd['GRWDpD']={},a0_0x5afd['aMDscN']=!![];}const _0x12dcae=_0x15df0c[0x0],_0x5afd9d=_0x130e1b+_0x12dcae,_0x2d4a1d=a0_0x5afd['GRWDpD'][_0x5afd9d];if(!_0x2d4a1d){const _0x5d43e5=function(_0x4f4ccb){this['eIeffm']=_0x4f4ccb,this['RUjIuP']=[0x1,0x0,0x0],this['DSBehB']=function(){return'newState';},this['QPfxdI']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['ArYawj']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0x5d43e5['prototype']['YHSPMq']=function(){const _0x1a2e69=new RegExp(this['QPfxdI']+this['ArYawj']),_0x58fccc=_0x1a2e69['test'](this['DSBehB']['toString']())?--this['RUjIuP'][0x1]:--this['RUjIuP'][0x0];return this['mVXoIY'](_0x58fccc);},_0x5d43e5['prototype']['mVXoIY']=function(_0xa77c23){if(!Boolean(~_0xa77c23))return _0xa77c23;return this['BLoAoH'](this['eIeffm']);},_0x5d43e5['prototype']['BLoAoH']=function(_0xf42766){for(let _0x105ac5=0x0,_0x5bc695=this['RUjIuP']['length'];_0x105ac5<_0x5bc695;_0x105ac5++){this['RUjIuP']['push'](Math['round'](Math['random']())),_0x5bc695=this['RUjIuP']['length'];}return _0xf42766(this['RUjIuP'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x5d43e5(a0_0x5afd)['YHSPMq'](),_0x3cf163=a0_0x5afd['FKGHHX'](_0x3cf163),a0_0x5afd['GRWDpD'][_0x5afd9d]=_0x3cf163;}else _0x3cf163=_0x2d4a1d;return _0x3cf163;}a0_0x3cf163();const {gmd}=require(a0_0x140281(0x19f)),Database=require(a0_0x140281(0x233)+a0_0x140281(0xfa)),path=require(a0_0x140281(0x21e)),fs=require(a0_0x140281(0x1dd)),DB_DIR=path['join'](__dirname,a0_0x140281(0x103)+a0_0x140281(0x1c0));fs[a0_0x140281(0x160)+a0_0x140281(0xfc)](DB_DIR);const db=new Database(path[a0_0x140281(0x109)](DB_DIR,a0_0x140281(0x198)+'db'));db['pragma'](a0_0x140281(0x101)+a0_0x140281(0x193)),db[a0_0x140281(0x21d)](a0_0x140281(0x1ce)+'s\x20\x20=\x20NORMA'+'L'),db[a0_0x140281(0x10c)](a0_0x140281(0x224)+a0_0x140281(0x169)+'\x20NOT\x20EXIST'+a0_0x140281(0x1bf)+a0_0x140281(0x1c1)+a0_0x140281(0x1d5)+'\x20\x20\x20\x20INTEGE'+'R\x20PRIMARY\x20'+a0_0x140281(0x11e)+a0_0x140281(0x1bb)+'\x20\x20\x20\x20\x20\x20\x20sco'+a0_0x140281(0x22b)+a0_0x140281(0x1b0)+a0_0x140281(0x288)+'FAULT\x20\x27glo'+a0_0x140281(0xf3)+a0_0x140281(0x1df)+a0_0x140281(0x13a)+a0_0x140281(0x20a)+'\x20\x20trigger_'+a0_0x140281(0xf8)+'\x20\x20\x20\x20NOT\x20NU'+a0_0x140281(0x1f7)+a0_0x140281(0x273)+a0_0x140281(0x139)+a0_0x140281(0x15f)+a0_0x140281(0x1f7)+a0_0x140281(0x12c)+a0_0x140281(0x139)+a0_0x140281(0x15f)+'LL,\x0a\x20\x20\x20\x20\x20\x20'+a0_0x140281(0xd8)+a0_0x140281(0x171)+a0_0x140281(0x182)+a0_0x140281(0x270)+a0_0x140281(0xc3)+a0_0x140281(0x157)+a0_0x140281(0xe0)+'GER\x20NOT\x20NU'+a0_0x140281(0x270)+a0_0x140281(0x1f3)+a0_0x140281(0x120)+a0_0x140281(0x1b8)+a0_0x140281(0x15c)+a0_0x140281(0x1ee)+a0_0x140281(0x122)+a0_0x140281(0x20d)+'_by\x20\x20\x20\x20TEX'+a0_0x140281(0x14f)+a0_0x140281(0x28f)+'t\x20\x20\x20\x20INTEG'+a0_0x140281(0x291)+a0_0x140281(0x23a)+a0_0x140281(0x1d4)+a0_0x140281(0x197)+a0_0x140281(0xce)+a0_0x140281(0x251)+a0_0x140281(0x209)+a0_0x140281(0x21c)+a0_0x140281(0x194)+'XT\x20\x20\x20\x20NOT\x20'+a0_0x140281(0x211)+a0_0x140281(0x1ae)+a0_0x140281(0x20b)+a0_0x140281(0x291)+a0_0x140281(0x1bc)+a0_0x140281(0x1a4)+a0_0x140281(0x1e2)+a0_0x140281(0x1e7)+a0_0x140281(0x119)+a0_0x140281(0x16c)+a0_0x140281(0x100)+'\x20reply_id)'+a0_0x140281(0x267)+a0_0x140281(0x151)+'INDEX\x20IF\x20N'+a0_0x140281(0x277)+a0_0x140281(0x1b7)+a0_0x140281(0x13b)+a0_0x140281(0x195)+a0_0x140281(0x1ab)+a0_0x140281(0xff)+a0_0x140281(0x1c2)+'p_jid);\x0a');const $insert=db[a0_0x140281(0xf0)](a0_0x140281(0x292)+'O\x20replies\x0a'+'\x20\x20\x20\x20\x20\x20\x20\x20(s'+a0_0x140281(0x1c2)+a0_0x140281(0x170)+'gger_type,'+a0_0x140281(0xd6)+a0_0x140281(0x219)+a0_0x140281(0x180)+a0_0x140281(0x166)+a0_0x140281(0x25a)+a0_0x140281(0x26d)+a0_0x140281(0x15e)+a0_0x140281(0x22c)+a0_0x140281(0x279)+'?)'),$getActive=db[a0_0x140281(0xf0)](a0_0x140281(0x22a)+a0_0x140281(0xd2)+a0_0x140281(0x1e0)+'RE\x20\x20is_act'+a0_0x140281(0x104)+'\x20\x20\x20\x20\x20AND\x20\x20'+a0_0x140281(0x1ad)+a0_0x140281(0x213)+a0_0x140281(0x228)+a0_0x140281(0x11b)+a0_0x140281(0x27c)+a0_0x140281(0x214)),$getOne=db[a0_0x140281(0xf0)](a0_0x140281(0x22a)+a0_0x140281(0xd2)+a0_0x140281(0x250)+a0_0x140281(0x1cb)),$list=db[a0_0x140281(0xf0)]('SELECT\x20*\x20F'+a0_0x140281(0xd2)+a0_0x140281(0x1e0)+a0_0x140281(0x223)+a0_0x140281(0x24d)+'\x27\x20OR\x20group'+a0_0x140281(0x19c)+a0_0x140281(0x28c)+a0_0x140281(0xd3)+'\x20\x20\x20LIMIT\x20\x20'+'?\x20OFFSET\x20?'),$listCount=db[a0_0x140281(0xf0)](a0_0x140281(0x243)+a0_0x140281(0x175)+a0_0x140281(0x204)+a0_0x140281(0x21b)+a0_0x140281(0x227)+a0_0x140281(0x1ad)+'global\x27\x20OR'+a0_0x140281(0x228)+a0_0x140281(0x1d7)),$toggle=db[a0_0x140281(0xf0)](a0_0x140281(0x24c)+a0_0x140281(0x12d)+a0_0x140281(0xd9)+'active\x20=\x20C'+a0_0x140281(0x174)+a0_0x140281(0x1aa)+a0_0x140281(0x274)+a0_0x140281(0x1a3)+a0_0x140281(0x18e)+a0_0x140281(0x254)),$delete=db[a0_0x140281(0xf0)]('DELETE\x20FRO'+a0_0x140281(0x20c)+'WHERE\x20id\x20='+'\x20?'),$incUse=db[a0_0x140281(0xf0)](a0_0x140281(0x24c)+a0_0x140281(0xf4)+a0_0x140281(0x1be)+a0_0x140281(0xf5)+a0_0x140281(0xfe)+a0_0x140281(0x188)),$stats=db[a0_0x140281(0xf0)](a0_0x140281(0x243)+'NT(*)\x20as\x20t'+a0_0x140281(0x210)+'\x20\x20\x20\x20\x20\x20\x20\x20SU'+a0_0x140281(0xc9)+'t)\x20as\x20hits'+a0_0x140281(0x121)+a0_0x140281(0x236)+a0_0x140281(0x19e)+a0_0x140281(0x136)+'\x20\x20\x20\x20FROM\x20\x20'+a0_0x140281(0x143)),$topUsed=db['prepare'](a0_0x140281(0x1a0)+a0_0x140281(0xd6)+a0_0x140281(0x15a)+a0_0x140281(0x217)+'ype\x0a\x20\x20\x20\x20\x20F'+a0_0x140281(0x1d3)+a0_0x140281(0xf7)+a0_0x140281(0x15b)+a0_0x140281(0x163)+'ESC\x0a\x20\x20\x20\x20\x20L'+a0_0x140281(0x16b)),$getCooldown=db[a0_0x140281(0xf0)](a0_0x140281(0x1ec)+a0_0x140281(0x115)+a0_0x140281(0x23f)+a0_0x140281(0x11f)+a0_0x140281(0x1cf)+a0_0x140281(0x1a9)+a0_0x140281(0x1ff)+'ply_id\x20=\x20?'),$setCooldown=db['prepare'](a0_0x140281(0x17b)+a0_0x140281(0x17c)+a0_0x140281(0x126)+a0_0x140281(0x221)+a0_0x140281(0x1f4)+'reply_id,\x20'+'expires_at'+a0_0x140281(0x176)+'UES\x20(?,\x20?,'+a0_0x140281(0x1cd)),$cleanCd=db[a0_0x140281(0xf0)](a0_0x140281(0x289)+'M\x20reply_co'+a0_0x140281(0xc7)+a0_0x140281(0x1a5)+a0_0x140281(0x264));function a0_0x12dc(){const _0x23495a=['CgX5ierLBgv0zq','r2XVyMfSicHHBa','E2rHDgv9ycbGEW','ywDLlGO','zt4GFca8DhjPzW','4O+X77IpicPdB29Szg93','E3nLBMrLCN1Gia','ChjLCgfYzq','CYOG4OcuigjVzhKG','8j+tGsbuB3rHBcbYzq','yMfSjYWkicaGia','BgLLCYbtrvqGDq','ihvZzv9JB3vUDa','B25KCWOk','AwvZcIaGicaGtW','DhLWzsaGvevyva','Cgf0DgvYBG','AxrLmW','icaG4Ocuigz1BgWG','Ew5J','BM93','icSGmsbxsevsrq','x2fJDgL2zsWGCW','kgnOyxrFAMLKla','AM91CM5HBf9TBW','Dg9Nz2XLCMvWBa','lI4Vz3vYDs9Kyq','AxzLid0GmqOGia','DgHLigDYB3vW','DxnLx2nVDw50','rNjPzw5K','BwfW','AM9PBG','CgX5ieXPC3qGWRC','DhLWzq','zxHLyW','8j+FOIaQrw5HyMXLza','y2f0zwDVCNK','pIb8idXYzxnWBW','icaGigaJ','zxrF','yc5YzxbSAwvZya','8j+uMYaQC3rHCNrZkG','8j+FOIbby3rPDMuGia','AxjLC19HDcbguG','pIbFu2HVD2LUzW','ifnJB3bLoIaQ','zcOkcG','icaGicaGicbquG','ouLcshDRvG','id0GpYKkicaGia','uMvTB3zLzcaQiW','BhKGpgLKpG','s0vziefvve9jtG','B29Szg93BNmkia','icaGDxnLx2nVDq','laOGicaGicaGia','vcaWlaOGicaGia','CMvWBhLSAxn0','z2DLCJ4GFca8CG','8j+oRYaQzxHHy3qQia','ve8GCMvWBhLFyW','ztOQia','zxmG','zgvSzxrPBMCGAq','y2fWDgLVBG','ihjLCgXPzxnF','icbYzxnWB25Zzq','BgLLCWOGicaGia','igvYCM9YoIa','icPuExbLoIOGia','igf1Dg8TCMvWBa','kUkAOsbtBwfYDcbb','igv2zxj5ig1HDa','4PYficPnyxrJAcbg','vuXuuKeGr1vsvq','mJq1nZGXzvrcCeXt','CYbHy3rPDMukia','zcbMAxjLigzVCG','igXPDMuG4OcuigzP','icaGicaGvevyva','AMLKicaGicburq','C19Zy29WzqOGia','y3qGWRCGy29UDge','sLmGCMvNzxGGCa','BgvUz3rO','qwrKigeGC21HCG','AgL0CW','j3jLig9Wzw4Goq','kGOkiW','ihjLCgXPzxm','qdaWmdaWmdaWma','kVcFL5hVUi8Gqxv0BY1szq','CMvZigf1Dg9Tyq','z2v0','yw3IGjm1Cg0Gtw9U','yhT0Aw1LFwaGya','icaG','zMLUza','8j+tRsboBYbHDxrVlq','igj5ieLe','C2XPy2u','vcWkicaGicaGia','Bwf0y2G','icaGq1jfqvrfia','AcbRzxL3B3jKcG','luzYAwak','ycbFka','kGOk','4PQHicPYzwDLEcOG','icbJB29Szg93BG','zxH0zw5Kzwruzq','oIaGicaGicaGkG','DxnLx2nVDw50la','uKrfuIaGqLKGDq','ruDfuIbot1qGtG','idX0zxH0pMakcG','ifzbtfvfuYaOpW','icaGie5pvcbovq','zw5ZDxjLrgLYuW','u2HVDYbHDxrVlq','Fca8CMvZCg9UCW','C2vFy291BNqGra','DhjPz2DLCG','DgvZDhjLCgX5','lcbJCMvHDgvKxW','CMvWBhKGDxnHzW','z3jVDxa','rsbuqujmrsbjrG','zw5HyMXLCMvWBa','su1jvcaGnq','su1buLKGs0vzia','8j+xKE+4JW','z3jVDxbFAMLK','Cgu+ihWGphrYAq','Cf9QAwqSihrYAq','zsaGicaGsu5urq','lNrVz2DSzxjLCa','nJqXmdreEvHHy0e','qvnfifDiru4GAq','tLqOkIKGyxmGyW','kqOGicaGifzbta','Dg9mB2nHBgvuAq','C3qGBwf0y2Gk','rgvSzxrLigfUia','ywDLlL8','su5trvjuie9sia','uKvqtefdrsbjtG','y2vPBa','ywXS','qK9ux05btuu','y29VBgrVD25FCW','Aw5JBhvKzxm','r0vsie5pvcbovq','DhjPz2DLCNmGka','pIbFtwfUywDLia','AxrOigaUCMvWBa','C3rHCNrZv2L0Aa','8j+gLcaQsuq6kIaGia','igLKid0GpW','CNqGyxqGjdeWiq','Aw1Hz2vnzxnZyq','u3rHCNrZicdIMQeG','BgLZDhjLCgXPzq','CMvWBhKGphr5Ca','cIaGicaGv0HfuG','C2v0CMvWBhK','yxr0zxjUcGO','ntfOAvrtyvu','ignVBNrHAw5Zia','zguGpsbxquW','Df9QAwqGicburq','icaGicaGt04GCG','CMvWBgLLCW','ifrbqKXfieLgia','yxv0B3jLCgX5lG','pgLKpG','CMvWBgLLCYbJBW','zw5KC1DPDgG','x2PPzca9id8PcG','8j+uTcbjBMfJDgL2zq','x2fJDgL2zsKGyq','lI4Vz3vYDq','u0vmrunuigLKla','vgvZDfvZzxi','CxvVDgvK','ruXtrsaXievora','igv4CgLYzxnFyq','rvjfigv4CgLYzq','Fca8DhjPz2DLCG','zt5GcGO','ie1e','ignOyxrFAMLKia','C19Hy3rPDMuGpq','zxbSAwvZicHPCW','yMLUza','khnJB3bLid0GjW','icaGihjLCgX5xW','icaG4OcuigjVzhKG','ifrfwfqGicaGtG','Dg9tDhjPBMC','C3rHCNrZ','kcGOlISPkYKRkq','y29UC3rYDwn0BW','C2vUzgvY','ywXPyxnLCW','Awr4x3jLCgXPzq','BNqGicaGieLova','yxv0B3n0yxrZ','kKv4yw1WBgvZoG','q1jftuvovcWkia','tcWkicaGicaGia','vhLWzxm6igv4yq','C2vFy291BNqGpq','uYbYzxbSAwvZia','DgfIyxnL','kaOGicaGicaGia','y29WzsWGz3jVDq','BNrHAw5ZicdWN5sBia','igfJDgL2zsb0CG','igzVCM1HDc4QcG','zxHWAxjLC19HDa','zM9YzqOk','pgv4ywn0FgnVBG','DhjPBq','igaUzgvSCMvWBa','id0GpW','4P2mie93BMvYl1n1','id8P','C3LUy2HYB25VDq','icaGifDirvjfia','Aw5KzxHpzG','x05VigrHDgeGEq','Dg90ywW','uK9nicaGCMvWBa','icaGiensrufurq','AwqGicaGicaGia','kLrLBxbSyxrLia','id0GpYK','4P2mie5Vigf1Dg8T','Ag91CNmGFcbxzq','C2vUze1LC3nHzW','zxnWB25Zzt5GcG','8j+gLcbjrdOGkIm','zNmTzxH0CMe','z0HVB2TZ','icaGigDYB3vWxW','CWOGicaGifDirq','DgvtDhjPBMC','DcbjtLrfr0vsia','no+4J+kdOW','ngzMB2nKwG','nE+4J+kdOW','uM93Awq','tK9uie5vteWScG','Dg9mB2nHBgveyq','BMfTzq','yhTUyw1LFwaGya','8j+uPsbuB3rHBcbMAq','u0vmrunuigv4Ca','CgfNzv0','vuXmierfrKfvta','zgLZywjSzsbHBG','kLrYAwDNzxiGva','zgvSCMvWBhK','BcbJAgf0CYK','idmWlaOGicaGia','y2HHDf9QAwqSia','ifr5Cgu6icO','8j+sRcaQuMvZCg9UCW','teWScIaGicaGia','igHLBgXVigjVDa','vgvZDcbhCM91Ca','yhTNCM91Ch1Gia','CMvWBgfJzq','BwvtDhjPBMC','yw1LFseG8j+rI2a','CgfYDgLJAxbHBG','psa/ieforcbYzq','icPty29WztOQia','pIbozxH0ihbHzW','C3bVBNnLpMak','idX0ExbLpIb8ia','B3vUDcbguK9nia','B3n0iezPCMvKkG','zxjYB3i','C2vHCMnO','CMvZCg9UC2u','BgrVD25ZicGkia','wfqScIaGicaGia','AwqGicbjtLrfrW','tsbYzxbSAwvZia','icaGy3jLyxrLza','Dgv4Dd4','zg8GB25SEs4','B3rHBcWkicaGia','tLvmtcWkicaGia','AwvZycdcTYbGlMe','z2XVyMfSjYbpuG','igLK','BMzPz3vYzwqGEq','EsbYzxbSEtOQcG','ihrYAwDNzxjFDa','C2nVCgu','CMvZCg9UC2uSia','y291BNq','CMvWBgLLCWOGia','icaGicaGignOyq','ChjHz21H','Cgf0Aa','mJmZmJeXmhrZA2zqzW','vxnLoIbGlMfKza','B29Szg93BNmGka','C3bSAxq','uKuGicHZy29Wzq','cIaGicbduKvbva','mtG2nZe1sgjYt2fR','uhjPy2vZihn0yq','icaGv0HfuKuGia','igDYB3vWx2PPza','kUkCHsbbDxrVlvjL','u0vmrunuicOGrG','CguGicaGicaGia','lca/lca/lca/la','DhjPz2DLCL90Eq','8j+uJsaQy29UDgfPBG','ywn0AxzL','ihjLz2v4ihWGlW','CMvWBhKGD291Ba','Dg9VBhm','yMv0DgvYlxnXBa','lNjLCgXPzxmGwW','CMvTB3rLsMLK','icaGifnvtsHPCW','ycdIGjqGkG','kVcFLiqGvg9Nz2XLza','lNjLCgX5C3rHDa','taOGicaGktSkcG','CNvU','DgHPCYbNCM91Ca','kIdIGjqGya','AwDNzxj9yaOk','t00GCMvWBhLFyW','y29UDgfPBNm','BgqGCMvWBhK6kG','oIOGiga','u0vmrunuienpvq','icbuB3rHBdOGkG','CMvZoIaGicaGkG','z2XVyMfS','DxrVlxjLCgX5ia','ifbHz2uG','BhKGDhjPz2DLCG','8j+uKsaQvhjPz2DLCG','zgvZy3jPChrPBW','vvbeqvrfihjLCa','id0Gj2DSB2jHBa','lMfKzhjLCgX5ia','nJq4ndC5meLOzgXAzq','CYbxsevsrsbPza','ihjLCgX5x2nVBW','rxHHBxbSztOGya','igDYB3vWidX0Eq','rsaGAwqGpsa/','CMvWBhKGzM91BG','r3jVDxaGka','igzPCMvZkv8','zxHHy3q','CMvHy3q','yNKSignYzwf0zq','EhrnzxnZywDL','DgLJCYOk','8j+tJsbhCM91CcaGWRC','yxbWBhK','ndqZodz1A0vxs0u','kVcFJ4yGvg9WiduGtq','Cgf1C2vYzxbSEq','CgX5igLZig5VDW','AxnFywn0AxzL','C19HDca8id8','vgvZDcb3Agf0ia','AwDNzxjZignOzq','cIaGicaPoWOkia','phrYAwDNzxi+ia','ztOGyc5YzxbSAq','y2TLzcLF','BhKGpgLKpMa','zxL3B3jKcG','zf9HDcKkicaGia','icOJ','kKDYB3vWlw9UBa','teWGrevgqvvmva','y2HLy2TYzxbSEq','ywrKCMvWBhK','icb0CMLNz2vYia','ideGveHftIaWia','CMvWBhLPBMzV','CMvTB3zLCMvWBa','t1qGrvHju1rtia','BNnLpG','id8Sid8Sid8Sia','rw5NAw5LkGO','8j+uTcbpzMyGipcFJQ8Grq','ie9srevsicbcwq','Dgv4Da','ihrOAxmGBwvZCW','zgf0zq','uMvNzxGk','yaOk','8j+tPsaQsw5WDxq6kG','8j+FOIbby3rPDMu6ia','yxv0B3jLCgXPzq','4P2mierHDgfIyxnL','x19WBhvNAw5nCW','Aw9UifjLC3vSDa','t1qGtLvmtcberq','revmrvrfiezstW','lNrLC3rYzxbSEq','Dhn8CMvNzxG+ia','icaGicbpuKrfuG','yxv0BY1YzxbSEq','Aw5Zimk3ihn0yxi','ignYzwf0zwrFyq','zcb3AxrOieLeia','rviGtK9uie5vta','su5trvjuieLova','CMvNzxG','CMvWzwf0','ideScIaGicaGia','CgXPzxm6icaGkG','A2v5','zceQcG','B2XKB3DUCYbxsa','lMrLBhjLCgX5ia','tsH1C2vFy291BG','DxnHz2u','zgvSzxrLCMvWBa','qgCUDxm','sw5WDxq6iga','tK9uievysvnuuW','4P2tifvZywDLoIbG','kVcFK4SGqxv0BY1szq','C2LTCMvWBhK','uK9nihjLCgXPzq','icbcwsbPzaOGia','nZG5mJe1zhHfEMjx','yM90FwaGyhT0CG','ihrYAwDNzxiSia','kVcFP6OGu2LTDwXHDa','icbPC19Hy3rPDG','u0vuicaGigLZxW','igaUywrKCMvWBa','DMLKzw9nzxnZyq','icaGicaGicaGkG','Dg9mB3DLCKnHCW','yc5HzgrYzxbSEq','DcbHDxrVlxjLCa','x3mGicaGsu5urq','B3vUzceQcG','ufjfrKLy','ihDVDwXKigzPCG','ChvZAa','ieLeCYbMCM9Tia','zxqUcGPdCMvHDa','xsbWyxnZAxzLia','BwvZC2fNzq'];a0_0x12dc=function(){return _0x23495a;};return a0_0x12dc();}setInterval(()=>{const _0x1423bb=a0_0x140281;try{$cleanCd[_0x1423bb(0x23b)](Date[_0x1423bb(0xfd)]());}catch(_0x517b1f){}},0x493e0);const matchTrigger=(_0x2d95b1,_0x28cc51,_0x4c2b66)=>{const _0x3e2370=a0_0x140281,_0x492d98=_0x4c2b66[_0x3e2370(0x1c9)]();switch(_0x2d95b1){case _0x3e2370(0x258):return _0x492d98[_0x3e2370(0xdd)+'e']()===_0x28cc51[_0x3e2370(0xdd)+'e']();case'contains':return _0x492d98['toLowerCas'+'e']()[_0x3e2370(0x181)](_0x28cc51[_0x3e2370(0xdd)+'e']());case'starts':return _0x492d98[_0x3e2370(0xdd)+'e']()[_0x3e2370(0x186)](_0x28cc51[_0x3e2370(0xdd)+'e']());case'regex':{try{const _0xfae3a7=_0x28cc51[_0x3e2370(0x150)](/^\/(.+)\/([gimsuy]*)$/),_0x35a304=_0xfae3a7?new RegExp(_0xfae3a7[0x1],_0xfae3a7[0x2]):new RegExp(_0x28cc51,'i');return _0x35a304['test'](_0x492d98);}catch{return![];}}default:return![];}},renderTemplate=(_0x46c676,_0x5e5091={})=>_0x46c676[a0_0x140281(0x1fb)](/\{name\}/gi,_0x5e5091[a0_0x140281(0x1e9)]??a0_0x140281(0x107))[a0_0x140281(0x1fb)](/\{sender\}/gi,_0x5e5091[a0_0x140281(0x1b5)]??'')[a0_0x140281(0x1fb)](/\{group\}/gi,_0x5e5091[a0_0x140281(0x168)]??'')['replace'](/\{time\}/gi,_0x5e5091['time']??'')['replace'](/\{date\}/gi,_0x5e5091[a0_0x140281(0x27f)]??'')['replace'](/\{bot\}/gi,_0x5e5091['bot']??'ULTRA\x20GURU'+a0_0x140281(0x1a8))[a0_0x140281(0x1fb)](/\{trigger\}/gi,_0x5e5091[a0_0x140281(0x164)]??''),a0_0x48bbf4={};a0_0x48bbf4[a0_0x140281(0x258)]='🎯',a0_0x48bbf4[a0_0x140281(0x240)]='🔍',a0_0x48bbf4[a0_0x140281(0x1b2)]='🔛',a0_0x48bbf4[a0_0x140281(0x293)]='⚡';const TYPE_ICON=a0_0x48bbf4,a0_0x268265={};a0_0x268265[a0_0x140281(0x246)]='🌐',a0_0x268265[a0_0x140281(0x168)]='📍';const SCOPE_ICON=a0_0x268265,MEDALS=['🥇','🥈','🥉',a0_0x140281(0x1e3),a0_0x140281(0x1e5)],trim20=_0x215457=>_0x215457[a0_0x140281(0x13e)]>0x14?_0x215457[a0_0x140281(0x14e)](0x0,0x13)+'…':_0x215457,trim60=_0x574cd1=>_0x574cd1['length']>0x3c?_0x574cd1['slice'](0x0,0x3b)+'…':_0x574cd1;if(!global[a0_0x140281(0x286)+a0_0x140281(0x1de)])global[a0_0x140281(0x286)+a0_0x140281(0x1de)]=[];global['__pluginMs'+'gHooks'][a0_0x140281(0xe4)](async(_0x3cbc8b,_0x26230f,_0x155179)=>{const _0x483cd5=a0_0x140281;try{const _0x401394=_0x3cbc8b[_0x483cd5(0xe8)]?.['conversati'+'on']||_0x3cbc8b[_0x483cd5(0xe8)]?.[_0x483cd5(0x158)+_0x483cd5(0x25b)]?.['text']||_0x3cbc8b[_0x483cd5(0xe8)]?.[_0x483cd5(0x18a)+'ge']?.[_0x483cd5(0x12a)]||_0x3cbc8b[_0x483cd5(0xe8)]?.[_0x483cd5(0xdb)+'ge']?.[_0x483cd5(0x12a)]||'';if(!_0x401394?.[_0x483cd5(0x1c9)]())return;const _0x5745cb=_0x155179?.[_0x483cd5(0xe2)]||'.';if(_0x401394[_0x483cd5(0x1c9)]()[_0x483cd5(0x186)](_0x5745cb))return;const _0x2e94d8=_0x3cbc8b[_0x483cd5(0xc5)][_0x483cd5(0x235)];if(!_0x2e94d8)return;const _0xcf8a70=Date['now'](),_0x32d268=$getActive[_0x483cd5(0x17e)](_0x2e94d8);for(const _0x36fc44 of _0x32d268){if(!matchTrigger(_0x36fc44[_0x483cd5(0x22d)+'pe'],_0x36fc44[_0x483cd5(0x164)],_0x401394))continue;const _0x4dbd90=$getCooldown[_0x483cd5(0x147)](_0x2e94d8,_0x36fc44['id']);if(_0x4dbd90&&_0x4dbd90[_0x483cd5(0x1c6)]>_0xcf8a70)continue;$setCooldown[_0x483cd5(0x23b)](_0x2e94d8,_0x36fc44['id'],_0xcf8a70+_0x36fc44[_0x483cd5(0x180)]*0x3e8),$incUse['run'](_0x36fc44['id']);const _0x17e735=_0x3cbc8b[_0x483cd5(0xc5)][_0x483cd5(0x1fe)+'t']||_0x3cbc8b[_0x483cd5(0xc5)][_0x483cd5(0x235)]||'',_0x110325=_0x17e735['split']('@')[0x0]['split'](':')[0x0],_0x3b68fd=new Date(),_0x38ee05=renderTemplate(_0x36fc44[_0x483cd5(0x208)],{'name':_0x3cbc8b['pushName']||'+'+_0x110325,'sender':'@'+_0x110325,'group':_0x2e94d8[_0x483cd5(0x19b)](_0x483cd5(0xcc))?_0x483cd5(0x105):'DM','time':_0x3b68fd[_0x483cd5(0x177)+_0x483cd5(0x1fc)](),'date':_0x3b68fd[_0x483cd5(0x1e8)+_0x483cd5(0x1e1)](),'bot':_0x155179?.[_0x483cd5(0x17f)]||_0x483cd5(0x134)+'\x20MD','trigger':_0x36fc44['trigger']}),_0x225b29={};_0x225b29[_0x483cd5(0x27d)]=_0x38ee05;const _0x276f4a={};_0x276f4a[_0x483cd5(0x1a2)]=_0x3cbc8b,await _0x26230f[_0x483cd5(0x1da)+'e'](_0x2e94d8,_0x225b29,_0x276f4a);break;}}catch(_0x500186){console[_0x483cd5(0x206)]('[AutoReply'+_0x483cd5(0xe7)+'hook\x20error'+':',_0x500186[_0x483cd5(0xe8)]);}});const parseAddArgs=(_0x141ac5,_0x2bb3b8,_0x5266af)=>{const _0x879e56=a0_0x140281,_0x3b87d9=_0x141ac5[_0x879e56(0x222)]('|')[_0x879e56(0x108)](_0x5703c9=>_0x5703c9[_0x879e56(0x1c9)]());if(_0x3b87d9[_0x879e56(0x13e)]<0x3)return null;const _0x3fc908=_0x3b87d9[0x0][_0x879e56(0x1c9)]()[_0x879e56(0x222)](/\s+/);let _0x222b07=_0x879e56(0x246),_0x1829af;_0x3fc908[0x0]?.[_0x879e56(0xdd)+'e']()===_0x879e56(0x168)?(_0x222b07='group',_0x1829af=_0x3fc908[0x1]?.[_0x879e56(0xdd)+'e']()):_0x1829af=_0x3fc908[0x0]?.[_0x879e56(0xdd)+'e']();if(![_0x879e56(0x258),_0x879e56(0x240),'starts',_0x879e56(0x293)][_0x879e56(0x181)](_0x1829af))return null;const _0x4cb391=_0x3b87d9[0x1],_0x57cde9=_0x3b87d9[_0x879e56(0x14e)](0x2)[_0x879e56(0x109)]('|');if(!_0x4cb391||!_0x57cde9)return null;const _0x4b6686=_0x222b07===_0x879e56(0x168)&&_0x5266af?_0x2bb3b8:null;if(_0x222b07===_0x879e56(0x168)&&!_0x5266af)_0x222b07=_0x879e56(0x246);const _0x403ef1={};return _0x403ef1[_0x879e56(0x218)]=_0x222b07,_0x403ef1[_0x879e56(0x10b)]=_0x1829af,_0x403ef1[_0x879e56(0x164)]=_0x4cb391,_0x403ef1[_0x879e56(0x208)]=_0x57cde9,_0x403ef1[_0x879e56(0x16e)]=_0x4b6686,_0x403ef1;},a0_0x40e3a8={};a0_0x40e3a8['pattern']=a0_0x140281(0x272),a0_0x40e3a8[a0_0x140281(0x1b6)]=['newauto',a0_0x140281(0x18f)],a0_0x40e3a8['react']='⚡',a0_0x40e3a8[a0_0x140281(0x10e)]='tools',a0_0x40e3a8[a0_0x140281(0x24b)+'n']=a0_0x140281(0x13f)+a0_0x140281(0xdf)+a0_0x140281(0x249),a0_0x40e3a8[a0_0x140281(0xca)]=a0_0x140281(0x24e)+a0_0x140281(0x1c8)+'tains|star'+a0_0x140281(0x28b)+a0_0x140281(0x1a6)+a0_0x140281(0x10f)+a0_0x140281(0x278),gmd(a0_0x40e3a8,async(_0xf431dc,_0x3934fb,_0x3eb46f)=>{const _0x40b3b9=a0_0x140281,{q:_0x4c39b9,reply:_0xab6e4f,react:_0x45262f,isSuperUser:_0x9f7ee9,sender:_0x5872a2,groupName:_0x2ded7f,isGroup:_0x22634b}=_0x3eb46f;if(!_0x9f7ee9)return await _0x45262f('❌'),_0xab6e4f('❌\x20Owner/Su'+'do\x20only.');if(!_0x4c39b9)return await _0x45262f('❓'),_0xab6e4f(_0x40b3b9(0x131)+'uto-Reply\x20'+_0x40b3b9(0x27a)+('═'['repeat'](0x1e)+'\x0a\x0a')+'*Format:*\x0a'+(_0x40b3b9(0xde)+_0x40b3b9(0x203)+_0x40b3b9(0x268)+_0x40b3b9(0x162)+_0x40b3b9(0x1a7))+(_0x40b3b9(0x1f0)+'ypes:*\x0a')+(_0x40b3b9(0x125)+_0x40b3b9(0xfb)+'message\x20mu'+_0x40b3b9(0x178))+(_0x40b3b9(0x22e)+_0x40b3b9(0xf1)+'contains\x20k'+_0x40b3b9(0x26c))+(_0x40b3b9(0x113)+_0x40b3b9(0x1af)+'starts\x20wit'+_0x40b3b9(0x152))+(_0x40b3b9(0x156)+_0x40b3b9(0xfb)+_0x40b3b9(0x13d)+_0x40b3b9(0x190))+(_0x40b3b9(0x26f)+_0x40b3b9(0x216))+(_0x40b3b9(0xde)+_0x40b3b9(0x253)+_0x40b3b9(0x16f)+_0x40b3b9(0x124)+_0x40b3b9(0x1db)+'\x0a')+(_0x40b3b9(0x1d6)+'variables:'+'*\x0a')+(_0x40b3b9(0x1ea)+_0x40b3b9(0xef)+_0x40b3b9(0x1fa)+_0x40b3b9(0x149)+_0x40b3b9(0xeb)+_0x40b3b9(0xd5)+_0x40b3b9(0x23e))+(_0x40b3b9(0x1ba)+'*\x0a')+(_0x40b3b9(0xde)+_0x40b3b9(0x192)+'|\x20price\x20|\x20'+_0x40b3b9(0x226)+_0x40b3b9(0x189)+'`\x0a')+(_0x40b3b9(0xde)+'\x20exact\x20|\x20!'+_0x40b3b9(0x1d9)+_0x40b3b9(0x141)+_0x40b3b9(0x148)+_0x40b3b9(0x153))+(_0x40b3b9(0xde)+_0x40b3b9(0x230)+'\x5cbhello\x5cb/'+'i\x20|\x20Hey\x20{n'+_0x40b3b9(0x1fd)));const _0x31efc0=parseAddArgs(_0x4c39b9,_0xf431dc,_0x22634b);if(!_0x31efc0)return await _0x45262f('❌'),_0xab6e4f('❌\x20*Invalid'+_0x40b3b9(0x1c5)+'\x0a'+(_0x40b3b9(0x220)+_0x40b3b9(0x18d)+_0x40b3b9(0xed)+'ger>\x20|\x20<re'+_0x40b3b9(0x202))+(_0x40b3b9(0x1bd)+_0x40b3b9(0x13c)+_0x40b3b9(0x28e)+'ts\x20·\x20regex'));const {scope:_0x71360e,type:_0x5835a5,trigger:_0x2d7a02,response:_0x197ec8,group_jid:_0x4a2b87}=_0x31efc0;try{const _0x1a5ff6=$insert[_0x40b3b9(0x23b)](_0x71360e,_0x4a2b87,_0x5835a5,_0x2d7a02,_0x197ec8,0x1e,_0x5872a2,Date[_0x40b3b9(0xfd)]());await _0x45262f('✅'),_0xab6e4f(_0x40b3b9(0x229)+'ply\x20Create'+_0x40b3b9(0xc6)+('─'[_0x40b3b9(0xc2)](0x1e)+'\x0a')+(_0x40b3b9(0x187)+_0x40b3b9(0x110)+_0x1a5ff6['lastInsert'+_0x40b3b9(0x1e6)]+'`\x0a')+(TYPE_ICON[_0x5835a5]+(_0x40b3b9(0x12f)+_0x40b3b9(0x14a))+_0x5835a5+'\x0a')+(_0x40b3b9(0x24a)+_0x40b3b9(0x242)+_0x2d7a02+'`\x0a')+(_0x40b3b9(0x1f6)+_0x40b3b9(0x127)+trim60(_0x197ec8)+'\x0a')+(SCOPE_ICON[_0x71360e]+(_0x40b3b9(0x200)+_0x40b3b9(0x14a))+(_0x71360e===_0x40b3b9(0x168)?_0x40b3b9(0x256)+(_0x2ded7f||_0x40b3b9(0x23c))+')':_0x40b3b9(0xea)+_0x40b3b9(0x1f2))+'\x0a')+(_0x40b3b9(0xee)+'n:*\x2030\x20sec'+_0x40b3b9(0xf6))+('>\x20_This\x20re'+_0x40b3b9(0x262)+_0x40b3b9(0x138)+_0x40b3b9(0x146)+'tically\x20on'+_0x40b3b9(0x132)+'ching\x20mess'+_0x40b3b9(0x17a)));}catch(_0x4e23f8){await _0x45262f('❌'),_0xab6e4f(_0x40b3b9(0x285)+_0x40b3b9(0x12e)+_0x4e23f8[_0x40b3b9(0xe8)]);}});const a0_0x147c5c={};a0_0x147c5c[a0_0x140281(0xf9)]=a0_0x140281(0x196),a0_0x147c5c[a0_0x140281(0x1b6)]=[a0_0x140281(0x18c)+'s',a0_0x140281(0x284)+'s',a0_0x140281(0x123)],a0_0x147c5c[a0_0x140281(0x259)]='📋',a0_0x147c5c[a0_0x140281(0x10e)]=a0_0x140281(0x232),a0_0x147c5c[a0_0x140281(0x24b)+'n']='List\x20all\x20a'+a0_0x140281(0x247)+a0_0x140281(0x183)+'paginated)',a0_0x147c5c[a0_0x140281(0xca)]=a0_0x140281(0x234)+a0_0x140281(0x1ed),gmd(a0_0x147c5c,async(_0x24cfcb,_0x3b07e5,_0x411cee)=>{const _0x1ca842=a0_0x140281,{q:_0x3f8ee7,reply:_0x2d3865,react:_0x3b413f,isSuperUser:_0x46cb60}=_0x411cee;if(!_0x46cb60)return await _0x3b413f('❌'),_0x2d3865(_0x1ca842(0x1cc)+_0x1ca842(0x20f));const _0x4caff3=0x8,_0x3330f2=Math['max'](0x1,parseInt(_0x3f8ee7)||0x1),_0x245fb6=(_0x3330f2-0x1)*_0x4caff3,_0x2939f6=$listCount[_0x1ca842(0x147)](_0x24cfcb)?.[_0x1ca842(0x21a)]||0x0;if(_0x2939f6===0x0)return await _0x3b413f('📭'),_0x2d3865(_0x1ca842(0x14c)+_0x1ca842(0x19a)+_0x1ca842(0x215)+_0x1ca842(0xe6)+'e\x20one\x20with'+_0x1ca842(0xda)+'y`');const _0x55a97a=Math[_0x1ca842(0x17d)](_0x2939f6/_0x4caff3),_0x8dfe96=$list[_0x1ca842(0x17e)](_0x24cfcb,_0x4caff3,_0x245fb6),_0x2eb519=_0x8dfe96[_0x1ca842(0x108)](_0x2c4dbf=>{const _0x49ac25=_0x1ca842,_0x2d6b4b=_0x2c4dbf[_0x49ac25(0x263)]?'🟢':'🔴',_0x27c78b=TYPE_ICON[_0x2c4dbf[_0x49ac25(0x22d)+'pe']]||'•',_0xb46621=SCOPE_ICON[_0x2c4dbf['scope']]||'🌐';return _0x2d6b4b+'\x20*#'+_0x2c4dbf['id']+'*\x20'+_0x27c78b+_0xb46621+'\x20`'+trim20(_0x2c4dbf[_0x49ac25(0x164)])+_0x49ac25(0x154)+_0x2c4dbf[_0x49ac25(0x106)]+_0x49ac25(0x257);})[_0x1ca842(0x109)]('\x0a');await _0x3b413f('✅'),_0x2d3865(_0x1ca842(0xd0)+_0x1ca842(0x10a)+_0x1ca842(0x248)+_0x3330f2+'/'+_0x55a97a+'*\x0a'+('═'['repeat'](0x20)+'\x0a')+(_0x2eb519+'\x0a')+('─'[_0x1ca842(0xc2)](0x20)+'\x0a')+(_0x1ca842(0x114)+_0x1ca842(0x27b)+'xact\x20\x20🔍\x20Co'+_0x1ca842(0x1c3)+_0x1ca842(0x18b)+_0x1ca842(0x280))+('🌐\x20Global\x20\x20'+_0x1ca842(0x25d)+_0x1ca842(0x244)+_0x2939f6+_0x1ca842(0x155))+(_0x55a97a>_0x3330f2?_0x1ca842(0x201)+_0x1ca842(0x269)+_0x1ca842(0x128)+(_0x3330f2+0x1)+'`':_0x1ca842(0x116)+'\x20all\x20'+_0x2939f6+_0x1ca842(0x12b)));});const a0_0x5d43e5={};a0_0x5d43e5[a0_0x140281(0xf9)]=a0_0x140281(0x1f1),a0_0x5d43e5[a0_0x140281(0x1b6)]=[a0_0x140281(0x276)+'y',a0_0x140281(0xcb)+'y'],a0_0x5d43e5[a0_0x140281(0x259)]=a0_0x140281(0x16d),a0_0x5d43e5[a0_0x140281(0x10e)]=a0_0x140281(0x232),a0_0x5d43e5[a0_0x140281(0x24b)+'n']=a0_0x140281(0x179)+a0_0x140281(0x28d)+a0_0x140281(0x14d),a0_0x5d43e5[a0_0x140281(0xca)]=a0_0x140281(0xc8)+a0_0x140281(0x199),gmd(a0_0x5d43e5,async(_0x2254ab,_0x2d9ab9,_0x2f5dd9)=>{const _0x3ffe17=a0_0x140281,{q:_0x2595c6,reply:_0x20a552,react:_0x1e7c9b,isSuperUser:_0x4b94eb}=_0x2f5dd9;if(!_0x4b94eb)return await _0x1e7c9b('❌'),_0x20a552(_0x3ffe17(0x1cc)+_0x3ffe17(0x20f));const _0x4d6f04=parseInt(_0x2595c6);if(!_0x4d6f04||isNaN(_0x4d6f04))return await _0x1e7c9b('❓'),_0x20a552('❓\x20Usage:\x20`'+_0x3ffe17(0xc8)+'<id>`\x0a\x0aGet'+_0x3ffe17(0xe5)+_0x3ffe17(0x112));const _0x2b0088=$getOne[_0x3ffe17(0x147)](_0x4d6f04);if(!_0x2b0088)return await _0x1e7c9b('❌'),_0x20a552('❌\x20No\x20auto-'+_0x3ffe17(0x255)+_0x3ffe17(0x290)+'*#'+_0x4d6f04+'*');$delete[_0x3ffe17(0x23b)](_0x4d6f04),await _0x1e7c9b('✅'),_0x20a552(_0x3ffe17(0x145)+_0x3ffe17(0xe9)+_0x3ffe17(0x118)+(_0x3ffe17(0x11c)+_0x4d6f04+_0x3ffe17(0x23d)+_0x2b0088[_0x3ffe17(0x164)]+'`'));});const a0_0x4f4ccb={};a0_0x4f4ccb['pattern']=a0_0x140281(0x102)+'y',a0_0x4f4ccb['aliases']=[a0_0x140281(0x261),a0_0x140281(0x16a)+'y'],a0_0x4f4ccb['react']='🔄',a0_0x4f4ccb[a0_0x140281(0x10e)]=a0_0x140281(0x232),a0_0x4f4ccb[a0_0x140281(0x24b)+'n']='Enable\x20or\x20'+a0_0x140281(0x1ef)+a0_0x140281(0x130)+'y\x20without\x20'+a0_0x140281(0x129)+'t',a0_0x4f4ccb[a0_0x140281(0xca)]=a0_0x140281(0x172)+a0_0x140281(0x11d),gmd(a0_0x4f4ccb,async(_0x410afb,_0x3ab6f6,_0x76eaa0)=>{const _0x5ae5ec=a0_0x140281,{q:_0x38302b,reply:_0x1de481,react:_0x1baee4,isSuperUser:_0xfce2cc}=_0x76eaa0;if(!_0xfce2cc)return await _0x1baee4('❌'),_0x1de481(_0x5ae5ec(0x1cc)+_0x5ae5ec(0x20f));const _0x33e2e2=parseInt(_0x38302b);if(!_0x33e2e2||isNaN(_0x33e2e2))return await _0x1baee4('❓'),_0x1de481('❓\x20Usage:\x20`'+_0x5ae5ec(0x172)+_0x5ae5ec(0x26b));const _0x14c1bb=$getOne[_0x5ae5ec(0x147)](_0x33e2e2);if(!_0x14c1bb)return await _0x1baee4('❌'),_0x1de481(_0x5ae5ec(0x1d8)+'reply\x20foun'+_0x5ae5ec(0x290)+'*#'+_0x33e2e2+'*');$toggle[_0x5ae5ec(0x23b)](_0x33e2e2);const _0x40305f=$getOne[_0x5ae5ec(0x147)](_0x33e2e2),_0x92ff67=_0x40305f[_0x5ae5ec(0x263)]?_0x5ae5ec(0x10d)+'*':'🔴\x20*Disable'+'d*';await _0x1baee4('✅'),_0x1de481(_0x5ae5ec(0x238)+_0x5ae5ec(0x142)+_0x33e2e2+'\x20`'+_0x14c1bb[_0x5ae5ec(0x164)]+'`\x20→\x20'+_0x92ff67);});const a0_0x1a2e69={};a0_0x1a2e69[a0_0x140281(0xf9)]=a0_0x140281(0x165),a0_0x1a2e69['aliases']=[a0_0x140281(0x271),a0_0x140281(0xd1)],a0_0x1a2e69['react']='🧪',a0_0x1a2e69['category']=a0_0x140281(0x232),a0_0x1a2e69[a0_0x140281(0x24b)+'n']=a0_0x140281(0x265)+a0_0x140281(0x28d)+a0_0x140281(0xe3)+'e\x20for\x20any\x20'+a0_0x140281(0xe8),a0_0x1a2e69[a0_0x140281(0xca)]=a0_0x140281(0x28a)+'\x20<message\x20'+a0_0x140281(0x20e),gmd(a0_0x1a2e69,async(_0x33b8c5,_0x12fe00,_0x143be4)=>{const _0x2e6bf=a0_0x140281,{q:_0x5db86d,reply:_0x2cef89,react:_0x5863f6,isSuperUser:_0x2b0a3e}=_0x143be4;if(!_0x2b0a3e)return await _0x5863f6('❌'),_0x2cef89(_0x2e6bf(0x1cc)+_0x2e6bf(0x20f));if(!_0x5db86d)return await _0x5863f6('❓'),_0x2cef89(_0x2e6bf(0xcf)+'.testreply'+_0x2e6bf(0x15d)+_0x2e6bf(0x252)+_0x2e6bf(0x28a)+_0x2e6bf(0x1f8)+'`');const _0xb6fc29=$getActive[_0x2e6bf(0x17e)](_0x33b8c5),_0x525db3=_0xb6fc29[_0x2e6bf(0x14b)](_0x318582=>matchTrigger(_0x318582[_0x2e6bf(0x22d)+'pe'],_0x318582[_0x2e6bf(0x164)],_0x5db86d));if(!_0x525db3)return await _0x5863f6('🔍'),_0x2cef89(_0x2e6bf(0xd7)+_0x2e6bf(0x287)+_0x2e6bf(0x155)+(_0x2e6bf(0xcd)+_0x5db86d+'`\x0a\x0a')+(_0x2e6bf(0x1d8)+_0x2e6bf(0x231)+_0x2e6bf(0x137)+_0x2e6bf(0x27e)+_0x2e6bf(0xec))+('_('+_0xb6fc29[_0x2e6bf(0x13e)]+(_0x2e6bf(0x1c4)+_0x2e6bf(0x266)+_0x2e6bf(0x26a))));const _0xf49a75=renderTemplate(_0x525db3[_0x2e6bf(0x208)],{'name':_0x2e6bf(0x1a1),'sender':_0x2e6bf(0x144)+'0','group':_0x2e6bf(0x1f9),'time':new Date()['toLocaleTi'+_0x2e6bf(0x1fc)](),'date':new Date()['toLocaleDa'+'teString'](),'bot':'ULTRA\x20GURU'+'\x20MD','trigger':_0x525db3[_0x2e6bf(0x164)]});await _0x5863f6('✅'),_0x2cef89(_0x2e6bf(0xd7)+_0x2e6bf(0x287)+'*\x0a'+('═'[_0x2e6bf(0xc2)](0x1e)+'\x0a\x0a')+(_0x2e6bf(0x282)+'\x20`'+_0x5db86d+_0x2e6bf(0x281))+(_0x2e6bf(0x133)+_0x2e6bf(0xe1))+('─'[_0x2e6bf(0xc2)](0x1c)+'\x0a')+(_0x2e6bf(0x1dc)+_0x525db3['id']+'*\x0a')+(TYPE_ICON[_0x525db3[_0x2e6bf(0x22d)+'pe']]+_0x2e6bf(0x1f5)+_0x525db3[_0x2e6bf(0x22d)+'pe']+'*\x0a')+('🔑\x20Trigger:'+'\x20`'+_0x525db3[_0x2e6bf(0x164)]+'`\x0a')+(SCOPE_ICON[_0x525db3[_0x2e6bf(0x218)]]+_0x2e6bf(0x117)+_0x525db3[_0x2e6bf(0x218)]+'*\x0a')+('🔥\x20Fired:\x20*'+_0x525db3['use_count']+('*\x20times\x20be'+_0x2e6bf(0x1c7)))+('*📤\x20Bot\x20wou'+_0x2e6bf(0x241)+'\x0a')+('─'[_0x2e6bf(0xc2)](0x1c)+'\x0a')+(''+_0xf49a75));});const a0_0x58fccc={};a0_0x58fccc[a0_0x140281(0xf9)]='replystats',a0_0x58fccc[a0_0x140281(0x1b6)]=[a0_0x140281(0x1b9),a0_0x140281(0x275)],a0_0x58fccc['react']='📊',a0_0x58fccc[a0_0x140281(0x10e)]=a0_0x140281(0x232),a0_0x58fccc[a0_0x140281(0x24b)+'n']=a0_0x140281(0x161)+a0_0x140281(0x167)+'e\x20statisti'+'cs',a0_0x58fccc[a0_0x140281(0xca)]=a0_0x140281(0x239)+'s',gmd(a0_0x58fccc,async(_0x1062cb,_0x5e9f5a,_0x20c9ab)=>{const _0x39e0cc=a0_0x140281,{reply:_0xfc5bc2,react:_0x4df0cb,isSuperUser:_0x317d90}=_0x20c9ab;if(!_0x317d90)return await _0x4df0cb('❌'),_0xfc5bc2('❌\x20Owner/Su'+_0x39e0cc(0x20f));const _0x3a0a0f=$stats['get'](),_0x3b9a76=$topUsed[_0x39e0cc(0x17e)](),_0x59898c=_0x3b9a76[_0x39e0cc(0x13e)]===0x0?_0x39e0cc(0x1d1)+_0x39e0cc(0x111):_0x3b9a76[_0x39e0cc(0x108)]((_0x2b17aa,_0x5bf773)=>MEDALS[_0x5bf773]+_0x39e0cc(0x26e)+_0x2b17aa['id']+'*\x20'+TYPE_ICON[_0x2b17aa[_0x39e0cc(0x22d)+'pe']]+'\x20`'+trim20(_0x2b17aa['trigger'])+_0x39e0cc(0x237)+_0x2b17aa[_0x39e0cc(0x106)]+'*\x20fires')[_0x39e0cc(0x109)]('\x0a');await _0x4df0cb('✅'),_0xfc5bc2('*📊\x20Auto-Re'+'ply\x20Statis'+_0x39e0cc(0x25c)+('═'['repeat'](0x20)+'\x0a\x0a')+(_0x39e0cc(0xf2)+_0x39e0cc(0xc4)+(_0x3a0a0f[_0x39e0cc(0x1d2)]||0x0)+'*\x0a')+(_0x39e0cc(0x283)+_0x39e0cc(0xdc)+(_0x3a0a0f[_0x39e0cc(0x22f)]||0x0)+'*\x0a')+(_0x39e0cc(0x19d)+_0x39e0cc(0x159)+((_0x3a0a0f[_0x39e0cc(0x1d2)]||0x0)-(_0x3a0a0f[_0x39e0cc(0x22f)]||0x0))+'*\x0a')+(_0x39e0cc(0x1eb)+_0x39e0cc(0x245)+(_0x3a0a0f[_0x39e0cc(0x140)]||0x0)+'*\x0a\x0a')+(_0x39e0cc(0x260)+_0x39e0cc(0x205)+'\x0a')+('─'[_0x39e0cc(0xc2)](0x1e)+'\x0a')+(_0x59898c+'\x0a\x0a')+(_0x39e0cc(0x184)+'triggers\x20w'+_0x39e0cc(0x185)+_0x39e0cc(0x212)+'ddreply`\x20·'+_0x39e0cc(0x1ca)+'y`_'));});
+const { gmd } = require("../guru");
+const Database = require("better-sqlite3");
+const path     = require("path");
+const fs       = require("fs-extra");
+
+// ═══════════════════════════════════════════════════════════════════
+//  SMART AUTO-REPLY ENGINE  ·  ULTRA GURU MD
+//  SQLite-backed keyword auto-response system
+//  Trigger types : exact | contains | starts | regex
+//  Scopes        : global (all chats) | group (one group only)
+//  Templates     : {name} {sender} {group} {time} {date} {bot}
+// ═══════════════════════════════════════════════════════════════════
+
+// ── Database ────────────────────────────────────────────────────────
+const DB_DIR = path.join(__dirname, "../guru/database");
+fs.ensureDirSync(DB_DIR);
+
+const db = new Database(path.join(DB_DIR, "autoreply.db"));
+
+db.pragma("journal_mode = WAL");
+db.pragma("synchronous  = NORMAL");
+
+db.exec(`
+    CREATE TABLE IF NOT EXISTS replies (
+        id            INTEGER PRIMARY KEY AUTOINCREMENT,
+        scope         TEXT    NOT NULL DEFAULT 'global',
+        group_jid     TEXT,
+        trigger_type  TEXT    NOT NULL,
+        trigger       TEXT    NOT NULL,
+        response      TEXT    NOT NULL,
+        is_active     INTEGER NOT NULL DEFAULT 1,
+        cooldown_s    INTEGER NOT NULL DEFAULT 30,
+        use_count     INTEGER NOT NULL DEFAULT 0,
+        created_by    TEXT,
+        created_at    INTEGER NOT NULL
+    );
+
+    CREATE TABLE IF NOT EXISTS reply_cooldowns (
+        chat_jid   TEXT    NOT NULL,
+        reply_id   INTEGER NOT NULL,
+        expires_at INTEGER NOT NULL,
+        PRIMARY KEY (chat_jid, reply_id)
+    );
+
+    CREATE INDEX IF NOT EXISTS idx_replies_scope
+        ON replies (is_active, scope, group_jid);
+`);
+
+// ── Prepared statements ─────────────────────────────────────────────
+const $insert = db.prepare(
+    `INSERT INTO replies
+        (scope, group_jid, trigger_type, trigger, response, cooldown_s, created_by, created_at)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?)`
+);
+const $getActive   = db.prepare(
+    `SELECT * FROM replies
+     WHERE  is_active = 1
+       AND  (scope = 'global' OR group_jid = ?)
+     ORDER  BY id`
+);
+const $getOne      = db.prepare(`SELECT * FROM replies WHERE id = ?`);
+const $list        = db.prepare(
+    `SELECT * FROM replies
+     WHERE  (scope = 'global' OR group_jid = ?)
+     ORDER  BY id
+     LIMIT  ? OFFSET ?`
+);
+const $listCount   = db.prepare(
+    `SELECT COUNT(*) as count FROM replies
+     WHERE  (scope = 'global' OR group_jid = ?)`
+);
+const $toggle      = db.prepare(
+    `UPDATE replies
+     SET    is_active = CASE WHEN is_active = 1 THEN 0 ELSE 1 END
+     WHERE  id = ?`
+);
+const $delete      = db.prepare(`DELETE FROM replies WHERE id = ?`);
+const $incUse      = db.prepare(`UPDATE replies SET use_count = use_count + 1 WHERE id = ?`);
+const $stats       = db.prepare(
+    `SELECT COUNT(*) as total,
+            SUM(use_count) as hits,
+            SUM(is_active) as active
+     FROM   replies`
+);
+const $topUsed     = db.prepare(
+    `SELECT id, trigger, use_count, trigger_type
+     FROM   replies
+     ORDER  BY use_count DESC
+     LIMIT  5`
+);
+const $getCooldown = db.prepare(
+    `SELECT expires_at FROM reply_cooldowns
+     WHERE  chat_jid = ? AND reply_id = ?`
+);
+const $setCooldown = db.prepare(
+    `INSERT OR REPLACE INTO reply_cooldowns (chat_jid, reply_id, expires_at)
+     VALUES (?, ?, ?)`
+);
+const $cleanCd     = db.prepare(
+    `DELETE FROM reply_cooldowns WHERE expires_at < ?`
+);
+
+// Expire stale cooldowns every 5 min so the table stays lean
+setInterval(() => { try { $cleanCd.run(Date.now()); } catch (_) {} }, 300_000);
+
+// ── Matching engine ─────────────────────────────────────────────────
+const matchTrigger = (type, trigger, body) => {
+    const b = body.trim();
+    switch (type) {
+        case "exact":
+            return b.toLowerCase() === trigger.toLowerCase();
+        case "contains":
+            return b.toLowerCase().includes(trigger.toLowerCase());
+        case "starts":
+            return b.toLowerCase().startsWith(trigger.toLowerCase());
+        case "regex": {
+            try {
+                const m  = trigger.match(/^\/(.+)\/([gimsuy]*)$/);
+                const re = m ? new RegExp(m[1], m[2]) : new RegExp(trigger, "i");
+                return re.test(b);
+            } catch { return false; }
+        }
+        default: return false;
+    }
+};
+
+// ── Template renderer ───────────────────────────────────────────────
+const renderTemplate = (response, vars = {}) =>
+    response
+        .replace(/\{name\}/gi,    vars.name    ?? "Friend")
+        .replace(/\{sender\}/gi,  vars.sender  ?? "")
+        .replace(/\{group\}/gi,   vars.group   ?? "")
+        .replace(/\{time\}/gi,    vars.time    ?? "")
+        .replace(/\{date\}/gi,    vars.date    ?? "")
+        .replace(/\{bot\}/gi,     vars.bot     ?? "ULTRA GURU MD")
+        .replace(/\{trigger\}/gi, vars.trigger ?? "");
+
+// ── Display helpers ─────────────────────────────────────────────────
+const TYPE_ICON  = { exact: "🎯", contains: "🔍", starts: "🔛", regex: "⚡" };
+const SCOPE_ICON = { global: "🌐", group: "📍" };
+const MEDALS     = ["🥇", "🥈", "🥉", "4️⃣", "5️⃣"];
+
+const trim20 = (s) => (s.length > 20 ? s.slice(0, 19) + "…" : s);
+const trim60 = (s) => (s.length > 60 ? s.slice(0, 59) + "…" : s);
+
+// ── Passive message hook ────────────────────────────────────────────
+// Registered into index.js's global.__pluginMsgHooks array.
+// Fires on EVERY incoming message — silently matches and replies.
+if (!global.__pluginMsgHooks) global.__pluginMsgHooks = [];
+
+global.__pluginMsgHooks.push(async (ms, Guru, settings) => {
+    try {
+        // Extract the body text from any message type
+        const body =
+            ms.message?.conversation                     ||
+            ms.message?.extendedTextMessage?.text        ||
+            ms.message?.imageMessage?.caption            ||
+            ms.message?.videoMessage?.caption            ||
+            "";
+
+        if (!body?.trim()) return;
+
+        // Don't intercept bot commands
+        const prefix = settings?.PREFIX || ".";
+        if (body.trim().startsWith(prefix)) return;
+
+        const from = ms.key.remoteJid;
+        if (!from) return;
+
+        const now        = Date.now();
+        const candidates = $getActive.all(from);
+
+        for (const reply of candidates) {
+            if (!matchTrigger(reply.trigger_type, reply.trigger, body)) continue;
+
+            // Respect per-chat cooldown to prevent spam
+            const cd = $getCooldown.get(from, reply.id);
+            if (cd && cd.expires_at > now) continue;
+
+            // Stamp cooldown BEFORE sending (prevents race if two messages arrive fast)
+            $setCooldown.run(from, reply.id, now + reply.cooldown_s * 1_000);
+            $incUse.run(reply.id);
+
+            const senderJid = ms.key.participant || ms.key.remoteJid || "";
+            const senderNum = senderJid.split("@")[0].split(":")[0];
+            const nowDate   = new Date();
+
+            const text = renderTemplate(reply.response, {
+                name:    ms.pushName || `+${senderNum}`,
+                sender:  `@${senderNum}`,
+                group:   from.endsWith("@g.us") ? "the group" : "DM",
+                time:    nowDate.toLocaleTimeString(),
+                date:    nowDate.toLocaleDateString(),
+                bot:     settings?.BOT_NAME || "ULTRA GURU MD",
+                trigger: reply.trigger,
+            });
+
+            await Guru.sendMessage(from, { text }, { quoted: ms });
+            break; // fire only the FIRST match per message
+        }
+    } catch (err) {
+        console.error("[AutoReply] passive hook error:", err.message);
+    }
+});
+
+// ── Arg parser for .addreply ────────────────────────────────────────
+// Accepted formats:
+//   .addreply <type> | <trigger> | <response>
+//   .addreply group <type> | <trigger> | <response>
+const parseAddArgs = (q, fromJid, isGroup) => {
+    const parts = q.split("|").map((s) => s.trim());
+    if (parts.length < 3) return null;
+
+    const head   = parts[0].trim().split(/\s+/);
+    let   scope  = "global";
+    let   type;
+
+    if (head[0]?.toLowerCase() === "group") {
+        scope = "group";
+        type  = head[1]?.toLowerCase();
+    } else {
+        type = head[0]?.toLowerCase();
+    }
+
+    if (!["exact", "contains", "starts", "regex"].includes(type)) return null;
+
+    const trigger  = parts[1];
+    const response = parts.slice(2).join("|"); // allow | inside responses
+    if (!trigger || !response) return null;
+
+    const group_jid = scope === "group" && isGroup ? fromJid : null;
+    if (scope === "group" && !isGroup) scope = "global"; // fallback if used in DM
+
+    return { scope, type, trigger, response, group_jid };
+};
+
+// ── COMMAND: .addreply ──────────────────────────────────────────────
+gmd({
+    pattern:     "addreply",
+    aliases:     ["newauto", "setreply"],
+    react:       "⚡",
+    category:    "tools",
+    description: "Add a smart auto-reply trigger",
+    usage:       ".addreply <exact|contains|starts|regex> | <trigger> | <response>",
+}, async (from, Guru, conText) => {
+    const { q, reply, react, isSuperUser, sender, groupName, isGroup } = conText;
+
+    if (!isSuperUser) { await react("❌"); return reply("❌ Owner/Sudo only."); }
+
+    if (!q) {
+        await react("❓");
+        return reply(
+            `*⚡ Smart Auto-Reply Engine*\n` +
+            `${"═".repeat(30)}\n\n` +
+            `*Format:*\n` +
+            `\`.addreply <type> | <trigger> | <response>\`\n\n` +
+            `*Trigger Types:*\n` +
+            `🎯 *exact*    — full message must match\n` +
+            `🔍 *contains* — body contains keyword\n` +
+            `🔛 *starts*   — body starts with keyword\n` +
+            `⚡ *regex*    — full JS regex pattern\n\n` +
+            `*Group-only reply:*\n` +
+            `\`.addreply group <type> | <trigger> | <response>\`\n\n` +
+            `*Template variables:*\n` +
+            `\`{name}\` \`{sender}\` \`{group}\` \`{time}\` \`{date}\` \`{bot}\` \`{trigger}\`\n\n` +
+            `*Examples:*\n` +
+            `\`.addreply contains | price | Prices start at $10!\`\n` +
+            `\`.addreply exact | !hours | We're open 9am–5pm Mon-Fri\`\n` +
+            `\`.addreply regex | /\\bhello\\b/i | Hey {name}! 👋\``
+        );
+    }
+
+    const parsed = parseAddArgs(q, from, isGroup);
+    if (!parsed) {
+        await react("❌");
+        return reply(
+            `❌ *Invalid format.*\n\n` +
+            `Use: \`.addreply <type> | <trigger> | <response>\`\n` +
+            `Types: exact · contains · starts · regex`
+        );
+    }
+
+    const { scope, type, trigger, response, group_jid } = parsed;
+
+    try {
+        const result = $insert.run(scope, group_jid, type, trigger, response, 30, sender, Date.now());
+
+        await react("✅");
+        reply(
+            `*✅ Auto-Reply Created!*\n` +
+            `${"─".repeat(30)}\n` +
+            `🆔 *ID:*       \`#${result.lastInsertRowid}\`\n` +
+            `${TYPE_ICON[type]} *Type:*     ${type}\n` +
+            `🔑 *Trigger:*  \`${trigger}\`\n` +
+            `💬 *Response:* ${trim60(response)}\n` +
+            `${SCOPE_ICON[scope]} *Scope:*    ${scope === "group" ? `Group (${groupName || "this group"})` : "Global (all chats)"}\n` +
+            `⏱️ *Cooldown:* 30 seconds\n\n` +
+            `> _This reply is now live — fires automatically on every matching message._`
+        );
+    } catch (err) {
+        await react("❌");
+        reply(`❌ Database error: ${err.message}`);
+    }
+});
+
+// ── COMMAND: .replies ───────────────────────────────────────────────
+gmd({
+    pattern:     "replies",
+    aliases:     ["listreplies", "autoreplies", "replylist"],
+    react:       "📋",
+    category:    "tools",
+    description: "List all auto-reply triggers (paginated)",
+    usage:       ".replies [page]",
+}, async (from, Guru, conText) => {
+    const { q, reply, react, isSuperUser } = conText;
+
+    if (!isSuperUser) { await react("❌"); return reply("❌ Owner/Sudo only."); }
+
+    const PAGE   = 8;
+    const page   = Math.max(1, parseInt(q) || 1);
+    const offset = (page - 1) * PAGE;
+    const total  = $listCount.get(from)?.count || 0;
+
+    if (total === 0) {
+        await react("📭");
+        return reply("📭 No auto-replies configured yet.\n\nCreate one with `.addreply`");
+    }
+
+    const totalPages = Math.ceil(total / PAGE);
+    const items      = $list.all(from, PAGE, offset);
+
+    const lines = items.map((r) => {
+        const dot   = r.is_active ? "🟢" : "🔴";
+        const tIcon = TYPE_ICON[r.trigger_type]  || "•";
+        const sIcon = SCOPE_ICON[r.scope]         || "🌐";
+        return `${dot} *#${r.id}* ${tIcon}${sIcon} \`${trim20(r.trigger)}\` _(${r.use_count} fires)_`;
+    }).join("\n");
+
+    await react("✅");
+    reply(
+        `*📋 Auto-Reply List · Page ${page}/${totalPages}*\n` +
+        `${"═".repeat(32)}\n` +
+        `${lines}\n` +
+        `${"─".repeat(32)}\n` +
+        `🟢 Active  🔴 Off  🎯 Exact  🔍 Contains  🔛 Starts  ⚡ Regex\n` +
+        `🌐 Global  📍 Group  ·  Total: *${total}*\n\n` +
+        (totalPages > page
+            ? `> Next page: \`.replies ${page + 1}\``
+            : `> _Showing all ${total} replies_`)
+    );
+});
+
+// ── COMMAND: .delreply ──────────────────────────────────────────────
+gmd({
+    pattern:     "delreply",
+    aliases:     ["removereply", "deletereply"],
+    react:       "🗑️",
+    category:    "tools",
+    description: "Delete an auto-reply by ID",
+    usage:       ".delreply <id>",
+}, async (from, Guru, conText) => {
+    const { q, reply, react, isSuperUser } = conText;
+
+    if (!isSuperUser) { await react("❌"); return reply("❌ Owner/Sudo only."); }
+
+    const id = parseInt(q);
+    if (!id || isNaN(id)) {
+        await react("❓");
+        return reply("❓ Usage: `.delreply <id>`\n\nGet IDs from `.replies`");
+    }
+
+    const row = $getOne.get(id);
+    if (!row) {
+        await react("❌");
+        return reply(`❌ No auto-reply found with ID *#${id}*`);
+    }
+
+    $delete.run(id);
+    await react("✅");
+    reply(
+        `*🗑️ Auto-Reply Deleted*\n\n` +
+        `Removed *#${id}* — \`${row.trigger}\``
+    );
+});
+
+// ── COMMAND: .togglereply ───────────────────────────────────────────
+gmd({
+    pattern:     "togglereply",
+    aliases:     ["pausereply", "enablereply"],
+    react:       "🔄",
+    category:    "tools",
+    description: "Enable or disable an auto-reply without deleting it",
+    usage:       ".togglereply <id>",
+}, async (from, Guru, conText) => {
+    const { q, reply, react, isSuperUser } = conText;
+
+    if (!isSuperUser) { await react("❌"); return reply("❌ Owner/Sudo only."); }
+
+    const id = parseInt(q);
+    if (!id || isNaN(id)) {
+        await react("❓");
+        return reply("❓ Usage: `.togglereply <id>`");
+    }
+
+    const row = $getOne.get(id);
+    if (!row) {
+        await react("❌");
+        return reply(`❌ No auto-reply found with ID *#${id}*`);
+    }
+
+    $toggle.run(id);
+    const updated = $getOne.get(id);
+    const status  = updated.is_active ? "🟢 *Enabled*" : "🔴 *Disabled*";
+
+    await react("✅");
+    reply(`*🔄 Toggled*\n\n#${id} \`${row.trigger}\` → ${status}`);
+});
+
+// ── COMMAND: .testreply ─────────────────────────────────────────────
+gmd({
+    pattern:     "testreply",
+    aliases:     ["checkreply", "simreply"],
+    react:       "🧪",
+    category:    "tools",
+    description: "Test what auto-reply would fire for any message",
+    usage:       ".testreply <message text>",
+}, async (from, Guru, conText) => {
+    const { q, reply, react, isSuperUser } = conText;
+
+    if (!isSuperUser) { await react("❌"); return reply("❌ Owner/Sudo only."); }
+
+    if (!q) {
+        await react("❓");
+        return reply("❓ Usage: `.testreply <text>`\n\nExample: `.testreply hello bot`");
+    }
+
+    const candidates = $getActive.all(from);
+    const matched    = candidates.find((r) => matchTrigger(r.trigger_type, r.trigger, q));
+
+    if (!matched) {
+        await react("🔍");
+        return reply(
+            `*🧪 Simulation Result*\n\n` +
+            `Input: \`${q}\`\n\n` +
+            `❌ No auto-reply would fire for this message.\n` +
+            `_(${candidates.length} active triggers checked)_`
+        );
+    }
+
+    const preview = renderTemplate(matched.response, {
+        name: "TestUser",   sender: "@0000000000",
+        group: "Test Group", time: new Date().toLocaleTimeString(),
+        date:  new Date().toLocaleDateString(),
+        bot:   "ULTRA GURU MD", trigger: matched.trigger,
+    });
+
+    await react("✅");
+    reply(
+        `*🧪 Simulation Result*\n` +
+        `${"═".repeat(30)}\n\n` +
+        `📥 *Input:* \`${q}\`\n\n` +
+        `✅ *Match Found!*\n` +
+        `${"─".repeat(28)}\n` +
+        `🆔 ID: *#${matched.id}*\n` +
+        `${TYPE_ICON[matched.trigger_type]} Type: *${matched.trigger_type}*\n` +
+        `🔑 Trigger: \`${matched.trigger}\`\n` +
+        `${SCOPE_ICON[matched.scope]} Scope: *${matched.scope}*\n` +
+        `🔥 Fired: *${matched.use_count}* times before\n\n` +
+        `*📤 Bot would reply:*\n` +
+        `${"─".repeat(28)}\n` +
+        `${preview}`
+    );
+});
+
+// ── COMMAND: .replystats ────────────────────────────────────────────
+gmd({
+    pattern:     "replystats",
+    aliases:     ["autostats", "replyinfo"],
+    react:       "📊",
+    category:    "tools",
+    description: "Show auto-reply usage statistics",
+    usage:       ".replystats",
+}, async (from, Guru, conText) => {
+    const { reply, react, isSuperUser } = conText;
+
+    if (!isSuperUser) { await react("❌"); return reply("❌ Owner/Sudo only."); }
+
+    const stats   = $stats.get();
+    const topFive = $topUsed.all();
+
+    const topLines = topFive.length === 0
+        ? "_No data yet_"
+        : topFive.map((r, i) =>
+            `${MEDALS[i]} *#${r.id}* ${TYPE_ICON[r.trigger_type]} \`${trim20(r.trigger)}\` — *${r.use_count}* fires`
+          ).join("\n");
+
+    await react("✅");
+    reply(
+        `*📊 Auto-Reply Statistics*\n` +
+        `${"═".repeat(32)}\n\n` +
+        `📁 Total replies:   *${stats.total  || 0}*\n` +
+        `🟢 Active:          *${stats.active || 0}*\n` +
+        `🔴 Inactive:        *${(stats.total || 0) - (stats.active || 0)}*\n` +
+        `🔥 Total fires:     *${stats.hits   || 0}*\n\n` +
+        `*🏆 Top 5 Most Fired*\n` +
+        `${"─".repeat(30)}\n` +
+        `${topLines}\n\n` +
+        `> _Manage triggers with \`.replies\` · \`.addreply\` · \`.delreply\`_`
+    );
+});

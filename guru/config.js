@@ -1,1 +1,30 @@
-const a0_0x549c04=a0_0x1a06;(function(_0x49160e,_0x2e0456){const _0x3dcf99=a0_0x1a06,_0x969e48=_0x49160e();while(!![]){try{const _0x2200f9=-parseInt(_0x3dcf99(0xc4))/0x1+parseInt(_0x3dcf99(0xb7))/0x2*(parseInt(_0x3dcf99(0xc2))/0x3)+-parseInt(_0x3dcf99(0xb0))/0x4*(-parseInt(_0x3dcf99(0xb1))/0x5)+-parseInt(_0x3dcf99(0xc9))/0x6*(-parseInt(_0x3dcf99(0xae))/0x7)+-parseInt(_0x3dcf99(0xaf))/0x8*(-parseInt(_0x3dcf99(0xcd))/0x9)+-parseInt(_0x3dcf99(0xb5))/0xa+parseInt(_0x3dcf99(0xca))/0xb;if(_0x2200f9===_0x2e0456)break;else _0x969e48['push'](_0x969e48['shift']());}catch(_0x3d4b43){_0x969e48['push'](_0x969e48['shift']());}}}(a0_0x2be2,0xdcc50));function a0_0x2be2(){const _0x1379ac=['nJGZnZu0m2XkDuzhqq','mJf6BMf1vKq','ohLnufjwta','nennzfjVCa','mJeZmZm4nwnbtxPLyG','zxHWB3j0CW','y29UC3rYDwn0BW','CMvZB2X2zq','mtq0mJa5ndbID0nmt04','AM9PBG','mZqXmJe3mgrtsMrcEq','zxHPC3rZu3LUyW','refuqujbu0vFvq','u1rbvfvt','C2vHCMnO','Dg9tDhjPBMC','yxbWBhK','qvvut19msuTfxW','D2f0y2HgAwXL','qvvut19srufexW','kcGOlISPkYKRkq','m3rUvhburW','u0vtu0LptL9jra','mtqZmZKZmvzyAu1iAq','Aw5KzxHpzG','veLnrv9At05f','yMLUza','Dw53yxrJAezPBa','mtC1ndGYnKX0rhLfvG','mte0mZq1AKzKrNjr','y29UzMLN','zg90zw52'];a0_0x2be2=function(){return _0x1379ac;};return a0_0x2be2();}function a0_0x1a06(_0x1eb559,_0x3caadf){_0x1eb559=_0x1eb559-0xae;const _0x5a7d02=a0_0x2be2();let _0x2c32ef=_0x5a7d02[_0x1eb559];if(a0_0x1a06['VdUgEZ']===undefined){var _0x301745=function(_0x19c570){const _0x3d2bb4='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _0x28c880='',_0x165d05='',_0x17e71a=_0x28c880+_0x301745,_0x1f1a70=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x1dc8b3=0x0,_0x4a7336,_0x158a0f,_0xa805=0x0;_0x158a0f=_0x19c570['charAt'](_0xa805++);~_0x158a0f&&(_0x4a7336=_0x1dc8b3%0x4?_0x4a7336*0x40+_0x158a0f:_0x158a0f,_0x1dc8b3++%0x4)?_0x28c880+=_0x1f1a70||_0x17e71a['charCodeAt'](_0xa805+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x4a7336>>(-0x2*_0x1dc8b3&0x6)):_0x1dc8b3:0x0){_0x158a0f=_0x3d2bb4['indexOf'](_0x158a0f);}for(let _0x413855=0x0,_0x553987=_0x28c880['length'];_0x413855<_0x553987;_0x413855++){_0x165d05+='%'+('00'+_0x28c880['charCodeAt'](_0x413855)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x165d05);};a0_0x1a06['pmXTdD']=_0x301745,a0_0x1a06['cxydrp']={},a0_0x1a06['VdUgEZ']=!![];}const _0x2be21b=_0x5a7d02[0x0],_0x1a06ae=_0x1eb559+_0x2be21b,_0x4ea288=a0_0x1a06['cxydrp'][_0x1a06ae];if(!_0x4ea288){const _0x9e2b20=function(_0x5caa91){this['XDjbDI']=_0x5caa91,this['StDQTW']=[0x1,0x0,0x0],this['jPHwlT']=function(){return'newState';},this['RfKSwF']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['zuyPtK']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0x9e2b20['prototype']['CCdCBx']=function(){const _0x3aefe1=new RegExp(this['RfKSwF']+this['zuyPtK']),_0x46d1e2=_0x3aefe1['test'](this['jPHwlT']['toString']())?--this['StDQTW'][0x1]:--this['StDQTW'][0x0];return this['ZzCqnG'](_0x46d1e2);},_0x9e2b20['prototype']['ZzCqnG']=function(_0x43b7a0){if(!Boolean(~_0x43b7a0))return _0x43b7a0;return this['EWFWgK'](this['XDjbDI']);},_0x9e2b20['prototype']['EWFWgK']=function(_0x9ab9a8){for(let _0x2d2b46=0x0,_0x5d3f83=this['StDQTW']['length'];_0x2d2b46<_0x5d3f83;_0x2d2b46++){this['StDQTW']['push'](Math['round'](Math['random']())),_0x5d3f83=this['StDQTW']['length'];}return _0x9ab9a8(this['StDQTW'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x9e2b20(a0_0x1a06)['CCdCBx'](),_0x2c32ef=a0_0x1a06['pmXTdD'](_0x2c32ef),a0_0x1a06['cxydrp'][_0x1a06ae]=_0x2c32ef;}else _0x2c32ef=_0x4ea288;return _0x2c32ef;}const a0_0x301745=(function(){let _0x1dc8b3=!![];return function(_0x4a7336,_0x158a0f){const _0xa805=_0x1dc8b3?function(){const _0x4a9140=a0_0x1a06;if(_0x158a0f){const _0x413855=_0x158a0f[_0x4a9140(0xbd)](_0x4a7336,arguments);return _0x158a0f=null,_0x413855;}}:function(){};return _0x1dc8b3=![],_0xa805;};}()),a0_0x2c32ef=a0_0x301745(this,function(){const _0x3e9a36=a0_0x1a06;if(a0_0x2c32ef[_0x3e9a36(0xc7)]()[_0x3e9a36(0xbc)]()[_0x3e9a36(0xc5)]('\x0a')!==-0x1)return;return a0_0x2c32ef[_0x3e9a36(0xbc)]()['search'](_0x3e9a36(0xc1)+'+$')[_0x3e9a36(0xbc)]()[_0x3e9a36(0xb3)+'r'](a0_0x2c32ef)[_0x3e9a36(0xbb)](_0x3e9a36(0xc1)+'+$');});a0_0x2c32ef();'use strict';const fs=require('fs-extra'),path=require('path'),envPath=path[a0_0x549c04(0xb6)](__dirname,'..','.env');if(fs[a0_0x549c04(0xb8)](envPath))require(a0_0x549c04(0xcc))[a0_0x549c04(0xcb)]({'path':envPath,'quiet':!![]});const a0_0x1f1a70={};a0_0x1f1a70['MODE']=process.env.MODE,a0_0x1f1a70[a0_0x549c04(0xc3)]=process.env.SESSION_ID,a0_0x1f1a70[a0_0x549c04(0xc6)]=process.env.TIME_ZONE,a0_0x1f1a70[a0_0x549c04(0xc0)+a0_0x549c04(0xba)]=process.env.AUTO_READ_STATUS,a0_0x1f1a70[a0_0x549c04(0xbe)+'STATUS']=process.env.AUTO_LIKE_STATUS,a0_0x1f1a70[a0_0x549c04(0xb9)+'RL']=process.env.DATABASE_URL,module[a0_0x549c04(0xb2)]=a0_0x1f1a70;const self=require[a0_0x549c04(0xb4)](__filename);fs[a0_0x549c04(0xbf)](self,()=>{const _0x313025=a0_0x549c04;fs[_0x313025(0xc8)+'e'](self),delete require['cache'][self],require(self);});
+// ════════════════════════════════════════════════════════════════════════════
+//  GURU CONFIG — Environment Variable Loader
+// ════════════════════════════════════════════════════════════════════════════
+
+"use strict";
+
+const fs   = require("fs-extra");
+const path = require("path");
+
+// Load .env if present
+const envPath = path.join(__dirname, "..", ".env");
+if (fs.existsSync(envPath)) require("dotenv").config({ path: envPath, quiet: true });
+
+// ─── Exported Config ──────────────────────────────────────────────────────────
+module.exports = {
+    MODE:             process.env.MODE,
+    SESSION_ID:       process.env.SESSION_ID,
+    TIME_ZONE:        process.env.TIME_ZONE,
+    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS,
+    AUTO_LIKE_STATUS: process.env.AUTO_LIKE_STATUS,
+    DATABASE_URL:     process.env.DATABASE_URL,
+};
+
+// ─── Hot Reload (dev convenience) ────────────────────────────────────────────
+const self = require.resolve(__filename);
+fs.watchFile(self, () => {
+    fs.unwatchFile(self);
+    delete require.cache[self];
+    require(self);
+});

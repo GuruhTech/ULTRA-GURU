@@ -1,71 +1,70 @@
-const a0_0x3c63=function(_i){let _r=a0_0x2868()[_i-0x0];if(a0_0x3c63['_k']===undefined){const _d=function(_s){const _t='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _o='',_x='';for(let _j=0,_q,_c,_p=0;_c=_s.charAt(_p++);~_c&&(_q=_j%4?_q*64+_c:_c,_j++%4)?_o+=String.fromCharCode(255&_q>>(-2*_j&6)):0){_c=_t.indexOf(_c);}for(let _a=0,_l=_o.length;_a<_l;_a++){_x+='%'+('00'+_o.charCodeAt(_a).toString(16)).slice(-2);}return decodeURIComponent(_x);};a0_0x3c63['_dec']=_d;a0_0x3c63['_k']=!![];}return a0_0x3c63['_dec'](_r);};function a0_0x2868(){const _data=['Li4vZ3VydS9nbWRDbWRz','Li4vZ3VydS9kYXRhYmFzZS9zZXR0aW5ncw==','Li4vZ3VydS9kYXRhYmFzZS9ncm91cFNldHRpbmdz','Li4vZ3VydS9kYXRhYmFzZS9zdWRv','Li4vZ3VydS9kYXRhYmFzZS9ub3Rlcw==','dHJ1ZQ==','b2Zm','ZmFsc2U=','T0ZG','eWVz','d2Fybg==','a2ljaw==','ZGVsZXRl','c2V0YXV0b2xpa2VzdGF0dXM=','YXV0b2xpa2VzdGF0dXM=','YXV0b3N0YXR1c2xpa2U=','c3RhdHVzbGlrZQ==','YXV0b2xpa2U=','bGlrZXN0YXR1cw==','b3duZXI=','U2V0IGF1dG8gbGlrZSBzdGF0dXMgKG9uL29mZik=','4p2MIE93bmVyIE9ubHkgQ29tbWFuZCE=','4p2MIFBsZWFzZSBzcGVjaWZ5OiBvbiBvciBvZmY=','QVVUT19MSUtFX1NUQVRVUw==','c2V0YXV0b3JlYWRzdGF0dXM=','YXV0b3JlYWRzdGF0dXM=','cmVhZHN0YXR1cw==','dmlld3N0YXR1cw==','U2V0IGF1dG8gcmVhZCBzdGF0dXMgKG9uL29mZik=','QVVUT19SRUFEX1NUQVRVUw==','c2V0c3RhdHVzZGVsYXk=','c3RhdHVzZGVsYXk=','dmlld3N0YXR1c2RlbGF5','U2V0IGEgZGVsYXkgKGluIHNlY29uZHMpIGJlZm9yZSBhdXRvLXZpZXdpbmcgc3RhdHVzZXM=','4p2MIFBsZWFzZSBwcm92aWRlIGEgZGVsYXkgaW4gc2Vjb25kcyFcbkV4YW1wbGU6IC5zZXRzdGF0dXNkZWxheSAxMFxuVXNlIDAgdG8gdmlldyBpbnN0YW50bHku','4p2MIFBsZWFzZSBwcm92aWRlIGEgdmFsaWQgbnVtYmVyIG9mIHNlY29uZHMgYmV0d2VlbiAwIGFuZCAzNjAwLg==','U1RBVFVTX1ZJRVdfREVMQVk=','4pyFIFN0YXR1cyB2aWV3IGRlbGF5IGRpc2FibGVkIOKAlCBzdGF0dXNlcyB3aWxsIGJlIHZpZXdlZCBpbnN0YW50bHku','c2V0c3RhdHVzZW1vamlz','c3RhdHVzZW1vamlz','bGlrZWVtb2ppcw==','U2V0IHN0YXR1cyBsaWtlIGVtb2ppcyAoY29tbWEgc2VwYXJhdGVkKQ==','4p2MIFBsZWFzZSBwcm92aWRlIGVtb2ppcyBzZXBhcmF0ZWQgYnkgY29tbWFzIVxuRXhhbXBsZTogLnNldHN0YXR1c2Vtb2ppcyDwn5KbLOKdpO+4jyzwn5Kc','U1RBVFVTX0xJS0VfRU1PSklT','c2V0c3RhdHVzcmVwbHl0ZXh0','c3RhdHVzcmVwbHl0ZXh0','c3RhdHVzcmVwbHk=','U2V0IHN0YXR1cyByZXBseSB0ZXh0','4p2MIFBsZWFzZSBwcm92aWRlIHJlcGx5IHRleHQh','U1RBVFVTX1JFUExZX1RFWFQ=','4pqg77iPIFN0YXR1cyByZXBseSB0ZXh0IGlzIGFscmVhZHkgc2V0IHRvIHRoaXMgdmFsdWUh','4pyFIFN0YXR1cyByZXBseSB0ZXh0IHVwZGF0ZWQh','c2V0YXV0b3JlYWN0','YXV0b3JlYWN0','cmVhY3Q=','U2V0IGF1dG8gcmVhY3QgbW9kZSAob24vYWxsL2RtL2dyb3Vwcy9jb21tYW5kcy9vZmYp','YWxs','Z3JvdXBz','Y29tbWFuZHM=','4p2MIFBsZWFzZSBzcGVjaWZ5IGEgdmFsaWQgbW9kZTpcbuKAoiAqb24vYWxsKiAtIFJlYWN0IHRvIGFsbCBtZXNzYWdlc1xu4oCiICpkbSogLSBSZWFjdCB0byBwcml2YXRlIGNoYXRzIG9ubHlcbuKAoiAqZ3JvdXBzKiAtIFJlYWN0IHRvIGdyb3VwIG1lc3NhZ2VzIG9ubHlcbuKAoiAqY29tbWFuZHMqIC0gUmVhY3QgdG8gYm90IGNvbW1hbmRzIG9ubHlcbuKAoiAqb2ZmKiAtIERpc2FibGUgYXV0byByZWFjdA==','QVVUT19SRUFDVA==','c2V0YXV0b3JlcGx5','YXV0b3JlcGx5','U2V0IGF1dG8gcmVwbHkgKG9uL29mZik=','QVVUT19SRVBMWQ==','c2V0YXV0b2Jpbw==','YXV0b2Jpbw==','Ymlv','U2V0IGF1dG8gYmlvIChvbi9vZmYp','QVVUT19CSU8=','c2V0YXV0b2Jsb2Nr','YXV0b2Jsb2Nr','YmxvY2tjb3VudHJ5','U2V0IGF1dG8gYmxvY2sgY291bnRyeSBjb2RlcyAoY29tbWEgc2VwYXJhdGVkIG9yIGVtcHR5IHRvIGRpc2FibGUp','QVVUT19CTE9DSw==','4pqg77iPIEF1dG8gYmxvY2sgaXMgYWxyZWFkeSBkaXNhYmxlZCE=','4pyFIEF1dG8gYmxvY2sgZGlzYWJsZWQ=','c2V0YXV0b3JlYWQ=','YXV0b3JlYWQ=','cmVhZG1lc3NhZ2Vz','U2V0IGF1dG8gcmVhZCBtZXNzYWdlcyBtb2RlIChvbi9hbGwvZG0vZ3JvdXBzL2NvbW1hbmRzL29mZik=','4p2MIFBsZWFzZSBzcGVjaWZ5IGEgdmFsaWQgbW9kZTpcbuKAoiAqb24vYWxsKiAtIFJlYWQgYWxsIG1lc3NhZ2VzXG7igKIgKmRtKiAtIFJlYWQgcHJpdmF0ZSBjaGF0cyBvbmx5XG7igKIgKmdyb3VwcyogLSBSZWFkIGdyb3VwIG1lc3NhZ2VzIG9ubHlcbuKAoiAqY29tbWFuZHMqIC0gUmVhZCBib3QgY29tbWFuZHMgb25seVxu4oCiICpvZmYqIC0gRGlzYWJsZSBhdXRvIHJlYWQ=','QVVUT19SRUFEX01FU1NBR0VT','c2V0eXRsaW5r','eXRsaW5r','eW91dHViZQ==','c2V0eXQ=','U2V0IFlvdVR1YmUgY2hhbm5lbCBsaW5r','4p2MIFBsZWFzZSBwcm92aWRlIGEgWW91VHViZSBsaW5rIQ==','c2V0bmV3c2xldHRlcmppZA==','bmV3c2xldHRlcmppZA==','Y2hhbm5lbGppZA==','U2V0IG5ld3NsZXR0ZXIgSklE','4p2MIFBsZWFzZSBwcm92aWRlIGEgbmV3c2xldHRlciBKSUQh','TkVXU0xFVFRFUl9KSUQ=','4pqg77iPIE5ld3NsZXR0ZXIgSklEIGlzIGFscmVhZHkgc2V0IHRvIHRoaXMgdmFsdWUh','4pyFIE5ld3NsZXR0ZXIgSklEIHNldCE=','c2V0Z2NqaWQ=','Z2NqaWQ=','Z3JvdXBqaWQ=','c3VwcG9ydGdj','U2V0IGdyb3VwIGNoYXQgSklEL2ludml0ZSBjb2Rl','4p2MIFBsZWFzZSBwcm92aWRlIGEgZ3JvdXAgSklEIG9yIGludml0ZSBjb2RlIQ==','R0NfSklE','4pqg77iPIEdyb3VwIEpJRCBpcyBhbHJlYWR5IHNldCB0byB0aGlzIHZhbHVlIQ==','4pyFIEdyb3VwIEpJRCBzZXQh','c2V0bmV3c2xldHRlcnVybA==','bmV3c2xldHRlcnVybA==','Y2hhbm5lbHVybA==','U2V0IG5ld3NsZXR0ZXIgVVJM','4p2MIFBsZWFzZSBwcm92aWRlIGEgbmV3c2xldHRlciBVUkwh','TkVXU0xFVFRFUl9VUkw=','4pqg77iPIE5ld3NsZXR0ZXIgVVJMIGlzIGFscmVhZHkgc2V0IHRvIHRoaXMgdmFsdWUh','4pyFIE5ld3NsZXR0ZXIgVVJMIHNldCE=','cmVwbw==','Ym90cmVwbw==','c291cmNl','Z2l0aHVi','Z2VuZXJhbA==','U2hvdyB0aGUgYm90IEdpdEh1YiByZXBvc2l0b3J5IGxpbms=','aHR0cHM6Ly9naXRodWIuY29tL2JsYWNrdGVjaDI1NC9VTFRSQS1NRC0=','Qk9UX1JFUE8=','aHR0cA==','VUxUUkEgR1VSVSBNRA==','c2V0Ym90cmVwbw==','c2V0cmVwbw==','U2V0IGJvdCByZXBvc2l0b3J5IFVSTC4gVXNhZ2U6IC5zZXRib3RyZXBvIDx1cmw+','4p2MIFBsZWFzZSBwcm92aWRlIGEgcmVwb3NpdG9yeSBVUkwhXG5cbkV4YW1wbGU6XG4qLnNldGJvdHJlcG8gaHR0cHM6Ly9naXRodWIuY29tL3lvdXJ1c2VybmFtZS95b3VyLXJlcG8q','c2V0cGFja25hbWU=','cGFja25hbWU=','c3RpY2tlcnBhY2s=','c3RpY2tlcm5hbWU=','U2V0IHN0aWNrZXIgcGFjayBuYW1l','4p2MIFBsZWFzZSBwcm92aWRlIGEgcGFjayBuYW1lIQ==','UEFDS19OQU1F','c2V0cGFja2F1dGhvcg==','cGFja2F1dGhvcg==','c3RpY2tlcmF1dGhvcg==','U2V0IHN0aWNrZXIgcGFjayBhdXRob3I=','4p2MIFBsZWFzZSBwcm92aWRlIGEgcGFjayBhdXRob3Ih','UEFDS19BVVRIT1I=','Z2V0c2V0dGluZw==','Z2V0Y29uZmln','dmlld3NldHRpbmc=','R2V0IGEgc3BlY2lmaWMgc2V0dGluZyB2YWx1ZQ==','4p2MIFBsZWFzZSBwcm92aWRlIGEgc2V0dGluZyBrZXkhXG5FeGFtcGxlOiAuZ2V0c2V0dGluZyBQUkVGSVg=','c2V0c2V0dGluZw==','c2V0Y29uZmln','Y29uZmln','U2V0IGFueSBzZXR0aW5nIChrZXkgdmFsdWUp','4p2MIFBsZWFzZSBwcm92aWRlIGtleSBhbmQgdmFsdWUhXG5FeGFtcGxlOiAuc2V0c2V0dGluZyBQUkVGSVggIQ==','cmVzZXRzZXR0aW5n','cmVzZXRjb25maWc=','ZGVmYXVsdHNldHRpbmc=','UmVzZXQgYSBzZXR0aW5nIHRvIGRlZmF1bHQ=','4p2MIFBsZWFzZSBwcm92aWRlIGEgc2V0dGluZyBrZXkgdG8gcmVzZXQh','cmVzZXRhbGxzZXR0aW5ncw==','cmVzZXRzZXR0aW5ncw==','cmVzZXRhbGw=','ZGVmYXVsdHNldHRpbmdz','UmVzZXQgYWxsIHNldHRpbmdzIHRvIGRlZmF1bHRz','4pyFIEFsbCBzZXR0aW5ncyBoYXZlIGJlZW4gcmVzZXQgdG8gZGVmYXVsdHMh','c2V0YXV0b3JlcGx5c3RhdHVz','YXV0b3JlcGx5c3RhdHVz','cmVwbHlzdGF0dXNhdXRv','U2V0IGF1dG8gcmVwbHkgdG8gc3RhdHVzIChvbi9vZmYp','QVVUT19SRVBMWV9TVEFUVVM=','c2V0cG1wZXJtaXQ=','cG1wZXJtaXQ=','U2V0IFBNIHBlcm1pdCAob24vb2ZmKQ==','UE1fUEVSTUlU','c2V0Z3JvdXBldmVudHM=','Z3JvdXBldmVudHM=','Z2NldmVudHM=','c2V0Z2NldmVudHM=','ZXZlbnRz','Z3JvdXA=','U2V0IGdyb3VwIGV2ZW50cyBub3RpZmljYXRpb25zIGZvciB0aGlzIGdyb3VwIChvbi9vZmYpIC0gcHJvbW90ZXMvZGVtb3Rlcw==','4p2MIFRoaXMgY29tbWFuZCBvbmx5IHdvcmtzIGluIGdyb3VwcyE=','4p2MIEFkbWluL093bmVyIE9ubHkgQ29tbWFuZCE=','R1JPVVBfRVZFTlRT','cmVzZXRzdWRv','ZGVsZXRlYWxsc3Vkb3M=','cmVzZXRzdWRvcw==','Y2xlYXJzdWRv','Y2xlYXJzdWRvcw==','8J+Xke+4jw==','UmVtb3ZlIGFsbCBzdWRvIG51bWJlcnMgZnJvbSBkYXRhYmFzZQ==','4pqg77iPIE5vIHN1ZG8gbnVtYmVycyB0byByZW1vdmUu','Z3JvdXBzZXR0aW5ncw==','Z2NzZXR0aW5ncw==','Z2NzZXQ=','Z3JvdXBzZXQ=','Z3NldHRpbmdz','VmlldyBhbGwgc2V0dGluZ3MgZm9yIHRoaXMgZ3JvdXA=','4p2MIEFkbWluIE9ubHkgQ29tbWFuZCE=','Tm9uZQ==','RGVmYXVsdCBsaXN0','RGVmYXVsdA==','4pWt4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pWuXG4=','4pSCIOKame+4jyAqR1JPVVAgU0VUVElOR1MqXG4=','4pSc4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSkXG4=','4pSCXG4=','4pSCIPCfm6HvuI8gKlBST1RFQ1RJT04qXG4=','4pSCIPCfkqwgKk1FU1NBR0VTKlxu','4pSCICpXZWxjb21lIE1zZzoqXG4=','4pSCICpHb29kYnllIE1zZzoqXG4=','4pWw4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pWvXG4=','XG5fVXNlIC5zZXR3ZWxjb21lLCAuc2V0Z29vZGJ5ZSwgLnNldGFudGlsaW5rLCBldGMgdG8gbW9kaWZ5Xw==','cmVzZXRncm91cA==','cmVzZXRncm91cHNldHRpbmdz','Y2xlYXJncm91cHNldHRpbmdz','cmVzZXRnYw==','Y2xlYXJnYw==','UmVzZXQgYWxsIHNldHRpbmdzIGZvciB0aGlzIGdyb3VwICh3ZWxjb21lLCBnb29kYnllLCBhbnRpbGluaywgZXRjLik=','4pyFIEFsbCBzZXR0aW5ncyBmb3IgdGhpcyBncm91cCBoYXZlIGJlZW4gcmVzZXQgdG8gZGVmYXVsdHMuXG5cbipDbGVhcmVkOipcbuKWuCBXZWxjb21lIG1lc3NhZ2VcbuKWuCBHb29kYnllIG1lc3NhZ2VcbuKWuCBHcm91cCBldmVudHNcbuKWuCBBbnRpbGlua1xu4pa4IEFudGlsaW5rIHdhcm5pbmdz','cmVzZXRkYg==','cmVzZXRkYXRhYmFzZQ==','d2lwZWRhdGFiYXNl','d2lwZWRi','ZmFjdG9yeXJlc2V0','Zmx1c2hkYg==','Zmx1c2hkYXRhYmFzZQ==','UmVzZXQgZW50aXJlIGRhdGFiYXNlIHRvIGRlZmF1bHRzIChib3Qgc2V0dGluZ3MsIHN1ZG8sIGdyb3VwIHNldHRpbmdzKQ==','Y29uZmlybQ==','4pqg77iPICpXQVJOSU5HOiBUaGlzIHdpbGwgcmVzZXQgRVZFUllUSElORyEqXG5cbipXaWxsIGJlIGNsZWFyZWQ6Klxu4pa4IEFsbCBib3Qgc2V0dGluZ3NcbuKWuCBBbGwgc3VkbyBudW1iZXJzXG7ilrggQWxsIGdyb3VwIHNldHRpbmdzXG7ilrggQWxsIGFudGlsaW5rIHdhcm5pbmdzXG5cblRvIGNvbmZpcm0sIHR5cGU6ICoucmVzZXRkYiBjb25maXJtKg==','4pyFIERhdGFiYXNlIGhhcyBiZWVuIGNvbXBsZXRlbHkgcmVzZXQgdG8gZGVmYXVsdHMuXG5cbkFsbCBzZXR0aW5ncywgc3VkbyBudW1iZXJzLCBhbmQgZ3JvdXAgY29uZmlndXJhdGlvbnMgaGF2ZSBiZWVuIGNsZWFyZWQu','YWxsbm90ZXM=','dmlld25vdGVz','dXNlcm5vdGVz','YWxsbm90ZXNkYg==','VmlldyBhbGwgdXNlcnMnIG5vdGVzIChvd25lciBvbmx5KQ==','8J+TrSBObyBub3RlcyBpbiB0aGUgZGF0YWJhc2Uu','8J+TiyAqQUxMIFVTRVIgTk9URVMqXG5cbg==','Li4u','X1VzZSAuYWRtaW5kZWxub3RlIDxpZD4gdG8gZGVsZXRlIGEgbm90ZV9cbg==','X1VzZSAuYWRtaW51cGRhdGVub3RlIDxpZD4gPHRleHQ+IHRvIHVwZGF0ZV9cbg==','X1VzZSAuYWRtaW5jbGVhcm5vdGVzIDxudW1iZXI+IHRvIGNsZWFyIHVzZXIgbm90ZXNf','YWRtaW5kZWxub3Rl','ZGVsZXRlbm90ZWJ5aWQ=','cm1ub3RlYnlpZA==','YWRtaW5kZWxldGVub3Rl','RGVsZXRlIGFueSBub3RlIGJ5IElEIChvd25lciBvbmx5KQ==','4p2MIFByb3ZpZGUgYSBub3RlIElELlxuXG5Vc2FnZTogLmFkbWluZGVsbm90ZSA8aWQ+','YWRtaW51cGRhdGVub3Rl','ZWRpdG5vdGVieWlk','dXBkYXRlbm90ZWJ5aWQ=','YWRtaW5lZGl0bm90ZQ==','VXBkYXRlIGFueSBub3RlIGJ5IElEIChvd25lciBvbmx5KQ==','4p2MIFByb3ZpZGUgbm90ZSBJRCBhbmQgbmV3IGNvbnRlbnQuXG5cblVzYWdlOiAuYWRtaW51cGRhdGVub3RlIDxpZD4gPG5ldyB0ZXh0Pg==','4p2MIEZpcnN0IGFyZ3VtZW50IG11c3QgYmUgYSBub3RlIElELlxuXG5Vc2FnZTogLmFkbWludXBkYXRlbm90ZSA8aWQ+IDxuZXcgdGV4dD4=','4p2MIFByb3ZpZGUgbmV3IGNvbnRlbnQuXG5cblVzYWdlOiAuYWRtaW51cGRhdGVub3RlIDxpZD4gPG5ldyB0ZXh0Pg==','YWRtaW5jbGVhcm5vdGVz','Y2xlYXJ1c2Vybm90ZXM=','ZGVsZXRldXNlcm5vdGVz','YWRtaW5ybWFsbG5vdGVz','RGVsZXRlIGFsbCBub3RlcyBmb3IgYSBzcGVjaWZpYyB1c2VyIChvd25lciBvbmx5KQ==','4p2MIFByb3ZpZGUgdXNlciBudW1iZXIuXG5cblVzYWdlOiAuYWRtaW5jbGVhcm5vdGVzIDxudW1iZXI+','QHMud2hhdHNhcHAubmV0'];a0_0x2868=function(){return _data;};return a0_0x2868();}
 
-const { gmd } = require(a0_0x3c63(0x0));
-const { getSetting, setSetting } = require(a0_0x3c63(0x1));
+const { gmd } = require("../guru/gmdCmds");
+const { getSetting, setSetting } = require("../guru/database/settings");
 const {
   getGroupSetting,
   setGroupSetting,
   resetAllGroupSettings,
   getAllGroupSettings,
-} = require(a0_0x3c63(0x2));
-const { clearAllSudo, getSudoNumbers } = require(a0_0x3c63(0x3));
+} = require("../guru/database/groupSettings");
+const { clearAllSudo, getSudoNumbers } = require("../guru/database/sudo");
 const {
   getAllUsersNotes,
   deleteNoteById,
   updateNoteById,
   deleteAllNotes,
-} = require(a0_0x3c63(0x4));
+} = require("../guru/database/notes");
 
 function parseBooleanInput(input) {
   if (!input) return null;
   const val = input.toLowerCase().trim();
-  if (val === "on") return a0_0x3c63(0x5);
-  if (val === a0_0x3c63(0x6)) return a0_0x3c63(0x7);
+  if (val === "on") return "true";
+  if (val === "off") return "false";
   return val;
 }
 
 function formatBoolDisplay(val) {
-  return val === a0_0x3c63(0x5) ? "ON" : a0_0x3c63(0x8);
+  return val === "true" ? "ON" : "OFF";
 }
 
 function isSettingEnabled(val) {
   if (!val) return false;
   const v = String(val).toLowerCase().trim();
   return (
-    v === a0_0x3c63(0x5) ||
+    v === "true" ||
     v === "on" ||
     v === "1" ||
-    v === a0_0x3c63(0x9) ||
-    v === a0_0x3c63(0xa) ||
-    v === a0_0x3c63(0xb) ||
-    v === a0_0x3c63(0xc)
+    v === "yes" ||
+    v === "warn" ||
+    v === "kick" ||
+    v === "delete"
   );
 }
 
 gmd(
   {
-    pattern: a0_0x3c63(0xd),
-    aliases: [a0_0x3c63(0xe), a0_0x3c63(0xf), a0_0x3c63(0x10), a0_0x3c63(0x11), a0_0x3c63(0x12)],
+    pattern: "setautolikestatus",
+    aliases: ["autolikestatus", "autostatuslike", "statuslike", "autolike", "likestatus"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0x14),
+    category: "owner",
+    description: "Set auto like status (on/off)",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
-    const valid = [a0_0x3c63(0x5), a0_0x3c63(0x7)];
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
+    const valid = ["true", "false"];
     const value = parseBooleanInput(q);
     if (!value || !valid.includes(value)) {
-      return reply(a0_0x3c63(0x16));
+      return reply(`❌ Please specify: on or off`);
     }
     try {
-      const current = await getSetting(a0_0x3c63(0x17));
+      const current = await getSetting("AUTO_LIKE_STATUS");
       if (current === value) {
         return reply(
           `⚠️ Auto like status is already: *${formatBoolDisplay(value)}*`,
         );
       }
-      await setSetting(a0_0x3c63(0x17), value);
+      await setSetting("AUTO_LIKE_STATUS", value);
       await react("✅");
       await reply(`✅ Auto like status set to: *${formatBoolDisplay(value)}*\n\n⚠️ Note: Auto like only works when auto view (*autoreadstatus*) is also *ON*`);
     } catch (error) {
@@ -76,28 +75,28 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0x18),
-    aliases: [a0_0x3c63(0x19), a0_0x3c63(0x1a), a0_0x3c63(0x1b)],
+    pattern: "setautoreadstatus",
+    aliases: ["autoreadstatus", "readstatus", "viewstatus"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0x1c),
+    category: "owner",
+    description: "Set auto read status (on/off)",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
-    const valid = [a0_0x3c63(0x5), a0_0x3c63(0x7)];
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
+    const valid = ["true", "false"];
     const value = parseBooleanInput(q);
     if (!value || !valid.includes(value)) {
-      return reply(a0_0x3c63(0x16));
+      return reply(`❌ Please specify: on or off`);
     }
     try {
-      const current = await getSetting(a0_0x3c63(0x1d));
+      const current = await getSetting("AUTO_READ_STATUS");
       if (current === value) {
         return reply(
           `⚠️ Auto read status is already: *${formatBoolDisplay(value)}*`,
         );
       }
-      await setSetting(a0_0x3c63(0x1d), value);
+      await setSetting("AUTO_READ_STATUS", value);
       await react("✅");
       await reply(`✅ Auto read status set to: *${formatBoolDisplay(value)}*`);
     } catch (error) {
@@ -108,67 +107,25 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0x1e),
-    aliases: [a0_0x3c63(0x1f), a0_0x3c63(0x20)],
+    pattern: "setstatusemojis",
+    aliases: ["statusemojis", "likeemojis"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0x21),
+    category: "owner",
+    description: "Set status like emojis (comma separated)",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
-    if (!q || q.trim() === "")
-      return reply(
-        a0_0x3c63(0x22),
-      );
-
-    const seconds = Number(q.trim());
-    if (!Number.isFinite(seconds) || seconds < 0 || seconds > 3600) {
-      return reply(
-        a0_0x3c63(0x23),
-      );
-    }
-
-    try {
-      const current = await getSetting(a0_0x3c63(0x24));
-      const value = String(Math.floor(seconds));
-      if (current === value) {
-        return reply(`⚠️ Status view delay is already: *${value}s*`);
-      }
-      await setSetting(a0_0x3c63(0x24), value);
-      await react("✅");
-      await reply(
-        value === "0"
-          ? a0_0x3c63(0x25)
-          : `✅ Status view delay set to: *${value} second${value === "1" ? "" : "s"}*`,
-      );
-    } catch (error) {
-      await reply(`❌ Error: ${error.message}`);
-    }
-  },
-);
-
-gmd(
-  {
-    pattern: a0_0x3c63(0x26),
-    aliases: [a0_0x3c63(0x27), a0_0x3c63(0x28)],
-    react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0x29),
-  },
-  async (from, Guru, conText) => {
-    const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
     if (!q)
       return reply(
-        a0_0x3c63(0x2a),
+        "❌ Please provide emojis separated by commas!\nExample: .setstatusemojis 💛,❤️,💜",
       );
     try {
-      const current = await getSetting(a0_0x3c63(0x2b));
+      const current = await getSetting("STATUS_LIKE_EMOJIS");
       if (current === q.trim()) {
         return reply(`⚠️ Status emojis are already set to: *${q.trim()}*`);
       }
-      await setSetting(a0_0x3c63(0x2b), q.trim());
+      await setSetting("STATUS_LIKE_EMOJIS", q.trim());
       await react("✅");
       await reply(`✅ Status emojis set to: *${q.trim()}*`);
     } catch (error) {
@@ -179,24 +136,24 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0x2c),
-    aliases: [a0_0x3c63(0x2d), a0_0x3c63(0x2e)],
+    pattern: "setstatusreplytext",
+    aliases: ["statusreplytext", "statusreply"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0x2f),
+    category: "owner",
+    description: "Set status reply text",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
-    if (!q) return reply(a0_0x3c63(0x30));
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
+    if (!q) return reply("❌ Please provide reply text!");
     try {
-      const current = await getSetting(a0_0x3c63(0x31));
+      const current = await getSetting("STATUS_REPLY_TEXT");
       if (current === q.trim()) {
-        return reply(a0_0x3c63(0x32));
+        return reply(`⚠️ Status reply text is already set to this value!`);
       }
-      await setSetting(a0_0x3c63(0x31), q.trim());
+      await setSetting("STATUS_REPLY_TEXT", q.trim());
       await react("✅");
-      await reply(a0_0x3c63(0x33));
+      await reply(`✅ Status reply text updated!`);
     } catch (error) {
       await reply(`❌ Error: ${error.message}`);
     }
@@ -205,35 +162,35 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0x34),
-    aliases: [a0_0x3c63(0x35), a0_0x3c63(0x36)],
+    pattern: "setautoreact",
+    aliases: ["autoreact", "react"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0x37),
+    category: "owner",
+    description: "Set auto react mode (on/all/dm/groups/commands/off)",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
 
     const input = (q || "").toLowerCase().trim();
-    const validModes = ["on", a0_0x3c63(0x38), "dm", a0_0x3c63(0x39), a0_0x3c63(0x3a), a0_0x3c63(0x6)];
+    const validModes = ["on", "all", "dm", "groups", "commands", "off"];
 
     if (!input || !validModes.includes(input)) {
       return reply(
-        a0_0x3c63(0x3b),
+        `❌ Please specify a valid mode:\n• *on/all* - React to all messages\n• *dm* - React to private chats only\n• *groups* - React to group messages only\n• *commands* - React to bot commands only\n• *off* - Disable auto react`,
       );
     }
 
-    const value = input === "on" ? a0_0x3c63(0x38) : input;
+    const value = input === "on" ? "all" : input;
 
     try {
-      const current = await getSetting(a0_0x3c63(0x3c));
+      const current = await getSetting("AUTO_REACT");
       if (current === value) {
         return reply(
           `⚠️ Auto react is already set to: *${value.toUpperCase()}*`,
         );
       }
-      await setSetting(a0_0x3c63(0x3c), value);
+      await setSetting("AUTO_REACT", value);
       await react("✅");
       await reply(`✅ Auto react set to: *${value.toUpperCase()}*`);
     } catch (error) {
@@ -244,26 +201,26 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0x3d),
-    aliases: [a0_0x3c63(0x3e)],
+    pattern: "setautoreply",
+    aliases: ["autoreply"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0x3f),
+    category: "owner",
+    description: "Set auto reply (on/off)",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
-    const valid = [a0_0x3c63(0x5), a0_0x3c63(0x7)];
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
+    const valid = ["true", "false"];
     const value = parseBooleanInput(q);
     if (!value || !valid.includes(value)) {
-      return reply(a0_0x3c63(0x16));
+      return reply(`❌ Please specify: on or off`);
     }
     try {
-      const current = await getSetting(a0_0x3c63(0x40));
+      const current = await getSetting("AUTO_REPLY");
       if (current === value) {
         return reply(`⚠️ Auto reply is already: *${formatBoolDisplay(value)}*`);
       }
-      await setSetting(a0_0x3c63(0x40), value);
+      await setSetting("AUTO_REPLY", value);
       await react("✅");
       await reply(`✅ Auto reply set to: *${formatBoolDisplay(value)}*`);
     } catch (error) {
@@ -274,26 +231,26 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0x41),
-    aliases: [a0_0x3c63(0x42), a0_0x3c63(0x43)],
+    pattern: "setautobio",
+    aliases: ["autobio", "bio"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0x44),
+    category: "owner",
+    description: "Set auto bio (on/off)",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
-    const valid = [a0_0x3c63(0x5), a0_0x3c63(0x7)];
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
+    const valid = ["true", "false"];
     const value = parseBooleanInput(q);
     if (!value || !valid.includes(value)) {
-      return reply(a0_0x3c63(0x16));
+      return reply(`❌ Please specify: on or off`);
     }
     try {
-      const current = await getSetting(a0_0x3c63(0x45));
+      const current = await getSetting("AUTO_BIO");
       if (current === value) {
         return reply(`⚠️ Auto bio is already: *${formatBoolDisplay(value)}*`);
       }
-      await setSetting(a0_0x3c63(0x45), value);
+      await setSetting("AUTO_BIO", value);
       await react("✅");
       await reply(`✅ Auto bio set to: *${formatBoolDisplay(value)}*`);
     } catch (error) {
@@ -304,32 +261,32 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0x46),
-    aliases: [a0_0x3c63(0x47), a0_0x3c63(0x48)],
+    pattern: "setautoblock",
+    aliases: ["autoblock", "blockcountry"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
+    category: "owner",
     description:
-      a0_0x3c63(0x49),
+      "Set auto block country codes (comma separated or empty to disable)",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
     try {
       const value = q ? q.trim() : "";
-      const current = await getSetting(a0_0x3c63(0x4a));
+      const current = await getSetting("AUTO_BLOCK");
       if (current === value) {
         if (value) {
           return reply(`⚠️ Auto block is already set to: *${value}*`);
         } else {
-          return reply(a0_0x3c63(0x4b));
+          return reply(`⚠️ Auto block is already disabled!`);
         }
       }
-      await setSetting(a0_0x3c63(0x4a), value);
+      await setSetting("AUTO_BLOCK", value);
       await react("✅");
       if (value) {
         await reply(`✅ Auto block set for country codes: *${value}*`);
       } else {
-        await reply(a0_0x3c63(0x4c));
+        await reply(`✅ Auto block disabled`);
       }
     } catch (error) {
       await reply(`❌ Error: ${error.message}`);
@@ -339,35 +296,35 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0x4d),
-    aliases: [a0_0x3c63(0x4e), a0_0x3c63(0x4f)],
+    pattern: "setautoread",
+    aliases: ["autoread", "readmessages"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0x50),
+    category: "owner",
+    description: "Set auto read messages mode (on/all/dm/groups/commands/off)",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
 
     const input = (q || "").toLowerCase().trim();
-    const validModes = ["on", a0_0x3c63(0x38), "dm", a0_0x3c63(0x39), a0_0x3c63(0x3a), a0_0x3c63(0x6)];
+    const validModes = ["on", "all", "dm", "groups", "commands", "off"];
 
     if (!input || !validModes.includes(input)) {
       return reply(
-        a0_0x3c63(0x51),
+        `❌ Please specify a valid mode:\n• *on/all* - Read all messages\n• *dm* - Read private chats only\n• *groups* - Read group messages only\n• *commands* - Read bot commands only\n• *off* - Disable auto read`,
       );
     }
 
-    const value = input === "on" ? a0_0x3c63(0x38) : input;
+    const value = input === "on" ? "all" : input;
 
     try {
-      const current = await getSetting(a0_0x3c63(0x52));
+      const current = await getSetting("AUTO_READ_MESSAGES");
       if (current === value) {
         return reply(
           `⚠️ Auto read messages is already set to: *${value.toUpperCase()}*`,
         );
       }
-      await setSetting(a0_0x3c63(0x52), value);
+      await setSetting("AUTO_READ_MESSAGES", value);
       await react("✅");
       await reply(`✅ Auto read messages set to: *${value.toUpperCase()}*`);
     } catch (error) {
@@ -378,16 +335,16 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0x53),
-    aliases: [a0_0x3c63(0x54), a0_0x3c63(0x55), a0_0x3c63(0x56)],
+    pattern: "setytlink",
+    aliases: ["ytlink", "youtube", "setyt"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0x57),
+    category: "owner",
+    description: "Set YouTube channel link",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
-    if (!q) return reply(a0_0x3c63(0x58));
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
+    if (!q) return reply("❌ Please provide a YouTube link!");
     try {
       const current = await getSetting("YT");
       if (current === q.trim()) {
@@ -404,24 +361,24 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0x59),
-    aliases: [a0_0x3c63(0x5a), a0_0x3c63(0x5b)],
+    pattern: "setnewsletterjid",
+    aliases: ["newsletterjid", "channeljid"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0x5c),
+    category: "owner",
+    description: "Set newsletter JID",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
-    if (!q) return reply(a0_0x3c63(0x5d));
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
+    if (!q) return reply("❌ Please provide a newsletter JID!");
     try {
-      const current = await getSetting(a0_0x3c63(0x5e));
+      const current = await getSetting("NEWSLETTER_JID");
       if (current === q.trim()) {
-        return reply(a0_0x3c63(0x5f));
+        return reply(`⚠️ Newsletter JID is already set to this value!`);
       }
-      await setSetting(a0_0x3c63(0x5e), q.trim());
+      await setSetting("NEWSLETTER_JID", q.trim());
       await react("✅");
-      await reply(a0_0x3c63(0x60));
+      await reply(`✅ Newsletter JID set!`);
     } catch (error) {
       await reply(`❌ Error: ${error.message}`);
     }
@@ -430,24 +387,24 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0x61),
-    aliases: [a0_0x3c63(0x62), a0_0x3c63(0x63), a0_0x3c63(0x64)],
+    pattern: "setgcjid",
+    aliases: ["gcjid", "groupjid", "supportgc"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0x65),
+    category: "owner",
+    description: "Set group chat JID/invite code",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
-    if (!q) return reply(a0_0x3c63(0x66));
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
+    if (!q) return reply("❌ Please provide a group JID or invite code!");
     try {
-      const current = await getSetting(a0_0x3c63(0x67));
+      const current = await getSetting("GC_JID");
       if (current === q.trim()) {
-        return reply(a0_0x3c63(0x68));
+        return reply(`⚠️ Group JID is already set to this value!`);
       }
-      await setSetting(a0_0x3c63(0x67), q.trim());
+      await setSetting("GC_JID", q.trim());
       await react("✅");
-      await reply(a0_0x3c63(0x69));
+      await reply(`✅ Group JID set!`);
     } catch (error) {
       await reply(`❌ Error: ${error.message}`);
     }
@@ -456,24 +413,24 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0x6a),
-    aliases: [a0_0x3c63(0x6b), a0_0x3c63(0x6c)],
+    pattern: "setnewsletterurl",
+    aliases: ["newsletterurl", "channelurl"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0x6d),
+    category: "owner",
+    description: "Set newsletter URL",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
-    if (!q) return reply(a0_0x3c63(0x6e));
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
+    if (!q) return reply("❌ Please provide a newsletter URL!");
     try {
-      const current = await getSetting(a0_0x3c63(0x6f));
+      const current = await getSetting("NEWSLETTER_URL");
       if (current === q.trim()) {
-        return reply(a0_0x3c63(0x70));
+        return reply(`⚠️ Newsletter URL is already set to this value!`);
       }
-      await setSetting(a0_0x3c63(0x6f), q.trim());
+      await setSetting("NEWSLETTER_URL", q.trim());
       await react("✅");
-      await reply(a0_0x3c63(0x71));
+      await reply(`✅ Newsletter URL set!`);
     } catch (error) {
       await reply(`❌ Error: ${error.message}`);
     }
@@ -482,21 +439,21 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0x72),
-    aliases: [a0_0x3c63(0x73), a0_0x3c63(0x74), a0_0x3c63(0x75)],
+    pattern: "repo",
+    aliases: ["botrepo", "source", "github"],
     react: "🔗",
-    category: a0_0x3c63(0x76),
-    description: a0_0x3c63(0x77),
+    category: "general",
+    description: "Show the bot GitHub repository link",
   },
   async (from, Guru, conText) => {
     const { reply, react, botName, botFooter } = conText;
     await react("🔗");
     try {
-      const BOT_GITHUB = a0_0x3c63(0x78);
+      const BOT_GITHUB = "https://github.com/GuruhTech/ULTRA-GURU";
       // Use DB only if owner explicitly changed it via .setbotrepo, otherwise hardcoded
-      let repoUrl = (await getSetting(a0_0x3c63(0x79))) || BOT_GITHUB;
-      if (!repoUrl.startsWith(a0_0x3c63(0x7a))) repoUrl = `https://github.com/${repoUrl}`;
-      const botN     = botName || a0_0x3c63(0x7b);
+      let repoUrl = (await getSetting("BOT_REPO")) || BOT_GITHUB;
+      if (!repoUrl.startsWith("http")) repoUrl = `https://github.com/${repoUrl}`;
+      const botN     = botName || "ULTRA GURU MD";
       const footer   = botFooter ? `\n\n> *${botFooter}*` : "";
       await reply(
 `🌟 *${botN} — Source Code*
@@ -516,22 +473,22 @@ ${repoUrl}
 
 gmd(
   {
-    pattern: a0_0x3c63(0x7c),
-    aliases: [a0_0x3c63(0x7d)],
+    pattern: "setbotrepo",
+    aliases: ["setrepo"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0x7e),
+    category: "owner",
+    description: "Set bot repository URL. Usage: .setbotrepo <url>",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
-    if (!q) return reply(a0_0x3c63(0x7f));
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
+    if (!q) return reply(`❌ Please provide a repository URL!\n\nExample:\n*.setbotrepo https://github.com/yourusername/your-repo*`);
     try {
-      const current = await getSetting(a0_0x3c63(0x79));
+      const current = await getSetting("BOT_REPO");
       if (current === q.trim()) {
         return reply(`⚠️ Bot repository is already set to:\n${q.trim()}`);
       }
-      await setSetting(a0_0x3c63(0x79), q.trim());
+      await setSetting("BOT_REPO", q.trim());
       await react("✅");
       await reply(`✅ Bot repository updated!\n\n🔗 ${q.trim()}`);
     } catch (error) {
@@ -542,22 +499,22 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0x80),
-    aliases: [a0_0x3c63(0x81), a0_0x3c63(0x82), a0_0x3c63(0x83)],
+    pattern: "setpackname",
+    aliases: ["packname", "stickerpack", "stickername"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0x84),
+    category: "owner",
+    description: "Set sticker pack name",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
-    if (!q) return reply(a0_0x3c63(0x85));
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
+    if (!q) return reply("❌ Please provide a pack name!");
     try {
-      const current = await getSetting(a0_0x3c63(0x86));
+      const current = await getSetting("PACK_NAME");
       if (current === q.trim()) {
         return reply(`⚠️ Pack name is already set to: *${q.trim()}*`);
       }
-      await setSetting(a0_0x3c63(0x86), q.trim());
+      await setSetting("PACK_NAME", q.trim());
       await react("✅");
       await reply(`✅ Pack name set to: *${q.trim()}*`);
     } catch (error) {
@@ -568,22 +525,22 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0x87),
-    aliases: [a0_0x3c63(0x88), a0_0x3c63(0x89)],
+    pattern: "setpackauthor",
+    aliases: ["packauthor", "stickerauthor"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0x8a),
+    category: "owner",
+    description: "Set sticker pack author",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
-    if (!q) return reply(a0_0x3c63(0x8b));
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
+    if (!q) return reply("❌ Please provide a pack author!");
     try {
-      const current = await getSetting(a0_0x3c63(0x8c));
+      const current = await getSetting("PACK_AUTHOR");
       if (current === q.trim()) {
         return reply(`⚠️ Pack author is already set to: *${q.trim()}*`);
       }
-      await setSetting(a0_0x3c63(0x8c), q.trim());
+      await setSetting("PACK_AUTHOR", q.trim());
       await react("✅");
       await reply(`✅ Pack author set to: *${q.trim()}*`);
     } catch (error) {
@@ -594,18 +551,18 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0x8d),
-    aliases: [a0_0x3c63(0x8e), a0_0x3c63(0x8f)],
+    pattern: "getsetting",
+    aliases: ["getconfig", "viewsetting"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0x90),
+    category: "owner",
+    description: "Get a specific setting value",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
     if (!q)
       return reply(
-        a0_0x3c63(0x91),
+        "❌ Please provide a setting key!\nExample: .getsetting PREFIX",
       );
     try {
       const value = await getSetting(q.toUpperCase().trim());
@@ -619,18 +576,18 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0x92),
-    aliases: [a0_0x3c63(0x93), a0_0x3c63(0x94)],
+    pattern: "setsetting",
+    aliases: ["setconfig", "config"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0x95),
+    category: "owner",
+    description: "Set any setting (key value)",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
     if (!q || !q.includes(" ")) {
       return reply(
-        a0_0x3c63(0x96),
+        "❌ Please provide key and value!\nExample: .setsetting PREFIX !",
       );
     }
     try {
@@ -652,16 +609,16 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0x97),
-    aliases: [a0_0x3c63(0x98), a0_0x3c63(0x99)],
+    pattern: "resetsetting",
+    aliases: ["resetconfig", "defaultsetting"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0x9a),
+    category: "owner",
+    description: "Reset a setting to default",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
-    if (!q) return reply(a0_0x3c63(0x9b));
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
+    if (!q) return reply("❌ Please provide a setting key to reset!");
     try {
       const defaultValue = await resetSetting(q.toUpperCase().trim());
       await react("✅");
@@ -676,19 +633,19 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0x9c),
-    aliases: [a0_0x3c63(0x9d), a0_0x3c63(0x9e), a0_0x3c63(0x9f)],
+    pattern: "resetallsettings",
+    aliases: ["resetsettings", "resetall", "defaultsettings"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0xa0),
+    category: "owner",
+    description: "Reset all settings to defaults",
   },
   async (from, Guru, conText) => {
     const { reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
     try {
       await resetAllSettings();
       await react("✅");
-      await reply(a0_0x3c63(0xa1));
+      await reply(`✅ All settings have been reset to defaults!`);
     } catch (error) {
       await reply(`❌ Error: ${error.message}`);
     }
@@ -697,28 +654,28 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0xa2),
-    aliases: [a0_0x3c63(0xa3), a0_0x3c63(0xa4)],
+    pattern: "setautoreplystatus",
+    aliases: ["autoreplystatus", "replystatusauto"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0xa5),
+    category: "owner",
+    description: "Set auto reply to status (on/off)",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
-    const valid = [a0_0x3c63(0x5), a0_0x3c63(0x7)];
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
+    const valid = ["true", "false"];
     const value = parseBooleanInput(q);
     if (!value || !valid.includes(value)) {
-      return reply(a0_0x3c63(0x16));
+      return reply(`❌ Please specify: on or off`);
     }
     try {
-      const current = await getSetting(a0_0x3c63(0xa6));
+      const current = await getSetting("AUTO_REPLY_STATUS");
       if (current === value) {
         return reply(
           `⚠️ Auto reply status is already: *${formatBoolDisplay(value)}*`,
         );
       }
-      await setSetting(a0_0x3c63(0xa6), value);
+      await setSetting("AUTO_REPLY_STATUS", value);
       await react("✅");
       await reply(`✅ Auto reply status set to: *${formatBoolDisplay(value)}*\n\n⚠️ Note: Auto reply to status only works when auto view (*autoreadstatus*) is also *ON*`);
     } catch (error) {
@@ -729,26 +686,26 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0xa7),
-    aliases: [a0_0x3c63(0xa8)],
+    pattern: "setpmpermit",
+    aliases: ["pmpermit"],
     react: "⚙️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0xa9),
+    category: "owner",
+    description: "Set PM permit (on/off)",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
-    const valid = [a0_0x3c63(0x5), a0_0x3c63(0x7)];
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
+    const valid = ["true", "false"];
     const value = parseBooleanInput(q);
     if (!value || !valid.includes(value)) {
-      return reply(a0_0x3c63(0x16));
+      return reply(`❌ Please specify: on or off`);
     }
     try {
-      const current = await getSetting(a0_0x3c63(0xaa));
+      const current = await getSetting("PM_PERMIT");
       if (current === value) {
         return reply(`⚠️ PM Permit is already: *${formatBoolDisplay(value)}*`);
       }
-      await setSetting(a0_0x3c63(0xaa), value);
+      await setSetting("PM_PERMIT", value);
       await react("✅");
       await reply(`✅ PM Permit set to: *${formatBoolDisplay(value)}*`);
     } catch (error) {
@@ -759,30 +716,30 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0xab),
-    aliases: [a0_0x3c63(0xac), a0_0x3c63(0xad), a0_0x3c63(0xae), a0_0x3c63(0xaf)],
+    pattern: "setgroupevents",
+    aliases: ["groupevents", "gcevents", "setgcevents", "events"],
     react: "⚙️",
-    category: a0_0x3c63(0xb0),
+    category: "group",
     description:
-      a0_0x3c63(0xb1),
+      "Set group events notifications for this group (on/off) - promotes/demotes",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser, isGroup, isAdmin } = conText;
-    if (!isGroup) return reply(a0_0x3c63(0xb2));
-    if (!isSuperUser && !isAdmin) return reply(a0_0x3c63(0xb3));
-    const valid = [a0_0x3c63(0x5), a0_0x3c63(0x7)];
+    if (!isGroup) return reply("❌ This command only works in groups!");
+    if (!isSuperUser && !isAdmin) return reply("❌ Admin/Owner Only Command!");
+    const valid = ["true", "false"];
     const value = parseBooleanInput(q);
     if (!value || !valid.includes(value)) {
-      return reply(a0_0x3c63(0x16));
+      return reply(`❌ Please specify: on or off`);
     }
     try {
-      const current = await getGroupSetting(from, a0_0x3c63(0xb4));
+      const current = await getGroupSetting(from, "GROUP_EVENTS");
       if (current === value) {
         return reply(
           `⚠️ Group events for this group is already: *${formatBoolDisplay(value)}*`,
         );
       }
-      await setGroupSetting(from, a0_0x3c63(0xb4), value);
+      await setGroupSetting(from, "GROUP_EVENTS", value);
       await react("✅");
       await reply(
         `✅ Group events for this group: *${formatBoolDisplay(value)}*`,
@@ -795,19 +752,19 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0xb5),
-    aliases: [a0_0x3c63(0xb6), a0_0x3c63(0xb7), a0_0x3c63(0xb8), a0_0x3c63(0xb9)],
-    react: a0_0x3c63(0xba),
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0xbb),
+    pattern: "resetsudo",
+    aliases: ["deleteallsudos", "resetsudos", "clearsudo", "clearsudos"],
+    react: "🗑️",
+    category: "owner",
+    description: "Remove all sudo numbers from database",
   },
   async (from, Guru, conText) => {
     const { reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
     try {
       const sudoList = await getSudoNumbers();
       if (sudoList.length === 0) {
-        return reply(a0_0x3c63(0xbc));
+        return reply("⚠️ No sudo numbers to remove.");
       }
       const count = await clearAllSudo();
       await react("✅");
@@ -820,45 +777,45 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0xbd),
-    aliases: [a0_0x3c63(0xbe), a0_0x3c63(0xbf), a0_0x3c63(0xc0), a0_0x3c63(0xc1)],
+    pattern: "groupsettings",
+    aliases: ["gcsettings", "gcset", "groupset", "gsettings"],
     react: "⚙️",
-    category: a0_0x3c63(0xb0),
-    description: a0_0x3c63(0xc2),
+    category: "group",
+    description: "View all settings for this group",
   },
   async (from, Guru, conText) => {
     const { reply, react, isAdmin, isSuperAdmin, isGroup, groupName } = conText;
-    if (!isGroup) return reply(a0_0x3c63(0xb2));
-    if (!isAdmin && !isSuperAdmin) return reply(a0_0x3c63(0xc3));
+    if (!isGroup) return reply("❌ This command only works in groups!");
+    if (!isAdmin && !isSuperAdmin) return reply("❌ Admin Only Command!");
 
     try {
       const {
         getBadWords,
         DEFAULT_BAD_WORDS,
-      } = require(a0_0x3c63(0x2));
+      } = require("../guru/database/groupSettings");
       const settings = await getAllGroupSettings(from);
 
       const welcomeStatus = isSettingEnabled(settings.WELCOME_MESSAGE)
         ? "ON"
-        : a0_0x3c63(0x8);
+        : "OFF";
       const goodbyeStatus = isSettingEnabled(settings.GOODBYE_MESSAGE)
         ? "ON"
-        : a0_0x3c63(0x8);
+        : "OFF";
       const eventsStatus = isSettingEnabled(settings.GROUP_EVENTS)
         ? "ON"
-        : a0_0x3c63(0x8);
-      const antilinkStatus = isSettingEnabled(settings.ANTILINK) ? "ON" : a0_0x3c63(0x8);
-      const antibadStatus = isSettingEnabled(settings.ANTIBAD) ? "ON" : a0_0x3c63(0x8);
+        : "OFF";
+      const antilinkStatus = isSettingEnabled(settings.ANTILINK) ? "ON" : "OFF";
+      const antibadStatus = isSettingEnabled(settings.ANTIBAD) ? "ON" : "OFF";
 
-      const antiGcMentionRaw = settings.ANTIGROUPMENTION || a0_0x3c63(0x6);
-      let antiGcMentionStatus = a0_0x3c63(0x8);
+      const antiGcMentionRaw = settings.ANTIGROUPMENTION || "off";
+      let antiGcMentionStatus = "OFF";
       let antiGcMentionAction = "";
       if (isSettingEnabled(antiGcMentionRaw)) {
         antiGcMentionStatus = "ON";
-        if (antiGcMentionRaw === a0_0x3c63(0xb)) {
-          antiGcMentionAction = a0_0x3c63(0xb);
+        if (antiGcMentionRaw === "kick") {
+          antiGcMentionAction = "kick";
         } else {
-          antiGcMentionAction = a0_0x3c63(0xa);
+          antiGcMentionAction = "warn";
         }
       }
 
@@ -869,10 +826,10 @@ gmd(
       const isUsingDefault =
         badWords.length === DEFAULT_BAD_WORDS.length &&
         badWords.every((w) => defaultBadWordsSet.has(w.toLowerCase()));
-      let badWordsDisplay = a0_0x3c63(0xc4);
+      let badWordsDisplay = "None";
       if (badWords.length > 0) {
         if (isUsingDefault) {
-          badWordsDisplay = a0_0x3c63(0xc5);
+          badWordsDisplay = "Default list";
         } else {
           const displayWords = badWords.slice(0, 5).join(", ");
           badWordsDisplay =
@@ -882,60 +839,60 @@ gmd(
         }
       }
 
-      const welcomeText = settings.WELCOME_MESSAGE_TEXT || a0_0x3c63(0xc6);
-      const goodbyeText = settings.GOODBYE_MESSAGE_TEXT || a0_0x3c63(0xc6);
+      const welcomeText = settings.WELCOME_MESSAGE_TEXT || "Default";
+      const goodbyeText = settings.GOODBYE_MESSAGE_TEXT || "Default";
 
-      let msg = a0_0x3c63(0xc7);
-      msg += a0_0x3c63(0xc8);
-      msg += a0_0x3c63(0xc9);
+      let msg = `╭━━━━━━━━━━━╮\n`;
+      msg += `│ ⚙️ *GROUP SETTINGS*\n`;
+      msg += `├━━━━━━━━━━━┤\n`;
       msg += `│ 📍 *${groupName || "This Group"}*\n`;
-      msg += a0_0x3c63(0xc9);
-      msg += a0_0x3c63(0xca);
+      msg += `├━━━━━━━━━━━┤\n`;
+      msg += `│\n`;
       msg += `│ 👋 *Welcome:* ${welcomeStatus}\n`;
       msg += `│ 👋 *Goodbye:* ${goodbyeStatus}\n`;
       msg += `│ 📢 *Events:* ${eventsStatus}\n`;
-      msg += a0_0x3c63(0xca);
-      msg += a0_0x3c63(0xc9);
-      msg += a0_0x3c63(0xcb);
-      msg += a0_0x3c63(0xc9);
-      msg += a0_0x3c63(0xca);
-      const antilinkRaw = settings.ANTILINK || a0_0x3c63(0x6);
-      let antilinkAction = a0_0x3c63(0xc);
-      if (antilinkRaw === a0_0x3c63(0xa)) antilinkAction = a0_0x3c63(0xa);
-      else if (antilinkRaw === a0_0x3c63(0xb)) antilinkAction = a0_0x3c63(0xb);
+      msg += `│\n`;
+      msg += `├━━━━━━━━━━━┤\n`;
+      msg += `│ 🛡️ *PROTECTION*\n`;
+      msg += `├━━━━━━━━━━━┤\n`;
+      msg += `│\n`;
+      const antilinkRaw = settings.ANTILINK || "off";
+      let antilinkAction = "delete";
+      if (antilinkRaw === "warn") antilinkAction = "warn";
+      else if (antilinkRaw === "kick") antilinkAction = "kick";
 
       msg += `│ 🔗 *Antilink:* ${antilinkStatus}\n`;
       if (antilinkStatus === "ON") {
         msg += `│ └ Action: ${antilinkAction}\n`;
-        if (antilinkAction === a0_0x3c63(0xa)) {
+        if (antilinkAction === "warn") {
           msg += `│ └ Warns: ${settings.ANTILINK_WARN_COUNT}\n`;
         }
       }
-      msg += a0_0x3c63(0xca);
+      msg += `│\n`;
       msg += `│ 🚫 *Antibad:* ${antibadStatus}\n`;
       msg += `│ └ Warns: ${settings.ANTIBAD_WARN_COUNT}\n`;
       msg += `│ └ Words: ${badWordsDisplay}\n`;
-      msg += a0_0x3c63(0xca);
+      msg += `│\n`;
       msg += `│ 📢 *Anti-Status-Mention:* ${antiGcMentionStatus}\n`;
       if (antiGcMentionStatus === "ON") {
         msg += `│ └ Action: ${antiGcMentionAction}\n`;
-        if (antiGcMentionAction === a0_0x3c63(0xa)) {
+        if (antiGcMentionAction === "warn") {
           msg += `│ └ Warn Limit: ${settings.ANTIGROUPMENTION_WARN_COUNT || 3}\n`;
         }
       }
-      msg += a0_0x3c63(0xca);
-      msg += a0_0x3c63(0xc9);
-      msg += a0_0x3c63(0xcc);
-      msg += a0_0x3c63(0xc9);
-      msg += a0_0x3c63(0xca);
-      msg += a0_0x3c63(0xcd);
+      msg += `│\n`;
+      msg += `├━━━━━━━━━━━┤\n`;
+      msg += `│ 💬 *MESSAGES*\n`;
+      msg += `├━━━━━━━━━━━┤\n`;
+      msg += `│\n`;
+      msg += `│ *Welcome Msg:*\n`;
       msg += `│ ${welcomeText.length > 50 ? welcomeText.substring(0, 50) + "..." : welcomeText}\n`;
-      msg += a0_0x3c63(0xca);
-      msg += a0_0x3c63(0xce);
+      msg += `│\n`;
+      msg += `│ *Goodbye Msg:*\n`;
       msg += `│ ${goodbyeText.length > 50 ? goodbyeText.substring(0, 50) + "..." : goodbyeText}\n`;
-      msg += a0_0x3c63(0xca);
-      msg += a0_0x3c63(0xcf);
-      msg += a0_0x3c63(0xd0);
+      msg += `│\n`;
+      msg += `╰━━━━━━━━━━━╯\n`;
+      msg += `\n_Use .setwelcome, .setgoodbye, .setantilink, etc to modify_`;
 
       await react("✅");
       await reply(msg);
@@ -947,22 +904,22 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0xd1),
-    aliases: [a0_0x3c63(0xd2), a0_0x3c63(0xd3), a0_0x3c63(0xd4), a0_0x3c63(0xd5)],
-    react: a0_0x3c63(0xba),
-    category: a0_0x3c63(0xb0),
+    pattern: "resetgroup",
+    aliases: ["resetgroupsettings", "cleargroupsettings", "resetgc", "cleargc"],
+    react: "🗑️",
+    category: "group",
     description:
-      a0_0x3c63(0xd6),
+      "Reset all settings for this group (welcome, goodbye, antilink, etc.)",
   },
   async (from, Guru, conText) => {
     const { reply, react, isSuperUser, isGroup } = conText;
-    if (!isGroup) return reply(a0_0x3c63(0xb2));
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
+    if (!isGroup) return reply("❌ This command only works in groups!");
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
     try {
       await resetAllGroupSettings(from);
       await react("✅");
       await reply(
-        a0_0x3c63(0xd7),
+        `✅ All settings for this group have been reset to defaults.\n\n*Cleared:*\n▸ Welcome message\n▸ Goodbye message\n▸ Group events\n▸ Antilink\n▸ Antilink warnings`,
       );
     } catch (error) {
       await reply(`❌ Error: ${error.message}`);
@@ -972,27 +929,27 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0xd8),
+    pattern: "resetdb",
     aliases: [
-      a0_0x3c63(0xd9),
-      a0_0x3c63(0xda),
-      a0_0x3c63(0xdb),
-      a0_0x3c63(0xdc),
-      a0_0x3c63(0xdd),
-      a0_0x3c63(0xde),
+      "resetdatabase",
+      "wipedatabase",
+      "wipedb",
+      "factoryreset",
+      "flushdb",
+      "flushdatabase",
     ],
     react: "⚠️",
-    category: a0_0x3c63(0x13),
+    category: "owner",
     description:
-      a0_0x3c63(0xdf),
+      "Reset entire database to defaults (bot settings, sudo, group settings)",
   },
   async (from, Guru, conText) => {
     const { q, reply, react, isSuperUser } = conText;
-    if (!isSuperUser) return reply(a0_0x3c63(0x15));
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
 
-    if (q !== a0_0x3c63(0xe0)) {
+    if (q !== "confirm") {
       return reply(
-        a0_0x3c63(0xe1),
+        `⚠️ *WARNING: This will reset EVERYTHING!*\n\n*Will be cleared:*\n▸ All bot settings\n▸ All sudo numbers\n▸ All group settings\n▸ All antilink warnings\n\nTo confirm, type: *.resetdb confirm*`,
       );
     }
 
@@ -1002,12 +959,12 @@ gmd(
       const {
         GroupSettingsDB,
         AntilinkWarningsDB,
-      } = require(a0_0x3c63(0x2));
+      } = require("../guru/database/groupSettings");
       await GroupSettingsDB.destroy({ where: {} });
       await AntilinkWarningsDB.destroy({ where: {} });
       await react("✅");
       await reply(
-        a0_0x3c63(0xe2),
+        `✅ Database has been completely reset to defaults.\n\nAll settings, sudo numbers, and group configurations have been cleared.`,
       );
     } catch (error) {
       await reply(`❌ Error: ${error.message}`);
@@ -1017,24 +974,24 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0xe3),
-    aliases: [a0_0x3c63(0xe4), a0_0x3c63(0xe5), a0_0x3c63(0xe6)],
+    pattern: "allnotes",
+    aliases: ["viewnotes", "usernotes", "allnotesdb"],
     react: "📋",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0xe7),
+    category: "owner",
+    description: "View all users' notes (owner only)",
   },
   async (from, Guru, conText) => {
     const { reply, react, isSuperUser } = conText;
     if (!isSuperUser) {
       await react("❌");
-      return reply(a0_0x3c63(0x15));
+      return reply("❌ Owner Only Command!");
     }
 
     try {
       const allNotes = await getAllUsersNotes();
 
       if (allNotes.length === 0) {
-        return reply(a0_0x3c63(0xe8));
+        return reply("📭 No notes in the database.");
       }
 
       const groupedByUser = {};
@@ -1045,7 +1002,7 @@ gmd(
         groupedByUser[note.userJid].push(note);
       }
 
-      let text = a0_0x3c63(0xe9);
+      let text = `📋 *ALL USER NOTES*\n\n`;
       text += `Total: ${allNotes.length} notes from ${Object.keys(groupedByUser).length} users\n\n`;
 
       for (const [userJid, notes] of Object.entries(groupedByUser)) {
@@ -1054,16 +1011,16 @@ gmd(
         for (const note of notes) {
           const preview =
             note.content.length > 30
-              ? note.content.substring(0, 30) + a0_0x3c63(0xea)
+              ? note.content.substring(0, 30) + "..."
               : note.content;
           text += `  ID:${note.id} #${note.noteNumber} - ${preview}\n`;
         }
         text += `\n`;
       }
 
-      text += a0_0x3c63(0xeb);
-      text += a0_0x3c63(0xec);
-      text += a0_0x3c63(0xed);
+      text += `_Use .admindelnote <id> to delete a note_\n`;
+      text += `_Use .adminupdatenote <id> <text> to update_\n`;
+      text += `_Use .adminclearnotes <number> to clear user notes_`;
 
       await reply(text);
     } catch (error) {
@@ -1074,21 +1031,21 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0xee),
-    aliases: [a0_0x3c63(0xef), a0_0x3c63(0xf0), a0_0x3c63(0xf1)],
-    react: a0_0x3c63(0xba),
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0xf2),
+    pattern: "admindelnote",
+    aliases: ["deletenotebyid", "rmnotebyid", "admindeletenote"],
+    react: "🗑️",
+    category: "owner",
+    description: "Delete any note by ID (owner only)",
   },
   async (from, Guru, conText) => {
     const { reply, react, isSuperUser, q } = conText;
     if (!isSuperUser) {
       await react("❌");
-      return reply(a0_0x3c63(0x15));
+      return reply("❌ Owner Only Command!");
     }
 
     if (!q || isNaN(parseInt(q))) {
-      return reply(a0_0x3c63(0xf3));
+      return reply("❌ Provide a note ID.\n\nUsage: .admindelnote <id>");
     }
 
     try {
@@ -1109,22 +1066,22 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0xf4),
-    aliases: [a0_0x3c63(0xf5), a0_0x3c63(0xf6), a0_0x3c63(0xf7)],
+    pattern: "adminupdatenote",
+    aliases: ["editnotebyid", "updatenotebyid", "admineditnote"],
     react: "✏️",
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0xf8),
+    category: "owner",
+    description: "Update any note by ID (owner only)",
   },
   async (from, Guru, conText) => {
     const { reply, react, isSuperUser, q } = conText;
     if (!isSuperUser) {
       await react("❌");
-      return reply(a0_0x3c63(0x15));
+      return reply("❌ Owner Only Command!");
     }
 
     if (!q || q.trim() === "") {
       return reply(
-        a0_0x3c63(0xf9),
+        "❌ Provide note ID and new content.\n\nUsage: .adminupdatenote <id> <new text>",
       );
     }
 
@@ -1134,14 +1091,14 @@ gmd(
 
       if (isNaN(noteId)) {
         return reply(
-          a0_0x3c63(0xfa),
+          "❌ First argument must be a note ID.\n\nUsage: .adminupdatenote <id> <new text>",
         );
       }
 
       const newContent = parts.slice(1).join(" ");
       if (!newContent) {
         return reply(
-          a0_0x3c63(0xfb),
+          "❌ Provide new content.\n\nUsage: .adminupdatenote <id> <new text>",
         );
       }
 
@@ -1161,28 +1118,28 @@ gmd(
 
 gmd(
   {
-    pattern: a0_0x3c63(0xfc),
-    aliases: [a0_0x3c63(0xfd), a0_0x3c63(0xfe), a0_0x3c63(0xff)],
-    react: a0_0x3c63(0xba),
-    category: a0_0x3c63(0x13),
-    description: a0_0x3c63(0x100),
+    pattern: "adminclearnotes",
+    aliases: ["clearusernotes", "deleteusernotes", "adminrmallnotes"],
+    react: "🗑️",
+    category: "owner",
+    description: "Delete all notes for a specific user (owner only)",
   },
   async (from, Guru, conText) => {
     const { reply, react, isSuperUser, q } = conText;
     if (!isSuperUser) {
       await react("❌");
-      return reply(a0_0x3c63(0x15));
+      return reply("❌ Owner Only Command!");
     }
 
     if (!q || q.trim() === "") {
       return reply(
-        a0_0x3c63(0x101),
+        "❌ Provide user number.\n\nUsage: .adminclearnotes <number>",
       );
     }
 
     try {
       let userNumber = q.trim().replace(/[^0-9]/g, "");
-      const userJid = userNumber + a0_0x3c63(0x102);
+      const userJid = userNumber + "@s.whatsapp.net";
 
       const count = await deleteAllNotes(userJid);
 

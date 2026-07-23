@@ -1,1 +1,201 @@
-const a0_0x316ab0=a0_0x5d9d;(function(_0x3622ff,_0x1bb944){const _0x2397f9=a0_0x5d9d,_0x40e076=_0x3622ff();while(!![]){try{const _0x2d79d9=parseInt(_0x2397f9(0xc9))/0x1*(parseInt(_0x2397f9(0x94))/0x2)+parseInt(_0x2397f9(0xc3))/0x3*(-parseInt(_0x2397f9(0xaf))/0x4)+-parseInt(_0x2397f9(0x8d))/0x5*(-parseInt(_0x2397f9(0xef))/0x6)+-parseInt(_0x2397f9(0x98))/0x7*(parseInt(_0x2397f9(0x83))/0x8)+-parseInt(_0x2397f9(0xd2))/0x9+parseInt(_0x2397f9(0xa9))/0xa*(-parseInt(_0x2397f9(0x105))/0xb)+parseInt(_0x2397f9(0x8e))/0xc;if(_0x2d79d9===_0x1bb944)break;else _0x40e076['push'](_0x40e076['shift']());}catch(_0x2ce70a){_0x40e076['push'](_0x40e076['shift']());}}}(a0_0x2edb,0x47003));const a0_0x5671bc=(function(){let _0x112310=!![];return function(_0x5548c1,_0x5462b5){const _0xa34ba2=_0x112310?function(){const _0x4df804=a0_0x5d9d;if(_0x5462b5){const _0x18d9b4=_0x5462b5[_0x4df804(0xc6)](_0x5548c1,arguments);return _0x5462b5=null,_0x18d9b4;}}:function(){};return _0x112310=![],_0xa34ba2;};}()),a0_0x439731=a0_0x5671bc(this,function(){const _0x46449a=a0_0x5d9d;if(a0_0x439731[_0x46449a(0x9d)]()[_0x46449a(0xc1)]()[_0x46449a(0x84)]('\x0a')!==-0x1)return;return a0_0x439731[_0x46449a(0xc1)]()[_0x46449a(0x99)](_0x46449a(0x107)+'+$')[_0x46449a(0xc1)]()[_0x46449a(0x91)+'r'](a0_0x439731)[_0x46449a(0x99)](_0x46449a(0x107)+'+$');});a0_0x439731();const {gmd}=require(a0_0x316ab0(0xa7)),path=require(a0_0x316ab0(0xf9)),fs=require('fs')['promises'],{sendButtons}=require(a0_0x316ab0(0xd4)+'s'),a0_0x1bd2bf={};a0_0x1bd2bf[a0_0x316ab0(0x8f)]=a0_0x316ab0(0xcb),a0_0x1bd2bf['aliases']=[a0_0x316ab0(0xf6),a0_0x316ab0(0x86),a0_0x316ab0(0x85)],a0_0x1bd2bf[a0_0x316ab0(0x81)]='🔗',a0_0x1bd2bf[a0_0x316ab0(0xd7)]=a0_0x316ab0(0xb9),a0_0x1bd2bf[a0_0x316ab0(0xa5)+'n']=a0_0x316ab0(0xae)+a0_0x316ab0(0xb1)+a0_0x316ab0(0xd0)+a0_0x316ab0(0xe6)+a0_0x316ab0(0xfa)+a0_0x316ab0(0xe0)+a0_0x316ab0(0xdf)+a0_0x316ab0(0xca),gmd(a0_0x1bd2bf,async(_0x1d54f9,_0x3d8f6e,_0x586b47)=>{const _0x5dc9e8=a0_0x316ab0;await handleUpload(_0x1d54f9,_0x3d8f6e,_0x586b47,_0x5dc9e8(0xbc));});const a0_0x261425={};a0_0x261425[a0_0x316ab0(0x8f)]=a0_0x316ab0(0xc2),a0_0x261425[a0_0x316ab0(0x81)]='⬆️',a0_0x261425[a0_0x316ab0(0xd7)]=a0_0x316ab0(0xb9),a0_0x261425[a0_0x316ab0(0xa5)+'n']=a0_0x316ab0(0x87)+a0_0x316ab0(0x9e)+a0_0x316ab0(0xa3),gmd(a0_0x261425,async(_0x4e624f,_0x4a76c3,_0xbee5c9)=>{const _0x427b7e=a0_0x316ab0;await handleUpload(_0x4e624f,_0x4a76c3,_0xbee5c9,_0x427b7e(0xc2));});function a0_0x5d9d(_0x5f225e,_0x137192){_0x5f225e=_0x5f225e-0x81;const _0x111c6e=a0_0x2edb();let _0x439731=_0x111c6e[_0x5f225e];if(a0_0x5d9d['wjXHKG']===undefined){var _0x5671bc=function(_0x6e5994){const _0x1443c2='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _0x4abb99='',_0x25db0e='',_0x3ec474=_0x4abb99+_0x5671bc,_0x1bd2bf=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x261425=0x0,_0x48b1d3,_0x206039,_0x3596e7=0x0;_0x206039=_0x6e5994['charAt'](_0x3596e7++);~_0x206039&&(_0x48b1d3=_0x261425%0x4?_0x48b1d3*0x40+_0x206039:_0x206039,_0x261425++%0x4)?_0x4abb99+=_0x1bd2bf||_0x3ec474['charCodeAt'](_0x3596e7+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x48b1d3>>(-0x2*_0x261425&0x6)):_0x261425:0x0){_0x206039=_0x1443c2['indexOf'](_0x206039);}for(let _0x21938b=0x0,_0x2d86b6=_0x4abb99['length'];_0x21938b<_0x2d86b6;_0x21938b++){_0x25db0e+='%'+('00'+_0x4abb99['charCodeAt'](_0x21938b)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x25db0e);};a0_0x5d9d['qihwbs']=_0x5671bc,a0_0x5d9d['pJUPPR']={},a0_0x5d9d['wjXHKG']=!![];}const _0x2edb6a=_0x111c6e[0x0],_0x5d9df8=_0x5f225e+_0x2edb6a,_0x4d4a73=a0_0x5d9d['pJUPPR'][_0x5d9df8];if(!_0x4d4a73){const _0x5008b6=function(_0x112310){this['KhlidX']=_0x112310,this['oNSPCm']=[0x1,0x0,0x0],this['NTDYba']=function(){return'newState';},this['OdLPjp']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['HIPINy']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0x5008b6['prototype']['saNWUc']=function(){const _0x5548c1=new RegExp(this['OdLPjp']+this['HIPINy']),_0x5462b5=_0x5548c1['test'](this['NTDYba']['toString']())?--this['oNSPCm'][0x1]:--this['oNSPCm'][0x0];return this['jWjish'](_0x5462b5);},_0x5008b6['prototype']['jWjish']=function(_0xa34ba2){if(!Boolean(~_0xa34ba2))return _0xa34ba2;return this['yEEnIO'](this['KhlidX']);},_0x5008b6['prototype']['yEEnIO']=function(_0x18d9b4){for(let _0x1d54f9=0x0,_0x3d8f6e=this['oNSPCm']['length'];_0x1d54f9<_0x3d8f6e;_0x1d54f9++){this['oNSPCm']['push'](Math['round'](Math['random']())),_0x3d8f6e=this['oNSPCm']['length'];}return _0x18d9b4(this['oNSPCm'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x5008b6(a0_0x5d9d)['saNWUc'](),_0x439731=a0_0x5d9d['qihwbs'](_0x439731),a0_0x5d9d['pJUPPR'][_0x5d9df8]=_0x439731;}else _0x439731=_0x4d4a73;return _0x439731;}const a0_0x48b1d3={};function a0_0x2edb(){const _0x5ebfae=['ExbLCY4','lI4Vz3vYDq','zsb0ExbLlG','ndbRBuLHuKG','Aw1Hz2u','ywDL','Aw5ZDgvHzc4','y2f0yM94ig9Yia','q29UDMvYDcbHBG','nfnrsxzsrG','z2L0AhvIy2rUia','EsbTzwrPysb0BW','CY4GvxnLia','Aw1NyMi','z2vZihrVifbPEa','Aw1NyMiSia','lM1Wna','igzPBguGDg8GqW','EhrnzxnZywDL','DxbSB2fKzxi','Aw1Hz2vnzxnZyq','t3bLBIbmAw5R','y2f0yM94','CxvVDgvKtwvZCW','AxrODwiGuMvWBW','C3nHz2u','y2f0yM94lca','Dg9tDhjPBMC','z3vYDwnKBG','mtqXnJm4n09mAfHLAq','ysbTzxnZywDLlG','AwXLifr5Cgu6kG','yxbWBhK','ig9UBhKGC3vWCa','zMLSzq','mtC5uLv3z1vH','AcaUDxjS','DxjS','B3rOzxiGzMLSzq','y29WEv9JB2rL','kIbvCgXVywqGuG','Aw1Hz2uVD2vICa','igeGvvjmlIbszq','zg9JDw1LBNq','mZmXntCXn0jiwKzcCa','y29UDgv4DeLUzG','z2LMDgvKlwj0BG','ihr5CguU','igzVCIb2AwrLBW','y2f0zwDVCNK','4PQG77IpifbSzwfZzsbY','zxn1Bhq6cGOQrG','AxjHDgLVBJOQia','zM91BMqU','ztOQia','zg9JDw1LBNrnzq','z2L0AhvIy2rU','y3vTzw50ihDPDa','BY9HDwrPBY9KBW','lMjPBG','DMLKzw9nzxnZyq','vxbSB2fKievYCG','CgL4Ag9ZDa','lM1WmW','CgX5ihrVigfUia','Ag9ZDa','pIaQ','cIPgAwXLifnPEG','zM9YigfUEsbVDa','lMPWzW','sw52ywXPzcb1Ca','lNDLyNa','q29WEsbvCMW','mte1nJHOz3j5EvO','BwvZC2fNzq','AgvYigzPBguGDa','C3rPy2TLCG','BgvUz3rO','ie1cCWOQrMLSzq','yxrIB3G','Dg91CMW','DMLKzw8','zgLZCgXHEv90zq','Cgf0Aa','Aw1Hz2uVDMLKzq','vxbSB2fKigLTyq','zcbTzxnZywDLia','z2vZihrVieLTzW','y3rHx3vYBa','CMvWBgfJzq','Aw1Hz2uVANbLzW','DgvKig1LC3nHzW','yxvKAw8','B3rLigeGBwvKAq','lcOksgvYzsbPCW','mtiYodq2ovfbweX2sa','igzVCIbHDwrPBW','kcGOlISPkYKRkq','zxbSEsb0BY9XDq','z3vYDwnKBIbVCG','Dg9vChbLCKnHCW','CMvHy3q','C3rPy2TLCK1LCW','mtyYmdCYoffAvfDfBG','Aw5KzxHpzG','Aw1NDxjS','BwvKAwf1CMW','vxbSB2fKigfUEq','8j+wVo+4JW','zMLSzu5HBwu','Bg9HzcbZzxj2Aq','B3j0CYbPBwfNzq','ifLVDxiGkG','mte1mhvxuK15wG','mtu3ndC3mJbJr2r2CNa','Cgf0DgvYBG','yxvKAw9nzxnZyq','y29UC3rYDwn0BW','C2fNzq','zw50CYbHBMqGyq','mJu0mLPSqNLmra','cIPgAwXLiev4Ca','vu5ltK9xtG','C3rYAw5NAwz5','mtrQqvrwqLO','C2vHCMnO','lIbfCNjVCJOG','Dg9mB3DLCKnHCW','DMLKzw8VBxa0','yMLUza','igzPBguGDg8GrW','CYbHBMqGyw55ia','C3vWCg9YDcbZDa','zxH0BMfTzq','igzPBgvZlIbvCW','Dxj1q0ro','BYb1CgXVywqGDa','zgvZy3jPChrPBW'];a0_0x2edb=function(){return _0x5ebfae;};return a0_0x2edb();}a0_0x48b1d3['pattern']=a0_0x316ab0(0xde),a0_0x48b1d3[a0_0x316ab0(0x81)]='⬆️',a0_0x48b1d3[a0_0x316ab0(0xd7)]=a0_0x316ab0(0xb9),a0_0x48b1d3[a0_0x316ab0(0xa5)+'n']=a0_0x316ab0(0x87)+a0_0x316ab0(0x9e)+a0_0x316ab0(0xbe),gmd(a0_0x48b1d3,async(_0xc73ebb,_0x595e8b,_0x515478)=>{const _0x16ebb5=a0_0x316ab0;await handleUpload(_0xc73ebb,_0x595e8b,_0x515478,_0x16ebb5(0xde));});const a0_0x206039={};a0_0x206039['pattern']=a0_0x316ab0(0xbc),a0_0x206039[a0_0x316ab0(0x81)]='⬆️',a0_0x206039[a0_0x316ab0(0xd7)]=a0_0x316ab0(0xb9),a0_0x206039[a0_0x316ab0(0xa5)+'n']='Upload\x20any'+a0_0x316ab0(0xb7)+a0_0x316ab0(0xf5),gmd(a0_0x206039,async(_0x330996,_0x3165e4,_0x2c2633)=>{const _0x2593f5=a0_0x316ab0;await handleUpload(_0x330996,_0x3165e4,_0x2c2633,_0x2593f5(0xbc));});const a0_0x3596e7={};a0_0x3596e7[a0_0x316ab0(0x8f)]=a0_0x316ab0(0xe4),a0_0x3596e7[a0_0x316ab0(0x81)]=a0_0x316ab0(0x88),a0_0x3596e7['category']=a0_0x316ab0(0xb9),a0_0x3596e7[a0_0x316ab0(0xa5)+'n']='Upload\x20ima'+a0_0x316ab0(0xb4)+a0_0x316ab0(0xe7),gmd(a0_0x3596e7,async(_0x52287f,_0x54830e,_0x29ce8e)=>{const _0x1b7bb1=a0_0x316ab0;await handleUpload(_0x52287f,_0x54830e,_0x29ce8e,_0x1b7bb1(0xe4));});const a0_0x21938b={};a0_0x21938b[a0_0x316ab0(0x8f)]=a0_0x316ab0(0xb3),a0_0x21938b[a0_0x316ab0(0x81)]='📷',a0_0x21938b['category']=a0_0x316ab0(0xb9),a0_0x21938b[a0_0x316ab0(0xa5)+'n']=a0_0x316ab0(0xfb)+a0_0x316ab0(0xfd)+'BB',gmd(a0_0x21938b,async(_0x2b33d5,_0x161945,_0x3e9d54)=>{const _0x3b5ff0=a0_0x316ab0;await handleUpload(_0x2b33d5,_0x161945,_0x3e9d54,_0x3b5ff0(0xb3));});async function handleUpload(_0x42fa53,_0x3d3dad,_0x49c148,_0x2e126a){const _0x5bf412=a0_0x316ab0,{mek:_0xc055e9,reply:_0x551e31,react:_0x3dbf4a,botFooter:_0x1631d5,botPrefix:_0x1b62fc,quoted:_0xb61c0b,getMediaBuffer:_0x405765,uploadToGuruCdn:_0x871c28,uploadToGithubCdn:_0x28426e,uploadToPixhost:_0x4c8d3d,getFileContentType:_0x378924,uploadToImgBB:_0x803ac6,uploadToCatbox:_0x3e608e,pushName:_0x45f415,newsletterUrl:_0x41e7a0}=_0x49c148;if(!_0xb61c0b)return _0x551e31(_0x5bf412(0xd8)+_0x5bf412(0x108)+_0x5bf412(0x103)+_0x5bf412(0xc4));const _0x15bb8b=_0xc055e9['message']?.['extendedTe'+_0x5bf412(0xb8)]?.[_0x5bf412(0xd3)+'o']?.[_0x5bf412(0xbd)+_0x5bf412(0xab)];if(!_0x15bb8b)return _0x551e31('⚠️\x20No\x20quote'+_0x5bf412(0xfc)+_0x5bf412(0xdb));const _0x34cc92=_0x15bb8b?.[_0x5bf412(0xba)+'ge']||_0x15bb8b?.[_0x5bf412(0xf0)]?.['imageMessa'+'ge'],_0x13271c=_0x15bb8b?.[_0x5bf412(0xe2)+'ge']||_0x15bb8b?.[_0x5bf412(0xf0)]?.[_0x5bf412(0xe2)+'ge'],_0xb076a3=_0x15bb8b?.[_0x5bf412(0x90)+'ge']||_0x15bb8b?.[_0x5bf412(0xf0)]?.[_0x5bf412(0x90)+'ge'],_0x4f5b22=_0x15bb8b?.[_0x5bf412(0x82)+_0x5bf412(0x92)]||_0x15bb8b?.[_0x5bf412(0xf0)]?.['stickerMes'+'sage'],_0x42a3ee=_0x15bb8b?.[_0x5bf412(0xdd)+_0x5bf412(0xbf)]||_0x15bb8b?.[_0x5bf412(0xf0)]?.[_0x5bf412(0xdd)+_0x5bf412(0xbf)];try{let _0x54b405,_0x440dee='',_0x165563=_0x5bf412(0xc8),_0x5910b3=![],_0x30d583,_0x4a8523;if(_0x34cc92)_0x54b405=await _0x405765(_0x34cc92,_0x5bf412(0xaa)),_0x440dee=_0x5bf412(0xeb),_0x165563='image'+_0x440dee,_0x5910b3=!![],_0x30d583=_0x5bf412(0x100),_0x4a8523=_0x5bf412(0xaa);else{if(_0x13271c){if(_0x2e126a!==_0x5bf412(0xbc)&&_0x2e126a!=='gurucdn'&&_0x2e126a!==_0x5bf412(0xde))return _0x551e31('❌\x20'+_0x2e126a+(_0x5bf412(0xc7)+_0x5bf412(0x8b)+_0x5bf412(0xb2))+_0x1b62fc+_0x5bf412(0xad)+_0x1b62fc+(_0x5bf412(0x109)+'\x20')+_0x1b62fc+(_0x5bf412(0xb0)+_0x5bf412(0xd6)+_0x5bf412(0x9f)+_0x5bf412(0xcc)+'\x20type.'));_0x54b405=await _0x405765(_0x13271c,_0x5bf412(0xf7)),_0x440dee=_0x5bf412(0xb6),_0x165563=_0x5bf412(0xf7)+_0x440dee,_0x30d583=_0x5bf412(0x9c),_0x4a8523='video';}else{if(_0xb076a3){if(_0x2e126a!==_0x5bf412(0xbc)&&_0x2e126a!==_0x5bf412(0xc2)&&_0x2e126a!=='githubcdn')return _0x551e31('❌\x20'+_0x2e126a+(_0x5bf412(0xc7)+_0x5bf412(0x8b)+_0x5bf412(0xb2))+_0x1b62fc+_0x5bf412(0xad)+_0x1b62fc+('gurucdn\x20or'+'\x20')+_0x1b62fc+(_0x5bf412(0xb0)+_0x5bf412(0x106)+_0x5bf412(0x9f)+_0x5bf412(0xcc)+_0x5bf412(0xd5)));_0x54b405=await _0x405765(_0xb076a3,_0x5bf412(0x102)),_0x440dee=_0x5bf412(0xe5),_0x165563=_0x5bf412(0x102)+_0x440dee,_0x30d583='audio/mpeg',_0x4a8523=_0x5bf412(0x102);}else{if(_0x4f5b22){if(_0x2e126a===_0x5bf412(0xe4))return _0x551e31('❌\x20'+_0x2e126a+('\x20does\x20not\x20'+_0x5bf412(0xa0)+'icker\x20uplo'+'ads.\x20Use\x20')+_0x1b62fc+_0x5bf412(0xb5)+_0x1b62fc+_0x5bf412(0xc0)+_0x1b62fc+(_0x5bf412(0x109)+'\x20')+_0x1b62fc+(_0x5bf412(0xb0)+_0x5bf412(0xac)));_0x54b405=await _0x405765(_0x4f5b22,_0x5bf412(0xf2)),_0x440dee=_0x5bf412(0xed),_0x165563='sticker'+_0x440dee,_0x5910b3=!![],_0x30d583=_0x5bf412(0xcf),_0x4a8523=_0x5bf412(0xf2);}else{if(_0x42a3ee){if(_0x2e126a!==_0x5bf412(0xbc)&&_0x2e126a!==_0x5bf412(0xc2)&&_0x2e126a!==_0x5bf412(0xde))return _0x551e31('❌\x20'+_0x2e126a+(_0x5bf412(0xc7)+'orts\x20image'+_0x5bf412(0xb2))+_0x1b62fc+_0x5bf412(0xad)+_0x1b62fc+(_0x5bf412(0x109)+'\x20')+_0x1b62fc+(_0x5bf412(0xb0)+'\x20for\x20docum'+_0x5bf412(0x93)+'ny\x20other\x20f'+'ile\x20type.'));_0x54b405=await _0x405765(_0x42a3ee,'document'),_0x440dee=_0x42a3ee[_0x5bf412(0x89)]?path[_0x5bf412(0xa1)](_0x42a3ee[_0x5bf412(0x89)])[_0x5bf412(0x9b)+'e']():_0x5bf412(0xe1),_0x165563=_0x42a3ee[_0x5bf412(0x89)]||_0x5bf412(0xd1)+_0x440dee,_0x30d583=_0x378924(_0x440dee),_0x4a8523=_0x5bf412(0xd1);}else return _0x551e31('❌\x20Unsuppor'+_0x5bf412(0x101)+_0x5bf412(0xa8));}}}}if(!_0x5910b3&&_0x2e126a!==_0x5bf412(0xbc)&&_0x2e126a!==_0x5bf412(0xc2)&&_0x2e126a!==_0x5bf412(0xde))return _0x551e31('❌\x20'+_0x2e126a+(_0x5bf412(0xc7)+_0x5bf412(0x8b)+_0x5bf412(0xa2)+'e\x20')+_0x1b62fc+'catbox\x20or\x20'+_0x1b62fc+(_0x5bf412(0x109)+'\x20')+_0x1b62fc+('githubcdn\x20'+_0x5bf412(0xea)+_0x5bf412(0xf1)+_0x5bf412(0xa6)));let _0xf70cdc;switch(_0x2e126a){case'gurucdn':_0xf70cdc=await _0x871c28(_0x54b405,_0x165563);break;case _0x5bf412(0xbc):_0xf70cdc=await _0x3e608e(_0x54b405,_0x165563);break;case _0x5bf412(0xde):_0xf70cdc=await _0x28426e(_0x54b405,_0x165563);break;case _0x5bf412(0xe4):_0xf70cdc=await _0x4c8d3d(_0x54b405,_0x165563);break;case _0x5bf412(0xb3):_0xf70cdc=await _0x803ac6(_0x54b405,_0x165563);break;default:throw new Error(_0x5bf412(0xec)+_0x5bf412(0x8a)+'ce');}const _0x4b2e52=_0x54b405[_0x5bf412(0xf3)]/(0x400*0x400),_0x326df0=_0x440dee?_0x440dee[_0x5bf412(0xff)]('.','')[_0x5bf412(0x10a)+'e']():_0x5bf412(0x96),_0x63f3fe='Hey\x20*'+_0x45f415+(_0x5bf412(0x104)+_0x5bf412(0x8c))+_0x2e126a[_0x5bf412(0x10a)+'e']()+(_0x5bf412(0xce)+_0x5bf412(0xd9)+_0x5bf412(0xc5)+'\x20')+_0x326df0+(_0x5bf412(0xe9)+_0x5bf412(0xdc))+_0x4b2e52['toFixed'](0x2)+(_0x5bf412(0xf4)+'\x20Url:*\x20')+_0xf70cdc[_0x5bf412(0xcb)]+(_0x5bf412(0x95)+_0x5bf412(0xda)+'No\x20Expiry\x0a'),_0x23a696={};_0x23a696[_0x5bf412(0xf8)+'xt']=_0x5bf412(0xee),_0x23a696[_0x5bf412(0xcd)]=_0xf70cdc['url'];const _0x42dd7c={};_0x42dd7c[_0x5bf412(0xf8)+'xt']=_0x5bf412(0xbb),_0x42dd7c[_0x5bf412(0xcb)]=_0xf70cdc[_0x5bf412(0xcb)],await sendButtons(_0x3d3dad,_0x42fa53,{'title':'','text':_0x63f3fe,'footer':_0x5bf412(0xe8)+_0x1631d5+'*','buttons':[{'name':'cta_copy','buttonParamsJson':JSON[_0x5bf412(0x97)](_0x23a696)},{'name':_0x5bf412(0xfe),'buttonParamsJson':JSON[_0x5bf412(0x97)](_0x42dd7c)}]}),await _0x3dbf4a('✅');}catch(_0x4955de){console['error'](_0x5bf412(0xe3)+'or:',_0x4955de),await _0x551e31('❌\x20Failed\x20t'+_0x5bf412(0xa4)+'o\x20'+_0x2e126a+_0x5bf412(0x9a)+_0x4955de[_0x5bf412(0xf0)]),await _0x3dbf4a('❌');}}
+
+const { gmd } = require("../guru");
+const path = require("path");
+const fs = require('fs').promises;
+const { sendButtons } = require('gifted-btns');
+
+// ─── .url — universal image/media → URL (catbox) ─────────────────────────────
+gmd({
+    pattern: "url",
+    aliases: ["tourl", "mediaurl", "imgurl"],
+    react: "🔗",
+    category: "uploader",
+    description: "Convert any media to a URL. Reply to an image/video/audio/document with .url",
+}, async (from, Guru, conText) => {
+    await handleUpload(from, Guru, conText, 'catbox');
+});
+
+gmd({
+    pattern: "gurucdn",
+    react: "⬆️",
+    category: "uploader",
+    description: "Upload any file to GuruCDN",
+}, async (from, Guru, conText) => {
+    await handleUpload(from, Guru, conText, 'gurucdn');
+});
+
+gmd({
+    pattern: "githubcdn",
+    react: "⬆️",
+    category: "uploader",
+    description: "Upload any file to Github Repo",
+}, async (from, Guru, conText) => {
+    await handleUpload(from, Guru, conText, 'githubcdn');
+});
+
+gmd({
+    pattern: "catbox",
+    react: "⬆️",
+    category: "uploader",
+    description: "Upload any file to Catbox",
+}, async (from, Guru, conText) => {
+    await handleUpload(from, Guru, conText, 'catbox');
+});
+
+gmd({
+    pattern: "pixhost",
+    react: "🖼️",
+    category: "uploader",
+    description: "Upload images to Pixhost",
+}, async (from, Guru, conText) => {
+    await handleUpload(from, Guru, conText, 'pixhost');
+});
+
+gmd({
+    pattern: "imgbb",
+    react: "📷",
+    category: "uploader",
+    description: "Upload images to ImgBB",
+}, async (from, Guru, conText) => {
+    await handleUpload(from, Guru, conText, 'imgbb');
+});
+
+async function handleUpload(from, Guru, conText, service) {
+    const { mek, reply, react, botFooter, botPrefix, quoted, getMediaBuffer, uploadToGuruCdn, uploadToGithubCdn, uploadToPixhost, getFileContentType, uploadToImgBB, uploadToCatbox, pushName, newsletterUrl } = conText;
+
+    if (!quoted) {
+        return reply(`⚠️ Please reply to/quote a media message.`);
+    }
+    
+    const quotedMsg = mek.message?.extendedTextMessage?.contextInfo?.quotedMessage;
+    if (!quotedMsg) {
+        return reply(`⚠️ No quoted message found.`);
+    }
+
+    const quotedImg = quotedMsg?.imageMessage || quotedMsg?.message?.imageMessage;
+    const quotedVideo = quotedMsg?.videoMessage || quotedMsg?.message?.videoMessage;
+    const quotedAudio = quotedMsg?.audioMessage || quotedMsg?.message?.audioMessage;
+    const quotedSticker = quotedMsg?.stickerMessage || quotedMsg?.message?.stickerMessage;
+    const quotedDocument = quotedMsg?.documentMessage || quotedMsg?.message?.documentMessage;
+
+    try {
+        let buffer;
+        let fileExt = '';
+        let fileName = 'file';
+        let isImage = false;
+        let mimetype;
+        let mediaType;
+
+        if (quotedImg) {
+            buffer = await getMediaBuffer(quotedImg, "image");
+            fileExt = '.jpg';
+            fileName = `image${fileExt}`;
+            isImage = true;
+            mimetype = "image/jpeg";
+            mediaType = 'image';
+        } 
+        else if (quotedVideo) {
+            if (service !== 'catbox' && service !== 'gurucdn' && service !== 'githubcdn') {
+                return reply(`❌ ${service} only supports images. Use ${botPrefix}catbox or ${botPrefix}gurucdn or ${botPrefix}githubcdn  for videos and any other file type.`);
+            }
+            buffer = await getMediaBuffer(quotedVideo, "video");
+            fileExt = '.mp4';
+            fileName = `video${fileExt}`;
+            mimetype = "video/mp4";
+            mediaType = 'video';
+        } 
+        else if (quotedAudio) {
+            if (service !== 'catbox' && service !== 'gurucdn' && service !== 'githubcdn') {
+                return reply(`❌ ${service} only supports images. Use ${botPrefix}catbox or ${botPrefix}gurucdn or ${botPrefix}githubcdn  for audios and any other file type.`);
+            }
+            buffer = await getMediaBuffer(quotedAudio, "audio");
+            fileExt = '.mp3';
+            fileName = `audio${fileExt}`;
+            mimetype = "audio/mpeg";
+            mediaType = 'audio';
+        } 
+        else if (quotedSticker) {
+            if (service === 'pixhost') {
+                return reply(`❌ ${service} does not support sticker uploads. Use ${botPrefix}imgbb, ${botPrefix}catbox, ${botPrefix}gurucdn or ${botPrefix}githubcdn instead.`);
+            }
+            buffer = await getMediaBuffer(quotedSticker, "sticker");
+            fileExt = '.webp';
+            fileName = `sticker${fileExt}`;
+            isImage = true;
+            mimetype = "image/webp";
+            mediaType = 'sticker';
+        } 
+        else if (quotedDocument) {
+            if (service !== 'catbox' && service !== 'gurucdn' && service !== 'githubcdn') {
+                return reply(`❌ ${service} only supports images. Use ${botPrefix}catbox or ${botPrefix}gurucdn or ${botPrefix}githubcdn  for documents and any other file type.`);
+            }
+            buffer = await getMediaBuffer(quotedDocument, "document");
+            fileExt = quotedDocument.fileName ? path.extname(quotedDocument.fileName).toLowerCase() : '.bin';
+            fileName = quotedDocument.fileName || `document${fileExt}`;
+            mimetype = getFileContentType(fileExt);
+            mediaType = 'document';
+        } else {
+            return reply(`❌ Unsupported message type.`);
+        }
+
+        if (!isImage && service !== 'catbox' && service !== 'gurucdn' && service !== 'githubcdn') {
+            return reply(`❌ ${service} only supports image files. Use ${botPrefix}catbox or ${botPrefix}gurucdn or ${botPrefix}githubcdn for any other file types.`);
+        }
+
+        let uploadResult;
+        switch (service) {
+            case 'gurucdn':
+                uploadResult = await uploadToGuruCdn(buffer, fileName);
+                break;
+            case 'catbox':
+                uploadResult = await uploadToCatbox(buffer, fileName);
+                break;
+             case 'githubcdn':
+                uploadResult = await uploadToGithubCdn(buffer, fileName);
+                break;
+            case 'pixhost':
+                uploadResult = await uploadToPixhost(buffer, fileName);
+                break;
+            case 'imgbb':
+                uploadResult = await uploadToImgBB(buffer, fileName);
+                break;
+            default:
+                throw new Error('Invalid upload service');
+        }
+
+        const fileSizeMB = buffer.length / (1024 * 1024);
+        const fileTypeName = fileExt ? fileExt.replace('.', '').toUpperCase() : 'UNKNOWN';
+        
+        const caption = `Hey *${pushName},*\nHere is Your *${service.toUpperCase()}* Upload Result:\n\n*File Type:* ${fileTypeName}\n*File Size:* ${fileSizeMB.toFixed(2)} MBs\n*File Url:* ${uploadResult.url}\n*File Expiration:* No Expiry\n`;
+
+        // Send buttons
+        await sendButtons(Guru, from, {
+            title: '',
+            text: caption,
+            footer: `> *${botFooter}*`,
+            buttons: [
+                { 
+                    name: 'cta_copy', 
+                    buttonParamsJson: JSON.stringify({ 
+                        display_text: 'Copy Url', 
+                        copy_code: uploadResult.url 
+                    }) 
+                },
+                {
+                    name: 'cta_url',
+                    buttonParamsJson: JSON.stringify({
+                        display_text: 'Open Link',
+                        url: uploadResult.url
+                    })
+                }
+            ]
+        });
+
+        await react("✅");
+        
+    } catch (error) {
+        console.error("Upload Error:", error);
+        await reply(`❌ Failed to upload to ${service}. Error: ${error.message}`);
+        await react("❌");
+    }
+}

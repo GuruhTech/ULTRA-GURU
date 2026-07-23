@@ -1,1 +1,219 @@
-const a0_0x2361d1=a0_0x3e4d;(function(_0x426931,_0x58a2d1){const _0x5e6ac3=a0_0x3e4d,_0xef68d1=_0x426931();while(!![]){try{const _0x5cd9e4=-parseInt(_0x5e6ac3(0x183))/0x1*(parseInt(_0x5e6ac3(0x18d))/0x2)+parseInt(_0x5e6ac3(0x181))/0x3+parseInt(_0x5e6ac3(0x156))/0x4*(parseInt(_0x5e6ac3(0x180))/0x5)+parseInt(_0x5e6ac3(0x192))/0x6+parseInt(_0x5e6ac3(0x188))/0x7+-parseInt(_0x5e6ac3(0x185))/0x8+-parseInt(_0x5e6ac3(0x184))/0x9;if(_0x5cd9e4===_0x58a2d1)break;else _0xef68d1['push'](_0xef68d1['shift']());}catch(_0x3daf1d){_0xef68d1['push'](_0xef68d1['shift']());}}}(a0_0x3624,0x2cd67));const a0_0x238a32=(function(){let _0x4872fd=!![];return function(_0x5d6be2,_0xee573c){const _0x14e419=_0x4872fd?function(){const _0x4d870a=a0_0x3e4d;if(_0xee573c){const _0x57914f=_0xee573c[_0x4d870a(0x17c)](_0x5d6be2,arguments);return _0xee573c=null,_0x57914f;}}:function(){};return _0x4872fd=![],_0x14e419;};}()),a0_0x11dc8a=a0_0x238a32(this,function(){const _0x39750d=a0_0x3e4d;if(a0_0x11dc8a[_0x39750d(0x151)]()[_0x39750d(0x163)]()[_0x39750d(0x170)]('\x0a')!==-0x1)return;return a0_0x11dc8a[_0x39750d(0x163)]()[_0x39750d(0x168)](_0x39750d(0x16f)+'+$')[_0x39750d(0x163)]()[_0x39750d(0x176)+'r'](a0_0x11dc8a)[_0x39750d(0x168)](_0x39750d(0x16f)+'+$');});a0_0x11dc8a();const {DATABASE}=require(a0_0x2361d1(0x17f)),{DataTypes}=require('sequelize'),a0_0x51d671={};a0_0x51d671[a0_0x2361d1(0x171)]=DataTypes[a0_0x2361d1(0x17b)],a0_0x51d671[a0_0x2361d1(0x189)]=!![],a0_0x51d671[a0_0x2361d1(0x16a)+a0_0x2361d1(0x179)]=!![];function a0_0x3624(){const _0x4f202a=['CgXHEwvYmG','z2v0v2fPDgLUzW','C3rHDhvZ','yMLUza','y2vSBf90ywTLBG','r2fTzxneqIbZEq','C3LTyM9S','D2HLCMu','nJu2B1bSCwHJ','y3jLyxrLr2fTzq','zMLUAxnOzwq','y3vYCMvUDfr1CG','u1rssu5h','BM9Fz2fTzq','r2fTzxneqG','yw1L','ywn0AxzL','quLFqK9uqhmUDW','zgvZDhjVEq','DxjU','r2fTzq','Dg9tDhjPBMC','ru5vtq','C3rYAw5NAwz5','DgfIBgvoyw1L','AM9PBKDHBwu','C2vHCMnO','vgLJvgfJvg9LrW','yxv0B0LUy3jLBq','D2fPDgLUzW','qK9ptevbtG','z2fTzxm','C3LUyW','kcGOlISPkYKRkq','Aw5KzxHpzG','DhLWzq','DgLTzxn0yw1WCW','C2fTzv9WBgf5zq','BwfRzu1VDMu','DgLJDgfJDg9LxW','y29UC3rYDwn0BW','Agf0C2fWCc5Uzq','yM9HCMq','zw50','zxjYB3i','su5uruDfuG','yxbWBhK','CgXHEwvYmq','y3jLyxrL','lI9KyxrHyMfZzq','mJG0nvj3qwLKAG','mtiYotaXqNDgv29r','ywXSB3DoDwXS','nJu4nJf3BKXPDhG','otGYntq4uLPmvu16','mJu1mZy4sM5Orw9l','BM90x3LVDxjFDa','zhjHDW','mtyYodq4n1vwt0XJzG','ChjPBwfYEuTLEq','zMLUze9Uzq','zw5Kr2fTzq','zxHWB3j0CW','mMzvzxryDW','D2LUBMvY','BMmGzxjYB3i6','vevyva','y2HHDePPza','mtqYmteWANnsCwH1','CgfYC2u','z2fTzq','C2f2zq'];a0_0x3624=function(){return _0x4f202a;};return a0_0x3624();}const a0_0x21356c={};a0_0x21356c[a0_0x2361d1(0x171)]=DataTypes[a0_0x2361d1(0x15a)],a0_0x21356c[a0_0x2361d1(0x182)]=![];const a0_0x50cdd4={};a0_0x50cdd4[a0_0x2361d1(0x171)]=DataTypes[a0_0x2361d1(0x15a)],a0_0x50cdd4[a0_0x2361d1(0x182)]=![];const a0_0x317a48={};a0_0x317a48[a0_0x2361d1(0x171)]=DataTypes[a0_0x2361d1(0x15a)],a0_0x317a48[a0_0x2361d1(0x182)]=!![];const a0_0x2b6d89={};a0_0x2b6d89[a0_0x2361d1(0x166)]=a0_0x2361d1(0x175)+a0_0x2361d1(0x16d),a0_0x2b6d89[a0_0x2361d1(0x172)]=!![];const GamesDB=DATABASE['define'](a0_0x2361d1(0x169)+a0_0x2361d1(0x15d),{'id':a0_0x51d671,'chatJid':a0_0x21356c,'player1':a0_0x50cdd4,'player2':a0_0x317a48,'board':{'type':DataTypes[a0_0x2361d1(0x190)],'allowNull':![],'defaultValue':JSON[a0_0x2361d1(0x165)]([0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x9])},'currentTurn':{'type':DataTypes[a0_0x2361d1(0x15a)],'allowNull':!![]},'status':{'type':DataTypes[a0_0x2361d1(0x164)](a0_0x2361d1(0x16b),a0_0x2361d1(0x15e),a0_0x2361d1(0x158)),'defaultValue':'waiting'},'messageKey':{'type':DataTypes['TEXT'],'allowNull':!![]},'isAiGame':{'type':DataTypes[a0_0x2361d1(0x16c)],'defaultValue':![]}},a0_0x2b6d89);let gamesDbInitialized=![];async function initGamesDB(){const _0x11f8e8=a0_0x2361d1;if(gamesDbInitialized)return;try{await GamesDB[_0x11f8e8(0x16e)](),gamesDbInitialized=!![];}catch(_0x324f4d){console['error'](_0x11f8e8(0x153)+_0x11f8e8(0x18f),_0x324f4d['message']);}}function a0_0x3e4d(_0x13489e,_0x50b8f6){_0x13489e=_0x13489e-0x14f;const _0x328be1=a0_0x3624();let _0x11dc8a=_0x328be1[_0x13489e];if(a0_0x3e4d['dIIorL']===undefined){var _0x238a32=function(_0x4d05a9){const _0x3530ce='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _0x257f02='',_0x1700a6='',_0x51e6b4=_0x257f02+_0x238a32,_0x51d671=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x21356c=0x0,_0x50cdd4,_0x317a48,_0x2b6d89=0x0;_0x317a48=_0x4d05a9['charAt'](_0x2b6d89++);~_0x317a48&&(_0x50cdd4=_0x21356c%0x4?_0x50cdd4*0x40+_0x317a48:_0x317a48,_0x21356c++%0x4)?_0x257f02+=_0x51d671||_0x51e6b4['charCodeAt'](_0x2b6d89+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x50cdd4>>(-0x2*_0x21356c&0x6)):_0x21356c:0x0){_0x317a48=_0x3530ce['indexOf'](_0x317a48);}for(let _0x3f8854=0x0,_0x855a36=_0x257f02['length'];_0x3f8854<_0x855a36;_0x3f8854++){_0x1700a6+='%'+('00'+_0x257f02['charCodeAt'](_0x3f8854)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x1700a6);};a0_0x3e4d['bcJMQk']=_0x238a32,a0_0x3e4d['aWWsUi']={},a0_0x3e4d['dIIorL']=!![];}const _0x362410=_0x328be1[0x0],_0x3e4d76=_0x13489e+_0x362410,_0x5a305b=a0_0x3e4d['aWWsUi'][_0x3e4d76];if(!_0x5a305b){const _0x127d1e=function(_0x4ea867){this['rPXgCE']=_0x4ea867,this['fFfJBT']=[0x1,0x0,0x0],this['JKGDXu']=function(){return'newState';},this['sVIWzU']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['McehFF']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0x127d1e['prototype']['TKeIaS']=function(){const _0x5e9d13=new RegExp(this['sVIWzU']+this['McehFF']),_0x3d036f=_0x5e9d13['test'](this['JKGDXu']['toString']())?--this['fFfJBT'][0x1]:--this['fFfJBT'][0x0];return this['ljuwTE'](_0x3d036f);},_0x127d1e['prototype']['ljuwTE']=function(_0x417028){if(!Boolean(~_0x417028))return _0x417028;return this['yJmxYk'](this['rPXgCE']);},_0x127d1e['prototype']['yJmxYk']=function(_0x4f5a34){for(let _0x5146fe=0x0,_0x4988e4=this['fFfJBT']['length'];_0x5146fe<_0x4988e4;_0x5146fe++){this['fFfJBT']['push'](Math['round'](Math['random']())),_0x4988e4=this['fFfJBT']['length'];}return _0x4f5a34(this['fFfJBT'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x127d1e(a0_0x3e4d)['TKeIaS'](),_0x11dc8a=a0_0x3e4d['bcJMQk'](_0x11dc8a),a0_0x3e4d['aWWsUi'][_0x3e4d76]=_0x11dc8a;}else _0x11dc8a=_0x5a305b;return _0x11dc8a;}async function createGame(_0x4af87b,_0x2b8847,_0x17375d=null,_0x21cd74=![]){const _0x279734=a0_0x2361d1;await initGamesDB();const _0x179d6c={};_0x179d6c['chatJid']=_0x4af87b;const _0x2a5877={};_0x2a5877[_0x279734(0x155)]=_0x179d6c,await GamesDB['destroy'](_0x2a5877);const _0x80b10c=await GamesDB[_0x279734(0x17e)]({'chatJid':_0x4af87b,'player1':_0x2b8847,'player2':_0x21cd74?_0x279734(0x15f)+_0x279734(0x177)+'t':null,'board':JSON['stringify']([0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x9]),'currentTurn':_0x2b8847,'status':_0x21cd74?_0x279734(0x15e):_0x279734(0x16b),'messageKey':_0x17375d?JSON[_0x279734(0x165)](_0x17375d):null,'isAiGame':_0x21cd74});return _0x80b10c;}async function joinGame(_0xb957e5,_0xd3c457){const _0x49bb2d=a0_0x2361d1;await initGamesDB();const _0x79daa1={};_0x79daa1[_0x49bb2d(0x191)]=_0xb957e5,_0x79daa1[_0x49bb2d(0x150)]='waiting';const _0x2b0228={};_0x2b0228['where']=_0x79daa1;const _0x23149c=await GamesDB[_0x49bb2d(0x18a)](_0x2b0228);if(!_0x23149c)return null;if(_0x23149c['player1']===_0xd3c457){const _0x2e3638={};return _0x2e3638[_0x49bb2d(0x17a)]=_0x49bb2d(0x173)+'r',_0x2e3638;}_0x23149c[_0x49bb2d(0x196)]=_0xd3c457,_0x23149c[_0x49bb2d(0x150)]='active',_0x23149c[_0x49bb2d(0x159)+'n']=_0x23149c[_0x49bb2d(0x17d)],await _0x23149c[_0x49bb2d(0x195)]();const _0x17d301={};return _0x17d301[_0x49bb2d(0x17d)]=_0x23149c[_0x49bb2d(0x17d)],_0x17d301[_0x49bb2d(0x196)]=_0x23149c[_0x49bb2d(0x196)],_0x17d301[_0x49bb2d(0x178)]=_0x23149c[_0x49bb2d(0x178)],_0x17d301[_0x49bb2d(0x159)+'n']=_0x23149c[_0x49bb2d(0x159)+'n'],_0x17d301;}async function getActiveGame(_0x3e44ad){const _0xdf2bc6=a0_0x2361d1;await initGamesDB();const _0x5f5b30={};_0x5f5b30[_0xdf2bc6(0x191)]=_0x3e44ad,_0x5f5b30[_0xdf2bc6(0x150)]=_0xdf2bc6(0x15e);const _0x12049c={};return _0x12049c[_0xdf2bc6(0x155)]=_0x5f5b30,await GamesDB['findOne'](_0x12049c);}async function getWaitingGame(_0x48a5a6){const _0x5c2fe4=a0_0x2361d1;await initGamesDB();const _0x369b99={};_0x369b99[_0x5c2fe4(0x191)]=_0x48a5a6,_0x369b99[_0x5c2fe4(0x150)]=_0x5c2fe4(0x16b);const _0x77dc24={};return _0x77dc24[_0x5c2fe4(0x155)]=_0x369b99,await GamesDB[_0x5c2fe4(0x18a)](_0x77dc24);}function checkWinner(_0xf7fc98){const _0x2720e5=[[0x0,0x1,0x2],[0x3,0x4,0x5],[0x6,0x7,0x8],[0x0,0x3,0x6],[0x1,0x4,0x7],[0x2,0x5,0x8],[0x0,0x4,0x8],[0x2,0x4,0x6]];for(const _0x156d24 of _0x2720e5){const [_0x33dd88,_0x280270,_0x322e74]=_0x156d24;if(_0xf7fc98[_0x33dd88]===_0xf7fc98[_0x280270]&&_0xf7fc98[_0x280270]===_0xf7fc98[_0x322e74])return _0xf7fc98[_0x33dd88];}return null;}function checkDraw(_0x5d87e6){return _0x5d87e6['every'](_0x3ddd69=>_0x3ddd69==='X'||_0x3ddd69==='O');}async function makeMove(_0x39fb3f,_0x455dc0,_0x36da22){const _0xb51ac4=a0_0x2361d1;await initGamesDB();const _0x4ea3e4={};_0x4ea3e4[_0xb51ac4(0x191)]=_0x39fb3f,_0x4ea3e4[_0xb51ac4(0x150)]=_0xb51ac4(0x15e);const _0x4e6e5c={};_0x4e6e5c['where']=_0x4ea3e4;const _0x14bd56=await GamesDB[_0xb51ac4(0x18a)](_0x4e6e5c);if(!_0x14bd56){const _0x4e70b1={};return _0x4e70b1[_0xb51ac4(0x17a)]=_0xb51ac4(0x15b),_0x4e70b1;}if(_0x14bd56[_0xb51ac4(0x159)+'n']!==_0x455dc0){const _0x26f7ac={};return _0x26f7ac[_0xb51ac4(0x17a)]=_0xb51ac4(0x186)+_0xb51ac4(0x161),_0x26f7ac;}const _0x3b2ea2=JSON[_0xb51ac4(0x193)](_0x14bd56['board']),_0x164f1e=_0x36da22-0x1;if(_0x3b2ea2[_0x164f1e]==='X'||_0x3b2ea2[_0x164f1e]==='O'){const _0x44b41e={};return _0x44b41e['error']=_0xb51ac4(0x152),_0x44b41e;}const _0x5a8311=_0x455dc0===_0x14bd56[_0xb51ac4(0x17d)]?'X':'O';_0x3b2ea2[_0x164f1e]=_0x5a8311,_0x14bd56[_0xb51ac4(0x178)]=JSON[_0xb51ac4(0x165)](_0x3b2ea2);const _0x467ba4=checkWinner(_0x3b2ea2);if(_0x467ba4){_0x14bd56[_0xb51ac4(0x150)]=_0xb51ac4(0x158),await _0x14bd56[_0xb51ac4(0x195)]();const _0x5eb656={};_0x5eb656[_0xb51ac4(0x17d)]=_0x14bd56[_0xb51ac4(0x17d)],_0x5eb656[_0xb51ac4(0x196)]=_0x14bd56[_0xb51ac4(0x196)],_0x5eb656[_0xb51ac4(0x178)]=_0x14bd56[_0xb51ac4(0x178)],_0x5eb656[_0xb51ac4(0x159)+'n']=_0x14bd56[_0xb51ac4(0x159)+'n'];const _0x3a0107={};return _0x3a0107[_0xb51ac4(0x18e)]=_0x455dc0,_0x3a0107[_0xb51ac4(0x154)]=_0x5a8311,_0x3a0107[_0xb51ac4(0x194)]=_0x5eb656,_0x3a0107;}if(checkDraw(_0x3b2ea2)){_0x14bd56[_0xb51ac4(0x150)]=_0xb51ac4(0x158),await _0x14bd56[_0xb51ac4(0x195)]();const _0x2116a2={};_0x2116a2[_0xb51ac4(0x17d)]=_0x14bd56[_0xb51ac4(0x17d)],_0x2116a2[_0xb51ac4(0x196)]=_0x14bd56[_0xb51ac4(0x196)],_0x2116a2[_0xb51ac4(0x178)]=_0x14bd56[_0xb51ac4(0x178)],_0x2116a2[_0xb51ac4(0x159)+'n']=_0x14bd56[_0xb51ac4(0x159)+'n'];const _0x156586={};return _0x156586[_0xb51ac4(0x187)]=!![],_0x156586[_0xb51ac4(0x194)]=_0x2116a2,_0x156586;}_0x14bd56[_0xb51ac4(0x159)+'n']=_0x455dc0===_0x14bd56[_0xb51ac4(0x17d)]?_0x14bd56[_0xb51ac4(0x196)]:_0x14bd56[_0xb51ac4(0x17d)],await _0x14bd56[_0xb51ac4(0x195)]();const _0xc95492={};_0xc95492[_0xb51ac4(0x17d)]=_0x14bd56[_0xb51ac4(0x17d)],_0xc95492['player2']=_0x14bd56[_0xb51ac4(0x196)],_0xc95492[_0xb51ac4(0x178)]=_0x14bd56['board'],_0xc95492[_0xb51ac4(0x159)+'n']=_0x14bd56[_0xb51ac4(0x159)+'n'];const _0x197f2a={};return _0x197f2a['game']=_0xc95492,_0x197f2a;}async function endGame(_0x26e067){const _0x165765=a0_0x2361d1;await initGamesDB();const _0x4fdfa0={};_0x4fdfa0[_0x165765(0x191)]=_0x26e067;const _0x57666c={};_0x57666c[_0x165765(0x155)]=_0x4fdfa0,await GamesDB[_0x165765(0x160)](_0x57666c);}const a0_0x342a23={};a0_0x342a23['initGamesD'+'B']=initGamesDB,a0_0x342a23[a0_0x2361d1(0x157)]=createGame,a0_0x342a23[a0_0x2361d1(0x167)]=joinGame,a0_0x342a23['getActiveG'+'ame']=getActiveGame,a0_0x342a23[a0_0x2361d1(0x14f)+a0_0x2361d1(0x162)]=getWaitingGame,a0_0x342a23[a0_0x2361d1(0x174)]=makeMove,a0_0x342a23[a0_0x2361d1(0x18b)]=endGame,a0_0x342a23[a0_0x2361d1(0x15c)]=GamesDB,module[a0_0x2361d1(0x18c)]=a0_0x342a23;
+
+const { DATABASE } = require('./database');
+const { DataTypes } = require('sequelize');
+
+const GamesDB = DATABASE.define('TicTacToeGame', {
+    id: {
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+        autoIncrement: true,
+    },
+    chatJid: {
+        type: DataTypes.STRING,
+        allowNull: false,
+    },
+    player1: {
+        type: DataTypes.STRING,
+        allowNull: false,
+    },
+    player2: {
+        type: DataTypes.STRING,
+        allowNull: true,
+    },
+    board: {
+        type: DataTypes.TEXT,
+        allowNull: false,
+        defaultValue: JSON.stringify([1, 2, 3, 4, 5, 6, 7, 8, 9]),
+    },
+    currentTurn: {
+        type: DataTypes.STRING,
+        allowNull: true,
+    },
+    status: {
+        type: DataTypes.ENUM('waiting', 'active', 'finished'),
+        defaultValue: 'waiting',
+    },
+    messageKey: {
+        type: DataTypes.TEXT,
+        allowNull: true,
+    },
+    isAiGame: {
+        type: DataTypes.BOOLEAN,
+        defaultValue: false,
+    },
+}, {
+    tableName: 'tictactoe_games',
+    timestamps: true,
+});
+
+let gamesDbInitialized = false;
+async function initGamesDB() {
+    if (gamesDbInitialized) return;
+    try {
+        await GamesDB.sync();
+        gamesDbInitialized = true;
+    } catch (error) {
+        console.error('GamesDB sync error:', error.message);
+    }
+}
+
+async function createGame(chatJid, player1, messageKey = null, isAiGame = false) {
+    await initGamesDB();
+    await GamesDB.destroy({ where: { chatJid } });
+    
+    const game = await GamesDB.create({
+        chatJid,
+        player1,
+        player2: isAiGame ? 'AI_BOT@s.whatsapp.net' : null,
+        board: JSON.stringify([1, 2, 3, 4, 5, 6, 7, 8, 9]),
+        currentTurn: player1,
+        status: isAiGame ? 'active' : 'waiting',
+        messageKey: messageKey ? JSON.stringify(messageKey) : null,
+        isAiGame,
+    });
+    
+    return game;
+}
+
+async function joinGame(chatJid, player2) {
+    await initGamesDB();
+    const game = await GamesDB.findOne({
+        where: { chatJid, status: 'waiting' }
+    });
+    
+    if (!game) return null;
+    
+    if (game.player1 === player2) {
+        return { error: 'same_player' };
+    }
+    
+    game.player2 = player2;
+    game.status = 'active';
+    game.currentTurn = game.player1;
+    await game.save();
+    
+    return {
+        player1: game.player1,
+        player2: game.player2,
+        board: game.board,
+        currentTurn: game.currentTurn,
+    };
+}
+
+async function getActiveGame(chatJid) {
+    await initGamesDB();
+    return await GamesDB.findOne({
+        where: { chatJid, status: 'active' }
+    });
+}
+
+async function getWaitingGame(chatJid) {
+    await initGamesDB();
+    return await GamesDB.findOne({
+        where: { chatJid, status: 'waiting' }
+    });
+}
+
+function checkWinner(board) {
+    const winPatterns = [
+        [0, 1, 2], [3, 4, 5], [6, 7, 8],
+        [0, 3, 6], [1, 4, 7], [2, 5, 8],
+        [0, 4, 8], [2, 4, 6]
+    ];
+    
+    for (const pattern of winPatterns) {
+        const [a, b, c] = pattern;
+        if (board[a] === board[b] && board[b] === board[c]) {
+            return board[a];
+        }
+    }
+    return null;
+}
+
+function checkDraw(board) {
+    return board.every(cell => cell === 'X' || cell === 'O');
+}
+
+async function makeMove(chatJid, player, position) {
+    await initGamesDB();
+    const game = await GamesDB.findOne({
+        where: { chatJid, status: 'active' }
+    });
+    
+    if (!game) {
+        return { error: 'no_game' };
+    }
+    
+    if (game.currentTurn !== player) {
+        return { error: 'not_your_turn' };
+    }
+    
+    const board = JSON.parse(game.board);
+    const index = position - 1;
+    
+    if (board[index] === 'X' || board[index] === 'O') {
+        return { error: 'cell_taken' };
+    }
+    
+    const symbol = player === game.player1 ? 'X' : 'O';
+    board[index] = symbol;
+    game.board = JSON.stringify(board);
+    
+    const winner = checkWinner(board);
+    if (winner) {
+        game.status = 'finished';
+        await game.save();
+        return {
+            winner: player,
+            symbol,
+            game: {
+                player1: game.player1,
+                player2: game.player2,
+                board: game.board,
+                currentTurn: game.currentTurn,
+            }
+        };
+    }
+    
+    if (checkDraw(board)) {
+        game.status = 'finished';
+        await game.save();
+        return {
+            draw: true,
+            game: {
+                player1: game.player1,
+                player2: game.player2,
+                board: game.board,
+                currentTurn: game.currentTurn,
+            }
+        };
+    }
+    
+    game.currentTurn = player === game.player1 ? game.player2 : game.player1;
+    await game.save();
+    
+    return {
+        game: {
+            player1: game.player1,
+            player2: game.player2,
+            board: game.board,
+            currentTurn: game.currentTurn,
+        }
+    };
+}
+
+async function endGame(chatJid) {
+    await initGamesDB();
+    await GamesDB.destroy({ where: { chatJid } });
+}
+
+module.exports = {
+    initGamesDB,
+    createGame,
+    joinGame,
+    getActiveGame,
+    getWaitingGame,
+    makeMove,
+    endGame,
+    GamesDB,
+};

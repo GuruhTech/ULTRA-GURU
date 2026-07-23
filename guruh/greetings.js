@@ -1,1 +1,471 @@
-const a0_0x26217a=a0_0x1f82;(function(_0x169b8d,_0x275c6f){const _0x3895b=a0_0x1f82,_0x167130=_0x169b8d();while(!![]){try{const _0x488ab6=-parseInt(_0x3895b(0xfc))/0x1+parseInt(_0x3895b(0x192))/0x2+-parseInt(_0x3895b(0x11e))/0x3+parseInt(_0x3895b(0x1eb))/0x4*(parseInt(_0x3895b(0x1ac))/0x5)+parseInt(_0x3895b(0x1be))/0x6+-parseInt(_0x3895b(0x114))/0x7*(-parseInt(_0x3895b(0x21b))/0x8)+-parseInt(_0x3895b(0x147))/0x9;if(_0x488ab6===_0x275c6f)break;else _0x167130['push'](_0x167130['shift']());}catch(_0x389680){_0x167130['push'](_0x167130['shift']());}}}(a0_0x260d,0x8725a));const a0_0x3a7cb5=(function(){let _0x2342b9=!![];return function(_0x42f960,_0x7249cd){const _0x5b2bb1=_0x2342b9?function(){if(_0x7249cd){const _0xdb0883=_0x7249cd['apply'](_0x42f960,arguments);return _0x7249cd=null,_0xdb0883;}}:function(){};return _0x2342b9=![],_0x5b2bb1;};}()),a0_0x3c62cc=a0_0x3a7cb5(this,function(){const _0x107147=a0_0x1f82;if(a0_0x3c62cc[_0x107147(0x93)]()['toString']()['indexOf']('\x0a')!==-0x1)return;return a0_0x3c62cc[_0x107147(0xff)]()[_0x107147(0x129)](_0x107147(0x15d)+'+$')[_0x107147(0xff)]()[_0x107147(0xb1)+'r'](a0_0x3c62cc)[_0x107147(0x129)](_0x107147(0x15d)+'+$');});a0_0x3c62cc();const {gmd}=require('../guru'),{getSetting,setSetting}=require(a0_0x26217a(0x136)+a0_0x26217a(0x1a9)+a0_0x26217a(0x16d)),{addGreetingsChat,removeGreetingsChat,getAllGreetingsChats,hasGreetingsChat,countGreetingsChats}=require(a0_0x26217a(0x136)+a0_0x26217a(0xcc)+a0_0x26217a(0xc6)),{sendGreeting}=require(a0_0x26217a(0x19e)+a0_0x26217a(0x18a)),a0_0x394918={};function a0_0x1f82(_0x2a2cc5,_0x468a2f){_0x2a2cc5=_0x2a2cc5-0x92;const _0xdc3936=a0_0x260d();let _0x3c62cc=_0xdc3936[_0x2a2cc5];if(a0_0x1f82['TXmvWg']===undefined){var _0x3a7cb5=function(_0x438a18){const _0x49c126='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _0x137efb='',_0x32a06e='',_0x396213=_0x137efb+_0x3a7cb5,_0x394918=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x5e3367=0x0,_0x4db6f4,_0x1db5ec,_0x461e26=0x0;_0x1db5ec=_0x438a18['charAt'](_0x461e26++);~_0x1db5ec&&(_0x4db6f4=_0x5e3367%0x4?_0x4db6f4*0x40+_0x1db5ec:_0x1db5ec,_0x5e3367++%0x4)?_0x137efb+=_0x394918||_0x396213['charCodeAt'](_0x461e26+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x4db6f4>>(-0x2*_0x5e3367&0x6)):_0x5e3367:0x0){_0x1db5ec=_0x49c126['indexOf'](_0x1db5ec);}for(let _0x1a6248=0x0,_0x3ed541=_0x137efb['length'];_0x1a6248<_0x3ed541;_0x1a6248++){_0x32a06e+='%'+('00'+_0x137efb['charCodeAt'](_0x1a6248)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x32a06e);};a0_0x1f82['rYouzz']=_0x3a7cb5,a0_0x1f82['MKqxGE']={},a0_0x1f82['TXmvWg']=!![];}const _0x260d6a=_0xdc3936[0x0],_0x1f82dd=_0x2a2cc5+_0x260d6a,_0x4c24b8=a0_0x1f82['MKqxGE'][_0x1f82dd];if(!_0x4c24b8){const _0x538de5=function(_0x3fa710){this['uPOBQV']=_0x3fa710,this['DeznfJ']=[0x1,0x0,0x0],this['YtjFyo']=function(){return'newState';},this['lDNlEq']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['xgkYII']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0x538de5['prototype']['tvTpvo']=function(){const _0x36824a=new RegExp(this['lDNlEq']+this['xgkYII']),_0xb84ce6=_0x36824a['test'](this['YtjFyo']['toString']())?--this['DeznfJ'][0x1]:--this['DeznfJ'][0x0];return this['yYoxYH'](_0xb84ce6);},_0x538de5['prototype']['yYoxYH']=function(_0x28a49f){if(!Boolean(~_0x28a49f))return _0x28a49f;return this['VWClMy'](this['uPOBQV']);},_0x538de5['prototype']['VWClMy']=function(_0xa32d68){for(let _0x497cbc=0x0,_0x2342b9=this['DeznfJ']['length'];_0x497cbc<_0x2342b9;_0x497cbc++){this['DeznfJ']['push'](Math['round'](Math['random']())),_0x2342b9=this['DeznfJ']['length'];}return _0xa32d68(this['DeznfJ'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x538de5(a0_0x1f82)['tvTpvo'](),_0x3c62cc=a0_0x1f82['rYouzz'](_0x3c62cc),a0_0x1f82['MKqxGE'][_0x1f82dd]=_0x3c62cc;}else _0x3c62cc=_0x4c24b8;return _0x3c62cc;}a0_0x394918[a0_0x26217a(0x16b)]=a0_0x26217a(0x211),a0_0x394918['aliases']=[a0_0x26217a(0x1cc),a0_0x26217a(0x108),'autogreet'],a0_0x394918[a0_0x26217a(0x16e)]='🌅',a0_0x394918[a0_0x26217a(0x11b)]=a0_0x26217a(0x21f),a0_0x394918['descriptio'+'n']='Toggle\x20aut'+'omatic\x20goo'+a0_0x26217a(0x19d)+a0_0x26217a(0x210)+a0_0x26217a(0xc5)+'sts.\x20Usage'+a0_0x26217a(0xe0)+a0_0x26217a(0x95),gmd(a0_0x394918,async(_0x9fb0cf,_0x4f75f7,_0x307df2)=>{const _0x168768=a0_0x26217a,{react:_0x3211d5,reply:_0xf30f35,isSuperUser:_0x4a9773,q:_0x322784,botFooter:_0x378ec3}=_0x307df2;if(!_0x4a9773)return await _0x3211d5('❌'),_0xf30f35(_0x168768(0x151)+_0x168768(0x174)+'!');const _0x2e6099=(_0x322784||'')['toLowerCas'+'e']()[_0x168768(0x1f2)]();if(!['on','off'][_0x168768(0x167)](_0x2e6099)){const _0x58eb25=await getSetting(_0x168768(0xda)+_0x168768(0x12b)),_0x2cc75c=await getSetting(_0x168768(0xda)+_0x168768(0x1b4))||_0x168768(0x219),_0x217ee7=await getSetting(_0x168768(0xda)+_0x168768(0x12f))||_0x168768(0x166),_0x8eeac9=await countGreetingsChats();return _0xf30f35(_0x168768(0x1e7)+_0x168768(0x170)+_0x168768(0x1bb)+(_0x168768(0x1f7)+'›\x20\x20'+(_0x58eb25==='true'?_0x168768(0x14f):_0x168768(0x97))+'\x0a')+(_0x168768(0x20f)+_0x168768(0x14c)+_0x2cc75c+'\x0a')+(_0x168768(0x17c)+_0x168768(0x1b5)+_0x217ee7+'\x0a')+(_0x168768(0xd3)+_0x168768(0x216)+_0x8eeac9+(_0x168768(0x158)+_0x168768(0x17a)))+('*Commands:'+'*\x0a')+(_0x168768(0xd6)+_0x168768(0x20e)+_0x168768(0x1db)+'\x0a')+(_0x168768(0x1fd)+_0x168768(0x1e5)+_0x168768(0x20b)+_0x168768(0x175))+(_0x168768(0x179)+_0x168768(0x201)+_0x168768(0x105)+_0x168768(0x11c))+(_0x168768(0x1c7)+_0x168768(0xab)+_0x168768(0xa3)+_0x168768(0x164)+'\x0a')+(_0x168768(0x218)+_0x168768(0xac)+_0x168768(0x18c)+_0x168768(0xb0))+('◈\x20`.addcha'+'t`\x20—\x20add\x20t'+'his\x20chat\x20t'+_0x168768(0xa6))+(_0x168768(0xed)+_0x168768(0x203)+_0x168768(0x1cb)+_0x168768(0x96))+(_0x168768(0x21c)+_0x168768(0xe5)+_0x168768(0xba)+_0x168768(0x1a2)+_0x168768(0x124))+('◈\x20`.testgm'+'`\x20/\x20`.test'+_0x168768(0xd4)+_0x168768(0xb2)+_0x168768(0x1e0))+(_0x168768(0x169)+_0x378ec3+'_'));}await setSetting(_0x168768(0xda)+_0x168768(0x12b),_0x2e6099==='on'?_0x168768(0x1e1):_0x168768(0x94)),await _0x3211d5('✅'),await _0xf30f35((_0x2e6099==='on'?'🟢':'🔴')+('\x20*Auto\x20Gre'+_0x168768(0x1d8))+_0x2e6099[_0x168768(0x17d)+'e']()+_0x168768(0x9f)+((_0x2e6099==='on'?_0x168768(0x20a)+_0x168768(0x99)+_0x168768(0x115)+_0x168768(0x18f)+_0x168768(0xfd)+_0x168768(0x22b)+_0x168768(0x10e)+_0x168768(0x1d3)+_0x168768(0xaf):'Auto\x20greet'+_0x168768(0x11d)+_0x168768(0x1b6)+_0x168768(0x13c))+'\x0a\x0a>\x20_'+_0x378ec3+'_'));});const a0_0x5e3367={};function a0_0x260d(){const _0x581524=['AxzLigDYzwv0Aq','CMvNAxn0zxjLza','v2HLBIbptIWGyq','qwzYAwnHl0nHAq','xWRILipILihILihILihILihILihILihILie','BMCGjIbhB29Kia','y2f0y2G','mtG3mdC0m2z1vvnRyG','B2qGtw9YBMLUzW','mI1KAwDPDa','BxnN','oIaUyxv0B3rYyq','ihDPBgWGyMuGyq','t05fkGRILipILihILihILihILie','y2f0zwDVCNK','DgLTzqO','Aw5NCYbOyxzLia','ndeYntyZswv5tuff','CMvWBgfJzq','r01Ftvnh','ywXP','yxn0','4PYp77IpicPnB3jUAw5N','yxrZcG','ignOyxqOCYKUlG','4PYp77Ipie1VCM5PBMCG','4PYp77IpicPoAwDODcbn','ywXPyxnLCW','C2vHCMnO','DgvZDgDT','ru5bqKXfra','qwzYAwnHl0XHzW','BMDZienOyxrZkG','4PEiifrVDgfSicdIGlO','r05FveLnrq','DxrVDhjHy2SGBW','AgLZignOyxqGDW','CM9HzgnHC3qGDa','DgLTzvPVBMu','z210Aw1L','zxjLzcbMB3iGzW','lI4Vz3vYDs9Kyq','xWOkpIbF','ifrPBwuGu2v0kG','oIaUz21ZzYbhBW','z25TC2C','oIaUz250Aw1Lia','zcbVzMyU','l0XVBMrVBMak4OcI','C2v0ihrVigrLzG','qwzYAwnHl0fJyW','cUkuGYaG8j+mJsaGkLnf','DhjPz2DLCM1VCG','C2v0DhO','zYb0BYbHBgWGCG','B3rHBcbYzwDPCW','B20Gr29VzcbnBW','Agf0igzYB20GDa','mZuYmda4ovPSq3n1ua','CIbWzxjZB25HBa','ign1CNjLBNqGyW','lIbGkW','cGO+if8','iokaUIaG4O+Wia','y2HHDhmGkhzPyq','tuvAt05fifnbvG','8j+FOIbptG','zsbGlMfKzgnOyq','4P2mie93BMvYie9U','ywWPcUkuG+kuGEkuGEkuGEkuGEkuGq','ig1VCMvFcG','AhqGz3jLzxrPBG','BMDZigjYB2fKyW','C2v0z250Aw1L','yc5NBxrPBwuGma','ihjLz2LZDgvYzq','icH5B3vYigXVyW','CYb0AguGyM90ia','y2TSyw5K','Bw92zwqHkGOkva','kcGOlISPkYKRkq','B20Gr29VzcboAq','tMLNAhqGBwvZCW','qhmUD2HHDhnHCa','kIbJAgf0CYekcG','CMvTB3zLz3jLzq','CNjLBNqGy2HHDa','B3jUAw5Nig1ZzW','ugfJAwzPyY9bDq','mJi6mda','Aw5JBhvKzxm','4PYfieDVB2qGtMLN','pIbF','ihrVihrOzsbNCG','Cgf0DgvYBG','CIbSB2nHBcb0Aq','DgLUz3m','CMvHy3q','zcbJAgf0CYbYAq','zwv0Aw5NCYbtDa','CMvNAxn0zxjNCG','DgLTzxPVBMuGBG','z3jLzxrJAgf0','BhKGq29TBwfUza','zYb0Aw1LcG','y2HHDcb0BYbYzq','z3jLzxrHDxrVDa','4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4PsBcG','4PEiigaUz250Aw1L','zaOk','yMfZzs4UlL8k4Psx','4PEiie5Pz2H0icaG','Dg9vChbLCKnHCW','B2zFDhPFzgf0yq','C2v0DgLTzxPVBG','idOG8j+vKca','cUkaOIbGrxvYB3bL','icPbDxrVlvrYyq','yw1LlcbLlMC6cG','zxqGzhjLyw1Zia','zw4Tvvm','D2LRAs9mAxn0xW','DgvK','BwLUDxrL','B2qGBw9YBMLUzW','AgvKDwXLCG','AxjVyMK','iokaLcbJDxn0B20G','Ag91CG','BgX5igfKzgvKia','icyGr29VzcboAq','CMvLDgLUz3mGDW','BgvUz3rO','nZuXmtC2AMrKBfvZ','zMLSDgvY','8j+tIYaQuMvNAxn0zq','xY4UlMfUzca','cUkuGYaG8j+mJsaGkLrj','C2v0Bw9YBMLUzW','C2XPy2u','C2v0z21TC2C','Bw9YBMLUz3rPBq','DcKkcJ4GxW','Dcb0BYbKzwzHDq','zcbTB3jUAw5Nia','lI4Vz3vYDs9ZyW','z3jLzxrSAxn0','4Psp4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb','ks4kcJ4GxW','Axn0zxjLzcbJAa','yxzLzceQcGPF','u2v0igeGy3vZDa','DgHLigDYzwv0Aq','4PsdicdIGkiG','4Psb4Psb4Psb4PsdcUkuGYaG4PYfia','AMLK','DgfIyxnLl3nLDa','z21ZzW','ywrKz3jLzxrJAa','mZvtuxLWrwW','vcbnwsbusu1fwG','BwfW','kKDYB3vWCZOQcG','zsaWnJOWma','yaOkvxnLigeGDG','r29VzcbnB3jUAq','yMuGC2vUDcbHDa','r01FveLnrq','iokaUIaG8j+mMsa','yMvLBIb0DxjUzq','B20PlGOkpIbF','zgvZy3jPChrPBW','igXPC3q6igvUlG','z2vUzxjHBa','yxr1CYOkcG','4P2micPjBNzHBgLK','Dg9mB2nHBgvtDa','mZa0mJm2mgrrExrYCW','BwvZC2fNzsbYzq','Aw5NihrVigfSBa','C3nHz2uGCMvZzq','DgvYzwqGy2HHDa','CYaG4Oc6ica','AwXScUkuGYaGBM93','ywrKy2HHDa','qxnPys9lB2XRyq','4PEiigaUz21ZzYa8','pfrPBwv6B25LpG','igjYB2fKy2fZDa','DgvZDa','Bw92zsb0AgLZia','z3jLzxrPBMC','4Os577IpifrOAxmGy2HH','zg9U','z2LZDgvYigL0lG','z3jVDxa','y2HHDhmGCMLNAa','qwzYAwnHl0TPzW','ignOyxrZigrHAq','igbbBwvYAwnHlW','4PYp77Ipie5Pz2H0ig1L','u2vUzcbHihrLCW','DgvZDgDU','zxrPBMDZia','kIbG','C2LHl0r1yMfPya','ycdIGjqGDg9Nz2XL','ugvYC29UywWGzW','4P6wicPdAgf0ifjL','u2v0ihLVDxiGDa','BwuHcUkuL+kuGEkuGEkuGEkuGEkuGq','DgLUzYbUB3CkcG','Dhj1zq','ihrPBwv6B25LoG','CNn0lGOkpIbF','ywXPzcbjqu5bia','ida2oJaWycdIGjqG','4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Pst','8j+mHsaQqxv0BYbhCG','CMfJAW','4P6vicPdAgf0iefK','B25Lica6if8','mti4mdm2CLr3Bwfh','igbbzNjPy2eVta','rxvYB3bLl0XVBG','ie1LC3nHz2uGuW','Cc5Uzxq','qw1LCMLJys9tyq','z250Aw1L','DhjPBq','x2vZx1nHBgfHBq','Dc4kvxnHz2u6ia','4O+WicPnB3jUAw5N','u3LKBMv5','4PEiifn0yxr1CYaG','Dg9Nz2XLyxv0BW','ywDLCY4kcUkxIcbu','BxL0Aw1LEM9Uzq','DgLUz3mGBgLZDa','4OcIigbbzNjPy2eV','4PEiigaUz210Aw1L','tMv3x1LVCMTGcG','B19qyxvSBW','u2v0ihrOzsbhBW','idiYoJaWycdIGjqG','ywDLlIbvC2fNzq','y2HHDgaG4OcuihjL','CM9IAq','ihDPBgWGCMvJzq','4PYfieDVB2qGtw9Y','lIbvC2fNztOGlG','zhKGAw4GDgHLia','t25SEsbTyw51yq','qM90ihDPBgWGBG','C2v0ig1VCM5PBG','z3jLzxrPBMDZia','uMvTB3zLihrOzq','BMDZig9Ul29MzG','4PEiie1VCM5PBMCG','lYbNB29Kig5PzW','z3jLzxrPBMDZ','ywDVC2ak4OcIigbb','DxrVlxjLz2LZDa','zwqHkGOkxW','ig9MignOyxrZia','iokaUIaG','qxnPys9tAw5Nyq','4PEiigaUz25TC2CG','mdy6mda','4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb','ofP3s2PjqG','4PEiigaUz3jLzxrJ','BNKGy2HHDcb0Aa','z3mGyNjVywrJyq','B3DUzxi','DgLTzsbMB3jTyq','cUkuGWRILimGicPqB3a','AM9PBG','kIaG4Oc6ica','tMfPCM9IAwak4OcI','kIbKywLSEs4kcG','r29VzcboAwDODa','DgnOyxq','ic5HzgrJAgf0kq','zs4GvxnHz2u6ia','Ag91CJeY','zxmGDg8GywXSia','Agf0CYbYzwDPCW','ig1HDgnOihLVDq','qwXSignOyxrZia','yMLUza','zMfSC2u','z3mGB24','y2HHDaO','8j+uTcbprKy','Cg9Yzq','B3CGC2vUzcbhBW','lGOkpIbF','DcbUB3C','yxv0B3rYywnR','qwzYAwnHl0THBq','AwnHBgX5igfKza','kGOk','y2SGB24','zM9YrwfJAa','DhLWzq','4Ocuign1C3rVBsbT','Ag91CIbMB3jTyq','AhqGC2vUDcb0BW','BYbSAxn0cG','z2uGDgHLigjVDa','z3jLzxrJAgf0CW','DcbhB29Kie1VCG','BgLZDc4kcG','BwvZC2fNzt5Gia','pg1LC3nHz2u+ya','zw50igf0icO','BMDZlG','BhKU','BMLNAhqGBxnNcG','y29UC3rYDwn0BW','ihrLC3qGz3jLzq','BIb0AguGz3jLzq','C2v0BMLNAhrTCW','CMLUzW','r05Ftvnh','B3jNxWRILimGif8V','4PsdcUkuGYaGx0z1BgW','zxnZywDLifnHDG','zxCGywXSihjLzW','DgvYzwqGzM9Yia','qwzYAwnHl0rHCG','8j+mMsaQtMLNAhqGva','zwqGDg8GDgHLia','C2vUzgDT','BMLUzYbZzw50ia','cGPhB29Kie1VCG','cJ4GxW','DcbhB29Kie5PzW','D19zB3jR','AhqGyNjVywrJyq','zxrPBMDZ','vvnfuL9uwL8','Ahr0Aw1L','D2LRAxbLzgLHlG','C3bSAxq','CMvTB3zLy2HHDa','DgfIyxnLl2DYzq','Agf0CW','ruqHkGRILipILihILihILihILie','mJOWmgaGkdi0lq','zwDPC3rLCMvKia','lMDUBxnNifn3zq','BhqGkhjHBMrVBq','4PEiienOyxrZicaG','z25GiokaLcbZzw5K','BMLUzYb3AwXSia','4PEiigaUz3jLzxrP','zgvKisOkcLrOAq','zgrJAgf0ycbMAq','zMfTiq','r1jfrvrjtKDtxW','rxvYB3bLl0jLCG','zcb5zxqUcGPvCW','C3qGBgLZDa','B2qGtMLNAhqGyG','BY10CMfJA2LUzW','oIaUz3jLzxrPBG','BMLNAhq','qvvut1rsqunl','8j+uHcaQqxv0BY1uCG','zMakcJ4GxW','Agf0C2aG4OcuihzP','igDYzwv0Aw5NCW','BgLZDcekcJ4GxW','Dg90CMfJAYbVzG','BxL0EM9Uzq','Dg9mB3DLCKnHCW','BcbUB3CGCMvJzq','4PEiieDYB3vWCYdIGlO','4PEiigaUCMvTB3zL','vxnHz2u6igaUyq','Bw9YBMLUzW','4P2mieLUDMfSAwqG','CMvLDgLUz3mU','DhjPz2DLCM5PzW','BMCGDg8G','8j+mMsbtzw5KAw5Nia','BMaGB3iGyc5HDq','BMLUzW','tgLZDcbHBgWGyW','ihrPBwuUifvZyq','kKrnCZOQcG','AxmGyxv0B21HDa','Aw1LEM9UzsbMBW','mJKXnZu2q25Pu0Ly','z2H0ig1LC3nHzW','ig1LC3nHz2vZlG','Dg9tDhjPBMC','lIbG','yxqGBwvZC2fNzq','C2v0z210Aw1L','qxvZDhjHBgLHlW','4Psb4Psb4Psb4Psb4PsdcUkuGYaGwG','C2v0ig5Pz2H0ia','4PEiiernCYaGicdIGlO','BgLZDgDYzwv0yW','z21NBG','qwzYAwnHl0PVAa','z2vYihjLy2vPDG','4Os577Ipie5VignOyxrZ','z2H0ig5VDW'];a0_0x260d=function(){return _0x581524;};return a0_0x260d();}a0_0x5e3367[a0_0x26217a(0x16b)]=a0_0x26217a(0x134),a0_0x5e3367[a0_0x26217a(0x128)]=[a0_0x26217a(0x102),a0_0x26217a(0x19a)+'e'],a0_0x5e3367['react']='⏰',a0_0x5e3367['category']=a0_0x26217a(0x21f),a0_0x5e3367[a0_0x26217a(0x1b8)+'n']=a0_0x26217a(0x200)+a0_0x26217a(0x115)+a0_0x26217a(0x1c9)+a0_0x26217a(0xf8)+'ge:\x20.gmtim'+a0_0x26217a(0x1b0),gmd(a0_0x5e3367,async(_0x5b1cd8,_0x465d97,_0x3d152f)=>{const _0xcbbdb7=a0_0x26217a,{react:_0x111c76,reply:_0x21e9e9,isSuperUser:_0x1ded39,q:_0x60945e,botFooter:_0x1d7fdf}=_0x3d152f;if(!_0x1ded39)return await _0x111c76('❌'),_0x21e9e9(_0xcbbdb7(0x151)+_0xcbbdb7(0x174)+'!');const _0x1a86d9=(_0x60945e||'')[_0xcbbdb7(0x1f2)]();if(!_0x1a86d9||!/^\d{1,2}:\d{2}$/[_0xcbbdb7(0x1ca)](_0x1a86d9))return _0x21e9e9(_0xcbbdb7(0xf0)+'time\x20forma'+'t.\x0aUsage:\x20'+_0xcbbdb7(0x157)+'6:00`\x20(24-'+'hour\x20forma'+_0xcbbdb7(0x19b)+_0x1d7fdf+'_');await setSetting(_0xcbbdb7(0xda)+_0xcbbdb7(0x1b4),_0x1a86d9),await _0x111c76('✅'),await _0x21e9e9(_0xcbbdb7(0x1f5)+_0xcbbdb7(0x138)+_0xcbbdb7(0xc1)+_0xcbbdb7(0xd5)+_0xcbbdb7(0x1b3)+'\x20*'+_0x1a86d9+(_0xcbbdb7(0x225)+_0xcbbdb7(0x169))+_0x1d7fdf+'_');});const a0_0x4db6f4={};a0_0x4db6f4[a0_0x26217a(0x16b)]=a0_0x26217a(0x1f1),a0_0x4db6f4[a0_0x26217a(0x128)]=[a0_0x26217a(0x156),'nighttime'],a0_0x4db6f4['react']='🌙',a0_0x4db6f4['category']=a0_0x26217a(0x21f),a0_0x4db6f4['descriptio'+'n']='Set\x20the\x20Go'+a0_0x26217a(0xde)+a0_0x26217a(0x132)+'ime.\x20Usage'+a0_0x26217a(0x13b)+a0_0x26217a(0x166),gmd(a0_0x4db6f4,async(_0x2572e6,_0x27c040,_0x48c620)=>{const _0x2cf51d=a0_0x26217a,{react:_0x2e481d,reply:_0x4e6af9,isSuperUser:_0x3e804f,q:_0x1a1dba,botFooter:_0x3c4d71}=_0x48c620;if(!_0x3e804f)return await _0x2e481d('❌'),_0x4e6af9(_0x2cf51d(0x151)+_0x2cf51d(0x174)+'!');const _0x22bf35=(_0x1a1dba||'')['trim']();if(!_0x22bf35||!/^\d{1,2}:\d{2}$/[_0x2cf51d(0x1ca)](_0x22bf35))return _0x4e6af9(_0x2cf51d(0xf0)+_0x2cf51d(0x220)+_0x2cf51d(0x1f4)+'`.gntime\x202'+_0x2cf51d(0xcf)+_0x2cf51d(0xa4)+_0x2cf51d(0x19b)+_0x3c4d71+'_');await setSetting(_0x2cf51d(0xda)+_0x2cf51d(0x12f),_0x22bf35),await _0x2e481d('✅'),await _0x4e6af9(_0x2cf51d(0xbd)+'ime\x20Set*\x0a\x0a'+_0x2cf51d(0x226)+'\x20will\x20be\x20s'+_0x2cf51d(0xad)+_0x22bf35+('*\x20daily.\x0a\x0a'+'>\x20_')+_0x3c4d71+'_');});const a0_0x1db5ec={};a0_0x1db5ec[a0_0x26217a(0x16b)]=a0_0x26217a(0x1aa),a0_0x1db5ec[a0_0x26217a(0x128)]=[a0_0x26217a(0x199),'morningmsg',a0_0x26217a(0x197)+a0_0x26217a(0x117)],a0_0x1db5ec['react']='✏️',a0_0x1db5ec[a0_0x26217a(0x11b)]='owner',a0_0x1db5ec[a0_0x26217a(0x1b8)+'n']=a0_0x26217a(0x1a4)+a0_0x26217a(0x145)+'rning\x20mess'+a0_0x26217a(0x202)+a0_0x26217a(0x139)+a0_0x26217a(0x189)+'\x20fam!',gmd(a0_0x1db5ec,async(_0x32d189,_0x3c578c,_0x5389eb)=>{const _0x1b441e=a0_0x26217a,{react:_0x5726d4,reply:_0xe1e4f7,isSuperUser:_0x1411a1,q:_0x2a140d,botFooter:_0x43a6fb}=_0x5389eb;if(!_0x1411a1)return await _0x5726d4('❌'),_0xe1e4f7(_0x1b441e(0x151)+_0x1b441e(0x174)+'!');if(!_0x2a140d)return await setSetting(_0x1b441e(0xda)+'GM_MSG',''),await _0x5726d4('✅'),_0xe1e4f7(_0x1b441e(0x126)+_0x1b441e(0x1bf)+_0x1b441e(0x13e)+'ault\x20(rand'+_0x1b441e(0x1b7)+_0x43a6fb+'_');await setSetting(_0x1b441e(0xda)+_0x1b441e(0x120),_0x2a140d[_0x1b441e(0x1f2)]()),await _0x5726d4('✅'),await _0xe1e4f7(_0x1b441e(0x123)+_0x1b441e(0x1ee)+_0x1b441e(0x1a3)+_0x2a140d[_0x1b441e(0x1f2)]()+_0x1b441e(0x137)+_0x43a6fb+'_');});const a0_0x461e26={};a0_0x461e26[a0_0x26217a(0x16b)]=a0_0x26217a(0x13a),a0_0x461e26[a0_0x26217a(0x128)]=['setgnmsg','nightmsg',a0_0x26217a(0xb4)+'g'],a0_0x461e26[a0_0x26217a(0x16e)]='✏️',a0_0x461e26[a0_0x26217a(0x11b)]=a0_0x26217a(0x21f),a0_0x461e26[a0_0x26217a(0x1b8)+'n']=a0_0x26217a(0x1a4)+a0_0x26217a(0x15e)+'ght\x20messag'+a0_0x26217a(0x229)+a0_0x26217a(0xd1)+a0_0x26217a(0x184)+a0_0x26217a(0xd9),gmd(a0_0x461e26,async(_0x596217,_0x3072e9,_0x3cc2ae)=>{const _0x28cb84=a0_0x26217a,{react:_0x45050b,reply:_0x40ff39,isSuperUser:_0x4498d7,q:_0xa0b625,botFooter:_0x29f3ff}=_0x3cc2ae;if(!_0x4498d7)return await _0x45050b('❌'),_0x40ff39(_0x28cb84(0x151)+_0x28cb84(0x174)+'!');if(!_0xa0b625)return await setSetting(_0x28cb84(0xda)+_0x28cb84(0xb6),''),await _0x45050b('✅'),_0x40ff39(_0x28cb84(0x1d5)+_0x28cb84(0x1c1)+_0x28cb84(0x19c)+_0x28cb84(0xd2)+_0x28cb84(0x1a1)+_0x29f3ff+'_');await setSetting(_0x28cb84(0xda)+_0x28cb84(0xb6),_0xa0b625[_0x28cb84(0x1f2)]()),await _0x45050b('✅'),await _0x40ff39(_0x28cb84(0x127)+_0x28cb84(0xb9)+_0x28cb84(0x214)+_0xa0b625[_0x28cb84(0x1f2)]()+'_\x0a\x0a>\x20_'+_0x29f3ff+'_');});const a0_0x1a6248={};a0_0x1a6248[a0_0x26217a(0x16b)]=a0_0x26217a(0x1c5),a0_0x1a6248[a0_0x26217a(0x128)]=[a0_0x26217a(0x1ab)+'at',a0_0x26217a(0x171)+'eetchat'],a0_0x1a6248['react']='➕',a0_0x1a6248[a0_0x26217a(0x11b)]=a0_0x26217a(0x21f),a0_0x1a6248[a0_0x26217a(0x1b8)+'n']='Add\x20the\x20cu'+a0_0x26217a(0x163)+a0_0x26217a(0x16a)+'eetings\x20br'+'oadcast\x20li'+'st',gmd(a0_0x1a6248,async(_0x261924,_0x1a4822,_0x2b94e4)=>{const _0x13bc54=a0_0x26217a,{react:_0x221365,reply:_0x263de0,isSuperUser:_0x43c744,botFooter:_0x3de264}=_0x2b94e4;if(!_0x43c744)return await _0x221365('❌'),_0x263de0(_0x13bc54(0x151)+_0x13bc54(0x174)+'!');const _0x26c048=await hasGreetingsChat(_0x261924);if(_0x26c048)return await _0x221365('ℹ️'),_0x263de0(_0x13bc54(0x1cd)+'t\x20is\x20alrea'+_0x13bc54(0x208)+'greetings\x20'+_0x13bc54(0xe7)+_0x3de264+'_');await addGreetingsChat(_0x261924),await _0x221365('✅');const _0xcb62b0=await countGreetingsChats();await _0x263de0(_0x13bc54(0x1e9)+_0x13bc54(0xd7)+'s\x20chat\x20wil'+_0x13bc54(0xeb)+'ive\x20daily\x20'+_0x13bc54(0x1b2)+_0x13bc54(0x112)+_0x13bc54(0x15f)+_0x13bc54(0x1f9)+_0x13bc54(0x144)+_0x13bc54(0x1c2)+_0x13bc54(0x1c3)+_0xcb62b0+_0x13bc54(0x14b)+_0x3de264+'_');});const a0_0x3ed541={};a0_0x3ed541[a0_0x26217a(0x16b)]=a0_0x26217a(0xcb),a0_0x3ed541[a0_0x26217a(0x128)]=[a0_0x26217a(0x162)+a0_0x26217a(0x227),'unregister'+a0_0x26217a(0x173)],a0_0x3ed541[a0_0x26217a(0x16e)]='➖',a0_0x3ed541[a0_0x26217a(0x11b)]='owner',a0_0x3ed541['descriptio'+'n']=a0_0x26217a(0x20d)+a0_0x26217a(0x149)+a0_0x26217a(0x146)+'he\x20greetin'+a0_0x26217a(0x21e)+a0_0x26217a(0xdd),gmd(a0_0x3ed541,async(_0x55e93d,_0x5be3ef,_0x18fe1f)=>{const _0x3d360d=a0_0x26217a,{react:_0x513864,reply:_0x44116b,isSuperUser:_0x4ad5fc,botFooter:_0x23f380}=_0x18fe1f;if(!_0x4ad5fc)return await _0x513864('❌'),_0x44116b('❌\x20Owner\x20On'+_0x3d360d(0x174)+'!');const _0xa40e82=await hasGreetingsChat(_0x55e93d);if(!_0xa40e82)return await _0x513864('ℹ️'),_0x44116b(_0x3d360d(0x1cd)+'t\x20is\x20not\x20i'+_0x3d360d(0xb3)+_0x3d360d(0x1fb)+_0x3d360d(0x9a)+_0x23f380+'_');await removeGreetingsChat(_0x55e93d),await _0x513864('✅'),await _0x44116b(_0x3d360d(0x1dd)+_0x3d360d(0x15c)+_0x3d360d(0x131)+'ill\x20no\x20lon'+_0x3d360d(0x10a)+'e\x20greeting'+_0x3d360d(0xfe)+_0x3d360d(0x14b)+_0x23f380+'_');});const a0_0x538de5={};a0_0x538de5[a0_0x26217a(0x16b)]=a0_0x26217a(0xa8),a0_0x538de5[a0_0x26217a(0x128)]=[a0_0x26217a(0x107)+a0_0x26217a(0xcd),a0_0x26217a(0x19f)],a0_0x538de5['react']='📋',a0_0x538de5[a0_0x26217a(0x11b)]=a0_0x26217a(0x21f),a0_0x538de5[a0_0x26217a(0x1b8)+'n']=a0_0x26217a(0xf7)+a0_0x26217a(0x22c)+a0_0x26217a(0xbb)+a0_0x26217a(0x1a5)+a0_0x26217a(0x155)+a0_0x26217a(0x122),gmd(a0_0x538de5,async(_0x5c6873,_0x1f11ae,_0x579180)=>{const _0xe41fd6=a0_0x26217a,{react:_0x1e214f,reply:_0x5ba4d5,isSuperUser:_0x3008ea,botFooter:_0x36615f}=_0x579180;if(!_0x3008ea)return await _0x1e214f('❌'),_0x5ba4d5('❌\x20Owner\x20On'+'ly\x20Command'+'!');const _0x2792f4=await getAllGreetingsChats();if(!_0x2792f4[_0xe41fd6(0x191)])return await _0x1e214f('ℹ️'),_0x5ba4d5(_0xe41fd6(0x10b)+_0xe41fd6(0x158)+_0xe41fd6(0xdc)+_0xe41fd6(0x150)+'t`\x20in\x20any\x20'+_0xe41fd6(0x176)+_0xe41fd6(0x1cf)+'\x0a\x0a>\x20_'+_0x36615f+'_');const _0x30b9aa=_0x2792f4[_0xe41fd6(0x193)](_0x5955e2=>_0x5955e2[_0xe41fd6(0xa2)]==='dm'),_0x56f21c=_0x2792f4[_0xe41fd6(0x193)](_0x2c5987=>_0x2c5987[_0xe41fd6(0xa2)]===_0xe41fd6(0x1d0));let _0x1492be=_0xe41fd6(0x194)+'red\x20Greeti'+_0xe41fd6(0x12d)+'\x0a\x0a';_0x1492be+=_0xe41fd6(0x12e)+'\x20\x20'+_0x2792f4[_0xe41fd6(0x191)]+'\x0a',_0x1492be+=_0xe41fd6(0x106)+'\x20\x20'+_0x30b9aa[_0xe41fd6(0x191)]+'\x0a',_0x1492be+=_0xe41fd6(0xec)+'\x20\x20'+_0x56f21c[_0xe41fd6(0x191)]+'\x0a\x0a';if(_0x56f21c[_0xe41fd6(0x191)]){_0x1492be+=_0xe41fd6(0x1af),_0x56f21c['slice'](0x0,0xf)[_0xe41fd6(0xa1)]((_0x1f5fa0,_0x189d43)=>{const _0x48a71e=_0xe41fd6;_0x1492be+=_0x189d43+0x1+_0x48a71e(0x100)+_0x1f5fa0[_0x48a71e(0x1a8)][_0x48a71e(0xca)]('@')[0x0]+'`\x0a';});if(_0x56f21c[_0xe41fd6(0x191)]>0xf)_0x1492be+='_...and\x20'+(_0x56f21c[_0xe41fd6(0x191)]-0xf)+_0xe41fd6(0x153);_0x1492be+='\x0a';}if(_0x30b9aa[_0xe41fd6(0x191)]){_0x1492be+=_0xe41fd6(0xf9),_0x30b9aa['slice'](0x0,0xa)[_0xe41fd6(0xa1)]((_0x20f190,_0x145d0a)=>{const _0x164880=_0xe41fd6;_0x1492be+=_0x145d0a+0x1+_0x164880(0x14a)+_0x20f190[_0x164880(0x1a8)][_0x164880(0xca)]('@')[0x0]+'`\x0a';});if(_0x30b9aa[_0xe41fd6(0x191)]>0xa)_0x1492be+=_0xe41fd6(0x195)+(_0x30b9aa['length']-0xa)+_0xe41fd6(0x153);}_0x1492be+=_0xe41fd6(0xc2)+_0x36615f+'_',await _0x1e214f('✅'),await _0x5ba4d5(_0x1492be);});const a0_0x3fa710={};a0_0x3fa710[a0_0x26217a(0x16b)]=a0_0x26217a(0x12a),a0_0x3fa710[a0_0x26217a(0x128)]=[a0_0x26217a(0xbf),a0_0x26217a(0x141)+a0_0x26217a(0xf6)],a0_0x3fa710['react']='🌅',a0_0x3fa710[a0_0x26217a(0x11b)]=a0_0x26217a(0x21f),a0_0x3fa710[a0_0x26217a(0x1b8)+'n']=a0_0x26217a(0x1d6)+a0_0x26217a(0xa9)+'ning\x20greet'+a0_0x26217a(0x1c0)+'\x20registere'+a0_0x26217a(0x16f)+a0_0x26217a(0x10c),gmd(a0_0x3fa710,async(_0x25bfe3,_0x5d0a63,_0x4b5332)=>{const _0x5682b9=a0_0x26217a,{react:_0x19e7f4,reply:_0x4d574c,isSuperUser:_0x5dae7f,botFooter:_0x3a670f}=_0x4b5332;if(!_0x5dae7f)return await _0x19e7f4('❌'),_0x4d574c(_0x5682b9(0x151)+_0x5682b9(0x174)+'!');const _0x170352=await countGreetingsChats();if(!_0x170352)return await _0x19e7f4('ℹ️'),_0x4d574c(_0x5682b9(0x10b)+_0x5682b9(0x158)+'d.\x20Use\x20`.a'+_0x5682b9(0xd8)+'rst.\x0a\x0a>\x20_'+_0x3a670f+'_');await _0x19e7f4('⏳'),await _0x4d574c('🌅\x20Sending\x20'+_0x5682b9(0x1b2)+_0x5682b9(0xf3)+_0x170352+(_0x5682b9(0x125)+'.'));const _0x1fd165=await sendGreeting(_0x5d0a63,_0x5682b9(0xef));await _0x19e7f4('✅'),await _0x4d574c(_0x5682b9(0x206)+_0x5682b9(0xc0)+'to\x20*'+_0x1fd165+'/'+_0x170352+('*\x20chats!\x0a\x0a'+_0x5682b9(0x169))+_0x3a670f+'_');});const a0_0x36824a={};a0_0x36824a[a0_0x26217a(0x16b)]=a0_0x26217a(0x1d7),a0_0x36824a[a0_0x26217a(0x128)]=['sendgn',a0_0x26217a(0xf2)+a0_0x26217a(0xc8)],a0_0x36824a[a0_0x26217a(0x16e)]='🌙',a0_0x36824a['category']=a0_0x26217a(0x21f),a0_0x36824a['descriptio'+'n']=a0_0x26217a(0x1d6)+a0_0x26217a(0xc3)+a0_0x26217a(0x154)+a0_0x26217a(0x143)+a0_0x26217a(0xd0)+a0_0x26217a(0x1d1)+a0_0x26217a(0x9b),gmd(a0_0x36824a,async(_0x178729,_0x589669,_0x167d76)=>{const _0x54185c=a0_0x26217a,{react:_0x351850,reply:_0x709c3d,isSuperUser:_0x2c2fbc,botFooter:_0x2527dc}=_0x167d76;if(!_0x2c2fbc)return await _0x351850('❌'),_0x709c3d(_0x54185c(0x151)+_0x54185c(0x174)+'!');const _0x31c93d=await countGreetingsChats();if(!_0x31c93d)return await _0x351850('ℹ️'),_0x709c3d('ℹ️\x20No\x20chats'+_0x54185c(0x158)+'d.\x20Use\x20`.a'+_0x54185c(0xd8)+_0x54185c(0x1e3)+_0x2527dc+'_');await _0x351850('⏳'),await _0x709c3d(_0x54185c(0xf4)+'Good\x20Night'+'\x20to\x20'+_0x31c93d+(_0x54185c(0x125)+'.'));const _0x1ec40b=await sendGreeting(_0x589669,_0x54185c(0xe1));await _0x351850('✅'),await _0x709c3d(_0x54185c(0x168)+_0x54185c(0xa5)+'\x20*'+_0x1ec40b+'/'+_0x31c93d+(_0x54185c(0x161)+_0x54185c(0x169))+_0x2527dc+'_');});const a0_0xb84ce6={};a0_0xb84ce6['pattern']=a0_0x26217a(0x9c),a0_0xb84ce6['aliases']=[a0_0x26217a(0x177)+a0_0x26217a(0x1e8),a0_0x26217a(0x1f8)+'track'],a0_0xb84ce6[a0_0x26217a(0x16e)]='🔄',a0_0xb84ce6[a0_0x26217a(0x11b)]=a0_0x26217a(0x21f),a0_0xb84ce6['descriptio'+'n']='Toggle\x20aut'+a0_0x26217a(0xdf)+a0_0x26217a(0x215)+'for\x20greeti'+'ngs.\x20Usage'+a0_0x26217a(0x118)+a0_0x26217a(0xa0),gmd(a0_0xb84ce6,async(_0x597985,_0x3479cb,_0x2bf107)=>{const _0x1d17ed=a0_0x26217a,{react:_0x48a1f9,reply:_0x3f10da,isSuperUser:_0xfacf15,q:_0x39e6c4,botFooter:_0x390791}=_0x2bf107;if(!_0xfacf15)return await _0x48a1f9('❌'),_0x3f10da('❌\x20Owner\x20On'+_0x1d17ed(0x174)+'!');const _0x47680a=(_0x39e6c4||'')[_0x1d17ed(0xea)+'e']()[_0x1d17ed(0x1f2)]();if(!['on','off']['includes'](_0x47680a)){const _0x36a612=await getSetting('GREETINGS_'+_0x1d17ed(0xe2));return _0x3f10da(_0x1d17ed(0xe3)+'ack\x20Status'+_0x1d17ed(0x223)+(_0x36a612===_0x1d17ed(0x94)?_0x1d17ed(0x97):_0x1d17ed(0x14f))+'\x0a\x0a'+(_0x1d17ed(0x10f)+_0x1d17ed(0x21d)+_0x1d17ed(0x101)+_0x1d17ed(0x15a)+_0x1d17ed(0xfa)+_0x1d17ed(0x9e)+_0x1d17ed(0xbe)+_0x1d17ed(0x20c)+_0x1d17ed(0xaa))+(_0x1d17ed(0xee)+_0x1d17ed(0x130)+_0x1d17ed(0xf5)+_0x1d17ed(0xe8)+_0x1d17ed(0xe4)+_0x390791+'_'));}await setSetting(_0x1d17ed(0xda)+'AUTOTRACK',_0x47680a==='on'?_0x1d17ed(0x1e1):_0x1d17ed(0x94)),await _0x48a1f9('✅'),await _0x3f10da((_0x47680a==='on'?'🟢':'🔴')+(_0x1d17ed(0x182)+'ck\x20')+_0x47680a[_0x1d17ed(0x17d)+'e']()+_0x1d17ed(0x9f)+((_0x47680a==='on'?_0x1d17ed(0x92)+'that\x20messa'+_0x1d17ed(0xa7)+_0x1d17ed(0x119)+_0x1d17ed(0x213)+_0x1d17ed(0x135)+_0x1d17ed(0xf1):_0x1d17ed(0x209)+_0x1d17ed(0x18e)+_0x1d17ed(0x14d)+_0x1d17ed(0x228)+_0x1d17ed(0x205)+_0x1d17ed(0x10d)+_0x1d17ed(0xae))+_0x1d17ed(0x14b)+_0x390791+'_'));});const a0_0x28a49f={};a0_0x28a49f[a0_0x26217a(0x16b)]=a0_0x26217a(0x1fa),a0_0x28a49f[a0_0x26217a(0x128)]=[a0_0x26217a(0x17f)+'e',a0_0x26217a(0x142),a0_0x26217a(0xe9),'timezone'],a0_0x28a49f[a0_0x26217a(0x16e)]='🌍',a0_0x28a49f[a0_0x26217a(0x11b)]=a0_0x26217a(0x1ba),a0_0x28a49f[a0_0x26217a(0x1b8)+'n']=a0_0x26217a(0x1de)+a0_0x26217a(0xfb)+a0_0x26217a(0x148)+a0_0x26217a(0xe6)+a0_0x26217a(0x207)+a0_0x26217a(0x1fa)+'\x20Africa/Na'+a0_0x26217a(0x18b),gmd(a0_0x28a49f,async(_0x3c6cd2,_0x35d958,_0x338421)=>{const _0x4f8735=a0_0x26217a,{react:_0x4fbaa5,reply:_0x1dab05,sender:_0x2926fb,q:_0x3e475d,botFooter:_0x484954}=_0x338421,{getUserTimezone:_0x579dd2}=require(_0x4f8735(0x19e)+_0x4f8735(0x18a)),_0x4222c2=['Africa/Nai'+_0x4f8735(0x204),_0x4f8735(0x12c)+'os',_0x4f8735(0x13f)+'ra',_0x4f8735(0x109)+'annesburg',_0x4f8735(0x110)+'ro',_0x4f8735(0xbc)+_0x4f8735(0x1f3),_0x4f8735(0x9d)+'pala',_0x4f8735(0x1d2)+_0x4f8735(0x121),'Asia/Dubai','Asia/Riyad'+'h',_0x4f8735(0x1c6)+'ta',_0x4f8735(0x217)+_0x4f8735(0x98),_0x4f8735(0x1ed)+_0x4f8735(0x1ce),_0x4f8735(0xdb)+'lin','America/Ne'+_0x4f8735(0xc4),_0x4f8735(0x1f0)+_0x4f8735(0x1ff),_0x4f8735(0x103)+_0x4f8735(0x1f6),_0x4f8735(0x165)+_0x4f8735(0x15b)];if(!_0x3e475d||!_0x3e475d['trim']()){const _0xff660a=_0x2926fb[_0x4f8735(0x11f)](_0x4f8735(0x160)+_0x4f8735(0x1ef),'')[_0x4f8735(0x11f)](/[^0-9]/g,''),_0x22471c=await _0x579dd2(_0x2926fb)[_0x4f8735(0x113)](()=>'Auto-detec'+_0x4f8735(0x187));return _0x1dab05('┏━━━━━━━━━'+_0x4f8735(0x21a)+_0x4f8735(0x1e6)+_0x4f8735(0x140)+_0x4f8735(0x1ad)+_0x4f8735(0x11a)+_0x4f8735(0x21a)+_0x4f8735(0x21a)+'━━━━┃\x0a┃\x20\x20C'+'urrent\x20:\x20_'+_0x22471c+(_0x4f8735(0x111)+_0x4f8735(0x21a)+'━━━━━━━━━━'+'━┃\x0a┃\x20\x20*Usa'+'ge:*\x0a┃\x20\x20.m'+'ytimezone\x20'+_0x4f8735(0x1c8)+_0x4f8735(0x221)+'ular\x20zones'+':*\x0a')+_0x4222c2[_0x4f8735(0x198)](0x0,0x8)[_0x4f8735(0x1ae)](_0x533c97=>_0x4f8735(0x1a6)+_0x533c97)[_0x4f8735(0x222)]('\x0a')+('\x0a┃━━━━━━━━'+_0x4f8735(0x21a)+'━━━━━━━━━━'+_0x4f8735(0xb8)+_0x4f8735(0x1b9)+_0x4f8735(0xc9)+_0x4f8735(0xb7)+_0x4f8735(0x186)+_0x4f8735(0x17e)+_0x4f8735(0x17b)+_0x4f8735(0x21a)+_0x4f8735(0x21a)+_0x4f8735(0x178)+_0x4f8735(0xc2))+_0x484954+'_');}const _0x41b409=_0x3e475d[_0x4f8735(0x1f2)]();try{const _0x4fdd3e={};_0x4fdd3e[_0x4f8735(0x133)]=_0x41b409,new Date()[_0x4f8735(0x1bd)+_0x4f8735(0xb5)](_0x4f8735(0x185),_0x4fdd3e);}catch{return await _0x4fbaa5('❌'),_0x1dab05(_0x4f8735(0x1bc)+_0x4f8735(0x1e2)+_0x4f8735(0x1d9)+_0x41b409+(_0x4f8735(0x1b1)+_0x4f8735(0x1e4)+_0x4f8735(0x172)+_0x4f8735(0x183)+_0x4f8735(0x1fc)+_0x4f8735(0x224)+_0x4f8735(0x1ec)+_0x4f8735(0x212)+_0x4f8735(0x1da)+_0x4f8735(0x181)+_0x4f8735(0x13d)+_0x4f8735(0x1d4)+_0x4f8735(0x1fe)+_0x4f8735(0xc2))+_0x484954+'_');}const _0x20cae5=_0x2926fb[_0x4f8735(0x11f)](_0x4f8735(0x160)+_0x4f8735(0x1ef),'')[_0x4f8735(0x11f)](/[^0-9]/g,'');await setSetting(_0x4f8735(0xc7)+_0x20cae5,_0x41b409);const _0x592513={};_0x592513['timeZone']=_0x41b409,_0x592513[_0x4f8735(0x18d)]=_0x4f8735(0x116),_0x592513[_0x4f8735(0x188)]=_0x4f8735(0x116),_0x592513[_0x4f8735(0x22a)]=!![];const _0x5466aa=new Date()['toLocaleSt'+_0x4f8735(0xb5)](_0x4f8735(0x185),_0x592513);await _0x4fbaa5('✅'),await _0x1dab05(_0x4f8735(0x1a0)+_0x4f8735(0x21a)+_0x4f8735(0x1e6)+_0x4f8735(0x196)+_0x4f8735(0x14e)+_0x4f8735(0xce)+'━━━━━━━━━━'+_0x4f8735(0x21a)+_0x4f8735(0x104)+_0x4f8735(0x1ea)+_0x41b409+('_\x0a┃\x20\x20Time\x20'+_0x4f8735(0x180))+_0x5466aa+(_0x4f8735(0x159)+_0x4f8735(0x152)+_0x4f8735(0x21a)+_0x4f8735(0x21a)+_0x4f8735(0x1a7)+_0x4f8735(0x1dc)+_0x4f8735(0x190)+_0x4f8735(0x1c4)+_0x4f8735(0x22d)+_0x4f8735(0x16c)+_0x4f8735(0x1df)+_0x4f8735(0x21a)+_0x4f8735(0x21a)+'━━━┛\x0a\x0a>\x20_')+_0x484954+'_');});
+
+const { gmd } = require("../guru");
+const { getSetting, setSetting } = require("../guru/database/settings");
+const {
+    addGreetingsChat,
+    removeGreetingsChat,
+    getAllGreetingsChats,
+    hasGreetingsChat,
+    countGreetingsChats,
+} = require("../guru/database/greetings");
+const { sendGreeting } = require("../guru/scheduler");
+
+gmd(
+    {
+        pattern: "greetings",
+        aliases: ["greeting", "gmgn", "autogreet"],
+        react: "🌅",
+        category: "owner",
+        description: "Toggle automatic good morning / good night broadcasts. Usage: .greetings on",
+    },
+    async (from, Guru, conText) => {
+        const { react, reply, isSuperUser, q, botFooter } = conText;
+
+        if (!isSuperUser) {
+            await react("❌");
+            return reply("❌ Owner Only Command!");
+        }
+
+        const val = (q || "").toLowerCase().trim();
+        if (!["on", "off"].includes(val)) {
+            const current = await getSetting("GREETINGS_ENABLED");
+            const gmTime = (await getSetting("GREETINGS_GM_TIME")) || "06:00";
+            const gnTime = (await getSetting("GREETINGS_GN_TIME")) || "22:00";
+            const total = await countGreetingsChats();
+            return reply(
+                `🌅 *Auto Greetings Status*\n\n` +
+                `◈ Status  ›  ${current === "true" ? "🟢 ON" : "🔴 OFF"}\n` +
+                `◈ Morning  ›  ⏰ ${gmTime}\n` +
+                `◈ Night    ›  🌙 ${gnTime}\n` +
+                `◈ Chats    ›  ${total} registered\n\n` +
+                `*Commands:*\n` +
+                `◈ \`.greetings on/off\` — toggle\n` +
+                `◈ \`.gmtime 06:00\` — set morning time\n` +
+                `◈ \`.gntime 22:00\` — set night time\n` +
+                `◈ \`.gmsg <message>\` — custom morning msg\n` +
+                `◈ \`.gnmsg <message>\` — custom night msg\n` +
+                `◈ \`.addchat\` — add this chat to list\n` +
+                `◈ \`.removechat\` — remove this chat\n` +
+                `◈ \`.greetchats\` — view all registered chats\n` +
+                `◈ \`.testgm\` / \`.testgn\` — send test greeting now\n\n` +
+                `> _${botFooter}_`
+            );
+        }
+
+        await setSetting("GREETINGS_ENABLED", val === "on" ? "true" : "false");
+        await react("✅");
+        await reply(
+            `${val === "on" ? "🟢" : "🔴"} *Auto Greetings ${val.toUpperCase()}*\n\n` +
+            `${val === "on"
+                ? "Bot will now send Good Morning & Good Night messages to all registered chats daily."
+                : "Auto greetings have been turned off."
+            }\n\n> _${botFooter}_`
+        );
+    }
+);
+
+gmd(
+    {
+        pattern: "gmtime",
+        aliases: ["setgmtime", "morningtime"],
+        react: "⏰",
+        category: "owner",
+        description: "Set the Good Morning broadcast time. Usage: .gmtime 06:00",
+    },
+    async (from, Guru, conText) => {
+        const { react, reply, isSuperUser, q, botFooter } = conText;
+
+        if (!isSuperUser) {
+            await react("❌");
+            return reply("❌ Owner Only Command!");
+        }
+
+        const time = (q || "").trim();
+        if (!time || !/^\d{1,2}:\d{2}$/.test(time)) {
+            return reply(`❌ Invalid time format.\nUsage: \`.gmtime 06:00\` (24-hour format)\n\n> _${botFooter}_`);
+        }
+
+        await setSetting("GREETINGS_GM_TIME", time);
+        await react("✅");
+        await reply(`⏰ *Morning Time Set*\n\nGood Morning will be sent at *${time}* daily.\n\n> _${botFooter}_`);
+    }
+);
+
+gmd(
+    {
+        pattern: "gntime",
+        aliases: ["setgntime", "nighttime"],
+        react: "🌙",
+        category: "owner",
+        description: "Set the Good Night broadcast time. Usage: .gntime 22:00",
+    },
+    async (from, Guru, conText) => {
+        const { react, reply, isSuperUser, q, botFooter } = conText;
+
+        if (!isSuperUser) {
+            await react("❌");
+            return reply("❌ Owner Only Command!");
+        }
+
+        const time = (q || "").trim();
+        if (!time || !/^\d{1,2}:\d{2}$/.test(time)) {
+            return reply(`❌ Invalid time format.\nUsage: \`.gntime 22:00\` (24-hour format)\n\n> _${botFooter}_`);
+        }
+
+        await setSetting("GREETINGS_GN_TIME", time);
+        await react("✅");
+        await reply(`🌙 *Night Time Set*\n\nGood Night will be sent at *${time}* daily.\n\n> _${botFooter}_`);
+    }
+);
+
+gmd(
+    {
+        pattern: "gmsg",
+        aliases: ["setgmmsg", "morningmsg", "setmorningmsg"],
+        react: "✏️",
+        category: "owner",
+        description: "Set a custom Good Morning message. Usage: .gmsg Good morning fam!",
+    },
+    async (from, Guru, conText) => {
+        const { react, reply, isSuperUser, q, botFooter } = conText;
+
+        if (!isSuperUser) {
+            await react("❌");
+            return reply("❌ Owner Only Command!");
+        }
+
+        if (!q) {
+            await setSetting("GREETINGS_GM_MSG", "");
+            await react("✅");
+            return reply(`✏️ Morning message reset to default (random).\n\n> _${botFooter}_`);
+        }
+
+        await setSetting("GREETINGS_GM_MSG", q.trim());
+        await react("✅");
+        await reply(`✏️ *Morning Message Saved!*\n\n_${q.trim()}_\n\n> _${botFooter}_`);
+    }
+);
+
+gmd(
+    {
+        pattern: "gnmsg",
+        aliases: ["setgnmsg", "nightmsg", "setnightmsg"],
+        react: "✏️",
+        category: "owner",
+        description: "Set a custom Good Night message. Usage: .gnmsg Sweet dreams fam!",
+    },
+    async (from, Guru, conText) => {
+        const { react, reply, isSuperUser, q, botFooter } = conText;
+
+        if (!isSuperUser) {
+            await react("❌");
+            return reply("❌ Owner Only Command!");
+        }
+
+        if (!q) {
+            await setSetting("GREETINGS_GN_MSG", "");
+            await react("✅");
+            return reply(`✏️ Night message reset to default (random).\n\n> _${botFooter}_`);
+        }
+
+        await setSetting("GREETINGS_GN_MSG", q.trim());
+        await react("✅");
+        await reply(`✏️ *Night Message Saved!*\n\n_${q.trim()}_\n\n> _${botFooter}_`);
+    }
+);
+
+gmd(
+    {
+        pattern: "addchat",
+        aliases: ["addgreetchat", "registergreetchat"],
+        react: "➕",
+        category: "owner",
+        description: "Add the current chat to the greetings broadcast list",
+    },
+    async (from, Guru, conText) => {
+        const { react, reply, isSuperUser, botFooter } = conText;
+
+        if (!isSuperUser) {
+            await react("❌");
+            return reply("❌ Owner Only Command!");
+        }
+
+        const already = await hasGreetingsChat(from);
+        if (already) {
+            await react("ℹ️");
+            return reply(`ℹ️ This chat is already in the greetings list!\n\n> _${botFooter}_`);
+        }
+
+        await addGreetingsChat(from);
+        await react("✅");
+        const total = await countGreetingsChats();
+        await reply(
+            `➕ *Chat Added!*\n\nThis chat will now receive daily Good Morning & Good Night messages.\n\n◈ Total registered chats  ›  ${total}\n\n> _${botFooter}_`
+        );
+    }
+);
+
+gmd(
+    {
+        pattern: "removechat",
+        aliases: ["removegreetchat", "unregistergreetchat"],
+        react: "➖",
+        category: "owner",
+        description: "Remove the current chat from the greetings broadcast list",
+    },
+    async (from, Guru, conText) => {
+        const { react, reply, isSuperUser, botFooter } = conText;
+
+        if (!isSuperUser) {
+            await react("❌");
+            return reply("❌ Owner Only Command!");
+        }
+
+        const exists = await hasGreetingsChat(from);
+        if (!exists) {
+            await react("ℹ️");
+            return reply(`ℹ️ This chat is not in the greetings list.\n\n> _${botFooter}_`);
+        }
+
+        await removeGreetingsChat(from);
+        await react("✅");
+        await reply(`➖ *Chat Removed!*\n\nThis chat will no longer receive greeting messages.\n\n> _${botFooter}_`);
+    }
+);
+
+gmd(
+    {
+        pattern: "greetchats",
+        aliases: ["listgreetchats", "greetlist"],
+        react: "📋",
+        category: "owner",
+        description: "List all chats registered for the greetings broadcast",
+    },
+    async (from, Guru, conText) => {
+        const { react, reply, isSuperUser, botFooter } = conText;
+
+        if (!isSuperUser) {
+            await react("❌");
+            return reply("❌ Owner Only Command!");
+        }
+
+        const chats = await getAllGreetingsChats();
+        if (!chats.length) {
+            await react("ℹ️");
+            return reply(`ℹ️ No chats registered yet.\n\nUse \`.addchat\` in any chat to register it.\n\n> _${botFooter}_`);
+        }
+
+        const dms = chats.filter(c => c.type === "dm");
+        const groups = chats.filter(c => c.type === "group");
+
+        let txt = `📋 *Registered Greetings Chats*\n\n`;
+        txt += `◈ Total  ›  ${chats.length}\n`;
+        txt += `◈ DMs    ›  ${dms.length}\n`;
+        txt += `◈ Groups ›  ${groups.length}\n\n`;
+
+        if (groups.length) {
+            txt += `*Groups:*\n`;
+            groups.slice(0, 15).forEach((c, i) => { txt += `${i+1}. \`${c.jid.split("@")[0]}\`\n`; });
+            if (groups.length > 15) txt += `_...and ${groups.length - 15} more_\n`;
+            txt += "\n";
+        }
+
+        if (dms.length) {
+            txt += `*DMs:*\n`;
+            dms.slice(0, 10).forEach((c, i) => { txt += `${i+1}. \`+${c.jid.split("@")[0]}\`\n`; });
+            if (dms.length > 10) txt += `_...and ${dms.length - 10} more_\n`;
+        }
+
+        txt += `\n> _${botFooter}_`;
+        await react("✅");
+        await reply(txt);
+    }
+);
+
+gmd(
+    {
+        pattern: "testgm",
+        aliases: ["sendgm", "triggermorning"],
+        react: "🌅",
+        category: "owner",
+        description: "Send a test Good Morning greeting to all registered chats right now",
+    },
+    async (from, Guru, conText) => {
+        const { react, reply, isSuperUser, botFooter } = conText;
+
+        if (!isSuperUser) {
+            await react("❌");
+            return reply("❌ Owner Only Command!");
+        }
+
+        const total = await countGreetingsChats();
+        if (!total) {
+            await react("ℹ️");
+            return reply(`ℹ️ No chats registered. Use \`.addchat\` first.\n\n> _${botFooter}_`);
+        }
+
+        await react("⏳");
+        await reply(`🌅 Sending Good Morning to ${total} chat(s)...`);
+        const sent = await sendGreeting(Guru, "morning");
+        await react("✅");
+        await reply(`✅ Good Morning sent to *${sent}/${total}* chats!\n\n> _${botFooter}_`);
+    }
+);
+
+gmd(
+    {
+        pattern: "testgn",
+        aliases: ["sendgn", "triggernighttime"],
+        react: "🌙",
+        category: "owner",
+        description: "Send a test Good Night greeting to all registered chats right now",
+    },
+    async (from, Guru, conText) => {
+        const { react, reply, isSuperUser, botFooter } = conText;
+
+        if (!isSuperUser) {
+            await react("❌");
+            return reply("❌ Owner Only Command!");
+        }
+
+        const total = await countGreetingsChats();
+        if (!total) {
+            await react("ℹ️");
+            return reply(`ℹ️ No chats registered. Use \`.addchat\` first.\n\n> _${botFooter}_`);
+        }
+
+        await react("⏳");
+        await reply(`🌙 Sending Good Night to ${total} chat(s)...`);
+        const sent = await sendGreeting(Guru, "night");
+        await react("✅");
+        await reply(`✅ Good Night sent to *${sent}/${total}* chats!\n\n> _${botFooter}_`);
+    }
+);
+
+gmd(
+    {
+        pattern: "autotrack",
+        aliases: ["greetautotrack", "toggleautotrack"],
+        react: "🔄",
+        category: "owner",
+        description: "Toggle auto-tracking of chats for greetings. Usage: .autotrack on",
+    },
+    async (from, Guru, conText) => {
+        const { react, reply, isSuperUser, q, botFooter } = conText;
+
+        if (!isSuperUser) {
+            await react("❌");
+            return reply("❌ Owner Only Command!");
+        }
+
+        const val = (q || "").toLowerCase().trim();
+        if (!["on", "off"].includes(val)) {
+            const current = await getSetting("GREETINGS_AUTOTRACK");
+            return reply(
+                `🔄 *Auto-Track Status*  ›  ${current === "false" ? "🔴 OFF" : "🟢 ON"}\n\n` +
+                `When ON, any chat that messages the bot is automatically added to the greetings list.\n\n` +
+                `Usage: \`.autotrack on\` or \`.autotrack off\`\n\n> _${botFooter}_`
+            );
+        }
+
+        await setSetting("GREETINGS_AUTOTRACK", val === "on" ? "true" : "false");
+        await react("✅");
+        await reply(
+            `${val === "on" ? "🟢" : "🔴"} *Auto-Track ${val.toUpperCase()}*\n\n` +
+            `${val === "on"
+                ? "All chats that message the bot will be auto-registered for greetings."
+                : "Only manually added chats (via .addchat) will receive greetings."
+            }\n\n> _${botFooter}_`
+        );
+    }
+);
+
+// ─── USER TIMEZONE COMMAND ────────────────────────────────────────────────────
+// Users set their own timezone so personal greetings fire at the right local time.
+
+gmd(
+    {
+        pattern: "mytimezone",
+        aliases: ["settimezone", "settz", "mytzone", "timezone"],
+        react: "🌍",
+        category: "general",
+        description: "Set your timezone for personal greetings. Usage: .mytimezone Africa/Nairobi",
+    },
+    async (from, Guru, conText) => {
+        const { react, reply, sender, q, botFooter } = conText;
+        const { getUserTimezone } = require("../guru/scheduler");
+
+        const POPULAR_ZONES = [
+            'Africa/Nairobi', 'Africa/Lagos', 'Africa/Accra', 'Africa/Johannesburg',
+            'Africa/Cairo', 'Africa/Dar_es_Salaam', 'Africa/Kampala', 'Africa/Kigali',
+            'Asia/Dubai', 'Asia/Riyadh', 'Asia/Kolkata', 'Asia/Singapore',
+            'Europe/London', 'Europe/Berlin', 'America/New_York', 'America/Sao_Paulo',
+            'Australia/Sydney', 'Pacific/Auckland',
+        ];
+
+        if (!q || !q.trim()) {
+            const phone  = sender.replace('@s.whatsapp.net', '').replace(/[^0-9]/g, '');
+            const current = await getUserTimezone(sender).catch(() => 'Auto-detected');
+            return reply(
+`┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  🌍  *SET MY TIMEZONE*
+┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━┃
+┃  Current : _${current}_
+┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━┃
+┃  *Usage:*
+┃  .mytimezone <Timezone>
+┃
+┃  *Popular zones:*
+${POPULAR_ZONES.slice(0, 8).map(z => `┃  • ${z}`).join('\n')}
+┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━┃
+┃  _Full list: en.wikipedia.org_
+┃  _/wiki/List_of_tz_database..._
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+> _${botFooter}_`
+            );
+        }
+
+        const tz = q.trim();
+        // Validate the timezone
+        try {
+            new Date().toLocaleString('en-US', { timeZone: tz });
+        } catch {
+            await react("❌");
+            return reply(
+`❌ *Invalid timezone:* \`${tz}\`
+
+Use a valid IANA timezone name, e.g:
+• \`Africa/Nairobi\`
+• \`Africa/Lagos\`
+• \`Asia/Dubai\`
+• \`Europe/London\`
+• \`America/New_York\`
+
+> _${botFooter}_`
+            );
+        }
+
+        const phone = sender.replace('@s.whatsapp.net', '').replace(/[^0-9]/g, '');
+        await setSetting(`USER_TZ_${phone}`, tz);
+        const localTime = new Date().toLocaleString('en-US', {
+            timeZone: tz,
+            hour: '2-digit', minute: '2-digit', hour12: true
+        });
+
+        await react("✅");
+        await reply(
+`┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  🌍  *TIMEZONE SAVED!*
+┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━┃
+┃  Zone  : _${tz}_
+┃  Time  : 🕐 ${localTime} (your local)
+┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━┃
+┃  ✅ Personal greetings will
+┃  now match your local time!
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+> _${botFooter}_`
+        );
+    }
+);

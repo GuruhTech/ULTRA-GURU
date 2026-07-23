@@ -1,33 +1,28 @@
 // ════════════════════════════════════════════════════════════════════════════
 //  ULTRA GURU MD — Bot Entry Point
-//  by GuruTech | github.com/blacktech254
+//  by GuruTech | github.com/GuruhTech
 // ════════════════════════════════════════════════════════════════════════════
 
 "use strict";
 
 // ─── Polyfills (must be first) ───────────────────────────────────────────────
-console.log("[BOOT] 1/7 polyfills starting");
 require("events").EventEmitter.defaultMaxListeners = 960;
 if (!globalThis.crypto) globalThis.crypto = require("crypto").webcrypto;
 try { if (typeof File === "undefined") globalThis.File = require("buffer").File; } catch (_) {}
-console.log("[BOOT] 2/7 polyfills done");
 
 // ─── Node & Third-Party ──────────────────────────────────────────────────────
 const path    = require("path");
 const http    = require("http");
 const express = require("express");
-console.log("[BOOT] 3/7 express loaded");
 
 const {
     default: makeWASocket,
     jidNormalizedUser,
     fetchLatestWaWebVersion,
 } = require("@whiskeysockets/baileys");
-console.log("[BOOT] 4/7 baileys loaded");
 
 // ─── Guru Core ───────────────────────────────────────────────────────────────
 require("./guru/gmdHelpers");
-console.log("[BOOT] 5/7 gmdHelpers loaded");
 
 const {
     logger, commands,
@@ -39,7 +34,6 @@ const {
     syncDatabase, initializeSettings, initializeGroupSettings,
     loadPlugins,
 } = require("./guru");
-console.log("[BOOT] 6/7 ./guru loaded (this includes DB layer)");
 
 const { startCleanup, SQLiteStore }      = require("./guru/database/messageStore");
 const { setupCommandHandler }            = require("./guru/messageHandler");
@@ -48,7 +42,6 @@ const {
     setupAntiCall, setupPresence, setupChatBotAndAntiLink,
     setupAntiEdit, setupStatusHandlers,
 } = require("./guru/eventHandlers");
-console.log("[BOOT] 7/7 all requires done, entering bootstrap IIFE");
 
 // ─── Constants ───────────────────────────────────────────────────────────────
 const PORT            = process.env.PORT || 5000;
@@ -310,17 +303,13 @@ async function sendStartupMessage(socket, s) {
 // ════════════════════════════════════════════════════════════════════════════
 
 (async () => {
-    console.log("[BOOT] bootstrap IIFE entered");
     startWebServer();
     startSystemTasks();
     startExpiryWatchdog();
     startCleanup();
-    console.log("[BOOT] sync startup calls done, awaiting loadSession()");
 
     await loadSession();
-    console.log("[BOOT] loadSession() done, awaiting initDatabase()");
     await initDatabase();
-    console.log("[BOOT] initDatabase() done, calling startGuru()");
 
     startGuru();
 })();

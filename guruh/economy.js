@@ -1,1 +1,445 @@
-const a0_0x3731cb=a0_0x5e7a;(function(_0x5ddc28,_0x22d6c3){const _0x1203d0=a0_0x5e7a,_0x231294=_0x5ddc28();while(!![]){try{const _0x984b65=-parseInt(_0x1203d0(0x245))/0x1+-parseInt(_0x1203d0(0x213))/0x2+-parseInt(_0x1203d0(0x101))/0x3+parseInt(_0x1203d0(0x250))/0x4+parseInt(_0x1203d0(0xd2))/0x5*(-parseInt(_0x1203d0(0x110))/0x6)+parseInt(_0x1203d0(0x20e))/0x7*(-parseInt(_0x1203d0(0x1a6))/0x8)+parseInt(_0x1203d0(0x1c4))/0x9;if(_0x984b65===_0x22d6c3)break;else _0x231294['push'](_0x231294['shift']());}catch(_0xbd0b4d){_0x231294['push'](_0x231294['shift']());}}}(a0_0x2adb,0x3528d));const a0_0x1b499a=(function(){let _0x35f907=!![];return function(_0x64ad23,_0x2f664c){const _0x140929=_0x35f907?function(){const _0x22b0c2=a0_0x5e7a;if(_0x2f664c){const _0x191f9f=_0x2f664c[_0x22b0c2(0x13d)](_0x64ad23,arguments);return _0x2f664c=null,_0x191f9f;}}:function(){};return _0x35f907=![],_0x140929;};}()),a0_0x59d7b3=a0_0x1b499a(this,function(){const _0x572870=a0_0x5e7a;if(a0_0x59d7b3['bind']()['toString']()[_0x572870(0x111)]('\x0a')!==-0x1)return;return a0_0x59d7b3[_0x572870(0x21b)]()['search'](_0x572870(0x168)+'+$')[_0x572870(0x21b)]()['constructo'+'r'](a0_0x59d7b3)[_0x572870(0x1a1)](_0x572870(0x168)+'+$');});a0_0x59d7b3();const {gmd}=require(a0_0x3731cb(0x227)),Database=require(a0_0x3731cb(0xa5)+a0_0x3731cb(0x154)),path=require(a0_0x3731cb(0x236)),fs=require(a0_0x3731cb(0x22b)),DB_DIR=path[a0_0x3731cb(0x12c)](__dirname,a0_0x3731cb(0xee)+a0_0x3731cb(0xe4));fs[a0_0x3731cb(0x209)+a0_0x3731cb(0x1ef)](DB_DIR);const db=new Database(path[a0_0x3731cb(0x12c)](DB_DIR,'economy.db'));db[a0_0x3731cb(0x256)](a0_0x3731cb(0xe3)+a0_0x3731cb(0x1ba)),db[a0_0x3731cb(0x142)](a0_0x3731cb(0x125)+'E\x20TABLE\x20IF'+a0_0x3731cb(0x164)+a0_0x3731cb(0xf9)+'(\x0a\x20\x20\x20\x20\x20\x20\x20\x20'+a0_0x3731cb(0x156)+'\x20\x20\x20\x20TEXT\x20\x20'+a0_0x3731cb(0x235)+'KEY,\x0a\x20\x20\x20\x20\x20'+a0_0x3731cb(0x1cd)+'_name\x20\x20TEX'+'T,\x0a\x20\x20\x20\x20\x20\x20\x20'+a0_0x3731cb(0x102)+a0_0x3731cb(0x1c2)+a0_0x3731cb(0xb7)+a0_0x3731cb(0x20a)+a0_0x3731cb(0xc2)+a0_0x3731cb(0x1f5)+a0_0x3731cb(0x117)+a0_0x3731cb(0xdc)+a0_0x3731cb(0x159)+a0_0x3731cb(0x1a0)+a0_0x3731cb(0x22d)+a0_0x3731cb(0xa3)+a0_0x3731cb(0x204)+a0_0x3731cb(0x16b)+a0_0x3731cb(0x1e0)+a0_0x3731cb(0x1ee)+'ed_at\x20\x20\x20\x20I'+a0_0x3731cb(0x204)+a0_0x3731cb(0x257)+a0_0x3731cb(0xc0)+a0_0x3731cb(0x100)+a0_0x3731cb(0x206)+'STS\x20transa'+a0_0x3731cb(0xe1)+a0_0x3731cb(0x1fe)+a0_0x3731cb(0x230)+'TEGER\x20PRIM'+a0_0x3731cb(0xb8)+a0_0x3731cb(0x139)+a0_0x3731cb(0x11a)+a0_0x3731cb(0xdb)+a0_0x3731cb(0x1a5)+a0_0x3731cb(0x180)+a0_0x3731cb(0x216)+'T\x20\x20\x20\x20NOT\x20N'+'ULL,\x0a\x20\x20\x20\x20\x20'+a0_0x3731cb(0xd3)+'\x20\x20\x20\x20INTEGE'+'R\x20NOT\x20NULL'+a0_0x3731cb(0x24c)+a0_0x3731cb(0x1e9)+a0_0x3731cb(0xa0)+a0_0x3731cb(0x11d)+a0_0x3731cb(0x1da)+a0_0x3731cb(0xf8)+a0_0x3731cb(0x1d9)+a0_0x3731cb(0x138)+a0_0x3731cb(0x107)+a0_0x3731cb(0xaa)+a0_0x3731cb(0x15f)+a0_0x3731cb(0x222)+a0_0x3731cb(0x133)+a0_0x3731cb(0xc4)+'ily_claims'+'\x20(\x0a\x20\x20\x20\x20\x20\x20\x20'+a0_0x3731cb(0x237)+a0_0x3731cb(0x1d5)+a0_0x3731cb(0x1f7)+a0_0x3731cb(0x10c)+a0_0x3731cb(0x13f)+a0_0x3731cb(0x129)+a0_0x3731cb(0xb9)+'\x20\x20\x20);\x0a\x20\x20\x20\x20'+'CREATE\x20TAB'+a0_0x3731cb(0x15d)+'EXISTS\x20cha'+a0_0x3731cb(0x15b)+a0_0x3731cb(0xf0)+'jid\x20\x20\x20\x20\x20\x20\x20'+'\x20TEXT\x20\x20\x20\x20P'+a0_0x3731cb(0x1a7)+a0_0x3731cb(0x24c)+a0_0x3731cb(0x12d)+a0_0x3731cb(0xd6)+'OT\x20NULL\x0a\x20\x20'+'\x20\x20);\x0a\x20\x20\x20\x20C'+'REATE\x20TABL'+'E\x20IF\x20NOT\x20E'+a0_0x3731cb(0x113)+a0_0x3731cb(0x1ed)+'\x20\x20\x20\x20\x20\x20jid\x20'+a0_0x3731cb(0x259)+a0_0x3731cb(0x1e5)+a0_0x3731cb(0x1af)+a0_0x3731cb(0xfe)+a0_0x3731cb(0x249)+a0_0x3731cb(0x20f)+a0_0x3731cb(0x13a)+';\x0a');const $getWallet=db[a0_0x3731cb(0x16e)](a0_0x3731cb(0xf7)+a0_0x3731cb(0xbb)+a0_0x3731cb(0xa9)+a0_0x3731cb(0xd8)),$initWallet=db[a0_0x3731cb(0x16e)](a0_0x3731cb(0x151)+a0_0x3731cb(0x173)+a0_0x3731cb(0x1e2)+a0_0x3731cb(0x18a)+a0_0x3731cb(0x172)+a0_0x3731cb(0x22e)+a0_0x3731cb(0x144)+a0_0x3731cb(0x18d)+a0_0x3731cb(0x1d8)+a0_0x3731cb(0x182)+a0_0x3731cb(0xed)+a0_0x3731cb(0x255)+'?)'),$updateBal=db[a0_0x3731cb(0x16e)](a0_0x3731cb(0x1ff)+a0_0x3731cb(0x15a)+'alance\x20=\x20b'+a0_0x3731cb(0x171)+a0_0x3731cb(0x1f8)+a0_0x3731cb(0x21e)+a0_0x3731cb(0xb0)+'\x20?'),$addEarned=db[a0_0x3731cb(0x16e)](a0_0x3731cb(0x1ff)+a0_0x3731cb(0x1e6)+a0_0x3731cb(0xc9)+'d\x20=\x20total_'+a0_0x3731cb(0x196)+a0_0x3731cb(0xae)+a0_0x3731cb(0xa6)),$addSpent=db[a0_0x3731cb(0x16e)](a0_0x3731cb(0x1ff)+a0_0x3731cb(0x1e6)+a0_0x3731cb(0x18d)+a0_0x3731cb(0xfb)+a0_0x3731cb(0x1b1)+'\x20WHERE\x20jid'+a0_0x3731cb(0xa6)),$logTx=db[a0_0x3731cb(0x16e)](a0_0x3731cb(0x1b5)+a0_0x3731cb(0x186)+a0_0x3731cb(0x10b)+a0_0x3731cb(0x1a9)+a0_0x3731cb(0xf1)+a0_0x3731cb(0x1d2)+a0_0x3731cb(0xbc)+a0_0x3731cb(0xc7)+a0_0x3731cb(0x1a4)+a0_0x3731cb(0x170)),$getDaily=db[a0_0x3731cb(0x16e)](a0_0x3731cb(0x1f9)+'imed_at\x20FR'+'OM\x20daily_c'+a0_0x3731cb(0x130)+a0_0x3731cb(0x24f)),$setDaily=db['prepare'](a0_0x3731cb(0x151)+a0_0x3731cb(0x17a)+a0_0x3731cb(0x18e)+a0_0x3731cb(0x1ce)+a0_0x3731cb(0x118)+a0_0x3731cb(0xfa)+a0_0x3731cb(0x1b2)),$getChatCd=db[a0_0x3731cb(0x16e)](a0_0x3731cb(0x220)+a0_0x3731cb(0xa2)+'OM\x20chat_ea'+a0_0x3731cb(0xe8)+a0_0x3731cb(0x1e1)),$setChatCd=db[a0_0x3731cb(0x16e)](a0_0x3731cb(0x151)+a0_0x3731cb(0x17a)+a0_0x3731cb(0x19c)+a0_0x3731cb(0x166)+a0_0x3731cb(0xcd)+a0_0x3731cb(0xb4)+a0_0x3731cb(0x195)),$getGambleCd=db[a0_0x3731cb(0x16e)](a0_0x3731cb(0x220)+a0_0x3731cb(0x120)+'ROM\x20gamble'+a0_0x3731cb(0xbf)+a0_0x3731cb(0x1e1)),$setGambleCd=db[a0_0x3731cb(0x16e)](a0_0x3731cb(0x151)+a0_0x3731cb(0x17a)+'TO\x20gamble_'+'cd\x20\x20\x20\x20(jid'+a0_0x3731cb(0xcb)+a0_0x3731cb(0x155)+a0_0x3731cb(0x152)),$leaderboard=db['prepare'](a0_0x3731cb(0x215)+a0_0x3731cb(0x239)+'ame,balanc'+a0_0x3731cb(0x1d4)+a0_0x3731cb(0xe6)+a0_0x3731cb(0x18c)+a0_0x3731cb(0x12b)+a0_0x3731cb(0x184)),ensureWallet=(_0x6601b4,_0x2a3f7c=null)=>{const _0x6466cd=a0_0x3731cb;$initWallet[_0x6466cd(0x162)](_0x6601b4,_0x2a3f7c||_0x6601b4[_0x6466cd(0x1c8)]('@')[0x0],Date[_0x6466cd(0x193)]());},getBalance=_0x5179ed=>{const _0x21f073=a0_0x3731cb,_0x45ed65=$getWallet[_0x21f073(0xdf)](_0x5179ed);return _0x45ed65?_0x45ed65[_0x21f073(0x174)]:0x1f4;},transfer=db[a0_0x3731cb(0x108)+'n']((_0xa11ae2,_0x53ce22,_0x5c5035,_0x45df09,_0x596baa)=>{const _0x5d001b=a0_0x3731cb;$updateBal['run'](-_0x5c5035,null,_0xa11ae2),$addSpent[_0x5d001b(0x162)](_0x5c5035,_0xa11ae2),$updateBal[_0x5d001b(0x162)](_0x5c5035,null,_0x53ce22),$addEarned['run'](_0x5c5035,_0x53ce22),$logTx[_0x5d001b(0x162)](_0xa11ae2,_0x53ce22,_0x5c5035,_0x45df09,_0x596baa,Date[_0x5d001b(0x193)]());}),award=(_0x40237d,_0x412519,_0x10fc4f,_0x3c3b4f,_0x2b528d=null)=>{const _0x3a563b=a0_0x3731cb;$updateBal['run'](_0x412519,_0x2b528d,_0x40237d),$addEarned[_0x3a563b(0x162)](_0x412519,_0x40237d),$logTx['run'](null,_0x40237d,_0x412519,_0x10fc4f,_0x3c3b4f,Date[_0x3a563b(0x193)]());},getRank=_0x11eb40=>{const _0x53646a=a0_0x3731cb,_0x502d78={};_0x502d78[_0x53646a(0x16a)]='🌱',_0x502d78[_0x53646a(0x205)]='Newcomer';if(_0x11eb40<0x1f4)return _0x502d78;const _0x3463e0={};_0x3463e0[_0x53646a(0x16a)]='⭐',_0x3463e0[_0x53646a(0x205)]=_0x53646a(0x185);if(_0x11eb40<0x7d0)return _0x3463e0;const _0x4579be={};_0x4579be['icon']='💫',_0x4579be[_0x53646a(0x205)]='Regular';if(_0x11eb40<0x1388)return _0x4579be;const _0x57bcba={};_0x57bcba[_0x53646a(0x16a)]='🔥',_0x57bcba[_0x53646a(0x205)]=_0x53646a(0x20c);if(_0x11eb40<0x2710)return _0x57bcba;const _0x34cc2d={};_0x34cc2d[_0x53646a(0x16a)]='💎',_0x34cc2d[_0x53646a(0x205)]='Elite';if(_0x11eb40<0x61a8)return _0x34cc2d;const _0x534a2f={};_0x534a2f[_0x53646a(0x16a)]='👑',_0x534a2f[_0x53646a(0x205)]=_0x53646a(0x1ca);if(_0x11eb40<0xc350)return _0x534a2f;const _0x1d7d51={};return _0x1d7d51[_0x53646a(0x16a)]='🏆',_0x1d7d51[_0x53646a(0x205)]=_0x53646a(0x13b),_0x1d7d51;},fmt=_0x5aac74=>_0x5aac74['toLocaleSt'+a0_0x3731cb(0x23f)]();if(!global[a0_0x3731cb(0xfd)+a0_0x3731cb(0x211)])global['__pluginMs'+'gHooks']=[];global['__pluginMs'+a0_0x3731cb(0x211)][a0_0x3731cb(0x1be)](async(_0x3f8b1f,_0x2d789f,_0x1d934b)=>{const _0x2472dc=a0_0x3731cb;try{const _0x538a28=_0x3f8b1f[_0x2472dc(0x132)][_0x2472dc(0x1df)];if(!_0x538a28?.[_0x2472dc(0x179)](_0x2472dc(0xda)))return;const _0x28ea4c=(_0x3f8b1f[_0x2472dc(0xb2)]?.[_0x2472dc(0x19d)+'on']||_0x3f8b1f[_0x2472dc(0xb2)]?.[_0x2472dc(0xce)+_0x2472dc(0x1ac)]?.[_0x2472dc(0x11f)]||'')['trim'](),_0x77d334=_0x1d934b?.[_0x2472dc(0x229)]||'.';if(!_0x28ea4c||_0x28ea4c[_0x2472dc(0x17f)](_0x77d334)||_0x28ea4c[_0x2472dc(0x14c)]<0x3)return;const _0x24f5fa=_0x3f8b1f['key'][_0x2472dc(0x201)+'t']||_0x538a28,_0x583459=_0x3f8b1f[_0x2472dc(0x135)]||_0x24f5fa[_0x2472dc(0x1c8)]('@')[0x0],_0x3cc779=Date[_0x2472dc(0x193)](),_0x3d44ae=$getChatCd['get'](_0x24f5fa);if(_0x3d44ae&&_0x3d44ae[_0x2472dc(0x167)]>_0x3cc779)return;ensureWallet(_0x24f5fa,_0x583459);const _0x11c00f=Math[_0x2472dc(0xdd)](Math[_0x2472dc(0xa1)]()*0x3)+0x1;$updateBal[_0x2472dc(0x162)](_0x11c00f,_0x583459,_0x24f5fa),$addEarned[_0x2472dc(0x162)](_0x11c00f,_0x24f5fa),$setChatCd[_0x2472dc(0x162)](_0x24f5fa,_0x3cc779+0x5*0xea60);}catch(_0x449a82){console[_0x2472dc(0x1d1)](_0x2472dc(0xcf)+_0x2472dc(0x17e)+_0x2472dc(0x10a),_0x449a82['message']);}});const a0_0x5dc1e8={};a0_0x5dc1e8['pattern']=a0_0x3731cb(0x174),a0_0x5dc1e8['aliases']=[a0_0x3731cb(0x16d),a0_0x3731cb(0xb6),'coins',a0_0x3731cb(0xd1)],a0_0x5dc1e8[a0_0x3731cb(0x234)]='💰',a0_0x5dc1e8[a0_0x3731cb(0x24b)]=a0_0x3731cb(0xeb),a0_0x5dc1e8[a0_0x3731cb(0x161)+'n']='Check\x20your'+a0_0x3731cb(0xf6)+a0_0x3731cb(0x169),a0_0x5dc1e8[a0_0x3731cb(0x1f4)]=a0_0x3731cb(0x175),gmd(a0_0x5dc1e8,async(_0x3b2e03,_0x44d4ac,_0x5d2525)=>{const _0x373394=a0_0x3731cb,{reply:_0x142dbb,react:_0x407582,sender:_0xd824c7,pushName:_0x441e18,mek:_0x31ae97}=_0x5d2525,_0x2e4b99=_0xd824c7,_0x360ba8=_0x441e18||_0x2e4b99[_0x373394(0x1c8)]('@')[0x0];ensureWallet(_0x2e4b99,_0x360ba8);const _0x2ab1c4=$getWallet[_0x373394(0xdf)](_0x2e4b99),_0x4721df=getRank(_0x2ab1c4[_0x373394(0x174)]),_0x1c04f2=$getDaily['get'](_0x2e4b99),_0x1bd863=!_0x1c04f2||Date[_0x373394(0x193)]()-_0x1c04f2[_0x373394(0x233)]>=0x5265c00;await _0x407582('✅'),_0x142dbb('*💰\x20GURU\x20Co'+_0x373394(0x1f1)+'*\x0a'+('═'[_0x373394(0x178)](0x1e)+'\x0a\x0a')+('👤\x20*'+_0x360ba8+'*\x0a')+(_0x4721df[_0x373394(0x16a)]+_0x373394(0xf3)+_0x4721df[_0x373394(0x205)]+'\x0a\x0a')+('💰\x20*Balance'+_0x373394(0x176)+fmt(_0x2ab1c4['balance'])+_0x373394(0xef))+(_0x373394(0x14f)+_0x373394(0xea)+fmt(_0x2ab1c4[_0x373394(0x126)+'ed'])+'\x20coins`\x0a')+(_0x373394(0xab)+_0x373394(0x1c0)+fmt(_0x2ab1c4['total_spen'+'t'])+_0x373394(0x17c))+('─'[_0x373394(0x178)](0x1e)+'\x0a')+(_0x373394(0x1f0)+_0x373394(0x16f)+(_0x1bd863?'✅\x20Availabl'+'e!\x20Use\x20`.d'+_0x373394(0x18f):_0x373394(0x19e)+_0x373394(0x21c)+_0x373394(0x15c))+'\x0a\x0a')+(_0x373394(0xc1)+_0x373394(0xe9)+'tting\x20in\x20g'+_0x373394(0xf4)+_0x373394(0xac)+'5min\x20coold'+_0x373394(0x163)));});function a0_0x5e7a(_0xfaee12,_0x11c1fe){_0xfaee12=_0xfaee12-0x9f;const _0x7502e2=a0_0x2adb();let _0x59d7b3=_0x7502e2[_0xfaee12];if(a0_0x5e7a['dZHvgJ']===undefined){var _0x1b499a=function(_0x4c8bb4){const _0x3d9899='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _0x275ddf='',_0x4d572b='',_0x299b6b=_0x275ddf+_0x1b499a,_0x490d6b=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x476bb4=0x0,_0x45b34b,_0x4b00c0,_0x500db6=0x0;_0x4b00c0=_0x4c8bb4['charAt'](_0x500db6++);~_0x4b00c0&&(_0x45b34b=_0x476bb4%0x4?_0x45b34b*0x40+_0x4b00c0:_0x4b00c0,_0x476bb4++%0x4)?_0x275ddf+=_0x490d6b||_0x299b6b['charCodeAt'](_0x500db6+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x45b34b>>(-0x2*_0x476bb4&0x6)):_0x476bb4:0x0){_0x4b00c0=_0x3d9899['indexOf'](_0x4b00c0);}for(let _0x2d79c4=0x0,_0x3a30d5=_0x275ddf['length'];_0x2d79c4<_0x3a30d5;_0x2d79c4++){_0x4d572b+='%'+('00'+_0x275ddf['charCodeAt'](_0x2d79c4)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x4d572b);};a0_0x5e7a['tVYjcx']=_0x1b499a,a0_0x5e7a['ApDyeN']={},a0_0x5e7a['dZHvgJ']=!![];}const _0x2adb79=_0x7502e2[0x0],_0x5e7ac2=_0xfaee12+_0x2adb79,_0x9d8c9e=a0_0x5e7a['ApDyeN'][_0x5e7ac2];if(!_0x9d8c9e){const _0x5dc1e8=function(_0x265d84){this['gZbQwn']=_0x265d84,this['LZajFZ']=[0x1,0x0,0x0],this['SoVAjF']=function(){return'newState';},this['sdQHzf']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['eUqGvO']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0x5dc1e8['prototype']['XgYRmh']=function(){const _0x259931=new RegExp(this['sdQHzf']+this['eUqGvO']),_0x29b569=_0x259931['test'](this['SoVAjF']['toString']())?--this['LZajFZ'][0x1]:--this['LZajFZ'][0x0];return this['NVFrVt'](_0x29b569);},_0x5dc1e8['prototype']['NVFrVt']=function(_0x57f2ce){if(!Boolean(~_0x57f2ce))return _0x57f2ce;return this['elTIJr'](this['gZbQwn']);},_0x5dc1e8['prototype']['elTIJr']=function(_0x88de73){for(let _0x35f907=0x0,_0x64ad23=this['LZajFZ']['length'];_0x35f907<_0x64ad23;_0x35f907++){this['LZajFZ']['push'](Math['round'](Math['random']())),_0x64ad23=this['LZajFZ']['length'];}return _0x88de73(this['LZajFZ'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x5dc1e8(a0_0x5e7a)['XgYRmh'](),_0x59d7b3=a0_0x5e7a['tVYjcx'](_0x59d7b3),a0_0x5e7a['ApDyeN'][_0x5e7ac2]=_0x59d7b3;}else _0x59d7b3=_0x9d8c9e;return _0x59d7b3;}const a0_0x265d84={};a0_0x265d84['pattern']=a0_0x3731cb(0x214),a0_0x265d84[a0_0x3731cb(0x11e)]=[a0_0x3731cb(0xd0),a0_0x3731cb(0x10d)],a0_0x265d84['react']='🎁',a0_0x265d84[a0_0x3731cb(0x24b)]=a0_0x3731cb(0xeb),a0_0x265d84[a0_0x3731cb(0x161)+'n']=a0_0x3731cb(0x187)+a0_0x3731cb(0x1e4)+a0_0x3731cb(0x241)+'us',a0_0x265d84[a0_0x3731cb(0x1f4)]=a0_0x3731cb(0x192),gmd(a0_0x265d84,async(_0x4537c7,_0x1dde77,_0x1ea938)=>{const _0x3dd5c1=a0_0x3731cb,{reply:_0x453337,react:_0x2abd26,sender:_0x358cef,pushName:_0x427b4b}=_0x1ea938,_0x4c1db0=_0x358cef,_0x469e53=_0x427b4b||_0x4c1db0[_0x3dd5c1(0x1c8)]('@')[0x0];ensureWallet(_0x4c1db0,_0x469e53);const _0x169d4c=$getDaily[_0x3dd5c1(0xdf)](_0x4c1db0),_0x50c589=Date[_0x3dd5c1(0x193)](),_0x485042=0x5265c00;if(_0x169d4c&&_0x50c589-_0x169d4c['claimed_at']<_0x485042){const _0x3cbf3a=_0x485042-(_0x50c589-_0x169d4c[_0x3dd5c1(0x233)]),_0x1c29b2=Math[_0x3dd5c1(0xdd)](_0x3cbf3a/0x36ee80),_0x132919=Math['floor'](_0x3cbf3a%0x36ee80/0xea60);return await _0x2abd26('⏳'),_0x453337(_0x3dd5c1(0x19e)+_0x3dd5c1(0x1ad)+_0x3dd5c1(0x1e7)+_0x3dd5c1(0xbe)+_0x1c29b2+'h\x20'+_0x132919+'m*');}const _0x16e6fc=Math[_0x3dd5c1(0xdd)](Math[_0x3dd5c1(0xa1)]()*0x191)+0x64,_0x2f2941=_0x169d4c&&_0x50c589-_0x169d4c[_0x3dd5c1(0x233)]<_0x485042*0x2?Math['floor'](_0x16e6fc*0.25):0x0,_0x422537=_0x16e6fc+_0x2f2941;$setDaily[_0x3dd5c1(0x162)](_0x4c1db0,_0x50c589),award(_0x4c1db0,_0x422537,_0x3dd5c1(0x214),'daily\x20bonu'+'s',_0x469e53);const _0x1037fe=getBalance(_0x4c1db0),_0x498d0f=getRank(_0x1037fe);await _0x2abd26('🎉'),_0x453337(_0x3dd5c1(0x1a2)+_0x3dd5c1(0x194)+_0x3dd5c1(0x246)+('═'[_0x3dd5c1(0x178)](0x1e)+'\x0a\x0a')+(_0x3dd5c1(0xc3)+_0x3dd5c1(0x145)+fmt(_0x16e6fc)+_0x3dd5c1(0x223))+(_0x2f2941?_0x3dd5c1(0xb1)+_0x3dd5c1(0x1b0)+fmt(_0x2f2941)+'\x20coins\x0a':'')+('─'[_0x3dd5c1(0x178)](0x1e)+'\x0a')+('🪙\x20*Total\x20e'+'arned:*\x20+'+fmt(_0x422537)+'\x20coins\x0a\x0a')+(_0x3dd5c1(0x1a3)+_0x3dd5c1(0x210)+fmt(_0x1037fe)+_0x3dd5c1(0x223))+(_0x498d0f[_0x3dd5c1(0x16a)]+_0x3dd5c1(0xf3)+_0x498d0f[_0x3dd5c1(0x205)]+'\x0a\x0a')+(_0x3dd5c1(0x219)+_0x3dd5c1(0x238)+_0x3dd5c1(0x1fd)+_0x3dd5c1(0xc5)+_0x3dd5c1(0x148)));});const a0_0x259931={};a0_0x259931[a0_0x3731cb(0xbd)]=a0_0x3731cb(0x231),a0_0x259931[a0_0x3731cb(0x11e)]=[a0_0x3731cb(0x177),a0_0x3731cb(0x1db),'pay'],a0_0x259931[a0_0x3731cb(0x234)]='💸',a0_0x259931[a0_0x3731cb(0x24b)]=a0_0x3731cb(0xeb),a0_0x259931[a0_0x3731cb(0x161)+'n']=a0_0x3731cb(0x243)+a0_0x3731cb(0x242)+a0_0x3731cb(0x13c)+a0_0x3731cb(0x189),a0_0x259931['usage']=a0_0x3731cb(0xa7)+'r\x20<amount>',gmd(a0_0x259931,async(_0x146fc1,_0x53f45f,_0x25bdf0)=>{const _0x5fd91f=a0_0x3731cb,{q:_0x2ca45d,reply:_0x4480c8,react:_0x3f97e6,sender:_0x47aa63,pushName:_0x385d01,mek:_0x194fd4}=_0x25bdf0;if(!_0x2ca45d)return await _0x3f97e6('❓'),_0x4480c8(_0x5fd91f(0x183)+_0x5fd91f(0xa7)+'r\x20<amount>'+_0x5fd91f(0x136)+':\x20`.give\x20@'+_0x5fd91f(0x114));const _0x86a855=_0x194fd4?.[_0x5fd91f(0xb2)]?.[_0x5fd91f(0xce)+_0x5fd91f(0x1ac)]?.[_0x5fd91f(0x240)+'o']?.[_0x5fd91f(0xcc)+'id']?.[0x0]||_0x194fd4?.[_0x5fd91f(0xb2)]?.[_0x5fd91f(0xce)+_0x5fd91f(0x1ac)]?.['contextInf'+'o']?.[_0x5fd91f(0x122)+_0x5fd91f(0x22f)],_0x3c282f=_0x2ca45d['match'](/\d+/g)||[],_0x2dd11c=parseInt(_0x3c282f[_0x3c282f[_0x5fd91f(0x14c)]-0x1],0xa);if(!_0x86a855||isNaN(_0x2dd11c)||_0x2dd11c<=0x0)return await _0x3f97e6('❌'),_0x4480c8(_0x5fd91f(0xc6)+_0x5fd91f(0xa7)+'r\x20<amount>'+_0x5fd91f(0x18b)+_0x5fd91f(0x251)+_0x5fd91f(0x1a8)+_0x5fd91f(0xff)+_0x5fd91f(0x200));if(_0x86a855===_0x47aa63)return await _0x3f97e6('❌'),_0x4480c8(_0x5fd91f(0x121)+_0x5fd91f(0x1b3)+_0x5fd91f(0x11b)+_0x5fd91f(0x21a));if(_0x2dd11c<0xa)return await _0x3f97e6('❌'),_0x4480c8(_0x5fd91f(0x123)+_0x5fd91f(0x16c)+_0x5fd91f(0xfc)+_0x5fd91f(0x1d7));const _0x6e81a=_0x47aa63,_0x1a2765=_0x385d01||_0x6e81a['split']('@')[0x0];ensureWallet(_0x6e81a,_0x1a2765),ensureWallet(_0x86a855);const _0x3a9cd9=getBalance(_0x6e81a);if(_0x3a9cd9<_0x2dd11c)return await _0x3f97e6('❌'),_0x4480c8(_0x5fd91f(0x225)+_0x5fd91f(0x1e3)+'ce!\x0a\x0a💰\x20You'+_0x5fd91f(0x1bf)+'\x20*'+fmt(_0x3a9cd9)+(_0x5fd91f(0xca)+_0x5fd91f(0xd9)+_0x5fd91f(0x21d))+fmt(_0x2dd11c)+_0x5fd91f(0x127));transfer(_0x6e81a,_0x86a855,_0x2dd11c,_0x5fd91f(0x177),'sent\x20by\x20'+_0x1a2765);const _0x127fe5=_0x86a855[_0x5fd91f(0x1c8)]('@')[0x0];await _0x3f97e6('✅'),_0x4480c8(_0x5fd91f(0x1bd)+_0x5fd91f(0x1b9)+_0x5fd91f(0x14d)+'─'[_0x5fd91f(0x178)](0x1c)+'\x0a\x0a'+(_0x5fd91f(0x23e)+_0x1a2765+'\x0a')+('📥\x20*To:*\x20\x20\x20'+'@'+_0x127fe5+'\x0a')+(_0x5fd91f(0xde)+'*\x20'+fmt(_0x2dd11c)+_0x5fd91f(0x153))+(_0x5fd91f(0x1aa)+_0x5fd91f(0x1bc)+'*\x20'+fmt(getBalance(_0x6e81a))+_0x5fd91f(0x23a)));});function a0_0x2adb(){const _0x2b021e=['zwnVBMHLBha','lI4Vz3vYDq','yxj0ignOyxr0Aq','ufjfrKLy','iokgKIaRmtaW4Octnta','zNmTzxH0CMe','8j+xQo+4JYbdAgf0igLUia','icaGicb0B3rHBa','BgfUy2uSDg90yq','AwnPCgfUDa','icaGicaGicbjtG','z2L2zq','Dg9mB3DLCKnHCW','y2XHAw1Lzf9HDa','CMvHy3q','icbquKLnqvjzia','Cgf0Aa','igPPzcaGicaGia','y2SGAw4GmJqGAa','lgrPC3bSyxLFBG','ignVAw5Z','ywXS','lZeWmaO','ignVAw5ZycdIGjqG','8j+tPcaQrNjVBtOQia','CMLUzW','y29UDgv4DeLUzG','vsbdB2LUigjVBG','q29PBNmGDg8Gyq','u2vUzcbhvvjvia','ignVAw5Ziq','ote5mtH5tKDkzgS','zwqHkGO','8j+sUcbGlMDPDMuGqa','CMLJAgXPC3q','x2DHBwjSzsbjtG','lMDHBwjSzsa8yq','y2f0zwDVCNK','laOGicaGicaGia','Aw5ZieXLywrLCG','DhmGEwv0lIbtDa','rsbQAwqGpsa/','mti4mJyZmKX4rvbSzq','ihnVBwvVBMuGyq','mcbJB2LUCYbFka','zwnVBMjVyxjK','igaUzgfPBhLGia','ntaWlduWmcWWla','ChjHz21H','ie5vteWkicaGia','ycdIHPiGv2LUidldLW','icaGicaGifrfwa','4OcIienVB2XKB3DU','z2fTyMXLycbGlG','kLvZywDLoIOGya','ifrfwfqGicaGtG','CMfUzg9T','Df9LyxjUicbguG','x3nWzw50icaGsq','cIaGipcFKRaGya','yMv0DgvYlxnXBa','id0GpW','lMDPDMuGqhvZzq','CIbhvvjvienVAq','CYbxsevsrsbQAq','ie5pvcbovuXmcG','8j+tIsaQvg90ywWGuW','ihbLCIbTC2CSia','DxiGyMv0ipcFMkik','ifDirvjfigPPza','nU+4J+kdOW','sevsrsbQAwqGpq','8j+uPsaQu3rYzwfRia','BwvZC2fNzq','8j+pHIbhvvjvieXVCG','BIKGicbwquXvrq','BgrVD24PxWO','D2fSBgv0','rviGtK9uie5vta','qvjzieTfwsbbvq','tK9uie5vteWkia','8j+sVcaQtMv3iejHBa','uK9nihDHBgXLDa','CMvHDgvKx2f0kq','Cgf0DgvYBG','igLUoIaQ','x2nKicaGifDirq','ktSkicaGiensrq','pIbFrwfYBIbJBW','ntaWlaOGicaGia','4PYOicPcyxnLihjL','ievysvnuuYbKyq','B21VCNjVDYDZia','4P2mifvZywDLoIbG','cIaGicaGvKfmvq','zcaGntaSmdaWkW','B3rHBf9LyxjUzq','ignVAw5ZkGRWN5k4ia','lg5LEhrFz2fTyG','BwvUDgLVBMvKsG','zcXUzxH0x2vHCG','zxH0zw5Kzwruzq','w0vJB25VBxLDia','zgfPBhLIB251CW','BxLJB2LUCW','ndvIBu1qu28','icaGyw1VDw50ia','kLnWzw5KAw5Nia','ideWignVAw5ZcG','ieLovevhrviGtG','CYOGCMvTywLUAq','zca9id8','ww91ihrYAwvKia','qgCUDxm','igzYB21FAMLKia','ruDfuIbot1qGtG','zMXVB3i','8j+sScaQqw1VDw50oG','z2v0','Bg9ZDcbNyw1IBa','y3rPB25ZicGkia','BMCGDg8GzwfYBG','AM91CM5HBf9TBW','DgfIyxnL','CMLJAa','Bgv0CYbpuKrfuG','iejHBgfUy2u6ia','CM5Fy2qGifDirq','Aw5Zigj5ignOyq','yxjUzwq6kIbG','zwnVBM9TEq','icaGpcaYldaWma','tfvfuYaOpYW/la','lI4Vz3vYDs9Kyq','ignVAw5ZyaO','kaOGicaGicaGia','zcXHBw91BNqSDa','BNnMzxiGy29PBG','icPsyw5RoIOG','CM91ChmGkdhIGjmZ','uLuGq29PBIbLyW','ieDvuLuGq29PBG','u0vmrunuicOGrG','zsaGicaGicburq','uYb3ywXSzxrZia','DcKGvKfmvuvtia','ica9ihrVDgfSxW','CYaQmtaGy29PBG','x19WBhvNAw5nCW','icaGicaGBMv4Da','igeGCg9ZAxrPDG','qvrfifrbqKXfia','mZe5nte4CNPKDfHS','igjHBgfUy2uGia','oo+4J+kdOW','z2fTyMXLx2XVCW','icaGpcaXmcWWma','n++4J+kdOW','yxqGsu5uruDfuG','DhjHBNnHy3rPBW','icHYB2XSia','B2SGzxjYB3i6','Aw9UCYaOzNjVBq','wsWkicaGicaGia','y2XHAw0','ihLVDxiGyMv0ia','iokaLcbhDwLKzsOk','nJiYnJjetKP2sKm','Aw5KzxHpzG','qMfSyw5JztOQcG','weLtvfmGz2fTyG','sM9OBIaXmdbG','no+4J+kdOW','yMv0','yxjUzwqGieLova','lgnSywLTzwrFyq','Bcb8igHHBgy+','vcWkicaGicaGia','BNmGDg8GEw91CG','oIaZmcbZzwnVBG','t1qGtLvmtcWkia','ywXPyxnLCW','Dgv4Da','Df9Nyw1IBguGrG','4P2mifLVDsbJyw4N','CxvVDgvKugfYDa','4P2mie1PBMLTDw0G','lMXLywrLCMjVyq','cIaGicbduKvbva','Dg90ywXFzwfYBG','ignVAw5ZkG','DwDOignVAw5Ziq','DcbjtLrfr0vsia','AgfSzG','zsbervndieXjtq','AM9PBG','BMv4Df9LyxjUia','vg9WideWihjPyW','C2uGmc41W5CPxWO','BgfPBxmGv0HfuG','oE+4J+kdOW','A2v5','qKXfieLgie5pva','B29Szg93BJOGkG','ChvZAe5HBwu','yaOkrxHHBxbSzq','zxzLCNKGmJrOkq','icbJCMvHDgvKxW','ve9jtKnsru1ftG','tLvmtaOGicaGkq','r1vsvsbmB3jK','BM90AgvYig1LBq','yxbWBhK','Aw4GrwnVBM9TEq','ignSywLTzwrFyq','AMLK','lMnVAw5PBMzV','zxHLyW','y2fZAw5V','Bf9LyxjUzwqSDa','D2fYzdOQicaGkW','Dg9Wmta','4O+ZieDHBwjSzsbJ','yM9UDxmHxW','kVcFJRaGq0ftsu5pia','8j+uPsbwzxrLCMfUia','BMCU','BgvUz3rO','isOk','8j+rKsbmzwDLBMqGia','8j+tIcaQvg90ywWGrq','kKnVBw1HBMrZoG','su5trvjuie9sia','icG/ld8P','ignVAw5ZcGO','AxrLmW','BguPifzbtfvfuW','AMLKicaGicaGia','4OcuifLpvsbxt04H','BMv4Df9Nyw1IBa','vuXmierfrKfvta','Bgv0CYbtrvqGyG','Df9LyxjUx2nKia','zgf5','teuGsuyGtK9uia','8j+oSIaQuM9SBdOQia','icaGicK7cIaGia','ignVAw5ZicHOyq','zgvZy3jPChrPBW','CNvU','B3DUkv8','ie5pvcbfweLtva','nE+4J+kdOW','CM5Fy2qGicHQAq','BMv4Df9LyxjU','kcGOlISPkYKRkq','ihDHBgXLDa','AwnVBG','ie5vteWGrevgqq','DhjHBNnMzxiGAq','yMfS','ChjLCgfYzq','B251CZOQia','pYW/ld8P','ywXHBMnLicSGpW','yxLFBMfTzsXIyq','suDot1jfieLova','yMfSyw5Jzq','lMjHBgfUy2u','oIOGicaGicbG','DhjHBNnMzxi','CMvWzwf0','zw5KC1DPDgG','uKvqtefdrsbjtG','B2LUCZOQcG','ignVAw5ZyaOk','r2fTyMXLihLVDq','CgfZC2L2zsbOBW','C3rHCNrZv2L0Aa','icaGicaGDg9FAG','yMXLihLVDxiGyG','DcKkicaGicbwqq','4P2tifvZywDLoIbG','svqGmta','twvTyMvY','tYb0CMfUC2fJDa','q2XHAw0GEw91CG','zxqG8j+KKqO','yMvY','kgPPzcXKAxnWBa','yaOktwvUDgLVBG','iejzigjHBgfUyW','B3rHBf9ZCgvUDa','ve8GzgfPBhLFyW','ywLSEwa','yc5IywXHBMnLya','D29UigDHBwjSzq','lMrHAwX5','BM93','B251CYbdBgfPBq','uYaOpYW/kq','zwfYBMvKicSGpW','zgLZCgXHEv9Uyq','BgvHzgvYyM9HCG','DcbOyxzLigvUBW','C2uGAgfSzIb5BW','yMv0igLZicOXma','ve8Gy2HHDf9Lyq','y29UDMvYC2f0Aq','4O+ZiefSCMvHzhKG','kVcFKRaGr1vsvsbdBW','vca1mdaScIaGia','C2vHCMnO','kVcFJOeGrgfPBhKGqG','8j+sScaQtMv3igjHBa','rvmGkd8SpYW/la','icburvHulaOGia','odHzyw1oBxi','uKLnqvjzieTfwq','BMqGC3bLy2LMEq','x2PPzcX0B19QAq','8j+sVcaQww91CIbUzq','z2fTyMXL','EhrnzxnZywDL','y2XHAw1LzcekcG','C2uGmc41W5CP','uLKGs0vzlaOGia','yM9UDxm6kIaGkW','C3bLBNqGicSGpW','kd8SpYK','DcbZzw5KignVAq','AgvZDcbhvvjvia','su5trvjuieLova','4OcIieXVC2u6igXV','ignVAw5ZipcFPje','4OcIie1PBIbIzxq6','CIbdB21WBgv0zq','zguGpsbxquW','mEkaKZmGy29PBNmG','DYbIywXHBMnLoG','kVcFKRGGvhjHBNnMzq','ChvZAa','CIbIywXHBMnLoG','CgvUDdOQicbG','8j+sScaQqMv0oIOGia','icaGicbjtLrfrW','igvHCM4Gy29PBG','nZe3nde0m1fPs3r1BW','Aw5ZcG','4Q2qie1LBwjLCIaG','iokaLca','C3bSAxq','zMXPCa','tgvNzw5K','DhjPBq','8j+sOsbFq2HHDcbPBG','icaGzgLZCgXHEq','BgfPBxmGkgPPza','sg93ihrOzsbhvq','D2LUidldLYWGBg8','zxjYB3i','ExbLlg5VDguSyW','BNmGkduWlZuWia','zsbguK9nihDHBa','icburvHuicaGia','yM9HCMqQcG','CYOU','lgnYzwf0zwrFyq','wfqScIaGicaGia','icaGicaGig5VDa','C2vUza','8j+sQYbszwD1BgfYia','BwfW','xYG1BwLUignVBW','CMvTB3rLsMLK','vuXuidaScIaGia','uKuGAMLKid0GpW','tYb3ywXSzxrZia','AwvUDcbIywXHBG','igrHAwX5ieDvuG','vcaGicbquKLnqq','Bgv0CYbtrvqGDa','tMv4DcbKywLSEq','icaGpca1mdak','DhLWzsaGicaGia','ideWldaWmcbJBW','C2L0Aw9UoIOGiW','zMLUza','BgvFy2qGkaOGia','icaGicbJCMvHDa','Ew5J','8j+oGsaQrgfPBhKGqG','Aw5ZifDHBgXLDa','kKvHCM5PBMCGqW','8j+tJsaQww91CIbWBW','DxnHz2u','icaGDg90ywXFzq','icaGpcaYnsWWma','ufjjtufswsblrq','lcbKAxnWBgf5xW','u0vmrunuignSyq','BgyPcGO','Bw91BNqGFcbHBa','BwLU','B3vYCYbMB3iGDa','icaGicaGigLKia','vvbeqvrfihDHBa','zsbHBw91BNqU','CgfYDgLJAxbHBG','8j+sJIbfBgL0zsaGia','y29PBMLUzM8','tLrfr0vsie5pva','DgL0Bgu','suyGtK9uievysq','kVcFJ4yGr1vsvsbdBW','4OcIifDPBJOGzg91','zw5ZDxjLrgLYuW','tcberuzbvuXuia','C2LUBYOk','vMv0zxjHBG','z2fTyMXLx3DPBG','mJa3mdeXrMrJzLfV','vevhrviGtK9uia','yw5JztOQia','z0HVB2TZ','CWOk','nty1odq4r1j0CuPi','zgfPBhK','u0vmrunuigPPza','AwqGicaGifrfwa','z3jVDxbZiokgKIaR','Bcb8igHHBgy+ya','pIbFq29TzsbIyq','C2vSzIe','Dg9tDhjPBMC','y2XHAw1Lzcb0BW','Dg8GC2vUzdOGkG','BMfTzsa9id8GvW','CYaMigPVAw4GDa','u0vmrunuig5LEa','y29PBNnOzwXW','iensrufursbuqq','ignVAw5ZcG','icaGpca1ldaWma','4P2mieLUC3vMzMLJ'];a0_0x2adb=function(){return _0x2b021e;};return a0_0x2adb();}const a0_0x29b569={};a0_0x29b569[a0_0x3731cb(0xbd)]=a0_0x3731cb(0x1ab),a0_0x29b569[a0_0x3731cb(0x11e)]=[a0_0x3731cb(0x116),a0_0x3731cb(0x1c9),a0_0x3731cb(0x143)],a0_0x29b569['react']='🎰',a0_0x29b569['category']=a0_0x3731cb(0xeb),a0_0x29b569[a0_0x3731cb(0x161)+'n']=a0_0x3731cb(0x17d)+a0_0x3731cb(0xa8)+a0_0x3731cb(0x1d3)+a0_0x3731cb(0x1d0)+a0_0x3731cb(0x1ae),a0_0x29b569[a0_0x3731cb(0x1f4)]=a0_0x3731cb(0x24a)+a0_0x3731cb(0x1fb)+a0_0x3731cb(0x119),gmd(a0_0x29b569,async(_0x4ccc85,_0x72c35d,_0x38aac6)=>{const _0x4f87b9=a0_0x3731cb,{q:_0x5361d4,reply:_0x287745,react:_0x5415d6,sender:_0x711774,pushName:_0x5cc9ac}=_0x38aac6;if(!_0x5361d4)return await _0x5415d6('❓'),_0x287745('*🎰\x20GURU\x20Ca'+_0x4f87b9(0x20b)+'═'[_0x4f87b9(0x178)](0x1c)+'\x0a\x0a'+(_0x4f87b9(0x9f)+_0x4f87b9(0x24a)+_0x4f87b9(0x1fb)+_0x4f87b9(0x218)+'\x0a\x0a')+(_0x4f87b9(0x208)+_0x4f87b9(0x181)+_0x4f87b9(0x188))+(_0x4f87b9(0x1b6)+_0x4f87b9(0x19a)+_0x4f87b9(0xad))+(_0x4f87b9(0x1b8)+_0x4f87b9(0xd5))+('•\x20Max\x20bet:'+_0x4f87b9(0x1ea)+_0x4f87b9(0x1c5))+(_0x4f87b9(0x25a)+_0x4f87b9(0x11c)+'ds'));const _0x17749f=_0x711774,_0x3b6a6d=_0x5cc9ac||_0x17749f[_0x4f87b9(0x1c8)]('@')[0x0];ensureWallet(_0x17749f,_0x3b6a6d);const _0x5d5586=$getGambleCd[_0x4f87b9(0xdf)](_0x17749f),_0x1b1b88=Date[_0x4f87b9(0x193)]();if(_0x5d5586&&_0x5d5586[_0x4f87b9(0x158)+'e']>_0x1b1b88){const _0x316304=Math['ceil']((_0x5d5586[_0x4f87b9(0x158)+'e']-_0x1b1b88)/0x3e8);return await _0x5415d6('⏳'),_0x287745(_0x4f87b9(0x147)+_0x4f87b9(0x134)+_0x316304+(_0x4f87b9(0xd7)+_0x4f87b9(0x14b)));}const _0x1bcf2a=getBalance(_0x17749f);let _0xbcc879;const _0x3f084d=_0x5361d4[_0x4f87b9(0x1cb)]()[_0x4f87b9(0x232)+'e']();if(_0x3f084d===_0x4f87b9(0x23b))_0xbcc879=_0x1bcf2a;else{if(_0x3f084d===_0x4f87b9(0x12a))_0xbcc879=Math[_0x4f87b9(0xdd)](_0x1bcf2a/0x2);else _0xbcc879=parseInt(_0x3f084d,0xa);}if(isNaN(_0xbcc879)||_0xbcc879<0xa)return await _0x5415d6('❌'),_0x287745(_0x4f87b9(0x123)+_0x4f87b9(0x19b)+'\x20coins*.');_0xbcc879=Math[_0x4f87b9(0x1fc)](_0xbcc879,0x2710,_0x1bcf2a);if(_0xbcc879<0xa)return await _0x5415d6('❌'),_0x287745('❌\x20You\x20don\x27'+_0x4f87b9(0x199)+_0x4f87b9(0x128)+_0x4f87b9(0xe7)+'*'+fmt(_0x1bcf2a)+'*');$setGambleCd[_0x4f87b9(0x162)](_0x17749f,_0x1b1b88+0x7530);const _0x1395d3=Math[_0x4f87b9(0xdd)](Math[_0x4f87b9(0xa1)]()*0x64)+0x1,_0x26fc97=_0x1395d3>0x32;if(_0x26fc97){award(_0x17749f,_0xbcc879,_0x4f87b9(0x20d),_0x4f87b9(0x191)+_0x4f87b9(0x109)+_0x1395d3+')',_0x3b6a6d);const _0x37e152=getBalance(_0x17749f);await _0x5415d6('🤑'),_0x287745(_0x4f87b9(0x149)+_0x4f87b9(0x157)+'*\x0a'+'═'[_0x4f87b9(0x178)](0x1e)+'\x0a\x0a'+(_0x4f87b9(0x15e)+_0x1395d3+_0x4f87b9(0x23c))+(_0x4f87b9(0x1c1)+fmt(_0xbcc879)+'\x20coins\x0a')+('🏆\x20*Won:*\x20\x20'+'+'+fmt(_0xbcc879)+_0x4f87b9(0x153))+('─'[_0x4f87b9(0x178)](0x1e)+'\x0a')+(_0x4f87b9(0xba)+_0x4f87b9(0x210)+fmt(_0x37e152)+_0x4f87b9(0x1b7)));}else{const _0x225478=Math[_0x4f87b9(0xdd)](_0xbcc879*0.5),_0x64c72d=Math[_0x4f87b9(0x1fc)](_0x225478,_0x1bcf2a);$updateBal[_0x4f87b9(0x162)](-_0x64c72d,_0x3b6a6d,_0x17749f),$addSpent[_0x4f87b9(0x162)](_0x64c72d,_0x17749f),$logTx[_0x4f87b9(0x162)](_0x17749f,null,_0x64c72d,_0x4f87b9(0x104)+'s',_0x4f87b9(0xe0)+'e\x20(roll\x20'+_0x1395d3+')',_0x1b1b88);const _0x50a315=getBalance(_0x17749f);await _0x5415d6('😢'),_0x287745(_0x4f87b9(0x149)+'—\x20YOU\x20LOST'+'*\x0a'+'═'[_0x4f87b9(0x178)](0x1e)+'\x0a\x0a'+(_0x4f87b9(0x15e)+_0x1395d3+_0x4f87b9(0x23c))+(_0x4f87b9(0x1c1)+'\x20'+fmt(_0xbcc879)+'\x20coins\x0a')+('💸\x20*Lost:*\x20'+'\x20−'+fmt(_0x64c72d)+(_0x4f87b9(0x160)+_0x4f87b9(0x1fa)))+('─'['repeat'](0x1e)+'\x0a')+(_0x4f87b9(0xba)+_0x4f87b9(0x210)+fmt(_0x50a315)+'\x20coins\x20😢'));}});const a0_0x57f2ce={};a0_0x57f2ce[a0_0x3731cb(0xbd)]=a0_0x3731cb(0x198)+'d',a0_0x57f2ce[a0_0x3731cb(0x11e)]=[a0_0x3731cb(0xe5),a0_0x3731cb(0x146),a0_0x3731cb(0x248),a0_0x3731cb(0x253)],a0_0x57f2ce[a0_0x3731cb(0x234)]='🏆',a0_0x57f2ce['category']='economy',a0_0x57f2ce['descriptio'+'n']=a0_0x3731cb(0x12e)+a0_0x3731cb(0x1b4)+'Coin\x20holde'+'rs',a0_0x57f2ce[a0_0x3731cb(0x1f4)]=a0_0x3731cb(0x124)+'rd',gmd(a0_0x57f2ce,async(_0x1f002d,_0x595cb7,_0x5ddd76)=>{const _0x58c32b=a0_0x3731cb,{reply:_0x3f8a1b,react:_0x1947ed,sender:_0x4afccf}=_0x5ddd76,_0x4c89c3=$leaderboard[_0x58c32b(0x23b)]();if(_0x4c89c3[_0x58c32b(0x14c)]===0x0)return await _0x1947ed('📭'),_0x3f8a1b('📭\x20No\x20walle'+_0x58c32b(0x24e)+_0x58c32b(0x228)+_0x58c32b(0xe2)+_0x58c32b(0x244));const _0x3064ff=['🥇','🥈','🥉',_0x58c32b(0x115),_0x58c32b(0x165),_0x58c32b(0xaf),_0x58c32b(0x106),_0x58c32b(0x103),_0x58c32b(0x131),'🔟'],_0x55632b=_0x4c89c3[_0x58c32b(0x1dd)]((_0xa3b519,_0x37d0ff)=>{const _0x50a614=_0x58c32b,_0x49ab04=getRank(_0xa3b519[_0x50a614(0x174)]),_0x1e8130=_0xa3b519[_0x50a614(0x140)]===_0x4afccf?'\x20_(you)_':'',_0x92a2b0=_0xa3b519[_0x50a614(0x197)+'me']||_0xa3b519[_0x50a614(0x140)]['split']('@')[0x0];return _0x3064ff[_0x37d0ff]+'\x20'+_0x49ab04[_0x50a614(0x16a)]+'\x20*'+_0x92a2b0+'*'+_0x1e8130+_0x50a614(0xa4)+fmt(_0xa3b519[_0x50a614(0x174)])+_0x50a614(0x23d)+_0x49ab04['title'];})[_0x58c32b(0x12c)]('\x0a\x0a'),_0x5e43d9=_0x4c89c3[_0x58c32b(0x1ec)](_0x3c8a0c=>_0x3c8a0c[_0x58c32b(0x140)]===_0x4afccf),_0x272fa7=_0x5e43d9?_0x4c89c3[_0x58c32b(0x111)](_0x5e43d9)+0x1:null;await _0x1947ed('✅'),_0x3f8a1b(_0x58c32b(0x207)+_0x58c32b(0x24d)+_0x58c32b(0x1d6)+'═'[_0x58c32b(0x178)](0x20)+'\x0a\x0a'+(_0x55632b+'\x0a\x0a')+('─'[_0x58c32b(0x178)](0x20)+'\x0a')+(_0x272fa7?_0x58c32b(0x1f3)+_0x58c32b(0x1eb)+_0x272fa7+_0x58c32b(0x1c7)+fmt(_0x5e43d9[_0x58c32b(0x174)])+_0x58c32b(0x23a):_0x58c32b(0x1cc)+'\x20groups\x20to'+_0x58c32b(0x1c3)+_0x58c32b(0x21f)+'he\x20board!_'));});const a0_0x88de73={};a0_0x88de73[a0_0x3731cb(0xbd)]=a0_0x3731cb(0x203),a0_0x88de73[a0_0x3731cb(0x11e)]=[a0_0x3731cb(0x226),a0_0x3731cb(0x221)],a0_0x88de73[a0_0x3731cb(0x234)]='ℹ️',a0_0x88de73[a0_0x3731cb(0x24b)]=a0_0x3731cb(0xeb),a0_0x88de73['descriptio'+'n']=a0_0x3731cb(0x1cf)+a0_0x3731cb(0xf5)+'onomy\x20work'+'s',a0_0x88de73['usage']=a0_0x3731cb(0x141),gmd(a0_0x88de73,async(_0x3598fc,_0x423409,_0x5d3044)=>{const _0x2b6c93=a0_0x3731cb,{reply:_0x42c535,react:_0x3ecb81}=_0x5d3044;await _0x3ecb81('✅'),_0x42c535(_0x2b6c93(0x19f)+_0x2b6c93(0x13e)+_0x2b6c93(0x10f)+'═'[_0x2b6c93(0x178)](0x20)+'\x0a\x0a'+(_0x2b6c93(0x1f2)+_0x2b6c93(0x17b))+(_0x2b6c93(0x22c)+_0x2b6c93(0x217)+_0x2b6c93(0x1bb)+_0x2b6c93(0x1de)+_0x2b6c93(0xb5))+('🎁\x20`.daily`'+_0x2b6c93(0x22a)+_0x2b6c93(0x252)+_0x2b6c93(0x137)+'_\x0a')+('🎰\x20`.gamble'+_0x2b6c93(0x258)+_0x2b6c93(0x10e)+'_(risk:\x20lo'+_0x2b6c93(0x12f)+'\x0a')+(_0x2b6c93(0xd4)+'/\x20Sending:'+'*\x0a')+(_0x2b6c93(0x247)+'user\x20<amou'+'nt>`\x20—\x20Tra'+_0x2b6c93(0xf2)+_0x2b6c93(0x212))+('*Ranks\x20by\x20'+_0x2b6c93(0x112))+('🌱\x20Newcomer'+_0x2b6c93(0x1e8))+(_0x2b6c93(0x1c6)+_0x2b6c93(0xec)+'\x0a')+(_0x2b6c93(0x1dc)+_0x2b6c93(0x224)+'\x0a')+(_0x2b6c93(0x14a)+_0x2b6c93(0x105)+'0\x0a')+(_0x2b6c93(0x202)+_0x2b6c93(0x1f6)+'0\x0a')+(_0x2b6c93(0x14e)+'\x20\x20\x20<\x2050,00'+'0\x0a')+(_0x2b6c93(0xb3)+_0x2b6c93(0xc8)+'\x0a\x0a')+(_0x2b6c93(0x150)+'*\x0a')+(_0x2b6c93(0x190)+_0x2b6c93(0x254)+'`.give`\x20`.'+_0x2b6c93(0x25b)+_0x2b6c93(0x198)+'d`'));});
+const { gmd } = require("../guru");
+const Database = require("better-sqlite3");
+const path     = require("path");
+const fs       = require("fs-extra");
+
+// ═══════════════════════════════════════════════════════════════════
+//  GROUP ECONOMY ENGINE  ·  ULTRA GURU MD
+//  Virtual GURU Coins — earn, spend, transfer, gamble, leaderboard.
+//  Passive chat rewards · Daily bonus · Anti-abuse cooldowns.
+// ═══════════════════════════════════════════════════════════════════
+
+const DB_DIR = path.join(__dirname, "../guru/database");
+fs.ensureDirSync(DB_DIR);
+
+const db = new Database(path.join(DB_DIR, "economy.db"));
+db.pragma("journal_mode = WAL");
+db.exec(`
+    CREATE TABLE IF NOT EXISTS wallets (
+        jid           TEXT    PRIMARY KEY,
+        display_name  TEXT,
+        balance       INTEGER NOT NULL DEFAULT 500,
+        total_earned  INTEGER NOT NULL DEFAULT 500,
+        total_spent   INTEGER NOT NULL DEFAULT 0,
+        created_at    INTEGER NOT NULL
+    );
+    CREATE TABLE IF NOT EXISTS transactions (
+        id         INTEGER PRIMARY KEY AUTOINCREMENT,
+        from_jid   TEXT,
+        to_jid     TEXT    NOT NULL,
+        amount     INTEGER NOT NULL,
+        type       TEXT    NOT NULL,
+        note       TEXT,
+        created_at INTEGER NOT NULL
+    );
+    CREATE TABLE IF NOT EXISTS daily_claims (
+        jid        TEXT    PRIMARY KEY,
+        claimed_at INTEGER NOT NULL
+    );
+    CREATE TABLE IF NOT EXISTS chat_earn_cd (
+        jid        TEXT    PRIMARY KEY,
+        next_earn  INTEGER NOT NULL
+    );
+    CREATE TABLE IF NOT EXISTS gamble_cd (
+        jid        TEXT    PRIMARY KEY,
+        next_gamble INTEGER NOT NULL
+    );
+`);
+
+// ── Prepared statements ────────────────────────────────────────────
+const $getWallet  = db.prepare(`SELECT * FROM wallets WHERE jid = ?`);
+const $initWallet = db.prepare(
+    `INSERT OR IGNORE INTO wallets (jid,display_name,balance,total_earned,total_spent,created_at)
+     VALUES (?,?,500,500,0,?)`
+);
+const $updateBal  = db.prepare(`UPDATE wallets SET balance = balance + ?, display_name = ? WHERE jid = ?`);
+const $addEarned  = db.prepare(`UPDATE wallets SET total_earned = total_earned + ? WHERE jid = ?`);
+const $addSpent   = db.prepare(`UPDATE wallets SET total_spent  = total_spent  + ? WHERE jid = ?`);
+const $logTx      = db.prepare(
+    `INSERT INTO transactions (from_jid,to_jid,amount,type,note,created_at)
+     VALUES (?,?,?,?,?,?)`
+);
+const $getDaily   = db.prepare(`SELECT claimed_at FROM daily_claims WHERE jid = ?`);
+const $setDaily   = db.prepare(`INSERT OR REPLACE INTO daily_claims (jid,claimed_at) VALUES (?,?)`);
+const $getChatCd  = db.prepare(`SELECT next_earn  FROM chat_earn_cd  WHERE jid = ?`);
+const $setChatCd  = db.prepare(`INSERT OR REPLACE INTO chat_earn_cd  (jid,next_earn)   VALUES (?,?)`);
+const $getGambleCd= db.prepare(`SELECT next_gamble FROM gamble_cd    WHERE jid = ?`);
+const $setGambleCd= db.prepare(`INSERT OR REPLACE INTO gamble_cd    (jid,next_gamble) VALUES (?,?)`);
+const $leaderboard= db.prepare(`SELECT jid,display_name,balance FROM wallets ORDER BY balance DESC LIMIT 10`);
+
+// ── Core helpers ──────────────────────────────────────────────────
+const ensureWallet = (jid, name = null) => {
+    $initWallet.run(jid, name || jid.split("@")[0], Date.now());
+};
+
+const getBalance = (jid) => {
+    const row = $getWallet.get(jid);
+    return row ? row.balance : 500;
+};
+
+const transfer = db.transaction((fromJid, toJid, amount, type, note) => {
+    $updateBal.run(-amount, null, fromJid);
+    $addSpent.run(amount, fromJid);
+    $updateBal.run( amount, null, toJid);
+    $addEarned.run(amount, toJid);
+    $logTx.run(fromJid, toJid, amount, type, note, Date.now());
+});
+
+const award = (jid, amount, type, note, name = null) => {
+    $updateBal.run(amount, name, jid);
+    $addEarned.run(amount, jid);
+    $logTx.run(null, jid, amount, type, note, Date.now());
+};
+
+// ── Rank system ───────────────────────────────────────────────────
+const getRank = (bal) => {
+    if (bal <    500) return { icon: "🌱", title: "Newcomer"  };
+    if (bal <  2_000) return { icon: "⭐", title: "Member"    };
+    if (bal <  5_000) return { icon: "💫", title: "Regular"   };
+    if (bal < 10_000) return { icon: "🔥", title: "Veteran"   };
+    if (bal < 25_000) return { icon: "💎", title: "Elite"     };
+    if (bal < 50_000) return { icon: "👑", title: "Legend"    };
+    return                    { icon: "🏆", title: "GURU Lord" };
+};
+
+const fmt = (n) => n.toLocaleString();
+
+// ── Passive chat-activity coin rewards ────────────────────────────
+if (!global.__pluginMsgHooks) global.__pluginMsgHooks = [];
+
+global.__pluginMsgHooks.push(async (ms, Guru, settings) => {
+    try {
+        const from = ms.key.remoteJid;
+        if (!from?.endsWith("@g.us")) return; // groups only
+
+        const body = (
+            ms.message?.conversation ||
+            ms.message?.extendedTextMessage?.text || ""
+        ).trim();
+        const prefix = settings?.PREFIX || ".";
+        if (!body || body.startsWith(prefix) || body.length < 3) return;
+
+        const jid  = ms.key.participant || from;
+        const name = ms.pushName || jid.split("@")[0];
+        const now  = Date.now();
+
+        const cd = $getChatCd.get(jid);
+        if (cd && cd.next_earn > now) return; // still on cooldown
+
+        ensureWallet(jid, name);
+        const coins = Math.floor(Math.random() * 3) + 1; // 1–3 coins per message
+        $updateBal.run(coins, name, jid);
+        $addEarned.run(coins, jid);
+        $setChatCd.run(jid, now + 5 * 60_000); // 5-min chat cooldown
+    } catch (err) {
+        console.error("[Economy] passive hook error:", err.message);
+    }
+});
+
+// ── COMMAND: .balance ─────────────────────────────────────────────
+gmd({
+    pattern:     "balance",
+    aliases:     ["bal", "wallet", "coins", "mycoins"],
+    react:       "💰",
+    category:    "economy",
+    description: "Check your GURU Coin wallet",
+    usage:       ".balance",
+}, async (from, Guru, conText) => {
+    const { reply, react, sender, pushName, mek } = conText;
+
+    const jid  = sender;
+    const name = pushName || jid.split("@")[0];
+    ensureWallet(jid, name);
+
+    const row  = $getWallet.get(jid);
+    const rank = getRank(row.balance);
+    const daily= $getDaily.get(jid);
+    const canDaily = !daily || (Date.now() - daily.claimed_at) >= 86_400_000;
+
+    await react("✅");
+    reply(
+        `*💰 GURU Coins Wallet*\n` +
+        `${"═".repeat(30)}\n\n` +
+        `👤 *${name}*\n` +
+        `${rank.icon} *Rank:* ${rank.title}\n\n` +
+        `💰 *Balance:*      \`${fmt(row.balance)} coins\`\n` +
+        `📈 *Total Earned:* \`${fmt(row.total_earned)} coins\`\n` +
+        `📉 *Total Spent:*  \`${fmt(row.total_spent)} coins\`\n\n` +
+        `${"─".repeat(30)}\n` +
+        `🎁 *Daily Bonus:* ${canDaily ? "✅ Available! Use `.daily`" : "⏳ Already claimed today"}\n\n` +
+        `> _Earn coins by chatting in groups (1–3 per msg, 5min cooldown)_`
+    );
+});
+
+// ── COMMAND: .daily ───────────────────────────────────────────────
+gmd({
+    pattern:     "daily",
+    aliases:     ["dailybonus", "claim"],
+    react:       "🎁",
+    category:    "economy",
+    description: "Claim your daily GURU Coin bonus",
+    usage:       ".daily",
+}, async (from, Guru, conText) => {
+    const { reply, react, sender, pushName } = conText;
+
+    const jid  = sender;
+    const name = pushName || jid.split("@")[0];
+    ensureWallet(jid, name);
+
+    const daily = $getDaily.get(jid);
+    const now   = Date.now();
+    const CD    = 86_400_000; // 24 hours
+
+    if (daily && now - daily.claimed_at < CD) {
+        const left = CD - (now - daily.claimed_at);
+        const hrs  = Math.floor(left / 3_600_000);
+        const mins = Math.floor((left % 3_600_000) / 60_000);
+        await react("⏳");
+        return reply(`⏳ Already claimed!\n\nNext daily in: *${hrs}h ${mins}m*`);
+    }
+
+    // Bonus: base 100–500, streak bonus if claimed yesterday
+    const base   = Math.floor(Math.random() * 401) + 100;
+    const streak = daily && now - daily.claimed_at < CD * 2 ? Math.floor(base * 0.25) : 0;
+    const total  = base + streak;
+
+    $setDaily.run(jid, now);
+    award(jid, total, "daily", "daily bonus", name);
+
+    const newBal = getBalance(jid);
+    const rank   = getRank(newBal);
+
+    await react("🎉");
+    reply(
+        `*🎁 Daily Bonus Claimed!*\n` +
+        `${"═".repeat(30)}\n\n` +
+        `✨ *Base reward:*   +${fmt(base)} coins\n` +
+        (streak ? `🔥 *Streak bonus:*  +${fmt(streak)} coins\n` : "") +
+        `${"─".repeat(30)}\n` +
+        `🪙 *Total earned:* +${fmt(total)} coins\n\n` +
+        `💰 *New balance:* ${fmt(newBal)} coins\n` +
+        `${rank.icon} *Rank:* ${rank.title}\n\n` +
+        `> _Come back in 24 hours for tomorrow's bonus!_`
+    );
+});
+
+// ── COMMAND: .give ────────────────────────────────────────────────
+gmd({
+    pattern:     "give",
+    aliases:     ["transfer", "send", "pay"],
+    react:       "💸",
+    category:    "economy",
+    description: "Send GURU Coins to another member",
+    usage:       ".give @user <amount>",
+}, async (from, Guru, conText) => {
+    const { q, reply, react, sender, pushName, mek } = conText;
+
+    if (!q) {
+        await react("❓");
+        return reply("❓ Usage: `.give @user <amount>`\n\nExample: `.give @John 100`");
+    }
+
+    // Parse quoted mention or @number
+    const mentioned = mek?.message?.extendedTextMessage?.contextInfo?.mentionedJid?.[0]
+                   || mek?.message?.extendedTextMessage?.contextInfo?.quotedParticipant;
+    const nums      = q.match(/\d+/g) || [];
+    const amount    = parseInt(nums[nums.length - 1], 10);
+
+    if (!mentioned || isNaN(amount) || amount <= 0) {
+        await react("❌");
+        return reply("❌ Usage: `.give @user <amount>`\n\nMention someone and specify a positive amount.");
+    }
+    if (mentioned === sender) {
+        await react("❌");
+        return reply("❌ You can't send coins to yourself!");
+    }
+    if (amount < 10) {
+        await react("❌");
+        return reply("❌ Minimum transfer is *10 coins*.");
+    }
+
+    const jid  = sender;
+    const name = pushName || jid.split("@")[0];
+    ensureWallet(jid, name);
+    ensureWallet(mentioned);
+
+    const bal = getBalance(jid);
+    if (bal < amount) {
+        await react("❌");
+        return reply(`❌ Insufficient balance!\n\n💰 Your balance: *${fmt(bal)} coins*\n💸 You tried to send: *${fmt(amount)} coins*`);
+    }
+
+    transfer(jid, mentioned, amount, "transfer", `sent by ${name}`);
+
+    const recipientNum = mentioned.split("@")[0];
+    await react("✅");
+    reply(
+        `*💸 Transfer Complete!*\n${"─".repeat(28)}\n\n` +
+        `📤 *From:* ${name}\n` +
+        `📥 *To:*   @${recipientNum}\n` +
+        `💰 *Amount:* ${fmt(amount)} coins\n\n` +
+        `💼 *Your new balance:* ${fmt(getBalance(jid))} coins`
+    );
+});
+
+// ── COMMAND: .gamble ──────────────────────────────────────────────
+gmd({
+    pattern:     "gamble",
+    aliases:     ["bet", "flip", "casino"],
+    react:       "🎰",
+    category:    "economy",
+    description: "Gamble your GURU Coins (50/50 win 2×, lose 0.5×)",
+    usage:       ".gamble <amount | all | half>",
+}, async (from, Guru, conText) => {
+    const { q, reply, react, sender, pushName } = conText;
+
+    if (!q) {
+        await react("❓");
+        return reply(
+            `*🎰 GURU Casino*\n${"═".repeat(28)}\n\n` +
+            `*Usage:* \`.gamble <amount | all | half>\`\n\n` +
+            `• Win: double your bet 🤑\n` +
+            `• Lose: lose half your bet 😢\n` +
+            `• Min bet: 10 coins\n` +
+            `• Max bet: 10,000 coins\n` +
+            `• Cooldown: 30 seconds`
+        );
+    }
+
+    const jid  = sender;
+    const name = pushName || jid.split("@")[0];
+    ensureWallet(jid, name);
+
+    const cd  = $getGambleCd.get(jid);
+    const now = Date.now();
+    if (cd && cd.next_gamble > now) {
+        const secs = Math.ceil((cd.next_gamble - now) / 1000);
+        await react("⏳");
+        return reply(`⏳ Gamble cooldown: *${secs}s* remaining.`);
+    }
+
+    const bal   = getBalance(jid);
+    let   stake;
+    const input = q.trim().toLowerCase();
+
+    if      (input === "all")  stake = bal;
+    else if (input === "half") stake = Math.floor(bal / 2);
+    else                       stake = parseInt(input, 10);
+
+    if (isNaN(stake) || stake < 10) {
+        await react("❌");
+        return reply("❌ Minimum bet is *10 coins*.");
+    }
+    stake = Math.min(stake, 10_000, bal);
+    if (stake < 10) {
+        await react("❌");
+        return reply(`❌ You don't have enough coins! Balance: *${fmt(bal)}*`);
+    }
+
+    $setGambleCd.run(jid, now + 30_000);
+
+    // Simulate: dice 1-100. >50 = win, else lose
+    const roll = Math.floor(Math.random() * 100) + 1;
+    const win  = roll > 50;
+
+    if (win) {
+        award(jid, stake, "gamble_win", `won gamble (roll ${roll})`, name);
+        const newBal = getBalance(jid);
+        await react("🤑");
+        reply(
+            `*🎰 CASINO — YOU WON!*\n${"═".repeat(30)}\n\n` +
+            `🎲 *Roll:* ${roll}/100\n` +
+            `💰 *Bet:*  ${fmt(stake)} coins\n` +
+            `🏆 *Won:*  +${fmt(stake)} coins\n\n` +
+            `${"─".repeat(30)}\n` +
+            `💼 *New Balance:* ${fmt(newBal)} coins 🤑`
+        );
+    } else {
+        const lose = Math.floor(stake * 0.5);
+        const loseActual = Math.min(lose, bal);
+        $updateBal.run(-loseActual, name, jid);
+        $addSpent.run(loseActual, jid);
+        $logTx.run(jid, null, loseActual, "gamble_loss", `lost gamble (roll ${roll})`, now);
+        const newBal = getBalance(jid);
+        await react("😢");
+        reply(
+            `*🎰 CASINO — YOU LOST*\n${"═".repeat(30)}\n\n` +
+            `🎲 *Roll:* ${roll}/100\n` +
+            `💰 *Bet:*   ${fmt(stake)} coins\n` +
+            `💸 *Lost:*  −${fmt(loseActual)} coins (half)\n\n` +
+            `${"─".repeat(30)}\n` +
+            `💼 *New Balance:* ${fmt(newBal)} coins 😢`
+        );
+    }
+});
+
+// ── COMMAND: .leaderboard ─────────────────────────────────────────
+gmd({
+    pattern:     "leaderboard",
+    aliases:     ["rich", "top10", "richlist", "econboard"],
+    react:       "🏆",
+    category:    "economy",
+    description: "Top 10 richest GURU Coin holders",
+    usage:       ".leaderboard",
+}, async (from, Guru, conText) => {
+    const { reply, react, sender } = conText;
+
+    const rows  = $leaderboard.all();
+    if (rows.length === 0) {
+        await react("📭");
+        return reply("📭 No wallets yet. Start chatting to earn coins!");
+    }
+
+    const MEDALS = ["🥇","🥈","🥉","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣","🔟"];
+    const lines  = rows.map((r, i) => {
+        const rank  = getRank(r.balance);
+        const you   = r.jid === sender ? " _(you)_" : "";
+        const dname = r.display_name || r.jid.split("@")[0];
+        return `${MEDALS[i]} ${rank.icon} *${dname}*${you}\n   💰 \`${fmt(r.balance)} coins\` — ${rank.title}`;
+    }).join("\n\n");
+
+    const myRow = rows.find(r => r.jid === sender);
+    const myPos = myRow ? rows.indexOf(myRow) + 1 : null;
+
+    await react("✅");
+    reply(
+        `*🏆 GURU Coins Leaderboard*\n${"═".repeat(32)}\n\n` +
+        `${lines}\n\n` +
+        `${"─".repeat(32)}\n` +
+        (myPos
+            ? `📍 *Your position:* #${myPos} — ${fmt(myRow.balance)} coins`
+            : `💡 _Chat in groups to earn coins & join the board!_`)
+    );
+});
+
+// ── COMMAND: .coininfo ────────────────────────────────────────────
+gmd({
+    pattern:     "coininfo",
+    aliases:     ["econhelp", "coinshelp"],
+    react:       "ℹ️",
+    category:    "economy",
+    description: "How the GURU Coin economy works",
+    usage:       ".coininfo",
+}, async (from, Guru, conText) => {
+    const { reply, react } = conText;
+    await react("✅");
+    reply(
+        `*💰 GURU Coin Economy — Guide*\n${"═".repeat(32)}\n\n` +
+        `*Earning Coins:*\n` +
+        `🗨️ Chat in groups → +1–3 coins _(5min cooldown)_\n` +
+        `🎁 \`.daily\` → +100–500 coins _(every 24h)_\n` +
+        `🎰 \`.gamble\` → Win 2× your bet _(risk: lose 0.5×)_\n\n` +
+        `*Spending / Sending:*\n` +
+        `💸 \`.give @user <amount>\` — Transfer coins\n\n` +
+        `*Ranks by Balance:*\n` +
+        `🌱 Newcomer   < 500\n` +
+        `⭐ Member     < 2,000\n` +
+        `💫 Regular    < 5,000\n` +
+        `🔥 Veteran    < 10,000\n` +
+        `💎 Elite      < 25,000\n` +
+        `👑 Legend     < 50,000\n` +
+        `🏆 GURU Lord  50,000+\n\n` +
+        `*Commands:*\n` +
+        `\`.balance\` \`.daily\` \`.give\` \`.gamble\` \`.leaderboard\``
+    );
+});

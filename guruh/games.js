@@ -1,1 +1,965 @@
-const a0_0x455e4b=a0_0x39be;(function(_0x4ea4bc,_0x5dea74){const _0x531082=a0_0x39be,_0x28a79f=_0x4ea4bc();while(!![]){try{const _0x4d5877=-parseInt(_0x531082(0x317))/0x1*(-parseInt(_0x531082(0x2f2))/0x2)+parseInt(_0x531082(0x1b9))/0x3*(parseInt(_0x531082(0x2dd))/0x4)+-parseInt(_0x531082(0x33a))/0x5+-parseInt(_0x531082(0x235))/0x6+parseInt(_0x531082(0x2cf))/0x7*(parseInt(_0x531082(0x1f9))/0x8)+-parseInt(_0x531082(0x1fc))/0x9*(parseInt(_0x531082(0x370))/0xa)+-parseInt(_0x531082(0x197))/0xb;if(_0x4d5877===_0x5dea74)break;else _0x28a79f['push'](_0x28a79f['shift']());}catch(_0x5e9900){_0x28a79f['push'](_0x28a79f['shift']());}}}(a0_0x2733,0x9fcc7));const a0_0x582bea=(function(){let _0x585676=!![];return function(_0x1be865,_0x2cb410){const _0x5d09f5=_0x585676?function(){if(_0x2cb410){const _0x2da8f0=_0x2cb410['apply'](_0x1be865,arguments);return _0x2cb410=null,_0x2da8f0;}}:function(){};return _0x585676=![],_0x5d09f5;};}()),a0_0x5d9dd5=a0_0x582bea(this,function(){const _0x47e137=a0_0x39be;if(a0_0x5d9dd5['bind']()[_0x47e137(0x24b)]()[_0x47e137(0x1ce)]('\x0a')!==-0x1)return;return a0_0x5d9dd5[_0x47e137(0x24b)]()[_0x47e137(0x227)](_0x47e137(0x1fd)+'+$')[_0x47e137(0x24b)]()[_0x47e137(0x295)+'r'](a0_0x5d9dd5)[_0x47e137(0x227)]('(((.+)+)+)'+'+$');});a0_0x5d9dd5();const {gmd}=require('../guru'),{createGame,joinGame,getActiveGame,getWaitingGame,makeMove,endGame,initGamesDB}=require(a0_0x455e4b(0x330)+a0_0x455e4b(0x23d)+'es'),{createWcgGame,joinWcgGame,startWcgGame,getActiveWcgGame,getWaitingWcgGame,submitWord,eliminatePlayer,endWcgGame,initWcgDB}=require(a0_0x455e4b(0x330)+a0_0x455e4b(0x19f)+a0_0x455e4b(0x35c)),{createDiceGame,joinDiceGame,getActiveDiceGame,getWaitingDiceGame,playerRoll,endDiceGame,initDiceDB}=require(a0_0x455e4b(0x330)+a0_0x455e4b(0x36e)+'eGame'),{clearGameTimeout,setMoveTimeout,setWcgTurnTimeout,setDiceTurnTimeout,clearDiceTimeout,renderBoard,getPlayerName,handleAiTttMove,handleAiWcgMove,handleAiDiceRoll,gameTimeouts,diceTimeouts}=require(a0_0x455e4b(0x37e)+'meHandler'),{wcgTimeouts,clearWcgTimeout,clearWcgJoinTimeout,setWcgJoinTimeout,formatScores,getDiceEmoji}=require(a0_0x455e4b(0x29a)+'g'),{findWcgWord,rollDice:aiRollDice,findBestTttMove,BOT_JID}=require(a0_0x455e4b(0x37e)+a0_0x455e4b(0x2de));initGamesDB(),initWcgDB(),initDiceDB();const a0_0x17f8ce={};a0_0x17f8ce[a0_0x455e4b(0x297)]=a0_0x455e4b(0x334),a0_0x17f8ce[a0_0x455e4b(0x1e0)]=[a0_0x455e4b(0x32f),a0_0x455e4b(0x394),'playgames','gamelist'],a0_0x17f8ce[a0_0x455e4b(0x2f0)]='🎮',a0_0x17f8ce['category']=a0_0x455e4b(0x32f),a0_0x17f8ce[a0_0x455e4b(0x1f6)+'n']='Show\x20all\x20a'+'vailable\x20g'+a0_0x455e4b(0x1fe)+a0_0x455e4b(0x1fa),gmd(a0_0x17f8ce,async(_0x14f250,_0xc54f78,_0x34d17a)=>{const _0x588f01=a0_0x455e4b,_0x5a0301=_0x588f01(0x1a8)+'ENU*\x0a\x0a╭━━━'+_0x588f01(0x1bd)+_0x588f01(0x272)+_0x588f01(0x28e)+_0x588f01(0x242)+_0x588f01(0x1bd)+_0x588f01(0x19b)+_0x588f01(0x27f)+'game\x20(vs\x20p'+_0x588f01(0x26e)+_0x588f01(0x335)+_0x588f01(0x236)+_0x588f01(0x2fe)+_0x588f01(0x23f)+_0x588f01(0x18f)+_0x588f01(0x311)+_0x588f01(0x1da)+_0x588f01(0x22c)+'\x0a│\x20_Type\x20*'+_0x588f01(0x360)+_0x588f01(0x31b)+'\x0a╰━━━━━━━━'+_0x588f01(0x3bd)+_0x588f01(0x29b)+_0x588f01(0x1bd)+_0x588f01(0x213)+_0x588f01(0x3ba)+'ME*\x0a├━━━━━'+'━━━━━━━━━━'+_0x588f01(0x374)+_0x588f01(0x263)+_0x588f01(0x2e0)+_0x588f01(0x2aa)+_0x588f01(0x1b4)+_0x588f01(0x26f)+_0x588f01(0x219)+_0x588f01(0x248)+_0x588f01(0x342)+_0x588f01(0x1cc)+'.wcgend\x20-\x20'+'End\x20curren'+_0x588f01(0x350)+_0x588f01(0x225)+_0x588f01(0x32a)+'res\x0a│\x20_Typ'+_0x588f01(0x283)+_0x588f01(0x3a5)+'ame_\x0a│\x20_Ju'+_0x588f01(0x275)+_0x588f01(0x189)+_0x588f01(0x232)+_0x588f01(0x24a)+_0x588f01(0x198)+_0x588f01(0x328)+_0x588f01(0x2c4)+'\x20GAME*\x0a├━━'+_0x588f01(0x1bd)+_0x588f01(0x319)+_0x588f01(0x2a4)+_0x588f01(0x1eb)+_0x588f01(0x350)+_0x588f01(0x299)+_0x588f01(0x3b7)+_0x588f01(0x236)+_0x588f01(0x392)+_0x588f01(0x188)+_0x588f01(0x1bb)+_0x588f01(0x247)+_0x588f01(0x1f8)+_0x588f01(0x2e1)+_0x588f01(0x1e2)+_0x588f01(0x2bc)+_0x588f01(0x28d)+_0x588f01(0x2eb)+_0x588f01(0x1bd)+_0x588f01(0x2b1)+_0x588f01(0x2ea)+_0x588f01(0x1db)+'\x20solo\x20agai'+'nst\x20the\x20bo'+_0x588f01(0x24e)+'mmand\x20pref'+_0x588f01(0x1e6)+_0x588f01(0x396)+_0x588f01(0x2e9),_0x460def={};return _0x460def[_0x588f01(0x1c3)]=_0x5a0301,await _0xc54f78[_0x588f01(0x340)+'e'](_0x14f250,_0x460def);});const setJoinTimeout=(_0x458e8f,_0xeaf95,_0x3d8998)=>{const _0x2d537e=a0_0x455e4b;clearGameTimeout(_0x458e8f);const _0x3e72bf=setTimeout(async()=>{const _0x3eaee7=a0_0x39be,_0x21431c=await getWaitingGame(_0x458e8f);_0x21431c&&(await endGame(_0x458e8f),await _0xeaf95['sendMessag'+'e'](_0x458e8f,{'text':'⏰\x20*TIC\x20TAC'+_0x3eaee7(0x251)+_0x3eaee7(0x1ee)+'one\x20joined'+_0x3eaee7(0x35a)+_0x3eaee7(0x30a)+'Game\x20cance'+_0x3eaee7(0x1f0)+getPlayerName(_0x3d8998)+(_0x3eaee7(0x24f)+_0x3eaee7(0x1a4)+_0x3eaee7(0x2d4)+_0x3eaee7(0x25e)),'mentions':[_0x3d8998]})),gameTimeouts[_0x3eaee7(0x2ad)](_0x458e8f);},0x7530);gameTimeouts[_0x2d537e(0x25b)](_0x458e8f,_0x3e72bf);},a0_0x335bfb={};a0_0x335bfb[a0_0x455e4b(0x297)]=a0_0x455e4b(0x246),a0_0x335bfb[a0_0x455e4b(0x1e0)]=['ttt',a0_0x455e4b(0x205)],a0_0x335bfb[a0_0x455e4b(0x2f0)]='🎮',a0_0x335bfb[a0_0x455e4b(0x372)]=a0_0x455e4b(0x32f),a0_0x335bfb[a0_0x455e4b(0x1f6)+'n']=a0_0x455e4b(0x37b)+a0_0x455e4b(0x35e)+a0_0x455e4b(0x290)+a0_0x455e4b(0x237)+a0_0x455e4b(0x1df)+'join\x27\x20with'+a0_0x455e4b(0x276)+a0_0x455e4b(0x316),gmd(a0_0x335bfb,async(_0x947e66,_0x269ed6,_0x11b976)=>{const _0x1f6425=a0_0x455e4b,{mek:_0x250ad7,sender:_0x168a51,botName:_0x5077f8}=_0x11b976,_0x5b900d=await getActiveGame(_0x947e66);if(_0x5b900d){const _0x34bf90={};return _0x34bf90[_0x1f6425(0x1c3)]=_0x1f6425(0x32d)+_0x1f6425(0x1f4)+_0x1f6425(0x2a2)+'me\x20in\x20this'+_0x1f6425(0x305)+_0x1f6425(0x362)+'\x20to\x20end\x20it'+_0x1f6425(0x21c),await _0x269ed6[_0x1f6425(0x340)+'e'](_0x947e66,_0x34bf90);}const _0x4e489c=await getWaitingGame(_0x947e66);if(_0x4e489c){const _0x4816f3={};return _0x4816f3[_0x1f6425(0x1c3)]=_0x1f6425(0x32d)+_0x1f6425(0x27c)+'game\x20waiti'+'ng\x20for\x20a\x20p'+_0x1f6425(0x2b9)+_0x1f6425(0x283)+_0x1f6425(0x18c)+_0x1f6425(0x314)+'end*\x20to\x20ca'+'ncel.',await _0x269ed6[_0x1f6425(0x340)+'e'](_0x947e66,_0x4816f3);}const _0x493d2d=await _0x269ed6[_0x1f6425(0x340)+'e'](_0x947e66,{'text':_0x1f6425(0x294)+_0x1f6425(0x39d)+getPlayerName(_0x168a51)+('\x20wants\x20to\x20'+_0x1f6425(0x2fc)+'pe\x20\x22join\x22\x20'+_0x1f6425(0x298)+_0x1f6425(0x249)+_0x1f6425(0x180)+_0x1f6425(0x1af))+getPlayerName(_0x168a51)+(_0x1f6425(0x2bf)+_0x1f6425(0x281)+_0x1f6425(0x338))+renderBoard([0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x9])+(_0x1f6425(0x313)+_0x1f6425(0x1b0)+_0x1f6425(0x2ec)+_0x1f6425(0x33b)+_0x1f6425(0x395)),'mentions':[_0x168a51]});await createGame(_0x947e66,_0x168a51,_0x493d2d[_0x1f6425(0x39f)]),setJoinTimeout(_0x947e66,_0x269ed6,_0x168a51);});const a0_0x421e01={};a0_0x421e01['pattern']='tttend',a0_0x421e01[a0_0x455e4b(0x1e0)]=[a0_0x455e4b(0x324),a0_0x455e4b(0x25c),a0_0x455e4b(0x31c),a0_0x455e4b(0x3a3)+a0_0x455e4b(0x282),a0_0x455e4b(0x265)+'nd',a0_0x455e4b(0x33d),a0_0x455e4b(0x358)],a0_0x421e01[a0_0x455e4b(0x2f0)]='🛑',a0_0x421e01[a0_0x455e4b(0x372)]=a0_0x455e4b(0x32f),a0_0x421e01[a0_0x455e4b(0x1f6)+'n']=a0_0x455e4b(0x1ca)+'rrent\x20TicT'+a0_0x455e4b(0x38f),gmd(a0_0x421e01,async(_0x350dfa,_0x3d08c3,_0x2ae232)=>{const _0x8d007a=a0_0x455e4b,{sender:_0x28548f,isSuperUser:_0x4b14ad}=_0x2ae232,_0x2b4910=await getActiveGame(_0x350dfa),_0x231f01=await getWaitingGame(_0x350dfa),_0x301817=_0x2b4910||_0x231f01;if(!_0x301817){const _0x3fabba={};return _0x3fabba[_0x8d007a(0x1c3)]=_0x8d007a(0x1e7)+_0x8d007a(0x1b8)+_0x8d007a(0x1d8)+_0x8d007a(0x1fb),await _0x3d08c3[_0x8d007a(0x340)+'e'](_0x350dfa,_0x3fabba);}const _0x2799f1=_0x301817[_0x8d007a(0x288)]===_0x28548f||_0x301817[_0x8d007a(0x26a)]===_0x28548f;if(!_0x2799f1&&!_0x4b14ad){const _0x4065f3={};return _0x4065f3[_0x8d007a(0x1c3)]=_0x8d007a(0x2c1)+_0x8d007a(0x1c6)+_0x8d007a(0x244)+_0x8d007a(0x1ef)+'e!',await _0x3d08c3[_0x8d007a(0x340)+'e'](_0x350dfa,_0x4065f3);}clearGameTimeout(_0x350dfa),await endGame(_0x350dfa),await _0x3d08c3[_0x8d007a(0x340)+'e'](_0x350dfa,{'text':_0x8d007a(0x31e)+_0x8d007a(0x34a)+'ed\x20by\x20@'+getPlayerName(_0x28548f)+'!','mentions':[_0x28548f]});});const a0_0x1563bc={};a0_0x1563bc[a0_0x455e4b(0x297)]=a0_0x455e4b(0x28a),a0_0x1563bc['aliases']=[a0_0x455e4b(0x210)],a0_0x1563bc[a0_0x455e4b(0x2f0)]='✅',a0_0x1563bc[a0_0x455e4b(0x372)]=a0_0x455e4b(0x32f),a0_0x1563bc['descriptio'+'n']=a0_0x455e4b(0x181)+'ting\x20TicTa'+a0_0x455e4b(0x36d),gmd(a0_0x1563bc,async(_0x49df2a,_0x3991b6,_0xd33a7f)=>{const _0x52b151=a0_0x455e4b,{sender:_0x18869b}=_0xd33a7f,_0x5b3e9e=await joinGame(_0x49df2a,_0x18869b);if(!_0x5b3e9e){const _0x2e11e4={};return _0x2e11e4[_0x52b151(0x1c3)]=_0x52b151(0x25f)+_0x52b151(0x183)+_0x52b151(0x239)+'\x20Start\x20one'+_0x52b151(0x186)+'t*',await _0x3991b6[_0x52b151(0x340)+'e'](_0x49df2a,_0x2e11e4);}if(_0x5b3e9e[_0x52b151(0x24c)]===_0x52b151(0x2c0)+'r'){const _0x3b558b={};return _0x3b558b[_0x52b151(0x1c3)]='❌\x20You\x20can\x27'+_0x52b151(0x2ba)+_0x52b151(0x2f4)+_0x52b151(0x368),await _0x3991b6[_0x52b151(0x340)+'e'](_0x49df2a,_0x3b558b);}clearGameTimeout(_0x49df2a);const _0x5217d3=JSON[_0x52b151(0x1e1)](_0x5b3e9e[_0x52b151(0x203)]);await _0x3991b6[_0x52b151(0x340)+'e'](_0x49df2a,{'text':'🎮\x20*TIC\x20TAC'+_0x52b151(0x233)+_0x52b151(0x260)+_0x52b151(0x216)+_0x52b151(0x3ac)+getPlayerName(_0x5b3e9e[_0x52b151(0x288)])+(_0x52b151(0x2bf)+'r\x202:\x20@')+getPlayerName(_0x5b3e9e[_0x52b151(0x26a)])+_0x52b151(0x37f)+renderBoard(_0x5217d3)+_0x52b151(0x253)+getPlayerName(_0x5b3e9e[_0x52b151(0x3a8)+'n'])+(_0x52b151(0x32c)+_0x52b151(0x378)+'with\x20a\x20num'+_0x52b151(0x364)+_0x52b151(0x3b0)+_0x52b151(0x3a7)+_0x52b151(0x322)+'ve_'),'mentions':[_0x5b3e9e[_0x52b151(0x288)],_0x5b3e9e[_0x52b151(0x26a)],_0x5b3e9e[_0x52b151(0x3a8)+'n']]}),setMoveTimeout(_0x49df2a,_0x3991b6,_0x5b3e9e[_0x52b151(0x3a8)+'n'],_0x5b3e9e[_0x52b151(0x26a)],_0x5b3e9e[_0x52b151(0x288)]);});const a0_0x24b315={};a0_0x24b315[a0_0x455e4b(0x297)]=a0_0x455e4b(0x20b),a0_0x24b315[a0_0x455e4b(0x1e0)]=[a0_0x455e4b(0x203),a0_0x455e4b(0x312)],a0_0x24b315[a0_0x455e4b(0x2f0)]='📋',a0_0x24b315['category']='game',a0_0x24b315[a0_0x455e4b(0x1f6)+'n']=a0_0x455e4b(0x1f3)+a0_0x455e4b(0x3bf)+'TacToe\x20boa'+'rd',gmd(a0_0x24b315,async(_0x1e027e,_0x44686c,_0x52deaa)=>{const _0x5c2cb4=a0_0x455e4b,_0x5d6127=await getActiveGame(_0x1e027e);if(!_0x5d6127){const _0x1ddda8={};return _0x1ddda8[_0x5c2cb4(0x1c3)]=_0x5c2cb4(0x1e7)+_0x5c2cb4(0x207)+'art\x20one\x20wi'+_0x5c2cb4(0x35b),await _0x44686c[_0x5c2cb4(0x340)+'e'](_0x1e027e,_0x1ddda8);}const _0x22f29f=JSON[_0x5c2cb4(0x1e1)](_0x5d6127[_0x5c2cb4(0x203)]),_0x4bd69b=_0x5d6127[_0x5c2cb4(0x3a8)+'n']===_0x5d6127[_0x5c2cb4(0x288)]?'❌':'⭕';await _0x44686c[_0x5c2cb4(0x340)+'e'](_0x1e027e,{'text':_0x5c2cb4(0x294)+_0x5c2cb4(0x37a)+_0x5c2cb4(0x308)+getPlayerName(_0x5d6127[_0x5c2cb4(0x288)])+(_0x5c2cb4(0x2bf)+_0x5c2cb4(0x19e))+getPlayerName(_0x5d6127['player2'])+_0x5c2cb4(0x37f)+renderBoard(_0x22f29f)+_0x5c2cb4(0x253)+getPlayerName(_0x5d6127['currentTur'+'n'])+_0x5c2cb4(0x215)+_0x4bd69b+')','mentions':[_0x5d6127[_0x5c2cb4(0x288)],_0x5d6127[_0x5c2cb4(0x26a)],_0x5d6127[_0x5c2cb4(0x3a8)+'n']]});});const a0_0x5de617={};a0_0x5de617['pattern']=a0_0x455e4b(0x1a7),a0_0x5de617['aliases']=['wordchain',a0_0x455e4b(0x37c),a0_0x455e4b(0x22d)],a0_0x5de617[a0_0x455e4b(0x2f0)]='🔤',a0_0x5de617[a0_0x455e4b(0x372)]='game',a0_0x5de617[a0_0x455e4b(0x1f6)+'n']=a0_0x455e4b(0x209)+a0_0x455e4b(0x200)+a0_0x455e4b(0x21f),gmd(a0_0x5de617,async(_0x42f9d3,_0xd3c6f5,_0x20ef79)=>{const _0x1ad13e=a0_0x455e4b,{sender:_0x1009d3}=_0x20ef79,_0x24f414=await getActiveWcgGame(_0x42f9d3);if(_0x24f414){const _0x368930={};return _0x368930[_0x1ad13e(0x1c3)]='❌\x20There\x27s\x20'+_0x1ad13e(0x1f4)+_0x1ad13e(0x1d3)+_0x1ad13e(0x1a5)+_0x1ad13e(0x262)+'.wcgend*\x20t'+'o\x20end\x20it\x20f'+_0x1ad13e(0x273),await _0xd3c6f5['sendMessag'+'e'](_0x42f9d3,_0x368930);}const _0x435881=await getWaitingWcgGame(_0x42f9d3);if(_0x435881){const _0x3f273f={};return _0x3f273f[_0x1ad13e(0x1c3)]=_0x1ad13e(0x2e8)+_0x1ad13e(0x2c9)+_0x1ad13e(0x323)+_0x1ad13e(0x280)+_0x1ad13e(0x325)+'\x20join\x20or\x20*'+_0x1ad13e(0x1e4)+_0x1ad13e(0x1aa),await _0xd3c6f5[_0x1ad13e(0x340)+'e'](_0x42f9d3,_0x3f273f);}await createWcgGame(_0x42f9d3,_0x1009d3),await _0xd3c6f5[_0x1ad13e(0x340)+'e'](_0x42f9d3,{'text':_0x1ad13e(0x307)+_0x1ad13e(0x1d0)+'\x0a@'+getPlayerName(_0x1009d3)+(_0x1ad13e(0x26d)+_0x1ad13e(0x184)+_0x1ad13e(0x2f6)+_0x1ad13e(0x33c)+'must\x20start'+_0x1ad13e(0x1f7)+_0x1ad13e(0x383)+_0x1ad13e(0x2e3)+_0x1ad13e(0x367)+'rd\x0a•\x20No\x20re'+_0x1ad13e(0x333)+_0x1ad13e(0x354)+_0x1ad13e(0x208)+'ers\x20per\x20wo'+'rd\x0a•\x2030\x20se'+_0x1ad13e(0x352)+_0x1ad13e(0x1de)+_0x1ad13e(0x2fd)+_0x1ad13e(0x2d1))+getPlayerName(_0x1009d3)+(_0x1ad13e(0x17f)+_0x1ad13e(0x2b5)+_0x1ad13e(0x1f2)+_0x1ad13e(0x2ae)+_0x1ad13e(0x31d)+_0x1ad13e(0x28c)+_0x1ad13e(0x2b6)+_0x1ad13e(0x331)+_0x1ad13e(0x1d9)),'mentions':[_0x1009d3]}),setWcgJoinTimeout(_0x42f9d3,async()=>{const _0xa1dbda=_0x1ad13e,_0x26ab19=await getWaitingWcgGame(_0x42f9d3);if(!_0x26ab19)return;const _0x2d1775=JSON[_0xa1dbda(0x1e1)](_0x26ab19[_0xa1dbda(0x279)]);if(_0x2d1775[_0xa1dbda(0x287)]<0x2){await endWcgGame(_0x42f9d3);const _0x24d279={};_0x24d279['text']=_0xa1dbda(0x18e)+_0xa1dbda(0x195)+'ne\x20joined\x20'+_0xa1dbda(0x1be)+_0xa1dbda(0x264)+_0xa1dbda(0x25d),await _0xd3c6f5[_0xa1dbda(0x340)+'e'](_0x42f9d3,_0x24d279);return;}const _0x343d87=await startWcgGame(_0x42f9d3);if(_0x343d87[_0xa1dbda(0x24c)])return;const _0x5e41cc=_0x343d87[_0xa1dbda(0x279)][_0xa1dbda(0x332)]((_0x499c2a,_0x3b472f)=>_0x3b472f+0x1+_0xa1dbda(0x2d1)+getPlayerName(_0x499c2a))[_0xa1dbda(0x36f)]('\x0a');await _0xd3c6f5[_0xa1dbda(0x340)+'e'](_0x42f9d3,{'text':_0xa1dbda(0x18e)+_0xa1dbda(0x3b5)+_0xa1dbda(0x2e4)+_0xa1dbda(0x20f)+_0xa1dbda(0x274)+_0xa1dbda(0x1cb)+_0xa1dbda(0x32e)+_0x5e41cc+_0xa1dbda(0x381)+getPlayerName(_0x343d87['currentTur'+'n'])+(_0xa1dbda(0x258)+'Say\x20any\x20wo'+'rd\x20to\x20begi'+_0xa1dbda(0x355)+_0xa1dbda(0x21b)+_0xa1dbda(0x285)),'mentions':[..._0x343d87[_0xa1dbda(0x279)],_0x343d87[_0xa1dbda(0x3a8)+'n']]}),setWcgTurnTimeout(_0x42f9d3,_0xd3c6f5,_0x343d87[_0xa1dbda(0x3a8)+'n'],_0x343d87['game']);});});function a0_0x2733(){const _0x2ec5e3=['zwfKEsO','icOUzgLJzwPVAq','DcbNyw1LcUkuGIaU','zw5KzgLJzq','y29UzhmGCgvYia','zgLJzwvUza','CMrZcUkaOIbnAw5P','BIeQcGRIJ7aGxZmW','DcbVBMX5kq','C2vKiq','y2fUy2vSDhr0','D2nNC2nVCMu','ihDPDgHPBIaZma','DgGGkI50DhqQ','r2fTzq','BMv4DfbSyxLLCG','y1rHy1rVzsbNyq','zsbLBMrLzcbIEq','ms05kIb0BYbTyq','4P2mifLVDsbJyw4N','icOUDhr0zw5KkG','kGPa','yMvYicGXltKPia','8j+KLIaQreLdrsbhqq','D2nNyMvNAw4','CMv2Aw91CYb3BW','zwXMiq','igXLDhrLCNmGCa','id0GD2LUBMvYiq','8j+KLIaQv09srcbdsa','yxLLCNm6kGO','y1rVzsbNyw1L','DgfIyxnLl2rPyW','AM9PBG','mtaXntC2mhDgELvqDa','D2nNyM90','y2f0zwDVCNK','AcaUD2nNAM9PBG','4Psb4Psb4PsKcUkuGIaUD2nN','8j+KNsbjDcDZigeGDa','ihjVBgXPBMCUlG','zwvUzcOGDg8GyW','kqOkkLjLCgX5ia','cGRWN5oDifDVCMrZia','ifrprsOkcLbSyq','u3rHCNqGysbuAq','D2nNC3rHCNq','ugXHEsbuAwnuyq','lI4Vz3vYDs9Nyq','icJIRzuPcGO','zgLJzsO','cGRWN5seiea','zw5KkIb0BYbJyq','BgfZDcbSzxr0zq','CM91BMrdB21WBa','ugXHEsbxB3jKia','CM91BMrZihDVBG','8j+AGcaQv09srcbdsa','ieDHBwuGkgHVCW','ihn0yxj0iq','AM9PBNDJzW','DxnLzfDVCMrZ','D2nND29Yza','D29YzgnOywLUyq','zgLJzwnHBMnLBa','ywnuB2uGz2fTzq','z2fTzuzPBMLZAa','ywn0AxzL','cUkuGIaUzgLJzwvU','ifrprsb2CYbbsq','CgXHEwDHBwu','zsbQB2LUC18','zhvYAw5NigDHBq','igfNywLUC3qGqq','C3rVChDJzW','sM9PBIbHierPyW','ywL3y2C','8j+oSIaQreLdrsbhqq','cGOQvhLWzsaUza','ifrprsOkcKa','8j+KLIaQveLdifrbqW','A2v5','AxrOicOUD2nNkG','zM9YihnVBwvVBG','igHVC3qGy2fUia','DgLJDgfJDg9LCW','j3mGDhvYBIaTia','BYbQB2LUigeGzW','kIba','4O+Wif8ZmcbZzwnV','y3vYCMvUDfr1CG','quLoifnuqvjurq','BMuGD2L0AcaQlG','8j+BKsbxB3jKienOyq','mtOGqa','ywL0Da','D29Yza','BM9Fz2fTzq','Dg8GBw92zseQcG','kGOQsg9ZDcb0Eq','CgXHEwvYmLnJBW','u2f5igfUEsb3BW','vvqQcGPoBYbVBG','DxaHieDHBwuGCW','B3DUx2DHBwu','Dw5KC10GlsbqBa','ifnJB3jLCZOQcG','zwqH','rcbdsefjtIbhqq','DgfYDce','ihb0CYKkcVcFPjyGqq','4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4PwV','Aw5Lza','DxjYzw50ifrPyW','cGRIJ7aGkJmWihnL','ihbSyxKHkGOkua','sM9PBIbHihDHAq','zxjZiq','D2fPDgLUzYbMBW','CgXHEsekcVcFK5WGkG','D29Yzf91C2vK','ihDPDgGGkI50Da','rw5KihrOzsbxBW','zcaTievUzcbJDq','DxiGD29YzcfFcG','oIOk4OcIievHy2GG','zgLJzwDHBwu','BYbQB2LUlcbVCG','yxn0idiGBgv0Da','4O+WicPuAw1Lj3mG','CMvUDcbNyw1LcG','kGOk8j+tIIbxB3jKCW','DcekcUkpScbFmZaG','y2fUDf9QB2LUxW','CgXHEwvYmvjVBa','zuDHBwu','DxaHkGOktM8GBW','u2HVDYbxB3jKia','ndK3mJCXnw1AwhPMyq','cUkvREkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGq','Bgv0DgvYig9Mia','BMnLBc4','4Psb4Psb4Psb4PsKcUkuGIaUDhq','z2fTzvDPBM5LCG','z2LUihDOzw4GCG','CIaYoIba','DgfIyxnLl3DJzW','CgXHEwvYmvnJBW','y2uGz2fTzsekvq','ig9YicOUzgLJzq','C3qGquK','igeGBMv3igDHBq','CMqGq2HHAw4GzW','y2HHDePPza','D2nN','8j+oRIaQr0fnrvmGtq','CM91BMrZ','BYbJyw5JzwWU','DxnLzdOG','DcbIzsbHDcbSzq','DgLJDgfJDg9Lyq','isOkcVcFPjyGquKGBq','Bgf5zxiGmtOGqa','y2fUy2vSCYbPBG','y3jLyxrL','ihrVigvUzce','kIaOkW','lNDJz2fPic0Gua','ihrVigvUzcbPDa','B3iHcGRWN5okicPgAq','ywLU','zsbuAwnuywnuBW','mti5DvLTs3DM','ywDHAw5ZDcbbsq','CNjLBNqGz2fTzq','4P2mieL0j3mGBM90','4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb','DgHLigDHBwuUia','igfJDgL2zsbeAq','BhjLywr5igPVAq','ywn0AxzLigDHBq','zsbeAwnLigDHBq','Dgv4Da','cGOQtw9YzsbJyq','cLvZzsaQlMrPyW','EwvYCYbVCIbHza','z2v0','zgLJzxjVBgW','ywr5igjLzw4GDq','rw5KihrOzsbJDq','ruqHkGOk8j+rPsaQua','icHOB3n0kqRILiiG','8j+pHIba','Aw5KzxHpzG','ihLVDxiGDhvYBG','quLoieDbtuuQcG','tuuQcGPa','D29YzcbTDxn0ia','igfJDgL2zsbxBW','DxjU','ihDPBNmH','zMLSDgvY','y2fUy2vSlG','zsbNyw1LihrVia','DcbLyxjSEsO','B2LUkIb0BYbQBW','Dcb5B3uGCgXHEq','AwnLAM9PBIb0BW','AgfZ','DhvYBGOk8j+rPsaQua','Dxn0ihr5CguGjW','ywXPyxnLCW','CgfYC2u','xWRILiiGx1r5CguG','zgLJzq','lNDJz2vUzcOGDa','CgvZic53y2DIzq','AxGGBMvLzgvKia','4P2mie5VigfJDgL2','zwXMisbxywL0ia','zseGu3rHCNqGBW','ihjVDw5KCWOkkG','zhnDic0Gu3rHCG','z2fTzse','4P2mie5VifDVCMqG','ru9vvcOkcK5Via','BMqGDgHLigDHBq','BgXLzcekcKa','Dhr0zw5KkIb0BW','B2LUisOkkLr5Ca','u2HVDYb0AguGyW','ywXYzwfKEsbHBG','CYb3ywL0Aw5Niq','zgvZy3jPChrPBW','ihDPDgGGDgHLia','AM9PBIOGDg8GAG','ndi3ntG1nMDRzhrlBq','B21Tyw5KCW','zw5Kiq','mtHiAu91zNq','kcGOlISPkYKRkq','yw1LCYbHBMqGyW','zM9YigfUig9WCa','CMqGq2HHAw4GrW','Dhr0yM90','BIbQB2LUihDPDa','yM9HCMq','ssbPCYb0AgLUAW','Dhr0C3rHCNq','ktOQcG','zsbNyw1LisbtDa','BxvTidiGBgv0Da','u3rHCNqGysbxBW','mZaGC2vJB25KCW','Dhr0yM9HCMq','zgLJzxn0B3a','ywrLigfUigvYCG','lcb0ExbLicOUCG','cVcFMOaGkLDpuKqGqW','AM9PBNr0Da','AwuHcG','DgGGkG','4PwUcUkuGIdWN5sKicPxt1i','ihzZipcFPjyGquKkcG','j3mGDhvYBIaO','kGOkugXHEwvYia','ywLKAwnL','4P2mie5LzwqGyxqG','8j+KLGRILiiGlNDJz2jL','isOkcVcFPjyGquKGyW','ihnLy29UzhmGCa','igzPCNn0lG','rw5KihrOzsbeAq','BM90x2vUB3vNAa','yw1L','Dg9vChbLCKnHCW','iIbOyxmGywXYzq','B3jKigLUifDVCG','zgvZDhjVEq','uM91BMqGmsOkqa','D2nNC2nVCMvZia','BMv4DfjVDw5K','C2vHCMnO','zxjYB3iUieDHBq','AxrOicOUzgLJzq','cVcFJQ8GqMvZDcbVzG','y2uGCgvYihjVDq','Aw4GysbNyw1LxW','D29YzgDHBwu','C3rHCNqGDgHLia','8j+oSIba','DgHLihbYzxzPBW','iejLC3qGB2yG','4PwW4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb','ifrprsaTieDbtq','C2nVCMvZ','mZq1mZG2nhHNBhfUra','yxKGDNmGquKG8j+KLG','CIbWBgf5zxiGBq','C3qGCM9SBcb3Aq','CIbWBgf5zxjZiq','C2f5igfUEsb3BW','D2HLCMu','C3rYAw5NAwz5','DgfIyxnLl2DHBq','C2f5','ic0Grw5Kign1CG','CMqGDg8GyMvNAq','uM9SBcb0AguGza','ve9fkGRILjZILihILihILihILie','BM90x3LVDxjFDa','BwLUCYbJyw4Gzq','4P2mie9UBhKGDgHL','DgLJDgfJDg9L','cUkuGIbFvhLWzsaQ','z2LUic0Gu3rHCG','C2vJB25KCYb0BW','4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4PwVcG','Dg9tDhjPBMC','zxjYB3i','z2fTzsb3ywL0Aq','DcfFcL9oBYbJBW','ignHBIbZDgfYDa','EhqGD29YzcbZDa','ifrprsaTifrjtq','8j+KLIbbssbZyxLZoG','cGPa','zgLJzwjVDa','zgLJzxn0yxj0','B2XSkIb0BYbYBW','BgfZDfDVCMq','j3mGDhvYBIekkG','BNmGDgHLihjVDq','C3rHCNqGD2L0Aa','C2v0','Dhr0y2fUy2vS','BgXLzc4','DhqQ','4P2mie5VigDHBwuG','rsbtvefsveveiq','yxLLCNmGDg8GCW','yw1LiqPvC2uGkG','ic0Gu3rHCNqGzW','r2fTzsbJyw5Jzq','DgLJDgfJDg9Lzq','rceQcGRWN5gLicPqBa','cGRWN5oCicPsDwXLCW','cGOQuM91BMqG','tM8GCMvWzwf0Aq','CgXHEwvYmG','q2HHAw4GC2nVCG','D3jVBMDFBgv0Da','ihDHBNrZihrVia','Bgf5zxiPcUkuGIaU','Bgf5ihzZiefjia','tuuGlsbusu1ftW','DYa8D29Yzd4','4Psb4Psb4Psb4Psb4PwUcUkuGIdINyZIRzu','AxjZDc4','sefjtIbtvefsva','C3qGDhLWzsb5BW','Aw4GmZaGC2vJBW','C3bSAxq','D29YzenVDw50','CgXHEwvYCW','BMqQihrVigvUza','CM91BMrxAw5Uzq','ywXYzwfKEsbHia','D29YzgnOywLUCW','CIb0DxjUxW','DcaTifn0yxj0ia','CYekvxnLicOUDW','CIaYoIbxywL0Aq','Dg9W','zsaQAM9PBIOGDa','y29Yzq','zxiGDhvYBL8','BwLU','BgvUz3rO','CgXHEwvYmq','BwuGy2fUy2vSBa','Dhr0AM9PBG','z2fTzsb0BYbLBG','cIPiB3n0ihr5Ca','CM9SBcb0AguGza','icPusumGvefdia','ihbSyxKHkGRIJ7aG','BwuUiefUB3rOzq','t1zfuIeQcG','cVcFK4OGkLnJB3jLoG','Aw4Gz2fTzse','8j+oRIaQveLdifrbqW','y29UC3rYDwn0BW','8j+oSIaQuM91BMqG','Cgf0DgvYBG','D2L0AgLUidmWia','zgLJzwfPifTYBW','lI4Vz3vYDs93yW','cGRILA3ILihILihILihILihILihILihILie','AxrOicO','CM9SBgrPy2vHAq','4PYficO','ihr1CM46iea','CM9SBa','u3vIBwL0igeGDW','igfJDgL2zsbNyq','ipcFPjyGquK6ia','zgLJzsbBCM91BG','C2XPy2u','D2nNAM9PBG','B3vSzg4NDcbMAq','zsbQB2LUzwqGDW','C3rHCNrPBMCGDW','CgXHEwvYkqRILiiG','AxrOAw4GmZaGCW','8j+BKsbeAwnLigDHBq','zgvSzxrL','zsaUD2nNAM9PBG','ihDPBNmGDgHPCW','D2fPDgLUzYeGuW','4Psb4Psb4Psb4PwVcGPF8j+KLIbb','D2nNzw5K','zw5KD2nN','ysb3B3jKiqOkvq','y29UzhmGDg8GAG','zxmGlNDJz2jLzW','AM9PBI4','DhjPBq','Bgf5zxiHcLr5Ca','DcbWBgf5igfNyq','y1rVzsbHz2fPBG','kNjVBgWQihrVia','cGRWN46UicPhqu1fia','C2fNztOG','icJINyWPcLbSyxLL','C2fTzv9WBgf5zq','4P2mie9UBhKGCgXH','DgfYDcbVBMuGDW','Dhr0ywK','cUkuGIdWN46YicPesunf','BwuGAw4GDgHPCW','ie1PBMLTDw0GmG','CMqGDg8GC3rHCG','D2nNy2fUy2vS','CYb3ywL0Aw5Nia','4P2mifDVCMqGBxvZ','zsbhyw1L','BMqk4OcIie1VC3qG','BgWHcGRIJ7aGxZmW','quLoihzZiefjkG','n0DOvxHovG','BYbTB3zLisO','lIba','icJINyWPcKfjoIdWN6sw','DgLLisO','zsb3AxrOicOUDa','ihWG4O+WidmWCW','yw5JzwWU','AxrOigeGBNvTyG','zxiGD29YzaRIGkiG','cVcFKAqGqa','isOkcVcFKAqGqa','ywWGu2nVCMvZoG','kqOQuMvWBhKGDW','mta1ndC2B2njrgfH','Bwvbsq','8j+oIsaQwu9vifDjtG','yw1LicHTDwX0Aq','B2LUigeGz2fTzq','4P2miefjihjVBgWG','CIbVzIb0AguGCa','DgfYDgLUzYeQcG','kGOkugXHEwvYoG','4P2mifLVDsD2zsbH','A2v5CW','4P2mieeGz2fTzsbP','zxbSyxKHxW','ssbTB2rLCYbSzq','AwnLxWRILBdILihILihILihILie','idmWihnLy29Uza','v29YzcbdAgfPBG','y2uGr2fTzq','D2nNC3rVCa','CMvHy3q','8j+tIIaQv09srcbdsa','mLbozwjnEq','cGRWN5okicPgAw5HBa','Aw5ZDcb5B3vYCW','C3rVCgrPy2u','uNvSzxm6kGRIGkiG','y2DLBMqQihrVia','sM9PBIbHifDVCG','8j+rPsaQugXHEwvYCW','CgXHEwvYmLjVBa','D2nNz28','CgXHEsekcIPuEq','Bgf5zxjZoIOkmq','cUkuGIaUDhr0zw5K','B2XSkIe','zcbdAgfPBIbhyq','8j+KNsaQsxqNCYbHia','zwnVBMrZlGPhyq','AM9PBNDVCMrJAa','DgHYB3DKAwnL','ignOyxqHcLvZzq','ic0G','8j+uPcaQv09srcbdsa','EwvYide6iea','ihjVDw5KiqO','ihnLy29UzhmUcG','x3bSyxLLCNm','4P2mifbYB3zPzguG','u3rHCNqGysbeAq','ignHBMnLBc4','4P2mici','Aw5NlI4U','4Pscif9uExbLicPQ','Dhr0C2HVDW','cGRIJ7aGx0f1Dg8T','ihvZzsaQlNr0Da','q2HHAw4Gr2fTzq','BMrZlG','nta3nJKYDLbnzKHc','BwvUDgLVBNm','4Psb4Psb4Psb4Psb4Psb4PsKcUkuGIaU','C2uGkI5KAwnLzq','A2uGysbTB3zLxW','DhrZDg9W','ihrVigPVAw4HkG','8j+BKsbuAwnuywnuBW','D2nNywK','igPVAw5LzcekcG','BIOGDg8GAM9PBG','BMrZihbLCIbTBW','zM9YihbSyxLLCG','zw5KDhr0','y2DQB2LUkIb0BW','C3rHCNr3y2C','4PYfiea','4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4PwU','ihjVBgXLzdOG','lsbwAwv3ihnJBW','BgvHC3qGmIbWBa','j3mGDhvYBIaO4P2m','4P2mifrOzxjLj3mG','Bgf5zxjZoIOk','z2fTzq','lI4Vz3vYDs9Kyq','Aw4GDg8GC3rHCG','BwfW','CgvHDgLUzYb3BW','z2fTzxm','Dhr0ywKGlsbqBa','8j+KLIbbsq','xZmWihnLy29Uza','BMCUlI4kcG','Bwf4','mtq1mZiYnxvwrwHHsa','CYbPzIbUBYbVBG','rwfJAcb3B3jKia','C3rVChr0Da','y3vYCMvUDfjVDq','zxHWzwn0zwq','C2vUze1LC3nHzW','zgLJzwPVAw4','Dcb0AguGz2fTzq','Aw5JBhvKzxm','AxnbAuDHBwu','D2fPDgLUz0zVCG','C2vJB25KCYbWzq','AwnLigLUigfUia','zxiGkdeTosKGDa','x2PVAw4','zsbNyw1LigvUza','kGOkqa','BMfSifnJB3jLCW','BMqk4OcIieHPz2HL'];a0_0x2733=function(){return _0x2ec5e3;};return a0_0x2733();}const a0_0x170265={};a0_0x170265[a0_0x455e4b(0x297)]=a0_0x455e4b(0x2a6),a0_0x170265[a0_0x455e4b(0x1e0)]=[a0_0x455e4b(0x38a),a0_0x455e4b(0x303)+a0_0x455e4b(0x1b7)],a0_0x170265[a0_0x455e4b(0x2f0)]='✅',a0_0x170265[a0_0x455e4b(0x372)]=a0_0x455e4b(0x32f),a0_0x170265[a0_0x455e4b(0x1f6)+'n']=a0_0x455e4b(0x2f8)+'d\x20Chain\x20Ga'+'me',gmd(a0_0x170265,async(_0x5690d7,_0x283257,_0x19e114)=>{const _0x5e862d=a0_0x455e4b,{sender:_0x192cd9}=_0x19e114,_0x9d9337=await joinWcgGame(_0x5690d7,_0x192cd9);if(_0x9d9337[_0x5e862d(0x24c)]==='no_game'){const _0x1663b9={};return _0x1663b9[_0x5e862d(0x1c3)]=_0x5e862d(0x25f)+_0x5e862d(0x2b0)+_0x5e862d(0x2c2)+_0x5e862d(0x3a0),await _0x283257[_0x5e862d(0x340)+'e'](_0x5690d7,_0x1663b9);}if(_0x9d9337[_0x5e862d(0x24c)]===_0x5e862d(0x192)+_0x5e862d(0x3b6)){const _0x11faf8={};return _0x11faf8[_0x5e862d(0x1c3)]='❌\x20You\x20can\x27'+_0x5e862d(0x2ba)+_0x5e862d(0x2f4)+_0x5e862d(0x1e8)+_0x5e862d(0x3a1)+'e\x20else\x20to\x20'+_0x5e862d(0x2b7),await _0x283257[_0x5e862d(0x340)+'e'](_0x5690d7,_0x11faf8);}if(_0x9d9337[_0x5e862d(0x24c)]==='already_jo'+_0x5e862d(0x3be)){const _0x2af440={};return _0x2af440['text']=_0x5e862d(0x2e6)+_0x5e862d(0x1c0)+'ned\x20this\x20g'+'ame!',await _0x283257[_0x5e862d(0x340)+'e'](_0x5690d7,_0x2af440);}const _0x562d7=_0x9d9337[_0x5e862d(0x279)][_0x5e862d(0x332)]((_0x5b3c20,_0x340540)=>_0x340540+0x1+'.\x20@'+getPlayerName(_0x5b3c20))[_0x5e862d(0x36f)]('\x0a'),_0x3582c7=_0x9d9337[_0x5e862d(0x279)];await _0x283257['sendMessag'+'e'](_0x5690d7,{'text':_0x5e862d(0x327)+getPlayerName(_0x192cd9)+(_0x5e862d(0x320)+_0x5e862d(0x2f9)+'\x20(')+_0x9d9337[_0x5e862d(0x279)][_0x5e862d(0x287)]+_0x5e862d(0x206)+_0x562d7+(_0x5e862d(0x1c4)+_0x5e862d(0x202)+_0x5e862d(0x373)+_0x5e862d(0x3b1)+_0x5e862d(0x1e5)+_0x5e862d(0x19d)+_0x5e862d(0x34e)),'mentions':_0x3582c7});});const a0_0x40171f={};a0_0x40171f['pattern']=a0_0x455e4b(0x366),a0_0x40171f[a0_0x455e4b(0x1e0)]=[a0_0x455e4b(0x326),a0_0x455e4b(0x2fb)],a0_0x40171f[a0_0x455e4b(0x2f0)]='🚀',a0_0x40171f['category']=a0_0x455e4b(0x32f),a0_0x40171f[a0_0x455e4b(0x1f6)+'n']='Start\x20the\x20'+a0_0x455e4b(0x2ed)+a0_0x455e4b(0x388)+a0_0x455e4b(0x356),gmd(a0_0x40171f,async(_0x451df2,_0x2a0eca,_0x1aae97)=>{const _0x4f1587=a0_0x455e4b,{sender:_0x1a9cec}=_0x1aae97,_0x3681df=await getWaitingWcgGame(_0x451df2);if(!_0x3681df){const _0x46387c={};return _0x46387c[_0x4f1587(0x1c3)]=_0x4f1587(0x25f)+'waiting\x20to'+_0x4f1587(0x389),await _0x2a0eca[_0x4f1587(0x340)+'e'](_0x451df2,_0x46387c);}const _0x26f4fb=JSON[_0x4f1587(0x1e1)](_0x3681df['players']);if(_0x26f4fb[0x0]!==_0x1a9cec){const _0x3ce3ca={};return _0x3ce3ca[_0x4f1587(0x1c3)]=_0x4f1587(0x245)+_0x4f1587(0x3a2)+_0x4f1587(0x22e)+_0x4f1587(0x1ec),await _0x2a0eca[_0x4f1587(0x340)+'e'](_0x451df2,_0x3ce3ca);}clearWcgJoinTimeout(_0x451df2);const _0x57f715=await startWcgGame(_0x451df2);if(_0x57f715[_0x4f1587(0x24c)]===_0x4f1587(0x21e)+_0x4f1587(0x30b)){const _0x4fb28c={};return _0x4fb28c['text']=_0x4f1587(0x218)+_0x4f1587(0x32b)+_0x4f1587(0x261)+_0x4f1587(0x3bb),await _0x2a0eca[_0x4f1587(0x340)+'e'](_0x451df2,_0x4fb28c);}const _0x5d9934=_0x57f715[_0x4f1587(0x279)][_0x4f1587(0x332)]((_0x1f962f,_0x1fd515)=>_0x1fd515+0x1+'.\x20@'+getPlayerName(_0x1f962f))[_0x4f1587(0x36f)]('\x0a');await _0x2a0eca[_0x4f1587(0x340)+'e'](_0x451df2,{'text':_0x4f1587(0x387)+_0x4f1587(0x3a9)+_0x4f1587(0x266)+_0x4f1587(0x36c)+_0x5d9934+'\x0a\x0a🔄\x20@'+getPlayerName(_0x57f715[_0x4f1587(0x3a8)+'n'])+(_0x4f1587(0x258)+_0x4f1587(0x3b3)+_0x4f1587(0x240)+_0x4f1587(0x355)+_0x4f1587(0x21b)+_0x4f1587(0x285)),'mentions':[..._0x57f715[_0x4f1587(0x279)],_0x57f715[_0x4f1587(0x3a8)+'n']]}),setWcgTurnTimeout(_0x451df2,_0x2a0eca,_0x57f715[_0x4f1587(0x3a8)+'n'],_0x57f715['game']);});const a0_0x5e7029={};a0_0x5e7029[a0_0x455e4b(0x297)]=a0_0x455e4b(0x2b2),a0_0x5e7029[a0_0x455e4b(0x1e0)]=[a0_0x455e4b(0x2b3),a0_0x455e4b(0x2ef),a0_0x455e4b(0x398),a0_0x455e4b(0x2c8)],a0_0x5e7029[a0_0x455e4b(0x2f0)]='🛑',a0_0x5e7029[a0_0x455e4b(0x372)]=a0_0x455e4b(0x32f),a0_0x5e7029[a0_0x455e4b(0x1f6)+'n']=a0_0x455e4b(0x187)+a0_0x455e4b(0x200)+a0_0x455e4b(0x21f),gmd(a0_0x5e7029,async(_0x3e70d0,_0x332c59,_0x2ed3ce)=>{const _0x16913c=a0_0x455e4b,{sender:_0xad5d2c,isSuperUser:_0x40b218}=_0x2ed3ce,_0x188b1b=await getActiveWcgGame(_0x3e70d0)||await getWaitingWcgGame(_0x3e70d0);if(!_0x188b1b){const _0xac25ae={};return _0xac25ae['text']=_0x16913c(0x1ed)+'Chain\x20game'+_0x16913c(0x1b2),await _0x332c59[_0x16913c(0x340)+'e'](_0x3e70d0,_0xac25ae);}const _0x1a2645=JSON[_0x16913c(0x1e1)](_0x188b1b[_0x16913c(0x279)]),_0x52786d=_0x1a2645[_0x16913c(0x343)](_0xad5d2c);if(!_0x52786d&&!_0x40b218){const _0x369b73={};return _0x369b73[_0x16913c(0x1c3)]=_0x16913c(0x2c1)+_0x16913c(0x1c6)+_0x16913c(0x244)+'nd\x20the\x20gam'+'e!',await _0x332c59[_0x16913c(0x340)+'e'](_0x3e70d0,_0x369b73);}clearWcgTimeout(_0x3e70d0),clearWcgJoinTimeout(_0x3e70d0);const _0x569bb7=await endWcgGame(_0x3e70d0);let _0x1305ae=_0x16913c(0x3ab)+'in\x20ended\x20b'+'y\x20@'+getPlayerName(_0xad5d2c)+'!';_0x569bb7&&Object[_0x16913c(0x2e7)](_0x569bb7)[_0x16913c(0x287)]>0x0&&(_0x1305ae+=_0x16913c(0x2f3)+_0x16913c(0x3b8)+formatScores(_0x569bb7));const _0x69255d={};_0x69255d['text']=_0x1305ae,_0x69255d[_0x16913c(0x318)]=[_0xad5d2c],await _0x332c59['sendMessag'+'e'](_0x3e70d0,_0x69255d);});const a0_0x59eb58={};a0_0x59eb58[a0_0x455e4b(0x297)]='wcgscores',a0_0x59eb58[a0_0x455e4b(0x1e0)]=[a0_0x455e4b(0x359),a0_0x455e4b(0x27d)+a0_0x455e4b(0x284)],a0_0x59eb58[a0_0x455e4b(0x2f0)]='📊',a0_0x59eb58[a0_0x455e4b(0x372)]=a0_0x455e4b(0x32f),a0_0x59eb58['descriptio'+'n']=a0_0x455e4b(0x196)+a0_0x455e4b(0x26b)+'es',gmd(a0_0x59eb58,async(_0x18a61a,_0x4fec2d,_0x29246e)=>{const _0x2d427d=a0_0x455e4b,_0x5bb72e=await getActiveWcgGame(_0x18a61a);if(!_0x5bb72e){const _0x3235d0={};return _0x3235d0[_0x2d427d(0x1c3)]='❌\x20No\x20activ'+'e\x20Word\x20Cha'+_0x2d427d(0x293),await _0x4fec2d[_0x2d427d(0x340)+'e'](_0x18a61a,_0x3235d0);}const _0x5a82a0=JSON[_0x2d427d(0x1e1)](_0x5bb72e[_0x2d427d(0x234)]),_0x5c9af9=JSON[_0x2d427d(0x1e1)](_0x5bb72e[_0x2d427d(0x279)]),_0x24b5b8=JSON[_0x2d427d(0x1e1)](_0x5bb72e[_0x2d427d(0x38b)]);await _0x4fec2d['sendMessag'+'e'](_0x18a61a,{'text':_0x2d427d(0x2f1)+'AIN\x20SCORES'+'*\x0a\x0a'+formatScores(_0x5a82a0)+(_0x2d427d(0x379)+_0x2d427d(0x1ab))+_0x24b5b8[_0x2d427d(0x287)]+('\x0a🔄\x20Current'+_0x2d427d(0x29f))+getPlayerName(_0x5bb72e[_0x2d427d(0x3a8)+'n'])+'\x0a'+(_0x5bb72e[_0x2d427d(0x257)]?'Last\x20word:'+'\x20*'+_0x5bb72e['lastWord']+'*':''),'mentions':[..._0x5c9af9,_0x5bb72e['currentTur'+'n']]});});const a0_0xfd283f={};a0_0xfd283f[a0_0x455e4b(0x297)]='w',a0_0xfd283f['aliases']=[a0_0x455e4b(0x3ae),a0_0x455e4b(0x38c),a0_0x455e4b(0x23e)],a0_0xfd283f[a0_0x455e4b(0x2f0)]='🔤',a0_0xfd283f[a0_0x455e4b(0x372)]=a0_0x455e4b(0x32f),a0_0xfd283f[a0_0x455e4b(0x1f6)+'n']=a0_0x455e4b(0x2a1)+a0_0x455e4b(0x222)+a0_0x455e4b(0x300)+'me',gmd(a0_0xfd283f,async(_0x69a1f9,_0x4a3bef,_0x12013f)=>{const _0x2a8a47=a0_0x455e4b,{sender:_0x16ba04,q:_0x212478,botPrefix:_0x18c5f6}=_0x12013f,_0xfa9507=await getActiveWcgGame(_0x69a1f9);if(!_0xfa9507)return;if(!_0x212478||_0x212478[_0x2a8a47(0x2b8)]()===''){const _0x297552={};return _0x297552[_0x2a8a47(0x1c3)]=_0x2a8a47(0x30c)+_0x2a8a47(0x2b4)+_0x2a8a47(0x2be)+_0x18c5f6+_0x2a8a47(0x271),await _0x4a3bef[_0x2a8a47(0x340)+'e'](_0x69a1f9,_0x297552);}const _0x444de1=_0x212478[_0x2a8a47(0x2b8)]()[_0x2a8a47(0x277)](/\s+/)[0x0],_0x10c55b=await submitWord(_0x69a1f9,_0x16ba04,_0x444de1);if(_0x10c55b[_0x2a8a47(0x24c)]===_0x2a8a47(0x243)+_0x2a8a47(0x1d4)){const _0x31a794={};return _0x31a794[_0x2a8a47(0x1c3)]='❌\x20It\x27s\x20not'+_0x2a8a47(0x1cf)+'!',await _0x4a3bef[_0x2a8a47(0x340)+'e'](_0x69a1f9,_0x31a794);}if(_0x10c55b['error']===_0x2a8a47(0x185)){const _0x1debe0={};return _0x1debe0[_0x2a8a47(0x1c3)]=_0x2a8a47(0x30f)+_0x444de1+(_0x2a8a47(0x221)+_0x2a8a47(0x1c9)+_0x2a8a47(0x357)),await _0x4a3bef[_0x2a8a47(0x340)+'e'](_0x69a1f9,_0x1debe0);}if(_0x10c55b[_0x2a8a47(0x24c)]===_0x2a8a47(0x26c)+'er')return await _0x4a3bef[_0x2a8a47(0x340)+'e'](_0x69a1f9,{'text':_0x2a8a47(0x2ca)+'t\x20start\x20wi'+_0x2a8a47(0x212)+_0x10c55b[_0x2a8a47(0x33f)][_0x2a8a47(0x220)+'e']()+'*!'});if(_0x10c55b[_0x2a8a47(0x24c)]==='too_short'){const _0x313f62={};return _0x313f62[_0x2a8a47(0x1c3)]=_0x2a8a47(0x2ca)+_0x2a8a47(0x1ac)+_0x2a8a47(0x18d)+_0x2a8a47(0x182),await _0x4a3bef[_0x2a8a47(0x340)+'e'](_0x69a1f9,_0x313f62);}clearWcgTimeout(_0x69a1f9);const _0x2afaaa=_0x10c55b[_0x2a8a47(0x3ae)][_0x2a8a47(0x2a5)](-0x1)['toUpperCas'+'e'](),_0xa94738=await getActiveWcgGame(_0x69a1f9);if(_0xa94738&&_0xa94738[_0x2a8a47(0x344)]&&_0x10c55b['nextPlayer']===BOT_JID){const _0x5ea70e={};_0x5ea70e[_0x2a8a47(0x1c3)]='✅\x20*'+_0x10c55b[_0x2a8a47(0x3ae)]+_0x2a8a47(0x1b3)+_0x10c55b[_0x2a8a47(0x3ae)][_0x2a8a47(0x287)]+(_0x2a8a47(0x3bc)+_0x2a8a47(0x204)+_0x2a8a47(0x310)),await _0x4a3bef[_0x2a8a47(0x340)+'e'](_0x69a1f9,_0x5ea70e),await handleAiWcgMoveInternal(_0x69a1f9,_0x4a3bef,_0xa94738);return;}await _0x4a3bef[_0x2a8a47(0x340)+'e'](_0x69a1f9,{'text':_0x2a8a47(0x29e)+_0x10c55b['word']+_0x2a8a47(0x1b3)+_0x10c55b['word'][_0x2a8a47(0x287)]+'\x20pts)\x0a\x0a🔄\x20@'+getPlayerName(_0x10c55b[_0x2a8a47(0x35d)])+('\x27s\x20turn\x0aNe'+_0x2a8a47(0x250)+'arts\x20with:'+'\x20*')+_0x2afaaa+(_0x2a8a47(0x190)+':\x20')+_0x10c55b[_0x2a8a47(0x278)]+_0x2a8a47(0x2d5),'mentions':[_0x10c55b[_0x2a8a47(0x35d)]]}),setWcgTurnTimeout(_0x69a1f9,_0x4a3bef,_0x10c55b[_0x2a8a47(0x35d)],_0x10c55b[_0x2a8a47(0x32f)]);});async function handleAiWcgMoveInternal(_0x323e74,_0x1688c7,_0x247c18){const _0x28f0d5=a0_0x455e4b,_0x3209c8=_0x247c18['lastWord'],_0x1c1c2c=JSON[_0x28f0d5(0x1e1)](_0x247c18[_0x28f0d5(0x38b)]);await new Promise(_0x232433=>setTimeout(_0x232433,0x5dc));const _0x2181c6=findWcgWord(_0x3209c8,_0x1c1c2c);if(!_0x2181c6){const _0x1d1ffb=JSON[_0x28f0d5(0x1e1)](_0x247c18['scores']);await endWcgGame(_0x323e74),await _0x1688c7[_0x28f0d5(0x340)+'e'](_0x323e74,{'text':'🎉\x20*YOU\x20WIN'+_0x28f0d5(0x21a)+_0x28f0d5(0x2a7)+'nd\x20a\x20word\x20'+_0x28f0d5(0x2a9)+_0x28f0d5(0x29c)+_0x3209c8[_0x28f0d5(0x2a5)](-0x1)[_0x28f0d5(0x220)+'e']()+('*!\x0a\x0a📊\x20*Fin'+_0x28f0d5(0x2db)+'*\x0a')+formatScores(_0x1d1ffb)});return;}const _0x5dcdcc=await submitWord(_0x323e74,BOT_JID,_0x2181c6);if(_0x5dcdcc['error']){const _0x1c8ea3=JSON['parse'](_0x247c18[_0x28f0d5(0x234)]);await endWcgGame(_0x323e74),await _0x1688c7[_0x28f0d5(0x340)+'e'](_0x323e74,{'text':_0x28f0d5(0x2df)+_0x28f0d5(0x1ae)+_0x28f0d5(0x20d)+_0x28f0d5(0x1b6)+_0x28f0d5(0x34c)+':*\x0a'+formatScores(_0x1c8ea3)});return;}const _0x59a45=_0x5dcdcc[_0x28f0d5(0x3ae)][_0x28f0d5(0x2a5)](-0x1)[_0x28f0d5(0x220)+'e']();await _0x1688c7[_0x28f0d5(0x340)+'e'](_0x323e74,{'text':_0x28f0d5(0x252)+'\x20*'+_0x5dcdcc[_0x28f0d5(0x3ae)]+_0x28f0d5(0x1b3)+_0x5dcdcc[_0x28f0d5(0x3ae)]['length']+'\x20pts)\x0a\x0a🔄\x20@'+getPlayerName(_0x5dcdcc[_0x28f0d5(0x35d)])+('\x27s\x20turn\x0aNe'+_0x28f0d5(0x250)+'arts\x20with:'+'\x20*')+_0x59a45+(_0x28f0d5(0x190)+':\x20')+_0x5dcdcc[_0x28f0d5(0x278)]+_0x28f0d5(0x2d5),'mentions':[_0x5dcdcc[_0x28f0d5(0x35d)]]}),setWcgTurnTimeout(_0x323e74,_0x1688c7,_0x5dcdcc['nextPlayer'],_0x5dcdcc[_0x28f0d5(0x32f)]);}const a0_0x57e46e={};a0_0x57e46e[a0_0x455e4b(0x297)]=a0_0x455e4b(0x1e3),a0_0x57e46e[a0_0x455e4b(0x1e0)]=[a0_0x455e4b(0x255),a0_0x455e4b(0x18b),'rolldice'],a0_0x57e46e[a0_0x455e4b(0x2f0)]='🎲',a0_0x57e46e[a0_0x455e4b(0x372)]=a0_0x455e4b(0x32f),a0_0x57e46e['descriptio'+'n']=a0_0x455e4b(0x30d)+a0_0x455e4b(0x2ee),gmd(a0_0x57e46e,async(_0x40432c,_0x21b864,_0xce85ea)=>{const _0x5b31fb=a0_0x455e4b,{sender:_0xc5e8c0,q:_0x543875}=_0xce85ea,_0x2dadc4=await getActiveDiceGame(_0x40432c);if(_0x2dadc4){const _0xad28f7={};return _0xad28f7[_0x5b31fb(0x1c3)]=_0x5b31fb(0x32d)+'already\x20an'+'\x20active\x20Di'+_0x5b31fb(0x1a1)+_0x5b31fb(0x31a)+_0x5b31fb(0x27a)+'\x20it\x20first.',await _0x21b864[_0x5b31fb(0x340)+'e'](_0x40432c,_0xad28f7);}const _0x152d51=await getWaitingDiceGame(_0x40432c);if(_0x152d51){const _0x1f61ce={};return _0x1f61ce[_0x5b31fb(0x1c3)]=_0x5b31fb(0x2e8)+_0x5b31fb(0x2c9)+_0x5b31fb(0x1ff)+'onent!\x0aUse'+_0x5b31fb(0x34f)+_0x5b31fb(0x321)+_0x5b31fb(0x1a2)+_0x5b31fb(0x382)+_0x5b31fb(0x19a),await _0x21b864[_0x5b31fb(0x340)+'e'](_0x40432c,_0x1f61ce);}const _0x5d526d=parseInt(_0x543875)||0x3;await createDiceGame(_0x40432c,_0xc5e8c0,_0x5d526d),await _0x21b864[_0x5b31fb(0x340)+'e'](_0x40432c,{'text':_0x5b31fb(0x39b)+_0x5b31fb(0x1d1)+getPlayerName(_0xc5e8c0)+('\x20wants\x20to\x20'+_0x5b31fb(0x184)+_0x5b31fb(0x2f6))+_0x5d526d+('\x20rounds\x0a•\x20'+'Each\x20playe'+'r\x20rolls\x20on'+_0x5b31fb(0x22b)+_0x5b31fb(0x34d)+_0x5b31fb(0x238)+_0x5b31fb(0x259)+_0x5b31fb(0x2cc)+_0x5b31fb(0x386)+_0x5b31fb(0x36a)+_0x5b31fb(0x39c)+_0x5b31fb(0x1dc)+_0x5b31fb(0x28f)+_0x5b31fb(0x337)+'s\x20to\x20join_'),'mentions':[_0xc5e8c0]});const _0x3ada40=setTimeout(async()=>{const _0x54c3d1=_0x5b31fb,_0x55b89c=await getWaitingDiceGame(_0x40432c);if(_0x55b89c){await endDiceGame(_0x40432c);const _0x3930c5={};_0x3930c5[_0x54c3d1(0x1c3)]='⏰\x20*DICE\x20GA'+_0x54c3d1(0x270)+_0x54c3d1(0x3b4)+_0x54c3d1(0x2a8)+_0x54c3d1(0x2ab)+_0x54c3d1(0x302)+_0x54c3d1(0x289)+_0x54c3d1(0x3b9),await _0x21b864['sendMessag'+'e'](_0x40432c,_0x3930c5);}},0x7530);diceTimeouts['set'](_0x40432c+_0x5b31fb(0x349),_0x3ada40);});const a0_0x5ada29={};a0_0x5ada29[a0_0x455e4b(0x297)]=a0_0x455e4b(0x341),a0_0x5ada29[a0_0x455e4b(0x1e0)]=['joindice'],a0_0x5ada29[a0_0x455e4b(0x2f0)]='✅',a0_0x5ada29[a0_0x455e4b(0x372)]='game',a0_0x5ada29[a0_0x455e4b(0x1f6)+'n']=a0_0x455e4b(0x399)+a0_0x455e4b(0x2cb),gmd(a0_0x5ada29,async(_0x2412e2,_0x225102,_0xfd08dd)=>{const _0x850099=a0_0x455e4b,{sender:_0x4d2f62}=_0xfd08dd;diceTimeouts[_0x850099(0x1dd)](_0x2412e2+_0x850099(0x349))&&(clearTimeout(diceTimeouts[_0x850099(0x1c7)](_0x2412e2+_0x850099(0x349))),diceTimeouts[_0x850099(0x2ad)](_0x2412e2+'_join'));const _0x36c081=await joinDiceGame(_0x2412e2,_0x4d2f62);if(_0x36c081[_0x850099(0x24c)]===_0x850099(0x3af)){const _0x4fac82={};return _0x4fac82[_0x850099(0x1c3)]=_0x850099(0x25f)+_0x850099(0x2b0)+'tart\x20one\x20w'+_0x850099(0x229)+'*',await _0x225102['sendMessag'+'e'](_0x2412e2,_0x4fac82);}if(_0x36c081[_0x850099(0x24c)]===_0x850099(0x2c0)+'r'){const _0xfe60e={};return _0xfe60e[_0x850099(0x1c3)]=_0x850099(0x361)+_0x850099(0x2ba)+_0x850099(0x2f4)+_0x850099(0x368),await _0x225102[_0x850099(0x340)+'e'](_0x2412e2,_0xfe60e);}await _0x225102[_0x850099(0x340)+'e'](_0x2412e2,{'text':_0x850099(0x39b)+'ME\x20STARTED'+_0x850099(0x2da)+getPlayerName(_0x36c081[_0x850099(0x288)])+'\x20vs\x20@'+getPlayerName(_0x36c081[_0x850099(0x26a)])+(_0x850099(0x22a)+'\x20')+_0x36c081[_0x850099(0x1a9)]+('\x20rounds\x0a\x0a*'+_0x850099(0x224))+getPlayerName(_0x36c081[_0x850099(0x288)])+(_0x850099(0x20e)+_0x850099(0x256)+'ll!\x0a\x0a⏰\x20_30'+_0x850099(0x21b)+_0x850099(0x285)),'mentions':[_0x36c081[_0x850099(0x288)],_0x36c081[_0x850099(0x26a)]]}),setDiceTurnTimeout(_0x2412e2,_0x225102,_0x36c081[_0x850099(0x288)],_0x36c081['game']);});const a0_0x2b6bb3={};a0_0x2b6bb3[a0_0x455e4b(0x297)]=a0_0x455e4b(0x2a0),a0_0x2b6bb3[a0_0x455e4b(0x1e0)]=[a0_0x455e4b(0x1c8),a0_0x455e4b(0x304)],a0_0x2b6bb3['react']='🎲',a0_0x2b6bb3[a0_0x455e4b(0x372)]=a0_0x455e4b(0x32f),a0_0x2b6bb3[a0_0x455e4b(0x1f6)+'n']=a0_0x455e4b(0x241)+a0_0x455e4b(0x347)+a0_0x455e4b(0x1c1)+'e',gmd(a0_0x2b6bb3,async(_0x257f0c,_0x85fb92,_0x58395a)=>{const _0x1a02f5=a0_0x455e4b,{sender:_0x5f1894}=_0x58395a,_0x3907db=await getActiveDiceGame(_0x257f0c);if(!_0x3907db){const _0xb6b1ab={};return _0xb6b1ab[_0x1a02f5(0x1c3)]=_0x1a02f5(0x1e7)+_0x1a02f5(0x1c2)+_0x1a02f5(0x1e9)+_0x1a02f5(0x3aa)+_0x1a02f5(0x380),await _0x85fb92[_0x1a02f5(0x340)+'e'](_0x257f0c,_0xb6b1ab);}clearDiceTimeout(_0x257f0c);const _0x59f30c=await playerRoll(_0x257f0c,_0x5f1894);if(_0x59f30c[_0x1a02f5(0x24c)]===_0x1a02f5(0x243)+_0x1a02f5(0x1d4)){const _0x3d5933={};return _0x3d5933[_0x1a02f5(0x1c3)]=_0x1a02f5(0x1bc)+_0x1a02f5(0x1cf)+'!',await _0x85fb92['sendMessag'+'e'](_0x257f0c,_0x3d5933);}if(_0x59f30c[_0x1a02f5(0x384)+'ete']||_0x59f30c[_0x1a02f5(0x390)+'ed']){let _0x159305=_0x1a02f5(0x296)+_0x59f30c[_0x1a02f5(0x33e)+'nd']+('\x20Results*\x0a'+'\x0a');_0x159305+=getDiceEmoji(_0x59f30c[_0x1a02f5(0x193)+'l'])+'\x20@'+getPlayerName(_0x59f30c[_0x1a02f5(0x288)])+':\x20'+_0x59f30c['player1Rol'+'l']+'\x0a',_0x159305+=getDiceEmoji(_0x59f30c[_0x1a02f5(0x2fa)+'l'])+'\x20@'+getPlayerName(_0x59f30c[_0x1a02f5(0x26a)])+':\x20'+_0x59f30c['player2Rol'+'l']+'\x0a\x0a',_0x59f30c[_0x1a02f5(0x27b)+'r']?_0x159305+=_0x1a02f5(0x1cd)+getPlayerName(_0x59f30c[_0x1a02f5(0x27b)+'r'])+(_0x1a02f5(0x2af)+_0x1a02f5(0x309)):_0x159305+=_0x1a02f5(0x375)+_0x1a02f5(0x211),_0x159305+='\x0a📊\x20*Score:'+'*\x20'+_0x59f30c[_0x1a02f5(0x1a0)+'re']+_0x1a02f5(0x306)+_0x59f30c[_0x1a02f5(0x3b2)+'re'],_0x59f30c[_0x1a02f5(0x390)+'ed']?(_0x159305+=_0x1a02f5(0x2bd)+_0x1a02f5(0x291),_0x59f30c[_0x1a02f5(0x19c)]?_0x159305+='🏆\x20*WINNER:'+_0x1a02f5(0x3a6)+getPlayerName(_0x59f30c[_0x1a02f5(0x19c)])+'!':_0x159305+='🤝\x20*It\x27s\x20a\x20'+_0x1a02f5(0x2d3),await endDiceGame(_0x257f0c)):(_0x159305+=_0x1a02f5(0x268)+_0x59f30c[_0x1a02f5(0x226)]+'*\x0a@'+getPlayerName(_0x59f30c[_0x1a02f5(0x288)])+(_0x1a02f5(0x20e)+_0x1a02f5(0x2ff)),setDiceTurnTimeout(_0x257f0c,_0x85fb92,_0x59f30c[_0x1a02f5(0x288)],_0x3907db)),await _0x85fb92[_0x1a02f5(0x340)+'e'](_0x257f0c,{'text':_0x159305,'mentions':[_0x59f30c[_0x1a02f5(0x288)],_0x59f30c['player2'],_0x59f30c[_0x1a02f5(0x27b)+'r'],_0x59f30c['gameWinner']][_0x1a02f5(0x1d6)](Boolean)});}else{if(_0x3907db[_0x1a02f5(0x344)]&&_0x59f30c[_0x1a02f5(0x345)]===BOT_JID){clearDiceTimeout(_0x257f0c),await _0x85fb92[_0x1a02f5(0x340)+'e'](_0x257f0c,{'text':'🎲\x20@'+getPlayerName(_0x5f1894)+_0x1a02f5(0x329)+getDiceEmoji(_0x59f30c[_0x1a02f5(0x2a0)])+'\x20*'+_0x59f30c[_0x1a02f5(0x2a0)]+('*\x0a\x0a🤖\x20AI\x20is'+_0x1a02f5(0x376)+'.'),'mentions':[_0x5f1894]}),await new Promise(_0x2fa367=>setTimeout(_0x2fa367,0x3e8));const _0xdebc6f=await playerRoll(_0x257f0c,BOT_JID);if(_0xdebc6f['error']){const _0x1a318b={};_0x1a318b[_0x1a02f5(0x1c3)]=_0x1a02f5(0x2e2)+_0x1a02f5(0x228)+'e\x20ended.',await _0x85fb92['sendMessag'+'e'](_0x257f0c,_0x1a318b),await endDiceGame(_0x257f0c);return;}let _0x497f5e=_0x1a02f5(0x296)+_0xdebc6f[_0x1a02f5(0x33e)+'nd']+('\x20Results*\x0a'+'\x0a');_0x497f5e+=getDiceEmoji(_0xdebc6f[_0x1a02f5(0x193)+'l'])+'\x20@'+getPlayerName(_0xdebc6f['player1'])+':\x20'+_0xdebc6f[_0x1a02f5(0x193)+'l']+'\x0a',_0x497f5e+=getDiceEmoji(_0xdebc6f[_0x1a02f5(0x2fa)+'l'])+_0x1a02f5(0x2a3)+_0xdebc6f[_0x1a02f5(0x2fa)+'l']+'\x0a\x0a';if(_0xdebc6f[_0x1a02f5(0x27b)+'r']){const _0x357a26=_0xdebc6f[_0x1a02f5(0x27b)+'r']===BOT_JID?_0x1a02f5(0x336):'@'+getPlayerName(_0xdebc6f[_0x1a02f5(0x27b)+'r']);_0x497f5e+='🏆\x20'+_0x357a26+('\x20wins\x20this'+_0x1a02f5(0x309));}else _0x497f5e+=_0x1a02f5(0x375)+_0x1a02f5(0x211);_0x497f5e+=_0x1a02f5(0x292)+'*\x20'+_0xdebc6f[_0x1a02f5(0x1a0)+'re']+'\x20-\x20'+_0xdebc6f[_0x1a02f5(0x3b2)+'re'];if(_0xdebc6f[_0x1a02f5(0x390)+'ed']){_0x497f5e+=_0x1a02f5(0x2bd)+_0x1a02f5(0x291);if(_0xdebc6f['gameWinner']){const _0x55968e=_0xdebc6f[_0x1a02f5(0x19c)]===BOT_JID?'🤖\x20AI\x20wins!':_0x1a02f5(0x1cd)+getPlayerName(_0xdebc6f[_0x1a02f5(0x19c)])+_0x1a02f5(0x1d5);_0x497f5e+=_0x55968e;}else _0x497f5e+=_0x1a02f5(0x301)+_0x1a02f5(0x2d3);await endDiceGame(_0x257f0c);}else{_0x497f5e+='\x0a\x0a*Round\x20'+_0xdebc6f[_0x1a02f5(0x226)]+_0x1a02f5(0x363)+getPlayerName(_0xdebc6f[_0x1a02f5(0x288)])+(_0x1a02f5(0x20e)+_0x1a02f5(0x2ff));const _0x16c2a9=await getActiveDiceGame(_0x257f0c);setDiceTurnTimeout(_0x257f0c,_0x85fb92,_0xdebc6f[_0x1a02f5(0x288)],_0x16c2a9);}const _0x3c45c5={};_0x3c45c5[_0x1a02f5(0x1c3)]=_0x497f5e,_0x3c45c5[_0x1a02f5(0x318)]=[_0xdebc6f[_0x1a02f5(0x288)]],await _0x85fb92['sendMessag'+'e'](_0x257f0c,_0x3c45c5);return;}await _0x85fb92[_0x1a02f5(0x340)+'e'](_0x257f0c,{'text':_0x1a02f5(0x22f)+getPlayerName(_0x5f1894)+'\x20rolled:\x20'+getDiceEmoji(_0x59f30c['roll'])+'\x20*'+_0x59f30c['roll']+_0x1a02f5(0x34b)+getPlayerName(_0x59f30c['waitingFor'])+(_0x1a02f5(0x20e)+_0x1a02f5(0x2ff)),'mentions':[_0x5f1894,_0x59f30c[_0x1a02f5(0x345)]]}),setDiceTurnTimeout(_0x257f0c,_0x85fb92,_0x59f30c[_0x1a02f5(0x345)],_0x3907db);}});const a0_0x3ad7a7={};a0_0x3ad7a7['pattern']=a0_0x455e4b(0x353),a0_0x3ad7a7[a0_0x455e4b(0x1e0)]=[a0_0x455e4b(0x351),a0_0x455e4b(0x20c),a0_0x455e4b(0x2f5),a0_0x455e4b(0x38e)],a0_0x3ad7a7[a0_0x455e4b(0x2f0)]='🛑',a0_0x3ad7a7[a0_0x455e4b(0x372)]='game',a0_0x3ad7a7[a0_0x455e4b(0x1f6)+'n']=a0_0x455e4b(0x21d)+'ce\x20Game',gmd(a0_0x3ad7a7,async(_0x66d3e6,_0x261588,_0x37b08d)=>{const _0x43eacf=a0_0x455e4b,{sender:_0x4d3f9b,isSuperUser:_0x5667b4}=_0x37b08d,_0x4e07f4=await getActiveDiceGame(_0x66d3e6)||await getWaitingDiceGame(_0x66d3e6);if(!_0x4e07f4){const _0x528d0c={};return _0x528d0c[_0x43eacf(0x1c3)]='❌\x20No\x20Dice\x20'+_0x43eacf(0x28b)+'d!',await _0x261588[_0x43eacf(0x340)+'e'](_0x66d3e6,_0x528d0c);}const _0x42774e=_0x4e07f4[_0x43eacf(0x288)]===_0x4d3f9b||_0x4e07f4[_0x43eacf(0x26a)]===_0x4d3f9b;if(!_0x42774e&&!_0x5667b4){const _0x41bc96={};return _0x41bc96[_0x43eacf(0x1c3)]=_0x43eacf(0x2c1)+_0x43eacf(0x1c6)+_0x43eacf(0x244)+_0x43eacf(0x1ef)+'e!',await _0x261588[_0x43eacf(0x340)+'e'](_0x66d3e6,_0x41bc96);}clearDiceTimeout(_0x66d3e6),diceTimeouts[_0x43eacf(0x1dd)](_0x66d3e6+_0x43eacf(0x349))&&(clearTimeout(diceTimeouts[_0x43eacf(0x1c7)](_0x66d3e6+_0x43eacf(0x349))),diceTimeouts['delete'](_0x66d3e6+'_join')),await endDiceGame(_0x66d3e6),await _0x261588['sendMessag'+'e'](_0x66d3e6,{'text':_0x43eacf(0x2ac)+_0x43eacf(0x35f)+'\x20@'+getPlayerName(_0x4d3f9b)+'!','mentions':[_0x4d3f9b]});});const a0_0x5e6411={};function a0_0x39be(_0x5097fd,_0xf63860){_0x5097fd=_0x5097fd-0x17f;const _0x6148be=a0_0x2733();let _0x5d9dd5=_0x6148be[_0x5097fd];if(a0_0x39be['jRmYnf']===undefined){var _0x582bea=function(_0x340311){const _0x570541='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _0x367571='',_0x471bb7='',_0x2f3605=_0x367571+_0x582bea,_0x17f8ce=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x150f41=0x0,_0x335bfb,_0x7aa06e,_0xb00cf=0x0;_0x7aa06e=_0x340311['charAt'](_0xb00cf++);~_0x7aa06e&&(_0x335bfb=_0x150f41%0x4?_0x335bfb*0x40+_0x7aa06e:_0x7aa06e,_0x150f41++%0x4)?_0x367571+=_0x17f8ce||_0x2f3605['charCodeAt'](_0xb00cf+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x335bfb>>(-0x2*_0x150f41&0x6)):_0x150f41:0x0){_0x7aa06e=_0x570541['indexOf'](_0x7aa06e);}for(let _0x421e01=0x0,_0x22e0ba=_0x367571['length'];_0x421e01<_0x22e0ba;_0x421e01++){_0x471bb7+='%'+('00'+_0x367571['charCodeAt'](_0x421e01)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x471bb7);};a0_0x39be['bDbmrE']=_0x582bea,a0_0x39be['MAlfOl']={},a0_0x39be['jRmYnf']=!![];}const _0x273399=_0x6148be[0x0],_0x39beeb=_0x5097fd+_0x273399,_0x2bf514=a0_0x39be['MAlfOl'][_0x39beeb];if(!_0x2bf514){const _0xdd7fc4=function(_0x1563bc){this['CThqVY']=_0x1563bc,this['zUGVzD']=[0x1,0x0,0x0],this['JhxIaC']=function(){return'newState';},this['NQkVDE']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['gTYDwg']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0xdd7fc4['prototype']['yRKesS']=function(){const _0x35ced6=new RegExp(this['NQkVDE']+this['gTYDwg']),_0x1a9deb=_0x35ced6['test'](this['JhxIaC']['toString']())?--this['zUGVzD'][0x1]:--this['zUGVzD'][0x0];return this['DjCUjM'](_0x1a9deb);},_0xdd7fc4['prototype']['DjCUjM']=function(_0x24b315){if(!Boolean(~_0x24b315))return _0x24b315;return this['TBoHRS'](this['CThqVY']);},_0xdd7fc4['prototype']['TBoHRS']=function(_0x546601){for(let _0x5de617=0x0,_0x3ff626=this['zUGVzD']['length'];_0x5de617<_0x3ff626;_0x5de617++){this['zUGVzD']['push'](Math['round'](Math['random']())),_0x3ff626=this['zUGVzD']['length'];}return _0x546601(this['zUGVzD'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0xdd7fc4(a0_0x39be)['yRKesS'](),_0x5d9dd5=a0_0x39be['bDbmrE'](_0x5d9dd5),a0_0x39be['MAlfOl'][_0x39beeb]=_0x5d9dd5;}else _0x5d9dd5=_0x2bf514;return _0x5d9dd5;}a0_0x5e6411['pattern']=a0_0x455e4b(0x2c3),a0_0x5e6411[a0_0x455e4b(0x1e0)]=[a0_0x455e4b(0x201),a0_0x455e4b(0x1ad)+'i',a0_0x455e4b(0x3ad)],a0_0x5e6411['react']='🤖',a0_0x5e6411['category']=a0_0x455e4b(0x32f),a0_0x5e6411[a0_0x455e4b(0x1f6)+'n']=a0_0x455e4b(0x37d)+a0_0x455e4b(0x2bb)+a0_0x455e4b(0x1a3),gmd(a0_0x5e6411,async(_0x2d477c,_0x1be772,_0x3e5d71)=>{const _0x1081f4=a0_0x455e4b,{sender:_0x4c65be}=_0x3e5d71,_0x3d0dd4=await getActiveGame(_0x2d477c);if(_0x3d0dd4){const _0x5094f7={};return _0x5094f7[_0x1081f4(0x1c3)]=_0x1081f4(0x32d)+_0x1081f4(0x1f4)+_0x1081f4(0x2a2)+_0x1081f4(0x2c5)+_0x1081f4(0x305)+_0x1081f4(0x362)+_0x1081f4(0x1b5)+_0x1081f4(0x21c),await _0x1be772[_0x1081f4(0x340)+'e'](_0x2d477c,_0x5094f7);}const _0x8b9a7b=await getWaitingGame(_0x2d477c);if(_0x8b9a7b){const _0x19eb96={};return _0x19eb96['text']='❌\x20There\x27s\x20'+'already\x20a\x20'+_0x1081f4(0x24d)+'ng!\x0aUse\x20*.'+_0x1081f4(0x1f1)+_0x1081f4(0x30e),await _0x1be772[_0x1081f4(0x340)+'e'](_0x2d477c,_0x19eb96);}const _0x31b256=await _0x1be772['sendMessag'+'e'](_0x2d477c,{'text':_0x1081f4(0x39e)+_0x1081f4(0x393)+_0x1081f4(0x2e5)+'\x20@'+getPlayerName(_0x4c65be)+(_0x1081f4(0x2d2)+_0x1081f4(0x37f))+renderBoard([0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x9])+_0x1081f4(0x253)+getPlayerName(_0x4c65be)+(_0x1081f4(0x32c)+_0x1081f4(0x2dc)+_0x1081f4(0x2d7)+_0x1081f4(0x348)+_0x1081f4(0x2d0)),'mentions':[_0x4c65be]});await createGame(_0x2d477c,_0x4c65be,_0x31b256[_0x1081f4(0x39f)],!![]);});const a0_0x89413e={};a0_0x89413e[a0_0x455e4b(0x297)]=a0_0x455e4b(0x31f),a0_0x89413e['aliases']=[a0_0x455e4b(0x371),a0_0x455e4b(0x38d)+'i',a0_0x455e4b(0x39a)],a0_0x89413e[a0_0x455e4b(0x2f0)]='🤖',a0_0x89413e['category']='game',a0_0x89413e['descriptio'+'n']=a0_0x455e4b(0x385)+a0_0x455e4b(0x315)+a0_0x455e4b(0x397)+'I',gmd(a0_0x89413e,async(_0x265a5f,_0x252c82,_0x165b54)=>{const _0xe95ec2=a0_0x455e4b,{sender:_0x37c876}=_0x165b54,_0x3a4e69=await getActiveWcgGame(_0x265a5f);if(_0x3a4e69){const _0x214bc8={};return _0x214bc8[_0xe95ec2(0x1c3)]=_0xe95ec2(0x32d)+_0xe95ec2(0x1f4)+_0xe95ec2(0x1d3)+'rd\x20Chain\x20g'+_0xe95ec2(0x262)+_0xe95ec2(0x1e4)+'o\x20end\x20it\x20f'+_0xe95ec2(0x273),await _0x252c82[_0xe95ec2(0x340)+'e'](_0x265a5f,_0x214bc8);}const _0x5cf457=await getWaitingWcgGame(_0x265a5f);if(_0x5cf457){const _0x183847={};return _0x183847[_0xe95ec2(0x1c3)]=_0xe95ec2(0x2e8)+_0xe95ec2(0x2c9)+_0xe95ec2(0x323)+_0xe95ec2(0x280)+_0xe95ec2(0x2f7)+_0xe95ec2(0x1d7),await _0x252c82[_0xe95ec2(0x340)+'e'](_0x265a5f,_0x183847);}const {WcgDB:_0x34e13e}=require('../guru/da'+_0xe95ec2(0x19f)+_0xe95ec2(0x35c)),_0x4c4309={};_0x4c4309[_0xe95ec2(0x1a6)]=_0x265a5f;const _0x2fa8a1={};_0x2fa8a1[_0xe95ec2(0x23b)]=_0x4c4309,await _0x34e13e[_0xe95ec2(0x223)](_0x2fa8a1);const _0x3d1c1d={};_0x3d1c1d[_0x37c876]=0x0,_0x3d1c1d[BOT_JID]=0x0,await _0x34e13e[_0xe95ec2(0x1b1)]({'chatJid':_0x265a5f,'players':JSON[_0xe95ec2(0x23c)]([_0x37c876,BOT_JID]),'currentTurn':_0x37c876,'lastWord':null,'usedWords':'[]','scores':JSON[_0xe95ec2(0x23c)](_0x3d1c1d),'status':'active','isAiGame':!![]}),await _0x252c82[_0xe95ec2(0x340)+'e'](_0x265a5f,{'text':_0xe95ec2(0x36b)+_0xe95ec2(0x2ce)+_0xe95ec2(0x267)+_0xe95ec2(0x18a)+_0xe95ec2(0x1d2)+_0xe95ec2(0x25a)+'\x20the\x20last\x20'+_0xe95ec2(0x199)+_0xe95ec2(0x230)+'us\x20word\x0a•\x20'+_0xe95ec2(0x269)+'ng\x20words\x0a•'+_0xe95ec2(0x2c6)+_0xe95ec2(0x369)+_0xe95ec2(0x2d8)+_0xe95ec2(0x20a)+'\x20per\x20turn\x0a'+_0xe95ec2(0x2d9)+getPlayerName(_0x37c876)+(_0xe95ec2(0x214)+'@')+getPlayerName(_0x37c876)+(_0xe95ec2(0x3a4)+_0xe95ec2(0x23a)+_0xe95ec2(0x2c7)+_0xe95ec2(0x191)+_0xe95ec2(0x346)+_0xe95ec2(0x27e)),'mentions':[_0x37c876]}),setWcgTurnTimeout(_0x265a5f,_0x252c82,_0x37c876,null);});const a0_0x3a883d={};a0_0x3a883d[a0_0x455e4b(0x297)]='diceai',a0_0x3a883d[a0_0x455e4b(0x1e0)]=[a0_0x455e4b(0x254),a0_0x455e4b(0x217),a0_0x455e4b(0x29d)],a0_0x3a883d[a0_0x455e4b(0x2f0)]='🤖',a0_0x3a883d[a0_0x455e4b(0x372)]=a0_0x455e4b(0x32f),a0_0x3a883d[a0_0x455e4b(0x1f6)+'n']='Play\x20Dice\x20'+a0_0x455e4b(0x1ba),gmd(a0_0x3a883d,async(_0x18a384,_0x41775d,_0x51adea)=>{const _0xed115c=a0_0x455e4b,{sender:_0x5e83e5,q:_0x8c1431}=_0x51adea,_0x32ca2b=await getActiveDiceGame(_0x18a384);if(_0x32ca2b){const _0x2de069={};return _0x2de069[_0xed115c(0x1c3)]=_0xed115c(0x32d)+'already\x20an'+_0xed115c(0x1bf)+_0xed115c(0x1a1)+_0xed115c(0x31a)+_0xed115c(0x27a)+'\x20it\x20first.',await _0x41775d[_0xed115c(0x340)+'e'](_0x18a384,_0x2de069);}const _0x1eb1bb=await getWaitingDiceGame(_0x18a384);if(_0x1eb1bb){const _0x21000f={};return _0x21000f[_0xed115c(0x1c3)]=_0xed115c(0x2e8)+_0xed115c(0x1f5)+_0xed115c(0x1c5)+_0xed115c(0x377)+_0xed115c(0x2d6),await _0x41775d[_0xed115c(0x340)+'e'](_0x18a384,_0x21000f);}const _0x2821f1=parseInt(_0x8c1431)||0x3,{DiceDB:_0x5c5091}=require('../guru/da'+_0xed115c(0x36e)+_0xed115c(0x194)),_0x35d0d8={};_0x35d0d8[_0xed115c(0x1a6)]=_0x18a384;const _0x36bff1={};_0x36bff1['where']=_0x35d0d8,await _0x5c5091[_0xed115c(0x223)](_0x36bff1),await _0x5c5091[_0xed115c(0x1b1)]({'chatJid':_0x18a384,'player1':_0x5e83e5,'player2':BOT_JID,'player1Roll':null,'player2Roll':null,'currentTurn':_0x5e83e5,'rounds':Math[_0xed115c(0x286)](Math[_0xed115c(0x339)](_0x2821f1,0x1),0xa),'currentRound':0x1,'player1Score':0x0,'player2Score':0x0,'status':_0xed115c(0x391),'isAiGame':!![]}),await _0x41775d[_0xed115c(0x340)+'e'](_0x18a384,{'text':_0xed115c(0x365)+'ME\x20vs\x20AI*\x0a'+_0xed115c(0x2d9)+getPlayerName(_0x5e83e5)+('\x20vs\x20🤖\x20AI\x0a🎯'+_0xed115c(0x231))+_0x2821f1+(_0xed115c(0x1ea)+_0xed115c(0x224))+getPlayerName(_0x5e83e5)+(_0xed115c(0x20e)+_0xed115c(0x256)+_0xed115c(0x2cd)+_0xed115c(0x21b)+_0xed115c(0x285)),'mentions':[_0x5e83e5]}),setDiceTurnTimeout(_0x18a384,_0x41775d,_0x5e83e5,null);}),module['exports']={};
+
+const { gmd } = require("../guru");
+const {
+    createGame,
+    joinGame,
+    getActiveGame,
+    getWaitingGame,
+    makeMove,
+    endGame,
+    initGamesDB,
+} = require("../guru/database/games");
+
+const {
+    createWcgGame,
+    joinWcgGame,
+    startWcgGame,
+    getActiveWcgGame,
+    getWaitingWcgGame,
+    submitWord,
+    eliminatePlayer,
+    endWcgGame,
+    initWcgDB,
+} = require("../guru/database/wcgGame");
+
+const {
+    createDiceGame,
+    joinDiceGame,
+    getActiveDiceGame,
+    getWaitingDiceGame,
+    playerRoll,
+    endDiceGame,
+    initDiceDB,
+} = require("../guru/database/diceGame");
+
+const { 
+    clearGameTimeout, 
+    setMoveTimeout, 
+    setWcgTurnTimeout,
+    setDiceTurnTimeout,
+    clearDiceTimeout,
+    renderBoard, 
+    getPlayerName,
+    handleAiTttMove,
+    handleAiWcgMove,
+    handleAiDiceRoll,
+    gameTimeouts,
+    diceTimeouts,
+} = require("../guru/gameHandler");
+
+const {
+    wcgTimeouts,
+    clearWcgTimeout,
+    clearWcgJoinTimeout,
+    setWcgJoinTimeout,
+    formatScores,
+    getDiceEmoji,
+} = require("../guru/wcg");
+
+
+const {
+    findWcgWord,
+    rollDice: aiRollDice,
+    findBestTttMove,
+    BOT_JID,
+} = require("../guru/gameAI");
+
+initGamesDB();
+initWcgDB();
+initDiceDB();
+
+gmd({
+    pattern: "games",
+    aliases: ["game", "playgame", "playgames", "gamelist"],
+    react: "🎮",
+    category: "game",
+    description: "Show all available games and commands",
+}, async (from, Guru, conText) => {
+    const helpText = `🎮 *GAMES MENU*
+
+╭━━━━━━━━━━━━━━━━━╮
+│ ❌⭕ *TIC TAC TOE*
+├━━━━━━━━━━━━━━━━━┤
+│ .ttt - Start game (vs player)
+│ .tttai - Play vs AI 🤖
+│ .tttend - End current game
+│ _Type *join* to join a game_
+│ _Type *1-9* to make a move_
+╰━━━━━━━━━━━━━━━━━╯
+
+╭━━━━━━━━━━━━━━━━━╮
+│ 🔤 *WORD CHAIN GAME*
+├━━━━━━━━━━━━━━━━━┤
+│ .wcg - Start game (multiplayer)
+│ .wcgai - Play vs AI 🤖
+│ .wcgbegin - Start the game (host)
+│ .wcgend - End current game
+│ .wcgscores - View scores
+│ _Type *join* to join a game_
+│ _Just type your word!_
+╰━━━━━━━━━━━━━━━━━╯
+
+╭━━━━━━━━━━━━━━━━━╮
+│ 🎲 *DICE GAME*
+├━━━━━━━━━━━━━━━━━┤
+│ .dice [rounds] - Start game
+│ .diceai [rounds] - Play vs AI 🤖
+│ .diceend - End current game
+│ _Type *join* to join a game_
+│ _Type *roll* to roll the dice_
+╰━━━━━━━━━━━━━━━━━╯
+
+_🤖 AI modes let you play solo against the bot!_
+_No command prefix needed during gameplay!_`;
+    
+    return await Guru.sendMessage(from, {
+        text: helpText,
+    });
+});
+
+const setJoinTimeout = (chatJid, Guru, player1) => {
+    clearGameTimeout(chatJid);
+    const timeout = setTimeout(async () => {
+        const waiting = await getWaitingGame(chatJid);
+        if (waiting) {
+            await endGame(chatJid);
+            await Guru.sendMessage(chatJid, {
+                text: `⏰ *TIC TAC TOE - TIMEOUT*\n\nNo one joined within 30 seconds.\nGame cancelled!\n\n@${getPlayerName(player1)} can start a new game with *.ttt*`,
+    
+                mentions: [player1],
+            });
+        }
+        gameTimeouts.delete(chatJid);
+    }, 30000);
+    gameTimeouts.set(chatJid, timeout);
+};
+
+gmd({
+    pattern: "tictactoe",
+    aliases: ["ttt", "tttstart"],
+    react: "🎮",
+    category: "game",
+    description: "Start a TicTacToe game. Another player must type 'join' within 30 seconds.",
+}, async (from, Guru, conText) => {
+    const { mek, sender, botName } = conText;
+    
+    const existingActive = await getActiveGame(from);
+    if (existingActive) {
+        return await Guru.sendMessage(from, {
+            text: "❌ There's already an active game in this chat!\nUse *.tttend* to end it first.",
+
+        });
+    }
+    
+    const existingWaiting = await getWaitingGame(from);
+    if (existingWaiting) {
+        return await Guru.sendMessage(from, {
+            text: "❌ There's already a game waiting for a player!\nType *join* to join, or use *.tttend* to cancel.",
+
+        });
+    }
+    
+    const sentMsg = await Guru.sendMessage(from, {
+        text: `🎮 *TIC TAC TOE*\n\n@${getPlayerName(sender)} wants to play!\n\n*Type "join" within 30 seconds to play!*\n\nPlayer 1: @${getPlayerName(sender)} (❌)\nPlayer 2: Waiting...\n\n${renderBoard([1, 2, 3, 4, 5, 6, 7, 8, 9])}\n\n⏰ _Auto-cancels in 30 seconds if no one joins_`,
+        mentions: [sender],
+    });
+    
+    await createGame(from, sender, sentMsg.key);
+    setJoinTimeout(from, Guru, sender);
+});
+
+gmd({
+    pattern: "tttend",
+    aliases: ["endttt", "tttcancel", "ttstop", "tictactoestop", "tictactoeend", "stopttt", "cancelttt"],
+    react: "🛑",
+    category: "game",
+    description: "End the current TicTacToe game",
+}, async (from, Guru, conText) => {
+    const { sender, isSuperUser } = conText;
+    
+    const activeGame = await getActiveGame(from);
+    const waitingGame = await getWaitingGame(from);
+    const game = activeGame || waitingGame;
+    
+    if (!game) {
+        return await Guru.sendMessage(from, {
+            text: "❌ No active TicTacToe game to end!",
+        });
+    }
+    
+    const isPlayer = game.player1 === sender || game.player2 === sender;
+    if (!isPlayer && !isSuperUser) {
+        return await Guru.sendMessage(from, {
+            text: "❌ Only players or admins can end the game!",
+        });
+    }
+    
+    clearGameTimeout(from);
+    await endGame(from);
+    await Guru.sendMessage(from, {
+        text: `🛑 TicTacToe game ended by @${getPlayerName(sender)}!`,
+        mentions: [sender],
+    });
+});
+
+gmd({
+    pattern: "tttjoin",
+    aliases: ["jointtt"],
+    react: "✅",
+    category: "game",
+    description: "Join a waiting TicTacToe game",
+}, async (from, Guru, conText) => {
+    const { sender } = conText;
+    
+    const result = await joinGame(from, sender);
+    
+    if (!result) {
+        return await Guru.sendMessage(from, {
+            text: "❌ No game waiting for players! Start one with *.ttt*",
+
+        });
+    }
+    
+    if (result.error === "same_player") {
+        return await Guru.sendMessage(from, {
+            text: "❌ You can't play against yourself!",
+
+        });
+    }
+    
+    clearGameTimeout(from);
+    
+    const board = JSON.parse(result.board);
+    await Guru.sendMessage(from, {
+        text: `🎮 *TIC TAC TOE - GAME STARTED!*\n\nPlayer 1: @${getPlayerName(result.player1)} (❌)\nPlayer 2: @${getPlayerName(result.player2)} (⭕)\n\n${renderBoard(board)}\n\n@${getPlayerName(result.currentTurn)}'s turn (❌)\n\n*Reply with a number (1-9) to move!*\n⏰ _30 seconds per move_`,
+        mentions: [result.player1, result.player2, result.currentTurn],
+    });
+    
+    setMoveTimeout(from, Guru, result.currentTurn, result.player2, result.player1);
+});
+
+gmd({
+    pattern: "tttboard",
+    aliases: ["board", "tttshow"],
+    react: "📋",
+    category: "game",
+    description: "Show the current TicTacToe board",
+}, async (from, Guru, conText) => {
+    const game = await getActiveGame(from);
+    
+    if (!game) {
+        return await Guru.sendMessage(from, {
+            text: "❌ No active game! Start one with *.ttt*",
+
+        });
+    }
+    
+    const board = JSON.parse(game.board);
+    const currentSymbol = game.currentTurn === game.player1 ? "❌" : "⭕";
+    
+    await Guru.sendMessage(from, {
+        text: `🎮 *TIC TAC TOE*\n\nPlayer 1: @${getPlayerName(game.player1)} (❌)\nPlayer 2: @${getPlayerName(game.player2)} (⭕)\n\n${renderBoard(board)}\n\n@${getPlayerName(game.currentTurn)}'s turn (${currentSymbol})`,
+        mentions: [game.player1, game.player2, game.currentTurn],
+    });
+});
+
+gmd({
+    pattern: "wcg",
+    aliases: ["wordchain", "wcgstart", "wordgame"],
+    react: "🔤",
+    category: "game",
+    description: "Start a Word Chain Game",
+}, async (from, Guru, conText) => {
+    const { sender } = conText;
+    
+    const existingActive = await getActiveWcgGame(from);
+    if (existingActive) {
+        return await Guru.sendMessage(from, {
+            text: "❌ There's already an active Word Chain game!\nUse *.wcgend* to end it first.",
+
+        });
+    }
+    
+    const existingWaiting = await getWaitingWcgGame(from);
+    if (existingWaiting) {
+        return await Guru.sendMessage(from, {
+            text: "❌ A game is waiting for players!\nUse *.wcgjoin* to join or *.wcgend* to cancel.",
+
+        });
+    }
+    
+    await createWcgGame(from, sender);
+    
+    await Guru.sendMessage(from, {
+        text: `🔤 *WORD CHAIN GAME*\n\n@${getPlayerName(sender)} wants to play!\n\n📜 *Rules:*\n• Each word must start with the last letter of the previous word\n• No repeating words\n• Minimum 2 letters per word\n• 30 seconds per turn\n\n👥 *Players:*\n1. @${getPlayerName(sender)}\n\n⏰ *30 seconds to join!*\n*Type .wcgjoin to join!*\n*Host types .wcgbegin to start early*`,
+        mentions: [sender],
+    });
+    
+    setWcgJoinTimeout(from, async () => {
+        const waitingGame = await getWaitingWcgGame(from);
+        if (!waitingGame) return;
+        
+        const players = JSON.parse(waitingGame.players);
+        if (players.length < 2) {
+            await endWcgGame(from);
+            await Guru.sendMessage(from, {
+                text: "⏰ *Time's up!*\n\nNo one joined the game. Game cancelled.",
+            });
+            return;
+        }
+        
+        const result = await startWcgGame(from);
+        if (result.error) return;
+        
+        const playerList = result.players.map((p, i) => `${i + 1}. @${getPlayerName(p)}`).join('\n');
+        
+        await Guru.sendMessage(from, {
+            text: `⏰ *Time's up! Game starting!*\n\n🚀 *WORD CHAIN STARTED!*\n\n👥 *Players:*\n${playerList}\n\n🔄 @${getPlayerName(result.currentTurn)}'s turn!\n*Say any word to begin!*\n\n⏰ _30 seconds per turn_`,
+            mentions: [...result.players, result.currentTurn],
+        });
+        
+        setWcgTurnTimeout(from, Guru, result.currentTurn, result.game);
+    });
+});
+
+gmd({
+    pattern: "wcgjoin",
+    aliases: ["joinwcg", "joinwordchain"],
+    react: "✅",
+    category: "game",
+    description: "Join a Word Chain Game",
+}, async (from, Guru, conText) => {
+    const { sender } = conText;
+    
+    const result = await joinWcgGame(from, sender);
+    
+    if (result.error === 'no_game') {
+        return await Guru.sendMessage(from, {
+            text: "❌ No game waiting! Start one with *.wcg*",
+        });
+    }
+    
+    if (result.error === 'cant_join_own_game') {
+        return await Guru.sendMessage(from, {
+            text: "❌ You can't play against yourself! Wait for someone else to join.",
+        });
+    }
+    
+    if (result.error === 'already_joined') {
+        return await Guru.sendMessage(from, {
+            text: "❌ You've already joined this game!",
+        });
+    }
+    
+    const playerList = result.players.map((p, i) => `${i + 1}. @${getPlayerName(p)}`).join('\n');
+    const mentions = result.players;
+    
+    await Guru.sendMessage(from, {
+        text: `✅ @${getPlayerName(sender)} joined!\n\n👥 *Players (${result.players.length}):*\n${playerList}\n\n*More can join with .wcgjoin*\n*Host types .wcgbegin when ready*`,
+        mentions,
+    });
+});
+
+gmd({
+    pattern: "wcgbegin",
+    aliases: ["startwcg", "wcggo"],
+    react: "🚀",
+    category: "game",
+    description: "Start the Word Chain Game (host only)",
+}, async (from, Guru, conText) => {
+    const { sender } = conText;
+    
+    const waitingGame = await getWaitingWcgGame(from);
+    if (!waitingGame) {
+        return await Guru.sendMessage(from, {
+            text: "❌ No game waiting to start!",
+
+        });
+    }
+    
+    const players = JSON.parse(waitingGame.players);
+    if (players[0] !== sender) {
+        return await Guru.sendMessage(from, {
+            text: "❌ Only the host can start the game!",
+
+        });
+    }
+    
+    clearWcgJoinTimeout(from);
+    
+    const result = await startWcgGame(from);
+    
+    if (result.error === 'not_enough_players') {
+        return await Guru.sendMessage(from, {
+            text: "❌ Need at least 2 players to start!",
+
+        });
+    }
+    
+    const playerList = result.players.map((p, i) => `${i + 1}. @${getPlayerName(p)}`).join('\n');
+    
+    await Guru.sendMessage(from, {
+        text: `🚀 *WORD CHAIN STARTED!*\n\n👥 *Players:*\n${playerList}\n\n🔄 @${getPlayerName(result.currentTurn)}'s turn!\n*Say any word to begin!*\n\n⏰ _30 seconds per turn_`,
+        mentions: [...result.players, result.currentTurn],
+    });
+    
+    setWcgTurnTimeout(from, Guru, result.currentTurn, result.game);
+});
+
+gmd({
+    pattern: "wcgend",
+    aliases: ["endwcg", "wcgstop", "stopwcg", "wcgcancel"],
+    react: "🛑",
+    category: "game",
+    description: "End the Word Chain Game",
+}, async (from, Guru, conText) => {
+    const { sender, isSuperUser } = conText;
+    
+    const game = await getActiveWcgGame(from) || await getWaitingWcgGame(from);
+    
+    if (!game) {
+        return await Guru.sendMessage(from, {
+            text: "❌ No Word Chain game to end!",
+        });
+    }
+    
+    const players = JSON.parse(game.players);
+    const isPlayer = players.includes(sender);
+    if (!isPlayer && !isSuperUser) {
+        return await Guru.sendMessage(from, {
+            text: "❌ Only players or admins can end the game!",
+        });
+    }
+    
+    clearWcgTimeout(from);
+    clearWcgJoinTimeout(from);
+    const scores = await endWcgGame(from);
+    
+    let text = `🛑 Word Chain ended by @${getPlayerName(sender)}!`;
+    if (scores && Object.keys(scores).length > 0) {
+        text += `\n\n📊 *Final Scores:*\n${formatScores(scores)}`;
+    }
+    
+    await Guru.sendMessage(from, {
+        text,
+        mentions: [sender],
+    });
+});
+
+gmd({
+    pattern: "wcgscores",
+    aliases: ["wcgscore", "wordchainscore"],
+    react: "📊",
+    category: "game",
+    description: "Show Word Chain scores",
+}, async (from, Guru, conText) => {
+    const game = await getActiveWcgGame(from);
+    
+    if (!game) {
+        return await Guru.sendMessage(from, {
+            text: "❌ No active Word Chain game!",
+
+        });
+    }
+    
+    const scores = JSON.parse(game.scores);
+    const players = JSON.parse(game.players);
+    const usedWords = JSON.parse(game.usedWords);
+    
+    await Guru.sendMessage(from, {
+        text: `📊 *WORD CHAIN SCORES*\n\n${formatScores(scores)}\n\n📝 Words used: ${usedWords.length}\n🔄 Current turn: @${getPlayerName(game.currentTurn)}\n${game.lastWord ? `Last word: *${game.lastWord}*` : ''}`,
+        mentions: [...players, game.currentTurn],
+    });
+});
+
+gmd({
+    pattern: "w",
+    aliases: ["word", "wcgword", "say"],
+    react: "🔤",
+    category: "game",
+    description: "Submit a word in Word Chain Game",
+}, async (from, Guru, conText) => {
+    const { sender, q, botPrefix } = conText;
+    
+    const game = await getActiveWcgGame(from);
+    if (!game) {
+        return;
+    }
+    
+    if (!q || q.trim() === '') {
+        return await Guru.sendMessage(from, {
+            text: `❌ Provide a word!\n\nUsage: ${botPrefix}w <word>`,
+
+        });
+    }
+    
+    const word = q.trim().split(/\s+/)[0];
+    const result = await submitWord(from, sender, word);
+    
+    if (result.error === 'not_your_turn') {
+        return await Guru.sendMessage(from, {
+            text: "❌ It's not your turn!",
+
+        });
+    }
+    
+    if (result.error === 'word_used') {
+        return await Guru.sendMessage(from, {
+            text: `❌ "${word}" has already been used!`,
+
+        });
+    }
+    
+    if (result.error === 'wrong_letter') {
+        return await Guru.sendMessage(from, {
+            text: `❌ Word must start with *${result.expected.toUpperCase()}*!`,
+
+        });
+    }
+    
+    if (result.error === 'too_short') {
+        return await Guru.sendMessage(from, {
+            text: "❌ Word must be at least 2 letters!",
+
+        });
+    }
+    
+    clearWcgTimeout(from);
+    
+    const nextLetter = result.word.slice(-1).toUpperCase();
+    
+    const updatedGame = await getActiveWcgGame(from);
+    if (updatedGame && updatedGame.isAiGame && result.nextPlayer === BOT_JID) {
+        await Guru.sendMessage(from, {
+            text: `✅ *${result.word}* (+${result.word.length} pts)\n\n🤖 AI is thinking...`,
+
+        });
+        await handleAiWcgMoveInternal(from, Guru, updatedGame);
+        return;
+    }
+    
+    await Guru.sendMessage(from, {
+        text: `✅ *${result.word}* (+${result.word.length} pts)\n\n🔄 @${getPlayerName(result.nextPlayer)}'s turn\nNext word starts with: *${nextLetter}*\n\n📊 Words: ${result.wordCount} | ⏰ 30s`,
+        mentions: [result.nextPlayer],
+    });
+    
+    setWcgTurnTimeout(from, Guru, result.nextPlayer, result.game);
+});
+
+async function handleAiWcgMoveInternal(from, Guru, game) {
+    const lastWord = game.lastWord;
+    const usedWords = JSON.parse(game.usedWords);
+    
+    await new Promise(resolve => setTimeout(resolve, 1500));
+    
+    const aiWord = findWcgWord(lastWord, usedWords);
+    
+    if (!aiWord) {
+        const scores = JSON.parse(game.scores);
+        await endWcgGame(from);
+        await Guru.sendMessage(from, {
+            text: `🎉 *YOU WIN!*\n\n🤖 AI couldn't find a word starting with *${lastWord.slice(-1).toUpperCase()}*!\n\n📊 *Final Scores:*\n${formatScores(scores)}`,
+
+        });
+        return;
+    }
+    
+    const result = await submitWord(from, BOT_JID, aiWord);
+    
+    if (result.error) {
+        const scores = JSON.parse(game.scores);
+        await endWcgGame(from);
+        await Guru.sendMessage(from, {
+            text: `🎉 *YOU WIN!*\n\n🤖 AI made an error!\n\n📊 *Final Scores:*\n${formatScores(scores)}`,
+
+        });
+        return;
+    }
+    
+    const nextLetter = result.word.slice(-1).toUpperCase();
+    await Guru.sendMessage(from, {
+        text: `🤖 AI says: *${result.word}* (+${result.word.length} pts)\n\n🔄 @${getPlayerName(result.nextPlayer)}'s turn\nNext word starts with: *${nextLetter}*\n\n📊 Words: ${result.wordCount} | ⏰ 30s`,
+        mentions: [result.nextPlayer],
+    });
+    
+    setWcgTurnTimeout(from, Guru, result.nextPlayer, result.game);
+}
+
+gmd({
+    pattern: "dice",
+    aliases: ["dicestart", "dicegame", "rolldice"],
+    react: "🎲",
+    category: "game",
+    description: "Start a Dice Game",
+}, async (from, Guru, conText) => {
+    const { sender, q } = conText;
+    
+    const existingActive = await getActiveDiceGame(from);
+    if (existingActive) {
+        return await Guru.sendMessage(from, {
+            text: "❌ There's already an active Dice game!\nUse *.diceend* to end it first.",
+
+        });
+    }
+    
+    const existingWaiting = await getWaitingDiceGame(from);
+    if (existingWaiting) {
+        return await Guru.sendMessage(from, {
+            text: "❌ A game is waiting for an opponent!\nUse *.dicejoin* to join or *.diceend* to cancel.",
+
+        });
+    }
+    
+    const rounds = parseInt(q) || 3;
+    await createDiceGame(from, sender, rounds);
+    
+    await Guru.sendMessage(from, {
+        text: `🎲 *DICE GAME*\n\n@${getPlayerName(sender)} wants to play!\n\n📜 *Rules:*\n• ${rounds} rounds\n• Each player rolls once per round\n• Highest roll wins the round\n• Most rounds won = winner!\n\n*Type .dicejoin to play!*\n⏰ _30 seconds to join_`,
+        mentions: [sender],
+    });
+    
+    const timeout = setTimeout(async () => {
+        const waiting = await getWaitingDiceGame(from);
+        if (waiting) {
+            await endDiceGame(from);
+            await Guru.sendMessage(from, {
+                text: `⏰ *DICE GAME - TIMEOUT*\n\nNo one joined within 30 seconds.\nGame cancelled!`,
+    
+            });
+        }
+    }, 30000);
+    diceTimeouts.set(from + '_join', timeout);
+});
+
+gmd({
+    pattern: "dicejoin",
+    aliases: ["joindice"],
+    react: "✅",
+    category: "game",
+    description: "Join a Dice Game",
+}, async (from, Guru, conText) => {
+    const { sender } = conText;
+    
+    if (diceTimeouts.has(from + '_join')) {
+        clearTimeout(diceTimeouts.get(from + '_join'));
+        diceTimeouts.delete(from + '_join');
+    }
+    
+    const result = await joinDiceGame(from, sender);
+    
+    if (result.error === 'no_game') {
+        return await Guru.sendMessage(from, {
+            text: "❌ No game waiting! Start one with *.dice*",
+
+        });
+    }
+    
+    if (result.error === 'same_player') {
+        return await Guru.sendMessage(from, {
+            text: "❌ You can't play against yourself!",
+
+        });
+    }
+    
+    await Guru.sendMessage(from, {
+        text: `🎲 *DICE GAME STARTED!*\n\n👤 @${getPlayerName(result.player1)} vs @${getPlayerName(result.player2)}\n🎯 Best of ${result.rounds} rounds\n\n*Round 1*\n@${getPlayerName(result.player1)}, type *.roll* to roll!\n\n⏰ _30 seconds per turn_`,
+        mentions: [result.player1, result.player2],
+    });
+    
+    setDiceTurnTimeout(from, Guru, result.player1, result.game);
+});
+
+gmd({
+    pattern: "roll",
+    aliases: ["diceroll", "throwdice"],
+    react: "🎲",
+    category: "game",
+    description: "Roll the dice in an active game",
+}, async (from, Guru, conText) => {
+    const { sender } = conText;
+    
+    const game = await getActiveDiceGame(from);
+    if (!game) {
+        return await Guru.sendMessage(from, {
+            text: "❌ No active Dice game! Start one with *.dice*",
+
+        });
+    }
+    
+    clearDiceTimeout(from);
+    const result = await playerRoll(from, sender);
+    
+    if (result.error === 'not_your_turn') {
+        return await Guru.sendMessage(from, {
+            text: "❌ It's not your turn!",
+
+        });
+    }
+    
+    if (result.roundComplete || result.gameFinished) {
+        let text = `🎲 *Round ${result.currentRound} Results*\n\n`;
+        text += `${getDiceEmoji(result.player1Roll)} @${getPlayerName(result.player1)}: ${result.player1Roll}\n`;
+        text += `${getDiceEmoji(result.player2Roll)} @${getPlayerName(result.player2)}: ${result.player2Roll}\n\n`;
+        
+        if (result.roundWinner) {
+            text += `🏆 @${getPlayerName(result.roundWinner)} wins this round!\n`;
+        } else {
+            text += `🤝 It's a tie!\n`;
+        }
+        
+        text += `\n📊 *Score:* ${result.player1Score} - ${result.player2Score}`;
+        
+        if (result.gameFinished) {
+            text += `\n\n🎮 *GAME OVER!*\n`;
+            if (result.gameWinner) {
+                text += `🏆 *WINNER:* @${getPlayerName(result.gameWinner)}!`;
+            } else {
+                text += `🤝 *It's a tie!*`;
+            }
+            await endDiceGame(from);
+        } else {
+            text += `\n\n*Round ${result.nextRound}*\n@${getPlayerName(result.player1)}, type *.roll*!`;
+            setDiceTurnTimeout(from, Guru, result.player1, game);
+        }
+        
+        await Guru.sendMessage(from, {
+            text,
+            mentions: [result.player1, result.player2, result.roundWinner, result.gameWinner].filter(Boolean),
+        });
+    } else {
+        if (game.isAiGame && result.waitingFor === BOT_JID) {
+            clearDiceTimeout(from);
+            await Guru.sendMessage(from, {
+                text: `🎲 @${getPlayerName(sender)} rolled: ${getDiceEmoji(result.roll)} *${result.roll}*\n\n🤖 AI is rolling...`,
+                mentions: [sender],
+            });
+            
+            await new Promise(resolve => setTimeout(resolve, 1000));
+            
+            const aiResult = await playerRoll(from, BOT_JID);
+            
+            if (aiResult.error) {
+                await Guru.sendMessage(from, {
+                    text: `❌ AI roll error. Game ended.`,
+                });
+                await endDiceGame(from);
+                return;
+            }
+            
+            let text = `🎲 *Round ${aiResult.currentRound} Results*\n\n`;
+            text += `${getDiceEmoji(aiResult.player1Roll)} @${getPlayerName(aiResult.player1)}: ${aiResult.player1Roll}\n`;
+            text += `${getDiceEmoji(aiResult.player2Roll)} 🤖 AI: ${aiResult.player2Roll}\n\n`;
+            
+            if (aiResult.roundWinner) {
+                const winnerName = aiResult.roundWinner === BOT_JID ? '🤖 AI' : `@${getPlayerName(aiResult.roundWinner)}`;
+                text += `🏆 ${winnerName} wins this round!\n`;
+            } else {
+                text += `🤝 It's a tie!\n`;
+            }
+            
+            text += `\n📊 *Score:* ${aiResult.player1Score} - ${aiResult.player2Score}`;
+            
+            if (aiResult.gameFinished) {
+                text += `\n\n🎮 *GAME OVER!*\n`;
+                if (aiResult.gameWinner) {
+                    const winnerName = aiResult.gameWinner === BOT_JID ? '🤖 AI wins!' : `🏆 @${getPlayerName(aiResult.gameWinner)} wins!`;
+                    text += winnerName;
+                } else {
+                    text += `🤝 *It's a tie!*`;
+                }
+                await endDiceGame(from);
+            } else {
+                text += `\n\n*Round ${aiResult.nextRound}*\n@${getPlayerName(aiResult.player1)}, type *.roll*!`;
+                const freshGame = await getActiveDiceGame(from);
+                setDiceTurnTimeout(from, Guru, aiResult.player1, freshGame);
+            }
+            
+            await Guru.sendMessage(from, {
+                text,
+                mentions: [aiResult.player1],
+            });
+            return;
+        }
+        
+        await Guru.sendMessage(from, {
+            text: `🎲 @${getPlayerName(sender)} rolled: ${getDiceEmoji(result.roll)} *${result.roll}*\n\n@${getPlayerName(result.waitingFor)}, type *.roll*!`,
+            mentions: [sender, result.waitingFor],
+        });
+        setDiceTurnTimeout(from, Guru, result.waitingFor, game);
+    }
+});
+
+gmd({
+    pattern: "diceend",
+    aliases: ["enddice", "dicestop", "stopdice", "dicecancel"],
+    react: "🛑",
+    category: "game",
+    description: "End the Dice Game",
+}, async (from, Guru, conText) => {
+    const { sender, isSuperUser } = conText;
+    
+    const game = await getActiveDiceGame(from) || await getWaitingDiceGame(from);
+    
+    if (!game) {
+        return await Guru.sendMessage(from, {
+            text: "❌ No Dice game to end!",
+        });
+    }
+    
+    const isPlayer = game.player1 === sender || game.player2 === sender;
+    if (!isPlayer && !isSuperUser) {
+        return await Guru.sendMessage(from, {
+            text: "❌ Only players or admins can end the game!",
+        });
+    }
+    
+    clearDiceTimeout(from);
+    if (diceTimeouts.has(from + '_join')) {
+        clearTimeout(diceTimeouts.get(from + '_join'));
+        diceTimeouts.delete(from + '_join');
+    }
+    await endDiceGame(from);
+    
+    await Guru.sendMessage(from, {
+        text: `🛑 Dice game ended by @${getPlayerName(sender)}!`,
+        mentions: [sender],
+    });
+});
+
+gmd({
+    pattern: "tttai",
+    aliases: ["tttbot", "tictactoeai", "aitt"],
+    react: "🤖",
+    category: "game",
+    description: "Play TicTacToe against AI",
+}, async (from, Guru, conText) => {
+    const { sender } = conText;
+    
+    const existingActive = await getActiveGame(from);
+    if (existingActive) {
+        return await Guru.sendMessage(from, {
+            text: "❌ There's already an active game in this chat!\nUse *.tttend* to end it first.",
+
+        });
+    }
+    
+    const existingWaiting = await getWaitingGame(from);
+    if (existingWaiting) {
+        return await Guru.sendMessage(from, {
+            text: "❌ There's already a game waiting!\nUse *.tttend* to cancel.",
+
+        });
+    }
+    
+    const sentMsg = await Guru.sendMessage(from, {
+        text: `🤖 *TIC TAC TOE vs AI*\n\nPlayer: @${getPlayerName(sender)} (❌)\nAI: 🤖 (⭕)\n\n${renderBoard([1, 2, 3, 4, 5, 6, 7, 8, 9])}\n\n@${getPlayerName(sender)}'s turn (❌)\n*Reply with a number (1-9) to move!*`,
+        mentions: [sender],
+    });
+    
+    await createGame(from, sender, sentMsg.key, true);
+});
+
+gmd({
+    pattern: "wcgai",
+    aliases: ["wcgbot", "wordchainai", "aiwcg"],
+    react: "🤖",
+    category: "game",
+    description: "Play Word Chain Game against AI",
+}, async (from, Guru, conText) => {
+    const { sender } = conText;
+    
+    const existingActive = await getActiveWcgGame(from);
+    if (existingActive) {
+        return await Guru.sendMessage(from, {
+            text: "❌ There's already an active Word Chain game!\nUse *.wcgend* to end it first.",
+
+        });
+    }
+    
+    const existingWaiting = await getWaitingWcgGame(from);
+    if (existingWaiting) {
+        return await Guru.sendMessage(from, {
+            text: "❌ A game is waiting for players!\nUse *.wcgend* to cancel.",
+
+        });
+    }
+    
+    const { WcgDB } = require("../guru/database/wcgGame");
+    await WcgDB.destroy({ where: { chatJid: from } });
+    
+    const scores = {};
+    scores[sender] = 0;
+    scores[BOT_JID] = 0;
+    
+    await WcgDB.create({
+        chatJid: from,
+        players: JSON.stringify([sender, BOT_JID]),
+        currentTurn: sender,
+        lastWord: null,
+        usedWords: '[]',
+        scores: JSON.stringify(scores),
+        status: 'active',
+        isAiGame: true,
+    });
+    
+    await Guru.sendMessage(from, {
+        text: `🤖 *WORD CHAIN vs AI*\n\n📜 *Rules:*\n• Each word must start with the last letter of the previous word\n• No repeating words\n• Minimum 2 letters per word\n• 30 seconds per turn\n\n👤 @${getPlayerName(sender)} vs 🤖 AI\n\n@${getPlayerName(sender)}'s turn - say any word to start!\n\n⏰ _30 seconds per turn_`,
+        mentions: [sender],
+    });
+    
+    setWcgTurnTimeout(from, Guru, sender, null);
+});
+
+gmd({
+    pattern: "diceai",
+    aliases: ["dicebot", "aidice", "rolldiceai"],
+    react: "🤖",
+    category: "game",
+    description: "Play Dice against AI",
+}, async (from, Guru, conText) => {
+    const { sender, q } = conText;
+    
+    const existingActive = await getActiveDiceGame(from);
+    if (existingActive) {
+        return await Guru.sendMessage(from, {
+            text: "❌ There's already an active Dice game!\nUse *.diceend* to end it first.",
+
+        });
+    }
+    
+    const existingWaiting = await getWaitingDiceGame(from);
+    if (existingWaiting) {
+        return await Guru.sendMessage(from, {
+            text: "❌ A game is waiting!\nUse *.diceend* to cancel.",
+
+        });
+    }
+    
+    const rounds = parseInt(q) || 3;
+    const { DiceDB } = require("../guru/database/diceGame");
+    await DiceDB.destroy({ where: { chatJid: from } });
+    
+    await DiceDB.create({
+        chatJid: from,
+        player1: sender,
+        player2: BOT_JID,
+        player1Roll: null,
+        player2Roll: null,
+        currentTurn: sender,
+        rounds: Math.min(Math.max(rounds, 1), 10),
+        currentRound: 1,
+        player1Score: 0,
+        player2Score: 0,
+        status: 'active',
+        isAiGame: true,
+    });
+    
+    await Guru.sendMessage(from, {
+        text: `🤖 *DICE GAME vs AI*\n\n👤 @${getPlayerName(sender)} vs 🤖 AI\n🎯 Best of ${rounds} rounds\n\n*Round 1*\n@${getPlayerName(sender)}, type *.roll* to roll!\n\n⏰ _30 seconds per turn_`,
+        mentions: [sender],
+    });
+    
+    setDiceTurnTimeout(from, Guru, sender, null);
+});
+
+module.exports = {};

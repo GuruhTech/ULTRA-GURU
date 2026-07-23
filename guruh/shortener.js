@@ -1,1 +1,164 @@
-const a0_0x4a0c20=a0_0x4d92;(function(_0x2a72c9,_0x522533){const _0x426cda=a0_0x4d92,_0x3f7770=_0x2a72c9();while(!![]){try{const _0x10da7f=-parseInt(_0x426cda(0x1a5))/0x1+-parseInt(_0x426cda(0x19d))/0x2+-parseInt(_0x426cda(0x186))/0x3*(parseInt(_0x426cda(0x176))/0x4)+parseInt(_0x426cda(0x1d2))/0x5*(-parseInt(_0x426cda(0x16f))/0x6)+parseInt(_0x426cda(0x167))/0x7+-parseInt(_0x426cda(0x18b))/0x8*(parseInt(_0x426cda(0x177))/0x9)+-parseInt(_0x426cda(0x1a1))/0xa*(-parseInt(_0x426cda(0x1ae))/0xb);if(_0x10da7f===_0x522533)break;else _0x3f7770['push'](_0x3f7770['shift']());}catch(_0x1d5528){_0x3f7770['push'](_0x3f7770['shift']());}}}(a0_0x2e5f,0xdd3ab));const a0_0x2305bf=(function(){let _0x39f4c3=!![];return function(_0x190f50,_0x359b12){const _0x448376=_0x39f4c3?function(){const _0x2c6f37=a0_0x4d92;if(_0x359b12){const _0x381f60=_0x359b12[_0x2c6f37(0x193)](_0x190f50,arguments);return _0x359b12=null,_0x381f60;}}:function(){};return _0x39f4c3=![],_0x448376;};}()),a0_0x3f5ba7=a0_0x2305bf(this,function(){const _0x5c957b=a0_0x4d92;if(a0_0x3f5ba7[_0x5c957b(0x168)]()[_0x5c957b(0x19b)]()[_0x5c957b(0x19f)]('\x0a')!==-0x1)return;return a0_0x3f5ba7[_0x5c957b(0x19b)]()['search']('(((.+)+)+)'+'+$')[_0x5c957b(0x19b)]()['constructo'+'r'](a0_0x3f5ba7)['search'](_0x5c957b(0x1d6)+'+$');});a0_0x3f5ba7();const {gmd}=require(a0_0x4a0c20(0x1b7)),axios=require('axios'),{sendButtons}=require(a0_0x4a0c20(0x17e)+'s'),a0_0x69a9a5={};a0_0x69a9a5[a0_0x4a0c20(0x165)]=a0_0x4a0c20(0x198),a0_0x69a9a5[a0_0x4a0c20(0x1c8)]=[a0_0x4a0c20(0x19c)],a0_0x69a9a5['name']=a0_0x4a0c20(0x1cb),a0_0x69a9a5[a0_0x4a0c20(0x189)]=a0_0x4a0c20(0x198);function a0_0x4d92(_0x341e0d,_0xb019f7){_0x341e0d=_0x341e0d-0x161;const _0x24dea6=a0_0x2e5f();let _0x3f5ba7=_0x24dea6[_0x341e0d];if(a0_0x4d92['AUbSHm']===undefined){var _0x2305bf=function(_0xd0379d){const _0x2e5cf6='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _0x5359ab='',_0x1c3c45='',_0x42a7a5=_0x5359ab+_0x2305bf,_0x69a9a5=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x43a2bd=0x0,_0x4fdf3b,_0xe85968,_0x1e5e2b=0x0;_0xe85968=_0xd0379d['charAt'](_0x1e5e2b++);~_0xe85968&&(_0x4fdf3b=_0x43a2bd%0x4?_0x4fdf3b*0x40+_0xe85968:_0xe85968,_0x43a2bd++%0x4)?_0x5359ab+=_0x69a9a5||_0x42a7a5['charCodeAt'](_0x1e5e2b+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x4fdf3b>>(-0x2*_0x43a2bd&0x6)):_0x43a2bd:0x0){_0xe85968=_0x2e5cf6['indexOf'](_0xe85968);}for(let _0x134682=0x0,_0x44547=_0x5359ab['length'];_0x134682<_0x44547;_0x134682++){_0x1c3c45+='%'+('00'+_0x5359ab['charCodeAt'](_0x134682)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x1c3c45);};a0_0x4d92['VmHxkx']=_0x2305bf,a0_0x4d92['cutwTg']={},a0_0x4d92['AUbSHm']=!![];}const _0x2e5f17=_0x24dea6[0x0],_0x4d92b2=_0x341e0d+_0x2e5f17,_0x527727=a0_0x4d92['cutwTg'][_0x4d92b2];if(!_0x527727){const _0x2b6fe7=function(_0x58c948){this['IHulEf']=_0x58c948,this['ZAjsCR']=[0x1,0x0,0x0],this['Wfwbpv']=function(){return'newState';},this['rtnZsM']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['mkwPZB']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0x2b6fe7['prototype']['RoRoBD']=function(){const _0xb8ae2=new RegExp(this['rtnZsM']+this['mkwPZB']),_0x321f75=_0xb8ae2['test'](this['Wfwbpv']['toString']())?--this['ZAjsCR'][0x1]:--this['ZAjsCR'][0x0];return this['dQnSMH'](_0x321f75);},_0x2b6fe7['prototype']['dQnSMH']=function(_0x39f4c3){if(!Boolean(~_0x39f4c3))return _0x39f4c3;return this['zvueho'](this['IHulEf']);},_0x2b6fe7['prototype']['zvueho']=function(_0x190f50){for(let _0x359b12=0x0,_0x448376=this['ZAjsCR']['length'];_0x359b12<_0x448376;_0x359b12++){this['ZAjsCR']['push'](Math['round'](Math['random']())),_0x448376=this['ZAjsCR']['length'];}return _0x190f50(this['ZAjsCR'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x2b6fe7(a0_0x4d92)['RoRoBD'](),_0x3f5ba7=a0_0x4d92['VmHxkx'](_0x3f5ba7),a0_0x4d92['cutwTg'][_0x4d92b2]=_0x3f5ba7;}else _0x3f5ba7=_0x527727;return _0x3f5ba7;}const a0_0x43a2bd={};a0_0x43a2bd[a0_0x4a0c20(0x165)]=a0_0x4a0c20(0x19e),a0_0x43a2bd['aliases']=[a0_0x4a0c20(0x17a),a0_0x4a0c20(0x1c3)],a0_0x43a2bd[a0_0x4a0c20(0x185)]=a0_0x4a0c20(0x162),a0_0x43a2bd[a0_0x4a0c20(0x189)]='cleanuri';const a0_0x4fdf3b={};a0_0x4fdf3b[a0_0x4a0c20(0x165)]=a0_0x4a0c20(0x1c0),a0_0x4fdf3b[a0_0x4a0c20(0x1c8)]=[a0_0x4a0c20(0x1ba)],a0_0x4fdf3b[a0_0x4a0c20(0x185)]='v.gd',a0_0x4fdf3b[a0_0x4a0c20(0x189)]='vgd';const a0_0xe85968={};a0_0xe85968['pattern']=a0_0x4a0c20(0x166),a0_0xe85968[a0_0x4a0c20(0x1c8)]=[a0_0x4a0c20(0x16e)],a0_0xe85968[a0_0x4a0c20(0x185)]=a0_0x4a0c20(0x1ac),a0_0xe85968['endpoint']='rebrandly';const a0_0x1e5e2b={};a0_0x1e5e2b[a0_0x4a0c20(0x165)]=a0_0x4a0c20(0x1a2),a0_0x1e5e2b[a0_0x4a0c20(0x1c8)]=[a0_0x4a0c20(0x1c9)],a0_0x1e5e2b[a0_0x4a0c20(0x185)]=a0_0x4a0c20(0x1d4),a0_0x1e5e2b[a0_0x4a0c20(0x189)]=a0_0x4a0c20(0x1a2);const a0_0x134682={};a0_0x134682[a0_0x4a0c20(0x165)]=a0_0x4a0c20(0x172),a0_0x134682[a0_0x4a0c20(0x1c8)]=[a0_0x4a0c20(0x180)],a0_0x134682['name']='AdFoc.us',a0_0x134682['endpoint']=a0_0x4a0c20(0x172);const a0_0x44547={};function a0_0x2e5f(){const _0x718660=['DNvYBhnOB3j0','zgf0yq','vgLUEvvsta','CMvHy3q','EsOGlYaQlNjLyG','DgLTzw91Da','yNjHBMrSEqOQlG','CgfYyw1Z','ic50Aw55DxjSia','mJvqww5Otwi','tcbZDgfYDgLUzW','DLvsta','ywLSywjSzsbZAa','kcGOlISPkYKRkq','uLrftKvsienptq','q2XLyw5vuKK','DxmkkI5ZC3vYkG','taOQlMnSzwfUDq','Cgf0DgvYBG','CMvICMfUzgX5','odK5mtmWngLRs0jAtG','yMLUza','BIbSyxrLCI4','kKv4yw1WBgu6kG','C3rHCNrZv2L0Aa','idX1CMW+cIPfEa','oI8Vig9YigH0Da','CMvICMfUza','mtm5mdG5meP1qMD4ra','ifvstcbtse9sva','cIOUDgLUExvYBa','ywrMB2m','BMq+idX1CMW+cG','u2HVDYbHBgWGyq','8j+uLYaQ','mJHbA0XwyNq','mJyXyKHxBw9P','CMKQic8GkI5JBa','u2HVCNrLBIbHia','y2XLyw51CMW','uKWGDg8GC2HVCG','u2HVCNrLlNn0','zwfUkIaTienSzq','z2LMDgvKlwj0BG','Ahr0CdOVlW','ywrMB2n1CW','C2HVCNrLBMHLBa','oIOGlJXJB21Tyq','Ahr0Chm6lY8','zxjZ','BMfTzq','nJi5mdq2weHnzgHO','t3jPz2LUywW6kG','C2HVCNrLBMvY','zw5KCg9PBNq','4P2miezHAwXLzcb0','mZG3mJHVz0Hgwxq','DgvUlGOkkLvZyq','lIbuCNKGywDHAq','C3vJy2vZCW','Ahr0Chm6lY9LEa','C3n1CG','BwvZC2fNzq','DNvYBcOGlsb2vq','yxbWBhK','CNqGvvjm','DhjPBq','yw1WBguUy29T','z2v0','DgLUExvYBa','4P2mieLUDMfSAwqG','ru5fuIOkcVcFK44GkG','Dg9tDhjPBMC','DgLUEq','mtG0ntm5mLzSr3H4tq','y2XLyw51CMK','Aw5KzxHpzG','kIaTifrPBNLvuG','mta4nteWAxDnu0fz','DNvYBa','vvjmlIbqBgvHCW','8j+uLYaQvvjmifnitW','ntGZodKYB01fzezx','B3j0zw5LCNm6cG','BMvKoIOG','yw1WBgu6kIaU','Dg9VBhm','y3rHx2nVChK','EgfTCgXLlMnVBq','uMvICMfUzgX5','ysb2ywXPzcbvuG','mZK0owzrBfnAzG','yw5vuKKkkI52zW','ihDPDgGGAhr0Ca','ic0Gu2HVCNrLlG','CM92AwrLigeGvq','y2f0zwDVCNK','8j+tIYbdB3b5ifnOBW','uKWGC2HVCNrLBG','zsbWCM92AwrLia','lI4Vz3vYDq','C2HVCNrLBMvYCW','C3qkcIPvC2fNzq','DMDKDxjS','vvjmihvZAw5Nia','uKWkkI5HzgzVyW','z2u6kIaU','BYbZAg9YDgvUia','DxjS','DMDK','vvjmoIa','CMfUzcOGlsbszq','y2XLyw4','zgvZy3jPChrPBW','kIaVicOUDgLUEq','DMfPBgfIBguGvq','CMvZDwX0','ywXPyxnLCW'];a0_0x2e5f=function(){return _0x718660;};return a0_0x2e5f();}a0_0x44547['pattern']=a0_0x4a0c20(0x190),a0_0x44547[a0_0x4a0c20(0x1c8)]=['shorte'],a0_0x44547[a0_0x4a0c20(0x185)]=a0_0x4a0c20(0x17c),a0_0x44547[a0_0x4a0c20(0x189)]=a0_0x4a0c20(0x190);const shorteners=[a0_0x69a9a5,a0_0x43a2bd,a0_0x4fdf3b,a0_0xe85968,a0_0x1e5e2b,a0_0x134682,a0_0x44547];for(const shortener of shorteners){const a0_0x2b6fe7={};a0_0x2b6fe7[a0_0x4a0c20(0x165)]=shortener[a0_0x4a0c20(0x165)],a0_0x2b6fe7[a0_0x4a0c20(0x1c8)]=shortener[a0_0x4a0c20(0x1c8)],a0_0x2b6fe7[a0_0x4a0c20(0x1cc)]='🔗',a0_0x2b6fe7[a0_0x4a0c20(0x1b3)]=a0_0x4a0c20(0x1a9),a0_0x2b6fe7[a0_0x4a0c20(0x1c4)+'n']=a0_0x4a0c20(0x179)+a0_0x4a0c20(0x1bb)+shortener[a0_0x4a0c20(0x185)],gmd(a0_0x2b6fe7,async(_0x1b710e,_0x3e9403,_0x37f8e4)=>{const _0x4de129=a0_0x4a0c20,{sender:_0x248a46,mek:_0x5458e3,reply:_0x3bf5a4,react:_0x34b6ec,q:_0x362580,botName:_0x449de4,botFooter:_0x2f25b1,GuruTechApi:_0x5478eb,GuruApiKey:_0x32fc42}=_0x37f8e4;if(!_0x362580||_0x362580[_0x4de129(0x195)]()==='')return await _0x34b6ec('❌'),_0x3bf5a4('❌\x20Please\x20p'+_0x4de129(0x1b2)+_0x4de129(0x17b)+_0x4de129(0x18c)+_0x4de129(0x1bd)+shortener[_0x4de129(0x165)]+(_0x4de129(0x16c)+_0x4de129(0x1a8))+shortener[_0x4de129(0x165)]+('\x20https://e'+_0x4de129(0x1ab)));const _0x4f789f=_0x362580[_0x4de129(0x195)]();if(!_0x4f789f[_0x4de129(0x16b)](_0x4de129(0x17f))&&!_0x4f789f['startsWith'](_0x4de129(0x183)))return await _0x34b6ec('❌'),_0x3bf5a4(_0x4de129(0x199)+_0x4de129(0x1a3)+_0x4de129(0x1b6)+_0x4de129(0x1ad)+_0x4de129(0x1d3)+_0x4de129(0x1b0)+_0x4de129(0x16d)+'ps://');await _0x34b6ec('⏳');try{const _0x1cb169={};_0x1cb169['apikey']=_0x32fc42,_0x1cb169[_0x4de129(0x1bf)]=_0x4f789f;const _0x397ac6={};_0x397ac6[_0x4de129(0x1d0)]=_0x1cb169,_0x397ac6[_0x4de129(0x1ce)]=0x7530;const _0x332ec6=await axios[_0x4de129(0x197)](_0x5478eb+('/api/tools'+'/')+shortener[_0x4de129(0x189)],_0x397ac6);if(!_0x332ec6[_0x4de129(0x1ca)]?.[_0x4de129(0x18e)]||!_0x332ec6[_0x4de129(0x1ca)]?.['result'])return await _0x34b6ec('❌'),_0x3bf5a4(_0x4de129(0x18a)+_0x4de129(0x1be)+'URL\x20using\x20'+shortener[_0x4de129(0x185)]+(_0x4de129(0x18d)+_0x4de129(0x169)));const _0x2452e2=_0x332ec6[_0x4de129(0x1ca)][_0x4de129(0x1c7)];await sendButtons(_0x3e9403,_0x1b710e,{'text':_0x4de129(0x175)+_0x449de4+(_0x4de129(0x170)+_0x4de129(0x19a)+_0x4de129(0x187)+'\x20')+_0x4f789f+('\x0a✂️\x20*Shorte'+_0x4de129(0x1a7))+_0x2452e2,'footer':_0x2f25b1,'buttons':[{'name':_0x4de129(0x1aa),'buttonParamsJson':JSON['stringify']({'display_text':_0x4de129(0x1b4)+_0x4de129(0x194),'copy_code':_0x2452e2})}]}),await _0x34b6ec('✅');}catch(_0x190cd2){return await _0x34b6ec('❌'),_0x3bf5a4(_0x4de129(0x18a)+_0x4de129(0x1be)+_0x4de129(0x1c1)+_0x190cd2[_0x4de129(0x191)]);}});}const a0_0x321f75={};a0_0x321f75[a0_0x4a0c20(0x165)]=a0_0x4a0c20(0x188),a0_0x321f75['aliases']=[a0_0x4a0c20(0x1b8),a0_0x4a0c20(0x181)+'p','urlshort'],a0_0x321f75['react']='🔗',a0_0x321f75['category']='tools',a0_0x321f75['descriptio'+'n']=a0_0x4a0c20(0x174)+a0_0x4a0c20(0x1c6)+a0_0x4a0c20(0x1b5)+a0_0x4a0c20(0x184),gmd(a0_0x321f75,async(_0x177517,_0x3d0452,_0x26a55)=>{const _0x154e6e=a0_0x4a0c20,{reply:_0x3b0ffe}=_0x26a55,_0x3a8957=_0x154e6e(0x1a4)+_0x154e6e(0x161)+'MANDS*\x0a\x0aAv'+_0x154e6e(0x1d5)+_0x154e6e(0x1a6)+_0x154e6e(0x171)+_0x154e6e(0x1c5)+_0x154e6e(0x1a0)+_0x154e6e(0x164)+_0x154e6e(0x178)+_0x154e6e(0x17d)+_0x154e6e(0x1af)+'d*\x20-\x20v.gd\x0a'+'*.rebrandl'+_0x154e6e(0x1cd)+_0x154e6e(0x1c2)+_0x154e6e(0x1cf)+_0x154e6e(0x192)+_0x154e6e(0x1bc)+'*\x20-\x20AdFoc.'+_0x154e6e(0x163)+_0x154e6e(0x1b1)+_0x154e6e(0x1b9)+_0x154e6e(0x182)+_0x154e6e(0x173)+_0x154e6e(0x16a)+_0x154e6e(0x1d1)+_0x154e6e(0x18f)+_0x154e6e(0x196);return _0x3b0ffe(_0x3a8957);});
+
+const { gmd } = require("../guru");
+const axios = require("axios");
+const { sendButtons } = require("gifted-btns");
+
+const shorteners = [
+    {
+        pattern: "tinyurl",
+        aliases: ["tiny"],
+        name: "TinyURL",
+        endpoint: "tinyurl",
+    },
+    {
+        pattern: "cleanuri",
+        aliases: ["cleanurl", "clean"],
+        name: "CleanURI",
+        endpoint: "cleanuri",
+    },
+    {
+        pattern: "vgd",
+        aliases: ["vgdurl"],
+        name: "v.gd",
+        endpoint: "vgd",
+    },
+    {
+        pattern: "rebrandly",
+        aliases: ["rebrand"],
+        name: "Rebrandly",
+        endpoint: "rebrandly",
+    },
+    {
+        pattern: "vurl",
+        aliases: ["vurlshort"],
+        name: "vURL",
+        endpoint: "vurl",
+    },
+    {
+        pattern: "adfoc",
+        aliases: ["adfocus"],
+        name: "AdFoc.us",
+        endpoint: "adfoc",
+    },
+    {
+        pattern: "ssur",
+        aliases: ["shorte"],
+        name: "Shorte.st",
+        endpoint: "ssur",
+    },
+];
+
+for (const shortener of shorteners) {
+    gmd(
+        {
+            pattern: shortener.pattern,
+            aliases: shortener.aliases,
+            react: "🔗",
+            category: "tools",
+            description: `Shorten a URL using ${shortener.name}`,
+        },
+        async (from, Guru, conText) => {
+            const {
+                sender,
+                mek,
+                reply,
+                react,
+                q,
+                botName,
+                botFooter,
+                GuruTechApi,
+                GuruApiKey,
+            } = conText;
+
+            if (!q || q.trim() === "") {
+                await react("❌");
+                return reply(`❌ Please provide a URL to shorten.
+
+*Usage:* .${shortener.pattern} <url>
+*Example:* .${shortener.pattern} https://example.com`);
+            }
+
+            const url = q.trim();
+
+            if (!url.startsWith("http://") && !url.startsWith("https://")) {
+                await react("❌");
+                return reply(
+                    `❌ Invalid URL. Please provide a valid URL starting with http:// or https://`,
+                );
+            }
+
+            await react("⏳");
+
+            try {
+                const res = await axios.get(
+                    `${GuruTechApi}/api/tools/${shortener.endpoint}`,
+                    {
+                        params: {
+                            apikey: GuruApiKey,
+                            url: url,
+                        },
+                        timeout: 30000,
+                    },
+                );
+
+                if (!res.data?.success || !res.data?.result) {
+                    await react("❌");
+                    return reply(
+                        `❌ Failed to shorten URL using ${shortener.name}. Try again later.`,
+                    );
+                }
+
+                const shortUrl = res.data.result;
+
+                await sendButtons(Guru, from, {
+                    text: `🔗 *${botName} URL SHORTENER*\n\n📎 *Original:* ${url}\n✂️ *Shortened:* ${shortUrl}`,
+                    footer: botFooter,
+                    buttons: [
+                        {
+                            name: "cta_copy",
+                            buttonParamsJson: JSON.stringify({
+                                display_text: "📋 Copy Short URL",
+                                copy_code: shortUrl,
+                            }),
+                        },
+                    ],
+                });
+
+                await react("✅");
+            } catch (e) {
+                await react("❌");
+                return reply(`❌ Failed to shorten URL: ${e.message}`);
+            }
+        },
+    );
+}
+
+gmd(
+    {
+        pattern: "shortener",
+        aliases: ["shorteners", "shortenhelp", "urlshort"],
+        react: "🔗",
+        category: "tools",
+        description: "Show all available URL shorteners",
+    },
+    async (from, Guru, conText) => {
+        const { reply } = conText;
+
+        const helpText = `🔗 *URL SHORTENER COMMANDS*
+
+Available shorteners:
+
+*.tinyurl* / *.tiny* - TinyURL
+*.cleanuri* / *.clean* - CleanURI
+*.vgd* - v.gd
+*.rebrandly* / *.rebrand* - Rebrandly
+*.vurl* - vURL
+*.adfoc* - AdFoc.us
+*.ssur* - Shorte.st
+
+*Usage:* .<command> <url>
+*Example:* .tinyurl https://example.com`;
+
+        return reply(helpText);
+    },
+);

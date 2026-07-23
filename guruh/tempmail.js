@@ -1,1 +1,667 @@
-const a0_0x50ef88=a0_0x3af2;function a0_0x3af2(_0x5dc7dd,_0x101faa){_0x5dc7dd=_0x5dc7dd-0xdd;const _0x28dc6e=a0_0x5e68();let _0x2b04eb=_0x28dc6e[_0x5dc7dd];if(a0_0x3af2['gyxkhd']===undefined){var _0x11e642=function(_0x823b99){const _0x23af1f='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _0x546d65='',_0x21ad66='',_0x3901e2=_0x546d65+_0x11e642,_0x29c31b=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x1eb601=0x0,_0x30561a,_0x403af9,_0x1edfbb=0x0;_0x403af9=_0x823b99['charAt'](_0x1edfbb++);~_0x403af9&&(_0x30561a=_0x1eb601%0x4?_0x30561a*0x40+_0x403af9:_0x403af9,_0x1eb601++%0x4)?_0x546d65+=_0x29c31b||_0x3901e2['charCodeAt'](_0x1edfbb+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x30561a>>(-0x2*_0x1eb601&0x6)):_0x1eb601:0x0){_0x403af9=_0x23af1f['indexOf'](_0x403af9);}for(let _0x42c3b1=0x0,_0x35b4bf=_0x546d65['length'];_0x42c3b1<_0x35b4bf;_0x42c3b1++){_0x21ad66+='%'+('00'+_0x546d65['charCodeAt'](_0x42c3b1)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x21ad66);};a0_0x3af2['hKzMWg']=_0x11e642,a0_0x3af2['IDKcDW']={},a0_0x3af2['gyxkhd']=!![];}const _0x5e68fd=_0x28dc6e[0x0],_0x3af258=_0x5dc7dd+_0x5e68fd,_0x81f044=a0_0x3af2['IDKcDW'][_0x3af258];if(!_0x81f044){const _0x1a9a83=function(_0x3fbb3c){this['qbxHiM']=_0x3fbb3c,this['QPkspM']=[0x1,0x0,0x0],this['ANiesO']=function(){return'newState';},this['unYreK']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['niqcsG']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0x1a9a83['prototype']['koDZnw']=function(){const _0x2c2f1d=new RegExp(this['unYreK']+this['niqcsG']),_0x36cc5a=_0x2c2f1d['test'](this['ANiesO']['toString']())?--this['QPkspM'][0x1]:--this['QPkspM'][0x0];return this['JmcFBo'](_0x36cc5a);},_0x1a9a83['prototype']['JmcFBo']=function(_0x4400aa){if(!Boolean(~_0x4400aa))return _0x4400aa;return this['tQdhrj'](this['qbxHiM']);},_0x1a9a83['prototype']['tQdhrj']=function(_0x2712cb){for(let _0xcc10ee=0x0,_0x2d0476=this['QPkspM']['length'];_0xcc10ee<_0x2d0476;_0xcc10ee++){this['QPkspM']['push'](Math['round'](Math['random']())),_0x2d0476=this['QPkspM']['length'];}return _0x2712cb(this['QPkspM'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x1a9a83(a0_0x3af2)['koDZnw'](),_0x2b04eb=a0_0x3af2['hKzMWg'](_0x2b04eb),a0_0x3af2['IDKcDW'][_0x3af258]=_0x2b04eb;}else _0x2b04eb=_0x81f044;return _0x2b04eb;}(function(_0x2a9ee5,_0x7af04f){const _0x56d782=a0_0x3af2,_0x1caed0=_0x2a9ee5();while(!![]){try{const _0x5f83f9=-parseInt(_0x56d782(0x1c5))/0x1*(-parseInt(_0x56d782(0x193))/0x2)+-parseInt(_0x56d782(0xf8))/0x3*(-parseInt(_0x56d782(0x212))/0x4)+-parseInt(_0x56d782(0xf2))/0x5*(parseInt(_0x56d782(0x1b8))/0x6)+-parseInt(_0x56d782(0xe9))/0x7+-parseInt(_0x56d782(0x1fa))/0x8*(-parseInt(_0x56d782(0x1e5))/0x9)+-parseInt(_0x56d782(0x182))/0xa*(parseInt(_0x56d782(0x16e))/0xb)+parseInt(_0x56d782(0x11d))/0xc;if(_0x5f83f9===_0x7af04f)break;else _0x1caed0['push'](_0x1caed0['shift']());}catch(_0x14113f){_0x1caed0['push'](_0x1caed0['shift']());}}}(a0_0x5e68,0xe2c4c));const a0_0x11e642=(function(){let _0x2369d4=!![];return function(_0xcc1c6b,_0x4665f4){const _0x13acf9=_0x2369d4?function(){if(_0x4665f4){const _0x5c657f=_0x4665f4['apply'](_0xcc1c6b,arguments);return _0x4665f4=null,_0x5c657f;}}:function(){};return _0x2369d4=![],_0x13acf9;};}()),a0_0x2b04eb=a0_0x11e642(this,function(){const _0x1ffc3b=a0_0x3af2;if(a0_0x2b04eb[_0x1ffc3b(0xe5)]()[_0x1ffc3b(0x1fd)]()[_0x1ffc3b(0x213)]('\x0a')!==-0x1)return;return a0_0x2b04eb[_0x1ffc3b(0x1fd)]()[_0x1ffc3b(0xff)](_0x1ffc3b(0x174)+'+$')[_0x1ffc3b(0x1fd)]()[_0x1ffc3b(0x12d)+'r'](a0_0x2b04eb)[_0x1ffc3b(0xff)](_0x1ffc3b(0x174)+'+$');});a0_0x2b04eb();const {gmd}=require(a0_0x50ef88(0x170)),axios=require(a0_0x50ef88(0x22a)),{sendButtons}=require(a0_0x50ef88(0x13b)+'s'),{getContextInfo}=require(a0_0x50ef88(0x15c)+a0_0x50ef88(0x183)),{getLidMapping}=require(a0_0x50ef88(0x15c)+'nnection/g'+a0_0x50ef88(0x155)),{initTempMailDB,setUserEmail,getUserEmail,getUserEmailWithExpiry,deleteUserEmail,EXPIRY_MINUTES}=require(a0_0x50ef88(0x1a5)+a0_0x50ef88(0x222)+a0_0x50ef88(0x18e));initTempMailDB();function a0_0x5e68(){const _0x123cb3=['AYbPBMjVEdOQcG','cGRILihILihILihILihILihILihILihILie','ysb2ywXPzcbLBq','y3q6','BgvUz3rO','y3rHx2nVChK','BwfPBf9Pza','CYbYzwnLAxzLza','zw1WigvTywLSlG','EdOG','zwXTywLSic8GlG','CYbPBJOQia','ig1LC3nHz2vZcG','AcaUDgvTCg1HAq','iez1BgWGAw5IBW','y2XLyxj0zw1WBq','y2f0zwDVCNK','CM91CenHy2HL','4P2mieHLEsba','C3qGDg8GzgvSzq','DgvTCgHLBha','zgvZy3jPChrPBW','pg51BwjLCJ4krq','ywLSig51BwjLCG','lI4Vz3vYDs9JBW','vxnLicOUDgvTCa','lGOk8j+tPsbvC2uGkG','CMvWBgfJzq','ywLSihDVCMTZia','igfKzhjLC3m','icOJ','zw1WigvTywLSoG','CMvHy3q','igvTywLSkhmPlG','zwfKBwfPBcaX','C3vIAMvJDa','ihrVignYzwf0zq','tM8Gu3vIAMvJDa','zgf0yq','zgvSDgvTCg1HAq','CxvVDgvK','zw1WBwfPBcaVia','ntq4nJq3zhHbDhzZ','igeGBMv3ig9Uzq','lI4Vz3vYDq','DgvTCg1HAwXNzq','CIbZDg9YzwqGDa','DgLTzw91Da','kcGOlISPkYKRkq','BMrZoGOkkKDLBG','BwvZC2fNzv9Pza','BwvZC2fNzq','Cg1HAwWQihrVia','8j+tIYbdB3b5ievTyq','BYaUCMvHzg1HAq','BwjLCJ4QihrVia','lNjLywrTywLSia','zwnRigLUyM94ia','zxrJAcbLCNjVCG','8j+tRsbizxKGqa','l2fWAs90zw1WBq','w1rLBxbnywLSxq','mtbwvLbusfe','BNrLEhrjBMzV','BcbIEsbUDw1Izq','Aw5IB3G','DgvTCg1HAwW','zxn1BhqGA2v5CW','CMvHzg1HAwW','tKjpwcOkcKHLEq','z2v0BwfPBa','B3GGAxmGzw1WDa','zgvSzxrLDgvTCa','Dgv4Da','Cg1HAwW','Bgv0zsb5B3vYia','CMvTB3zLDgvTCa','C2fNzxmk8j+tLIbvCW','ifnLBgvJDgvKia','mNPytLHczW','zNrLCIa','4Psb4Psb4Psb4Psb4Psb4Psb4Psb4PsbcGO','iezLDgnOAw5Nia','DhjPBq','suWGr0vorvjbva','ywn0AxzLihrLBq','ywLScGOQq2HLyW','Dgv4DejVzhK','zw5KC1DPDgG','Bw1HBMrZ','BMjVEcbLCNjVCG','lcbUBYbLBwfPBa','z2vUzxjHDguGDa','lcbOzxjLj3mGEq','cGPvC2u6ic5Yzq','zgvSBwfPBa','ywLSl2DLBMvYyq','lI4Vz3vYDs9Kyq','ywLSig1HEsbOyq','qhmUD2HHDhnHCa','ywLSkG','BIbNzw5LCMf0zq','Bg9N','zwfKBwfPBca8BG','kGRWN5gKicPgCM9ToG','8j+tPsaQvevnucbnqq','CMvHzg1HAwWGmG','Cg9Yyxj5igvTyq','zw5LCMf0zsbHia','4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb','zgLZCgXHEv90zq','vw5RBM93BG','ifjLywrTywLSia','Cc5Uzxq','Cgf0DgvYBG','DcbMB3iGDMvYAq','mZe2mZHXruv3Chu','ww91CIbfBwfPBa','ywLSl21LC3nHzW','BNnLoG','8j+tLIbvC2uGkI5Yzq','kIbOyxmGyMvLBG','yw5KihvZzsbMBW','8j+tIYbdB3b5ihLVDq','BaOYlIbdB3b5ia','Aw5IB3Gknc4GuG','Aw5N','zw4GlYaUBMv3Bq','zMLJyxrPB25F','ntmXmZq3C256wKrU','ywLSoIOG','zw5LCMf0zsbVBG','r2vUzxjHDguGyq','DguGAxqSihrOzq','CMvZDwX0','cUkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGq','4PYfieHLEsba','ihrOzsb0zw1Wia','BMrPBMCGyw4Gzq','CgfYyw1Z','z2v0BxnN','ihLLDc4kcVcFK6WGkG','BwvZC2fNzuLK','vgvTCg1HAwWGAq','cGPFv2fPDcbHia','igrLBgv0zwqUcG','CIb2zxjPzMLJyq','ignOyxrZxW','zMv3ihnLy29Uza','BwfPBcbJB21Tyq','8j+tJsbFww91CIbLBq','8j+xKE+4JW','ig1PBNv0zxmk8j+tPq','4PQG77IpicPbq1rjvKuG','C2vUzgvY','vgvTCg1HAwWGzW','BcOGDg8GzgvSzq','CMvHzcbMDwXSia','CcbLBwfPBc4kcG','DMLLD21HAwW','y29WEv9JB2rL','ow1TEgDRta','zg1HAwWGmsWGlG','q29WEsb0AguGzq','zw1WigvTywLS','zM9YigvTywLSoG','C3rYAw5NAwz5','zNjVBq','Ec4Gww91CIbLBq','BwfPBgHLBha','tM8Grw1HAwXZ','y29UDgvUDa','AwWGpg51BwjLCG','cGRWN5gKicPgCM9ToG','ie1LC3nHz2uGCG','tcbdt01nqu5euW','kGOksgv5iea','u2HVDYbHBgWGDa','ihDPDgGGkI50zq','zwfKigvTywLSCW','BIbHy3rPDMuGDa','zgvSzxrLBwfPBa','mJm5ndG0oefjrLrJzW','DMuGzxHWAxjLza','ifrYEsbHz2fPBG','Dg9tDhjPBMC','AhrTBejVzhK','DgvTCgLUyM94','B3bLBM1HAwW','DcbOyxzLigfUia','BwjLCJ4kcIPezq','yxbPA2v5','ie1LC3nHz2uGzG','zxjYB3i','CIbHDhrHy2HTzq','BNrZkq','lGOkvxnHz2u6ia','CYbHzNrLCIbZzq','zNjVBv9LBwfPBa','y2HLy2SGAw5IBW','lNrLBxbPBMjVEa','ywLS','zw1HAwW6kGOUCG','zgf0zq','CMvHzcbLBwfPBa','ig5LDYb0zw1WBW','mZKYs1zJvvnZ','Aw5KzxHpzG','q2HLy2SGAw5IBW','zw1HAwWGAgfZia','z2v0','8j+tPYaQvevnue1bsq','lcb5B3uGywXYzq','ignOzwnRig1LCW','CIbLBwfPBa','lYaUy2HLy2TPBG','cVcFK4SGkLn1yMPLyW','EcbVzIb5B3vYia','CNKGywDHAw4UxW','zw1HAwWkcUkuGEkuGEkuGq','ywDLiefqssbYzq','4Psb4Psb4Psb4Psb4PsbcVcFK4WGkKG','DgfIyxnLl3rLBq','ie1LC3nHz2uGzq','cVcFK50GkK1LC3nHzW','cKHLEsba','Dw5KkIa','CMvJzwL2zwq','rMfPBgvKihrVia','C3bSAxq','yxHPB3m','B3vYigvTywLSoG','zw1HAwWk8j+xKE+4JYbvCW','rcbMB3vUzdO','lIbhzw5LCMf0zq','AwW6cGRWN5oSicPfBq','cGPvC2uGkI5Kzq','Bg1HAwWQigzPCG','C2vUze1LC3nHzW','yMLUza','C3rHDhvZ','ruqQcGPizxKGqa','zw1HAwW6kGOUDa','nZKYndGWnw9VtMD4ra','ywnYB3nZigfSBa','lcb5B3vYihrLBq','BwfPBcOGDg8GzW','zw1HAwW','8j+tPYaQru1bsuWGiW','z2vUzxjHDgvKia','zw1HAwWGB2jQzq','lcb5B3vYigLUyG','mtuYnvPmEK5gCW','zsbMAxjZDc4','pIOGDg8GCMvHza','ywLSl2LUyM94','yM9KEq','kIb0BYbJAgvJAW','nJi5n2fgr2HQzq','B250zw50ic0Gzq','ywXPyxnLCW','8j+tRsaQru1qvfKGsq','Bwf0y2G','8j+tPYaQvevnucbnqq','yxrLigeGDgvTCa','C2vHCMnO','BcaVic5KzwXLDa','zMv0y2GGAw5IBW','ig5LDYbVBMuU','C3vJy2vZCW','cVcFK4uGkKrHDgu6kG','lcb5B3uGAgf2zq','DguGyw5KignYzq','CcbLBwfPBcaQ','y2HLy2T0zw1WBq','CIbLBwfPBdO','zM9YrwfJAa','rgvSzxrLihDPDa','A2v5CW','DdOQia','BwvZC2fNzsb3Aq','EcbbueKGCMvZCa','zw1HAwXZigf1Da','cUkpScaQrxHWAxjL','zxDTywLSidXUDq','kGOXlIbhzw5LCG','zxHWAxjLzc4GrW','ke5VihrLEhqGyW','CMvZCg9UC2u','ie1LC3nHz2uGsq','C3bVBNnLoG','Aw5JBhvKzxm','cGRWN5oSicPfBwfPBa','BwfPBcbVCIb0CG','ifvZzsaQlNrLBq','mZiXotiZntjlsgD0vhC','ywrTywLSidXUDq','BwfPBa','oIOG','8j+uKcaQq29KzsbgBW','zw5LCMf0zsbLCG','cGRIJ7aGkKv4CgLY','DgvTCcbLBwfPBa','zw1HAwW6kGOUza','ywrTywLSideGDa','ig1PBNv0zxnFcG','4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb','suWGsu5ct1GQcG','B3CGDg8GDxnLoG','BwfPBcbTyxKGyW','EsbPBwfNzxmGBW','y29UC3rYDwn0BW','ievTywLSigTLEq','CNjVCIbYzxnWBW','vfmQcGPizxKGqa','Dw1Izxi+cI52Aq','lcb5B3uGzg9UjW','8j+tIYbdB3b5ienVza','lNrLBxbTywLSzW','zxjYB3i6','cGRIJ7aGx1rLBxaG','DgLTzvjLBwfPBG','DgGGkI50zw1WBq','ihnWzwnPzMLJia','yxrLig5LDWOkxW','z2LMDgvKlwj0BG','DgGGsuq6','AhrTBa','BMv3BwfPBa','y2LMAwmGzw1HAq','4Psb4Psb4Psb4Psb4Psb4Psb4Psb4PsbcVcFK6K','yM94cGOQuMvHza','zxjHDguGBMv3ia','zxHWAxjLza'];a0_0x5e68=function(){return _0x123cb3;};return a0_0x5e68();}function getUserName(_0x178343){const _0x442dd1=a0_0x50ef88;return _0x178343[_0x442dd1(0x229)]('@')[0x0];}function normalizeUserJid(_0x4058b5){const _0x12be7f=a0_0x50ef88;if(!_0x4058b5)return'';if(_0x4058b5[_0x12be7f(0x19c)]('@lid')){const _0x31fb03=getLidMapping(_0x4058b5);if(_0x31fb03)return _0x31fb03;}let _0x4aa95d=_0x4058b5[_0x12be7f(0x229)](':')[0x0][_0x12be7f(0x229)]('/')[0x0];!_0x4aa95d['includes']('@')&&(_0x4aa95d+=_0x12be7f(0x1a7)+_0x12be7f(0x1b5));if(_0x4aa95d[_0x12be7f(0x19c)]('@lid')){const _0x3f49b6=getLidMapping(_0x4aa95d);if(_0x3f49b6)return _0x3f49b6;}return _0x4aa95d;}function extractCode(_0x26212e){const _0x1aad81=a0_0x50ef88,_0x1e6911=[/\b(\d{4,8})\b/,/code[:\s]+(\d{4,8})/i,/verification[:\s]+(\d{4,8})/i,/otp[:\s]+(\d{4,8})/i,/pin[:\s]+(\d{4,8})/i];for(const _0x3c6bf7 of _0x1e6911){const _0x8cd917=_0x26212e[_0x1aad81(0xfc)](_0x3c6bf7);if(_0x8cd917)return _0x8cd917[0x1];}return null;}const a0_0x29c31b={};a0_0x29c31b[a0_0x50ef88(0x1b6)]=a0_0x50ef88(0x186),a0_0x29c31b[a0_0x50ef88(0xfa)]=[a0_0x50ef88(0x171)+'n','generatema'+'il',a0_0x50ef88(0x13e),a0_0x50ef88(0x18a)],a0_0x29c31b[a0_0x50ef88(0x164)]='📧',a0_0x29c31b[a0_0x50ef88(0x154)]=a0_0x50ef88(0x186),a0_0x29c31b['descriptio'+'n']=a0_0x50ef88(0x1c8)+a0_0x50ef88(0x211)+'rary\x20email'+a0_0x50ef88(0x161),gmd(a0_0x29c31b,async(_0x47f9ce,_0x17cffe,_0xe539e5)=>{const _0x975998=a0_0x50ef88,{sender:_0x40799f,mek:_0x476fdb,reply:_0x559c0d,react:_0xc43c51,botFooter:_0x5a8095,botName:_0x1db050,GuruTechApi:_0x9446de,GuruApiKey:_0x5d86d6}=_0xe539e5,_0x18c352=normalizeUserJid(_0x40799f),_0x3d6411=await getUserEmailWithExpiry(_0x18c352);if(_0x3d6411){await _0xc43c51('⚠️');const _0x53d11e={};_0x53d11e[_0x975998(0x16c)]=_0x476fdb,await _0x17cffe[_0x975998(0xe4)+'e'](_0x47f9ce,{'text':_0x975998(0x1dd)+'EMAIL\x20EXIS'+_0x975998(0x130)+getUserName(_0x40799f)+(_0x975998(0x218)+'ady\x20have\x20a'+_0x975998(0x1f8)+_0x975998(0x163)+_0x975998(0x11a)+_0x975998(0x120))+_0x3d6411['email']+(_0x975998(0x111)+'s\x20in:*\x20')+_0x3d6411['timeRemain'+_0x975998(0x1c2)]+(_0x975998(0xe2)+_0x975998(0xe3)+_0x975998(0x157)+_0x975998(0x1c9)+_0x975998(0x1a9)+_0x975998(0x16f)+_0x975998(0x15e)+_0x975998(0x20c)+_0x975998(0xf7)+_0x975998(0x150)+_0x975998(0x1bc)+_0x975998(0x11e)+'mber>*\x20to\x20'+_0x975998(0x210)+'s'),'contextInfo':await getContextInfo([_0x40799f])},_0x53d11e);const _0x222d73={};_0x222d73[_0x975998(0x1b2)+'xt']=_0x975998(0x179)+'il',_0x222d73[_0x975998(0x1e4)]=_0x3d6411['email'],await sendButtons(_0x17cffe,_0x47f9ce,{'text':'📋\x20Copy\x20you'+_0x975998(0x21a),'footer':_0x5a8095,'buttons':[{'name':_0x975998(0x149),'buttonParamsJson':JSON['stringify'](_0x222d73)}]});return;}await _0xc43c51('⏳');try{const _0x231030={};_0x231030['apikey']=_0x5d86d6;const _0x4e727a={};_0x4e727a[_0x975998(0x1cf)]=_0x231030,_0x4e727a[_0x975998(0x173)]=0x7530;const _0x29cab8=await axios[_0x975998(0x216)](_0x9446de+(_0x975998(0x180)+_0x975998(0x1a4)+'te'),_0x4e727a);if(!_0x29cab8['data']?.[_0x975998(0x103)]||!_0x29cab8[_0x975998(0x16a)]?.[_0x975998(0x1ca)]?.['email'])return await _0xc43c51('❌'),_0x559c0d(_0x975998(0x228)+_0x975998(0x1a0)+_0x975998(0x14c)+_0x975998(0x1fc)+'\x20later.');const _0x2ef4d6=_0x29cab8[_0x975998(0x16a)][_0x975998(0x1ca)][_0x975998(0xed)];await setUserEmail(_0x18c352,_0x2ef4d6);const _0x2f4ed9={};_0x2f4ed9[_0x975998(0x16c)]=_0x476fdb,await _0x17cffe['sendMessag'+'e'](_0x47f9ce,{'text':_0x975998(0xfd)+_0x975998(0x198)+_0x975998(0xe7)+getUserName(_0x40799f)+(_0x975998(0xeb)+_0x975998(0x1af)+_0x975998(0xe1)+_0x975998(0x1c6))+_0x2ef4d6+(_0x975998(0x123)+'es\x20in:*\x20')+EXPIRY_MINUTES+(_0x975998(0x1dc)+_0x975998(0x11c)+'pinbox*\x20to'+_0x975998(0x219)+_0x975998(0x191)+'e\x20*.readma'+_0x975998(0x1f0)+_0x975998(0xf4)+'\x20specific\x20'+_0x975998(0xde)+'e\x20*.delmai'+_0x975998(0x1e0)+_0x975998(0x106)+_0x975998(0x13a)+_0x975998(0x1e7)+'mail\x20below'+'\x20and\x20use\x20i'+_0x975998(0x1b7)+_0x975998(0x1c4)),'contextInfo':await getContextInfo([_0x40799f])},_0x2f4ed9);const _0x3d2896={};_0x3d2896[_0x975998(0x1b2)+'xt']='📋\x20Copy\x20Ema'+'il',_0x3d2896[_0x975998(0x1e4)]=_0x2ef4d6,await sendButtons(_0x17cffe,_0x47f9ce,{'text':_0x975998(0x1bf)+_0x975998(0x21a),'footer':_0x5a8095,'buttons':[{'name':_0x975998(0x149),'buttonParamsJson':JSON[_0x975998(0x1ea)](_0x3d2896)}]}),await _0xc43c51('✅');}catch(_0x18c825){return console['error'](_0x975998(0x1df)+_0x975998(0x122)+'ror:',_0x18c825),await _0xc43c51('❌'),_0x559c0d(_0x975998(0x228)+_0x975998(0x1a0)+_0x975998(0x163)+'\x20'+_0x18c825[_0x975998(0x177)]);}});const a0_0x1a9a83={};a0_0x1a9a83[a0_0x50ef88(0x1b6)]=a0_0x50ef88(0x1ff),a0_0x1a9a83['aliases']=['checkinbox',a0_0x50ef88(0x185),'myinbox',a0_0x50ef88(0x108)+a0_0x50ef88(0x20d)],a0_0x1a9a83['react']='📥',a0_0x1a9a83[a0_0x50ef88(0x154)]='tempmail',a0_0x1a9a83[a0_0x50ef88(0x159)+'n']=a0_0x50ef88(0x214)+a0_0x50ef88(0x21d)+a0_0x50ef88(0xef)+a0_0x50ef88(0x124),gmd(a0_0x1a9a83,async(_0x1a107d,_0x3afacd,_0x5876c6)=>{const _0x5a2585=a0_0x50ef88,{sender:_0x491a14,mek:_0x69c12a,reply:_0x5cd958,react:_0x568a84,botFooter:_0x43c2ed,botName:_0x579a7a,GuruTechApi:_0x108c9c,GuruApiKey:_0xe1742a}=_0x5876c6,_0x4e67de=normalizeUserJid(_0x491a14),_0x19bf43=await getUserEmailWithExpiry(_0x4e67de);if(!_0x19bf43)return await _0x568a84('❌'),_0x5cd958(_0x5a2585(0x156)+getUserName(_0x491a14)+(_0x5a2585(0x132)+_0x5a2585(0x201)+_0x5a2585(0x199)+_0x5a2585(0x1e2)+_0x5a2585(0x15d)+_0x5a2585(0xec)+_0x5a2585(0x1c7)+_0x5a2585(0xf3)));const _0x299bf7=_0x19bf43[_0x5a2585(0xed)];await _0x568a84('⏳');try{const _0x1ab6a8={};_0x1ab6a8[_0x5a2585(0x203)]=_0xe1742a,_0x1ab6a8[_0x5a2585(0xed)]=_0x299bf7;const _0x4eaafd={};_0x4eaafd[_0x5a2585(0x1cf)]=_0x1ab6a8,_0x4eaafd[_0x5a2585(0x173)]=0x7530;const _0x5bef33=await axios[_0x5a2585(0x216)](_0x108c9c+(_0x5a2585(0x180)+_0x5a2585(0xf5)),_0x4eaafd);if(!_0x5bef33[_0x5a2585(0x16a)]?.[_0x5a2585(0x103)]){if(_0x5bef33[_0x5a2585(0x16a)]?.[_0x5a2585(0x177)]?.[_0x5a2585(0x119)](_0x5a2585(0x1ee))){await _0x568a84('📭');const _0x1697dd={};_0x1697dd[_0x5a2585(0x16c)]=_0x69c12a,await _0x3afacd[_0x5a2585(0xe4)+'e'](_0x1a107d,{'text':'📭\x20*EMPTY\x20I'+'NBOX*\x0a\x0aHey'+'\x20@'+getUserName(_0x491a14)+(_0x5a2585(0x19f)+_0x5a2585(0x14b)+_0x5a2585(0x1d1)+'Your\x20Email'+_0x5a2585(0x120))+_0x299bf7+(_0x5a2585(0x111)+_0x5a2585(0x14f))+_0x19bf43[_0x5a2585(0x137)+_0x5a2585(0x1c2)]+(_0x5a2585(0x1d4)+_0x5a2585(0x1d8)+_0x5a2585(0x209)+_0x5a2585(0x1ce)+'mail\x20and\x20t'+_0x5a2585(0x21e)),'contextInfo':await getContextInfo([_0x491a14])},_0x1697dd);const _0x1c865d={};_0x1c865d[_0x5a2585(0x1b2)+'xt']=_0x5a2585(0x179)+'il',_0x1c865d['copy_code']=_0x299bf7,await sendButtons(_0x3afacd,_0x1a107d,{'text':_0x5a2585(0x1bf)+_0x5a2585(0x21a),'footer':_0x43c2ed,'buttons':[{'name':_0x5a2585(0x149),'buttonParamsJson':JSON[_0x5a2585(0x1ea)](_0x1c865d)}]});return;}return await _0x568a84('❌'),_0x5cd958(_0x5a2585(0x228)+_0x5a2585(0x101)+_0x5a2585(0x1ec)+'ail\x20may\x20ha'+'ve\x20expired'+_0x5a2585(0xe0)+_0x5a2585(0x16f)+_0x5a2585(0x1f6)+'mpmail*');}const _0x4e58f8=_0x5bef33[_0x5a2585(0x16a)][_0x5a2585(0x1ca)];if(!_0x4e58f8||_0x4e58f8[_0x5a2585(0x148)]===0x0){await _0x568a84('📭');const _0x53c330={};_0x53c330[_0x5a2585(0x16c)]=_0x69c12a,await _0x3afacd[_0x5a2585(0xe4)+'e'](_0x1a107d,{'text':_0x5a2585(0xfb)+_0x5a2585(0x189)+'\x20@'+getUserName(_0x491a14)+(',\x20no\x20email'+_0x5a2585(0x14b)+_0x5a2585(0x1d1)+_0x5a2585(0x1b9)+':*\x20')+_0x299bf7+(_0x5a2585(0x111)+_0x5a2585(0x14f))+_0x19bf43[_0x5a2585(0x137)+'ing']+(_0x5a2585(0x1d4)+_0x5a2585(0x1d8)+_0x5a2585(0x209)+_0x5a2585(0x1ce)+_0x5a2585(0x11b)+'y\x20again._'),'contextInfo':await getContextInfo([_0x491a14])},_0x53c330);const _0xec314d={};_0xec314d[_0x5a2585(0x1b2)+'xt']=_0x5a2585(0x179)+'il',_0xec314d[_0x5a2585(0x1e4)]=_0x299bf7,await sendButtons(_0x3afacd,_0x1a107d,{'text':_0x5a2585(0x1bf)+_0x5a2585(0x109),'footer':_0x43c2ed,'buttons':[{'name':_0x5a2585(0x149),'buttonParamsJson':JSON[_0x5a2585(0x1ea)](_0xec314d)}]});return;}let _0x18f4b=_0x5a2585(0x1ad)+_0x5a2585(0x129)+_0x5a2585(0x225)+getUserName(_0x491a14)+(_0x5a2585(0x105)+'\x20*')+_0x4e58f8[_0x5a2585(0x148)]+('*\x20email(s)'+_0x5a2585(0x11a)+':*\x20')+_0x299bf7+(_0x5a2585(0x111)+_0x5a2585(0x14f))+_0x19bf43['timeRemain'+'ing']+'\x0a\x0a';_0x4e58f8[_0x5a2585(0x10a)]((_0x18c95d,_0x581877)=>{const _0x1be9b2=_0x5a2585,_0x4c756d=_0x581877+0x1,_0x50311f=_0x18c95d['from']||_0x18c95d['sender']||_0x1be9b2(0x1b3),_0x407d2f=_0x18c95d[_0x1be9b2(0x167)]||_0x1be9b2(0x169),_0x4ef661=_0x18c95d['date']||_0x18c95d[_0x1be9b2(0x227)]||'';_0x18f4b+=_0x1be9b2(0x128)+_0x1be9b2(0x140)+_0x1be9b2(0x162)+_0x4c756d+(_0x1be9b2(0x1ac)+'*\x20')+_0x50311f+(_0x1be9b2(0x21c)+_0x1be9b2(0x10d))+_0x407d2f+(_0x1be9b2(0x104)+'\x20')+_0x4ef661+'\x0a';}),_0x18f4b+=_0x5a2585(0x128)+_0x5a2585(0x195)+'📖\x20Use\x20*.re'+_0x5a2585(0x11e)+_0x5a2585(0x17b)+_0x5a2585(0x1e1)+_0x5a2585(0xed);const _0x523e0b={};_0x523e0b['quoted']=_0x69c12a,await _0x3afacd[_0x5a2585(0xe4)+'e'](_0x1a107d,{'text':_0x18f4b,'contextInfo':await getContextInfo([_0x491a14])},_0x523e0b);const _0x512563={};_0x512563[_0x5a2585(0x1b2)+'xt']=_0x5a2585(0x179)+'il',_0x512563[_0x5a2585(0x1e4)]=_0x299bf7,await sendButtons(_0x3afacd,_0x1a107d,{'text':_0x5a2585(0x1bf)+_0x5a2585(0x21a),'footer':_0x43c2ed,'buttons':[{'name':_0x5a2585(0x149),'buttonParamsJson':JSON['stringify'](_0x512563)}]}),await _0x568a84('✅');}catch(_0x5caa74){console['error'](_0x5a2585(0x1d3)+_0x5a2585(0x19e)+':',_0x5caa74),await _0x568a84('❌');if(_0x5caa74[_0x5a2585(0x177)]?.[_0x5a2585(0x119)](_0x5a2585(0x143))||_0x5caa74[_0x5a2585(0x116)]?.[_0x5a2585(0xe6)]===0x194)return _0x5cd958('Your\x20temp\x20'+_0x5a2585(0x215)+_0x5a2585(0x114)+_0x5a2585(0x1b0)+'new\x20one\x20wi'+_0x5a2585(0x138)+_0x5a2585(0x1a8));return _0x5cd958(_0x5a2585(0x228)+_0x5a2585(0x20b)+_0x5a2585(0x14d)+_0x5caa74[_0x5a2585(0x177)]);}});const a0_0x496fc5={};a0_0x496fc5[a0_0x50ef88(0x1b6)]=a0_0x50ef88(0x188),a0_0x496fc5[a0_0x50ef88(0xfa)]=[a0_0x50ef88(0x1d0),a0_0x50ef88(0x1e3),a0_0x50ef88(0x200)],a0_0x496fc5[a0_0x50ef88(0x164)]='📖',a0_0x496fc5['category']='tempmail',a0_0x496fc5[a0_0x50ef88(0x159)+'n']='Read\x20a\x20spe'+a0_0x50ef88(0x13f)+a0_0x50ef88(0x184)+'r',gmd(a0_0x496fc5,async(_0x396fcb,_0x3be396,_0x1a2e7c)=>{const _0x4d1b8e=a0_0x50ef88,{sender:_0xe9f11e,mek:_0x373cb4,reply:_0x144f7d,react:_0x1b6ae0,q:_0x10a93e,botFooter:_0x4bf205,botName:_0x50d220,GuruTechApi:_0x46f457,GuruApiKey:_0x5d6113}=_0x1a2e7c,_0x210e50=normalizeUserJid(_0xe9f11e),_0x1d419c=await getUserEmailWithExpiry(_0x210e50);if(!_0x1d419c)return await _0x1b6ae0('❌'),_0x144f7d(_0x4d1b8e(0x156)+getUserName(_0xe9f11e)+(_0x4d1b8e(0x132)+'t\x20have\x20an\x20'+_0x4d1b8e(0x199)+_0x4d1b8e(0x1e2)+'Use\x20*.temp'+_0x4d1b8e(0xec)+_0x4d1b8e(0x1c7)+_0x4d1b8e(0xf3)));const _0x59b624=_0x1d419c[_0x4d1b8e(0xed)],_0x41e0f5=parseInt(_0x10a93e?.['trim']());if(!_0x10a93e||isNaN(_0x41e0f5)||_0x41e0f5<0x1)return await _0x1b6ae0('❌'),_0x144f7d(_0x4d1b8e(0x156)+getUserName(_0xe9f11e)+(',\x20provide\x20'+_0x4d1b8e(0x146)+_0x4d1b8e(0x15b)+_0x4d1b8e(0x208)+_0x4d1b8e(0x17c)+_0x4d1b8e(0x15a)+'xample:\x20.r'+_0x4d1b8e(0x166)));await _0x1b6ae0('⏳');try{const _0x3ac73a={};_0x3ac73a[_0x4d1b8e(0x203)]=_0x5d6113,_0x3ac73a[_0x4d1b8e(0xed)]=_0x59b624;const _0x352932={};_0x352932[_0x4d1b8e(0x1cf)]=_0x3ac73a,_0x352932[_0x4d1b8e(0x173)]=0x7530;const _0x518da9=await axios['get'](_0x46f457+(_0x4d1b8e(0x180)+_0x4d1b8e(0xf5)),_0x352932);console[_0x4d1b8e(0x1aa)](_0x4d1b8e(0x181)+_0x4d1b8e(0x152)+_0x4d1b8e(0x10f)+'onse:',JSON[_0x4d1b8e(0x1ea)](_0x518da9[_0x4d1b8e(0x16a)],null,0x2));if(!_0x518da9['data']?.[_0x4d1b8e(0x103)]||!_0x518da9[_0x4d1b8e(0x16a)]?.[_0x4d1b8e(0x1ca)])return await _0x1b6ae0('❌'),_0x144f7d(_0x4d1b8e(0x228)+_0x4d1b8e(0x101)+_0x4d1b8e(0x1ec)+_0x4d1b8e(0x1a6)+_0x4d1b8e(0x1fb)+_0x4d1b8e(0xe0)+_0x4d1b8e(0x16f)+_0x4d1b8e(0x1f6)+'mpmail*');const _0xb2ab16=_0x518da9['data'][_0x4d1b8e(0x1ca)];if(!_0xb2ab16||_0xb2ab16[_0x4d1b8e(0x148)]===0x0)return await _0x1b6ae0('📭'),_0x144f7d(_0x4d1b8e(0x17f)+getUserName(_0xe9f11e)+(_0x4d1b8e(0xf1)+_0x4d1b8e(0x18b)+'y.'));if(_0x41e0f5>_0xb2ab16[_0x4d1b8e(0x148)])return await _0x1b6ae0('❌'),_0x144f7d('❌\x20Hey\x20@'+getUserName(_0xe9f11e)+(',\x20you\x20only'+'\x20have\x20')+_0xb2ab16[_0x4d1b8e(0x148)]+(_0x4d1b8e(0x165)+_0x4d1b8e(0x1a2)+_0x4d1b8e(0x126)+_0x4d1b8e(0x17a)+'l\x20')+_0xb2ab16['length']);const _0x3d0c3d=_0xb2ab16[_0x41e0f5-0x1];console['log'](_0x4d1b8e(0x181)+_0x4d1b8e(0x192)+_0x4d1b8e(0xf0)+_0x4d1b8e(0x147),JSON[_0x4d1b8e(0x1ea)](_0x3d0c3d,null,0x2)),console[_0x4d1b8e(0x1aa)](_0x4d1b8e(0x181)+_0x4d1b8e(0x12e)+'s:',Object[_0x4d1b8e(0x10c)](_0x3d0c3d));const _0x121391=_0x3d0c3d['id']||_0x3d0c3d[_0x4d1b8e(0x14a)]||_0x3d0c3d[_0x4d1b8e(0x176)]||_0x3d0c3d[_0x4d1b8e(0x1d2)];console[_0x4d1b8e(0x1aa)](_0x4d1b8e(0x181)+_0x4d1b8e(0x117)+_0x4d1b8e(0xdf),_0x121391);const _0x24409b=_0x3d0c3d[_0x4d1b8e(0x1eb)]||_0x3d0c3d[_0x4d1b8e(0x1de)]||_0x3d0c3d[_0x4d1b8e(0x20a)]||_0x4d1b8e(0x1b3),_0x2c1489=_0x3d0c3d[_0x4d1b8e(0x167)]||_0x4d1b8e(0x169);let _0x172a6c=_0x3d0c3d[_0x4d1b8e(0xf6)]||_0x3d0c3d[_0x4d1b8e(0x18d)]||_0x3d0c3d[_0x4d1b8e(0x1ef)]||_0x3d0c3d[_0x4d1b8e(0x177)]||_0x3d0c3d[_0x4d1b8e(0x19b)]||'';const _0x42fc77=_0x3d0c3d[_0x4d1b8e(0x20f)]||_0x3d0c3d[_0x4d1b8e(0x227)]||_0x3d0c3d['created_at']||'';if(_0x121391)try{console[_0x4d1b8e(0x1aa)]('[TempMail]'+_0x4d1b8e(0x196)+_0x4d1b8e(0x10e)+_0x4d1b8e(0x13c),_0x121391,_0x4d1b8e(0x1e9),_0x59b624);const _0x493fc2={};_0x493fc2[_0x4d1b8e(0x203)]=_0x5d6113,_0x493fc2[_0x4d1b8e(0xed)]=_0x59b624,_0x493fc2[_0x4d1b8e(0x176)]=_0x121391;const _0x3489f6={};_0x3489f6[_0x4d1b8e(0x1cf)]=_0x493fc2,_0x3489f6[_0x4d1b8e(0x173)]=0x7530;const _0x29f5de=await axios[_0x4d1b8e(0x216)](_0x46f457+(_0x4d1b8e(0x180)+_0x4d1b8e(0x1ba)+'e'),_0x3489f6);console[_0x4d1b8e(0x1aa)]('[TempMail]'+'\x20Full\x20mess'+_0x4d1b8e(0x220)+_0x4d1b8e(0x118),JSON['stringify'](_0x29f5de[_0x4d1b8e(0x16a)],null,0x2));if(_0x29f5de[_0x4d1b8e(0x16a)]?.[_0x4d1b8e(0x103)]&&_0x29f5de[_0x4d1b8e(0x16a)]?.[_0x4d1b8e(0x1ca)]){const _0x16ab94=_0x29f5de['data'][_0x4d1b8e(0x1ca)];console['log']('[TempMail]'+_0x4d1b8e(0x1f2)+_0x4d1b8e(0x187)+':',Object[_0x4d1b8e(0x10c)](_0x16ab94)),_0x172a6c=_0x16ab94[_0x4d1b8e(0xf6)]||_0x16ab94[_0x4d1b8e(0x18d)]||_0x16ab94[_0x4d1b8e(0x1ef)]||_0x16ab94[_0x4d1b8e(0x19b)]||_0x16ab94[_0x4d1b8e(0x1fe)]||_0x16ab94[_0x4d1b8e(0x177)]||_0x16ab94[_0x4d1b8e(0x13d)]||_0x172a6c;}}catch(_0x9b2860){console[_0x4d1b8e(0x205)](_0x4d1b8e(0x181)+_0x4d1b8e(0x204)+_0x4d1b8e(0x17e)+':',_0x9b2860[_0x4d1b8e(0x177)]),_0x9b2860[_0x4d1b8e(0x116)]?.[_0x4d1b8e(0x16a)]&&console[_0x4d1b8e(0x205)](_0x4d1b8e(0x181)+_0x4d1b8e(0x223)+_0x4d1b8e(0x12f)+_0x4d1b8e(0x1bb),JSON[_0x4d1b8e(0x1ea)](_0x9b2860[_0x4d1b8e(0x116)][_0x4d1b8e(0x16a)],null,0x2));}let _0x20b33f=_0x172a6c;_0x172a6c&&(_0x20b33f=_0x172a6c[_0x4d1b8e(0x15f)](/<[^>]*>/g,'\x20')['replace'](/\s+/g,'\x20')[_0x4d1b8e(0x197)]());(!_0x20b33f||_0x20b33f[_0x4d1b8e(0x148)]===0x0)&&(_0x20b33f=_0x4d1b8e(0x115)+_0x4d1b8e(0xf9)+_0x4d1b8e(0x12b)+'ontain\x20onl'+_0x4d1b8e(0x12c)+_0x4d1b8e(0x206)+_0x4d1b8e(0x207));const _0x296dbd=extractCode(_0x20b33f);let _0x292a2a=_0x4d1b8e(0xee)+_0x41e0f5+_0x4d1b8e(0x1f4)+getUserName(_0xe9f11e)+(_0x4d1b8e(0x1a1)+_0x4d1b8e(0xdd)+_0x4d1b8e(0x1f1)+'*\x20')+_0x24409b+(_0x4d1b8e(0x21c)+_0x4d1b8e(0x10d))+_0x2c1489+('\x0a📅\x20*Date:*'+'\x20')+_0x42fc77+(_0x4d1b8e(0x145)+_0x4d1b8e(0x128)+_0x4d1b8e(0x224)+'e:*\x0a\x0a')+_0x20b33f+(_0x4d1b8e(0x1cb)+_0x4d1b8e(0x1b1));const _0x49568f={};_0x49568f[_0x4d1b8e(0x16c)]=_0x373cb4,await _0x3be396[_0x4d1b8e(0xe4)+'e'](_0x396fcb,{'text':_0x292a2a,'contextInfo':await getContextInfo([_0xe9f11e])},_0x49568f),_0x296dbd&&await sendButtons(_0x3be396,_0x396fcb,{'text':_0x4d1b8e(0x121)+_0x4d1b8e(0x226)+_0x296dbd,'footer':_0x4bf205,'buttons':[{'name':_0x4d1b8e(0x149),'buttonParamsJson':JSON[_0x4d1b8e(0x1ea)]({'display_text':_0x4d1b8e(0x133)+'e','copy_code':_0x296dbd})}]}),await _0x1b6ae0('✅');}catch(_0x30f41b){return console[_0x4d1b8e(0x205)](_0x4d1b8e(0x181)+_0x4d1b8e(0x1b4)+_0x4d1b8e(0x135),_0x30f41b),await _0x1b6ae0('❌'),_0x144f7d(_0x4d1b8e(0x228)+_0x4d1b8e(0x210)+':\x20'+_0x30f41b[_0x4d1b8e(0x177)]);}});const a0_0x2b282a={};a0_0x2b282a[a0_0x50ef88(0x1b6)]=a0_0x50ef88(0x1a3),a0_0x2b282a[a0_0x50ef88(0xfa)]=[a0_0x50ef88(0x1f9),'deltempmai'+'l',a0_0x50ef88(0x18c)+a0_0x50ef88(0x11f),a0_0x50ef88(0x153)+a0_0x50ef88(0x20d),a0_0x50ef88(0x190)+a0_0x50ef88(0x11f)],a0_0x2b282a[a0_0x50ef88(0x164)]=a0_0x50ef88(0x1db),a0_0x2b282a[a0_0x50ef88(0x154)]=a0_0x50ef88(0x186),a0_0x2b282a['descriptio'+'n']='Delete\x20you'+a0_0x50ef88(0x172)+a0_0x50ef88(0x1e8),gmd(a0_0x2b282a,async(_0x23c0d5,_0xb2158f,_0x329b5b)=>{const _0x71c1db=a0_0x50ef88,{sender:_0x2ef8e1,reply:_0x4d4158,react:_0x4c0886}=_0x329b5b,_0x3ab5ee=normalizeUserJid(_0x2ef8e1),_0xa4debb=await getUserEmailWithExpiry(_0x3ab5ee);if(!_0xa4debb)return await _0x4c0886('❌'),_0x4d4158('❌\x20Hey\x20@'+getUserName(_0x2ef8e1)+(',\x20you\x20don\x27'+_0x71c1db(0x201)+_0x71c1db(0x199)+_0x71c1db(0x1e2)+_0x71c1db(0x15d)+_0x71c1db(0xec)+_0x71c1db(0x1c7)+'e.'));return await deleteUserEmail(_0x3ab5ee),await _0x4c0886('✅'),_0x4d4158(_0x71c1db(0x1cc)+getUserName(_0x2ef8e1)+(_0x71c1db(0xeb)+_0x71c1db(0x107))+_0xa4debb[_0x71c1db(0xed)]+(_0x71c1db(0x1bd)+_0x71c1db(0x1d5)+'\x0aUse\x20*.tem'+_0x71c1db(0x178)+'generate\x20a'+_0x71c1db(0x102)));});const a0_0x595d98={};a0_0x595d98[a0_0x50ef88(0x1b6)]='tempmailhe'+'lp',a0_0x595d98[a0_0x50ef88(0xfa)]=[a0_0x50ef88(0x158),a0_0x50ef88(0x1ed)],a0_0x595d98[a0_0x50ef88(0x164)]='❓',a0_0x595d98[a0_0x50ef88(0x154)]=a0_0x50ef88(0x186),a0_0x595d98[a0_0x50ef88(0x159)+'n']=a0_0x50ef88(0x1f5)+'empmail\x20co'+a0_0x50ef88(0x19d),gmd(a0_0x595d98,async(_0x1913bc,_0x34cd35,_0x4ea172)=>{const _0x1e2856=a0_0x50ef88,{sender:_0xe3f1d,reply:_0x57c6b4}=_0x4ea172,_0x1f792e=_0x1e2856(0x217)+_0x1e2856(0x1f3)+_0x1e2856(0x1f4)+getUserName(_0xe3f1d)+(',\x20here\x20are'+_0x1e2856(0x1cd)+_0x1e2856(0x1d9)+_0x1e2856(0x175)+_0x1e2856(0x142)+_0x1e2856(0xe8)+_0x1e2856(0x16d)+_0x1e2856(0x134)+_0x1e2856(0x1c3)+_0x1e2856(0x19a)+_0x1e2856(0x144)+_0x1e2856(0x20c)+'\x20/\x20.inbox\x20'+_0x1e2856(0x21b)+_0x1e2856(0x141)+_0x1e2856(0x139)+_0x1e2856(0x20e)+_0x1e2856(0x1ab)+_0x1e2856(0x131)+_0x1e2856(0x112)+_0x1e2856(0x202)+_0x1e2856(0x18f)+_0x1e2856(0x125)+_0x1e2856(0x14e)+_0x1e2856(0x16b)+_0x1e2856(0x100)+_0x1e2856(0x21f)+_0x1e2856(0x128)+_0x1e2856(0x221)+_0x1e2856(0x12a)+_0x1e2856(0x113)+_0x1e2856(0xfe)+'\x20email\x20wit'+_0x1e2856(0x151)+_0x1e2856(0x1c0)+'the\x20email\x20'+_0x1e2856(0x1be)+_0x1e2856(0x1d6)+'tion\x0a3.\x20Ch'+_0x1e2856(0x17d)+'with\x20.temp'+_0x1e2856(0x1c1)+_0x1e2856(0x1f7)+'\x20with\x20.rea'+_0x1e2856(0x1e6)+_0x1e2856(0x1ae)+',\x20etc.\x0a5.\x20'+_0x1e2856(0x10b)+'h\x20.delmail'+_0x1e2856(0x168)+_0x1e2856(0x16f)+_0x1e2856(0x136)+_0x1e2856(0x110)+'o-expire\x20a'+_0x1e2856(0x194))+EXPIRY_MINUTES+(_0x1e2856(0x127)+_0x1e2856(0x1da)+_0x1e2856(0x160)+_0x1e2856(0xea)+_0x1e2856(0x1d7));return _0x57c6b4(_0x1f792e);});
+
+const { gmd } = require("../guru");
+const axios = require("axios");
+const { sendButtons } = require("gifted-btns");
+const { getContextInfo } = require("../guru/contextInfo");
+const { getLidMapping } = require("../guru/connection/groupCache");
+const {
+    initTempMailDB,
+    setUserEmail,
+    getUserEmail,
+    getUserEmailWithExpiry,
+    deleteUserEmail,
+    EXPIRY_MINUTES,
+} = require("../guru/database/tempmail");
+
+initTempMailDB();
+
+function getUserName(jid) {
+    return jid.split("@")[0];
+}
+
+function normalizeUserJid(jid) {
+    if (!jid) return "";
+
+    if (jid.endsWith("@lid")) {
+        const mapped = getLidMapping(jid);
+        if (mapped) return mapped;
+    }
+
+    let normalized = jid.split(":")[0].split("/")[0];
+    if (!normalized.includes("@")) {
+        normalized += "@s.whatsapp.net";
+    }
+
+    if (normalized.endsWith("@lid")) {
+        const mapped = getLidMapping(normalized);
+        if (mapped) return mapped;
+    }
+
+    return normalized;
+}
+
+function extractCode(text) {
+    const codePatterns = [
+        /\b(\d{4,8})\b/,
+        /code[:\s]+(\d{4,8})/i,
+        /verification[:\s]+(\d{4,8})/i,
+        /otp[:\s]+(\d{4,8})/i,
+        /pin[:\s]+(\d{4,8})/i,
+    ];
+
+    for (const pattern of codePatterns) {
+        const match = text.match(pattern);
+        if (match) return match[1];
+    }
+    return null;
+}
+
+gmd(
+    {
+        pattern: "tempmail",
+        aliases: ["tempmailgen", "generatemail", "newmail", "getmail"],
+        react: "📧",
+        category: "tempmail",
+        description: "Generate a new temporary email address",
+    },
+    async (from, Guru, conText) => {
+        const {
+            sender,
+            mek,
+            reply,
+            react,
+            botFooter,
+            botName,
+            GuruTechApi,
+            GuruApiKey,
+        } = conText;
+
+        const userJid = normalizeUserJid(sender);
+
+        const existingData = await getUserEmailWithExpiry(userJid);
+        if (existingData) {
+            await react("⚠️");
+
+            await Guru.sendMessage(
+                from,
+                {
+                    text: `⚠️ *ACTIVE EMAIL EXISTS*
+
+Hey @${getUserName(sender)}, you already have an active temp email:
+
+📬 *Email:* ${existingData.email}
+⏰ *Expires in:* ${existingData.timeRemaining}
+
+Use *.delmail* first to delete it, then generate a new one.
+
+📥 Use *.tempinbox* to check messages
+📖 Use *.readmail <number>* to read emails`,
+                    contextInfo: await getContextInfo([sender]),
+                },
+                { quoted: mek },
+            );
+
+            await sendButtons(Guru, from, {
+                text: `📋 Copy your email`,
+                footer: botFooter,
+                buttons: [
+                    {
+                        name: "cta_copy",
+                        buttonParamsJson: JSON.stringify({
+                            display_text: "📋 Copy Email",
+                            copy_code: existingData.email,
+                        }),
+                    },
+                ],
+            });
+            return;
+        }
+
+        await react("⏳");
+
+        try {
+            const res = await axios.get(
+                `${GuruTechApi}/api/tempmail/generate`,
+                {
+                    params: { apikey: GuruApiKey },
+                    timeout: 30000,
+                },
+            );
+
+            if (!res.data?.success || !res.data?.result?.email) {
+                await react("❌");
+                return reply("Failed to generate temp email. Try again later.");
+            }
+
+            const email = res.data.result.email;
+            await setUserEmail(userJid, email);
+
+            await Guru.sendMessage(
+                from,
+                {
+                    text: `📧 *TEMP MAIL GENERATED*
+
+Hey @${getUserName(sender)}, your temporary email:
+
+📬 *Email:* ${email}
+
+⏰ *Expires in:* ${EXPIRY_MINUTES} minutes
+📥 Use *.tempinbox* to check messages
+📖 Use *.readmail <number>* to read specific email
+🗑️ Use *.delmail* to delete and create new
+
+_Copy the email below and use it for verification_`,
+                    contextInfo: await getContextInfo([sender]),
+                },
+                { quoted: mek },
+            );
+
+            await sendButtons(Guru, from, {
+                text: `📋 Copy your email`,
+                footer: botFooter,
+                buttons: [
+                    {
+                        name: "cta_copy",
+                        buttonParamsJson: JSON.stringify({
+                            display_text: "📋 Copy Email",
+                            copy_code: email,
+                        }),
+                    },
+                ],
+            });
+
+            await react("✅");
+        } catch (e) {
+            console.error("Tempmail generate error:", e);
+            await react("❌");
+            return reply("Failed to generate temp email: " + e.message);
+        }
+    },
+);
+
+gmd(
+    {
+        pattern: "tempinbox",
+        aliases: ["checkinbox", "inbox", "myinbox", "checktempmail"],
+        react: "📥",
+        category: "tempmail",
+        description: "Check inbox of your generated temp email",
+    },
+    async (from, Guru, conText) => {
+        const {
+            sender,
+            mek,
+            reply,
+            react,
+            botFooter,
+            botName,
+            GuruTechApi,
+            GuruApiKey,
+        } = conText;
+
+        const userJid = normalizeUserJid(sender);
+
+        const emailData = await getUserEmailWithExpiry(userJid);
+        if (!emailData) {
+            await react("❌");
+            return reply(
+                `❌ Hey @${getUserName(sender)}, you don't have an active temp email.\n\nUse *.tempmail* to generate one first.`,
+            );
+        }
+
+        const email = emailData.email;
+        await react("⏳");
+
+        try {
+            const res = await axios.get(`${GuruTechApi}/api/tempmail/inbox`, {
+                params: { apikey: GuruApiKey, email: email },
+                timeout: 30000,
+            });
+
+            if (!res.data?.success) {
+                if (res.data?.message?.includes("No Emails")) {
+                    await react("📭");
+
+                    await Guru.sendMessage(
+                        from,
+                        {
+                            text: `📭 *EMPTY INBOX*
+
+Hey @${getUserName(sender)}, no emails received yet.
+
+📬 *Your Email:* ${email}
+⏰ *Expires in:* ${emailData.timeRemaining}
+
+_Wait a few seconds after sending an email and try again._`,
+                            contextInfo: await getContextInfo([sender]),
+                        },
+                        { quoted: mek },
+                    );
+
+                    await sendButtons(Guru, from, {
+                        text: `📋 Copy your email`,
+                        footer: botFooter,
+                        buttons: [
+                            {
+                                name: "cta_copy",
+                                buttonParamsJson: JSON.stringify({
+                                    display_text: "📋 Copy Email",
+                                    copy_code: email,
+                                }),
+                            },
+                        ],
+                    });
+                    return;
+                }
+                await react("❌");
+                return reply(
+                    "Failed to fetch inbox. Your email may have expired. Generate a new one with *.tempmail*",
+                );
+            }
+
+            const emails = res.data.result;
+            if (!emails || emails.length === 0) {
+                await react("📭");
+
+                await Guru.sendMessage(
+                    from,
+                    {
+                        text: `📭 *EMPTY INBOX*
+
+Hey @${getUserName(sender)}, no emails received yet.
+
+📬 *Your Email:* ${email}
+⏰ *Expires in:* ${emailData.timeRemaining}
+
+_Wait a few seconds after sending an email or try again._`,
+                        contextInfo: await getContextInfo([sender]),
+                    },
+                    { quoted: mek },
+                );
+
+                await sendButtons(Guru, from, {
+                    text: `📋 Copy your email:`,
+                    footer: botFooter,
+                    buttons: [
+                        {
+                            name: "cta_copy",
+                            buttonParamsJson: JSON.stringify({
+                                display_text: "📋 Copy Email",
+                                copy_code: email,
+                            }),
+                        },
+                    ],
+                });
+                return;
+            }
+
+            let inboxText = `📥 *TEMP MAIL INBOX*
+
+Hey @${getUserName(sender)}, you have *${emails.length}* email(s)
+
+📬 *Email:* ${email}
+⏰ *Expires in:* ${emailData.timeRemaining}
+
+`;
+
+            emails.forEach((mail, index) => {
+                const num = index + 1;
+                const from_addr = mail.from || mail.sender || "Unknown";
+                const subject = mail.subject || "No Subject";
+                const date = mail.date || mail.received || "";
+
+                inboxText += `━━━━━━━━━━━━━━━━━━
+📩 *#${num}*
+👤 *From:* ${from_addr}
+📋 *Subject:* ${subject}
+📅 *Date:* ${date}
+`;
+            });
+
+            inboxText += `━━━━━━━━━━━━━━━━━━
+
+📖 Use *.readmail <number>* to read full email`;
+
+            await Guru.sendMessage(
+                from,
+                {
+                    text: inboxText,
+                    contextInfo: await getContextInfo([sender]),
+                },
+                { quoted: mek },
+            );
+
+            await sendButtons(Guru, from, {
+                text: `📋 Copy your email`,
+                footer: botFooter,
+                buttons: [
+                    {
+                        name: "cta_copy",
+                        buttonParamsJson: JSON.stringify({
+                            display_text: "📋 Copy Email",
+                            copy_code: email,
+                        }),
+                    },
+                ],
+            });
+
+            await react("✅");
+        } catch (e) {
+            console.error("Tempmail inbox error:", e);
+            await react("❌");
+            if (e.message?.includes("expired") || e.response?.status === 404) {
+                return reply(
+                    "Your temp email has expired. Generate a new one with *.tempmail*",
+                );
+            }
+            return reply("Failed to check inbox: " + e.message);
+        }
+    },
+);
+
+gmd(
+    {
+        pattern: "readmail",
+        aliases: ["getmsg", "viewmail", "openmail"],
+        react: "📖",
+        category: "tempmail",
+        description: "Read a specific email by number",
+    },
+    async (from, Guru, conText) => {
+        const {
+            sender,
+            mek,
+            reply,
+            react,
+            q,
+            botFooter,
+            botName,
+            GuruTechApi,
+            GuruApiKey,
+        } = conText;
+
+        const userJid = normalizeUserJid(sender);
+
+        const emailData = await getUserEmailWithExpiry(userJid);
+        if (!emailData) {
+            await react("❌");
+            return reply(
+                `❌ Hey @${getUserName(sender)}, you don't have an active temp email.\n\nUse *.tempmail* to generate one first.`,
+            );
+        }
+
+        const email = emailData.email;
+        const mailNum = parseInt(q?.trim());
+        if (!q || isNaN(mailNum) || mailNum < 1) {
+            await react("❌");
+            return reply(
+                `❌ Hey @${getUserName(sender)}, provide a valid email number.\n\nUsage: .readmail <number>\nExample: .readmail 1`,
+            );
+        }
+
+        await react("⏳");
+
+        try {
+            const inboxRes = await axios.get(
+                `${GuruTechApi}/api/tempmail/inbox`,
+                {
+                    params: { apikey: GuruApiKey, email: email },
+                    timeout: 30000,
+                },
+            );
+
+            console.log(
+                "[TempMail] Full inbox API response:",
+                JSON.stringify(inboxRes.data, null, 2),
+            );
+
+            if (!inboxRes.data?.success || !inboxRes.data?.result) {
+                await react("❌");
+                return reply(
+                    "Failed to fetch inbox. Your email may have expired. Generate a new one with *.tempmail*",
+                );
+            }
+
+            const emails = inboxRes.data.result;
+            if (!emails || emails.length === 0) {
+                await react("📭");
+                return reply(
+                    `📭 Hey @${getUserName(sender)}, your inbox is empty.`,
+                );
+            }
+
+            if (mailNum > emails.length) {
+                await react("❌");
+                return reply(
+                    `❌ Hey @${getUserName(sender)}, you only have ${emails.length} email(s).\n\nUse: .readmail 1 to .readmail ${emails.length}`,
+                );
+            }
+
+            const targetMail = emails[mailNum - 1];
+            console.log(
+                "[TempMail] Selected email object:",
+                JSON.stringify(targetMail, null, 2),
+            );
+            console.log("[TempMail] Email keys:", Object.keys(targetMail));
+
+            const messageId =
+                targetMail.id ||
+                targetMail.mail_id ||
+                targetMail.message_id ||
+                targetMail.messageId;
+            console.log("[TempMail] Message ID found:", messageId);
+
+            const from_addr =
+                targetMail.from ||
+                targetMail.sender ||
+                targetMail.from_email ||
+                "Unknown";
+            const subject = targetMail.subject || "No Subject";
+            let body =
+                targetMail.body ||
+                targetMail.text ||
+                targetMail.content ||
+                targetMail.message ||
+                targetMail.textBody ||
+                "";
+            const date =
+                targetMail.date ||
+                targetMail.received ||
+                targetMail.created_at ||
+                "";
+
+            if (messageId) {
+                try {
+                    console.log(
+                        "[TempMail] Fetching message with ID:",
+                        messageId,
+                        "for email:",
+                        email,
+                    );
+                    const msgRes = await axios.get(
+                        `${GuruTechApi}/api/tempmail/message`,
+                        {
+                            params: {
+                                apikey: GuruApiKey,
+                                email: email,
+                                message_id: messageId,
+                            },
+                            timeout: 30000,
+                        },
+                    );
+
+                    console.log(
+                        "[TempMail] Full message API response:",
+                        JSON.stringify(msgRes.data, null, 2),
+                    );
+
+                    if (msgRes.data?.success && msgRes.data?.result) {
+                        const mail = msgRes.data.result;
+                        console.log(
+                            "[TempMail] Message result keys:",
+                            Object.keys(mail),
+                        );
+                        body =
+                            mail.body ||
+                            mail.text ||
+                            mail.content ||
+                            mail.textBody ||
+                            mail.htmlBody ||
+                            mail.message ||
+                            mail.html ||
+                            body;
+                    }
+                } catch (msgErr) {
+                    console.error(
+                        "[TempMail] Message fetch error:",
+                        msgErr.message,
+                    );
+                    if (msgErr.response?.data) {
+                        console.error(
+                            "[TempMail] Message error response:",
+                            JSON.stringify(msgErr.response.data, null, 2),
+                        );
+                    }
+                }
+            }
+
+            let cleanBody = body;
+            if (body) {
+                cleanBody = body
+                    .replace(/<[^>]*>/g, " ")
+                    .replace(/\s+/g, " ")
+                    .trim();
+            }
+
+            if (!cleanBody || cleanBody.length === 0) {
+                cleanBody =
+                    "(No text content - email may contain only images or attachments)";
+            }
+
+            const code = extractCode(cleanBody);
+
+            let messageText = `📧 *EMAIL #${mailNum}*
+
+Hey @${getUserName(sender)}, here's your email:
+
+👤 *From:* ${from_addr}
+📋 *Subject:* ${subject}
+📅 *Date:* ${date}
+
+━━━━━━━━━━━━━━━━━━
+📝 *Message:*
+
+${cleanBody}
+━━━━━━━━━━━━━━━━━━`;
+
+            await Guru.sendMessage(
+                from,
+                {
+                    text: messageText,
+                    contextInfo: await getContextInfo([sender]),
+                },
+                { quoted: mek },
+            );
+
+            if (code) {
+                await sendButtons(Guru, from, {
+                    text: `🔐 *Code Found* ${code}`,
+                    footer: botFooter,
+                    buttons: [
+                        {
+                            name: "cta_copy",
+                            buttonParamsJson: JSON.stringify({
+                                display_text: "📋 Copy Code",
+                                copy_code: code,
+                            }),
+                        },
+                    ],
+                });
+            }
+
+            await react("✅");
+        } catch (e) {
+            console.error("[TempMail] Readmail error:", e);
+            await react("❌");
+            return reply("Failed to read email: " + e.message);
+        }
+    },
+);
+
+gmd(
+    {
+        pattern: "delmail",
+        aliases: [
+            "deletemail",
+            "deltempmail",
+            "deletetempmail",
+            "cleartempmail",
+            "removetempmail",
+        ],
+        react: "🗑️",
+        category: "tempmail",
+        description: "Delete your stored temp email",
+    },
+    async (from, Guru, conText) => {
+        const { sender, reply, react } = conText;
+
+        const userJid = normalizeUserJid(sender);
+
+        const emailData = await getUserEmailWithExpiry(userJid);
+        if (!emailData) {
+            await react("❌");
+            return reply(
+                `❌ Hey @${getUserName(sender)}, you don't have an active temp email.\n\nUse *.tempmail* to generate one.`,
+            );
+        }
+
+        await deleteUserEmail(userJid);
+        await react("✅");
+        return reply(
+            `✅ Hey @${getUserName(sender)}, your temp email *${emailData.email}* has been deleted.\n\nUse *.tempmail* to generate a new one.`,
+        );
+    },
+);
+
+gmd(
+    {
+        pattern: "tempmailhelp",
+        aliases: ["temphelp", "mailhelp"],
+        react: "❓",
+        category: "tempmail",
+        description: "Show all tempmail commands",
+    },
+    async (from, Guru, conText) => {
+        const { sender, reply } = conText;
+
+        const helpText = `📧 *TEMPMAIL COMMANDS*
+
+Hey @${getUserName(sender)}, here are the temp mail commands:
+
+*Generate new email:*
+.tempmail / .tempmailgen / .newmail
+
+*Check inbox:*
+.tempinbox / .inbox / .checkinbox
+
+*Read specific email:*
+.readmail <number>
+.viewmail <number>
+
+*Delete your email:*
+.delmail / .deltempmail / .deletemail
+
+━━━━━━━━━━━━━━━━━━
+📌 *How to use:*
+1. Generate a temp email with .tempmail
+2. Copy the email and use for verification
+3. Check inbox with .tempinbox
+4. Read emails with .readmail 1, .readmail 2, etc.
+5. Delete with .delmail to create a new one
+
+⏰ _Temp emails auto-expire after ${EXPIRY_MINUTES} minutes_
+📍 _Your email works across all chats_`;
+
+        return reply(helpText);
+    },
+);

@@ -1,1 +1,308 @@
-function a0_0x48da(){const _0x3dd25a=['Dg9mB3DLCKnHCW','CYb1CgrHDgvZiq','EsKUifvZzsaNyq','nJGZntu3nZnaBG','ywXS','iZm0qJDgmq','Dg9tDhjPBMC','mtK4ntfvAhLKtMC','ig9YigjVDcbPCW','CYbHBgWGy2fWDa','y2f0zwDVCNK','zM9YBwf0','CMvTB3rLsMLK','yxvKAw8VB2DNoW','Bwf4','C3rYzwfT','D2HPDgu','mtb5te5IuNu','4P2mifrOAxmGy29T','BMv3C2XLDhrLCG','DMLKzw9nzxnZyq','Cg9W','Dg9vChbLCKnHCW','yMX1zq','4P2mifn0yxr1CYbL','C2XPy2u','DxbKyxrLtwvKAq','yxvKAw9nzxnZyq','C3rHBNPHswq','z3jLzw4','B18kcG','CZe2Bgu','C3rHDhvZqgjYBW','AM9PBG','Cgf0Aw5N','A2v5','BgLIB3b1CW','u2vUzcb0zxH0ia','ywrJyxn0','i0zgrKzgrG','z3jHEq','yu1LC3nHz2u','C3DNyW','DdOG','y29UC3rYDwn0BW','igDYB3vWicHVDW','zxDZBgv0DgvYtq','CMvHy3q','ChvZAa','zxH0zw5Kzwruzq','kv8k','4P2mieLUDMfSAwqG','zsOkcG','qhDOAxnRzxLZBW','D29YA3mGAw4GzW','zw5JEq','C3bSAxq','mteWmJKZntjXrevPq0S','iZLdmJDcma','zcbPBIbNCM91Ca','yxrH','ndq0otu1ohvLEuLUtG','otmYodqZn1rUu0rrDW','C3vIAMvJDa','kgfKBwLUig9UBa','BguSigDYyxKSia','mJjKBNHothm','CxvLC3q','DguSign5yw4','BgvUz3rO','DMLKzw8','y29SB3jGcG','zM9YD2fYzgLUzW','Dg9ZDgf0Dxm','ihn0yxr1CYbZzq','4PYficPhCM91CcbZ','y29UDgv4DeLUzG','zxiGB25SEsdIGjqG','w3rVz3n0yxr1CW','BgL2zxjLzcb0BW','yNvMzMvY','x1jLCgX5ihrVia','yMfZzty0','zg93BMXVywrnzq','Cgf0DgvYBG','CxvVDgvKtwvZCW','ywXPyxnLCW','BwvZC2fNzq','zMLUza','ie1e','z3jVDxbgzxrJAa','mJCXnJm2oeDqq2DWua','CM91CdOGkG','C2vUze1LC3nHzW','CMv1CgXVywrszq','Dg9NC3rHDhvZ','igDYB3vWC+kaPIO','B3vWCZOG','kcGOlISPkYKRkq','yc50B2DZDgf0Dq','8j+tNsaQr3jVDxaGuW','A2v5CW','BgWNihrVihbVCW','sMLK','zNjVBq','CgLWzq','Dgf0DxmGvxnHzW','ndC2q3LKDu56','tMfTzq','CMvHzeLUDde2ta','DhjPBq','Aw1Hz2u','lI4Vz3vYDq','C3rHDhvZsMLKta','y2fWDgLVBG','BMvYig9UBhKPlG','yMXHy2S','yxvKAw9gCMvXDq','4P2mifvUC3vWCg9Y','EwvSBg93','mtaWntC0m0LXruj0tq','zwXZ','zMXVB3i','zgvVic8GyxvKAq','zMX1zw50lwzMBq','CMvWBgfJzq','z3jVDxbhzxrjBG','CgfYDgLJAxbHBG','n0jAt1jhBa','B3jHBMDL','BM9wAwrLBW','z3jVDxa','zgf0yq','nxLgDezura','zgLVigfZigDYBW','ywrTAw4','yxvKAw8','zgLHtwvZC2fNzq','DxaGywrTAw5Zia','iZaWmdaWma','i0zgoemWma','zxnZywDLsw5MBW','8j+tOIaQqNjVywrJyq','mtiWmZyZnda4nG','DxaGC3rHDhvZia','y29Uy2f0','DML0zuLUzM8','ywDLlcb2AwrLBW','CgvN','Esb0BYbHBIbPBq','C3rHCNrZv2L0Aa','DgvKig1LzgLHia','vuXuuKeGr1vsvq','mJa4otu1ntjlzeXgB2O','yxvKAw9dAgfUBG','DcbMzxrJAcbNCG','BwfUzcbVBMX5ia','z3jVDxbnzxrHza','iZi1rdm2nG','CMvK','CNjVCJOk','DhLWzs4GuMvWBa','CYbJyxb0Aw9UFa','lcbVCIbHDwrPBW','Dcb0BYbLDMvYEq','zwvUlcb5zwXSBW','yxbWBhK','8j+oQcaQq29SB3jZoG','zw5K','4P2mie9UBhKGz3jV','y3LHBG','i0zgrdCWma','y2TLDhmVyMfPBa','Aw5KzxHpzG','Dgv4Da','CM91CcbZDgf0Dq','qwXSugfYDgLJAq','BwvUDgLVBMvKsG','4P2mienVDwXKig5V','yMXHy2SSihDOAq','y2fUihbVC3qGzW','BwfW','C2vHCMnO','zxjYB3i','CM91ChmH','zxLZ','ignVzgvJCZ1VCa','yxvKAw9dB2rLyW','kGPIBhvLlcbNCG','Aw1Hz2uGlYb2Aq','Dgf0DxmGCg9ZDa','Aw1Hz2vnzxnZyq','zM9YD2fYzgvKtG','DYWGB3jHBMDLla'];a0_0x48da=function(){return _0x3dd25a;};return a0_0x48da();}function a0_0x1d3c(_0xa8655f,_0x56a796){_0xa8655f=_0xa8655f-0x11f;const _0x5f0189=a0_0x48da();let _0x591729=_0x5f0189[_0xa8655f];if(a0_0x1d3c['FXdaaV']===undefined){var _0xccd286=function(_0x423440){const _0x163b1f='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _0x469ea3='',_0x23dbb5='',_0x2c1964=_0x469ea3+_0xccd286,_0xbb04b7=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x950847=0x0,_0x110b5e,_0x42aeb8,_0x5f1416=0x0;_0x42aeb8=_0x423440['charAt'](_0x5f1416++);~_0x42aeb8&&(_0x110b5e=_0x950847%0x4?_0x110b5e*0x40+_0x42aeb8:_0x42aeb8,_0x950847++%0x4)?_0x469ea3+=_0xbb04b7||_0x2c1964['charCodeAt'](_0x5f1416+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x110b5e>>(-0x2*_0x950847&0x6)):_0x950847:0x0){_0x42aeb8=_0x163b1f['indexOf'](_0x42aeb8);}for(let _0x1c7c4a=0x0,_0x583b8f=_0x469ea3['length'];_0x1c7c4a<_0x583b8f;_0x1c7c4a++){_0x23dbb5+='%'+('00'+_0x469ea3['charCodeAt'](_0x1c7c4a)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x23dbb5);};a0_0x1d3c['VweSqp']=_0xccd286,a0_0x1d3c['IfRGIb']={},a0_0x1d3c['FXdaaV']=!![];}const _0x48daed=_0x5f0189[0x0],_0x1d3ced=_0xa8655f+_0x48daed,_0x16756c=a0_0x1d3c['IfRGIb'][_0x1d3ced];if(!_0x16756c){const _0x393e73=function(_0x536b7d){this['opPzVY']=_0x536b7d,this['HguJTr']=[0x1,0x0,0x0],this['bHrVJH']=function(){return'newState';},this['VileBt']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['AJyZfF']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0x393e73['prototype']['TRukfk']=function(){const _0xc23b70=new RegExp(this['VileBt']+this['AJyZfF']),_0x12c2d1=_0xc23b70['test'](this['bHrVJH']['toString']())?--this['HguJTr'][0x1]:--this['HguJTr'][0x0];return this['OQpnFD'](_0x12c2d1);},_0x393e73['prototype']['OQpnFD']=function(_0x5abab9){if(!Boolean(~_0x5abab9))return _0x5abab9;return this['mTJBeF'](this['opPzVY']);},_0x393e73['prototype']['mTJBeF']=function(_0x3796d1){for(let _0x32c1db=0x0,_0x2f601b=this['HguJTr']['length'];_0x32c1db<_0x2f601b;_0x32c1db++){this['HguJTr']['push'](Math['round'](Math['random']())),_0x2f601b=this['HguJTr']['length'];}return _0x3796d1(this['HguJTr'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x393e73(a0_0x1d3c)['TRukfk'](),_0x591729=a0_0x1d3c['VweSqp'](_0x591729),a0_0x1d3c['IfRGIb'][_0x1d3ced]=_0x591729;}else _0x591729=_0x16756c;return _0x591729;}const a0_0x5ab7c9=a0_0x1d3c;(function(_0x542ba7,_0x502514){const _0x9e89f4=a0_0x1d3c,_0x307c41=_0x542ba7();while(!![]){try{const _0x4399de=-parseInt(_0x9e89f4(0x14a))/0x1+-parseInt(_0x9e89f4(0x12d))/0x2+parseInt(_0x9e89f4(0x19b))/0x3*(parseInt(_0x9e89f4(0x13d))/0x4)+-parseInt(_0x9e89f4(0x157))/0x5*(parseInt(_0x9e89f4(0x1d1))/0x6)+parseInt(_0x9e89f4(0x152))/0x7*(-parseInt(_0x9e89f4(0x1cd))/0x8)+-parseInt(_0x9e89f4(0x1d2))/0x9*(-parseInt(_0x9e89f4(0x1a5))/0xa)+parseInt(_0x9e89f4(0x1d6))/0xb*(parseInt(_0x9e89f4(0x16b))/0xc);if(_0x4399de===_0x502514)break;else _0x307c41['push'](_0x307c41['shift']());}catch(_0x42cd74){_0x307c41['push'](_0x307c41['shift']());}}}(a0_0x48da,0xc8c2f));const a0_0xccd286=(function(){let _0x2f601b=!![];return function(_0x50ba4c,_0x26e5e8){const _0x3614ca=_0x2f601b?function(){const _0x15cc67=a0_0x1d3c;if(_0x26e5e8){const _0x23991e=_0x26e5e8[_0x15cc67(0x178)](_0x50ba4c,arguments);return _0x26e5e8=null,_0x23991e;}}:function(){};return _0x2f601b=![],_0x3614ca;};}()),a0_0x591729=a0_0xccd286(this,function(){const _0x4894f8=a0_0x1d3c;if(a0_0x591729['bind']()[_0x4894f8(0x19a)]()[_0x4894f8(0x17f)]('\x0a')!==-0x1)return;return a0_0x591729['toString']()[_0x4894f8(0x188)](_0x4894f8(0x134)+'+$')[_0x4894f8(0x19a)]()[_0x4894f8(0x1c0)+'r'](a0_0x591729)['search'](_0x4894f8(0x134)+'+$');});a0_0x591729();'use strict';const ffmpeg=require(a0_0x5ab7c9(0x14e)+a0_0x5ab7c9(0x166)),{PassThrough}=require(a0_0x5ab7c9(0x1a3)),baileys=require(a0_0x5ab7c9(0x1c9)+a0_0x5ab7c9(0x17e)+a0_0x5ab7c9(0x18b)),{gmd}=require(a0_0x5ab7c9(0x142)),a0_0xbb04b7={};a0_0xbb04b7['blue']=a0_0x5ab7c9(0x199),a0_0xbb04b7[a0_0x5ab7c9(0x1b1)]=a0_0x5ab7c9(0x170),a0_0xbb04b7[a0_0x5ab7c9(0x149)]=a0_0x5ab7c9(0x17d),a0_0xbb04b7[a0_0x5ab7c9(0x153)]=a0_0x5ab7c9(0x15e),a0_0xbb04b7[a0_0x5ab7c9(0x171)]='#FF3B30',a0_0xbb04b7['purple']=a0_0x5ab7c9(0x1ce),a0_0xbb04b7[a0_0x5ab7c9(0x1bc)]='#9E9E9E',a0_0xbb04b7[a0_0x5ab7c9(0x146)]=a0_0x5ab7c9(0x15d),a0_0xbb04b7[a0_0x5ab7c9(0x1a4)]=a0_0x5ab7c9(0x1bb),a0_0xbb04b7[a0_0x5ab7c9(0x17c)]='#00BCD4';const COLORS=a0_0xbb04b7,a0_0x950847={};a0_0x950847[a0_0x5ab7c9(0x126)]=a0_0x5ab7c9(0x131),a0_0x950847[a0_0x5ab7c9(0x128)]=[a0_0x5ab7c9(0x1be),'groupstatu'+'s',a0_0x5ab7c9(0x1dd),'postgroups'],a0_0x950847[a0_0x5ab7c9(0x1c3)]='📡',a0_0x950847[a0_0x5ab7c9(0x19e)]=a0_0x5ab7c9(0x155),a0_0x950847['descriptio'+'n']=a0_0x5ab7c9(0x1b9)+'/\x20image\x20/\x20'+'video\x20/\x20au'+a0_0x5ab7c9(0x158)+a0_0x5ab7c9(0x162)+a0_0x5ab7c9(0x1d4)+a0_0x5ab7c9(0x196)+a0_0x5ab7c9(0x138)+a0_0x5ab7c9(0x176)+a0_0x5ab7c9(0x1c1)+a0_0x5ab7c9(0x145),gmd(a0_0x950847,async(_0x572e35,_0xe8158e,_0x450e04)=>{const _0x5466f9=a0_0x5ab7c9,{reply:_0x546111,react:_0x1f9934,mek:_0x58fd6b,isGroup:_0x1192d5,isSuperUser:_0x2abf07,newsletterJid:_0x4e26db,botName:_0x434d12,botFooter:_0xee2559,botPrefix:_0x1ec2b2}=_0x450e04;if(!_0x1192d5)return _0x546111(_0x5466f9(0x1a6)+_0x5466f9(0x16e)+_0x5466f9(0x1ca)+_0x5466f9(0x18a));const _0xf24c6b={};_0xf24c6b[_0x5466f9(0x1a7)+_0x5466f9(0x139)]=_0x4e26db||_0x5466f9(0x161)+_0x5466f9(0x197)+'ewsletter',_0xf24c6b[_0x5466f9(0x1a7)+_0x5466f9(0x13e)]=_0x434d12||_0x5466f9(0x16a)+_0x5466f9(0x12b),_0xf24c6b['serverMess'+'ageId']=0x8f;const _0x438431={};_0x438431[_0x5466f9(0x1dc)+'Score']=0x3e7,_0x438431['isForwarde'+'d']=!![],_0x438431[_0x5466f9(0x192)+_0x5466f9(0x1c2)+_0x5466f9(0x15f)]=_0xf24c6b,_0x438431[_0x5466f9(0x183)+'id']=[_0x58fd6b[_0x5466f9(0x1b7)]['participan'+'t']||_0x572e35];const _0x20e692=_0x438431,_0x4846d7={};_0x4846d7['quoted']=_0x58fd6b;const _0x4e5f89=_0x2b68e5=>_0xe8158e[_0x5466f9(0x12f)+'e'](_0x572e35,{'text':_0x2b68e5,'contextInfo':_0x20e692},_0x4846d7);try{const _0x17d4a7=await _0xe8158e[_0x5466f9(0x16f)+_0x5466f9(0x1d0)](_0x572e35),_0x29ead3=_0x58fd6b[_0x5466f9(0x1b7)][_0x5466f9(0x151)+'t']||_0x572e35,_0x264774=_0x17d4a7[_0x5466f9(0x151)+'ts'][_0x5466f9(0x12a)](_0x9ccfe8=>_0x9ccfe8['id']===_0x29ead3),_0x7e30e4=_0x264774?.[_0x5466f9(0x159)]===_0x5466f9(0x159)||_0x264774?.[_0x5466f9(0x159)]==='superadmin';if(!_0x7e30e4&&!_0x2abf07)return _0x4e5f89(_0x5466f9(0x17b)+_0x5466f9(0x15c)+_0x5466f9(0x186)+_0x5466f9(0x181)+_0x5466f9(0x195));const _0x3d1408=_0x450e04['args'][_0x5466f9(0x1b5)]('\x20')[_0x5466f9(0x140)](),_0x4720c2=_0x3d1408[_0x5466f9(0x194)+'e']()[_0x5466f9(0x168)](_0x5466f9(0x198))&&_0x2abf07,_0x2d6f8e=_0x4720c2?_0x3d1408[_0x5466f9(0x1ad)](0x3)[_0x5466f9(0x140)]():_0x3d1408;let [_0x57fa6d,_0x335627,_0x216834]=_0x2d6f8e[_0x5466f9(0x1cc)]('|')[_0x5466f9(0x187)](_0x2071fa=>_0x2071fa?.[_0x5466f9(0x140)]()),_0x1a5a38=_0x572e35;if(_0x216834)try{const _0x350d70=_0x216834[_0x5466f9(0x1cc)]('/')[_0x5466f9(0x1a9)]()[_0x5466f9(0x1cc)]('?')[0x0],_0xb72a66=await _0xe8158e[_0x5466f9(0x150)+_0x5466f9(0x164)](_0x350d70);_0x1a5a38=_0xb72a66['id'],await _0x4e5f89('🎯\x20Target\x20g'+_0x5466f9(0x12e)+_0xb72a66[_0x5466f9(0x1d3)]+'*');}catch{return _0x4e5f89(_0x5466f9(0x1c7)+'group\x20link'+_0x5466f9(0x19c)+'\x20not\x20in\x20th'+'at\x20group.');}const _0x6ae370=_0x58fd6b[_0x5466f9(0x129)]?.[_0x5466f9(0x1c5)+'xtMessage']?.[_0x5466f9(0x1e0)+'o']?.[_0x5466f9(0x127)+'age']||(_0x58fd6b[_0x5466f9(0x129)]?.['imageMessa'+'ge']?_0x58fd6b[_0x5466f9(0x129)]:null)||(_0x58fd6b[_0x5466f9(0x129)]?.[_0x5466f9(0x1a8)+'ge']?_0x58fd6b[_0x5466f9(0x129)]:null)||(_0x58fd6b[_0x5466f9(0x129)]?.[_0x5466f9(0x1af)+'ge']?_0x58fd6b['message']:null),_0x273dcc=_0x6ae370&&(_0x6ae370[_0x5466f9(0x191)+'ge']||_0x6ae370[_0x5466f9(0x1a8)+'ge']||_0x6ae370[_0x5466f9(0x1af)+'ge']);let _0x3204bf=null,_0x4e755b=_0x5466f9(0x180);if(!_0x273dcc){if(!_0x57fa6d)return _0x4e5f89(_0x5466f9(0x136)+_0x5466f9(0x13c)+_0x5466f9(0x1c8)+(_0x5466f9(0x135)+_0x5466f9(0x174)+_0x5466f9(0x1db))+(_0x5466f9(0x135)+'s\x20|blue`\x0a')+(_0x5466f9(0x135)+_0x5466f9(0x19d)+'ion`\x20_(own'+_0x5466f9(0x11f)+'all\x20groups'+_0x5466f9(0x1c6))+(_0x5466f9(0x123)+_0x5466f9(0x18f)+_0x5466f9(0x14d)+_0x5466f9(0x1b2))+(_0x5466f9(0x179)+_0x5466f9(0x18e)+_0x5466f9(0x177)+_0x5466f9(0x193)+'\x20red,\x0apurp'+_0x5466f9(0x1d5)+_0x5466f9(0x185)+_0x5466f9(0x1d8)));const _0x4331ca=COLORS[_0x335627?.[_0x5466f9(0x194)+'e']()]||COLORS[_0x5466f9(0x1ab)];_0x3204bf={'text':_0x57fa6d,'backgroundArgb':hexToArgb(_0x4331ca),'font':0x0},_0x4e755b=_0x5466f9(0x180);}else{if(_0x6ae370['imageMessa'+'ge']){await _0x1f9934('⏳');const _0x5b7de1={};_0x5b7de1[_0x5466f9(0x130)+_0x5466f9(0x1d7)]=_0xe8158e[_0x5466f9(0x1ae)+_0x5466f9(0x1bd)];const _0x3bc8e0=await baileys[_0x5466f9(0x125)+_0x5466f9(0x15b)](buildMsgObj(_0x58fd6b,_0x6ae370),_0x5466f9(0x122),{},_0x5b7de1),_0x1e1e51={};_0x1e1e51[_0x5466f9(0x141)]=_0x3bc8e0,_0x1e1e51['caption']=_0x57fa6d||'',_0x3204bf=_0x1e1e51,_0x4e755b=_0x5466f9(0x141);}else{if(_0x6ae370[_0x5466f9(0x1a8)+'ge']){await _0x1f9934('⏳');const _0x377557={};_0x377557[_0x5466f9(0x130)+_0x5466f9(0x1d7)]=_0xe8158e[_0x5466f9(0x1ae)+'aMessage'];const _0xf46d2=await baileys[_0x5466f9(0x125)+'diaMessage'](buildMsgObj(_0x58fd6b,_0x6ae370),'buffer',{},_0x377557),_0x275ae0={};_0x275ae0[_0x5466f9(0x1da)]=_0xf46d2,_0x275ae0[_0x5466f9(0x144)]=_0x57fa6d||'',_0x275ae0['gifPlaybac'+'k']=![],_0x3204bf=_0x275ae0,_0x4e755b='video';}else{if(_0x6ae370[_0x5466f9(0x1af)+'ge']){await _0x1f9934('⏳');const _0x7b8474={};_0x7b8474[_0x5466f9(0x130)+_0x5466f9(0x1d7)]=_0xe8158e[_0x5466f9(0x1ae)+_0x5466f9(0x1bd)];const _0x2a39be=await baileys[_0x5466f9(0x125)+_0x5466f9(0x15b)](buildMsgObj(_0x58fd6b,_0x6ae370),_0x5466f9(0x122),{},_0x7b8474),_0x1eea09=await toVN(_0x2a39be),_0x463ad0=await generateWaveform(_0x2a39be);_0x3204bf={'audio':_0x1eea09,'mimetype':_0x5466f9(0x1a1)+_0x5466f9(0x18c)+'us','ptt':!![],'waveform':Buffer[_0x5466f9(0x13a)](_0x463ad0,_0x5466f9(0x124))},_0x4e755b=_0x5466f9(0x15a);}else return _0x4e5f89(_0x5466f9(0x148)+_0x5466f9(0x169)+_0x5466f9(0x173)+_0x5466f9(0x167)+_0x5466f9(0x165)+_0x5466f9(0x175)+'.');}}}let _0x97c348=[_0x1a5a38];if(_0x4720c2)try{const _0x17f21d=await _0xe8158e[_0x5466f9(0x12c)+_0x5466f9(0x182)+_0x5466f9(0x1b6)]();_0x97c348=Object[_0x5466f9(0x137)](_0x17f21d),await _0x4e5f89(_0x5466f9(0x160)+'sting\x20to\x20'+_0x97c348[_0x5466f9(0x1d9)]+_0x5466f9(0x132));}catch(_0x1caa56){return await _0x1f9934('❌'),_0x4e5f89(_0x5466f9(0x184)+_0x5466f9(0x16d)+_0x5466f9(0x133)+_0x1caa56['message']);}let _0x2f4ee0=0x0,_0xbcaffa=0x0;const _0x518f26=_0x549ee9=>new Promise(_0x358cb1=>setTimeout(_0x358cb1,_0x549ee9));for(const _0x539283 of _0x97c348){try{await groupStatus(_0xe8158e,_0x539283,_0x3204bf),_0x2f4ee0++;if(_0x97c348[_0x5466f9(0x1d9)]>0x1)await _0x518f26(0x320);}catch(_0x3a9171){_0xbcaffa++;}}await _0x1f9934('✅');if(_0x4720c2)return _0x4e5f89(_0x5466f9(0x1df)+_0x5466f9(0x190)+'ed!*\x0a📊\x20Sen'+_0x5466f9(0x1bf)+_0x2f4ee0+('\x20|\x20Failed:'+'\x20')+_0xbcaffa+'\x0a_'+_0x4e755b+('\x20status\x20de'+_0x5466f9(0x121)+'\x20group\x20mem'+'bers_'));return _0x4e5f89('✅\x20'+(_0x4e755b['charAt'](0x0)[_0x5466f9(0x1aa)+'e']()+_0x4e755b[_0x5466f9(0x1ad)](0x1))+(_0x5466f9(0x1de)+'nt\x20to\x20grou'+'p!'));}catch(_0x5d02dd){return console[_0x5466f9(0x189)](_0x5466f9(0x120)+']',_0x5d02dd),await _0x1f9934('❌'),_0x4e5f89(_0x5466f9(0x1ac)+_0x5466f9(0x172)+_0x5d02dd[_0x5466f9(0x129)]);}});function hexToArgb(_0x7622b3){const _0x2bd8d0=a0_0x5ab7c9,_0x47b15a=_0x7622b3[_0x2bd8d0(0x14f)]('#',''),_0x529b8a=parseInt(_0x47b15a[_0x2bd8d0(0x1ad)](0x0,0x2),0x10),_0x15a962=parseInt(_0x47b15a[_0x2bd8d0(0x1ad)](0x2,0x4),0x10),_0x22eeb4=parseInt(_0x47b15a[_0x2bd8d0(0x1ad)](0x4,0x6),0x10);return(0xff<<0x18|_0x529b8a<<0x10|_0x15a962<<0x8|_0x22eeb4)>>>0x0;}function buildMsgObj(_0x274a35,_0x1fd638){const _0x1f872c=a0_0x5ab7c9,_0x4a712e=_0x274a35[_0x1f872c(0x129)]?.[_0x1f872c(0x1c5)+'xtMessage']?.['contextInf'+'o'],_0x2d5a40={};_0x2d5a40[_0x1f872c(0x1a0)]=_0x274a35[_0x1f872c(0x1b7)][_0x1f872c(0x1a0)],_0x2d5a40['fromMe']=![],_0x2d5a40['id']=_0x4a712e?.[_0x1f872c(0x1b0)]||_0x274a35['key']['id'],_0x2d5a40['participan'+'t']=_0x4a712e?.[_0x1f872c(0x151)+'t'];const _0x3dfac2={};return _0x3dfac2[_0x1f872c(0x1b7)]=_0x2d5a40,_0x3dfac2[_0x1f872c(0x129)]=_0x1fd638,_0x3dfac2;}async function groupStatus(_0x18e663,_0x51f46c,_0xbb6a65){const _0x48b993=a0_0x5ab7c9,_0x3e9d29=await _0x18e663['groupMetad'+'ata'](_0x51f46c),_0x3fcb41=_0x3e9d29['participan'+'ts'][_0x48b993(0x187)](_0x20849f=>_0x20849f['id']);if(!_0x3fcb41[_0x48b993(0x1d9)])throw new Error('No\x20partici'+'pants\x20foun'+_0x48b993(0x1cf));const _0x5e107d={};return _0x5e107d[_0x48b993(0x143)+'ist']=_0x3fcb41,await _0x18e663['sendMessag'+'e'](_0x48b993(0x1b4)+_0x48b993(0x1ba),_0xbb6a65,_0x5e107d);}function toVN(_0x18faf3){return new Promise((_0x2ed403,_0x8b5d20)=>{const _0x335b78=a0_0x1d3c,_0x4e5ba0=new PassThrough(),_0x10aaad=new PassThrough(),_0x332861=[];_0x4e5ba0[_0x335b78(0x17a)](_0x18faf3),ffmpeg(_0x4e5ba0)[_0x335b78(0x154)]()[_0x335b78(0x18d)](_0x335b78(0x1b8))[_0x335b78(0x19f)]('ogg')['audioChann'+_0x335b78(0x14b)](0x1)[_0x335b78(0x147)+'ency'](0xbb80)['on']('error',_0x8b5d20)['on'](_0x335b78(0x17a),()=>_0x2ed403(Buffer[_0x335b78(0x163)](_0x332861)))[_0x335b78(0x13b)](_0x10aaad),_0x10aaad['on'](_0x335b78(0x156),_0x9e9602=>_0x332861[_0x335b78(0x1c4)](_0x9e9602)),_0x10aaad['on'](_0x335b78(0x189),_0x8b5d20);});}function generateWaveform(_0x5e485a,_0x39e6a6=0x40){return new Promise((_0x5ba858,_0x33db97)=>{const _0x3be0ec=a0_0x1d3c,_0x155526=new PassThrough(),_0x1800a5=new PassThrough(),_0x1bea8e=[];_0x155526[_0x3be0ec(0x17a)](_0x5e485a),ffmpeg(_0x155526)[_0x3be0ec(0x16c)+_0x3be0ec(0x14b)](0x1)[_0x3be0ec(0x147)+_0x3be0ec(0x1cb)](0x3e80)[_0x3be0ec(0x19f)](_0x3be0ec(0x1b3))['on'](_0x3be0ec(0x189),_0x33db97)['on']('end',()=>{const _0x366837=_0x3be0ec,_0x81b675=Buffer[_0x366837(0x163)](_0x1bea8e),_0x4255a1=_0x81b675[_0x366837(0x1d9)]/0x2,_0x3840ef=[];for(let _0x42955d=0x0;_0x42955d<_0x4255a1;_0x42955d++){_0x3840ef[_0x366837(0x1c4)](Math['abs'](_0x81b675[_0x366837(0x13f)+'E'](_0x42955d*0x2))/0x8000);}const _0x240ce9=Math[_0x366837(0x1a2)](0x1,Math[_0x366837(0x14c)](_0x3840ef[_0x366837(0x1d9)]/_0x39e6a6)),_0x1feee2={};_0x1feee2[_0x366837(0x1d9)]=_0x39e6a6;const _0x2ad904=Array[_0x366837(0x13a)](_0x1feee2,(_0x19370e,_0x2d3a9d)=>{const _0x36b612=_0x366837,_0x2382dd=_0x3840ef['slice'](_0x2d3a9d*_0x240ce9,(_0x2d3a9d+0x1)*_0x240ce9);return _0x2382dd[_0x36b612(0x1d9)]?_0x2382dd['reduce']((_0x1b4b6f,_0x368cce)=>_0x1b4b6f+_0x368cce,0x0)/_0x2382dd[_0x36b612(0x1d9)]:0x0;}),_0x395dbe=Math[_0x366837(0x1a2)](..._0x2ad904)||0x1;_0x5ba858(Buffer[_0x366837(0x13a)](_0x2ad904[_0x366837(0x187)](_0x5a9568=>Math[_0x366837(0x14c)](_0x5a9568/_0x395dbe*0x64)))[_0x366837(0x19a)](_0x366837(0x124)));})['pipe'](_0x1800a5),_0x1800a5['on'](_0x3be0ec(0x156),_0xd4d448=>_0x1bea8e[_0x3be0ec(0x1c4)](_0xd4d448)),_0x1800a5['on'](_0x3be0ec(0x189),_0x33db97);});}
+"use strict";
+
+const ffmpeg = require("fluent-ffmpeg");
+const { PassThrough } = require("stream");
+const baileys = require("@whiskeysockets/baileys");
+const { gmd } = require("../guru");
+
+// ─── COLOR MAP (hex) ─────────────────────────────────────────────────────────
+const COLORS = {
+    blue: "#34B7F1",
+    green: "#25D366",
+    yellow: "#FFD700",
+    orange: "#FF8C00",
+    red: "#FF3B30",
+    purple: "#9C27B0",
+    gray: "#9E9E9E",
+    black: "#000000",
+    white: "#FFFFFF",
+    cyan: "#00BCD4",
+};
+
+// ─── COMMAND ─────────────────────────────────────────────────────────────────
+
+gmd(
+    {
+        pattern: "togstatus",
+        aliases: ["swgc", "groupstatus", "tostatus", "postgroups"],
+        react: "📡",
+        category: "group",
+        description: "Send text / image / video / audio as group status (admin only). Use 'all' to post to every group (owner only).",
+    },
+    async (from, Guru, conText) => {
+        const { reply, react, mek, isGroup, isSuperUser, newsletterJid, botName, botFooter, botPrefix } = conText;
+
+        if (!isGroup) return reply("❌ This command only works in groups!");
+
+        const contextInfo = {
+            forwardingScore: 999,
+            isForwarded: true,
+            forwardedNewsletterMessageInfo: {
+                newsletterJid: newsletterJid || "120363200367779016@newsletter",
+                newsletterName: botName || "ULTRA GURU MD",
+                serverMessageId: 143,
+            },
+            mentionedJid: [mek.key.participant || from],
+        };
+
+        const quickReply = (text) =>
+            Guru.sendMessage(from, { text, contextInfo }, { quoted: mek });
+
+        try {
+            // ── ADMIN CHECK ──────────────────────────────────────────────────
+            const groupMeta = await Guru.groupMetadata(from);
+            const senderJid = mek.key.participant || from;
+            const senderInfo = groupMeta.participants.find(p => p.id === senderJid);
+            const isGroupAdmin = senderInfo?.admin === "admin" || senderInfo?.admin === "superadmin";
+            if (!isGroupAdmin && !isSuperUser) {
+                return quickReply("❌ Only group admins can post group status updates!");
+            }
+
+            const raw = conText.args.join(" ").trim();
+
+            // Check for "all" broadcast mode (owner only)
+            const broadcastAll = raw.toLowerCase().startsWith("all") && isSuperUser;
+            const rest = broadcastAll ? raw.slice(3).trim() : raw;
+
+            let [caption, color, groupUrl] = rest.split("|").map((v) => v?.trim());
+
+            // Resolve target group (optional external link)
+            let targetGroupId = from;
+            if (groupUrl) {
+                try {
+                    const code = groupUrl.split("/").pop().split("?")[0];
+                    const info = await Guru.groupGetInviteInfo(code);
+                    targetGroupId = info.id;
+                    await quickReply(`🎯 Target group: *${info.subject}*`);
+                } catch {
+                    return quickReply("❌ Invalid group link or bot is not in that group.");
+                }
+            }
+
+            // Detect quoted message
+            const quoted =
+                mek.message?.extendedTextMessage?.contextInfo?.quotedMessage ||
+                (mek.message?.imageMessage ? mek.message : null) ||
+                (mek.message?.videoMessage ? mek.message : null) ||
+                (mek.message?.audioMessage ? mek.message : null);
+
+            const hasMedia =
+                quoted &&
+                (quoted.imageMessage || quoted.videoMessage || quoted.audioMessage);
+
+            // ── BUILD RAW SEND OPTIONS ───────────────────────────────────────
+            // We use sendMessage('status@broadcast', opts, {statusJidList}) which
+            // is Baileys' own status pathway — handles media upload + encryption
+            // correctly. The old generateWAMessageContent + groupStatusMessageV2
+            // approach was broken because generateWAMessageFromContent strips
+            // FutureProofMessage wrappers (including groupStatusMessageV2) via
+            // normalizeMessageContent, causing media to be double-processed/broken.
+            let sendOpts = null;
+            let mediaType = "text";
+
+            if (!hasMedia) {
+                if (!caption) {
+                    return quickReply(
+                        `📝 *Group Status Usage*\n\n` +
+                        `\`.togstatus caption|color\`\n` +
+                        `\`.togstatus |blue\`\n` +
+                        `\`.togstatus all caption\` _(owner only — all groups)_\n` +
+                        `_Reply to image / video / audio_\n\n` +
+                        `🎨 *Colors:*\nblue, green, yellow, orange, red,\npurple, gray, black, white, cyan`,
+                    );
+                }
+                const bgHex = COLORS[color?.toLowerCase()] || COLORS.blue;
+                sendOpts = {
+                    text: caption,
+                    backgroundArgb: hexToArgb(bgHex),
+                    font: 0,
+                };
+                mediaType = "text";
+
+            } else if (quoted.imageMessage) {
+                await react("⏳");
+                const buf = await baileys.downloadMediaMessage(
+                    buildMsgObj(mek, quoted), "buffer", {},
+                    { reuploadRequest: Guru.updateMediaMessage },
+                );
+                sendOpts = { image: buf, caption: caption || "" };
+                mediaType = "image";
+
+            } else if (quoted.videoMessage) {
+                await react("⏳");
+                const buf = await baileys.downloadMediaMessage(
+                    buildMsgObj(mek, quoted), "buffer", {},
+                    { reuploadRequest: Guru.updateMediaMessage },
+                );
+                sendOpts = { video: buf, caption: caption || "", gifPlayback: false };
+                mediaType = "video";
+
+            } else if (quoted.audioMessage) {
+                await react("⏳");
+                const buf = await baileys.downloadMediaMessage(
+                    buildMsgObj(mek, quoted), "buffer", {},
+                    { reuploadRequest: Guru.updateMediaMessage },
+                );
+                const vn = await toVN(buf);
+                const wfBase64 = await generateWaveform(buf);
+                sendOpts = {
+                    audio: vn,
+                    mimetype: "audio/ogg; codecs=opus",
+                    ptt: true,
+                    waveform: Buffer.from(wfBase64, "base64"),
+                };
+                mediaType = "audio";
+
+            } else {
+                return quickReply("❌ Unsupported media type. Reply to an image, video, or audio.");
+            }
+
+            // ── DETERMINE TARGET GROUPS ───────────────────────────────────────
+            let targetGroups = [targetGroupId];
+
+            if (broadcastAll) {
+                try {
+                    const allGroups = await Guru.groupFetchAllParticipating();
+                    targetGroups = Object.keys(allGroups);
+                    await quickReply(`📢 *Broadcasting to ${targetGroups.length} groups…*`);
+                } catch (err) {
+                    await react("❌");
+                    return quickReply(`❌ Could not fetch groups: ${err.message}`);
+                }
+            }
+
+            // ── POST TO STATUS@BROADCAST WITH GROUP PARTICIPANTS ──────────────
+            // sendMessage('status@broadcast', ..., { statusJidList }) is the
+            // correct Baileys API for status that properly handles media upload
+            // and encryption. statusJidList makes it visible to group members.
+            let sent = 0, failed = 0;
+            const delay = (ms) => new Promise((r) => setTimeout(r, ms));
+
+            for (const gid of targetGroups) {
+                try {
+                    await groupStatus(Guru, gid, sendOpts);
+                    sent++;
+                    if (targetGroups.length > 1) await delay(800);
+                } catch (_) {
+                    failed++;
+                }
+            }
+
+            await react("✅");
+            if (broadcastAll) {
+                return quickReply(
+                    `✅ *Group status posted!*\n📊 Sent: ${sent} | Failed: ${failed}\n_${mediaType} status delivered to group members_`
+                );
+            }
+            return quickReply(`✅ ${mediaType.charAt(0).toUpperCase() + mediaType.slice(1)} status sent to group!`);
+
+        } catch (err) {
+            console.error("[togstatus]", err);
+            await react("❌");
+            return quickReply(`❌ Status error:\n${err.message}`);
+        }
+    },
+);
+
+// ─── HELPERS ────────────────────────────────────────────────────────────────
+
+function hexToArgb(hex) {
+    const h = hex.replace("#", "");
+    const r = parseInt(h.slice(0, 2), 16);
+    const g = parseInt(h.slice(2, 4), 16);
+    const b = parseInt(h.slice(4, 6), 16);
+    return ((0xff << 24) | (r << 16) | (g << 8) | b) >>> 0;
+}
+
+function buildMsgObj(originalMessage, quotedContent) {
+    const ctxInfo = originalMessage.message?.extendedTextMessage?.contextInfo;
+    return {
+        key: {
+            remoteJid: originalMessage.key.remoteJid,
+            fromMe: false,
+            id: ctxInfo?.stanzaId || originalMessage.key.id,
+            participant: ctxInfo?.participant,
+        },
+        message: quotedContent,
+    };
+}
+
+// Post content to status@broadcast with the group's participant list so all
+// group members see it. Uses Baileys' native status pathway which correctly
+// handles media upload encryption — unlike the raw generateWAMessageContent
+// + groupStatusMessageV2 approach which gets silently stripped at send time.
+async function groupStatus(conn, jid, sendOpts) {
+    const meta = await conn.groupMetadata(jid);
+    const participants = meta.participants.map(p => p.id);
+    if (!participants.length) throw new Error("No participants found in group");
+    return await conn.sendMessage("status@broadcast", sendOpts, {
+        statusJidList: participants,
+    });
+}
+
+function toVN(buffer) {
+    return new Promise((resolve, reject) => {
+        const input = new PassThrough();
+        const output = new PassThrough();
+        const chunks = [];
+
+        input.end(buffer);
+
+        ffmpeg(input)
+            .noVideo()
+            .audioCodec("libopus")
+            .format("ogg")
+            .audioChannels(1)
+            .audioFrequency(48000)
+            .on("error", reject)
+            .on("end", () => resolve(Buffer.concat(chunks)))
+            .pipe(output);
+
+        output.on("data", (c) => chunks.push(c));
+        output.on("error", reject);
+    });
+}
+
+function generateWaveform(buffer, bars = 64) {
+    return new Promise((resolve, reject) => {
+        const input = new PassThrough();
+        const output = new PassThrough();
+        const chunks = [];
+
+        input.end(buffer);
+
+        ffmpeg(input)
+            .audioChannels(1)
+            .audioFrequency(16000)
+            .format("s16le")
+            .on("error", reject)
+            .on("end", () => {
+                const raw = Buffer.concat(chunks);
+                const samples = raw.length / 2;
+                const amps = [];
+
+                for (let i = 0; i < samples; i++) {
+                    amps.push(Math.abs(raw.readInt16LE(i * 2)) / 32768);
+                }
+
+                const size = Math.max(1, Math.floor(amps.length / bars));
+                const avg = Array.from({ length: bars }, (_, i) => {
+                    const slice = amps.slice(i * size, (i + 1) * size);
+                    return slice.length
+                        ? slice.reduce((a, b) => a + b, 0) / slice.length
+                        : 0;
+                });
+
+                const max = Math.max(...avg) || 1;
+                resolve(
+                    Buffer.from(
+                        avg.map((v) => Math.floor((v / max) * 100)),
+                    ).toString("base64"),
+                );
+            })
+            .pipe(output);
+
+        output.on("data", (c) => chunks.push(c));
+        output.on("error", reject);
+    });
+}

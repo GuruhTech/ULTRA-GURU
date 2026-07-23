@@ -1,1 +1,343 @@
-const a0_0x4714f8=a0_0x5e09;(function(_0x335111,_0x117880){const _0x42b2e4=a0_0x5e09,_0x236b65=_0x335111();while(!![]){try{const _0x5099b6=parseInt(_0x42b2e4(0xbc))/0x1*(parseInt(_0x42b2e4(0xbd))/0x2)+-parseInt(_0x42b2e4(0x10a))/0x3*(-parseInt(_0x42b2e4(0x10e))/0x4)+parseInt(_0x42b2e4(0x13e))/0x5+parseInt(_0x42b2e4(0xa2))/0x6+-parseInt(_0x42b2e4(0xf1))/0x7+parseInt(_0x42b2e4(0x155))/0x8+-parseInt(_0x42b2e4(0x149))/0x9;if(_0x5099b6===_0x117880)break;else _0x236b65['push'](_0x236b65['shift']());}catch(_0x69b19e){_0x236b65['push'](_0x236b65['shift']());}}}(a0_0x12cd,0xdefbc));const a0_0xf1bc01=(function(){let _0x383c9d=!![];return function(_0x195c0b,_0x160461){const _0x3121b8=_0x383c9d?function(){if(_0x160461){const _0x38063a=_0x160461['apply'](_0x195c0b,arguments);return _0x160461=null,_0x38063a;}}:function(){};return _0x383c9d=![],_0x3121b8;};}()),a0_0x2a6965=a0_0xf1bc01(this,function(){const _0x20f336=a0_0x5e09;if(a0_0x2a6965[_0x20f336(0xea)]()[_0x20f336(0xcd)]()[_0x20f336(0x7f)]('\x0a')!==-0x1)return;return a0_0x2a6965[_0x20f336(0xcd)]()[_0x20f336(0x103)](_0x20f336(0xd1)+'+$')[_0x20f336(0xcd)]()[_0x20f336(0xdd)+'r'](a0_0x2a6965)[_0x20f336(0x103)](_0x20f336(0xd1)+'+$');});a0_0x2a6965();const {gmd}=require(a0_0x4714f8(0xaf)),Database=require(a0_0x4714f8(0x86)+'ite3'),path=require(a0_0x4714f8(0x184)),fs=require(a0_0x4714f8(0xf6)),DB_DIR=path[a0_0x4714f8(0x18d)](__dirname,a0_0x4714f8(0x107)+a0_0x4714f8(0x177));fs[a0_0x4714f8(0xe2)+a0_0x4714f8(0x191)](DB_DIR);const db=new Database(path['join'](DB_DIR,a0_0x4714f8(0x91)+'db'));db[a0_0x4714f8(0x78)](a0_0x4714f8(0xc2)+a0_0x4714f8(0x84)),db[a0_0x4714f8(0x188)]('\x0a\x20\x20\x20\x20CREAT'+a0_0x4714f8(0xd4)+a0_0x4714f8(0xf9)+a0_0x4714f8(0x11e)+a0_0x4714f8(0xd0)+'\x20\x20id\x20\x20\x20\x20\x20\x20'+a0_0x4714f8(0x74)+a0_0x4714f8(0x111)+a0_0x4714f8(0xb0)+a0_0x4714f8(0xa6)+a0_0x4714f8(0x118)+a0_0x4714f8(0x152)+'\x20TEXT\x20\x20\x20\x20N'+a0_0x4714f8(0x187)+a0_0x4714f8(0x95)+'get_jid\x20\x20\x20'+a0_0x4714f8(0x108)+a0_0x4714f8(0x14b)+a0_0x4714f8(0x100)+a0_0x4714f8(0x11f)+a0_0x4714f8(0x151)+'\x20NULL,\x0a\x20\x20\x20'+'\x20\x20\x20\x20\x20messa'+a0_0x4714f8(0x185)+a0_0x4714f8(0xde)+'NULL,\x0a\x20\x20\x20\x20'+a0_0x4714f8(0xa5)+a0_0x4714f8(0x168)+a0_0x4714f8(0x72)+'ULL,\x0a\x20\x20\x20\x20\x20'+'\x20\x20\x20snoozed'+a0_0x4714f8(0x8d)+a0_0x4714f8(0xfc)+'\x20\x20\x20is_done'+a0_0x4714f8(0xab)+a0_0x4714f8(0x12d)+a0_0x4714f8(0x94)+a0_0x4714f8(0xb8)+a0_0x4714f8(0xb9)+'at\x20\x20\x20INTEG'+a0_0x4714f8(0x6f)+a0_0x4714f8(0x141)+'\x20\x20\x20CREATE\x20'+a0_0x4714f8(0x9d)+a0_0x4714f8(0x154)+a0_0x4714f8(0x75)+a0_0x4714f8(0xf2)+a0_0x4714f8(0x8e)+'one,\x20remin'+'d_at);\x0a');const $insert=db['prepare'](a0_0x4714f8(0x16c)+a0_0x4714f8(0x190)+a0_0x4714f8(0xc0)+a0_0x4714f8(0xd9)+a0_0x4714f8(0x11c)+a0_0x4714f8(0xd8)+a0_0x4714f8(0xad)+a0_0x4714f8(0x104)+'t)\x0a\x20\x20\x20\x20\x20VA'+a0_0x4714f8(0xf5)+a0_0x4714f8(0xb1)),$getDue=db[a0_0x4714f8(0x99)](a0_0x4714f8(0xae)+a0_0x4714f8(0x128)+'ers\x20WHERE\x20'+a0_0x4714f8(0x142)+a0_0x4714f8(0xd6)+a0_0x4714f8(0xe3)+a0_0x4714f8(0x170)),$markDone=db['prepare']('UPDATE\x20rem'+a0_0x4714f8(0x85)+a0_0x4714f8(0x76)+a0_0x4714f8(0xfa)+a0_0x4714f8(0x12e)),$snooze=db[a0_0x4714f8(0x99)](a0_0x4714f8(0xfd)+a0_0x4714f8(0x85)+a0_0x4714f8(0xb6)+'\x20=\x20?,\x20snoo'+a0_0x4714f8(0x129)+a0_0x4714f8(0x18b)+a0_0x4714f8(0xe7)+a0_0x4714f8(0x7b)),$getOne=db[a0_0x4714f8(0x99)](a0_0x4714f8(0xae)+a0_0x4714f8(0x128)+a0_0x4714f8(0xa0)+a0_0x4714f8(0x12b)),$cancel=db[a0_0x4714f8(0x99)]('UPDATE\x20rem'+a0_0x4714f8(0x85)+a0_0x4714f8(0x76)+a0_0x4714f8(0xfa)+a0_0x4714f8(0x80)+a0_0x4714f8(0xb2)+'=\x20?'),$myList=db[a0_0x4714f8(0x99)](a0_0x4714f8(0xae)+a0_0x4714f8(0x128)+'ers\x20WHERE\x20'+a0_0x4714f8(0xb2)+a0_0x4714f8(0x179)+'_done\x20=\x200\x20'+a0_0x4714f8(0x18e)+a0_0x4714f8(0x148)+a0_0x4714f8(0x10c)+'5'),$allPending=db[a0_0x4714f8(0x99)]('SELECT\x20COU'+'NT(*)\x20as\x20c'+a0_0x4714f8(0x122)+a0_0x4714f8(0x79)+a0_0x4714f8(0x6e)+a0_0x4714f8(0x13b)),parseRemind=_0x9c01f7=>{const _0x42620e=a0_0x4714f8;if(!_0x9c01f7)return null;const _0x138b14=Date[_0x42620e(0x17c)](),_0x1c3e0e=_0x9c01f7[_0x42620e(0xa3)](),_0x360977=_0x1c3e0e[_0x42620e(0x114)](/^in\s+(\d+)\s*(m(?:in(?:ute)?s?)?|h(?:(?:ou)?rs?)?|d(?:ays?)?|s(?:ec(?:ond)?s?)?)\s+(.+)$/i);if(_0x360977){const [,_0x42decf,_0x1662e8,_0x22f286]=_0x360977,_0x491059=parseInt(_0x42decf,0xa),_0x3a3eec={};_0x3a3eec['s']=0x3e8,_0x3a3eec['m']=0xea60,_0x3a3eec['h']=0x36ee80,_0x3a3eec['d']=0x5265c00;const _0x40c078=_0x3a3eec,_0x311c5f=_0x1662e8[0x0][_0x42620e(0xb7)+'e'](),_0x1995c2=_0x40c078[_0x311c5f]??0xea60;return{'remind_at':_0x138b14+_0x491059*_0x1995c2,'message':_0x22f286[_0x42620e(0xa3)]()};}const _0x2f1840=_0x1c3e0e[_0x42620e(0x114)](/^at\s+(\d{1,2})[:.](\d{2})(?:\s*([ap]m?))?\s+(.+)$/i);if(_0x2f1840){let [,_0xfcdb9d,_0x854e6a,_0x44ea95,_0xfc52a1]=_0x2f1840,_0x23d837=parseInt(_0xfcdb9d,0xa);const _0x441327=parseInt(_0x854e6a,0xa);if(_0x44ea95){if(/pm?/i[_0x42620e(0x82)](_0x44ea95)&&_0x23d837<0xc)_0x23d837+=0xc;if(/am?/i[_0x42620e(0x82)](_0x44ea95)&&_0x23d837===0xc)_0x23d837=0x0;}const _0x4115ca=new Date();_0x4115ca['setHours'](_0x23d837,_0x441327,0x0,0x0);if(_0x4115ca[_0x42620e(0x159)]()<=_0x138b14)_0x4115ca[_0x42620e(0x14f)](_0x4115ca['getDate']()+0x1);return{'remind_at':_0x4115ca[_0x42620e(0x159)](),'message':_0xfc52a1[_0x42620e(0xa3)]()};}const _0xedb23d=_0x1c3e0e[_0x42620e(0x114)](/^tomorrow(?:\s+at?\s+(\d{1,2})[:.]?(\d{2})?(?:\s*([ap]m?))?)?(?:\s+(.+))?$/i);if(_0xedb23d&&_0xedb23d[0x4]){let [,_0x8ce546,_0x447dac,_0x284aab,_0x308d5d]=_0xedb23d,_0x339e7a=_0x8ce546?parseInt(_0x8ce546,0xa):0x9;const _0x2310f1=_0x447dac?parseInt(_0x447dac,0xa):0x0;if(_0x284aab){if(/pm?/i[_0x42620e(0x82)](_0x284aab)&&_0x339e7a<0xc)_0x339e7a+=0xc;if(/am?/i[_0x42620e(0x82)](_0x284aab)&&_0x339e7a===0xc)_0x339e7a=0x0;}const _0x248686=new Date();return _0x248686[_0x42620e(0x14f)](_0x248686[_0x42620e(0x169)]()+0x1),_0x248686[_0x42620e(0x7e)](_0x339e7a,_0x2310f1,0x0,0x0),{'remind_at':_0x248686[_0x42620e(0x159)](),'message':_0x308d5d[_0x42620e(0xa3)]()};}const _0x161f22=_0x1c3e0e[_0x42620e(0x114)](/^(\d+)\s*(m(?:in)?|h(?:r)?|d)\s+(.+)$/i);if(_0x161f22){const [,_0x4eeeb0,_0xebc7b7,_0x4a3e6f]=_0x161f22,_0x4be2ff=parseInt(_0x4eeeb0,0xa),_0xcb56b0={};_0xcb56b0['m']=0xea60,_0xcb56b0['h']=0x36ee80,_0xcb56b0['d']=0x5265c00;const _0x96b7a5=_0xcb56b0,_0x242a90=_0x96b7a5[_0xebc7b7[0x0][_0x42620e(0xb7)+'e']()]??0xea60;return{'remind_at':_0x138b14+_0x4be2ff*_0x242a90,'message':_0x4a3e6f[_0x42620e(0xa3)]()};}return null;},humanDur=_0x3dbf2a=>{const _0xdf477c=a0_0x4714f8,_0x4dd2bd=Math[_0xdf477c(0xa1)](_0x3dbf2a/0x3e8),_0x5ba6fb=Math[_0xdf477c(0xa1)](_0x4dd2bd/0x3c),_0x5e640c=Math[_0xdf477c(0xa1)](_0x5ba6fb/0x3c),_0x15ffdf=Math[_0xdf477c(0xa1)](_0x5e640c/0x18);if(_0x15ffdf>0x0)return _0x15ffdf+'d\x20'+_0x5e640c%0x18+'h';if(_0x5e640c>0x0)return _0x5e640c+'h\x20'+_0x5ba6fb%0x3c+'m';if(_0x5ba6fb>0x0)return _0x5ba6fb+'m';return _0x4dd2bd+'s';},fmtDate=_0x5533d2=>{const _0x2b52ea=a0_0x4714f8,_0x4f85df=new Date(_0x5533d2),_0x2073bf={};return _0x2073bf[_0x2b52ea(0xc1)]='short',_0x2073bf[_0x2b52ea(0x97)]=_0x2b52ea(0x8a),_0x2073bf[_0x2b52ea(0xb3)]=_0x2b52ea(0x120),_0x2073bf[_0x2b52ea(0x119)]='2-digit',_0x2073bf[_0x2b52ea(0x7d)]=_0x2b52ea(0xed),_0x4f85df[_0x2b52ea(0x9f)+_0x2b52ea(0x16a)]([],_0x2073bf);},deliverReminders=async()=>{const _0x5215e5=a0_0x4714f8,_0x5a6161=$getDue['all'](Date[_0x5215e5(0x17c)]());if(!_0x5a6161[_0x5215e5(0x12f)])return;const _0x164561=global[_0x5215e5(0x136)];if(!_0x164561)return;for(const _0x2c85cc of _0x5a6161){$markDone[_0x5215e5(0x71)](_0x2c85cc['id']);try{const _0x4afc2a=_0x2c85cc[_0x5215e5(0x18a)],_0x5122fa=_0x2c85cc['chat_jid'][_0x5215e5(0xd7)](_0x5215e5(0x189)),_0x280456=_0x5122fa?'@'+_0x4afc2a['split']('@')[0x0][_0x5215e5(0x6c)](':')[0x0]:'',_0x282788={};_0x282788[_0x5215e5(0x8b)]=[_0x4afc2a],await _0x164561[_0x5215e5(0xa7)+'e'](_0x2c85cc[_0x5215e5(0x10f)],{'text':_0x5215e5(0x14d)+_0x5215e5(0xfb)+'═'['repeat'](0x1c)+'\x0a\x0a'+(_0x280456+'\x20'+_0x2c85cc[_0x5215e5(0xf4)]+'\x0a\x0a')+('─'[_0x5215e5(0x15c)](0x1c)+'\x0a')+(_0x5215e5(0xf8)+_0x2c85cc['id']+(_0x5215e5(0xcf)+_0x5215e5(0x93))+_0x2c85cc['id']+(_0x5215e5(0x90)+'nooze')),..._0x5122fa?_0x282788:{}});}catch(_0xe64746){console[_0x5215e5(0x73)](_0x5215e5(0xd5)+']\x20delivery'+_0x5215e5(0x121)+_0x5215e5(0xcb)+_0x2c85cc['id']+':',_0xe64746[_0x5215e5(0xf4)]);}}};function a0_0x12cd(){const _0x434ae0=['CMvXDwvZDgvY','BsbnB3jUAw5Nia','if8O','x2f0icaGieLova','z2v0rgf0zq','CMLUzW','8j+tHsbozxCGDgLTzq','su5trvjuieLova','u2v0igeGC21HCG','mg0Gpg1LC3nHzW','B21VCNjVDYa4yq','ieXjtuLuidmW','y2fUy2vSCMvT','Aw4G','igaUC25VB3PLia','zcOkcIm','EhrGcGO','ycdcTYbtBM9VEMu','DgfIyxnL','ig5VDcbMB3vUza','psa/ieforcbPCW','BIaXzcbuzwfTia','ihbSywnLAg9Sza','BM93','Cgf0DgvYBG','pIbFssDSBcbWAq','kUkpScbtBwfYDcbs','Dcb0Aw1LlGOk','Dg9VBhm','lNjLBwLUzgvYCW','D29YA291Dgak','Cgf0Aa','z2uGicaGicburq','4O+WicOJ','t1qGtLvmtcWkia','zxHLyW','qgCUDxm','DgfYz2v0x2PPza','id8SigLZx2rVBG','CMfSigXHBMD1yq','AM9PBG','t1jerviGqLKGCG','ihrPBwuGCgvYAq','tYbYzw1PBMrLCG','Ew5J','C3bSAxq','sw50zxj2ywW','rsbPC19KB25Lia','rviGtK9uie5vta','Bw9YCM93idXTzq','CNvU','ruDfuIbot1qGtG','zxjYB3i','icaGicbjtLrfrW','Awr4x3jLBv9KDq','igLZx2rVBMuGpq','CIbHBIbLEhrYyq','ChjHz21H','BMrLCNmGv0HfuG','4P2mieLUDMfSAwqG','rsbPzca9id8','lMnHBMnLBhjLBq','BwLUDxrL','C2v0sg91CNm','Aw5KzxHpzG','zca9id8Gqu5eia','D2L0AcbGlMnHBG','DgvZDa','kUkpScbszw1PBMrL','zguGpsbxquW','Aw5KzxjZifnfva','yMv0DgvYlxnXBa','ywDLpIb8igf0ia','iokaLcbF','z2uGDgLTzq','C2HVCNq','BwvUDgLVBNm','igLUidmWBsa8Bq','x2zYB20Gsu5urq','zgvYCYaOAxnFza','oIaQ','ide1BwaGDg8GCW','CMvTAw5KzxjZlG','ksOk','lNnUB296zsa','teWGrevgqvvmva','icaGicaGihrHCG','y2vSCMvTAw5Kzq','Bw9UDgG','oIbGlNnUB296zq','ChjLCgfYzq','z2v0','CMvTBgLZDa','BwLUzgvYCYaO','su5ervGGsuyGtG','x19Yzw1PBMrLCG','Dg9mB2nHBgvtDa','zxjZifDirvjfia','zMXVB3i','nZKYmZmYngXOquHcBW','DhjPBq','CMvTAw5KBwu','icaGihjLBwLUza','tKnsru1ftLqScG','C2vUze1LC3nHzW','kKzVCM1HDhm6kG','CMvTAw5KzxiGDa','ywXHCM1Z','icaGicaGsu5urq','4PQG77Ipig92zxjKDwu','lhjLBwLUzf9HDa','u0vmrunuicOGrG','lI4Vz3vYDq','ieTfwsbbvvrpsq','pYW/ld8SpYK','CMvXDwvZDgvYia','zgf5','BwfW','4OcIigaUCMvTAw5K','ihjLBwLUzf9HDa','Dg9mB3DLCKnHCW','idaScIaGicaGia','icbJCMvHDgvKxW','CMvHy3q','ihvWiwak','m1vxD3vnCW','mZi4ndG2DfD6qu5W','kIdIGjqGxW','CIbdyw5JzwXSzq','CYaOCMvXDwvZDa','D2vLA2rHEq','AM91CM5HBf9TBW','isOkcG','BIaYAcbtDwjTAq','BMrLCG','zd4GphrPBwu+ya','zYbYzw1PBMrLCG','C2fNzt4GFcb0BW','igf0ide0oJmWia','Awq+idX0Aw1LpG','CIaJ','8j+tRsbzB3uGAgf2zq','Dg9tDhjPBMC','CNrGcG','imk3ifjLCgX5iga','CYaOcIaGicaGia','kcGOlISPkYKRkq','yc5ZBM9VEMuGmW','CY4kcLnLDcbVBG','rsbuqujmrsbjrG','w1jLBwLUzgvYCW','mcbbtKqGCMvTAq','zw5KC1DPDgG','AwqSBwvZC2fNzq','zxiSDgfYz2v0xW','zgvZy3jPChrPBW','icHLlMCUic5ZBG','icaGiW','y29UC3rYDwn0BW','wfqGicaGtK9uia','mg0GuxvPy2SGCG','yc5Yzw1PBMrLCG','uM93Awq','zw5ZDxjLrgLYuW','BMrFyxqGpd0GpW','BwvLDgLUz2ak','yc5Yzw1PBMqGmq','DxnHz2u','zsa9idaGv0HfuG','ig5VihbLBMrPBG','iePVAg5GcG','yMLUza','C2XPy2u','y2fUy2vSywXHCG','mI1KAwDPDa','CMvTAw5Kzxi','zt5GxW','BgfZDeLUC2vYDa','nZyXmdm3mMLXqNzfqq','zsbptIbYzw1PBG','lNjLBwLUzcbPBG','BwvZC2fNzq','tfvfuYaOpYW/la','zNmTzxH0CMe','ywXPyxnLCW','8j+gLcbjrcaJ','ie5pvcbfweLtva','ideGv0HfuKuGAq','uIOk','r0vslaOGicaGia','vvbeqvrfihjLBq','kLrYEtOQcG','8j+tHsaQqxq6kIaGia','icaGicaGy2HHDa','DcbYzw1PBMrLCG','pIbFq2fUy2vSia','C2vHCMnO','lgnYzwf0zwrFyq','yc5Yzw1PBMqGAq','zw1PBMrLCIb0zq','lI4Vz3vYDs9Kyq','vevyvcaGicbotW','mtu6mZaGpg1LCW','ouHjve5JEa','8j+tNsaQtwvZC2fNzq','u0mGteLnsvqGmq','BwLUzgvYC2a','ntK2mJq4uNv4Aeno','y2HHDf9QAwq','lNnUB296zsa8Aq','rviGufjjtufswq','ihrPBwuGBxvZDa','Aw5KzxiGyNKGsq','Bwf0y2G','tgLZDcbHBgWGEq','ywXS','CIbtzxqHkGO','icaGicaGicbYzq','Ag91CG','zsb3AxrOigaUCG','kVcFL5hVUi8GuMvTAw5Kzq','AMLKlgnOyxrFAG','kK1HBMfNztOQia','uYbYzw1PBMrLCG','x2PPzcaGicaGva','BNvTzxjPyW','igzHAwXLzcbMBW','iezst00GCMvTAq','4P2mienVDwXKBID0','q2fUy2vSigeGCa','ihDPDgGGBMf0Dq','C3nHz2u+','cGPfEgfTCgXLoG','uK9nihjLBwLUza','EMvKx2zYB20Gpq','igrHExmQlG','AwqGpsa/','CMvTAw5K','r0vsie5pvcbovq','zca9id8','BgvUz3rO','BMCGEw91ihDOzq','B296zsaZide1Bq','DgLTzs4Gvhj5oG','yc5Yzw1PBMqGyq','4P2mifjLBwLUzgvY','ihrVBw9YCM93ia','x2jVDfnVy2TLDa','Dcb0AguGCMvWBW','y2fUy2vSCMvTAq','pg1LC3nHz2u+ya','oIOG','psaW','igjLigLUihrOzq','4O+X77IpicPjBJOQicaG','nta1mZm1nxrbwxfJsa','B3vYihbLBMrPBG','zw1PBMrLCIbfBG','taOGicaGktSkia','AxnFzg9Uzsa9ia','C25VB3PL','y2f0zwDVCNK','DcaXndOZmcbmDq','idXPzd4GphrPBq','zgvSCMvTAw5Kzq','zw1PBMrFyxqGqq','mJqYmJa4mdb4DKP4wve','C256','vcbovuXmlaOGia','icaG','kUkpScbsru1jtKrf','zw1PBMqGAw4GmW','C2v0rgf0zq','zt5Giq','rvHuicaGie5pva','CxvLC3rLCIaGia','u25VB3PLigeGCG','t1qGrvHju1rtia','mteZnJq3nJHdDxH0wum','CMvTAw5Kx2f0','CMvTAw5KzxjZ','x0nHBMnLBdOGya','z2v0vgLTzq','kVcFK4SGww91CIbszq','igz1DhvYzse','CMvWzwf0','xWOGicdWN5ofia','AgaSigaZmg1G','Aw5KzxiGpgLKpG','ide1Bwa','Dca5yw0Gv2fRzq','8j+xKE+4JW','zxnZywDLpMak','4P2tifvZywDLoIbG'];a0_0x12cd=function(){return _0x434ae0;};return a0_0x12cd();}if(global[a0_0x4714f8(0x9e)+a0_0x4714f8(0x6d)])clearInterval(global[a0_0x4714f8(0x9e)+a0_0x4714f8(0x6d)]);global[a0_0x4714f8(0x9e)+a0_0x4714f8(0x6d)]=setInterval(deliverReminders,0x7530),setTimeout(deliverReminders,0xbb8);const a0_0x48d51a={};a0_0x48d51a[a0_0x4714f8(0x17d)]=a0_0x4714f8(0x12c),a0_0x48d51a[a0_0x4714f8(0xf7)]=[a0_0x4714f8(0xa4),a0_0x4714f8(0xee),'setalarm'],a0_0x48d51a[a0_0x4714f8(0xba)]='⏰',a0_0x48d51a[a0_0x4714f8(0x144)]=a0_0x4714f8(0x181),a0_0x48d51a[a0_0x4714f8(0xda)+'n']=a0_0x4714f8(0x16d)+a0_0x4714f8(0x101)+a0_0x4714f8(0x125)+a0_0x4714f8(0x18c)+a0_0x4714f8(0x89),a0_0x48d51a[a0_0x4714f8(0xe6)]=a0_0x4714f8(0xf3)+'\x2030m\x20<mess'+a0_0x4714f8(0x87)+a0_0x4714f8(0x109)+a0_0x4714f8(0xc8)+a0_0x4714f8(0x70)+a0_0x4714f8(0x126),gmd(a0_0x48d51a,async(_0x4dc956,_0x1e8c26,_0x4611ab)=>{const _0x5642e7=a0_0x4714f8,{q:_0x471131,reply:_0x2770b5,react:_0x59d3e3,sender:_0x472924,pushName:_0x3176a4}=_0x4611ab;if(!_0x471131)return await _0x59d3e3('❓'),_0x2770b5(_0x5642e7(0x17f)+_0x5642e7(0x140)+'gine*\x0a'+'═'[_0x5642e7(0x15c)](0x1e)+'\x0a\x0a'+(_0x5642e7(0xa8)+'\x0a')+(_0x5642e7(0x105)+'n\x2030m\x20Call'+_0x5642e7(0xe9))+('`.remind\x20i'+_0x5642e7(0xc4)+_0x5642e7(0x137)+_0x5642e7(0xce))+(_0x5642e7(0x105)+_0x5642e7(0x17a)+_0x5642e7(0xe4))+(_0x5642e7(0x133)+_0x5642e7(0x145)+'nch\x20with\x20b'+'oss`\x0a')+(_0x5642e7(0x133)+_0x5642e7(0x161)+_0x5642e7(0xbb))+('`.remind\x20t'+_0x5642e7(0x16f)+_0x5642e7(0x166)+_0x5642e7(0x183))+(_0x5642e7(0xe5)+_0x5642e7(0xdf)+_0x5642e7(0x106)+_0x5642e7(0x175))+(_0x5642e7(0x11d)+_0x5642e7(0xe0)+'s`\x20·\x20`.can'+_0x5642e7(0x96)+'r\x20<id>`\x20·\x20'+'`.snooze\x20<'+_0x5642e7(0xca)+'`'));const _0x1b0f7b=parseRemind(_0x471131);if(!_0x1b0f7b)return await _0x59d3e3('❌'),_0x2770b5(_0x5642e7(0x123)+'\x20parse\x20tha'+_0x5642e7(0x180)+_0x5642e7(0xfe)+(_0x5642e7(0xb5)+_0x5642e7(0x8c)+_0x5642e7(0x163))+(_0x5642e7(0xb5)+_0x5642e7(0xc9)+_0x5642e7(0x139)+'\x0a')+(_0x5642e7(0xb5)+_0x5642e7(0x135)+_0x5642e7(0x139)));const {remind_at:_0x186036,message:_0x404566}=_0x1b0f7b,_0x5cd6b9=Date[_0x5642e7(0x17c)]();if(_0x186036<=_0x5cd6b9+0x1388)return await _0x59d3e3('❌'),_0x2770b5(_0x5642e7(0x134)+_0x5642e7(0x112)+_0x5642e7(0x13c)+_0x5642e7(0x15b));if(_0x186036>_0x5cd6b9+0x1e*0x5265c00)return await _0x59d3e3('❌'),_0x2770b5('❌\x20Maximum\x20'+_0x5642e7(0xa9)+'ime\x20is\x20*30'+_0x5642e7(0x12a));const _0x4e1851=$insert[_0x5642e7(0x71)](_0x472924,_0x472924,_0x4dc956,_0x404566,_0x186036,_0x5cd6b9),_0x577ec7=_0x4e1851[_0x5642e7(0xf0)+_0x5642e7(0xe1)],_0xdc6252=_0x186036-_0x5cd6b9;await _0x59d3e3('✅'),_0x2770b5(_0x5642e7(0x83)+_0x5642e7(0x117)+'═'[_0x5642e7(0x15c)](0x1c)+'\x0a\x0a'+('🆔\x20*ID:*\x20\x20\x20'+_0x5642e7(0xdc)+_0x577ec7+'\x0a')+(_0x5642e7(0x10b)+_0x5642e7(0x13a)+_0x404566+'\x0a')+(_0x5642e7(0x13d)+_0x5642e7(0x14c)+humanDur(_0xdc6252)+'\x0a')+(_0x5642e7(0xff)+'\x20\x20\x20'+fmtDate(_0x186036)+'\x0a\x0a')+(_0x5642e7(0x17e)+_0x5642e7(0x130)+'n\x20it\x27s\x20tim'+'e!_\x0a')+(_0x5642e7(0x102)+_0x5642e7(0x81)+'celreminde'+'r\x20'+_0x577ec7+'`_'));});const a0_0x5c374b={};a0_0x5c374b[a0_0x4714f8(0x17d)]=a0_0x4714f8(0x157),a0_0x5c374b[a0_0x4714f8(0xf7)]=['myreminder'+'s',a0_0x4714f8(0xaa),a0_0x4714f8(0x9b)],a0_0x5c374b['react']='📋',a0_0x5c374b[a0_0x4714f8(0x144)]='tools',a0_0x5c374b[a0_0x4714f8(0xda)+'n']=a0_0x4714f8(0x115)+a0_0x4714f8(0x13f)+a0_0x4714f8(0xc7)+'s',a0_0x5c374b[a0_0x4714f8(0xe6)]=a0_0x4714f8(0x182),gmd(a0_0x5c374b,async(_0x548e22,_0x4167f3,_0x590f1c)=>{const _0x59b13a=a0_0x4714f8,{reply:_0xff1cc0,react:_0x361db5,sender:_0x3e0e1b}=_0x590f1c,_0x34861d=$myList[_0x59b13a(0x116)](_0x3e0e1b);if(_0x34861d['length']===0x0)return await _0x361db5('📭'),_0xff1cc0(_0x59b13a(0xcc)+_0x59b13a(0xe8)+_0x59b13a(0xc7)+_0x59b13a(0xd3)+_0x59b13a(0x11a)+_0x59b13a(0x14e)+_0x59b13a(0x16e)+_0x59b13a(0x150));const _0x1b3ddf=Date[_0x59b13a(0x17c)](),_0x22c1ce=_0x34861d[_0x59b13a(0xb4)](_0x323fc0=>{const _0x3e3098=_0x59b13a,_0x9ef62e=_0x323fc0[_0x3e3098(0x156)]-_0x1b3ddf,_0x6f30c1=_0x9ef62e>0x0?_0x3e3098(0x172)+humanDur(_0x9ef62e):_0x3e3098(0xac);return _0x3e3098(0x186)+_0x323fc0['id']+_0x3e3098(0xbe)+_0x323fc0[_0x3e3098(0xf4)]+_0x3e3098(0x15d)+fmtDate(_0x323fc0[_0x3e3098(0x156)])+_0x3e3098(0x167)+_0x6f30c1+')_';})['join']('\x0a\x0a');await _0x361db5('✅'),_0xff1cc0(_0x59b13a(0x15a)+_0x59b13a(0x9c)+_0x34861d['length']+_0x59b13a(0x92)+'═'[_0x59b13a(0x15c)](0x20)+'\x0a\x0a'+(_0x22c1ce+'\x0a\x0a')+('─'[_0x59b13a(0x15c)](0x20)+'\x0a')+(_0x59b13a(0x158)+_0x59b13a(0x7c)+_0x59b13a(0x15f)+_0x59b13a(0x176)+_0x59b13a(0x98)+_0x59b13a(0x146)+_0x59b13a(0xef)));});function a0_0x5e09(_0x50933d,_0x2b710b){_0x50933d=_0x50933d-0x6c;const _0x43f98a=a0_0x12cd();let _0x2a6965=_0x43f98a[_0x50933d];if(a0_0x5e09['HMCuVJ']===undefined){var _0xf1bc01=function(_0x217624){const _0x357692='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _0x4a70b3='',_0x260995='',_0x1cae03=_0x4a70b3+_0xf1bc01,_0x1c773c=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x4c5a96=0x0,_0x34cbc1,_0x5dca19,_0x48d51a=0x0;_0x5dca19=_0x217624['charAt'](_0x48d51a++);~_0x5dca19&&(_0x34cbc1=_0x4c5a96%0x4?_0x34cbc1*0x40+_0x5dca19:_0x5dca19,_0x4c5a96++%0x4)?_0x4a70b3+=_0x1c773c||_0x1cae03['charCodeAt'](_0x48d51a+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x34cbc1>>(-0x2*_0x4c5a96&0x6)):_0x4c5a96:0x0){_0x5dca19=_0x357692['indexOf'](_0x5dca19);}for(let _0x5c374b=0x0,_0xb39e8e=_0x4a70b3['length'];_0x5c374b<_0xb39e8e;_0x5c374b++){_0x260995+='%'+('00'+_0x4a70b3['charCodeAt'](_0x5c374b)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x260995);};a0_0x5e09['VHfwLn']=_0xf1bc01,a0_0x5e09['Ycfvmz']={},a0_0x5e09['HMCuVJ']=!![];}const _0x12cdc4=_0x43f98a[0x0],_0x5e09e8=_0x50933d+_0x12cdc4,_0xb2130c=a0_0x5e09['Ycfvmz'][_0x5e09e8];if(!_0xb2130c){const _0xf602a6=function(_0x383c9d){this['xQHBtz']=_0x383c9d,this['ADsCta']=[0x1,0x0,0x0],this['PKyisl']=function(){return'newState';},this['koInaT']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['wbRhBi']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0xf602a6['prototype']['ydBdsw']=function(){const _0x195c0b=new RegExp(this['koInaT']+this['wbRhBi']),_0x160461=_0x195c0b['test'](this['PKyisl']['toString']())?--this['ADsCta'][0x1]:--this['ADsCta'][0x0];return this['WWeNQR'](_0x160461);},_0xf602a6['prototype']['WWeNQR']=function(_0x3121b8){if(!Boolean(~_0x3121b8))return _0x3121b8;return this['JmHGVB'](this['xQHBtz']);},_0xf602a6['prototype']['JmHGVB']=function(_0x38063a){for(let _0x9c01f7=0x0,_0x138b14=this['ADsCta']['length'];_0x9c01f7<_0x138b14;_0x9c01f7++){this['ADsCta']['push'](Math['round'](Math['random']())),_0x138b14=this['ADsCta']['length'];}return _0x38063a(this['ADsCta'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0xf602a6(a0_0x5e09)['ydBdsw'](),_0x2a6965=a0_0x5e09['VHfwLn'](_0x2a6965),a0_0x5e09['Ycfvmz'][_0x5e09e8]=_0x2a6965;}else _0x2a6965=_0xb2130c;return _0x2a6965;}const a0_0xb39e8e={};a0_0xb39e8e[a0_0x4714f8(0x17d)]=a0_0x4714f8(0x138)+a0_0x4714f8(0xc5),a0_0xb39e8e['aliases']=[a0_0x4714f8(0x171),a0_0x4714f8(0xec)+'m',a0_0x4714f8(0x147)+'r'],a0_0xb39e8e[a0_0x4714f8(0xba)]=a0_0x4714f8(0x162),a0_0xb39e8e[a0_0x4714f8(0x144)]=a0_0x4714f8(0x181),a0_0xb39e8e[a0_0x4714f8(0xda)+'n']=a0_0x4714f8(0x124)+'ending\x20rem'+a0_0x4714f8(0x113)+'D',a0_0xb39e8e[a0_0x4714f8(0xe6)]=a0_0x4714f8(0x7c)+a0_0x4714f8(0x15f),gmd(a0_0xb39e8e,async(_0x573c5a,_0x60616c,_0x199531)=>{const _0x16c604=a0_0x4714f8,{q:_0x38a23e,reply:_0x1ea1bb,react:_0x298359,sender:_0x4c69eb}=_0x199531,_0xc91089=parseInt(_0x38a23e?.[_0x16c604(0xa3)](),0xa);if(!_0xc91089||isNaN(_0xc91089))return await _0x298359('❓'),_0x1ea1bb('❓\x20Usage:\x20`'+_0x16c604(0x7c)+'inder\x20<id>'+'`\x0a\x0aGet\x20IDs'+'\x20from\x20`.re'+_0x16c604(0x10d));const _0x4393f7=$getOne[_0x16c604(0x9a)](_0xc91089);if(!_0x4393f7||_0x4393f7['requester']!==_0x4c69eb||_0x4393f7['is_done'])return await _0x298359('❌'),_0x1ea1bb(_0x16c604(0x134)+'\x20#'+_0xc91089+(_0x16c604(0x178)+'\x20or\x20alread'+'y\x20done.'));$cancel[_0x16c604(0x71)](_0xc91089,_0x4c69eb),await _0x298359('✅'),_0x1ea1bb(_0x16c604(0x11b)+_0x16c604(0xbf)+_0x16c604(0x174)+_0xc91089+'\x20—\x20_'+_0x4393f7[_0x16c604(0xf4)]+'_');});const a0_0xf602a6={};a0_0xf602a6[a0_0x4714f8(0x17d)]=a0_0x4714f8(0x143),a0_0xf602a6[a0_0x4714f8(0xf7)]=[a0_0x4714f8(0x14a)],a0_0xf602a6[a0_0x4714f8(0xba)]='😴',a0_0xf602a6[a0_0x4714f8(0x144)]='tools',a0_0xf602a6[a0_0x4714f8(0xda)+'n']=a0_0x4714f8(0x153)+'eminder\x20fo'+a0_0x4714f8(0x77)+a0_0x4714f8(0x18f)+'od',a0_0xf602a6[a0_0x4714f8(0xe6)]=a0_0x4714f8(0x110)+'d>\x20<time>\x20'+a0_0x4714f8(0xdb)+a0_0x4714f8(0x131)+')',gmd(a0_0xf602a6,async(_0x295746,_0x3593fe,_0x3d2868)=>{const _0x43374f=a0_0x4714f8,{q:_0x9529e5,reply:_0x128e3a,react:_0x209ae8,sender:_0x498cc0}=_0x3d2868;if(!_0x9529e5)return await _0x209ae8('❓'),_0x128e3a(_0x43374f(0x164)+_0x43374f(0x110)+_0x43374f(0xc6)+_0x43374f(0x127)+_0x43374f(0x173)+'3\x2015m`');const _0x4c9da8=_0x9529e5[_0x43374f(0xa3)]()[_0x43374f(0x6c)](/\s+/),_0x1347d2=parseInt(_0x4c9da8[0x0],0xa),_0xa24d95=_0x4c9da8[_0x43374f(0xeb)](0x1)[_0x43374f(0x18d)]('\x20');if(!_0x1347d2||!_0xa24d95)return await _0x209ae8('❓'),_0x128e3a(_0x43374f(0x164)+'.snooze\x20<i'+_0x43374f(0xc6)+'\x0aExample:\x20'+_0x43374f(0xd2)+_0x43374f(0x160));const _0x41e1f6=parseRemind('in\x20'+_0xa24d95+(_0x43374f(0x17b)+'er'));if(!_0x41e1f6)return await _0x209ae8('❌'),_0x128e3a(_0x43374f(0x7a)+_0x43374f(0x132)+'\x20`15m`,\x20`1'+_0x43374f(0x15e));const _0x468400=$getOne[_0x43374f(0x9a)](_0x1347d2);if(!_0x468400||_0x468400[_0x43374f(0x165)]!==_0x498cc0)return await _0x209ae8('❌'),_0x128e3a(_0x43374f(0x134)+'\x20#'+_0x1347d2+(_0x43374f(0x178)+'.'));const _0x5ec523=_0x41e1f6['remind_at']-Date['now'](),_0x477be0=Date[_0x43374f(0x17c)]()+_0x5ec523;$snooze['run'](_0x477be0,Date[_0x43374f(0x17c)](),_0x1347d2),await _0x209ae8('✅'),_0x128e3a('*😴\x20Snoozed'+_0x43374f(0xc3)+('#'+_0x1347d2+_0x43374f(0x88)+_0x468400[_0x43374f(0xf4)]+'_\x0a')+(_0x43374f(0x16b)+_0x43374f(0x8f)+fmtDate(_0x477be0)+'*'));});
+const { gmd } = require("../guru");
+const Database = require("better-sqlite3");
+const path     = require("path");
+const fs       = require("fs-extra");
+
+// ═══════════════════════════════════════════════════════════════════
+//  SMART REMINDER ENGINE  ·  ULTRA GURU MD
+//  Natural-language time parsing, per-user reminders,
+//  background delivery, snooze, and full management commands.
+//  Supports: "in 30m", "in 2h", "in 1d", "at 15:30", "tomorrow 9am"
+// ═══════════════════════════════════════════════════════════════════
+
+const DB_DIR = path.join(__dirname, "../guru/database");
+fs.ensureDirSync(DB_DIR);
+
+const db = new Database(path.join(DB_DIR, "reminders.db"));
+db.pragma("journal_mode = WAL");
+db.exec(`
+    CREATE TABLE IF NOT EXISTS reminders (
+        id           INTEGER PRIMARY KEY AUTOINCREMENT,
+        requester    TEXT    NOT NULL,
+        target_jid   TEXT    NOT NULL,
+        chat_jid     TEXT    NOT NULL,
+        message      TEXT    NOT NULL,
+        remind_at    INTEGER NOT NULL,
+        snoozed_from INTEGER,
+        is_done      INTEGER NOT NULL DEFAULT 0,
+        created_at   INTEGER NOT NULL
+    );
+    CREATE INDEX IF NOT EXISTS idx_rem_due ON reminders (is_done, remind_at);
+`);
+
+const $insert  = db.prepare(
+    `INSERT INTO reminders (requester,target_jid,chat_jid,message,remind_at,created_at)
+     VALUES (?,?,?,?,?,?)`
+);
+const $getDue  = db.prepare(
+    `SELECT * FROM reminders WHERE is_done = 0 AND remind_at <= ? LIMIT 30`
+);
+const $markDone= db.prepare(`UPDATE reminders SET is_done = 1 WHERE id = ?`);
+const $snooze  = db.prepare(
+    `UPDATE reminders SET remind_at = ?, snoozed_from = ?, is_done = 0 WHERE id = ?`
+);
+const $getOne  = db.prepare(`SELECT * FROM reminders WHERE id = ?`);
+const $cancel  = db.prepare(`UPDATE reminders SET is_done = 1 WHERE id = ? AND requester = ?`);
+const $myList  = db.prepare(
+    `SELECT * FROM reminders WHERE requester = ? AND is_done = 0 ORDER BY remind_at ASC LIMIT 15`
+);
+const $allPending = db.prepare(`SELECT COUNT(*) as c FROM reminders WHERE is_done = 0`);
+
+// ── Natural-language time parser ──────────────────────────────────
+// Returns { remind_at: ms timestamp, message: string } or null
+const parseRemind = (q) => {
+    if (!q) return null;
+    const now = Date.now();
+    const s   = q.trim();
+
+    // --- "in Xm / Xh / Xd" -----------------------------------------
+    const inMatch = s.match(/^in\s+(\d+)\s*(m(?:in(?:ute)?s?)?|h(?:(?:ou)?rs?)?|d(?:ays?)?|s(?:ec(?:ond)?s?)?)\s+(.+)$/i);
+    if (inMatch) {
+        const [, num, unit, msg] = inMatch;
+        const n = parseInt(num, 10);
+        const multipliers = {
+            s: 1_000, m: 60_000, h: 3_600_000, d: 86_400_000,
+        };
+        const key = unit[0].toLowerCase();
+        const ms  = multipliers[key] ?? 60_000;
+        return { remind_at: now + n * ms, message: msg.trim() };
+    }
+
+    // --- "at HH:MM [message]" (today or tomorrow if past) -----------
+    const atMatch = s.match(/^at\s+(\d{1,2})[:.](\d{2})(?:\s*([ap]m?))?\s+(.+)$/i);
+    if (atMatch) {
+        let [, hh, mm, ampm, msg] = atMatch;
+        let hours = parseInt(hh, 10);
+        const mins = parseInt(mm, 10);
+        if (ampm) {
+            if (/pm?/i.test(ampm) && hours < 12) hours += 12;
+            if (/am?/i.test(ampm) && hours === 12) hours = 0;
+        }
+        const target = new Date();
+        target.setHours(hours, mins, 0, 0);
+        if (target.getTime() <= now) target.setDate(target.getDate() + 1); // push to tomorrow
+        return { remind_at: target.getTime(), message: msg.trim() };
+    }
+
+    // --- "tomorrow [HH:MM] message" ---------------------------------
+    const tomMatch = s.match(/^tomorrow(?:\s+at?\s+(\d{1,2})[:.]?(\d{2})?(?:\s*([ap]m?))?)?(?:\s+(.+))?$/i);
+    if (tomMatch && tomMatch[4]) {
+        let [, hh, mm, ampm, msg] = tomMatch;
+        let hours = hh ? parseInt(hh, 10) : 9;
+        const mins = mm ? parseInt(mm, 10) : 0;
+        if (ampm) {
+            if (/pm?/i.test(ampm) && hours < 12) hours += 12;
+            if (/am?/i.test(ampm) && hours === 12) hours = 0;
+        }
+        const target = new Date();
+        target.setDate(target.getDate() + 1);
+        target.setHours(hours, mins, 0, 0);
+        return { remind_at: target.getTime(), message: msg.trim() };
+    }
+
+    // --- "Xm message" shorthand (e.g. "30m call John") -------------
+    const shortMatch = s.match(/^(\d+)\s*(m(?:in)?|h(?:r)?|d)\s+(.+)$/i);
+    if (shortMatch) {
+        const [, num, unit, msg] = shortMatch;
+        const n = parseInt(num, 10);
+        const mult = { m: 60_000, h: 3_600_000, d: 86_400_000 };
+        const ms   = mult[unit[0].toLowerCase()] ?? 60_000;
+        return { remind_at: now + n * ms, message: msg.trim() };
+    }
+
+    return null;
+};
+
+// ── Human-readable duration ───────────────────────────────────────
+const humanDur = (ms) => {
+    const secs  = Math.floor(ms / 1_000);
+    const mins  = Math.floor(secs / 60);
+    const hours = Math.floor(mins / 60);
+    const days  = Math.floor(hours / 24);
+    if (days  > 0) return `${days}d ${hours % 24}h`;
+    if (hours > 0) return `${hours}h ${mins % 60}m`;
+    if (mins  > 0) return `${mins}m`;
+    return `${secs}s`;
+};
+
+const fmtDate = (ts) => {
+    const d = new Date(ts);
+    return d.toLocaleString([], { weekday: "short", month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" });
+};
+
+// ── Background reminder delivery (every 30 seconds) ───────────────
+const deliverReminders = async () => {
+    const due = $getDue.all(Date.now());
+    if (!due.length) return;
+
+    const sock = global._botSocket;
+    if (!sock) return;
+
+    for (const rem of due) {
+        $markDone.run(rem.id);
+        try {
+            const from  = rem.target_jid;
+            const isGroup = rem.chat_jid.endsWith("@g.us");
+            const ping    = isGroup ? `@${from.split("@")[0].split(":")[0]}` : "";
+
+            await sock.sendMessage(rem.chat_jid, {
+                text:
+                    `*⏰ REMINDER*\n${"═".repeat(28)}\n\n` +
+                    `${ping} ${rem.message}\n\n` +
+                    `${"─".repeat(28)}\n` +
+                    `🆔 ID #${rem.id} · Reply \`.snooze ${rem.id} 15m\` to snooze`,
+                ...(isGroup ? { mentions: [from] } : {}),
+            });
+        } catch (err) {
+            console.error(`[Reminders] delivery failed for #${rem.id}:`, err.message);
+        }
+    }
+};
+
+// Guard against duplicate intervals on hot-reload
+if (global.__reminderInterval) clearInterval(global.__reminderInterval);
+global.__reminderInterval = setInterval(deliverReminders, 30_000);
+
+// Run once immediately on load so reminders survive a bot restart
+setTimeout(deliverReminders, 3_000);
+
+// ── COMMAND: .remind ──────────────────────────────────────────────
+gmd({
+    pattern:     "remind",
+    aliases:     ["remindme", "reminder", "setalarm"],
+    react:       "⏰",
+    category:    "tools",
+    description: "Set a smart reminder with natural language time",
+    usage:       ".remind in 30m <message> | at 15:30 <message> | tomorrow <message>",
+}, async (from, Guru, conText) => {
+    const { q, reply, react, sender, pushName } = conText;
+
+    if (!q) {
+        await react("❓");
+        return reply(
+            `*⏰ Smart Reminder Engine*\n${"═".repeat(30)}\n\n` +
+            `*Formats:*\n` +
+            `\`.remind in 30m Call John\`\n` +
+            `\`.remind in 2h Submit the report\`\n` +
+            `\`.remind in 1d Team meeting\`\n` +
+            `\`.remind at 14:30 Lunch with boss\`\n` +
+            `\`.remind at 9am Wake up!\`\n` +
+            `\`.remind tomorrow 8am Morning workout\`\n` +
+            `\`.remind 10m Quick reminder text\`\n\n` +
+            `*Manage:* \`.reminders\` · \`.cancelreminder <id>\` · \`.snooze <id> <time>\``
+        );
+    }
+
+    const parsed = parseRemind(q);
+    if (!parsed) {
+        await react("❌");
+        return reply(
+            `❌ Couldn't parse that time.\n\n` +
+            `*Try:*\n` +
+            `• \`.remind in 30m <message>\`\n` +
+            `• \`.remind at 14:30 <message>\`\n` +
+            `• \`.remind tomorrow <message>\``
+        );
+    }
+
+    const { remind_at, message } = parsed;
+    const now = Date.now();
+    if (remind_at <= now + 5_000) {
+        await react("❌");
+        return reply("❌ Reminder time must be in the future!");
+    }
+    if (remind_at > now + 30 * 86_400_000) {
+        await react("❌");
+        return reply("❌ Maximum reminder time is *30 days*.");
+    }
+
+    const result = $insert.run(sender, sender, from, message, remind_at, now);
+    const id     = result.lastInsertRowid;
+    const inMs   = remind_at - now;
+
+    await react("✅");
+    reply(
+        `*⏰ Reminder Set!*\n${"═".repeat(28)}\n\n` +
+        `🆔 *ID:*      #${id}\n` +
+        `📝 *Message:* ${message}\n` +
+        `⏱️ *In:*      ${humanDur(inMs)}\n` +
+        `📅 *At:*      ${fmtDate(remind_at)}\n\n` +
+        `> _I'll ping you when it's time!_\n` +
+        `> _Cancel with \`.cancelreminder ${id}\`_`
+    );
+});
+
+// ── COMMAND: .reminders ───────────────────────────────────────────
+gmd({
+    pattern:     "reminders",
+    aliases:     ["myreminders", "alarms", "remlist"],
+    react:       "📋",
+    category:    "tools",
+    description: "List all your pending reminders",
+    usage:       ".reminders",
+}, async (from, Guru, conText) => {
+    const { reply, react, sender } = conText;
+
+    const rows = $myList.all(sender);
+    if (rows.length === 0) {
+        await react("📭");
+        return reply("📭 You have no pending reminders.\n\nSet one with `.remind in 30m <message>`!");
+    }
+
+    const now   = Date.now();
+    const lines = rows.map(r => {
+        const left = r.remind_at - now;
+        const when = left > 0 ? `in ${humanDur(left)}` : "⚠️ overdue";
+        return `⏰ *#${r.id}* — _${r.message}_\n   📅 ${fmtDate(r.remind_at)} _(${when})_`;
+    }).join("\n\n");
+
+    await react("✅");
+    reply(
+        `*📋 Your Reminders (${rows.length})*\n${"═".repeat(32)}\n\n` +
+        `${lines}\n\n` +
+        `${"─".repeat(32)}\n` +
+        `_Cancel: \`.cancelreminder <id>\` · Snooze: \`.snooze <id> <time>\`_`
+    );
+});
+
+// ── COMMAND: .cancelreminder ──────────────────────────────────────
+gmd({
+    pattern:     "cancelreminder",
+    aliases:     ["cancelrem", "cancelalarm", "delreminder"],
+    react:       "🗑️",
+    category:    "tools",
+    description: "Cancel a pending reminder by ID",
+    usage:       ".cancelreminder <id>",
+}, async (from, Guru, conText) => {
+    const { q, reply, react, sender } = conText;
+
+    const id = parseInt(q?.trim(), 10);
+    if (!id || isNaN(id)) {
+        await react("❓");
+        return reply("❓ Usage: `.cancelreminder <id>`\n\nGet IDs from `.reminders`");
+    }
+
+    const row = $getOne.get(id);
+    if (!row || row.requester !== sender || row.is_done) {
+        await react("❌");
+        return reply(`❌ Reminder #${id} not found or already done.`);
+    }
+
+    $cancel.run(id, sender);
+    await react("✅");
+    reply(`*🗑️ Reminder Cancelled*\n\n#${id} — _${row.message}_`);
+});
+
+// ── COMMAND: .snooze ─────────────────────────────────────────────
+gmd({
+    pattern:     "snooze",
+    aliases:     ["snz"],
+    react:       "😴",
+    category:    "tools",
+    description: "Snooze a reminder for an extra time period",
+    usage:       ".snooze <id> <time>  (e.g. .snooze 3 15m)",
+}, async (from, Guru, conText) => {
+    const { q, reply, react, sender } = conText;
+
+    if (!q) {
+        await react("❓");
+        return reply("❓ Usage: `.snooze <id> <time>`\n\nExample: `.snooze 3 15m`");
+    }
+
+    const parts = q.trim().split(/\s+/);
+    const id    = parseInt(parts[0], 10);
+    const rest  = parts.slice(1).join(" ");
+
+    if (!id || !rest) {
+        await react("❓");
+        return reply("❓ Usage: `.snooze <id> <time>`\nExample: `.snooze 3 15m`");
+    }
+
+    const parsed = parseRemind(`in ${rest} placeholder`);
+    if (!parsed) {
+        await react("❌");
+        return reply("❌ Invalid time. Try: `15m`, `1h`, `30m`");
+    }
+
+    const row = $getOne.get(id);
+    if (!row || row.requester !== sender) {
+        await react("❌");
+        return reply(`❌ Reminder #${id} not found.`);
+    }
+
+    const delay     = parsed.remind_at - Date.now();
+    const newTime   = Date.now() + delay;
+    $snooze.run(newTime, Date.now(), id);
+
+    await react("✅");
+    reply(
+        `*😴 Snoozed!*\n\n` +
+        `#${id} — _${row.message}_\n` +
+        `📅 New time: *${fmtDate(newTime)}*`
+    );
+});

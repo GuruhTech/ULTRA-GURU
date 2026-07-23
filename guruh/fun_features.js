@@ -1,1 +1,250 @@
-const a0_0x1d0d52=a0_0x5c9e;(function(_0x1de20b,_0x32b6db){const _0x460eec=a0_0x5c9e,_0x97ef98=_0x1de20b();while(!![]){try{const _0xa1385b=parseInt(_0x460eec(0x29b))/0x1*(-parseInt(_0x460eec(0x247))/0x2)+-parseInt(_0x460eec(0x1b7))/0x3*(parseInt(_0x460eec(0x1b8))/0x4)+-parseInt(_0x460eec(0x262))/0x5+-parseInt(_0x460eec(0x216))/0x6*(-parseInt(_0x460eec(0x1c5))/0x7)+parseInt(_0x460eec(0x1db))/0x8+parseInt(_0x460eec(0x1dd))/0x9*(parseInt(_0x460eec(0x245))/0xa)+parseInt(_0x460eec(0x23a))/0xb*(parseInt(_0x460eec(0x21a))/0xc);if(_0xa1385b===_0x32b6db)break;else _0x97ef98['push'](_0x97ef98['shift']());}catch(_0x45ae40){_0x97ef98['push'](_0x97ef98['shift']());}}}(a0_0x143c,0xec942));const a0_0x2fe593=(function(){let _0x2f48d4=!![];return function(_0x399238,_0x3b8620){const _0x4f4ccb=_0x2f48d4?function(){const _0x3aa9b7=a0_0x5c9e;if(_0x3b8620){const _0x24dfbf=_0x3b8620[_0x3aa9b7(0x1c8)](_0x399238,arguments);return _0x3b8620=null,_0x24dfbf;}}:function(){};return _0x2f48d4=![],_0x4f4ccb;};}()),a0_0x445693=a0_0x2fe593(this,function(){const _0x4d91df=a0_0x5c9e;if(a0_0x445693[_0x4d91df(0x28e)]()['toString']()[_0x4d91df(0x1fd)]('\x0a')!==-0x1)return;return a0_0x445693[_0x4d91df(0x1b4)]()[_0x4d91df(0x189)](_0x4d91df(0x19f)+'+$')[_0x4d91df(0x1b4)]()[_0x4d91df(0x24d)+'r'](a0_0x445693)[_0x4d91df(0x189)](_0x4d91df(0x19f)+'+$');});a0_0x445693();const {gmd}=require(a0_0x1d0d52(0x18f)),axios=require('axios'),a0_0x2d1c0e={};a0_0x2d1c0e['q']='I\x20speak\x20wi'+a0_0x1d0d52(0x16f)+a0_0x1d0d52(0x256)+a0_0x1d0d52(0x188)+a0_0x1d0d52(0x212)+a0_0x1d0d52(0x18c)+a0_0x1d0d52(0x283)+a0_0x1d0d52(0x26e)+'with\x20the\x20w'+a0_0x1d0d52(0x1f4)+a0_0x1d0d52(0x281),a0_0x2d1c0e['a']=a0_0x1d0d52(0x1c9);const a0_0x3bc4b3={};a0_0x3bc4b3['q']=a0_0x1d0d52(0x25d)+'ou\x20take,\x20t'+a0_0x1d0d52(0x204)+a0_0x1d0d52(0x1a5)+'hind.\x20What'+a0_0x1d0d52(0x1c7),a0_0x3bc4b3['a']=a0_0x1d0d52(0x1de);const a0_0x339b84={};a0_0x339b84['q']=a0_0x1d0d52(0x264)+a0_0x1d0d52(0x1d9)+a0_0x1d0d52(0x273)+a0_0x1d0d52(0x1a3)+'\x20I\x20have\x20mo'+a0_0x1d0d52(0x21f)+a0_0x1d0d52(0x294)+a0_0x1d0d52(0x1b1)+a0_0x1d0d52(0x1ea)+a0_0x1d0d52(0x21b)+a0_0x1d0d52(0x254)+a0_0x1d0d52(0x24f)+a0_0x1d0d52(0x270)+'I?',a0_0x339b84['a']=a0_0x1d0d52(0x1ee);const a0_0x3832a3={};a0_0x3832a3['q']=a0_0x1d0d52(0x169)+'ands\x20but\x20c'+a0_0x1d0d52(0x27e),a0_0x3832a3['a']=a0_0x1d0d52(0x19e);const a0_0x5cb7f0={};a0_0x5cb7f0['q']=a0_0x1d0d52(0x26c)+a0_0x1d0d52(0x27f)+a0_0x1d0d52(0x19a)+a0_0x1d0d52(0x229),a0_0x5cb7f0['a']=a0_0x1d0d52(0x21c);const a0_0x36f712={};a0_0x36f712['q']='I\x20have\x20a\x20h'+a0_0x1d0d52(0x22c)+a0_0x1d0d52(0x18b)+a0_0x1d0d52(0x208)+a0_0x1d0d52(0x197),a0_0x36f712['a']=a0_0x1d0d52(0x29a);const a0_0x56d0c7={};a0_0x56d0c7['q']=a0_0x1d0d52(0x1aa)+a0_0x1d0d52(0x22d)+a0_0x1d0d52(0x1f2)+a0_0x1d0d52(0x250)+a0_0x1d0d52(0x287)+a0_0x1d0d52(0x1a9)+a0_0x1d0d52(0x28c)+a0_0x1d0d52(0x17a),a0_0x56d0c7['a']='The\x20letter'+'\x20M';const a0_0x2c0fea={};a0_0x2c0fea['q']=a0_0x1d0d52(0x25d)+a0_0x1d0d52(0x1e8)+a0_0x1d0d52(0x225)+a0_0x1d0d52(0x1ad)+a0_0x1d0d52(0x20d)+a0_0x1d0d52(0x298),a0_0x2c0fea['a']='A\x20hole';const a0_0x17f593={};a0_0x17f593['q']=a0_0x1d0d52(0x1df)+a0_0x1d0d52(0x235)+a0_0x1d0d52(0x1ac)+a0_0x1d0d52(0x19b)+a0_0x1d0d52(0x285)+a0_0x1d0d52(0x298),a0_0x17f593['a']=a0_0x1d0d52(0x288);const a0_0x45c6db={};a0_0x45c6db['q']='What\x20has\x20m'+a0_0x1d0d52(0x1f6)+'ut\x20can\x27t\x20o'+a0_0x1d0d52(0x20b)+a0_0x1d0d52(0x224),a0_0x45c6db['a']=a0_0x1d0d52(0x202);const a0_0x2fe3ac={};a0_0x2fe3ac['q']='What\x20runs\x20'+a0_0x1d0d52(0x1e2)+a0_0x1d0d52(0x24e)+a0_0x1d0d52(0x1e5)+a0_0x1d0d52(0x1d4)+a0_0x1d0d52(0x207),a0_0x2fe3ac['a']=a0_0x1d0d52(0x1cb);const a0_0x4acd44={};a0_0x4acd44['q']=a0_0x1d0d52(0x1f1)+a0_0x1d0d52(0x227)+'nd\x20the\x20wor'+a0_0x1d0d52(0x1f0)+'taying\x20in\x20'+a0_0x1d0d52(0x166),a0_0x4acd44['a']='A\x20stamp';const RIDDLES=[a0_0x2d1c0e,a0_0x3bc4b3,a0_0x339b84,a0_0x3832a3,a0_0x5cb7f0,a0_0x36f712,a0_0x56d0c7,a0_0x2c0fea,a0_0x17f593,a0_0x45c6db,a0_0x2fe3ac,a0_0x4acd44],ROASTS=[a0_0x1d0d52(0x178)+'e\x20a\x20human\x20'+a0_0x1d0d52(0x27d)+a0_0x1d0d52(0x1cf)+a0_0x1d0d52(0x1ed)+'phy.',a0_0x1d0d52(0x1dc)+a0_0x1d0d52(0x200)+a0_0x1d0d52(0x1a2)+a0_0x1d0d52(0x1f9)+a0_0x1d0d52(0x192)+a0_0x1d0d52(0x27b)+a0_0x1d0d52(0x296),a0_0x1d0d52(0x286)+a0_0x1d0d52(0x28f)+a0_0x1d0d52(0x22a)+a0_0x1d0d52(0x18e)+a0_0x1d0d52(0x215)+a0_0x1d0d52(0x171)+'h.',a0_0x1d0d52(0x1ca)+a0_0x1d0d52(0x205)+a0_0x1d0d52(0x194)+a0_0x1d0d52(0x1d1)+'akes.','I\x27m\x20not\x20sa'+a0_0x1d0d52(0x1e4)+a0_0x1d0d52(0x21d)+a0_0x1d0d52(0x217)+a0_0x1d0d52(0x27c)+a0_0x1d0d52(0x282)+a0_0x1d0d52(0x180)+'.',a0_0x1d0d52(0x1cd)+a0_0x1d0d52(0x16a)+a0_0x1d0d52(0x25c)+a0_0x1d0d52(0x1b5)+a0_0x1d0d52(0x203)+a0_0x1d0d52(0x267),a0_0x1d0d52(0x242)+'he\x20energy\x20'+'of\x20a\x20dying'+a0_0x1d0d52(0x1e9)+a0_0x1d0d52(0x1ae),a0_0x1d0d52(0x289)+'were\x20petro'+'l,\x20you\x20wou'+a0_0x1d0d52(0x248)+'\x20enough\x20to'+'\x20power\x20an\x20'+'ant\x27s\x20mope'+'d.',a0_0x1d0d52(0x1cd)+a0_0x1d0d52(0x25a)+a0_0x1d0d52(0x20a)+a0_0x1d0d52(0x1bd)+'g\x27\x20screen.',a0_0x1d0d52(0x23e)+a0_0x1d0d52(0x253)+a0_0x1d0d52(0x269)+a0_0x1d0d52(0x252)+a0_0x1d0d52(0x1bf)+a0_0x1d0d52(0x221)+a0_0x1d0d52(0x1be)+a0_0x1d0d52(0x1ef)],a0_0x4555ec={};a0_0x4555ec[a0_0x1d0d52(0x246)]='dice',a0_0x4555ec[a0_0x1d0d52(0x170)]=['roll','d6'],a0_0x4555ec[a0_0x1d0d52(0x1fa)+'n']='Roll\x20a\x20dic'+a0_0x1d0d52(0x199),a0_0x4555ec[a0_0x1d0d52(0x23d)]='🎲',a0_0x4555ec[a0_0x1d0d52(0x1a4)]=a0_0x1d0d52(0x271),gmd(a0_0x4555ec,async(_0x2586c6,_0x54dcfc,_0x9607c6)=>{const _0x283f8f=a0_0x1d0d52,{reply:_0x2c065f,react:_0x81e186,botFooter:_0x23feac}=_0x9607c6,_0x5f281b=Math[_0x283f8f(0x24b)](Math['random']()*0x6)+0x1,_0x59cbb9=['','⚀','⚁','⚂','⚃','⚄','⚅'];await _0x81e186('✅'),await _0x2c065f('🎲\x20*Dice\x20Ro'+'ll*\x0a\x0a'+_0x59cbb9[_0x5f281b]+(_0x283f8f(0x231)+_0x283f8f(0x1d5))+_0x5f281b+_0x283f8f(0x23b)+_0x23feac+'_');});const a0_0x8d67c={};function a0_0x5c9e(_0x8b4eaf,_0x17d23d){_0x8b4eaf=_0x8b4eaf-0x166;const _0x19b920=a0_0x143c();let _0x445693=_0x19b920[_0x8b4eaf];if(a0_0x5c9e['GeYKZD']===undefined){var _0x2fe593=function(_0x384554){const _0xbd6bf3='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _0x2e6e46='',_0x37a673='',_0x2c1a15=_0x2e6e46+_0x2fe593,_0x2d1c0e=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x3bc4b3=0x0,_0x339b84,_0x3832a3,_0x5cb7f0=0x0;_0x3832a3=_0x384554['charAt'](_0x5cb7f0++);~_0x3832a3&&(_0x339b84=_0x3bc4b3%0x4?_0x339b84*0x40+_0x3832a3:_0x3832a3,_0x3bc4b3++%0x4)?_0x2e6e46+=_0x2d1c0e||_0x2c1a15['charCodeAt'](_0x5cb7f0+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x339b84>>(-0x2*_0x3bc4b3&0x6)):_0x3bc4b3:0x0){_0x3832a3=_0xbd6bf3['indexOf'](_0x3832a3);}for(let _0x36f712=0x0,_0x56d0c7=_0x2e6e46['length'];_0x36f712<_0x56d0c7;_0x36f712++){_0x37a673+='%'+('00'+_0x2e6e46['charCodeAt'](_0x36f712)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x37a673);};a0_0x5c9e['KomJtb']=_0x2fe593,a0_0x5c9e['ygsqGa']={},a0_0x5c9e['GeYKZD']=!![];}const _0x143c57=_0x19b920[0x0],_0x5c9e35=_0x8b4eaf+_0x143c57,_0x556083=a0_0x5c9e['ygsqGa'][_0x5c9e35];if(!_0x556083){const _0x2c0fea=function(_0x17f593){this['dMpOkZ']=_0x17f593,this['LNoyoM']=[0x1,0x0,0x0],this['fudLGz']=function(){return'newState';},this['Zauzgm']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['moGUhZ']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0x2c0fea['prototype']['cZUBrE']=function(){const _0x45c6db=new RegExp(this['Zauzgm']+this['moGUhZ']),_0x2fe3ac=_0x45c6db['test'](this['fudLGz']['toString']())?--this['LNoyoM'][0x1]:--this['LNoyoM'][0x0];return this['MXmVso'](_0x2fe3ac);},_0x2c0fea['prototype']['MXmVso']=function(_0x4acd44){if(!Boolean(~_0x4acd44))return _0x4acd44;return this['tjLiYc'](this['dMpOkZ']);},_0x2c0fea['prototype']['tjLiYc']=function(_0x4555ec){for(let _0x8d67c=0x0,_0x275da1=this['LNoyoM']['length'];_0x8d67c<_0x275da1;_0x8d67c++){this['LNoyoM']['push'](Math['round'](Math['random']())),_0x275da1=this['LNoyoM']['length'];}return _0x4555ec(this['LNoyoM'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x2c0fea(a0_0x5c9e)['cZUBrE'](),_0x445693=a0_0x5c9e['KomJtb'](_0x445693),a0_0x5c9e['ygsqGa'][_0x5c9e35]=_0x445693;}else _0x445693=_0x556083;return _0x445693;}a0_0x8d67c[a0_0x1d0d52(0x246)]=a0_0x1d0d52(0x230),a0_0x8d67c['aliases']=[a0_0x1d0d52(0x244),a0_0x1d0d52(0x190)],a0_0x8d67c[a0_0x1d0d52(0x1fa)+'n']='Flip\x20a\x20coi'+'n\x20(Heads\x20o'+'r\x20Tails)',a0_0x8d67c[a0_0x1d0d52(0x23d)]='🪙',a0_0x8d67c[a0_0x1d0d52(0x1a4)]=a0_0x1d0d52(0x271),gmd(a0_0x8d67c,async(_0x132f64,_0x514faf,_0x9d6f53)=>{const _0x191c72=a0_0x1d0d52,{reply:_0x1852e0,react:_0x4a9a07,botFooter:_0x3fd0ea}=_0x9d6f53,_0x3824be=Math[_0x191c72(0x291)]()>0.5?_0x191c72(0x292):'⚪\x20Tails';await _0x4a9a07('✅'),await _0x1852e0(_0x191c72(0x22f)+'ip*\x0a\x0a'+_0x3824be+_0x191c72(0x168)+_0x3fd0ea+'_');});const a0_0x275da1={};a0_0x275da1[a0_0x1d0d52(0x246)]=a0_0x1d0d52(0x291),a0_0x275da1[a0_0x1d0d52(0x170)]=[a0_0x1d0d52(0x1c3),'rand'],a0_0x275da1[a0_0x1d0d52(0x1fa)+'n']=a0_0x1d0d52(0x185)+a0_0x1d0d52(0x263)+a0_0x1d0d52(0x28d)+a0_0x1d0d52(0x1b3)+a0_0x1d0d52(0x25e)+a0_0x1d0d52(0x195),a0_0x275da1[a0_0x1d0d52(0x23d)]='🎰',a0_0x275da1[a0_0x1d0d52(0x1a4)]='fun',gmd(a0_0x275da1,async(_0x2147a2,_0x3cd3a3,_0x3eb8fd)=>{const _0x50c974=a0_0x1d0d52,{args:_0x1e9541,reply:_0xe01747,react:_0x47c30d,botFooter:_0x8f2973}=_0x3eb8fd,_0x36fee1=parseInt(_0x1e9541[0x0])||0x1,_0x425e8d=parseInt(_0x1e9541[0x1])||0x64;if(_0x36fee1>=_0x425e8d)return _0xe01747(_0x50c974(0x241)+_0x50c974(0x280)+'han\x20Max!');const _0x695d5c=Math['floor'](Math[_0x50c974(0x291)]()*(_0x425e8d-_0x36fee1+0x1))+_0x36fee1;await _0x47c30d('✅'),await _0xe01747(_0x50c974(0x268)+_0x50c974(0x260)+'ange:\x20'+_0x36fee1+_0x50c974(0x16c)+_0x425e8d+_0x50c974(0x1f7)+_0x695d5c+_0x50c974(0x23b)+_0x8f2973+'_');});const a0_0x3eecd2={};a0_0x3eecd2[a0_0x1d0d52(0x246)]=a0_0x1d0d52(0x299),a0_0x3eecd2[a0_0x1d0d52(0x170)]=[a0_0x1d0d52(0x1af),a0_0x1d0d52(0x191)],a0_0x3eecd2[a0_0x1d0d52(0x1fa)+'n']=a0_0x1d0d52(0x261)+'om\x20joke',a0_0x3eecd2[a0_0x1d0d52(0x23d)]='😂',a0_0x3eecd2[a0_0x1d0d52(0x1a4)]=a0_0x1d0d52(0x271),gmd(a0_0x3eecd2,async(_0x4d3811,_0x1f7b2d,_0x4933ce)=>{const _0x63bb00=a0_0x1d0d52,{reply:_0x1b123b,react:_0x34bce7,botFooter:_0x5ccc65}=_0x4933ce;try{await _0x34bce7('⏳');const _0x721324={};_0x721324['timeout']=0x2710;const _0x57ef92=await axios[_0x63bb00(0x214)](_0x63bb00(0x20f)+_0x63bb00(0x218)+'e-api.apps'+_0x63bb00(0x17f)+_0x63bb00(0x1d0),_0x721324),{setup:_0x553202,punchline:_0x511c4f}=_0x57ef92['data'];await _0x34bce7('✅'),await _0x1b123b(_0x63bb00(0x1fe)+_0x553202+_0x63bb00(0x1d7)+_0x511c4f+'_\x0a\x0a>\x20_'+_0x5ccc65+'_');}catch{await _0x34bce7('❌'),await _0x1b123b(_0x63bb00(0x17e)+_0x63bb00(0x23c)+_0x63bb00(0x18d)+_0x63bb00(0x16e)+_0x63bb00(0x18a));}});function a0_0x143c(){const _0x91c2c5=['DgvYEs4','AM9Rzxm','B25ZlIbvC2fNzq','CYbNCM93ihrOzq','8j+NOcaQvhjPDMLHkG','zs4GvxnHz2u6ia','Dg9tDhjPBMC','Dhj1y3rPB25Zia','cVcFK4WGCI8','mtaWndmZmwnKv0zXqG','mJbwzMDOuvq','m2akx0v4yw1WBa','r2v0igeGDhjPDG','cGP8FefUC3DLCG','8j+oSsaQtwfNAwmGoa','igeGj2XVywrPBG','zsbVEhLNzw4GEq','DMvYDgLTzsbWCG','z2vYFhrHy29ZxW','CMvWzwf0','DgLVBG','CM5K','B3vUDd0XjNr5Ca','mtq3D25QsM5Z','4P2mifbYB3zPzguG','igfTieK/','yxbWBhK','qw4GzwnOBW','ww91j3jLihbYBW','qsbYAxzLCG','CMf0zq','ww91j3jLihrOzq','4Q2qicPsyxrPBMCQ','igeGCgfYDgLJAq','BMrVBv9QB2TL','BwfRzxmGBwLZDa','BwuTyxbPlMnVBq','cGRINkGGkG','DxqGBMv2zxiGDa','zwq6icO','cGOQq2f0zwDVCG','cGPF','igeGEwvZl25Via','AwvZlcbIDxqGBG','zgf0yq','ndq1odi2ng1osNzJvG','swyGEw91ihDLCG','mtCZnJi0ntH3DuDOyMG','rM9VDhn0zxbZ','ssDTigfSD2f5CW','EsbGFga','ig9WDgLVBNmGCW','yNv0ig5LDMvYia','CM9HC3q','EwLUzYb5B3uNCG','igeGBw91DgGGyG','8j+fSE+4JW','BML0zwX5ig5VDa','B3uGDgfRzsbHDW','ihbOB25LigjHDa','CMuUieKGAgf2zq','B20GuMvKzgL0','uMf0zsbZB21LDa','Cgf0Aw9UihrYBW','qsbTyxa','B3uGD2fZDguU','BgqGD2HPBguGCW','v2HHDcbJyw4GDa','ig1PBNv0zsWGDa','DhK6kIa','Aw5KlIbxAgf0ia','CgLJAW','yw55igTLExmGyG','cLjLC3vSDdOGkG','imk3ia','igjLigeGDhvYBG','zgvZy3jPChrPBW','BwfW','AgLUzYbVDxqGBW','Aw5KzxHpzG','8j+yGIaQsM9RzsOkcG','y29YCMvJDf9HBG','zsbHihzLz2v0yq','DgLTzw91Da','qsbWAwfUBW','B24GC2HHBxbVBW','AguGBw9Yzsb5BW','B2yGDgHHDcbLDG','AM9PBG','ywXRCZ8','BM8GyM9KEs4GvW','z2LJidGTyMfSBa','AxzHBgvUDcbVzG','CgvUigeGC2LUzW','lujHBgWQcGRINzmG','zxiGssbNzxqUia','zgvJAwrL','Ahr0Chm6lY9VzG','zwX5lG','CZOG','igvHCNmUieKGAa','C29YDa','z2v0','DxbWB3nLzcb0BW','mJG3mJm4Curtwef3','Dcb5B3uNzcbSBW','zMLJAwfSlwPVAW','BwvTzxm','nJi4nZa4ohrHBLvdra','ihDHDgvYlcbIDq','qsb0B3DLBa','zsbKDw1IlcbIDq','zxbHCMf0zwqGyG','Dw50ywLUCYWGyG','AweGCxvLC3rPBW','B2r1y2LUzYb0Aa','8j+uPsaQuM9HC3qQcG','CxvVDgvK','BguGBg9JAZ8','yxKGzNjVBsbTzq','DxjS','CMf2zwWGyxjVDq','CxvLC3rPB24','CMLLCZ8','EsbTB20GC2fPza','zIaXmc4GvxnHzW','zwfKigfUzcbHia','ig9Uy2uGAw4Gyq','BJ5G','8j+QMsaQq29PBIbgBa','y29PBG','icbzB3uGCM9SBa','qxnRihrOzsbTyq','yw5ZD2vYCW','AwTLBhKU','igLUigzYB250ia','ywLUiq','lNjHDguGphnVBq','lMnOB29ZzsbVCa','4P2mifzLCNKGDw5S','mZnntxrHs0O','kGOkpIbF','DcbMzxrJAcbHia','CMvHy3q','u29TzxDOzxjLia','Ahr0Chm6lY9Tzq','B24YFg9WDgLVBG','4P2mie1PBIbTDxn0','ww91igHHDMuGDa','DhjPBq','zMXPCa','mtbqze1hBxC','Cgf0DgvYBG','ngzbvevsrq','BgrUj3qGAgf2zq','4P2tienHBM5VDcbW','4PYfifLLCYWGzgvM','zMXVB3i','twfRzsbHihjHBG','y29UC3rYDwn0BW','D2fSA3mSigHHCW','C3DPBsb0AgvYzq','D2LJzsbPBIbHia','BwvTzq','ihDVCMTPBMCGBW','B3v0ihrOzxjLla','DcbUBYbMAxnOia','CM9HC3rPBMC','DxrOigfUzcbOzq','y2HVB3nL','C3DLCG','CNrHAw4U','igH1BwfUigvXDq','BIbSyxrLCI4','zxKGChv0igLUCW','vgHLig1VCMuGEq','lNjHBMrVBsaXia','lZeWkGO','tNvTyMvYkGOkuG','r2v0igeGCMfUza','ntaZmdy0nvPdrhL2vW','yw5KB20GBNvTyG','ssbOyxzLignPDa','ztOGlNjHDguGCa','B3CUifrYEsbHzW','igjVDhrSzxmU','8j+oScaQuMfUzg9Tia','igeGDhjLzsbPCW','DcbMzxrJAcb0CG','C3bSAxq','v2HHDcbNzxrZia','Aw1Hz2u','B21LigfSAxzLia','yMuU','lIbxAgf0igfTia','zNvU','rxHHBxbSztOGlG','BYbOB3vZzxmGBa','l2DPBw1L','zNvUBNLWAwm','Dw50ig9UigL0lG','DgLVBJf8B3b0Aq','4PYfifDPDgHVDxqG','Aw50ihrVig1HEq','Chv6EMXL','zsb0DxjUzwqGDq','C2uGysbNyw1Lia','DMvYC2LVBIbVzG','yw4NDcbJBgfWpW','D2v0DgvYihrOzq','igjLigXLC3mGDa','yw0Gst8','B2yGD2L0CYb0BW','EsWGyNv0ieKGyW','C2vUze1LC3nHzW','igjLihnLzw4Uia','ssDKihjVyxn0ia','Bw9Tzw50lcbIDq','vgHLigz1DhvYzq','swyGyNjHAw5Zia','ztOGlMnOB29Zzq','BwuGCMLNAhqGBG','igeGDgHVDxnHBG','zxiGAw4GCMfUzW','yMLUza','Ew91lcbIDxqGBq','AxzPysbYAwDODa','CMfUzg9T','8j+FOsbizwfKCW','8j+oRYaQssbdAg9VCW','DxqGBM8GDhjLzq','DhjPDMLHCxvLCW','CcbUB3DOzxjLlG','yNjHAw50zwfZzq','v2HHDcbHBsbjpW','AM9Rzq','qsbJB2LU','nZa3mJu1s05uBNfw','4P2tiefZAYbHz2fP','ysbJB3jUzxi/','zt1TDwX0AxbSzq','cGO+if8','v2HHDcbOyxmGAa','ihjLyxnVBIb0Aa','4P2mierVBID0ignV','iokaKYa','yxbPlNbOCd9HBq','ig5VDY4Gvhj5ia','DgHVDxqGysbTBW','ywXPyxnLCW','igj1CM4GDhjHCW','zg9TignOB2LJzq','cIPeAwzMAwn1Ba','ysbKB3vIDc4','4PYfieL0igLZignL','8j+fSo+4JW','4P2mie5VlcbKzwzP','ww91j3jLigXPAW','zMLSDgvY','zcb5zwfYCZ8','DhjPDMLH','BgvUz3rO','x3X8cGO+if8','4P2mienVDwXKig5V','Cg90lMnVBs9Yyq','igeGDg9HC3rLCG','zM9YrwfJAa','oIbF','ie1ftuuQcGRWN5Igia','zxj8DgfJB3m','r2vUzxjHDguGCG','lJHIywXSidX5BW','ogjHBgW','yxiGD2L0Ag91Da','C2vHCMnO','ywDHAw4H','DgfPBcWGyNv0ia','yxzLig5VigjVza','AM9RzsbYAwDODa','ieKNBsbUB3qGCW','lI4Vz3vYDq','Dg9ZCW','zNvUBNK','AxaG4OcuihLVDsD2','CMvKAwn0ig5VDW','zw4GBMf0DxjLia','mtaW','Ahr0Chm6lY9VCa','Agf0igfTieK/','B20GBwvTzsbMCG','zsaOms02kq','ig1VCMuGAxqGza','ignHBIbUzxzLCG','yxnRogjHBgW','CJOGxW','qsbJBg9JAW','kcGOlISPkYKRkq','A25VD2XLzgDL','y2fWDgLVBG','yMXLlcb5B3uNza','AxzLihrOzxjLlG','y2f0zwDVCNK','DsbSzwf2zsbIzq','oIaUy2HVB3nLia','kLvZywDLoIOGya','zsOkcK9WDgLVBG','DcbUzxzLCIbPBG','v2HHDcbJB21LCW','B20GCMLKzgXL','B2yGEw91igj1Da','lcb0AguGyMLNzW'];a0_0x143c=function(){return _0x91c2c5;};return a0_0x143c();}const a0_0x320625={};a0_0x320625[a0_0x1d0d52(0x246)]=a0_0x1d0d52(0x251),a0_0x320625[a0_0x1d0d52(0x170)]=[a0_0x1d0d52(0x219),a0_0x1d0d52(0x275)],a0_0x320625['descriptio'+'n']=a0_0x1d0d52(0x261)+a0_0x1d0d52(0x198)+a0_0x1d0d52(0x1eb),a0_0x320625[a0_0x1d0d52(0x23d)]='😆',a0_0x320625[a0_0x1d0d52(0x1a4)]=a0_0x1d0d52(0x271),gmd(a0_0x320625,async(_0x45f36d,_0xd51b4b,_0x571868)=>{const _0x23e328=a0_0x1d0d52,{reply:_0x49997e,react:_0x56bb7e,mek:_0x1503e2,botFooter:_0x3ade6d,botName:_0x272e50}=_0x571868;try{await _0x56bb7e('⏳');const _0x5f301e={};_0x5f301e[_0x23e328(0x201)]=0x2710;const _0x1881c0=await axios[_0x23e328(0x214)](_0x23e328(0x23f)+_0x23e328(0x1d2)+_0x23e328(0x274),_0x5f301e),{url:_0xcef5a5,title:_0x2ea518,subreddit:_0x421430}=_0x1881c0[_0x23e328(0x1da)],_0x1e16ec={};_0x1e16ec[_0x23e328(0x226)]=_0xcef5a5;const _0x2b5895={};_0x2b5895[_0x23e328(0x26d)]=_0x1e16ec,_0x2b5895[_0x23e328(0x1a1)]='*'+_0x272e50+_0x23e328(0x183)+_0x2ea518+_0x23e328(0x1b6)+_0x421430+_0x23e328(0x168)+_0x3ade6d+'_';const _0x152e43={};_0x152e43[_0x23e328(0x223)]=_0x1503e2,await _0xd51b4b[_0x23e328(0x284)+'e'](_0x45f36d,_0x2b5895,_0x152e43),await _0x56bb7e('✅');}catch{await _0x56bb7e('❌'),await _0x49997e('❌\x20Could\x20no'+'t\x20fetch\x20me'+_0x23e328(0x28b)+_0x23e328(0x266)+_0x23e328(0x236));}});const a0_0x4bb146={};a0_0x4bb146[a0_0x1d0d52(0x246)]='riddle',a0_0x4bb146['aliases']=[a0_0x1d0d52(0x27a),a0_0x1d0d52(0x297)+'r'],a0_0x4bb146['descriptio'+'n']=a0_0x1d0d52(0x261)+a0_0x1d0d52(0x1ab),a0_0x4bb146['react']='🧩',a0_0x4bb146[a0_0x1d0d52(0x1a4)]=a0_0x1d0d52(0x271),gmd(a0_0x4bb146,async(_0x2b5aa8,_0x3891a6,_0x392434)=>{const _0x216139=a0_0x1d0d52,{reply:_0x15e3b2,react:_0x430a2e,botFooter:_0x5c70f7}=_0x392434,_0x259ae8=RIDDLES[Math[_0x216139(0x24b)](Math[_0x216139(0x291)]()*RIDDLES['length'])];await _0x430a2e('✅'),await _0x15e3b2('🧩\x20*Riddle*'+'\x0a\x0a'+_0x259ae8['q']+(_0x216139(0x1bb)+_0x216139(0x182))+_0x259ae8['a']+'_||\x0a\x0a>\x20_'+_0x5c70f7+'_');});const a0_0x2fbbf1={};a0_0x2fbbf1['pattern']=a0_0x1d0d52(0x17b),a0_0x2fbbf1[a0_0x1d0d52(0x170)]=[a0_0x1d0d52(0x295)+a0_0x1d0d52(0x1c2),a0_0x1d0d52(0x1a0)],a0_0x2fbbf1[a0_0x1d0d52(0x1fa)+'n']=a0_0x1d0d52(0x1ba)+a0_0x1d0d52(0x220)+'n',a0_0x2fbbf1[a0_0x1d0d52(0x23d)]='🧠',a0_0x2fbbf1[a0_0x1d0d52(0x1a4)]='fun',gmd(a0_0x2fbbf1,async(_0x20f486,_0x46f06e,_0x35637f)=>{const _0x5ee535=a0_0x1d0d52,{reply:_0x51e608,react:_0x4e8a7d,botFooter:_0x29e82b}=_0x35637f;try{await _0x4e8a7d('⏳');const _0x3b642a={};_0x3b642a[_0x5ee535(0x201)]=0x2710;const _0xfdea1e=await axios['get'](_0x5ee535(0x196)+'entdb.com/'+_0x5ee535(0x16d)+_0x5ee535(0x1c4)+_0x5ee535(0x167),_0x3b642a),_0x467f80=_0xfdea1e[_0x5ee535(0x1da)]['results'][0x0],_0x26f566=[..._0x467f80['incorrect_'+_0x5ee535(0x233)],_0x467f80[_0x5ee535(0x1ff)+_0x5ee535(0x258)]][_0x5ee535(0x213)](()=>Math[_0x5ee535(0x291)]()-0.5);let _0x6b4db1=_0x5ee535(0x1b2)+_0x5ee535(0x1d6)+'y:*\x20'+_0x467f80['category']+(_0x5ee535(0x173)+_0x5ee535(0x1f3))+_0x467f80['difficulty']+'\x0a\x0a'+_0x467f80['question']+'\x0a\x0a';_0x26f566[_0x5ee535(0x181)]((_0x2437fe,_0x38ba7f)=>{const _0x134725=_0x5ee535;_0x6b4db1+=[_0x134725(0x176),_0x134725(0x1e6),'🆎','🆑'][_0x38ba7f]+'\x20'+_0x2437fe+'\x0a';}),_0x6b4db1+='\x0a||✅\x20Answe'+_0x5ee535(0x19d)+_0x467f80[_0x5ee535(0x1ff)+_0x5ee535(0x258)]+_0x5ee535(0x17d)+_0x29e82b+'_',await _0x4e8a7d('✅'),await _0x51e608(_0x6b4db1);}catch{await _0x4e8a7d('❌'),await _0x51e608(_0x5ee535(0x17e)+_0x5ee535(0x26a)+_0x5ee535(0x290)+_0x5ee535(0x16e)+_0x5ee535(0x18a));}});const a0_0x55f804={};a0_0x55f804[a0_0x1d0d52(0x246)]=a0_0x1d0d52(0x187),a0_0x55f804[a0_0x1d0d52(0x170)]=['magic8ball',a0_0x1d0d52(0x19c)],a0_0x55f804[a0_0x1d0d52(0x1fa)+'n']=a0_0x1d0d52(0x232)+a0_0x1d0d52(0x209)+a0_0x1d0d52(0x1d8)+a0_0x1d0d52(0x228),a0_0x55f804[a0_0x1d0d52(0x23d)]='🎱',a0_0x55f804[a0_0x1d0d52(0x1a4)]=a0_0x1d0d52(0x271),gmd(a0_0x55f804,async(_0x244ac9,_0x24297a,_0x4970fc)=>{const _0x4b1f2e=a0_0x1d0d52,{q:_0x3adc0f,reply:_0x5d2240,react:_0x3031e5,botFooter:_0x532991}=_0x4970fc;if(!_0x3adc0f)return _0x5d2240(_0x4b1f2e(0x1a7)+_0x4b1f2e(0x186)+'ur\x20questio'+_0x4b1f2e(0x22e));const _0x46d29e=[_0x4b1f2e(0x24a)+'initely!',_0x4b1f2e(0x175)+_0x4b1f2e(0x259),'✅\x20Most\x20lik'+_0x4b1f2e(0x210),_0x4b1f2e(0x278)+_0x4b1f2e(0x174),_0x4b1f2e(0x29c)+_0x4b1f2e(0x25b),_0x4b1f2e(0x249)+_0x4b1f2e(0x193)+'.','❓\x20Signs\x20po'+_0x4b1f2e(0x279)+_0x4b1f2e(0x26f),_0x4b1f2e(0x177)+_0x4b1f2e(0x1e7)+'.',_0x4b1f2e(0x16b)+_0x4b1f2e(0x276),_0x4b1f2e(0x239)+_0x4b1f2e(0x234)],_0x177c81=_0x46d29e[Math[_0x4b1f2e(0x24b)](Math[_0x4b1f2e(0x291)]()*_0x46d29e['length'])];await _0x3031e5('✅'),await _0x5d2240(_0x4b1f2e(0x1bc)+_0x4b1f2e(0x20c)+_0x3adc0f+'\x0a\x0a'+_0x177c81+_0x4b1f2e(0x168)+_0x532991+'_');});const a0_0x38dfc2={};a0_0x38dfc2[a0_0x1d0d52(0x246)]=a0_0x1d0d52(0x257),a0_0x38dfc2['aliases']=[a0_0x1d0d52(0x1f5),a0_0x1d0d52(0x20e)],a0_0x38dfc2['descriptio'+'n']=a0_0x1d0d52(0x24c)+a0_0x1d0d52(0x172)+'\x20from\x20opti'+a0_0x1d0d52(0x1b0)+a0_0x1d0d52(0x1a6)+'pizza|burg'+a0_0x1d0d52(0x184),a0_0x38dfc2[a0_0x1d0d52(0x23d)]='🎯',a0_0x38dfc2[a0_0x1d0d52(0x1a4)]=a0_0x1d0d52(0x271),gmd(a0_0x38dfc2,async(_0x3bf7c7,_0x5bb9e4,_0x5b4e53)=>{const _0x3541a3=a0_0x1d0d52,{q:_0x26c49a,reply:_0x3abbd8,react:_0x20ec70,botFooter:_0x338acd}=_0x5b4e53;if(!_0x26c49a)return _0x3abbd8(_0x3541a3(0x1a7)+_0x3541a3(0x238)+_0x3541a3(0x277)+_0x3541a3(0x240)+_0x3541a3(0x1b9)+_0x3541a3(0x28a)+'\x20pizza|bur'+_0x3541a3(0x1c0));const _0x17c05b=_0x26c49a[_0x3541a3(0x26b)]('|')[_0x3541a3(0x1fb)](_0x21b07c=>_0x21b07c[_0x3541a3(0x243)]())[_0x3541a3(0x179)](Boolean);if(_0x17c05b[_0x3541a3(0x17c)]<0x2)return _0x3abbd8(_0x3541a3(0x1c6)+'at\x20least\x202'+_0x3541a3(0x1e1)+_0x3541a3(0x21e)+_0x3541a3(0x1e0));const _0x5bf080=_0x17c05b[Math[_0x3541a3(0x24b)](Math[_0x3541a3(0x291)]()*_0x17c05b[_0x3541a3(0x17c)])];await _0x20ec70('✅'),await _0x3abbd8(_0x3541a3(0x293)+_0x3541a3(0x1a8)+_0x3541a3(0x211)+_0x17c05b[_0x3541a3(0x206)](_0x3541a3(0x1f8))+_0x3541a3(0x1d3)+_0x5bf080+_0x3541a3(0x23b)+_0x338acd+'_');});const a0_0x38b602={};a0_0x38b602[a0_0x1d0d52(0x246)]=a0_0x1d0d52(0x1cc),a0_0x38b602[a0_0x1d0d52(0x170)]=['rating','rateme'],a0_0x38b602['descriptio'+'n']=a0_0x1d0d52(0x1ec)+a0_0x1d0d52(0x1fc)+a0_0x1d0d52(0x22b)+a0_0x1d0d52(0x265)+'izza',a0_0x38b602[a0_0x1d0d52(0x23d)]='⭐',a0_0x38b602['category']=a0_0x1d0d52(0x271),gmd(a0_0x38b602,async(_0x2ccbec,_0x291378,_0x37dd17)=>{const _0x31fada=a0_0x1d0d52,{q:_0x3371a8,reply:_0x51e708,react:_0x54001b,botFooter:_0x435e7d}=_0x37dd17;if(!_0x3371a8)return _0x51e708(_0x31fada(0x1a7)+_0x31fada(0x237)+'ething>`\x0a_'+_0x31fada(0x272)+'rate\x20pizza'+'_');const _0x39b574=Math['floor'](Math['random']()*0xb),_0x149751='⭐'[_0x31fada(0x1c1)](_0x39b574)+'☆'['repeat'](0xa-_0x39b574);await _0x54001b('✅'),await _0x51e708(_0x31fada(0x1ce)+'\x0a\x0a'+_0x3371a8+':\x20*'+_0x39b574+_0x31fada(0x25f)+_0x149751+_0x31fada(0x168)+_0x435e7d+'_');});const a0_0x1ebe73={};a0_0x1ebe73[a0_0x1d0d52(0x246)]=a0_0x1d0d52(0x1e3),a0_0x1ebe73[a0_0x1d0d52(0x170)]=[a0_0x1d0d52(0x255),'burnme'],a0_0x1ebe73[a0_0x1d0d52(0x1fa)+'n']=a0_0x1d0d52(0x261)+'om\x20roast',a0_0x1ebe73[a0_0x1d0d52(0x23d)]='🔥',a0_0x1ebe73[a0_0x1d0d52(0x1a4)]=a0_0x1d0d52(0x271),gmd(a0_0x1ebe73,async(_0x5ed699,_0x3cc501,_0x3a164e)=>{const _0x552cea=a0_0x1d0d52,{reply:_0x28c38e,react:_0x403cbb,botFooter:_0x2aa28a}=_0x3a164e,_0x2ae9cc=ROASTS[Math[_0x552cea(0x24b)](Math[_0x552cea(0x291)]()*ROASTS['length'])];await _0x403cbb('✅'),await _0x28c38e(_0x552cea(0x222)+'\x0a'+_0x2ae9cc+'\x0a\x0a>\x20_'+_0x2aa28a+'_');});
+
+const { gmd } = require("../guru");
+const axios = require("axios");
+
+const RIDDLES = [
+  { q: "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?", a: "An echo" },
+  { q: "The more you take, the more you leave behind. What am I?", a: "Footsteps" },
+  { q: "I have cities, but no houses live there. I have mountains, but no trees grow there. I have water, but no fish swim there. What am I?", a: "A map" },
+  { q: "What has hands but can't clap?", a: "A clock" },
+  { q: "What gets wetter the more it dries?", a: "A towel" },
+  { q: "I have a head and a tail, but no body. What am I?", a: "A coin" },
+  { q: "What comes once in a minute, twice in a moment, but never in a thousand years?", a: "The letter M" },
+  { q: "The more you take away from me, the bigger I get. What am I?", a: "A hole" },
+  { q: "I'm always in front of you but can never be seen. What am I?", a: "The future" },
+  { q: "What has many keys but can't open a single lock?", a: "A piano" },
+  { q: "What runs but never walks, has a mouth but never talks?", a: "A river" },
+  { q: "What can travel around the world while staying in a corner?", a: "A stamp" },
+];
+
+const ROASTS = [
+  "You're like a human version of a participation trophy.",
+  "If you were a vegetable, you'd be a turnip — you've turned up nowhere.",
+  "I'd roast you, but my mom said I'm not supposed to burn trash.",
+  "You're proof that even nature makes mistakes.",
+  "I'm not saying you're dumb, but you'd lose a game of wits to a toaster.",
+  "You're the reason they put instructions on shampoo bottles.",
+  "You have the energy of a dying phone battery.",
+  "If brains were petrol, you wouldn't have enough to power an ant's moped.",
+  "You're the human equivalent of a 'loading' screen.",
+  "Somewhere out there, a tree is working overtime producing the oxygen you waste.",
+];
+
+gmd(
+  {
+    pattern: "dice",
+    aliases: ["roll", "d6"],
+    description: "Roll a dice (1-6)",
+    react: "🎲",
+    category: "fun",
+  },
+  async (from, Guru, conText) => {
+    const { reply, react, botFooter } = conText;
+    const result = Math.floor(Math.random() * 6) + 1;
+    const faces = ["", "⚀", "⚁", "⚂", "⚃", "⚄", "⚅"];
+    await react("✅");
+    await reply(`🎲 *Dice Roll*\n\n${faces[result]}  You rolled: *${result}*\n\n> _${botFooter}_`);
+  }
+);
+
+gmd(
+  {
+    pattern: "coin",
+    aliases: ["flip", "toss"],
+    description: "Flip a coin (Heads or Tails)",
+    react: "🪙",
+    category: "fun",
+  },
+  async (from, Guru, conText) => {
+    const { reply, react, botFooter } = conText;
+    const flip = Math.random() > 0.5 ? "🟡 Heads" : "⚪ Tails";
+    await react("✅");
+    await reply(`🪙 *Coin Flip*\n\n${flip}\n\n> _${botFooter}_`);
+  }
+);
+
+gmd(
+  {
+    pattern: "random",
+    aliases: ["rnd", "rand"],
+    description: "Generate random number in range. Usage: .random 1 100",
+    react: "🎰",
+    category: "fun",
+  },
+  async (from, Guru, conText) => {
+    const { args, reply, react, botFooter } = conText;
+    const min = parseInt(args[0]) || 1;
+    const max = parseInt(args[1]) || 100;
+    if (min >= max) return reply("❌ Min must be less than Max!");
+    const num = Math.floor(Math.random() * (max - min + 1)) + min;
+    await react("✅");
+    await reply(`🎰 *Random Number*\n\nRange: ${min} – ${max}\nResult: *${num}*\n\n> _${botFooter}_`);
+  }
+);
+
+gmd(
+  {
+    pattern: "joke",
+    aliases: ["jokes", "funny"],
+    description: "Get a random joke",
+    react: "😂",
+    category: "fun",
+  },
+  async (from, Guru, conText) => {
+    const { reply, react, botFooter } = conText;
+    try {
+      await react("⏳");
+      const res = await axios.get("https://official-joke-api.appspot.com/random_joke", { timeout: 10000 });
+      const { setup, punchline } = res.data;
+      await react("✅");
+      await reply(`😂 *Joke*\n\n${setup}\n\n_${punchline}_\n\n> _${botFooter}_`);
+    } catch {
+      await react("❌");
+      await reply("❌ Could not fetch a joke right now. Try again!");
+    }
+  }
+);
+
+gmd(
+  {
+    pattern: "meme",
+    aliases: ["memes", "funnypic"],
+    description: "Get a random meme from Reddit",
+    react: "😆",
+    category: "fun",
+  },
+  async (from, Guru, conText) => {
+    const { reply, react, mek, botFooter, botName } = conText;
+    try {
+      await react("⏳");
+      const res = await axios.get("https://meme-api.com/gimme", { timeout: 10000 });
+      const { url, title, subreddit } = res.data;
+      await Guru.sendMessage(from, {
+        image: { url },
+        caption: `*${botName} MEME*\n\n😆 ${title}\n📌 r/${subreddit}\n\n> _${botFooter}_`,
+      }, { quoted: mek });
+      await react("✅");
+    } catch {
+      await react("❌");
+      await reply("❌ Could not fetch meme right now. Try again!");
+    }
+  }
+);
+
+gmd(
+  {
+    pattern: "riddle",
+    aliases: ["puzzle", "brainteaser"],
+    description: "Get a random riddle",
+    react: "🧩",
+    category: "fun",
+  },
+  async (from, Guru, conText) => {
+    const { reply, react, botFooter } = conText;
+    const item = RIDDLES[Math.floor(Math.random() * RIDDLES.length)];
+    await react("✅");
+    await reply(`🧩 *Riddle*\n\n${item.q}\n\n||Answer: _${item.a}_||\n\n> _${botFooter}_`);
+  }
+);
+
+gmd(
+  {
+    pattern: "trivia",
+    aliases: ["triviaquestion", "knowledge"],
+    description: "Get a trivia question",
+    react: "🧠",
+    category: "fun",
+  },
+  async (from, Guru, conText) => {
+    const { reply, react, botFooter } = conText;
+    try {
+      await react("⏳");
+      const res = await axios.get("https://opentdb.com/api.php?amount=1&type=multiple", { timeout: 10000 });
+      const q = res.data.results[0];
+      const answers = [...q.incorrect_answers, q.correct_answer].sort(() => Math.random() - 0.5);
+      let txt = `🧠 *Trivia*\n\n*Category:* ${q.category}\n*Difficulty:* ${q.difficulty}\n\n${q.question}\n\n`;
+      answers.forEach((a, i) => { txt += `${["🅰️","🅱️","🆎","🆑"][i]} ${a}\n`; });
+      txt += `\n||✅ Answer: _${q.correct_answer}_||\n\n> _${botFooter}_`;
+      await react("✅");
+      await reply(txt);
+    } catch {
+      await react("❌");
+      await reply("❌ Could not fetch trivia right now. Try again!");
+    }
+  }
+);
+
+gmd(
+  {
+    pattern: "8ball",
+    aliases: ["magic8ball", "ask8ball"],
+    description: "Ask the magic 8-ball a yes/no question",
+    react: "🎱",
+    category: "fun",
+  },
+  async (from, Guru, conText) => {
+    const { q, reply, react, botFooter } = conText;
+    if (!q) return reply("*Usage:* `.8ball <your question>`");
+    const responses = [
+      "✅ Yes, definitely!", "✅ It is certain.", "✅ Most likely.", "✅ Without a doubt.",
+      "❓ Ask again later.", "❓ Cannot predict now.", "❓ Signs point to maybe.",
+      "❌ No, definitely not.", "❌ Don't count on it.", "❌ Very unlikely.",
+    ];
+    const answer = responses[Math.floor(Math.random() * responses.length)];
+    await react("✅");
+    await reply(`🎱 *Magic 8-Ball*\n\n❓ ${q}\n\n${answer}\n\n> _${botFooter}_`);
+  }
+);
+
+gmd(
+  {
+    pattern: "choose",
+    aliases: ["pick", "decide"],
+    description: "Make a random choice from options. Usage: .choose pizza|burger|tacos",
+    react: "🎯",
+    category: "fun",
+  },
+  async (from, Guru, conText) => {
+    const { q, reply, react, botFooter } = conText;
+    if (!q) return reply("*Usage:* `.choose option1|option2|option3`\n_Example: .choose pizza|burger|tacos_");
+    const options = q.split("|").map(o => o.trim()).filter(Boolean);
+    if (options.length < 2) return reply("❌ Provide at least 2 options separated by `|`");
+    const choice = options[Math.floor(Math.random() * options.length)];
+    await react("✅");
+    await reply(`🎯 *I Choose*\n\nOptions: ${options.join(" · ")}\n\n✨ *${choice}*\n\n> _${botFooter}_`);
+  }
+);
+
+gmd(
+  {
+    pattern: "rate",
+    aliases: ["rating", "rateme"],
+    description: "Rate something out of 10. Usage: .rate pizza",
+    react: "⭐",
+    category: "fun",
+  },
+  async (from, Guru, conText) => {
+    const { q, reply, react, botFooter } = conText;
+    if (!q) return reply("*Usage:* `.rate <something>`\n_Example: .rate pizza_");
+    const rating = Math.floor(Math.random() * 11);
+    const bar = "⭐".repeat(rating) + "☆".repeat(10 - rating);
+    await react("✅");
+    await reply(`⭐ *Rating*\n\n${q}: *${rating}/10*\n${bar}\n\n> _${botFooter}_`);
+  }
+);
+
+gmd(
+  {
+    pattern: "roast",
+    aliases: ["roasting", "burnme"],
+    description: "Get a random roast",
+    react: "🔥",
+    category: "fun",
+  },
+  async (from, Guru, conText) => {
+    const { reply, react, botFooter } = conText;
+    const roast = ROASTS[Math.floor(Math.random() * ROASTS.length)];
+    await react("✅");
+    await reply(`🔥 *Roast*\n\n${roast}\n\n> _${botFooter}_`);
+  }
+);
