@@ -72,5 +72,8 @@
   "bugs": {
     "url": "https://github.com/GuruhTech/ULTRA-GURU/issues"
   },
-  "homepage": "https://github.com/GuruhTech/ULTRA-GURU#readme"
+  "homepage": "https://github.com/GuruhTech/ULTRA-GURU#readme",
+  "overrides": {
+    "tar": "^7.5.21"
+  }
 }
