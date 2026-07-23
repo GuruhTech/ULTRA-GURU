@@ -21,6 +21,7 @@ const loadPlugins = (pluginsPath) => {
         fs.readdirSync(pluginsPath).forEach((fileName) => {
             const ext = path.extname(fileName).toLowerCase();
             if (_pluginExts.has(ext)) {
+                console.log(`  … loading plugin: ${fileName}`);
                 try {
                     require(path.join(pluginsPath, fileName));
                 } catch (e) {
