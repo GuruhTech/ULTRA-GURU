@@ -10,6 +10,17 @@ require("events").EventEmitter.defaultMaxListeners = 960;
 if (!globalThis.crypto) globalThis.crypto = require("crypto").webcrypto;
 try { if (typeof File === "undefined") globalThis.File = require("buffer").File; } catch (_) {}
 
+// ─── Crash visibility ─────────────────────────────────────────────────────────
+// Nothing in this app previously caught unhandled rejections or uncaught
+// exceptions, so a stray throw during boot (e.g. from a DB call) could vanish
+// with zero log output instead of showing up here. These make that impossible.
+process.on("unhandledRejection", (reason) => {
+    console.error("❌ [UNHANDLED REJECTION]", reason?.stack || reason);
+});
+process.on("uncaughtException", (err) => {
+    console.error("❌ [UNCAUGHT EXCEPTION]", err?.stack || err);
+});
+
 // ─── Node & Third-Party ──────────────────────────────────────────────────────
 const path    = require("path");
 const http    = require("http");
@@ -167,10 +178,29 @@ function startExpiryWatchdog() {
 // ════════════════════════════════════════════════════════════════════════════
 
 async function initDatabase() {
-    await syncDatabase();
-    await initializeSettings();
-    await initializeGroupSettings();
-    botSettings = await getAllSettings();
+    await withTimeout(syncDatabase(), 30_000, "syncDatabase");
+    console.log("… syncDatabase done");
+
+    await withTimeout(initializeSettings(), 30_000, "initializeSettings");
+    console.log("… initializeSettings done");
+
+    await withTimeout(initializeGroupSettings(), 30_000, "initializeGroupSettings");
+    console.log("… initializeGroupSettings done");
+
+    botSettings = await withTimeout(getAllSettings(), 30_000, "getAllSettings");
+    console.log("… getAllSettings done");
+}
+
+// Generic timeout wrapper: rejects with a labeled error if `promise` doesn't
+// settle in time, instead of letting a stuck DB/network call hang forever
+// with no log output.
+function withTimeout(promise, ms, label) {
+    return Promise.race([
+        promise,
+        new Promise((_, reject) =>
+            setTimeout(() => reject(new Error(`[TIMEOUT] ${label} did not complete within ${ms / 1000}s`)), ms)
+        ),
+    ]);
 }
 
 // ════════════════════════════════════════════════════════════════════════════
@@ -328,8 +358,17 @@ async function sendStartupMessage(socket, s) {
     startExpiryWatchdog();
     startCleanup();
 
-    await loadSession();
-    await initDatabase();
+    try {
+        console.log("… loadSession starting");
+        await withTimeout(loadSession(), 30_000, "loadSession");
+        console.log("… loadSession done");
 
-    startGuru();
+        console.log("… initDatabase starting");
+        await initDatabase();
+        console.log("… initDatabase done — starting bot");
+
+        startGuru();
+    } catch (err) {
+        console.error("❌ [BOOTSTRAP FAILED]", err?.stack || err);
+    }
 })();
