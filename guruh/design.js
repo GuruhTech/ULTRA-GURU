@@ -9,7 +9,6 @@
 const { gmd, commands }                          = require("../guru");
 const { getSetting, setSetting, resetSetting }   = require("../guru/database/settings");
 const { getExpiryStatus }                        = require("../guru/expiry");
-const { Jimp }                                   = require("jimp");
 const { S_WHATSAPP_NET }                         = require("@whiskeysockets/baileys");
 const fs   = require("fs").promises;
 const path = require("path");
@@ -605,6 +604,7 @@ gmd(
         let tempPath = null;
 
         try {
+            const { Jimp } = require("jimp"); // lazy-loaded: only when a bot pic is actually set
             let imageBuffer;
 
             if (quotedImg) {
