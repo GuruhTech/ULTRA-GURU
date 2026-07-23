@@ -2,7 +2,6 @@ const { gmd, commands, getSetting } = require("../guru");
 const fs = require("fs").promises;
 const fsA = require("node:fs");
 const { S_WHATSAPP_NET } = require("@whiskeysockets/baileys");
-const { Jimp } = require("jimp");
 const path = require("path");
 const moment = require("moment-timezone");
 const {
@@ -110,6 +109,7 @@ gmd(
         "temp_media",
       );
 
+      const { Jimp } = require("jimp"); // lazy-loaded: only when a picture is actually set
       const image = await Jimp.read(tempFilePath);
       image.crop({ x: 0, y: 0, w: image.width, h: image.height });
       image.scaleToFit({ w: 720, h: 720 });
@@ -189,6 +189,7 @@ gmd(
         "temp_media",
       );
 
+      const { Jimp } = require("jimp"); // lazy-loaded: only when a picture is actually set
       const image = await Jimp.read(tempFilePath);
       image.crop({ x: 0, y: 0, w: image.width, h: image.height });
       image.scaleToFit({ w: 720, h: 720 });
