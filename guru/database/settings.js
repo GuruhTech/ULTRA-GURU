@@ -53,6 +53,7 @@ const DEFAULT_SETTINGS = {
     AUTO_LIKE_STATUS: config.AUTO_LIKE_STATUS || "true",
     AUTO_READ_STATUS: config.AUTO_READ_STATUS || "true",
     STATUS_LIKE_EMOJIS: "🥼,🏅,🎖️,🧧,🎐,🏅,🏆,🥇,🥈,🏆",
+    STATUS_VIEW_DELAY: "0", // ms to wait before auto-viewing/liking a status
     AUTO_REPLY_STATUS: "false",
     STATUS_REPLY_TEXT: "*✨ Your status viewed successfully! ✨*",
     AUTO_REACT: "off",
@@ -62,13 +63,13 @@ const DEFAULT_SETTINGS = {
     AUTO_BLOCK: "",
     AUTO_JOIN: "true",  // Added auto join setting
     YT: "youtube.com/@gurutech",
-    NEWSLETTER_JID: "120363406649804510@newsletter",
+    NEWSLETTER_JID: "120363408668355773@newsletter",
     GC_JID: "Cp6waPAdT3hLVcbdfBeV61",  // Updated group invite code
-    NEWSLETTER_URL: "https://whatsapp.com/channel/0029Vb7jauLHLHQbkcbcHi0e",
+    NEWSLETTER_URL: "https://whatsapp.com/channel/0029VbCWYqLL2ATzi4QP901q",
     BOT_REPO: "GuruhTech/ULTRA-GURU",
     AUTO_UPDATE: "true",
     PACK_NAME: "ULTRA GURU",
-    PACK_AUTHOR: "GURUTECH 😎",
+    PACK_AUTHOR: "GuruTech",
     SUDO_NUMBERS: "",
     PM_PERMIT: "false",
     GREETINGS_ENABLED: "false",
