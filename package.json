@@ -1,7 +1,7 @@
 {
   "name": "ultra-guru-md",
   "version": "5.0.0",
-  "description": "GURUTECH 😎 - Ultimate WhatsApp Bot by GuruTech",
+  "description": "GuruTech - Ultimate WhatsApp Bot by GuruTech",
   "main": "./index.js",
   "type": "commonjs",
   "engines": {
@@ -21,7 +21,7 @@
     "whatsapp-md-bot",
     "ultra-guru"
   ],
-  "author": "GURUTECH 😎",
+  "author": "GuruTech",
   "license": "MIT",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
