@@ -177,9 +177,29 @@ async function initDatabase() {
 //  BOT BOOT
 // ════════════════════════════════════════════════════════════════════════════
 
+// ════════════════════════════════════════════════════════════════════════════
+//  WA VERSION FETCH — with timeout
+// ════════════════════════════════════════════════════════════════════════════
+// fetchLatestWaWebVersion() has no built-in timeout. If the network call
+// stalls (blocked egress, DNS issue, slow endpoint), the whole startGuru()
+// chain hangs silently forever — no error, no log, no retry. This wraps it
+// in a timeout so a stall instead throws and falls into the existing
+// catch-and-retry logic below.
+const WA_VERSION_FETCH_TIMEOUT_MS = 15_000;
+
+async function fetchWaVersionWithTimeout() {
+    const timeout = new Promise((_, reject) =>
+        setTimeout(() => reject(new Error(`WA version fetch timed out after ${WA_VERSION_FETCH_TIMEOUT_MS / 1000}s`)), WA_VERSION_FETCH_TIMEOUT_MS)
+    );
+    const { version } = await Promise.race([fetchLatestWaWebVersion(), timeout]);
+    return version;
+}
+
 async function startGuru() {
     try {
-        const { version }        = await fetchLatestWaWebVersion();
+        console.log("🕗 Fetching WhatsApp Web version...");
+        const version = await fetchWaVersionWithTimeout();
+        console.log(`✅ Using WA Web version: ${version.join(".")}`);
         const sessionDbPath      = path.join(SESSION_DIR, "session.db");
         const { state, saveCreds } = await useSQLiteAuthState(sessionDbPath);
 
