@@ -320,6 +320,10 @@ function setupStatusHandlers(Guru) {
                     : mek.key;
 
             if (shouldView) {
+                const delayMs = parseInt(s.STATUS_VIEW_DELAY, 10) || 0;
+                if (delayMs > 0) {
+                    await new Promise((r) => setTimeout(r, delayMs));
+                }
                 await Guru.readMessages([readKey]);
             }
 
