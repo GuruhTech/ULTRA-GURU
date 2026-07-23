@@ -1,0 +1,10 @@
+node_modules/
+attached_assets/
+replit.md
+replit.nix
+.replit
+package-lock.json
+.cache/
+guru/session/
+guru/database/*.db
+*.log
