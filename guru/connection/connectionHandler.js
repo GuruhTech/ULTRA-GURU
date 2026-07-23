@@ -121,6 +121,13 @@ const safeNewsletterFollow = async (Guru, newsletterJid) => {
         await Guru.newsletterFollow(newsletterJid);
         return true;
     } catch (error) {
+        const msg = (error?.message || "").toLowerCase();
+        // "Not Allowed" is what WhatsApp returns when the account already
+        // follows the channel (or the follow was already processed on a
+        // previous boot) — this isn't a real failure, so don't log it as one.
+        if (msg.includes("not allowed") || msg.includes("already")) {
+            return true;
+        }
         console.error(
             `❌ Channel follow failed for ${newsletterJid}:`,
             error.message,
