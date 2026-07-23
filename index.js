@@ -1,1 +1,326 @@
-const a0_0x2c44dc=a0_0x3185;(function(_0x5d23bc,_0x1e3023){const _0x2bf87f=a0_0x3185,_0x23ff31=_0x5d23bc();while(!![]){try{const _0x523b21=-parseInt(_0x2bf87f(0x1ad))/0x1+-parseInt(_0x2bf87f(0x1e3))/0x2+-parseInt(_0x2bf87f(0x1a0))/0x3+-parseInt(_0x2bf87f(0x224))/0x4*(parseInt(_0x2bf87f(0x1fb))/0x5)+parseInt(_0x2bf87f(0x1f4))/0x6+-parseInt(_0x2bf87f(0x1a4))/0x7*(-parseInt(_0x2bf87f(0x1b6))/0x8)+parseInt(_0x2bf87f(0x1e1))/0x9*(parseInt(_0x2bf87f(0x1ac))/0xa);if(_0x523b21===_0x1e3023)break;else _0x23ff31['push'](_0x23ff31['shift']());}catch(_0x158068){_0x23ff31['push'](_0x23ff31['shift']());}}}(a0_0xf501,0xb15a7));const a0_0x5e9924=(function(){let _0x5bbe04=!![];return function(_0x35996b,_0x237061){const _0x1839bd=_0x5bbe04?function(){if(_0x237061){const _0x403b77=_0x237061['apply'](_0x35996b,arguments);return _0x237061=null,_0x403b77;}}:function(){};return _0x5bbe04=![],_0x1839bd;};}()),a0_0x146f81=a0_0x5e9924(this,function(){const _0x2e2615=a0_0x3185;if(a0_0x146f81[_0x2e2615(0x191)]()[_0x2e2615(0x185)]()[_0x2e2615(0x180)]('\x0a')!==-0x1)return;return a0_0x146f81[_0x2e2615(0x185)]()['search'](_0x2e2615(0x1d5)+'+$')[_0x2e2615(0x185)]()[_0x2e2615(0x19c)+'r'](a0_0x146f81)[_0x2e2615(0x1d2)](_0x2e2615(0x1d5)+'+$');});a0_0x146f81();'use strict';require(a0_0x2c44dc(0x20c))['EventEmitt'+'er'][a0_0x2c44dc(0x1d6)+a0_0x2c44dc(0x1b2)]=0x3c0;function a0_0x3185(_0x20a395,_0x4253d4){_0x20a395=_0x20a395-0x178;const _0x170f7f=a0_0xf501();let _0x146f81=_0x170f7f[_0x20a395];if(a0_0x3185['ETZwZm']===undefined){var _0x5e9924=function(_0x13bb62){const _0x52e87f='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _0x7dc587='',_0x119c18='',_0x572951=_0x7dc587+_0x5e9924,_0x2b3e52=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x2d80bd=0x0,_0x254f15,_0x54ac08,_0x2398a5=0x0;_0x54ac08=_0x13bb62['charAt'](_0x2398a5++);~_0x54ac08&&(_0x254f15=_0x2d80bd%0x4?_0x254f15*0x40+_0x54ac08:_0x54ac08,_0x2d80bd++%0x4)?_0x7dc587+=_0x2b3e52||_0x572951['charCodeAt'](_0x2398a5+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x254f15>>(-0x2*_0x2d80bd&0x6)):_0x2d80bd:0x0){_0x54ac08=_0x52e87f['indexOf'](_0x54ac08);}for(let _0x350f68=0x0,_0x53efe4=_0x7dc587['length'];_0x350f68<_0x53efe4;_0x350f68++){_0x119c18+='%'+('00'+_0x7dc587['charCodeAt'](_0x350f68)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x119c18);};a0_0x3185['HSsteB']=_0x5e9924,a0_0x3185['LazqKQ']={},a0_0x3185['ETZwZm']=!![];}const _0xf5017=_0x170f7f[0x0],_0x318533=_0x20a395+_0xf5017,_0x2bd672=a0_0x3185['LazqKQ'][_0x318533];if(!_0x2bd672){const _0x5b72cd=function(_0x5bbe04){this['UyHKDc']=_0x5bbe04,this['XfJVyJ']=[0x1,0x0,0x0],this['qrHMyj']=function(){return'newState';},this['vKRbVY']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['eUkTtn']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0x5b72cd['prototype']['lXSmQD']=function(){const _0x35996b=new RegExp(this['vKRbVY']+this['eUkTtn']),_0x237061=_0x35996b['test'](this['qrHMyj']['toString']())?--this['XfJVyJ'][0x1]:--this['XfJVyJ'][0x0];return this['gnCyKN'](_0x237061);},_0x5b72cd['prototype']['gnCyKN']=function(_0x1839bd){if(!Boolean(~_0x1839bd))return _0x1839bd;return this['OjyAOR'](this['UyHKDc']);},_0x5b72cd['prototype']['OjyAOR']=function(_0x403b77){for(let _0x30ddb0=0x0,_0x3843bb=this['XfJVyJ']['length'];_0x30ddb0<_0x3843bb;_0x30ddb0++){this['XfJVyJ']['push'](Math['round'](Math['random']())),_0x3843bb=this['XfJVyJ']['length'];}return _0x403b77(this['XfJVyJ'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x5b72cd(a0_0x3185)['lXSmQD'](),_0x146f81=a0_0x3185['HSsteB'](_0x146f81),a0_0x3185['LazqKQ'][_0x318533]=_0x146f81;}else _0x146f81=_0x2bd672;return _0x146f81;}if(!globalThis[a0_0x2c44dc(0x21d)])globalThis[a0_0x2c44dc(0x21d)]=require(a0_0x2c44dc(0x21d))['webcrypto'];try{if(typeof File===a0_0x2c44dc(0x200))globalThis[a0_0x2c44dc(0x18c)]=require(a0_0x2c44dc(0x1ed))[a0_0x2c44dc(0x18c)];}catch(a0_0x30ddb0){}const path=require(a0_0x2c44dc(0x215)),http=require('http'),express=require(a0_0x2c44dc(0x1cb)),{default:makeWASocket,jidNormalizedUser,fetchLatestWaWebVersion}=require(a0_0x2c44dc(0x208)+'ckets/bail'+a0_0x2c44dc(0x21c));require(a0_0x2c44dc(0x1f0)+'Helpers');const {logger,commands,loadSession,useSQLiteAuthState,safeNewsletterFollow,safeGroupAcceptInvite,setupConnectionHandler,setupGroupEventsListeners,initializeLidStore,getAllSettings,DEFAULT_SETTINGS,createSocketConfig,createContext,syncDatabase,initializeSettings,initializeGroupSettings,loadPlugins}=require(a0_0x2c44dc(0x1a6)),{startCleanup,SQLiteStore}=require(a0_0x2c44dc(0x184)+a0_0x2c44dc(0x183)+a0_0x2c44dc(0x216)),{setupCommandHandler}=require(a0_0x2c44dc(0x204)+a0_0x2c44dc(0x1fe)+'r'),{setupAutoReact,setupAntiDelete,setupAutoBio,setupAntiCall,setupPresence,setupChatBotAndAntiLink,setupAntiEdit,setupStatusHandlers}=require(a0_0x2c44dc(0x197)+a0_0x2c44dc(0x217)),PORT=process.env.PORT||0x1388,SESSION_DIR=path[a0_0x2c44dc(0x196)](__dirname,a0_0x2c44dc(0x220),'session'),PLUGINS_DIR=path[a0_0x2c44dc(0x196)](__dirname,'guruh'),MEMORY_LIMIT=0x190*0x400*0x400,AUTO_RESTART_MS=0x18*0x3c*0x3c*0x3e8;logger[a0_0x2c44dc(0x1bc)]=a0_0x2c44dc(0x228);let GuruSocket=null,store=null,botSettings={};function startWebServer(){const _0x2c5d00=a0_0x2c44dc,_0x3843bb=express();_0x3843bb[_0x2c5d00(0x1f2)](express[_0x2c5d00(0x1d7)]()),_0x3843bb[_0x2c5d00(0x1f2)](express[_0x2c5d00(0x17a)]('guru')),_0x3843bb[_0x2c5d00(0x18e)]('/',(_0x5043c7,_0x2fdea8)=>_0x2fdea8[_0x2c5d00(0x19f)](path[_0x2c5d00(0x196)](__dirname,_0x2c5d00(0x220),_0x2c5d00(0x1da)))),_0x3843bb['get']('/pair',(_0x1efcc7,_0x152113)=>_0x152113[_0x2c5d00(0x19f)](path[_0x2c5d00(0x196)](__dirname,_0x2c5d00(0x220),'pair.html'))),_0x3843bb[_0x2c5d00(0x18e)](_0x2c5d00(0x223),(_0x4b97dd,_0x3c8e0f)=>_0x3c8e0f[_0x2c5d00(0x1b0)](0xc8)[_0x2c5d00(0x1d7)]({'status':_0x2c5d00(0x20a),'uptime':process[_0x2c5d00(0x1f1)]()}));const _0x1e211a=require('./guru/pai'+_0x2c5d00(0x1c6));_0x3843bb[_0x2c5d00(0x21a)](_0x2c5d00(0x1f7),async(_0x3e74e5,_0x31cff5)=>{const _0x575426=_0x2c5d00,_0x265177=(_0x3e74e5[_0x575426(0x1de)]?.[_0x575426(0x19a)]||'')[_0x575426(0x214)](/\D/g,'');if(!_0x265177||_0x265177[_0x575426(0x19b)]<0x7){const _0x1250ef={};return _0x1250ef['ok']=![],_0x1250ef[_0x575426(0x190)]=_0x575426(0x1d0)+_0x575426(0x1fc)+'.',_0x31cff5[_0x575426(0x1d7)](_0x1250ef);}_0x1e211a[_0x575426(0x186)+'ng'](_0x265177)[_0x575426(0x1c5)](()=>{});const _0x38472f={};_0x38472f['ok']=!![],_0x31cff5[_0x575426(0x1d7)](_0x38472f);}),_0x3843bb[_0x2c5d00(0x18e)](_0x2c5d00(0x1cd)+'status',(_0x1c2750,_0x524d68)=>{const _0x4704c8=_0x2c5d00;_0x524d68[_0x4704c8(0x1d7)](_0x1e211a[_0x4704c8(0x17d)]());}),_0x3843bb[_0x2c5d00(0x18e)](_0x2c5d00(0x1cd)+_0x2c5d00(0x1ca),(_0x53abbf,_0x3b2590)=>{const _0x4698da=_0x2c5d00;_0x1e211a[_0x4698da(0x206)+_0x4698da(0x1e9)]();const _0x5b90d6={};_0x5b90d6['ok']=!![],_0x3b2590[_0x4698da(0x1d7)](_0x5b90d6);});const _0x718e00=_0x3843bb[_0x2c5d00(0x1e5)](PORT,_0x2c5d00(0x1a1),()=>console['log'](_0x2c5d00(0x192)+_0x2c5d00(0x1d3)+'Port:\x20'+PORT));_0x718e00['on'](_0x2c5d00(0x190),_0x3f5080=>{const _0x362266=_0x2c5d00;if(_0x3f5080[_0x362266(0x1bd)]!==_0x362266(0x181))return console[_0x362266(0x190)](_0x362266(0x195)+_0x362266(0x1c8),_0x3f5080[_0x362266(0x1b9)]);console[_0x362266(0x17f)](_0x362266(0x210)+PORT+(_0x362266(0x1e8)+_0x362266(0x1eb)+_0x362266(0x1ee))),setTimeout(()=>{const _0x545985=_0x362266;_0x718e00[_0x545985(0x188)](()=>{const _0x13a26a=_0x545985,_0x1153a6=_0x3843bb[_0x13a26a(0x1e5)](PORT,_0x13a26a(0x1a1),()=>console[_0x13a26a(0x221)](_0x13a26a(0x192)+_0x13a26a(0x1d3)+_0x13a26a(0x1c4)+PORT));_0x1153a6['on']('error',_0x4e5b0f=>console[_0x13a26a(0x190)](_0x13a26a(0x1b3)+'ed:',_0x4e5b0f['message']));});},0xbb8);});}function startSystemTasks(){const _0x2b44c2=a0_0x2c44dc;setInterval(()=>{const _0xe1ce11=a0_0x3185;if(process[_0xe1ce11(0x18f)+'e']()[_0xe1ce11(0x1a7)]>MEMORY_LIMIT&&global['gc'])global['gc']();},0xea60),setInterval(()=>{const _0x5e3b65=a0_0x3185;http['get']('http://loc'+_0x5e3b65(0x1e0)+PORT+_0x5e3b65(0x223),()=>{})['on'](_0x5e3b65(0x190),()=>{});},0x3a980),setTimeout(()=>{const _0x455e20=a0_0x3185;console[_0x455e20(0x221)](_0x455e20(0x1c2)+_0x455e20(0x18d)+_0x455e20(0x1ea)+_0x455e20(0x19e)+_0x455e20(0x1ec)),process[_0x455e20(0x18b)](0x0);},AUTO_RESTART_MS),console['log'](_0x2b44c2(0x1b8)+_0x2b44c2(0x1cc)+_0x2b44c2(0x1c9)+_0x2b44c2(0x225)+new Date(Date[_0x2b44c2(0x1e2)]()+AUTO_RESTART_MS)[_0x2b44c2(0x1fd)+'meString']()+')');}function a0_0xf501(){const _0x422029=['C2vUzezPBgu','nZe1ndiYDKXuz2PZ','mc4WlJaUma','B21Tyw5KCYbSBW','DgL0Bgu','n2fmEufpua','yxrJAgrVzYbUBW','lI9NDxj1','AgvHCfvZzwq','u0Lhvevstq','4Pse4Pse4Pse4Pse','kUkCHsa','sunftKnfievyua','mti0mZbSEuLTDeq','nJm3oteYzev0vhDw','z2v0twvZC2fNzq','xsbZDgfYDcbLCG','C3rHDhvZ','pIbFqwXSB3CGyq','tgLZDgvUzxjZ','uMv0CNKGzMfPBa','BML0igvYCM9YoG','ug9ZDc1JB25Uzq','mJa5ntC2oejRruT4yG','zgvZDhjVEq','4PYfief1Dg8TCMvZ','BwvZC2fNzq','qK9ux05btuu','sw5dAgf0','Bgv2zwW','y29Kzq','4Pse4Pse4Pse4Pse4Pse4Pse4Pse4Pse4Pse4Pse','q0fqveLptG','icaGoIa','u1rbuLrjtKDFtq','8j+uHcbBqvvutY1srq','svjfrcOkcG','ug9YDdOG','y2f0y2G','CMLUzW','u0Lhsu5u','B3i6','DwXLzcbPBIaYna','y2fUy2vS','zxHWCMvZCW','DgfYDcbZy2HLza','l2fWAs9WywLYlW','BMDnzxnZywDLCW','8j+tSIaQvgvSzwDYyq','sw52ywXPzcbWAa','BwfUzeXPC3q','C2vHCMnO','Dw5UAw5Nig9Uia','Aw51zs5F','kcGOlISPkYKRkq','zgvMyxvSDe1HEa','ANnVBG','ChjVy2vZCW','ieXPy2vUy2uGzq','z3vYDs5ODg1S','y3jLzhmUDxbKyq','u3rHDhvZoIbszq','kIaGoIa','yM9KEq','Dg9vChbLCKnHCW','ywXOB3n0oG','mtiYotrorfzlug0','BM93','nJyZmtzisxnzvwu','4PUuicPvtfrsqsbh','BgLZDgvU','r1vsvv9urunita','C2vZC2LVBI5KyG','igLUihvZzsdIGjqG','Aw5N','Ag91CIbYzxn0yq','CMv0CNLPBMCGAq','zwqU','yNvMzMvY','BIaZCY4UlG','EhbPCMvKiokaLcbJ','lI9NDxj1l2DTza','Dxb0Aw1L','DxnL','y2uGDg8Gy29UDa','mty4ote2oenPyK1wuG','zwqUifjLBMv3ia','qK9uieLovevhuG','l2fWAs9WywLY','tKvxu0XfvfrfuG','Cc5Uzxq','zwr1BgvY','mtKWDvHNvLnM','B25Lig51BwjLCG','Dg9mB2nHBgvuAq','C2fNzuHHBMrSzq','zMLSDgvY','Dw5KzwzPBMvK','Bg9Hze1LC3nHzW','x0Pjra','DMuH','lI9NDxj1l21LCW','8j+uKIaQtgLJzw5Jzq','y2fUy2vSugfPCG','DcbZDgfYDgvKoG','qhDOAxnRzxLZBW','8j+sNcbdB25Uzwn0zq','ywXPDMu','w0vyueLswv0GvW','zxzLBNrZ','tu9erq','ChvIBgLJ','zxbOzw1LCMfSrq','4PQG77IpifbVCNqG','CMvTB3rLsMLK','CgLYzwq','8j+mKcbqvujmsum','CMvWBgfJzq','Cgf0Aa','ywDLu3rVCMu','BNriyw5KBgvYCW','lI9NDxj1l3nJAa','8j+uKIbquKLwqvrf','Cg9ZDa','zg9UDefKzenVBq','zxLZ','y3j5ChrV','qvrfra','4PYfiefJDgL2zq','z3vYDq','Bg9N','y2TLzc4','l2HLywX0Aa','nJm3mZjnAuf2Cgm','igHVDxjZicG','Axj5','lI9NDxj1l2v4Ca','C2LSzw50','pIdINkGGxW','cGPFq29TBwfUza','C3rHDgLJ','EhbPCMf0Aw9U','4P2mifnVy2TLDcbP','z2v0u3rHDhvZ','rxjYB3iGB2nJDq','D2fYBG','Aw5KzxHpzG','ruferfjjtLvtrq','x2jVDfnVy2TLDa','ywjHC2uVBwvZCW','lI9NDxj1l2rHDa','Dg9tDhjPBMC','C3rHCNrqywLYAq','zgLZyxbWzwfYAq','y2XVC2u','4PQz77IpicPnB2rLkIaG','y3rPB24GzxjYBW','zxHPDa','rMLSzq','u1rbuLrDidi0lq','z2v0','BwvTB3j5vxnHzW','zxjYB3i','yMLUza','4PYfifnLCNzLCIbs','CM9YoG','CYbHCMuGBg9JAW','u2vYDMvYigvYCG','AM9PBG','lI9NDxj1l2v2zq','ufjfrKLy','C2vUze1LC3nHzW','CgHVBMu','BgvUz3rO','y29UC3rYDwn0BW','qxbWiokaLcbby3rP','CNqGDhjPz2DLCG'];a0_0xf501=function(){return _0x422029;};return a0_0xf501();}function startExpiryWatchdog(){const _0x35df44=a0_0x2c44dc;try{const {startExpiryWatchdog:_0x55b0ae}=require(_0x35df44(0x227)+_0x35df44(0x226)),_0x50ac85=async _0x4ed506=>{const _0x176747=_0x35df44,_0x352355=(process.env.OWNER_NUMBER||'')[_0x176747(0x214)](/[^0-9]/g,''),_0x292b17=_0x352355+('@s.whatsap'+_0x176747(0x1f9));if(global[_0x176747(0x182)]&&_0x292b17['length']>0xa){const _0x4c6341={};_0x4c6341['text']=_0x4ed506,await global[_0x176747(0x182)]['sendMessag'+'e'](_0x292b17,_0x4c6341)[_0x176747(0x1c5)](()=>{});}};_0x55b0ae(async _0xf2d01b=>{const _0xab54a0=_0x35df44;global['_licenceEx'+_0xab54a0(0x212)]=!![],console['warn']('[EXPIRY]\x20⛔'+_0xab54a0(0x1d9)+_0xab54a0(0x1ef)+_0xab54a0(0x1a2)+_0xab54a0(0x222)),await _0x50ac85(_0xab54a0(0x1e4)+'URU\x20MD\x20—\x20L'+_0xab54a0(0x1ab)+_0xab54a0(0x1c3)+_0xf2d01b+(_0xab54a0(0x179)+_0xab54a0(0x194)+_0xab54a0(0x1f5)+'your\x20licen'+_0xab54a0(0x1f3)+_0xab54a0(0x1d4)));},async _0x50c9c8=>_0x50ac85(_0x50c9c8));}catch(_0x2815de){console['warn'](_0x35df44(0x20b)+_0x35df44(0x1a5)+_0x35df44(0x207),_0x2815de[_0x35df44(0x1b9)]);}}async function initDatabase(){await syncDatabase(),await initializeSettings(),await initializeGroupSettings(),botSettings=await getAllSettings();}async function startGuru(){const _0xa71d0e=a0_0x2c44dc;try{const {version:_0x18cc4f}=await fetchLatestWaWebVersion(),_0x3363ba=path[_0xa71d0e(0x196)](SESSION_DIR,_0xa71d0e(0x1e7)),{state:_0x232dcc,saveCreds:_0xdc8bb0}=await useSQLiteAuthState(_0x3363ba);if(store)store[_0xa71d0e(0x1b7)]();store=new SQLiteStore();const _0x172c91=createSocketConfig(_0x18cc4f,_0x232dcc,logger);_0x172c91[_0xa71d0e(0x1ae)]=async _0x423246=>{const _0x21e52b=_0xa71d0e,_0x11d0c2={};_0x11d0c2['conversati'+'on']=_0x21e52b(0x17e)+'rred';if(!store)return _0x11d0c2;const _0x528bd4=await store[_0x21e52b(0x201)+'e'](_0x423246[_0x21e52b(0x211)],_0x423246['id']);return _0x528bd4?.['message']??undefined;},GuruSocket=makeWASocket(_0x172c91),global[_0xa71d0e(0x182)]=GuruSocket,store[_0xa71d0e(0x191)](GuruSocket['ev']),GuruSocket['ev'][_0xa71d0e(0x1d8)](async _0x58f068=>{const _0x3582c5=_0xa71d0e;if(_0x58f068[_0x3582c5(0x1db)+'te'])await _0xdc8bb0();}),setupAutoReact(GuruSocket),setupAntiDelete(GuruSocket),setupAutoBio(GuruSocket),setupAntiCall(GuruSocket),setupPresence(GuruSocket),setupChatBotAndAntiLink(GuruSocket),setupAntiEdit(GuruSocket),setupStatusHandlers(GuruSocket),setupGroupEventsListeners(GuruSocket),loadPlugins(PLUGINS_DIR),setupCommandHandler(GuruSocket),setupConnectionHandler(GuruSocket,SESSION_DIR,startGuru,{'onOpen':_0x714aee=>onBotConnected(_0x714aee)}),process['on'](_0xa71d0e(0x1c7),()=>store?.[_0xa71d0e(0x1b7)]()),process['on'](_0xa71d0e(0x1a8),()=>store?.[_0xa71d0e(0x1b7)]());}catch(_0x30bcd3){console['error'](_0xa71d0e(0x17c)+_0xa71d0e(0x1b4),_0x30bcd3['message']),setTimeout(startGuru,0x1388);}}async function onBotConnected(_0x14f347){const _0x2b500e=a0_0x2c44dc,_0x3f86a6=await getAllSettings();await safeNewsletterFollow(_0x14f347,_0x3f86a6[_0x2b500e(0x1f8)+_0x2b500e(0x202)]),await safeGroupAcceptInvite(_0x14f347,_0x3f86a6['GC_JID']),await initializeLidStore(_0x14f347);try{const {startScheduler:_0xeeaa59}=require(_0x2b500e(0x218)+_0x2b500e(0x1fa));_0xeeaa59(_0x14f347);}catch(_0x3baae0){console[_0x2b500e(0x190)]('[Scheduler'+_0x2b500e(0x1af)+_0x2b500e(0x193),_0x3baae0[_0x2b500e(0x1b9)]);}setTimeout(()=>sendStartupMessage(_0x14f347,_0x3f86a6),0x1388);}async function sendStartupMessage(_0x4e45da,_0x52d8b9){const _0x411602=a0_0x2c44dc;try{const _0x1813da=DEFAULT_SETTINGS,_0x2bb775=commands[_0x411602(0x1ff)](_0x4b9245=>_0x4b9245['pattern']&&!_0x4b9245[_0x411602(0x21b)+_0x411602(0x1d1)])[_0x411602(0x19b)],_0x595def=(_0x52d8b9['BOT_NAME']||_0x1813da[_0x411602(0x1ba)])[_0x411602(0x1df)+'e'](),_0x332148=_0x52d8b9[_0x411602(0x20d)]===_0x411602(0x20e)?_0x411602(0x213):_0x411602(0x219);console[_0x411602(0x221)](_0x411602(0x209)+'d\x20to\x20Whats'+_0x411602(0x19d)+_0x411602(0x203));if(_0x52d8b9[_0x411602(0x1c1)+'ESSAGE']!=='true')return;const {expiryLine:_0x5ad56a}=require(_0x411602(0x227)+'iry'),_0x3e770e=await _0x5ad56a()[_0x411602(0x1c5)](()=>_0x411602(0x21f)),_0x466498=[_0x411602(0x1aa)+_0x595def+'\x20—\x20ONLINE*','',_0x411602(0x1be)+_0x411602(0x1be)+_0x411602(0x1a9),'📊\x20*Plugins'+_0x411602(0x1dd)+_0x2bb775,'⚡\x20*Prefix*'+_0x411602(0x1c0)+(_0x52d8b9[_0x411602(0x198)]||_0x1813da['PREFIX']),_0x411602(0x189)+_0x411602(0x1c0)+_0x332148,_0x411602(0x205)+'*\x20\x20:\x20'+_0x3e770e,_0x411602(0x1cf)+'m*\x20:\x20t.me/'+_0x411602(0x1e6)+'AB',_0x411602(0x1be)+_0x411602(0x1be)+_0x411602(0x1a9),_0x411602(0x178)+(_0x52d8b9[_0x411602(0x1bf)]||_0x1813da[_0x411602(0x1bf)])+'_',_0x411602(0x1b1)+'\x20few\x20secon'+'ds\x20to\x20sync'+'._'][_0x411602(0x196)]('\x0a'),_0x923021=jidNormalizedUser(_0x4e45da['user']['id']);let _0x9ab1f5={};try{const _0x5e6aaa={};_0x5e6aaa[_0x411602(0x1a3)]=_0x411602(0x1f6)+_0x411602(0x21e),_0x5e6aaa[_0x411602(0x1de)]=_0x411602(0x1dc)+'ady\x20for\x20Us'+'e',_0x9ab1f5=await createContext(_0x595def,_0x5e6aaa);}catch(_0x5bb531){}const _0x5a90b2={'text':_0x466498,..._0x9ab1f5},_0x5d4938={};_0x5d4938[_0x411602(0x187)+_0x411602(0x1ce)+_0x411602(0x1bb)]=!![],_0x5d4938[_0x411602(0x20f)+_0x411602(0x17b)]=0x12c,await _0x4e45da[_0x411602(0x199)+'e'](_0x923021,_0x5a90b2,_0x5d4938);}catch(_0x1742aa){console[_0x411602(0x190)](_0x411602(0x1b5)+_0x411602(0x18a)+'r:',_0x1742aa['message']);}}((async()=>{startWebServer(),startSystemTasks(),startExpiryWatchdog(),startCleanup(),await loadSession(),await initDatabase(),startGuru();})());
+// ════════════════════════════════════════════════════════════════════════════
+//  ULTRA GURU MD — Bot Entry Point
+//  by GuruTech | github.com/blacktech254
+// ════════════════════════════════════════════════════════════════════════════
+
+"use strict";
+
+// ─── Polyfills (must be first) ───────────────────────────────────────────────
+console.log("[BOOT] 1/7 polyfills starting");
+require("events").EventEmitter.defaultMaxListeners = 960;
+if (!globalThis.crypto) globalThis.crypto = require("crypto").webcrypto;
+try { if (typeof File === "undefined") globalThis.File = require("buffer").File; } catch (_) {}
+console.log("[BOOT] 2/7 polyfills done");
+
+// ─── Node & Third-Party ──────────────────────────────────────────────────────
+const path    = require("path");
+const http    = require("http");
+const express = require("express");
+console.log("[BOOT] 3/7 express loaded");
+
+const {
+    default: makeWASocket,
+    jidNormalizedUser,
+    fetchLatestWaWebVersion,
+} = require("@whiskeysockets/baileys");
+console.log("[BOOT] 4/7 baileys loaded");
+
+// ─── Guru Core ───────────────────────────────────────────────────────────────
+require("./guru/gmdHelpers");
+console.log("[BOOT] 5/7 gmdHelpers loaded");
+
+const {
+    logger, commands,
+    loadSession, useSQLiteAuthState,
+    safeNewsletterFollow, safeGroupAcceptInvite,
+    setupConnectionHandler, setupGroupEventsListeners,
+    initializeLidStore, getAllSettings, DEFAULT_SETTINGS,
+    createSocketConfig, createContext,
+    syncDatabase, initializeSettings, initializeGroupSettings,
+    loadPlugins,
+} = require("./guru");
+console.log("[BOOT] 6/7 ./guru loaded (this includes DB layer)");
+
+const { startCleanup, SQLiteStore }      = require("./guru/database/messageStore");
+const { setupCommandHandler }            = require("./guru/messageHandler");
+const {
+    setupAutoReact, setupAntiDelete, setupAutoBio,
+    setupAntiCall, setupPresence, setupChatBotAndAntiLink,
+    setupAntiEdit, setupStatusHandlers,
+} = require("./guru/eventHandlers");
+console.log("[BOOT] 7/7 all requires done, entering bootstrap IIFE");
+
+// ─── Constants ───────────────────────────────────────────────────────────────
+const PORT            = process.env.PORT || 5000;
+const SESSION_DIR     = path.join(__dirname, "guru", "session");
+const PLUGINS_DIR     = path.join(__dirname, "guruh");
+const MEMORY_LIMIT    = 400 * 1024 * 1024; // 400 MB
+const AUTO_RESTART_MS = 24 * 60 * 60 * 1000; // 24 hours
+
+logger.level = "silent";
+
+// ─── Mutable State ───────────────────────────────────────────────────────────
+let GuruSocket = null;
+let store      = null;
+let botSettings = {};
+
+// ════════════════════════════════════════════════════════════════════════════
+//  WEB SERVER
+// ════════════════════════════════════════════════════════════════════════════
+
+function startWebServer() {
+    const app = express();
+
+    app.use(express.json());
+    app.use(express.static("guru"));
+    app.get("/",       (_req, res) => res.sendFile(path.join(__dirname, "guru", "guru.html")));
+    app.get("/pair",   (_req, res) => res.sendFile(path.join(__dirname, "guru", "pair.html")));
+    app.get("/health", (_req, res) => res.status(200).json({ status: "alive", uptime: process.uptime() }));
+
+    // ── Pairing API ───────────────────────────────────────────────────────────
+    const pairing = require("./guru/pairing");
+
+    app.post("/api/pair", async (req, res) => {
+        const phone = (req.body?.phone || "").replace(/\D/g, "");
+        if (!phone || phone.length < 7) {
+            return res.json({ ok: false, error: "Invalid phone number." });
+        }
+        pairing.startPairing(phone).catch(() => {});
+        res.json({ ok: true });
+    });
+
+    app.get("/api/pair/status", (_req, res) => {
+        res.json(pairing.getStatus());
+    });
+
+    app.get("/api/pair/cancel", (_req, res) => {
+        pairing.cancelPairing();
+        res.json({ ok: true });
+    });
+
+    const server = app.listen(PORT, "0.0.0.0", () =>
+        console.log(`✅ Server Running on Port: ${PORT}`)
+    );
+
+    server.on("error", (err) => {
+        if (err.code !== "EADDRINUSE") return console.error("Server error:", err.message);
+        console.warn(`⚠️ Port ${PORT} in use — retrying in 3s...`);
+        setTimeout(() => {
+            server.close(() => {
+                const retry = app.listen(PORT, "0.0.0.0", () =>
+                    console.log(`✅ Server Running on Port: ${PORT}`)
+                );
+                retry.on("error", (e) => console.error("Retry failed:", e.message));
+            });
+        }, 3000);
+    });
+}
+
+// ════════════════════════════════════════════════════════════════════════════
+//  SYSTEM TASKS
+// ════════════════════════════════════════════════════════════════════════════
+
+function startSystemTasks() {
+    // Memory watchdog — GC when heap exceeds limit
+    setInterval(() => {
+        if (process.memoryUsage().heapUsed > MEMORY_LIMIT && global.gc) global.gc();
+    }, 60_000);
+
+    // Health ping — keeps the server warm
+    setInterval(() => {
+        http.get(`http://localhost:${PORT}/health`, () => {}).on("error", () => {});
+    }, 240_000);
+
+    // Scheduled 24-hour auto-restart
+    setTimeout(() => {
+        console.log("🔄 [AUTO-RESTART] 24-hour restart triggered.");
+        process.exit(0);
+    }, AUTO_RESTART_MS);
+
+    console.log(`✅ Auto-restart scheduled in 24 hours (${new Date(Date.now() + AUTO_RESTART_MS).toLocaleTimeString()})`);
+}
+
+// ════════════════════════════════════════════════════════════════════════════
+//  EXPIRY WATCHDOG
+// ════════════════════════════════════════════════════════════════════════════
+
+function startExpiryWatchdog() {
+    try {
+        const { startExpiryWatchdog: watch } = require("./guru/expiry");
+
+        const notifyOwner = async (text) => {
+            const ownerNum = (process.env.OWNER_NUMBER || "").replace(/[^0-9]/g, "");
+            const ownerJid = `${ownerNum}@s.whatsapp.net`;
+            if (global._botSocket && ownerJid.length > 10) {
+                await global._botSocket.sendMessage(ownerJid, { text }).catch(() => {});
+            }
+        };
+
+        watch(
+            async (msg) => {
+                global._licenceExpired = true;
+                console.warn("[EXPIRY] ⛔ Licence expired — commands locked.");
+                await notifyOwner(`⛔ *ULTRA GURU MD — LICENCE EXPIRED*\n\n${msg}\n\n_Commands are locked. Renew your licence to continue._`);
+            },
+            async (warnMsg) => notifyOwner(warnMsg),
+        );
+    } catch (e) {
+        console.warn("[EXPIRY] Watchdog not started:", e.message);
+    }
+}
+
+// ════════════════════════════════════════════════════════════════════════════
+//  DATABASE INIT
+// ════════════════════════════════════════════════════════════════════════════
+
+async function initDatabase() {
+    await syncDatabase();
+    await initializeSettings();
+    await initializeGroupSettings();
+    botSettings = await getAllSettings();
+}
+
+// ════════════════════════════════════════════════════════════════════════════
+//  BOT BOOT
+// ════════════════════════════════════════════════════════════════════════════
+
+async function startGuru() {
+    try {
+        const { version }        = await fetchLatestWaWebVersion();
+        const sessionDbPath      = path.join(SESSION_DIR, "session.db");
+        const { state, saveCreds } = await useSQLiteAuthState(sessionDbPath);
+
+        if (store) store.destroy();
+        store = new SQLiteStore();
+
+        // Build socket
+        const socketConfig = createSocketConfig(version, state, logger);
+        socketConfig.getMessage = async (key) => {
+            if (!store) return { conversation: "Error occurred" };
+            const msg = await store.loadMessage(key.remoteJid, key.id);
+            return msg?.message ?? undefined;
+        };
+
+        GuruSocket            = makeWASocket(socketConfig);
+        global._botSocket     = GuruSocket;
+        store.bind(GuruSocket.ev);
+
+        // Persist credentials on update
+        GuruSocket.ev.process(async (events) => {
+            if (events["creds.update"]) await saveCreds();
+        });
+
+        // Attach event handlers
+        setupAutoReact(GuruSocket);
+        setupAntiDelete(GuruSocket);
+        setupAutoBio(GuruSocket);
+        setupAntiCall(GuruSocket);
+        setupPresence(GuruSocket);
+        setupChatBotAndAntiLink(GuruSocket);
+        setupAntiEdit(GuruSocket);
+        setupStatusHandlers(GuruSocket);
+        setupGroupEventsListeners(GuruSocket);
+
+        // Load plugins & commands
+        loadPlugins(PLUGINS_DIR);
+        setupCommandHandler(GuruSocket);
+
+        // Connection lifecycle
+        setupConnectionHandler(GuruSocket, SESSION_DIR, startGuru, {
+            onOpen: (socket) => onBotConnected(socket),
+        });
+
+        // Cleanup on exit
+        process.on("SIGINT",  () => store?.destroy());
+        process.on("SIGTERM", () => store?.destroy());
+
+    } catch (err) {
+        console.error("❌ Socket init error:", err.message);
+        setTimeout(startGuru, 5_000);
+    }
+}
+
+// ════════════════════════════════════════════════════════════════════════════
+//  ON CONNECTED
+// ════════════════════════════════════════════════════════════════════════════
+
+async function onBotConnected(socket) {
+    const s = await getAllSettings();
+
+    // Follow channel & join group
+    await safeNewsletterFollow(socket, s.NEWSLETTER_JID);
+    await safeGroupAcceptInvite(socket, s.GC_JID);
+    await initializeLidStore(socket);
+
+    // Start scheduler
+    try {
+        const { startScheduler } = require("./guru/scheduler");
+        startScheduler(socket);
+    } catch (e) {
+        console.error("[Scheduler] start error:", e.message);
+    }
+
+    // Post-connect message
+    setTimeout(() => sendStartupMessage(socket, s), 5_000);
+}
+
+async function sendStartupMessage(socket, s) {
+    try {
+        const d             = DEFAULT_SETTINGS;
+        const totalCommands = commands.filter((c) => c.pattern && !c.dontAddCommandList).length;
+        const botName       = (s.BOT_NAME || d.BOT_NAME).toUpperCase();
+        const modeLabel     = s.MODE === "public" ? "🌐 PUBLIC" : "🔒 PRIVATE";
+
+        console.log("💜 Connected to WhatsApp — Active!");
+
+        if (s.STARTING_MESSAGE !== "true") return;
+
+        const { expiryLine } = require("./guru/expiry");
+        const expLine        = await expiryLine().catch(() => "✅ Active");
+
+        const msg = [
+            `*✅ ${botName} — ONLINE*`,
+            ``,
+            `┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄`,
+            `📊 *Plugins*  : ${totalCommands}`,
+            `⚡ *Prefix*   : ${s.PREFIX || d.PREFIX}`,
+            `⚙️ *Mode*     : ${modeLabel}`,
+            `🔒 *Licence*  : ${expLine}`,
+            `📲 *Telegram* : t.me/GURU_TECHLAB`,
+            `┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄`,
+            `> ✨ _${s.CAPTION || d.CAPTION}_`,
+            `> _Allow a few seconds to sync._`,
+        ].join("\n");
+
+        const destJid = jidNormalizedUser(socket.user.id);
+        let ctx = {};
+        try { ctx = await createContext(botName, { title: "BOT INTEGRATED", body: "Status: Ready for Use" }); } catch (_) {}
+
+        await socket.sendMessage(destJid, { text: msg, ...ctx }, {
+            disappearingMessagesInChat: true,
+            ephemeralExpiration: 300,
+        });
+    } catch (err) {
+        console.error("Post-connection error:", err.message);
+    }
+}
+
+// ════════════════════════════════════════════════════════════════════════════
+//  BOOTSTRAP
+// ════════════════════════════════════════════════════════════════════════════
+
+(async () => {
+    console.log("[BOOT] bootstrap IIFE entered");
+    startWebServer();
+    startSystemTasks();
+    startExpiryWatchdog();
+    startCleanup();
+    console.log("[BOOT] sync startup calls done, awaiting loadSession()");
+
+    await loadSession();
+    console.log("[BOOT] loadSession() done, awaiting initDatabase()");
+    await initDatabase();
+    console.log("[BOOT] initDatabase() done, calling startGuru()");
+
+    startGuru();
+})();
