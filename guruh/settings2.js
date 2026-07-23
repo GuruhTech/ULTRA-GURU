@@ -162,6 +162,52 @@ gmd(
 
 gmd(
   {
+    pattern: "statusdelay",
+    aliases: ["setstatusdelay", "statusviewdelay"],
+    react: "⏱️",
+    category: "owner",
+    description: "View or set the delay (seconds) before auto-viewing/liking a status",
+  },
+  async (from, Guru, conText) => {
+    const { q, reply, react, isSuperUser } = conText;
+    if (!isSuperUser) return reply("❌ Owner Only Command!");
+
+    const arg = (q || "").trim().toLowerCase();
+
+    try {
+      const currentMs = parseInt((await getSetting("STATUS_VIEW_DELAY")) || "0", 10) || 0;
+
+      // No arg or "view" → just show the current value
+      if (!arg || arg === "view") {
+        return reply(
+          `⏱️ *Status View Delay*\n\n` +
+          `Current: *${(currentMs / 1000).toFixed(1)}s*${currentMs === 0 ? " (instant)" : ""}\n\n` +
+          `_Set with:_ \`.statusdelay <seconds>\`\n` +
+          `_Turn off with:_ \`.statusdelay 0\``,
+        );
+      }
+
+      const seconds = Number(arg);
+      if (Number.isNaN(seconds) || seconds < 0) {
+        return reply("❌ Please provide a valid number of seconds, e.g. `.statusdelay 5`");
+      }
+
+      const newMs = Math.round(seconds * 1000);
+      if (newMs === currentMs) {
+        return reply(`⚠️ Status view delay is already: *${seconds}s*`);
+      }
+
+      await setSetting("STATUS_VIEW_DELAY", String(newMs));
+      await react("✅");
+      await reply(`✅ Status view delay set to: *${seconds}s*${newMs === 0 ? " (instant)" : ""}`);
+    } catch (error) {
+      await reply(`❌ Error: ${error.message}`);
+    }
+  },
+);
+
+gmd(
+  {
     pattern: "setautoreact",
     aliases: ["autoreact", "react"],
     react: "⚙️",
