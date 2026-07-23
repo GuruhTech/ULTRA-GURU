@@ -1,7 +1,6 @@
+
 "use strict";
 
-const AdmZip = require("adm-zip");
-const PDFDocument = require("pdfkit");
 const { PassThrough } = require("stream");
 const fsA = require("node:fs");
 
@@ -94,6 +93,7 @@ gmd(
         }
 
         try {
+            const AdmZip = require("adm-zip"); // lazy-loaded: only when zipping is actually requested
             const zip = new AdmZip();
 
             for (const { disk, arc } of files) {
@@ -169,6 +169,7 @@ gmd(
             const content = fsA.readFileSync(filePath, "utf8");
             const lines = content.split("\n");
 
+            const PDFDocument = require("pdfkit"); // lazy-loaded: only when a PDF is actually generated
             const doc = new PDFDocument({ margin: 40, size: "A4" });
             const passThrough = new PassThrough();
             const bufferPromise = streamToBuffer(passThrough);
