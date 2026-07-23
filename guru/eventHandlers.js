@@ -1,6 +1,5 @@
-const a0_0xf5cb=function(_i){let _r=a0_0x8def()[_i-0x0];if(a0_0xf5cb['_k']===undefined){const _d=function(_s){const _t='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';let _o='',_x='';for(let _j=0,_q,_c,_p=0;_c=_s.charAt(_p++);~_c&&(_q=_j%4?_q*64+_c:_c,_j++%4)?_o+=String.fromCharCode(255&_q>>(-2*_j&6)):0){_c=_t.indexOf(_c);}for(let _a=0,_l=_o.length;_a<_l;_a++){_x+='%'+('00'+_o.charCodeAt(_a).toString(16)).slice(-2);}return decodeURIComponent(_x);};a0_0xf5cb['_dec']=_d;a0_0xf5cb['_k']=!![];}return a0_0xf5cb['_dec'](_r);};function a0_0x8def(){const _data=['QHdoaXNrZXlzb2NrZXRzL2JhaWxleXM=','Z29vZ2xlLXR0cy1hcGk=','Li9kYXRhYmFzZS9tZXNzYWdlU3RvcmU=','QGxpZA==','Li9jb25uZWN0aW9uL2dyb3VwQ2FjaGU=','Li9kYXRhYmFzZS9saWRNYXBwaW5n','bWVzc2FnZXMudXBzZXJ0','QG5ld3NsZXR0ZXI=','b2Zm','ZmFsc2U=','QGcudXM=','QHMud2hhdHNhcHAubmV0','YWxs','dHJ1ZQ==','Z3JvdXBz','RXJyb3IgZHVyaW5nIGF1dG8gcmVhY3Rpb246','VW5rbm93bg==','c3RhdHVzQGJyb2FkY2FzdA==','QW50aS1kZWxldGUgc3lzdGVtIGVycm9yOg==','Y2FsbA==','Y29ubmVjdGlvbi51cGRhdGU=','b3Blbg==','YXBwZW5k','YXVkaW8=','aW5ib3g=','bWVzc2FnZXMudXBkYXRl','QW50aS1lZGl0IGhhbmRsZXIgZXJyb3I6','ZXBoZW1lcmFsTWVzc2FnZQ==','8J+lvCzwn4+FLPCfjpbvuI8s8J+npyzwn46QLPCfj4Us8J+Phizwn6WHLPCfpYgs8J+Phg==','Q29ubmVjdGlvbiBDbG9zZWQ=','RUNPTk5SRVNFVA==','RVRJTUVET1VU','RUNPTk5SRUZVU0VE','RVBJUEU=','Q29ubmVjdGlvbiBUZXJtaW5hdGVk','U3RyZWFtIEVycm9yZWQ=','RXJyb3IgUHJvY2Vzc2luZyBTdGF0dXMgQWN0aW9uczo='];a0_0x8def=function(){return _data;};return a0_0x8def();}
-const { getContentType } = require(a0_0xf5cb(0x0));
-const googleTTS = require(a0_0xf5cb(0x1));
+const { getContentType } = require("@whiskeysockets/baileys");
+const googleTTS = require("google-tts-api");
 
 const {
     getAllSettings,
@@ -28,22 +27,22 @@ const {
     findAntiDelete,
     removeAntiDelete,
     saveAntiDelete,
-} = require(a0_0xf5cb(0x2));
+} = require("./database/messageStore");
 
 async function resolveRealJid(Guru, jid) {
     if (!jid) return null;
-    if (!jid.endsWith(a0_0xf5cb(0x3))) return jid;
+    if (!jid.endsWith("@lid")) return jid;
     try {
-        const { getLidMapping } = require(a0_0xf5cb(0x4));
+        const { getLidMapping } = require("./connection/groupCache");
         const cached = getLidMapping(jid);
         if (cached) return cached;
     } catch (_) {}
     try {
         const resolved = await Guru.getJidFromLid(jid);
-        if (resolved && !resolved.endsWith(a0_0xf5cb(0x3))) return resolved;
+        if (resolved && !resolved.endsWith("@lid")) return resolved;
     } catch (_) {}
     try {
-        const { getLidMappingFromDb } = require(a0_0xf5cb(0x5));
+        const { getLidMappingFromDb } = require("./database/lidMapping");
         const fromDb = await getLidMappingFromDb(jid);
         if (fromDb) return fromDb;
     } catch (_) {}
@@ -51,13 +50,13 @@ async function resolveRealJid(Guru, jid) {
 }
 
 function setupAutoReact(Guru) {
-    Guru.ev.on(a0_0xf5cb(0x6), async (mek) => {
+    Guru.ev.on("messages.upsert", async (mek) => {
         try {
             const ms = mek.messages[0];
             if (!ms.message) return;
 
             const from = ms.key.remoteJid;
-            const isChannel = from?.endsWith(a0_0xf5cb(0x7));
+            const isChannel = from?.endsWith("@newsletter");
             const s = await getAllSettings();
             const isMyChannel = isChannel && s.NEWSLETTER_JID && from === s.NEWSLETTER_JID;
 
@@ -71,19 +70,19 @@ function setupAutoReact(Guru) {
             }
 
             // Everything below is normal-chat behavior, gated by AUTO_REACT.
-            const autoReactMode = s.AUTO_REACT || a0_0xf5cb(0x8);
-            if (autoReactMode === a0_0xf5cb(0x8) || autoReactMode === a0_0xf5cb(0x9) || ms.key.fromMe)
+            const autoReactMode = s.AUTO_REACT || "off";
+            if (autoReactMode === "off" || autoReactMode === "false" || ms.key.fromMe)
                 return;
 
-            const isGroup = from?.endsWith(a0_0xf5cb(0xa));
-            const isDm = from?.endsWith(a0_0xf5cb(0xb));
+            const isGroup = from?.endsWith("@g.us");
+            const isDm = from?.endsWith("@s.whatsapp.net");
 
             let shouldReact = false;
-            if (autoReactMode === a0_0xf5cb(0xc) || autoReactMode === a0_0xf5cb(0xd)) {
+            if (autoReactMode === "all" || autoReactMode === "true") {
                 shouldReact = true;
             } else if (autoReactMode === "dm" && isDm) {
                 shouldReact = true;
-            } else if (autoReactMode === a0_0xf5cb(0xe) && isGroup) {
+            } else if (autoReactMode === "groups" && isGroup) {
                 shouldReact = true;
             }
 
@@ -92,7 +91,7 @@ function setupAutoReact(Guru) {
             const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
             await GuruAutoReact(randomEmoji, ms, Guru);
         } catch (err) {
-            console.error(a0_0xf5cb(0xf), err);
+            console.error("Error during auto reaction:", err);
 
         }
     });
@@ -104,7 +103,7 @@ function setupAntiDelete(Guru) {
 
     const getSender = (ms) => {
         const key = ms.key;
-        const realJid = (j) => j && !j.endsWith(a0_0xf5cb(0x3)) ? j : null;
+        const realJid = (j) => j && !j.endsWith("@lid") ? j : null;
         return (
             realJid(key.participantPn) ||
             realJid(key.senderPn) ||
@@ -114,12 +113,12 @@ function setupAntiDelete(Guru) {
             key.participantPn ||
             key.participant ||
             ms.participant ||
-            (key.remoteJid?.endsWith(a0_0xf5cb(0xa)) ? null : realJid(key.remoteJid) || key.remoteJid)
+            (key.remoteJid?.endsWith("@g.us") ? null : realJid(key.remoteJid) || key.remoteJid)
         );
     };
 
     const getPushName = (ms) => {
-        return ms.pushName || ms.key?.pushName || ms.verifiedBizName || a0_0xf5cb(0x10);
+        return ms.pushName || ms.key?.pushName || ms.verifiedBizName || "Unknown";
     };
 
     const isProtocolMessage = (ms) => {
@@ -152,7 +151,7 @@ function setupAntiDelete(Guru) {
         );
     };
 
-    Guru.ev.on(a0_0xf5cb(0x6), async ({ messages }) => {
+    Guru.ev.on("messages.upsert", async ({ messages }) => {
         for (const ms of messages) {
             try {
                 if (!ms?.message) continue;
@@ -161,7 +160,7 @@ function setupAntiDelete(Guru) {
                 if (
                     !key?.remoteJid ||
                     key.fromMe ||
-                    key.remoteJid === a0_0xf5cb(0x11)
+                    key.remoteJid === "status@broadcast"
                 )
                     continue;
 
@@ -217,7 +216,7 @@ function setupAntiDelete(Guru) {
                 };
                 setImmediate(() => saveAntiDelete(_jid, _entry));
             } catch (error) {
-                console.error(a0_0xf5cb(0x12), error);
+                console.error("Anti-delete system error:", error);
             }
         }
     });
@@ -226,7 +225,7 @@ function setupAntiDelete(Guru) {
 function setupAutoBio(Guru) {
     (async () => {
         const s = await getAllSettings();
-        if (s.AUTO_BIO === a0_0xf5cb(0xd)) {
+        if (s.AUTO_BIO === "true") {
             setTimeout(() => GuruAutoBio(Guru), 1000);
             setInterval(() => GuruAutoBio(Guru), 1000 * 60);
         }
@@ -234,37 +233,37 @@ function setupAutoBio(Guru) {
 }
 
 function setupAntiCall(Guru) {
-    Guru.ev.on(a0_0xf5cb(0x13), async (json) => {
+    Guru.ev.on("call", async (json) => {
         await GuruAnticall(json, Guru);
     });
 }
 
 function setupPresence(Guru) {
-    Guru.ev.on(a0_0xf5cb(0x6), async ({ messages }) => {
+    Guru.ev.on("messages.upsert", async ({ messages }) => {
         if (messages?.length > 0) {
             await GuruPresence(Guru, messages[0].key.remoteJid);
         }
     });
 
-    Guru.ev.on(a0_0xf5cb(0x14), ({ connection }) => {
-        if (connection === a0_0xf5cb(0x15)) {
-            GuruPresence(Guru, a0_0xf5cb(0x11));
+    Guru.ev.on("connection.update", ({ connection }) => {
+        if (connection === "open") {
+            GuruPresence(Guru, "status@broadcast");
         }
     });
 }
 
 function setupChatBotAndAntiLink(Guru) {
-    Guru.ev.on(a0_0xf5cb(0x6), async ({ messages, type }) => {
-        if (type === a0_0xf5cb(0x16)) return;
+    Guru.ev.on("messages.upsert", async ({ messages, type }) => {
+        if (type === "append") return;
 
         const firstMsg = messages[0];
         if (firstMsg?.message) {
             const s = await getAllSettings();
-            if (s.CHATBOT === a0_0xf5cb(0xd) || s.CHATBOT === a0_0xf5cb(0x17)) {
+            if (s.CHATBOT === "true" || s.CHATBOT === "audio") {
                 GuruChatBot(
                     Guru,
                     s.CHATBOT,
-                    s.CHATBOT_MODE || a0_0xf5cb(0x18),
+                    s.CHATBOT_MODE || "inbox",
                     createContext,
                     createContext2,
                     googleTTS,
@@ -275,9 +274,9 @@ function setupChatBotAndAntiLink(Guru) {
         for (const message of messages) {
             if (!message?.message) continue;
             const from = message.key?.remoteJid || "";
-            if (message.key.fromMe && !from.endsWith(a0_0xf5cb(0xa))) continue;
+            if (message.key.fromMe && !from.endsWith("@g.us")) continue;
 
-            if (from.endsWith(a0_0xf5cb(0xa))) {
+            if (from.endsWith("@g.us")) {
                 await GuruAntiLink(Guru, message, getGroupMetadata);
                 await GuruAntibad(Guru, message, getGroupMetadata);
                 await GuruAntiBot(Guru, message, getGroupMetadata);
@@ -290,32 +289,32 @@ function setupChatBotAndAntiLink(Guru) {
 }
 
 function setupAntiEdit(Guru) {
-    Guru.ev.on(a0_0xf5cb(0x19), async (updates) => {
+    Guru.ev.on("messages.update", async (updates) => {
         for (const update of updates) {
             try {
                 if (!update?.update?.message) continue;
                 if (update.key?.fromMe) continue;
-                if (update.key?.remoteJid === a0_0xf5cb(0x11)) continue;
+                if (update.key?.remoteJid === "status@broadcast") continue;
                 await GuruAntiEdit(Guru, update, findAntiDelete);
             } catch (err) {
-                console.error(a0_0xf5cb(0x1a), err.message);
+                console.error("Anti-edit handler error:", err.message);
             }
         }
     });
 }
 
 function setupStatusHandlers(Guru) {
-    Guru.ev.on(a0_0xf5cb(0x6), async (mek) => {
+    Guru.ev.on("messages.upsert", async (mek) => {
         try {
             mek = mek.messages[0];
             if (!mek || !mek.message) return;
 
             mek.message =
-                getContentType(mek.message) === a0_0xf5cb(0x1b)
+                getContentType(mek.message) === "ephemeralMessage"
                     ? mek.message.ephemeralMessage.message
                     : mek.message;
 
-            if (mek.key?.remoteJid !== a0_0xf5cb(0x11)) return;
+            if (mek.key?.remoteJid !== "status@broadcast") return;
 
             const s = await getAllSettings();
 
@@ -323,7 +322,7 @@ function setupStatusHandlers(Guru) {
                 mek.participant || mek.key.participantPn || mek.key.participant;
             const participantJid = await resolveRealJid(Guru, rawParticipant);
 
-            const shouldView = s.AUTO_READ_STATUS === a0_0xf5cb(0xd);
+            const shouldView = s.AUTO_READ_STATUS === "true";
 
             const readKey =
                 participantJid && participantJid !== mek.key.participant
@@ -342,12 +341,12 @@ function setupStatusHandlers(Guru) {
 
             if (
                 shouldView &&
-                s.AUTO_LIKE_STATUS === a0_0xf5cb(0xd) &&
+                s.AUTO_LIKE_STATUS === "true" &&
                 participantJid
             ) {
                 const statusEmojis = (
                     s.STATUS_LIKE_EMOJIS ||
-                    a0_0xf5cb(0x1c)
+                    "🥼,🏅,🎖️,🧧,🎐,🏅,🏆,🥇,🥈,🏆"
                 )
                     .split(",")
                     .map((e) => e.trim())
@@ -356,7 +355,7 @@ function setupStatusHandlers(Guru) {
                     statusEmojis[Math.floor(Math.random() * statusEmojis.length)];
                 const reactKey = { ...mek.key, participant: participantJid };
                 await Guru.sendMessage(
-                    a0_0xf5cb(0x11),
+                    "status@broadcast",
                     { react: { text: randomEmoji, key: reactKey } },
                     { statusJidList: [participantJid] },
                 );
@@ -364,7 +363,7 @@ function setupStatusHandlers(Guru) {
 
             if (
                 shouldView &&
-                s.AUTO_REPLY_STATUS === a0_0xf5cb(0xd) &&
+                s.AUTO_REPLY_STATUS === "true" &&
                 !mek.key.fromMe &&
                 participantJid
             ) {
@@ -383,17 +382,17 @@ function setupStatusHandlers(Guru) {
             const msg = error?.message || "";
             const transient =
                 code === 428 ||
-                msg === a0_0xf5cb(0x1d) ||
-                msg.includes(a0_0xf5cb(0x1e)) ||
-                msg.includes(a0_0xf5cb(0x1f)) ||
-                msg.includes(a0_0xf5cb(0x20)) ||
-                msg.includes(a0_0xf5cb(0x21)) ||
-                msg.includes(a0_0xf5cb(0x22)) ||
-                msg.includes(a0_0xf5cb(0x23)) ||
-                String(code) === a0_0xf5cb(0x1e) ||
-                String(code) === a0_0xf5cb(0x21);
+                msg === "Connection Closed" ||
+                msg.includes("ECONNRESET") ||
+                msg.includes("ETIMEDOUT") ||
+                msg.includes("ECONNREFUSED") ||
+                msg.includes("EPIPE") ||
+                msg.includes("Connection Terminated") ||
+                msg.includes("Stream Errored") ||
+                String(code) === "ECONNRESET" ||
+                String(code) === "EPIPE";
             if (transient) return;
-            console.error(a0_0xf5cb(0x24), error);
+            console.error("Error Processing Status Actions:", error);
         }
     });
 }
