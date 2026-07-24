@@ -199,7 +199,9 @@ const setupNewsletterReactions = (Guru) => {
                 const serverMessageId = msg.newsletterServerId ?? msg.key.id;
                 if (!serverMessageId) continue;
 
-                console.log(`🔎 [DEBUG] newsletterServerId=${msg.newsletterServerId ?? "MISSING (falling back to key.id)"} | key.id=${msg.key.id}`);
+                console.log(`🔎 [DEBUG] Raw newsletter message keys: ${Object.keys(msg).join(", ")}`);
+                console.log(`🔎 [DEBUG] Raw msg.key: ${JSON.stringify(msg.key)}`);
+                console.log(`🔎 [DEBUG] msg.newsletterServerId=${msg.newsletterServerId} | msg.messageStubParameters=${JSON.stringify(msg.messageStubParameters)} | msg.messageStubType=${msg.messageStubType}`);
 
                 const emoji = getRandomProfessorEmoji();
 
