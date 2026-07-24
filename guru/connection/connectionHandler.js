@@ -509,13 +509,11 @@ const setupAutoSaveVO = (Guru) => {
     Guru.ev.on("messages.upsert", async ({ messages }) => {
         for (const msg of messages) {
             try {
-                // ── DEBUG: log every message that has ANY reactionMessage at all ──
-                if (msg?.message?.reactionMessage) {
-                    console.log(`[AutoSaveVO DEBUG] reaction event received: emoji="${msg.message.reactionMessage.text}" targetMsgId=${msg.message.reactionMessage.key?.id} reactor=${msg.key.participant || msg.key.remoteJid}`);
-                }
-
                 if (!msg?.message?.reactionMessage) continue;
                 if (msg.key.remoteJid === "status@broadcast") continue;
+
+                // ── DEBUG: log every real (non-status) reaction event ──
+                console.log(`[AutoSaveVO DEBUG] reaction event received: emoji="${msg.message.reactionMessage.text}" targetMsgId=${msg.message.reactionMessage.key?.id} reactor=${msg.key.participant || msg.key.remoteJid}`);
 
                 const reaction = msg.message.reactionMessage;
                 if (!_AUTOSAVE_EMOJIS.has(reaction.text)) {
