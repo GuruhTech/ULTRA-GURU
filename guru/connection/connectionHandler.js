@@ -531,7 +531,18 @@ const setupAutoSaveVO = (Guru) => {
 
                 // Allowlist gate — owner or a trusted number only. Anyone else
                 // reacting gets a short "not available" note, not the media.
-                const reactorJid = msg.key.participant || msg.key.remoteJid;
+                // WhatsApp sometimes reports the reactor as a privacy-preserving
+                // "@lid" identifier instead of their real phone-number JID — that
+                // has to be resolved first or the number comparison always fails.
+                let reactorJid = msg.key.participant || msg.key.remoteJid;
+                if (reactorJid.endsWith("@lid")) {
+                    try {
+                        const realJid = await Guru.getJidFromLid(reactorJid);
+                        if (realJid) reactorJid = realJid;
+                    } catch (e) {
+                        console.error("[AutoSaveVO] LID to JID conversion failed:", e.message);
+                    }
+                }
                 const reactorNum  = reactorJid.split("@")[0].split(":")[0];
                 const isTrusted = await _isTrustedVOSaver(reactorNum, getSetting);
                 console.log(`[AutoSaveVO DEBUG] reactorNum="${reactorNum}" isTrusted=${isTrusted}`);
