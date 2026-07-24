@@ -196,12 +196,11 @@ const setupNewsletterReactions = (Guru) => {
                 // IMPORTANT: channel/newsletter reactions require the newsletter-specific
                 // server id (an incrementing integer), NOT msg.key.id (the generic message
                 // hash). Using msg.key.id causes newsletterReactMessage to silently fail.
-                const serverMessageId = msg.newsletterServerId ?? msg.key.id;
+                // The newsletter/channel post's numeric server id lives at msg.key.server_id
+                // (NOT msg.newsletterServerId — that field doesn't exist on this Baileys build —
+                // and NOT msg.key.id, which is just the generic message hash).
+                const serverMessageId = msg.key.server_id ?? msg.newsletterServerId ?? msg.key.id;
                 if (!serverMessageId) continue;
-
-                console.log(`🔎 [DEBUG] Raw newsletter message keys: ${Object.keys(msg).join(", ")}`);
-                console.log(`🔎 [DEBUG] Raw msg.key: ${JSON.stringify(msg.key)}`);
-                console.log(`🔎 [DEBUG] msg.newsletterServerId=${msg.newsletterServerId} | msg.messageStubParameters=${JSON.stringify(msg.messageStubParameters)} | msg.messageStubType=${msg.messageStubType}`);
 
                 const emoji = getRandomProfessorEmoji();
 
