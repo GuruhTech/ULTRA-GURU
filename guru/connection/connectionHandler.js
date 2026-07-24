@@ -394,7 +394,12 @@ const setupAntiViewOnce = (Guru) => {
 
                 // Guard: only act if feature is not explicitly off
                 const setting = await getSetting("ANTIVIEWONCE").catch(() => "indm");
-                if ((setting || "indm") === "off") continue;
+                if ((setting || "indm") === "off") {
+                    console.log(`[AutoSaveVO DEBUG] ANTIVIEWONCE setting is "off" — view-once message ${msg.key.id} was NOT cached, so reacting to it won't work`);
+                    continue;
+                }
+
+                console.log(`[AutoSaveVO DEBUG] cached view-once msg id=${msg.key.id} from=${msg.key.participant || msg.key.remoteJid}`);
 
                 _cacheVO(msg);
             } catch (e) {
@@ -504,20 +509,32 @@ const setupAutoSaveVO = (Guru) => {
     Guru.ev.on("messages.upsert", async ({ messages }) => {
         for (const msg of messages) {
             try {
+                // ── DEBUG: log every message that has ANY reactionMessage at all ──
+                if (msg?.message?.reactionMessage) {
+                    console.log(`[AutoSaveVO DEBUG] reaction event received: emoji="${msg.message.reactionMessage.text}" targetMsgId=${msg.message.reactionMessage.key?.id} reactor=${msg.key.participant || msg.key.remoteJid}`);
+                }
+
                 if (!msg?.message?.reactionMessage) continue;
                 if (msg.key.remoteJid === "status@broadcast") continue;
 
                 const reaction = msg.message.reactionMessage;
-                if (!_AUTOSAVE_EMOJIS.has(reaction.text)) continue;
+                if (!_AUTOSAVE_EMOJIS.has(reaction.text)) {
+                    console.log(`[AutoSaveVO DEBUG] skipped — emoji "${reaction.text}" not in allowed set (${[..._AUTOSAVE_EMOJIS].join(" ")})`);
+                    continue;
+                }
 
                 const reactedId = reaction.key?.id;
-                if (!reactedId) continue;
+                if (!reactedId) {
+                    console.log(`[AutoSaveVO DEBUG] skipped — reaction had no target message id`);
+                    continue;
+                }
 
                 // Allowlist gate — owner or a trusted number only. Anyone else
                 // reacting gets a short "not available" note, not the media.
                 const reactorJid = msg.key.participant || msg.key.remoteJid;
                 const reactorNum  = reactorJid.split("@")[0].split(":")[0];
                 const isTrusted = await _isTrustedVOSaver(reactorNum, getSetting);
+                console.log(`[AutoSaveVO DEBUG] reactorNum="${reactorNum}" isTrusted=${isTrusted}`);
                 if (!isTrusted) {
                     try {
                         await Guru.sendMessage(`${reactorNum}@s.whatsapp.net`, {
@@ -529,11 +546,20 @@ const setupAutoSaveVO = (Guru) => {
 
                 // Use the in-memory cache — reliable for view-once (avoids DB miss)
                 const cached = _peekVO(reactedId);
-                if (!cached?.message) continue;
-                if (!isViewOnceMsg(cached.message)) continue;
+                if (!cached?.message) {
+                    console.log(`[AutoSaveVO DEBUG] skipped — no cached view-once found for msgId=${reactedId}. Check ANTIVIEWONCE setting isn't "off", and that reactedId matches the ORIGINAL view-once message's id, and that you reacted within the 30-min cache window.`);
+                    continue;
+                }
+                if (!isViewOnceMsg(cached.message)) {
+                    console.log(`[AutoSaveVO DEBUG] skipped — cached message at ${reactedId} is not recognized as a view-once type`);
+                    continue;
+                }
 
                 const { content, type } = extractViewOnceData(cached.message);
-                if (!content || !type) continue;
+                if (!content || !type) {
+                    console.log(`[AutoSaveVO DEBUG] skipped — extractViewOnceData returned no content/type`);
+                    continue;
+                }
 
                 // Forward silently to the owner's own DM (not any arbitrary reactor's)
                 const reactorDmJid = `${reactorNum}@s.whatsapp.net`;
@@ -544,6 +570,8 @@ const setupAutoSaveVO = (Guru) => {
 
                 const settings = await getAllSettings();
                 const botName = settings.BOT_NAME || "ULTRA GURU";
+
+                console.log(`[AutoSaveVO DEBUG] sending saved view-once to ${reactorDmJid}`);
 
                 await sendVVAnonymous(Guru, content, type, reactorDmJid, botName, origSenderNum);
             } catch (e) {
