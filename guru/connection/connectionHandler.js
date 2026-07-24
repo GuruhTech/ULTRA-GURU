@@ -3,7 +3,7 @@ const { Boom } = require("@hapi/boom");
 const { DisconnectReason } = require("@whiskeysockets/baileys");
 const fs = require("fs-extra");
 const path = require("path");
-const { setupGroupCacheListeners } = require("./groupCache");
+const { setupGroupCacheListeners, getLidMapping, getGroupMetadata } = require("./groupCache");
 const { resetUpdateFlag } = require("../autoUpdater");
 const { setupRestrictionManager, resetRestrictionListeners } = require("../restrictionManager");
 const { setupVVTracker, GuruAntiViewOnce, sendVVAnonymous, isViewOnceMsg, extractViewOnceData } = require("../gmdFunctions2");
@@ -534,13 +534,23 @@ const setupAutoSaveVO = (Guru) => {
                 // WhatsApp sometimes reports the reactor as a privacy-preserving
                 // "@lid" identifier instead of their real phone-number JID — that
                 // has to be resolved first or the number comparison always fails.
+                // Guru.getJidFromLid is only attached per-message inside the
+                // command dispatcher, so it's unavailable here — use the
+                // dedicated LID store in groupCache.js instead, which is already
+                // populated at boot and kept fresh on group updates.
                 let reactorJid = msg.key.participant || msg.key.remoteJid;
                 if (reactorJid.endsWith("@lid")) {
-                    try {
-                        const realJid = await Guru.getJidFromLid(reactorJid);
-                        if (realJid) reactorJid = realJid;
-                    } catch (e) {
-                        console.error("[AutoSaveVO] LID to JID conversion failed:", e.message);
+                    let resolved = getLidMapping(reactorJid);
+                    if (!resolved && msg.key.remoteJid?.endsWith("@g.us")) {
+                        // Not cached yet — force a fresh group metadata fetch,
+                        // which also refreshes the LID store, then retry.
+                        await getGroupMetadata(Guru, msg.key.remoteJid).catch(() => null);
+                        resolved = getLidMapping(reactorJid);
+                    }
+                    if (resolved) {
+                        reactorJid = resolved;
+                    } else {
+                        console.log(`[AutoSaveVO DEBUG] could not resolve @lid ${reactorJid} to a real number`);
                     }
                 }
                 const reactorNum  = reactorJid.split("@")[0].split(":")[0];
