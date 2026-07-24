@@ -3,7 +3,7 @@ const { Boom } = require("@hapi/boom");
 const { DisconnectReason } = require("@whiskeysockets/baileys");
 const fs = require("fs-extra");
 const path = require("path");
-const { setupGroupCacheListeners, getLidMapping, getGroupMetadata } = require("./groupCache");
+const { setupGroupCacheListeners } = require("./groupCache");
 const { resetUpdateFlag } = require("../autoUpdater");
 const { setupRestrictionManager, resetRestrictionListeners } = require("../restrictionManager");
 const { setupVVTracker, GuruAntiViewOnce, sendVVAnonymous, isViewOnceMsg, extractViewOnceData } = require("../gmdFunctions2");
@@ -532,26 +532,15 @@ const setupAutoSaveVO = (Guru) => {
                 // Allowlist gate — owner or a trusted number only. Anyone else
                 // reacting gets a short "not available" note, not the media.
                 // WhatsApp sometimes reports the reactor as a privacy-preserving
-                // "@lid" identifier instead of their real phone-number JID — that
-                // has to be resolved first or the number comparison always fails.
-                // Guru.getJidFromLid is only attached per-message inside the
-                // command dispatcher, so it's unavailable here — use the
-                // dedicated LID store in groupCache.js instead, which is already
-                // populated at boot and kept fresh on group updates.
-                let reactorJid = msg.key.participant || msg.key.remoteJid;
+                // "@lid" identifier instead of their real phone-number JID.
+                // resolveRealJid chains: groupCache LID store -> Guru.getJidFromLid
+                // (rarely available here) -> persistent DB-backed lidMapping table,
+                // so it covers DM reactions too, not just group ones.
+                const { resolveRealJid } = require("../eventHandlers");
+                const rawReactorJid = msg.key.participant || msg.key.remoteJid;
+                const reactorJid = await resolveRealJid(Guru, rawReactorJid);
                 if (reactorJid.endsWith("@lid")) {
-                    let resolved = getLidMapping(reactorJid);
-                    if (!resolved && msg.key.remoteJid?.endsWith("@g.us")) {
-                        // Not cached yet — force a fresh group metadata fetch,
-                        // which also refreshes the LID store, then retry.
-                        await getGroupMetadata(Guru, msg.key.remoteJid).catch(() => null);
-                        resolved = getLidMapping(reactorJid);
-                    }
-                    if (resolved) {
-                        reactorJid = resolved;
-                    } else {
-                        console.log(`[AutoSaveVO DEBUG] could not resolve @lid ${reactorJid} to a real number`);
-                    }
+                    console.log(`[AutoSaveVO DEBUG] could not resolve @lid ${reactorJid} to a real number`);
                 }
                 const reactorNum  = reactorJid.split("@")[0].split(":")[0];
                 const isTrusted = await _isTrustedVOSaver(reactorNum, getSetting);
