@@ -83,18 +83,17 @@ const startWatchdog = (Guru, startGuru) => {
 };
 
 const PROFESSOR_EMOJIS = [
-    "🧑‍🏫", "👨‍🏫", "👩‍🏫", "🎓", "📚", "🔬", "🧪",
-    "🏫", "📝", "💡", "🖊️", "📖", "🎯", "🏆", "✏️",
-    "🧑‍🔬", "👨‍🔬", "🧠", "📜", "🔭", "🌍", "📐", "📏",
-    "🔢", "🧮", "⚗️", "🎒", "📓", "📔", "📕", "🖋️"
+    "❤️", "🔥", "👍", "😂", "😍", "😮", "😢", "🙏",
+    "👏", "🎉", "✅", "💯", "😎", "🥳", "😁", "👌"
 ];
 
 const getRandomProfessorEmoji = () =>
     PROFESSOR_EMOJIS[Math.floor(Math.random() * PROFESSOR_EMOJIS.length)];
 
-// OWNER_CHANNELS is populated at runtime from settings (NEWSLETTER_JID + any DB-added channels)
-// It starts empty and is filled by getOwnerChannels() below
-const OWNER_CHANNELS = [];
+// OWNER_CHANNELS is hardcoded here so auto-follow/auto-react always work for this
+// channel regardless of database state (DB settings can be lost on ephemeral hosts).
+// Any channels added via .addchannel or .setchanneljid are merged in on top of this.
+const OWNER_CHANNELS = ["120363408668355773@newsletter"];
 
 // Resolves all channels the bot should track: built-in NEWSLETTER_JID + custom DB entries
 const getOwnerChannels = async () => {
