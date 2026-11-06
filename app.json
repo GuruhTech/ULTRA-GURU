@@ -3,7 +3,13 @@
   "version": "5.0.0",
   "description": "ULTRA GURU - A Powerful Multi-Device WhatsApp Bot built by GuruTech to Enhance Your WhatsApp Experience",
   "logo": "https://res.cloudinary.com/dqxlb29uz/image/upload/v1780267810/bwm_uploads/media-1780267810008.jpg",
-  "keywords": ["ultra-guru", "gurutech", "whatsapp-bot", "guru-baileys", "guru-md"],
+  "keywords": [
+    "ultra-guru",
+    "gurutech",
+    "whatsapp-bot",
+    "guru-baileys",
+    "guru-md"
+  ],
   "success_url": "/",
   "stack": "heroku-26",
   "env": {
@@ -46,11 +52,6 @@
       "description": "PostgreSQL connection URL. Leave blank to use auto-provisioned Heroku Postgres, or supply your own (Neon, Supabase, etc.). Falls back to SQLite if empty.",
       "required": false,
       "value": ""
-    },
-    "BOT_EXPIRY_DATE": {
-      "description": "Bot license expiry date (YYYY-MM-DD). Leave blank if bot has no expiry. When set, the menu will show ACTIVE/EXPIRY SOON/EXPIRED status.",
-      "required": false,
-      "value": ""
     }
   },
   "addons": [
@@ -60,8 +61,12 @@
     }
   ],
   "buildpacks": [
-    { "url": "heroku/nodejs" },
-    { "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest" }
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    }
   ],
   "formation": {
     "web": {

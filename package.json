@@ -1,5 +1,5 @@
 {
-  "name": "@guruhtech/ultra-guru-md",
+  "name": "ultra-guru-md",
   "version": "5.0.0",
   "description": "GURUTECH 😎 - Ultimate WhatsApp Bot by GuruTech",
   "main": "./index.js",
@@ -56,8 +56,5 @@
   "bugs": {
     "url": "https://github.com/GuruhTech/ULTRA-GURU/issues"
   },
-  "homepage": "https://github.com/GuruhTech/ULTRA-GURU#readme",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  }
+  "homepage": "https://github.com/GuruhTech/ULTRA-GURU#readme"
 }
