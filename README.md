@@ -30,7 +30,7 @@ Choose your preferred method:
 
 # 🚀 DEPLOYMENT
 
-[![DEPLOY ULTRA NOW](https://img.shields.io/badge/DEPLOY%20ULTRA%20NOW-00b8ff?style=for-the-badge&logo=rocket&logoColor=white)]([https://repo-verification.gurutech.top](https://fork.gurutech.top))
+[![DEPLOY ULTRA NOW](https://img.shields.io/badge/DEPLOY%20ULTRA%20NOW-00b8ff?style=for-the-badge&logo=rocket&logoColor=white)](https://fork.gurutech.top)
 
 ### ⚡ One-click deployment
 
