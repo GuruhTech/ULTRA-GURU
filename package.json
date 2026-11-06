@@ -47,7 +47,8 @@
     "sequelize": "^6.37.8",
     "sharp": "^0.33.5",
     "sqlite3": "^5.1.7",
-    "wa-sticker-formatter": "^4.4.4"
+    "wa-sticker-formatter": "^4.4.4",
+    "yt-search": "^2.13.1"
   },
   "repository": {
     "type": "git",
