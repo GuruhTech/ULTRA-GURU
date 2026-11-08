@@ -1,55 +1,20 @@
 {
   "name": "ultra-guru-md",
-  "version": "5.0.0",
-  "description": "GURUTECH 😎 - Ultimate WhatsApp Bot by GuruTech",
-  "main": "./index.js",
-  "type": "commonjs",
-  "engines": {
-    "node": "22.x",
-    "npm": "11.x"
-  },
+  "version": "3.0.0",
+  "description": "ULTRA GURU WhatsApp Multi-Device Bot",
+  "main": "Guru Tech/index.js",
+  "type": "module",
   "scripts": {
-    "start": "node guru/boot.js",
-    "dev": "node guru/boot.js",
-    "heroku-prebuild": "npm install --legacy-peer-deps --no-audit --no-fund --no-package-lock"
+    "start": "node \"Guru Tech/sharp-fix.js\" && node --loader \"./Guru Tech/preload.js\" \"Guru Tech/index.js\"",
+    "dev": "node \"Guru Tech/index.js\"",
+    "postinstall": "PUPPETEER_SKIP_DOWNLOAD=true npm rebuild sharp --force"
   },
-  "keywords": [
-    "gurutech",
-    "whatsapp-bot",
-    "guru-tech",
-    "guruh",
-    "whatsapp-md-bot",
-    "ultra-guru"
-  ],
-  "author": "GURUTECH 😎",
+  "engines": {
+    "node": ">=20.x <=24.x",
+    "npm": ">=9.x"
+  },
+  "author": "GURUTECH",
   "license": "MIT",
-  "dependencies": {
-    "@hapi/boom": "^10.0.1",
-    "@whiskeysockets/baileys": "^7.0.0-rc14",
-    "adm-zip": "^0.5.18",
-    "axios": "^1.15.2",
-    "better-sqlite3": "^12.9.0",
-    "dotenv": "^17.4.2",
-    "express": "^4.22.1",
-    "file-type": "^16.5.4",
-    "fluent-ffmpeg": "^2.1.3",
-    "form-data": "^4.0.5",
-    "fs-extra": "^11.3.4",
-    "gifted-btns": "^1.0.2",
-    "gifted-dls": "^1.3.5",
-    "google-tts-api": "^2.0.2",
-    "jimp": "^1.6.1",
-    "moment-timezone": "^0.5.48",
-    "node-cache": "^5.1.2",
-    "pdfkit": "^0.19.1",
-    "pg": "^8.20.0",
-    "pino": "^7.0.5",
-    "sequelize": "^6.37.8",
-    "sharp": "^0.33.5",
-    "sqlite3": "^5.1.7",
-    "wa-sticker-formatter": "^4.4.4",
-    "yt-search": "^2.13.1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GuruhTech/ULTRA-GURU.git"
@@ -57,5 +22,54 @@
   "bugs": {
     "url": "https://github.com/GuruhTech/ULTRA-GURU/issues"
   },
-  "homepage": "https://github.com/GuruhTech/ULTRA-GURU#readme"
+  "homepage": "https://github.com/GuruhTech/ULTRA-GURU#readme",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "git+https://lyfe00011-admin@bitbucket.org/lyfe00011/baileys.git",
+    "@xaviabot/fb-downloader": "^1.0.14",
+    "adm-zip": "0.5.16",
+    "aptoide_scrapper_fixed": "1.0.2",
+    "archiver": "^8.0.0",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "file-type": "21.0.0",
+    "form-data": "^4.0.5",
+    "fs-extra": "^11.1.1",
+    "g-i-s": "^2.1.7",
+    "heroku-client": "^3.1.1",
+    "mime-types": "^3.0.2",
+    "moment-timezone": "^0.5.43",
+    "mumaker": "^2.0.0",
+    "nayan-api-servers": "^2.4.8",
+    "nayan-media-downloaders": "^0.1.8",
+    "node-catbox": "4.2.0",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "performance-now": "^2.1.0",
+    "pino": "^8.15.1",
+    "qs": "^6.11.6",
+    "ruhend-scraper": "9.0.8",
+    "simple-xml-to-json": "1.0.0",
+    "translatte": "^3.0.1",
+    "wa-sticker-formatter": "^4.4.4",
+    "ws": "^8.18.0",
+    "yt-search": "^2.10.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "optionalDependencies": {
+    "acrcloud": "^1.4.0",
+    "ffmpeg-static": "5.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "jimp": "^1.6.0",
+    "puppeteer": "^23.1.1",
+    "sharp": "^0.33.5",
+    "youtube-dl-exec": "3.1.19"
+  },
+  "overrides": {
+    "sharp": "^0.33.5"
+  }
 }

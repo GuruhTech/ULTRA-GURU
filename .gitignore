@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+!.env-sample
+auth/
+auth_info_baileys/
+sudo.json
+*.log
+logs/
+.tmp/
+**/auth/
+**/auth_info_baileys/
+data/
+temp/
+tmp/
