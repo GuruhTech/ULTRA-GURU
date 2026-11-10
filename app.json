@@ -127,6 +127,10 @@
       "description": "GitHub owner/repository to deploy from main when the owner runs .update",
       "value": "GuruhTech/ULTRA-GURU",
       "required": false
+    },
+    "KNIGHTBOT_API_KEY": {
+      "description": "Optional KnightBotAPI key; leave unset to use the documented shared demo key",
+      "required": false
     }
   },
   "formation": {
