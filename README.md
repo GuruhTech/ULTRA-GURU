@@ -53,12 +53,6 @@ npm install
 npm start
 ```
 
-## KnightBotAPI
-
-KnightBotAPI is used as the first YouTube audio provider for `.play`, and as a primary provider with the existing command providers retained as fallbacks for supported social downloads. Use `.download <public URL> [mp3|mp4]` for universal downloads, `.kapi <route> <key=value ...>` to call an allowlisted route, and `.imgfx <effect> <public image URL>` for image effects. Run `.kapi` without arguments for examples.
-
-Set the optional `KNIGHTBOT_API_KEY` environment variable to use your own KnightBotAPI key. If it is unset, the client uses the documented shared demo key. KnightBotAPI availability and its provider links remain subject to that external service. Existing local sticker, audio, and video conversion commands continue to use the bot's local conversion path and do not depend on this API.
-
 ---
 
 # 🌐 CONNECT WITH US
