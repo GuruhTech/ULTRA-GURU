@@ -1,0 +1,59 @@
+{
+  "name": "ultra-guru-md",
+  "version": "2.0.0",
+  "description": "ULTRA GURU WhatsApp multi-device bot based on Baileys.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "node patch-baileys.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "1.1.0",
+    "@hapi/boom": "^10.0.1",
+    "@napi-rs/canvas": "^0.1.70",
+    "@vitalets/google-translate-api": "^9.2.0",
+    "@whiskeysockets/baileys": "github:xhclintohn/Baileys#test",
+    "acrcloud": "^1.2.0",
+    "adm-zip": "^0.5.16",
+    "awesome-phonenumber": "^6.2.0",
+    "axios": "1.21.0",
+    "chalk": "^4.1.2",
+    "compile-run": "2.3.4",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "file-type": "^16.5.4",
+    "form-data": "4.0.6",
+    "google-tts-api": "^2.0.2",
+    "https-proxy-agent": "^7.0.6",
+    "human-readable": "^0.2.1",
+    "javascript-obfuscator": "5.9.0",
+    "jimp": "1.6.1",
+    "jimp-legacy": "npm:jimp@0.16.3",
+    "jszip": "^3.10.1",
+    "luxon": "^3.6.0",
+    "moment-timezone": "^0.5.48",
+    "node-fetch": "^2.7.0",
+    "node-webpmux": "^3.1.7",
+    "performance-now": "^2.1.0",
+    "pg": "^8.16.0",
+    "pino": "^9.0.0",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.34.0",
+    "wa-sticker-formatter": "^4.4.4",
+    "wikipedia": "^2.1.2",
+    "yt-dlp-wrap": "^2.3.12",
+    "yt-search": "^2.10.4"
+  },
+  "optionalDependencies": {
+    "@ffmpeg-installer/linux-x64": "4.1.0",
+    "@napi-rs/canvas-linux-x64-gnu": "0.1.100",
+    "bufferutil": "^4.0.8",
+    "canvacord": "^5.4.10",
+    "canvas": "^2.11.2"
+  }
+}

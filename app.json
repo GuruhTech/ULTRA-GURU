@@ -1,148 +1,48 @@
 {
-  "name": "ULTRA-GURU-MD",
-  "description": "ULTRA GURU WhatsApp Multi-Device Bot",
-  "repository": "https://github.com/GuruhTech/ULTRA-GURU",
-  "keywords": [
-    "whatsapp",
-    "baileys",
-    "bot",
-    "ultra-guru"
-  ],
+  "name": "ULTRA GURU",
+  "description": "ULTRA GURU WhatsApp multi-device bot",
+  "website": "https://github.com/GuruhTech/ULTRA-GURU",
+  "repository": "https://github.com/GuruhTech/ULTRA-GURU.git",
+  "logo": "https://res.cloudinary.com/dqxlb29uz/image/upload/v1780267810/bwm_uploads/media-1780267810008.jpg",
+  "keywords": ["whatsapp-bot", "baileys", "nodejs", "ultra-guru"],
   "env": {
-    "MODE": {
-      "description": "Bot mode (private or public)",
-      "value": "private",
-      "required": false
-    },
-    "PREFIXES": {
-      "description": "Command prefixes (comma separated)",
-      "value": ".",
-      "required": false
+    "SESSION_ID": {
+      "description": "Required WhatsApp session string. Supports the current GURU~ format and compatible older formats.",
+      "required": true
     },
     "OWNER_NUMBER": {
-      "description": "Owner phone number, digits only; leave blank to use the linked bot account",
-      "value": "",
+      "description": "Required owner WhatsApp number in international format.",
+      "required": true
+    },
+    "BOT_MODE": {
+      "description": "Default bot access mode when no saved setting exists: public, private, group, or inbox.",
+      "value": "public",
       "required": false
     },
-    "OWNER_NAME": {
-      "description": "Owner display name",
-      "value": "GuruTech",
-      "required": false
-    },
-    "BOT_NAME": {
-      "description": "Bot display name",
-      "value": "ULTRA GURU",
-      "required": false
-    },
-    "BOT_PIC": {
-      "description": "Bot image URL",
-      "value": "https://res.cloudinary.com/dqxlb29uz/image/upload/v1780267810/bwm_uploads/media-1780267810008.jpg",
-      "required": false
-    },
-    "CHANNEL_JID": {
-      "description": "WhatsApp channel JID used in forwarded message metadata",
-      "value": "120363431857319034@newsletter",
-      "required": false
-    },
-    "CHANNEL_URL": {
-      "description": "WhatsApp channel link",
-      "value": "https://whatsapp.com/channel/0029VbDh88NCMY0Fartkxm1g",
-      "required": false
-    },
-    "SESSION": {
-      "description": "Base64-encoded creds.json session (optional if SESSION_ID is set)",
-      "required": false
-    },
-    "SESSION_ID": {
-      "description": "GURU~gzip-base64 session or plain base64-encoded creds.json; both formats are accepted",
-      "required": false
-    },
-    "USER_LID": {
-      "description": "Optional comma-separated owner WhatsApp LIDs",
-      "required": false
-    },
-    "TZ": {
-      "description": "Timezone; TIME_ZONE is also supported for the existing deployment",
-      "value": "Africa/Nairobi",
-      "required": false
-    },
-    "TIME_ZONE": {
-      "description": "Legacy timezone setting retained for existing deployments",
-      "value": "Africa/Nairobi",
-      "required": false
-    },
-    "ANTICALL": {
-      "description": "Auto reject calls (on/off)",
+    "DEFAULT_ANTILINK_MODE": {
+      "description": "Default group anti-link mode: off, delete, warn, or kick.",
       "value": "off",
       "required": false
     },
-    "ANTIDELETE": {
-      "description": "Detect deleted messages (on/off)",
-      "value": "on",
-      "required": false
-    },
-    "ANTIEDIT": {
-      "description": "Detect edited messages (on/off)",
-      "value": "on",
-      "required": false
-    },
-    "AUTO_READ": {
-      "description": "Auto read incoming messages (on/off)",
+    "DEFAULT_ANTIBOT_MODE": {
+      "description": "Default group anti-bot mode: off, warn, or remove.",
       "value": "off",
       "required": false
     },
-    "AUTO_VIEW": {
-      "description": "Auto view status updates (on/off); AUTO_READ_STATUS is also supported",
-      "value": "on",
+    "DEFAULT_ANTIPROMO_MODE": {
+      "description": "Default group anti-promotion mode: off, delete, warn, or kick.",
+      "value": "off",
       "required": false
     },
-    "AUTO_LIKE": {
-      "description": "Auto react to status updates (on/off); AUTO_LIKE_STATUS is also supported",
-      "value": "on",
+    "ADMIN_NOTICE_ENABLED": {
+      "description": "Post a 'make me admin' notice when group security cannot act. Disabled by default; when enabled it is rate limited to one notice per chat per cooldown.",
+      "value": "false",
       "required": false
     },
-    "DM_PRESENCE": {
-      "description": "Presence type for private chats (typing/recording/online)",
-      "value": "typing",
-      "required": false
-    },
-    "GRP_PRESENCE": {
-      "description": "Presence type for groups (typing/recording/online)",
-      "value": "recording",
-      "required": false
-    },
-    "MENU_IMAGES": {
-      "description": "Optional comma-separated menu image URLs; retained for deployment compatibility",
-      "required": false
-    },
-    "HEROKU_API_KEY": {
-      "description": "Private Heroku Platform API token required for the owner-only .update command; never commit or share this value",
-      "required": false
-    },
-    "HEROKU_APP_NAME": {
-      "description": "Heroku app name that the owner-only .update command is allowed to build and release",
-      "required": false
-    },
-    "UPDATE_REPOSITORY": {
-      "description": "GitHub owner/repository to deploy from main when the owner runs .update",
-      "value": "GuruhTech/ULTRA-GURU",
-      "required": false
-    },
-    "KNIGHTBOT_API_KEY": {
-      "description": "Optional KnightBotAPI key; leave unset to use the documented shared demo key",
+    "ADMIN_NOTICE_COOLDOWN_MS": {
+      "description": "Minimum gap in milliseconds between two 'make me admin' notices in the same chat. Defaults to 21600000 (6 hours).",
+      "value": "21600000",
       "required": false
     }
-  },
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "basic"
-    }
-  },
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    }
-  ],
-  "stack": "heroku-24"
+  }
 }

@@ -1,0 +1,34 @@
+{
+  "name": "ULTRA-GURU-MD",
+  "description": "ULTRA GURU WhatsApp Multi-Device Bot",
+  "repository": "https://github.com/GuruhTech/ULTRA-GURU",
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "bot",
+    "ultra-guru"
+  ],
+  "env": {
+    "SESSION_ID": {
+      "description": "WhatsApp linked-device session ID (GURU~gzip-base64 or legacy base64 credentials). Required to connect the bot.",
+      "required": true
+    },
+    "OWNER_NUMBER": {
+      "description": "Owner phone number in digits only. Leave blank to use the linked bot account as owner.",
+      "value": "",
+      "required": false
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "stack": "heroku-24"
+}

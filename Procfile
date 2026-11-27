@@ -1,1 +1,1 @@
-web: node "Guru Tech/index.js"
+web: npm start
